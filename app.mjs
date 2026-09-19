@@ -1,13 +1,20 @@
 import {
-  localDayStart, localHour, localDateString, parseLocalDate, normalizeHistory,
-  formatDate, formatClock, formatDuration, streamEnd,
+  TZ_OFFSET_MIN, localDayStart, localWeekday, localDateString, parseLocalDate, normalizeHistory,
+  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd,
 } from './lib/core.mjs';
 
 const HOUR = 3600_000;
 const DAY = 24 * HOUR;
 const DEFAULT_DAYS = 7;
 const MAX_DAYS = 92;
-const MAX_AXIS_LABELS = 10;
+// 横軸ラベルの出し分け（1日ぶんの幅 px に応じて決める）
+const FULL_DATE_PX = 84; // 「9/14（月）」が収まる
+const DATE_WEEKDAY_PX = 56; // 「9/14 月」が収まる
+const MIN_DAY_LABEL_PX = 36; // これより狭いと日付ラベルを間引く
+const MIN_HOUR_LABEL_PX = 18; // 時刻ラベルどうしの最小間隔
+const HOUR_STEPS = [1, 2, 3, 6, 12];
+const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ、週ごとに色分けする
+const FALLBACK_TRACK_PX = 600;
 const RELOAD_MS = 5 * 60_000;
 const DETAIL_HINT = 'バーを選ぶと、その配信の詳細がここに出ます。';
 
@@ -87,28 +94,18 @@ function render() {
   renderBoard(now);
 }
 
-/** 目盛りの位置（ミリ秒）と間隔。3日までは時間単位、それより長ければ日単位 */
-function axisTicks() {
-  const step = view.days === 1 ? 3 * HOUR : view.days <= 3 ? 6 * HOUR : Math.ceil(view.days / MAX_AXIS_LABELS) * DAY;
-  const ticks = [];
-  for (let t = view.start; t < viewEnd(); t += step) ticks.push(t);
-  return { ticks, step };
-}
-
 function renderBoard(now) {
   const from = view.start;
   const to = viewEnd();
   const span = to - from;
   const pos = (ms) => `${((ms - from) / span) * 100}%`;
-  const { ticks, step } = axisTicks();
-
-  const axis = el('div', { className: 'track axis' }, ticks.map((t) =>
-    el('span', {
-      className: localHour(t) === 0 ? 'day' : '',
-      textContent: step < DAY && localHour(t) !== 0 ? `${localHour(t)}時` : formatDate(t),
-      style: `left:${pos(t)}`,
-    })));
-  const rows = [el('div', { className: 'row head' }, [el('span', { className: 'who' }), axis, el('span', { className: 'total', textContent: '合計' })])];
+  // 横軸と日ごとの帯は幅に応じて描き分けるので、renderScale() であとから埋める
+  const head = el('div', { className: 'row head' }, [
+    el('span'),
+    el('div', { className: 'scale' }, [el('div', { className: 'days' }), el('div', { className: 'hours' })]),
+    el('span', { className: 'total', textContent: '合計' }),
+  ]);
+  const rows = [el('div', { className: 'row bands', ariaHidden: 'true' }, [el('span'), el('div', { className: 'track' }), el('span')])];
 
   for (const { channel, streams } of channels) {
     const name = channelName(channel);
@@ -141,10 +138,12 @@ function renderBoard(now) {
       ? el('span', { className: 'who' })
       : el('a', { className: 'who', href: `https://www.twitch.tv/${channel.login}`, rel: 'noopener' });
     if (liveStream(streams)) who.classList.add('live');
-    if (channel.profile_image_url) {
-      who.append(el('img', { src: channel.profile_image_url, alt: '', width: 24, height: 24 }));
-    }
-    who.append(el('span', { textContent: name }));
+    who.title = name;
+    // 狭い画面では名前を隠してアイコンだけにするので、画像がなければ頭文字で代用する
+    who.append(channel.profile_image_url
+      ? el('img', { src: channel.profile_image_url, alt: '', width: 24, height: 24 })
+      : el('span', { className: 'initial', ariaHidden: 'true', textContent: [...name][0] }));
+    who.append(el('span', { className: 'name', textContent: name }));
 
     rows.push(el('div', { className: 'row' }, [
       who,
@@ -153,10 +152,65 @@ function renderBoard(now) {
     ]));
   }
 
-  const board = $('#board');
-  board.style.setProperty('--step', step / span);
-  board.replaceChildren(...rows);
+  $('#board').replaceChildren(head, el('div', { className: 'body' }, rows));
+  renderScale();
   $('#detail').textContent = DETAIL_HINT;
+}
+
+/** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */
+function renderScale() {
+  const scale = $('#board .scale');
+  if (!scale) return;
+  const width = scale.getBoundingClientRect().width || FALLBACK_TRACK_PX;
+  const dayPx = width / view.days;
+  const hourStep = HOUR_STEPS.find((h) => (dayPx / 24) * h >= MIN_HOUR_LABEL_PX);
+  const dayStep = Math.ceil(MIN_DAY_LABEL_PX / dayPx) || 1;
+  const narrow = dayPx < NARROW_DAY_PX;
+  const today = localDayStart(Date.now());
+
+  const dayCells = [];
+  const hourLabels = [];
+  const bands = [];
+  let lastMonth = null;
+  for (let i = 0; i < view.days; i++) {
+    const day = view.start + i * DAY;
+    const wd = localWeekday(day);
+    const cell = el('span', { className: `day wd${wd}${day === today ? ' today' : ''}` });
+    // 右端で見切れるラベルは出さない
+    if (i % dayStep === 0 && (view.days - i) * dayPx >= MIN_DAY_LABEL_PX) {
+      const [, month, date] = localDateString(day).split('-').map(Number);
+      // 月は最初のラベルと、月が変わったところにだけ付ける
+      const short = `${month === lastMonth ? '' : `${month}/`}${date}`;
+      lastMonth = month;
+      // 幅があれば1行で、狭ければ曜日を下の行に回し、間引くほど狭ければ日付だけにする
+      if (dayPx >= FULL_DATE_PX) cell.textContent = formatDate(day);
+      else if (dayPx >= DATE_WEEKDAY_PX) cell.textContent = `${short} ${weekdayLabel(wd)}`;
+      else if (dayStep === 1) cell.append(short, el('span', { className: 'wd', textContent: weekdayLabel(wd) }));
+      else cell.textContent = short;
+      cell.classList.add('labeled');
+    }
+    dayCells.push(cell);
+
+    if (hourStep) {
+      for (let h = hourStep; h < 24; h += hourStep) {
+        hourLabels.push(el('span', { textContent: h, style: `left:${((i + h / 24) / view.days) * 100}%` }));
+      }
+    }
+
+    // 色の交互は通算の日（狭いときは月曜始まりの週）で決め、範囲を動かしても同じ日は同じ色にする
+    const dayIndex = Math.floor((day + TZ_OFFSET_MIN * 60_000) / DAY);
+    const alt = (narrow ? Math.floor((dayIndex + 3) / 7) : dayIndex) % 2 === 1;
+    bands.push(el('span', { className: `band${alt ? ' alt' : ''}` }));
+  }
+
+  const days = scale.querySelector('.days');
+  days.classList.toggle('sparse', dayStep > 1);
+  days.replaceChildren(...dayCells);
+  scale.querySelector('.hours').replaceChildren(...hourLabels);
+  const bandTrack = $('#board .bands .track');
+  bandTrack.classList.toggle('narrow', narrow);
+  bandTrack.style.setProperty('--hour-frac', hourStep ? hourStep / 24 : 1);
+  bandTrack.replaceChildren(...bands);
 }
 
 function showDetail(name, label) {
@@ -185,6 +239,14 @@ for (const input of [$('#from'), $('#to')]) {
     update();
   });
 }
+
+// 幅が変わったら横軸の細かさを決め直す
+let scaleWidth = 0;
+new ResizeObserver(([entry]) => {
+  if (entry.contentRect.width === scaleWidth) return;
+  scaleWidth = entry.contentRect.width;
+  renderScale();
+}).observe($('#board'));
 
 readUrl();
 load();
