@@ -1,0 +1,94 @@
+name: collect
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# data ブランチへの push が競合しないよう、同時に1本だけ走らせる
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      deploy: ${{ steps.decide.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: テスト
+        if: github.event_name != 'schedule'
+        run: npm test
+
+      - name: data ブランチを data/ に取り出す
+        run: |
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git fetch --depth=1 origin data:refs/remotes/origin/data
+            git worktree add -B data data origin/data
+          else
+            git worktree add --orphan -b data data
+          fi
+
+      - name: Twitch から取得
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+          TWITCH_LOGIN: ${{ vars.TWITCH_LOGIN }}
+          DATA_DIR: data
+        run: node scripts/fetch.mjs
+
+      - name: 変化があれば data ブランチにコミット
+        id: commit
+        working-directory: data
+        run: |
+          git add history.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -m "記録を更新"
+          git push origin data
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # 定期実行は記録が変わったときだけ、手動実行と main への push は常にデプロイ
+      - name: デプロイするか決める
+        id: decide
+        run: echo "deploy=${{ steps.commit.outputs.changed == 'true' || github.event_name != 'schedule' }}" >> "$GITHUB_OUTPUT"
+
+      - name: サイトを組み立てる
+        if: steps.decide.outputs.deploy == 'true'
+        run: |
+          mkdir -p _site/data
+          cp -r index.html style.css app.mjs lib _site/
+          cp data/history.json _site/data/
+
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.decide.outputs.deploy == 'true'
+        with:
+          path: _site
+
+  deploy:
+    needs: collect
+    if: needs.collect.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
