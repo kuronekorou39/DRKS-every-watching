@@ -1,12 +1,15 @@
 import {
-  weeklyHeatmap, summarize, splitByLocalDay, localDayStart, localWeekday, normalizeHistory,
-  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd,
+  localDayStart, localHour, localDateString, parseLocalDate, normalizeHistory,
+  formatDate, formatClock, formatDuration, streamEnd,
 } from './lib/core.mjs';
 
 const HOUR = 3600_000;
 const DAY = 24 * HOUR;
-const WEEK = 7 * DAY;
-const TIMELINE_DAYS = 28;
+const DEFAULT_DAYS = 7;
+const MAX_DAYS = 92;
+const MAX_AXIS_LABELS = 10;
+const RELOAD_MS = 5 * 60_000;
+const DETAIL_HINT = 'バーを選ぶと、その配信の詳細がここに出ます。';
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -16,9 +19,30 @@ const el = (tag, props = {}, children = []) => {
 };
 
 let channels = [];
-let weeks = 8;
-// 集計期間を切り替えたときに描き直すヒートマップ: { streams, summary, heat }
-let heatViews = [];
+// 表示範囲: start（現地日の 0:00）から days 日ぶん
+const view = { start: 0, days: DEFAULT_DAYS };
+
+const viewEnd = () => view.start + view.days * DAY;
+const todayEnd = () => localDayStart(Date.now()) + DAY;
+
+/** 終わりの日を固定して範囲を決める。未来にはみ出す分は今日までに詰める */
+function setView(end, days) {
+  view.days = Math.min(MAX_DAYS, Math.max(1, days));
+  view.start = Math.min(end, todayEnd()) - view.days * DAY;
+}
+
+function readUrl() {
+  const params = new URLSearchParams(location.search);
+  const from = parseLocalDate(params.get('from'));
+  const to = parseLocalDate(params.get('to'));
+  if (from <= to) setView(to + DAY, (to - from) / DAY + 1);
+  else setView(todayEnd(), DEFAULT_DAYS);
+}
+
+function writeUrl() {
+  const params = new URLSearchParams({ from: localDateString(view.start), to: localDateString(viewEnd() - DAY) });
+  history.replaceState(null, '', `?${params}`);
+}
 
 async function load() {
   try {
@@ -40,8 +64,8 @@ const channelName = (c) => c.display_name || c.login;
 const liveStream = (streams) => streams.find((s) => s.live);
 
 function render() {
-  const now = Date.now();
   if (!channels.length) return renderMessage('まだ記録がありません。');
+  const now = Date.now();
 
   const liveNames = channels.filter((c) => liveStream(c.streams)).map((c) => channelName(c.channel));
   $('#status').replaceChildren(
@@ -50,152 +74,118 @@ function render() {
       : ['いま配信している人はいません。']),
   );
 
-  $('#nav').replaceChildren(
-    ...channels.map(({ channel, streams }) =>
-      el('a', { href: `#ch-${channel.login}`, className: liveStream(streams) ? 'live' : '', textContent: channelName(channel) })),
-  );
+  const lastDay = viewEnd() - DAY;
+  $('#board-title').textContent =
+    view.days === 1 ? formatDate(view.start) : `${formatDate(view.start)}〜${formatDate(lastDay)}`;
+  $('#from').value = localDateString(view.start);
+  $('#to').value = localDateString(lastDay);
+  $('#to').max = $('#from').max = localDateString(now);
+  $('#next').disabled = viewEnd() >= todayEnd();
+  document.querySelectorAll('.range button').forEach((b) =>
+    b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
 
-  heatViews = [];
-  $('#channels').replaceChildren(...channels.map((c) => renderChannel(c, now)));
+  renderBoard(now);
 }
 
-function renderChannel({ channel, streams }, now) {
-  const name = channelName(channel);
-  // サンプルデータのチャンネルは実在しないのでリンクにしない
-  const title = channel.login.startsWith('sample')
-    ? name
-    : el('a', { href: `https://www.twitch.tv/${channel.login}`, textContent: name, rel: 'noopener' });
-  const head = el('div', { className: 'ch-head' }, [
-    ...(channel.profile_image_url
-      ? [el('img', { className: 'avatar', src: channel.profile_image_url, alt: '', width: 40, height: 40, loading: 'lazy' })]
-      : []),
-    el('h2', {}, [title]),
-    channelStatus(streams, now),
-  ]);
-  const section = el('section', { className: 'channel', id: `ch-${channel.login}` }, [head]);
-  if (!streams.length) return section;
-
-  const view = { streams, summary: el('p', { className: 'summary' }), heat: el('div', { className: 'heat', role: 'img' }) };
-  view.heat.ariaLabel = `${name}の曜日と時間帯ごとの配信の多さ`;
-  heatViews.push(view);
-  renderHeat(view, now);
-
-  section.append(el('div', { className: 'pair' }, [
-    el('div', {}, [
-      el('h3', { textContent: 'よく配信している時間帯' }),
-      el('div', { className: 'scroll' }, [view.heat]),
-      view.summary,
-    ]),
-    el('div', {}, [
-      el('h3', { textContent: '直近4週間の配信' }),
-      el('div', { className: 'scroll' }, [renderTimeline(streams, now)]),
-    ]),
-  ]));
-  return section;
+/** 目盛りの位置（ミリ秒）と間隔。3日までは時間単位、それより長ければ日単位 */
+function axisTicks() {
+  const step = view.days === 1 ? 3 * HOUR : view.days <= 3 ? 6 * HOUR : Math.ceil(view.days / MAX_AXIS_LABELS) * DAY;
+  const ticks = [];
+  for (let t = view.start; t < viewEnd(); t += step) ticks.push(t);
+  return { ticks, step };
 }
 
-function channelStatus(streams, now) {
-  const status = el('p', { className: 'status' });
-  const live = liveStream(streams);
-  if (live) {
-    const start = Date.parse(live.start);
-    status.append(
-      el('span', { className: 'dot', ariaHidden: 'true' }),
-      el('strong', { textContent: '配信中' }),
-      `　${formatClock(start)}から${live.title ? `「${live.title}」` : ''}`,
-    );
-  } else if (streams.length) {
-    const last = streams.at(-1);
-    const start = Date.parse(last.start);
-    status.textContent =
-      `最後の配信は ${formatDate(start)} ${formatClock(start)}〜${formatClock(streamEnd(last, now))}` +
-      (last.title ? `「${last.title}」` : '');
-  } else {
-    status.textContent = 'まだ配信の記録がありません。';
-  }
-  return status;
-}
+function renderBoard(now) {
+  const from = view.start;
+  const to = viewEnd();
+  const span = to - from;
+  const pos = (ms) => `${((ms - from) / span) * 100}%`;
+  const { ticks, step } = axisTicks();
 
-function renderHeat({ streams, summary, heat }, now) {
-  const firstRecord = localDayStart(Date.parse(streams[0].start));
-  const requested = weeks === 'all' ? firstRecord : now - weeks * WEEK;
-  const from = Math.max(requested, firstRecord);
-  const values = weeklyHeatmap(streams, from, now, now);
-  const s = summarize(streams, from, now, now);
+  const axis = el('div', { className: 'track axis' }, ticks.map((t) =>
+    el('span', {
+      className: localHour(t) === 0 ? 'day' : '',
+      textContent: step < DAY && localHour(t) !== 0 ? `${localHour(t)}時` : formatDate(t),
+      style: `left:${pos(t)}`,
+    })));
+  const rows = [el('div', { className: 'row head' }, [el('span', { className: 'who' }), axis, el('span', { className: 'total', textContent: '合計' })])];
 
-  const period = weeks === 'all' ? '全期間' : `直近${weeks}週`;
-  const since = requested < firstRecord ? `（記録は${formatDate(firstRecord)}から）` : '';
-  summary.textContent = s.count
-    ? `${period}${since}で${s.count}回、合計${formatDuration(s.totalMs)}。` +
-      `1回あたり平均${formatDuration(s.avgMs)}で、開始は${s.peakStartHour}時台がいちばん多い。`
-    : `${period}${since}には配信がありません。`;
-
-  const cells = [el('span')];
-  for (let h = 0; h < 24; h++) cells.push(el('span', { className: 'hour', textContent: h % 3 === 0 ? h : '' }));
-  for (let wd = 0; wd < 7; wd++) {
-    cells.push(el('span', { className: 'wd', textContent: weekdayLabel(wd) }));
-    for (let h = 0; h < 24; h++) {
-      const v = values[wd * 24 + h];
-      const cell = el('span', { className: 'cell', title: `${weekdayLabel(wd)}曜 ${h}時台：${Math.round(v * 100)}%` });
-      cell.style.setProperty('--v', v.toFixed(3));
-      cells.push(cell);
-    }
-  }
-  heat.replaceChildren(...cells);
-}
-
-function renderTimeline(streams, now) {
-  const today = localDayStart(now);
-  const oldest = today - (TIMELINE_DAYS - 1) * DAY;
-  const byDay = new Map();
-  for (const s of streams) {
-    if (streamEnd(s, now) < oldest) continue;
-    for (const part of splitByLocalDay(s, now)) {
-      if (!byDay.has(part.dayStart)) byDay.set(part.dayStart, []);
-      byDay.get(part.dayStart).push(part);
-    }
-  }
-
-  const axis = el('div', { className: 'track' },
-    [0, 6, 12, 18, 24].map((h) => el('span', { textContent: `${h}時`, style: `left:${(h / 24) * 100}%` })));
-  const rows = [el('div', { className: 'tl-row tl-axis' }, [el('span'), axis])];
-
-  for (let i = 0; i < TIMELINE_DAYS; i++) {
-    const day = today - i * DAY;
-    const wd = localWeekday(day);
+  for (const { channel, streams } of channels) {
+    const name = channelName(channel);
     const track = el('div', { className: 'track' });
-    for (const p of byDay.get(day) ?? []) {
-      const s = p.stream;
+    let totalMs = 0;
+    for (const s of streams) {
       const start = Date.parse(s.start);
+      const end = streamEnd(s, now);
+      const a = Math.max(from, start);
+      const b = Math.min(to, end);
+      if (b <= a) continue;
+      totalMs += b - a;
       const label =
-        `${formatDate(start)} ${formatClock(start)}〜${formatClock(streamEnd(s, now))}` +
-        `（${formatDuration(streamEnd(s, now) - start)}）${s.title ? `\n${s.title}` : ''}${s.game ? `\n${s.game}` : ''}`;
-      track.append(el('span', {
+        `${formatDate(start)} ${formatClock(start)}〜${s.live ? '配信中' : formatClock(end)}` +
+        `（${formatDuration(end - start)}）${s.title ? `\n${s.title}` : ''}${s.game ? `\n${s.game}` : ''}`;
+      const seg = el('button', {
+        type: 'button',
         className: `seg${s.live ? ' live' : ''}`,
         title: label,
-        tabIndex: 0,
-        ariaLabel: label,
-        style: `left:${((p.from - day) / DAY) * 100}%;width:${((p.to - p.from) / DAY) * 100}%`,
-      }));
+        ariaLabel: `${name} ${label}`,
+        style: `left:${pos(a)};width:${((b - a) / span) * 100}%`,
+      });
+      seg.addEventListener('click', () => showDetail(name, label));
+      track.append(seg);
     }
-    const cls = ['tl-row'];
-    if (wd >= 5) cls.push('weekend');
-    if (wd === 6 && i > 0) cls.push('week-start');
-    rows.push(el('div', { className: cls.join(' ') }, [
-      el('span', { className: 'tl-date', textContent: formatDate(day) }),
+    if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
+
+    // サンプルデータのチャンネルは実在しないのでリンクにしない
+    const who = channel.login.startsWith('sample')
+      ? el('span', { className: 'who' })
+      : el('a', { className: 'who', href: `https://www.twitch.tv/${channel.login}`, rel: 'noopener' });
+    if (liveStream(streams)) who.classList.add('live');
+    if (channel.profile_image_url) {
+      who.append(el('img', { src: channel.profile_image_url, alt: '', width: 24, height: 24 }));
+    }
+    who.append(el('span', { textContent: name }));
+
+    rows.push(el('div', { className: 'row' }, [
+      who,
       track,
+      el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
     ]));
   }
-  return el('div', { className: 'timeline' }, rows);
+
+  const board = $('#board');
+  board.style.setProperty('--step', step / span);
+  board.replaceChildren(...rows);
+  $('#detail').textContent = DETAIL_HINT;
 }
 
-document.querySelectorAll('.range button').forEach((btn) => {
-  btn.addEventListener('click', () => {
-    weeks = btn.dataset.weeks === 'all' ? 'all' : Number(btn.dataset.weeks);
-    document.querySelectorAll('.range button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
-    const now = Date.now();
-    for (const view of heatViews) renderHeat(view, now);
-  });
-});
+function showDetail(name, label) {
+  $('#detail').replaceChildren(el('strong', { textContent: name }), `　${label.replaceAll('\n', ' / ')}`);
+}
 
+function update() {
+  writeUrl();
+  render();
+}
+
+$('#prev').addEventListener('click', () => { setView(viewEnd() - view.days * DAY, view.days); update(); });
+$('#next').addEventListener('click', () => { setView(viewEnd() + view.days * DAY, view.days); update(); });
+$('#today').addEventListener('click', () => { setView(todayEnd(), view.days); update(); });
+document.querySelectorAll('.range button').forEach((btn) => {
+  btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
+});
+for (const input of [$('#from'), $('#to')]) {
+  input.addEventListener('change', () => {
+    const from = parseLocalDate($('#from').value);
+    const to = parseLocalDate($('#to').value);
+    if (Number.isNaN(from) || Number.isNaN(to)) return;
+    // 開始と終了が逆転したら、いま触ったほうに合わせて1日表示にする
+    if (from > to) setView((input.id === 'from' ? from : to) + DAY, 1);
+    else setView(to + DAY, (to - from) / DAY + 1);
+    update();
+  });
+}
+
+readUrl();
 load();
+setInterval(load, RELOAD_MS);

@@ -15,22 +15,33 @@
     <header class="hero">
       <h1>配信の記録</h1>
       <p id="status" class="status" aria-live="polite">読み込み中…</p>
-      <nav id="nav" class="nav" aria-label="チャンネル"></nav>
     </header>
 
-    <div class="controls">
-      <div class="range" role="group" aria-label="時間帯の集計期間">
-        <button type="button" data-weeks="4">4週</button>
-        <button type="button" data-weeks="8" aria-pressed="true">8週</button>
-        <button type="button" data-weeks="12">12週</button>
-        <button type="button" data-weeks="all">全期間</button>
+    <section aria-labelledby="board-title">
+      <div class="controls">
+        <h2 id="board-title" class="range-label">&nbsp;</h2>
+        <div class="step" role="group" aria-label="表示範囲を前後に動かす">
+          <button type="button" id="prev" aria-label="前へ">◀</button>
+          <button type="button" id="today">今日</button>
+          <button type="button" id="next" aria-label="次へ">▶</button>
+        </div>
+        <div class="range" role="group" aria-label="表示する日数">
+          <button type="button" data-days="1">1日</button>
+          <button type="button" data-days="3">3日</button>
+          <button type="button" data-days="7">1週</button>
+          <button type="button" data-days="14">2週</button>
+          <button type="button" data-days="28">4週</button>
+        </div>
+        <div class="dates">
+          <label>開始 <input type="date" id="from"></label>
+          <label>終了 <input type="date" id="to"></label>
+        </div>
       </div>
-      <p class="legend">
-        <span>少ない</span><span class="legend-ramp" aria-hidden="true"></span><span>多い</span>
-      </p>
-    </div>
-
-    <div id="channels"></div>
+      <div class="scroll">
+        <div id="board" class="board"></div>
+      </div>
+      <p id="detail" class="detail" aria-live="polite"></p>
+    </section>
 
     <footer class="foot">
       <p>時刻はすべて日本時間です。開始時刻は正確ですが、アーカイブの残っていない配信は終了時刻が最大10分ほどずれることがあります。</p>

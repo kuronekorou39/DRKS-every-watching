@@ -1,6 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDuration, mergeHistory, normalizeHistory, splitByLocalDay, weeklyHeatmap } from '../lib/core.mjs';
+import {
+  parseDuration, mergeHistory, normalizeHistory, splitByLocalDay, weeklyHeatmap,
+  localDateString, parseLocalDate, localDayStart,
+} from '../lib/core.mjs';
 
 test('parseDuration', () => {
   assert.equal(parseDuration('3h8m33s'), (3 * 3600 + 8 * 60 + 33) * 1000);
@@ -59,4 +62,13 @@ test('normalizeHistory: 1チャンネル時代の形式も channels にそろえ
   assert.deepEqual(normalizeHistory(null), { channels: [] });
   const multi = { channels: [{ channel, streams: [] }] };
   assert.equal(normalizeHistory(multi), multi);
+});
+
+test('日付文字列と JST の 0:00 を相互変換', () => {
+  const day = parseLocalDate('2026-09-20');
+  assert.equal(day, Date.parse('2026-09-19T15:00:00Z'));
+  assert.equal(localDateString(day), '2026-09-20');
+  assert.equal(localDateString(day + 23.5 * 3600_000), '2026-09-20');
+  assert.equal(localDayStart(day + 3600_000), day);
+  assert.ok(Number.isNaN(parseLocalDate('9/20')));
 });
