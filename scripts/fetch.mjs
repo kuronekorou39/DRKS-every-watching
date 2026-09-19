@@ -1,19 +1,21 @@
 // Twitch Helix API から VOD とライブ状態を取得し、history.json にマージする。
-// 必要な環境変数: TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, TWITCH_LOGIN（任意: DATA_DIR）
+// 必要な環境変数: TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, TWITCH_LOGINS（カンマ区切り。任意: DATA_DIR）
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { setTimeout as sleep } from 'node:timers/promises';
-import { mergeHistory } from '../lib/core.mjs';
+import { mergeHistory, normalizeHistory } from '../lib/core.mjs';
 
 const {
   TWITCH_CLIENT_ID: clientId,
   TWITCH_CLIENT_SECRET: clientSecret,
-  TWITCH_LOGIN: login,
+  TWITCH_LOGINS: loginsRaw = '',
   DATA_DIR: dataDir = 'data',
 } = process.env;
 
-if (!clientId || !clientSecret || !login) {
-  console.error('TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET / TWITCH_LOGIN を設定してください');
+const logins = [...new Set(loginsRaw.toLowerCase().split(/[\s,]+/).filter(Boolean))];
+
+if (!clientId || !clientSecret || !logins.length) {
+  console.error('TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET / TWITCH_LOGINS を設定してください');
   process.exit(1);
 }
 
@@ -35,7 +37,10 @@ async function getAppToken() {
 function helixClient(token) {
   return async function helix(path, params = {}) {
     const url = new URL(`https://api.twitch.tv/helix/${path}`);
-    for (const [k, v] of Object.entries(params)) if (v != null) url.searchParams.set(k, v);
+    // 配列は同じキーの繰り返しで渡す（login=a&login=b）
+    for (const [k, v] of Object.entries(params)) {
+      for (const item of [v].flat()) if (item != null) url.searchParams.append(k, item);
+    }
     for (let attempt = 0; ; attempt++) {
       const res = await fetch(url, {
         headers: { 'Client-Id': clientId, Authorization: `Bearer ${token}` },
@@ -62,41 +67,47 @@ async function readHistory() {
 
 const helix = helixClient(await getAppToken());
 
-const {
-  data: [user],
-} = await helix('users', { login });
-if (!user) throw new Error(`ユーザー "${login}" が見つかりません`);
+const { data: found } = await helix('users', { login: logins });
+const users = logins.map((login) => found.find((u) => u.login === login));
+const missing = logins.filter((_, i) => !users[i]);
+// 打ち間違いで記録が消えないよう、1人でも見つからなければ何も書かずに止める
+if (missing.length) throw new Error(`ユーザーが見つかりません: ${missing.join(', ')}`);
 
-// アーカイブは多くても数十〜百件程度。念のため上限を置く
-const videos = [];
-let cursor;
-do {
-  const r = await helix('videos', { user_id: user.id, type: 'archive', first: 100, after: cursor });
-  videos.push(...r.data);
-  cursor = r.data.length ? r.pagination?.cursor : undefined;
-} while (cursor && videos.length < 1000);
+const { data: lives } = await helix('streams', { user_id: users.map((u) => u.id), type: 'live', first: 100 });
 
-const {
-  data: [live],
-} = await helix('streams', { user_id: user.id, type: 'live' });
+const prev = normalizeHistory(await readHistory());
+const channels = [];
 
-const prev = await readHistory();
-const streams = mergeHistory(prev?.streams ?? [], { videos, live: live ?? null });
+for (const user of users) {
+  // アーカイブは多くても数十〜百件程度。念のため上限を置く
+  const videos = [];
+  let cursor;
+  do {
+    const r = await helix('videos', { user_id: user.id, type: 'archive', first: 100, after: cursor });
+    videos.push(...r.data);
+    cursor = r.data.length ? r.pagination?.cursor : undefined;
+  } while (cursor && videos.length < 1000);
 
-const next = {
-  channel: {
-    id: user.id,
-    login: user.login,
-    display_name: user.display_name,
-    profile_image_url: user.profile_image_url,
-  },
-  streams,
-};
+  const live = lives.find((l) => l.user_id === user.id) ?? null;
+  // ログイン名は変わりうるので、前回の記録とは id で突き合わせる
+  const prevStreams = prev.channels.find((c) => c.channel.id === user.id)?.streams ?? [];
+  const streams = mergeHistory(prevStreams, { videos, live });
+
+  channels.push({
+    channel: {
+      id: user.id,
+      login: user.login,
+      display_name: user.display_name,
+      profile_image_url: user.profile_image_url,
+    },
+    streams,
+  });
+
+  console.log(
+    `${user.display_name}: 記録 ${streams.length} 件（VOD ${videos.length} 件 / ライブ中: ${live ? 'はい' : 'いいえ'}）`,
+  );
+}
 
 await mkdir(dataDir, { recursive: true });
 // 1 件 1 行寄りの整形にしておくと git の差分が読みやすい
-await writeFile(file, JSON.stringify(next, null, 1) + '\n');
-
-console.log(
-  `${user.display_name}: 記録 ${streams.length} 件（VOD ${videos.length} 件 / ライブ中: ${live ? 'はい' : 'いいえ'}）`,
-);
+await writeFile(file, JSON.stringify({ channels }, null, 1) + '\n');

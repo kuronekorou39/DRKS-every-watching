@@ -1,5 +1,5 @@
 import {
-  weeklyHeatmap, summarize, splitByLocalDay, localDayStart, localWeekday,
+  weeklyHeatmap, summarize, splitByLocalDay, localDayStart, localWeekday, normalizeHistory,
   formatDate, formatClock, formatDuration, weekdayLabel, streamEnd,
 } from './lib/core.mjs';
 
@@ -15,15 +15,17 @@ const el = (tag, props = {}, children = []) => {
   return node;
 };
 
-let history = null;
+let channels = [];
 let weeks = 8;
+// 集計期間を切り替えたときに描き直すヒートマップ: { streams, summary, heat }
+let heatViews = [];
 
 async function load() {
   try {
     const res = await fetch('./data/history.json', { cache: 'no-store' });
     if (res.status === 404) return renderMessage('まだ記録がありません。GitHub Actions の collect を一度実行すると、ここに表示されます。');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    history = await res.json();
+    channels = normalizeHistory(await res.json()).channels;
     render();
   } catch (e) {
     renderMessage(`記録を読み込めませんでした（${e.message}）。data/history.json があるか確認してください。`);
@@ -34,44 +36,87 @@ function renderMessage(text) {
   $('#status').textContent = text;
 }
 
-function render() {
-  const { channel, streams } = history;
-  const now = Date.now();
-  const name = channel?.display_name || channel?.login || '配信の記録';
-  document.title = `${name} の配信の記録`;
-  $('#name').textContent = name;
-  if (channel?.login && channel.login !== 'sample') {
-    $('#channel-link').replaceChildren(
-      el('a', { href: `https://www.twitch.tv/${channel.login}`, textContent: 'Twitch のチャンネルを開く', rel: 'noopener' }),
-    );
-  }
+const channelName = (c) => c.display_name || c.login;
+const liveStream = (streams) => streams.find((s) => s.live);
 
-  if (!streams.length) return renderMessage('まだ配信の記録がありません。');
-  renderStatus(streams, now);
-  renderHeat(streams, now);
-  renderTimeline(streams, now);
+function render() {
+  const now = Date.now();
+  if (!channels.length) return renderMessage('まだ記録がありません。');
+
+  const liveNames = channels.filter((c) => liveStream(c.streams)).map((c) => channelName(c.channel));
+  $('#status').replaceChildren(
+    ...(liveNames.length
+      ? [el('span', { className: 'dot', ariaHidden: 'true' }), el('strong', { textContent: '配信中' }), `　${liveNames.join('、')}`]
+      : ['いま配信している人はいません。']),
+  );
+
+  $('#nav').replaceChildren(
+    ...channels.map(({ channel, streams }) =>
+      el('a', { href: `#ch-${channel.login}`, className: liveStream(streams) ? 'live' : '', textContent: channelName(channel) })),
+  );
+
+  heatViews = [];
+  $('#channels').replaceChildren(...channels.map((c) => renderChannel(c, now)));
 }
 
-function renderStatus(streams, now) {
-  const live = streams.find((s) => s.live);
-  const status = $('#status');
+function renderChannel({ channel, streams }, now) {
+  const name = channelName(channel);
+  // サンプルデータのチャンネルは実在しないのでリンクにしない
+  const title = channel.login.startsWith('sample')
+    ? name
+    : el('a', { href: `https://www.twitch.tv/${channel.login}`, textContent: name, rel: 'noopener' });
+  const head = el('div', { className: 'ch-head' }, [
+    ...(channel.profile_image_url
+      ? [el('img', { className: 'avatar', src: channel.profile_image_url, alt: '', width: 40, height: 40, loading: 'lazy' })]
+      : []),
+    el('h2', {}, [title]),
+    channelStatus(streams, now),
+  ]);
+  const section = el('section', { className: 'channel', id: `ch-${channel.login}` }, [head]);
+  if (!streams.length) return section;
+
+  const view = { streams, summary: el('p', { className: 'summary' }), heat: el('div', { className: 'heat', role: 'img' }) };
+  view.heat.ariaLabel = `${name}の曜日と時間帯ごとの配信の多さ`;
+  heatViews.push(view);
+  renderHeat(view, now);
+
+  section.append(el('div', { className: 'pair' }, [
+    el('div', {}, [
+      el('h3', { textContent: 'よく配信している時間帯' }),
+      el('div', { className: 'scroll' }, [view.heat]),
+      view.summary,
+    ]),
+    el('div', {}, [
+      el('h3', { textContent: '直近4週間の配信' }),
+      el('div', { className: 'scroll' }, [renderTimeline(streams, now)]),
+    ]),
+  ]));
+  return section;
+}
+
+function channelStatus(streams, now) {
+  const status = el('p', { className: 'status' });
+  const live = liveStream(streams);
   if (live) {
     const start = Date.parse(live.start);
-    status.replaceChildren(
+    status.append(
       el('span', { className: 'dot', ariaHidden: 'true' }),
       el('strong', { textContent: '配信中' }),
       `　${formatClock(start)}から${live.title ? `「${live.title}」` : ''}`,
     );
-    return;
+  } else if (streams.length) {
+    const last = streams.at(-1);
+    const start = Date.parse(last.start);
+    status.textContent =
+      `最後の配信は ${formatDate(start)} ${formatClock(start)}〜${formatClock(streamEnd(last, now))}` +
+      (last.title ? `「${last.title}」` : '');
+  } else {
+    status.textContent = 'まだ配信の記録がありません。';
   }
-  const last = streams.at(-1);
-  const start = Date.parse(last.start);
-  status.textContent =
-    `最後の配信は ${formatDate(start)} ${formatClock(start)}〜${formatClock(streamEnd(last, now))}` +
-    (last.title ? `「${last.title}」` : '');
+  return status;
 }
 
-function renderHeat(streams, now) {
+function renderHeat({ streams, summary, heat }, now) {
   const firstRecord = localDayStart(Date.parse(streams[0].start));
   const requested = weeks === 'all' ? firstRecord : now - weeks * WEEK;
   const from = Math.max(requested, firstRecord);
@@ -80,7 +125,7 @@ function renderHeat(streams, now) {
 
   const period = weeks === 'all' ? '全期間' : `直近${weeks}週`;
   const since = requested < firstRecord ? `（記録は${formatDate(firstRecord)}から）` : '';
-  $('#summary').textContent = s.count
+  summary.textContent = s.count
     ? `${period}${since}で${s.count}回、合計${formatDuration(s.totalMs)}。` +
       `1回あたり平均${formatDuration(s.avgMs)}で、開始は${s.peakStartHour}時台がいちばん多い。`
     : `${period}${since}には配信がありません。`;
@@ -96,7 +141,7 @@ function renderHeat(streams, now) {
       cells.push(cell);
     }
   }
-  $('#heat').replaceChildren(...cells);
+  heat.replaceChildren(...cells);
 }
 
 function renderTimeline(streams, now) {
@@ -141,14 +186,15 @@ function renderTimeline(streams, now) {
       track,
     ]));
   }
-  $('#timeline').replaceChildren(...rows);
+  return el('div', { className: 'timeline' }, rows);
 }
 
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => {
     weeks = btn.dataset.weeks === 'all' ? 'all' : Number(btn.dataset.weeks);
     document.querySelectorAll('.range button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
-    if (history?.streams.length) renderHeat(history.streams, Date.now());
+    const now = Date.now();
+    for (const view of heatViews) renderHeat(view, now);
   });
 });
 

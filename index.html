@@ -13,41 +13,27 @@
 <body>
   <main>
     <header class="hero">
-      <h1 id="name">配信の記録</h1>
+      <h1>配信の記録</h1>
       <p id="status" class="status" aria-live="polite">読み込み中…</p>
+      <nav id="nav" class="nav" aria-label="チャンネル"></nav>
     </header>
 
-    <section class="block" aria-labelledby="heat-title">
-      <div class="block-head">
-        <h2 id="heat-title">よく配信している時間帯</h2>
-        <div class="range" role="group" aria-label="集計期間">
-          <button type="button" data-weeks="4">4週</button>
-          <button type="button" data-weeks="8" aria-pressed="true">8週</button>
-          <button type="button" data-weeks="12">12週</button>
-          <button type="button" data-weeks="all">全期間</button>
-        </div>
-      </div>
-      <p id="summary" class="summary"></p>
-      <div class="scroll">
-        <div id="heat" class="heat" role="img" aria-label="曜日と時間帯ごとの配信の多さ"></div>
+    <div class="controls">
+      <div class="range" role="group" aria-label="時間帯の集計期間">
+        <button type="button" data-weeks="4">4週</button>
+        <button type="button" data-weeks="8" aria-pressed="true">8週</button>
+        <button type="button" data-weeks="12">12週</button>
+        <button type="button" data-weeks="all">全期間</button>
       </div>
       <p class="legend">
         <span>少ない</span><span class="legend-ramp" aria-hidden="true"></span><span>多い</span>
       </p>
-    </section>
+    </div>
 
-    <section class="block" aria-labelledby="tl-title">
-      <div class="block-head">
-        <h2 id="tl-title">直近4週間の配信</h2>
-      </div>
-      <div class="scroll">
-        <div id="timeline" class="timeline"></div>
-      </div>
-    </section>
+    <div id="channels"></div>
 
     <footer class="foot">
       <p>時刻はすべて日本時間です。開始時刻は正確ですが、アーカイブの残っていない配信は終了時刻が最大10分ほどずれることがあります。</p>
-      <p id="channel-link"></p>
     </footer>
   </main>
 </body>

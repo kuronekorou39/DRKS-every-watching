@@ -1,11 +1,12 @@
 # drks-every-watching
 
-Twitch の特定チャンネルの配信実績を記録し、曜日×時間帯のヒートマップと直近4週間のタイムラインで表示する静的サイト。
+Twitch の複数チャンネル（現在は8人）の配信実績を記録し、1ページに人数ぶん、曜日×時間帯のヒートマップと直近4週間のタイムラインを並べて表示する静的サイト。
 サーバーは使わず、GitHub Actions が10分おきに Twitch API から取得し、GitHub Pages で公開する。
 
 ## しくみ
 
 - `scripts/fetch.mjs` … アーカイブ（`/videos`）で正確な開始・終了を取り、ライブ状態（`/streams`）のポーリングで取りこぼしを補って `history.json` にマージ
+- ログイン名が1つでも見つからないときは、記録を書き換えずにエラーで止まる（打ち間違いで記録を消さないため）
 - 記録は `data` ブランチに保存（変化があったときだけコミット）。一度記録した配信は、VOD が消えても残る
 - 記録に変化があったときだけ Pages を再デプロイ
 - `lib/core.mjs` は取得スクリプトとブラウザで共有
@@ -17,7 +18,7 @@ Twitch の特定チャンネルの配信実績を記録し、曜日×時間帯�
 2. リポジトリを **public** で作る（private だと10分おきの cron で Actions の無料枠を超える）
 3. Secrets と Variables を設定
    - Secrets: `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`
-   - Variables: `TWITCH_LOGIN`（チャンネルのログイン名。URL の twitch.tv/◯◯ の部分）
+   - Variables: `TWITCH_LOGINS`（チャンネルのログイン名をカンマ区切りで。URL の twitch.tv/◯◯ の部分。並べた順に表示される）
 4. Settings → Pages → Source を「GitHub Actions」に
 5. Actions タブから `collect` を手動実行（初回で直近のアーカイブ分が埋まる）
 

@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseDuration, mergeHistory, splitByLocalDay, weeklyHeatmap } from '../lib/core.mjs';
+import { parseDuration, mergeHistory, normalizeHistory, splitByLocalDay, weeklyHeatmap } from '../lib/core.mjs';
 
 test('parseDuration', () => {
   assert.equal(parseDuration('3h8m33s'), (3 * 3600 + 8 * 60 + 33) * 1000);
@@ -51,4 +51,12 @@ test('ヒートマップ: 1週間で金曜21時台を丸ごと配信 → その�
   const v = weeklyHeatmap([s], from, to);
   assert.equal(v[4 * 24 + 21], 1);
   assert.equal(v.reduce((a, b) => a + b), 1);
+});
+
+test('normalizeHistory: 1チャンネル時代の形式も channels にそろえる', () => {
+  const channel = { id: '1', login: 'a' };
+  assert.deepEqual(normalizeHistory({ channel, streams: [] }), { channels: [{ channel, streams: [] }] });
+  assert.deepEqual(normalizeHistory(null), { channels: [] });
+  const multi = { channels: [{ channel, streams: [] }] };
+  assert.equal(normalizeHistory(multi), multi);
 });
