@@ -1,9 +1,3333 @@
 {
- "channel": {
-  "id": "127353445",
-  "login": "kuronekorou39",
-  "display_name": "ろう39",
-  "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/98c797ef-0152-41c9-a32d-c8cfe6730202-profile_image-300x300.png"
- },
- "streams": []
+ "channels": [
+  {
+   "channel": {
+    "id": "545050196",
+    "login": "kato_junichi0817",
+    "display_name": "加藤純一うん〇ちゃん",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a4977cfd-1962-41ec-9355-ab2611b97552-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316261743091",
+     "start": "2026-07-21T02:24:40.000Z",
+     "end": "2026-07-21T03:33:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一3日目",
+     "game": null
+    },
+    {
+     "stream_id": "316206953842",
+     "start": "2026-07-21T05:08:21.000Z",
+     "end": "2026-07-21T09:08:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ARKをやりましょう２日目",
+     "game": null
+    },
+    {
+     "stream_id": "316199227377",
+     "start": "2026-07-21T11:00:32.000Z",
+     "end": "2026-07-21T13:31:31.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "メイプルストーリーCROWN CREW CHALLENGE最終日 w/もこう,おにや #PR #メイプルCCC",
+     "game": null
+    },
+    {
+     "stream_id": "316200205937",
+     "start": "2026-07-21T14:02:07.000Z",
+     "end": "2026-07-21T18:22:13.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ARKやるまでDBDやる",
+     "game": null
+    },
+    {
+     "stream_id": "316212637682",
+     "start": "2026-07-22T11:56:36.000Z",
+     "end": "2026-07-22T14:47:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会のことを全部決める！",
+     "game": null
+    },
+    {
+     "stream_id": "316214013682",
+     "start": "2026-07-22T17:16:15.000Z",
+     "end": "2026-07-22T18:25:23.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBDして寝る",
+     "game": null
+    },
+    {
+     "stream_id": "316215132402",
+     "start": "2026-07-23T02:07:29.000Z",
+     "end": "2026-07-23T03:22:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一4日目",
+     "game": null
+    },
+    {
+     "stream_id": "316216623346",
+     "start": "2026-07-23T10:44:56.000Z",
+     "end": "2026-07-23T15:19:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "まったりしてからイタリアへと旅立つ男",
+     "game": null
+    },
+    {
+     "stream_id": "316273720691",
+     "start": "2026-07-23T17:32:10.000Z",
+     "end": "2026-07-23T18:47:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "６時までゲームのダウンロードしたりする",
+     "game": null
+    },
+    {
+     "stream_id": "318024152421",
+     "start": "2026-07-25T13:27:15.000Z",
+     "end": "2026-07-25T15:14:13.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "イタリアより愛を込めた雑談",
+     "game": null
+    },
+    {
+     "stream_id": "318033731813",
+     "start": "2026-07-26T11:17:01.000Z",
+     "end": "2026-07-26T14:33:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ちょっと話して何かやる男",
+     "game": null
+    },
+    {
+     "stream_id": "317894931431",
+     "start": "2026-07-26T17:03:59.000Z",
+     "end": "2026-07-26T19:16:31.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグクラブワールドカップ第1・2試合観戦する in現地",
+     "game": null
+    },
+    {
+     "stream_id": "317900991079",
+     "start": "2026-07-27T09:19:12.000Z",
+     "end": "2026-07-27T14:56:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "体調が良い男",
+     "game": null
+    },
+    {
+     "stream_id": "318049641701",
+     "start": "2026-07-27T19:21:02.000Z",
+     "end": "2026-07-27T21:25:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグクラブワールドカップ2日目観戦in現地",
+     "game": null
+    },
+    {
+     "stream_id": "318122691302",
+     "start": "2026-07-28T13:23:40.000Z",
+     "end": "2026-07-28T15:00:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ クラブワールドカップ エキシビジョンマッチ VSZebras FC",
+     "game": null
+    },
+    {
+     "stream_id": "318129685606",
+     "start": "2026-07-29T02:57:55.000Z",
+     "end": "2026-07-29T05:46:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談少々",
+     "game": null
+    },
+    {
+     "stream_id": "318131403750",
+     "start": "2026-07-29T09:51:06.000Z",
+     "end": "2026-07-29T14:47:17.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "マック食って何かする男",
+     "game": null
+    },
+    {
+     "stream_id": "318077475173",
+     "start": "2026-07-30T13:24:25.000Z",
+     "end": "2026-07-30T15:05:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ クラブワールドカップ エキシビジョンマッチ VSGear 7 FC戦",
+     "game": null
+    },
+    {
+     "stream_id": "318153602022",
+     "start": "2026-07-31T13:27:36.000Z",
+     "end": "2026-07-31T15:03:28.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ クラブワールドカップ エキシビジョンマッチ VSZeta Como戦",
+     "game": null
+    },
+    {
+     "stream_id": "317953331047",
+     "start": "2026-08-01T07:01:09.000Z",
+     "end": "2026-08-01T09:41:45.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "意外とだらだらと話す",
+     "game": null
+    },
+    {
+     "stream_id": "317957110375",
+     "start": "2026-08-01T14:50:04.000Z",
+     "end": "2026-08-01T16:12:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ クラブワールドカップ エキシビジョンマッチEX VS UNDERDOGS FC戦",
+     "game": null
+    },
+    {
+     "stream_id": "318166291174",
+     "start": "2026-08-01T16:43:59.000Z",
+     "end": "2026-08-01T21:00:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ クラブワールドカップ 準決勝&決勝観戦",
+     "game": null
+    },
+    {
+     "stream_id": "316265387890",
+     "start": "2026-08-03T11:32:37.000Z",
+     "end": "2026-08-03T19:22:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "久々に自宅で配信できる幸せ",
+     "game": null
+    },
+    {
+     "stream_id": "316259345009",
+     "start": "2026-08-04T01:28:42.000Z",
+     "end": "2026-08-04T04:00:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "３時間くらいRUSTで基礎を学ぶ",
+     "game": null
+    },
+    {
+     "stream_id": "316325775475",
+     "start": "2026-08-04T10:16:38.000Z",
+     "end": "2026-08-04T20:40:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こくじんさんとRUST",
+     "game": null
+    },
+    {
+     "stream_id": "316273854578",
+     "start": "2026-08-05T10:49:39.000Z",
+     "end": "2026-08-05T16:51:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUSTチーム練習２１じより",
+     "game": null
+    },
+    {
+     "stream_id": "316276366962",
+     "start": "2026-08-06T00:13:06.000Z",
+     "end": "2026-08-06T15:02:11.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUST秘密の特訓",
+     "game": null
+    },
+    {
+     "stream_id": "316338662259",
+     "start": "2026-08-07T07:54:28.000Z",
+     "end": "2026-08-07T19:25:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUST優勝会場１日目",
+     "game": null
+    },
+    {
+     "stream_id": "316285166322",
+     "start": "2026-08-08T01:07:42.000Z",
+     "end": "2026-08-08T03:23:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUST優勝会場2日目朝の部１２時までファーム",
+     "game": null
+    },
+    {
+     "stream_id": "316287081330",
+     "start": "2026-08-08T10:51:20.000Z",
+     "end": "2026-08-09T00:09:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUST優勝会場2日目夜の部",
+     "game": null
+    },
+    {
+     "stream_id": "316282627313",
+     "start": "2026-08-09T06:01:47.000Z",
+     "end": "2026-08-09T15:18:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUST優勝会場最終日",
+     "game": null
+    },
+    {
+     "stream_id": "316297967602",
+     "start": "2026-08-10T13:40:12.000Z",
+     "end": "2026-08-10T15:17:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "キングスリーグ・カセンコン・老人会を１時間で振り返る雑談",
+     "game": null
+    },
+    {
+     "stream_id": "316304112242",
+     "start": "2026-08-11T23:01:47.000Z",
+     "end": "2026-08-12T01:04:23.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "３０時間寝て逆に体調くそ悪い",
+     "game": null
+    },
+    {
+     "stream_id": "316297952497",
+     "start": "2026-08-12T12:09:52.000Z",
+     "end": "2026-08-12T15:10:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ついに起きた男",
+     "game": null
+    },
+    {
+     "stream_id": "316299628273",
+     "start": "2026-08-12T19:57:04.000Z",
+     "end": "2026-08-13T00:03:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今日で昼夜逆転なおす",
+     "game": null
+    },
+    {
+     "stream_id": "316307649137",
+     "start": "2026-08-14T13:47:15.000Z",
+     "end": "2026-08-14T17:39:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "体調悪すぎ内",
+     "game": null
+    },
+    {
+     "stream_id": "316379232499",
+     "start": "2026-08-15T22:43:30.000Z",
+     "end": "2026-08-16T05:55:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ついに生活サイクルがかみ合った男",
+     "game": null
+    },
+    {
+     "stream_id": "316316142705",
+     "start": "2026-08-16T11:25:18.000Z",
+     "end": "2026-08-16T15:05:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ｽﾌﾟﾗﾄｩｰﾝ３をやる人",
+     "game": null
+    },
+    {
+     "stream_id": "316317463793",
+     "start": "2026-08-16T16:38:14.000Z",
+     "end": "2026-08-16T19:17:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBDでめちゃくちゃ効かせる",
+     "game": null
+    },
+    {
+     "stream_id": "316327836914",
+     "start": "2026-08-17T01:13:21.000Z",
+     "end": "2026-08-17T03:36:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBDでめちゃくちゃ効かせる。18時から７デイズをやる。",
+     "game": null
+    },
+    {
+     "stream_id": "316329128818",
+     "start": "2026-08-17T08:33:12.000Z",
+     "end": "2026-08-17T17:14:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こくじんさんたちと5人で７days to die",
+     "game": null
+    },
+    {
+     "stream_id": "316322968561",
+     "start": "2026-08-18T02:14:46.000Z",
+     "end": "2026-08-18T07:00:08.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "16時まで暇つぶす",
+     "game": null
+    },
+    {
+     "stream_id": "316390884339",
+     "start": "2026-08-18T10:45:13.000Z",
+     "end": "2026-08-18T12:08:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "HYG Direct(ハイゲダイレクト) #2",
+     "game": null
+    },
+    {
+     "stream_id": "316393047155",
+     "start": "2026-08-18T21:07:24.000Z",
+     "end": "2026-08-19T03:58:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おはようございます",
+     "game": null
+    },
+    {
+     "stream_id": "316340799090",
+     "start": "2026-08-19T23:04:01.000Z",
+     "end": "2026-08-20T14:21:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "朝もはよからCIV７やる",
+     "game": null
+    },
+    {
+     "stream_id": "316337465329",
+     "start": "2026-08-21T10:02:56.000Z",
+     "end": "2026-08-21T15:08:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談して何かやる",
+     "game": null
+    },
+    {
+     "stream_id": "316340425585",
+     "start": "2026-08-22T01:11:48.000Z",
+     "end": "2026-08-22T14:22:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "CIV7→VALO→AIドット絵バトル",
+     "game": null
+    },
+    {
+     "stream_id": "316355328242",
+     "start": "2026-08-23T01:19:28.000Z",
+     "end": "2026-08-23T14:46:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "CIV→７DAYS",
+     "game": null
+    },
+    {
+     "stream_id": "316416452595",
+     "start": "2026-08-24T00:16:59.000Z",
+     "end": "2026-08-24T02:54:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "CIV7→ﾑﾗｹﾞVALO公開トライアウト",
+     "game": null
+    },
+    {
+     "stream_id": "316417498099",
+     "start": "2026-08-24T06:39:32.000Z",
+     "end": "2026-08-24T16:33:08.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ﾑﾗｹﾞVALO公開トライアウト",
+     "game": null
+    },
+    {
+     "stream_id": "316365319154",
+     "start": "2026-08-25T07:41:40.000Z",
+     "end": "2026-08-25T15:22:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談",
+     "game": null
+    },
+    {
+     "stream_id": "316360965105",
+     "start": "2026-08-26T12:38:58.000Z",
+     "end": "2026-08-26T16:23:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "椅子を新しくしマスタ",
+     "game": null
+    },
+    {
+     "stream_id": "316373321586",
+     "start": "2026-08-27T02:13:00.000Z",
+     "end": "2026-08-27T03:11:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一 たぶん5日目",
+     "game": null
+    },
+    {
+     "stream_id": "316431375219",
+     "start": "2026-08-27T10:08:18.000Z",
+     "end": "2026-08-27T19:14:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談してホラゲーをやる",
+     "game": null
+    },
+    {
+     "stream_id": "316368894449",
+     "start": "2026-08-28T09:52:11.000Z",
+     "end": "2026-08-28T16:33:28.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ポピープレイタイムなるゲームをやる２日目",
+     "game": null
+    },
+    {
+     "stream_id": "316382183282",
+     "start": "2026-08-29T02:19:02.000Z",
+     "end": "2026-08-29T03:07:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一 6日目",
+     "game": null
+    },
+    {
+     "stream_id": "316373386097",
+     "start": "2026-08-29T08:17:41.000Z",
+     "end": "2026-08-29T14:50:07.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ポピープレイタイムなるゲームをやる最終日",
+     "game": null
+    },
+    {
+     "stream_id": "316377399921",
+     "start": "2026-08-30T03:55:49.000Z",
+     "end": "2026-08-30T07:19:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談してﾑﾗｹﾞ見て何かする",
+     "game": null
+    },
+    {
+     "stream_id": "316448336499",
+     "start": "2026-08-31T01:12:26.000Z",
+     "end": "2026-08-31T04:48:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "だらだらする",
+     "game": null
+    },
+    {
+     "stream_id": "316449372403",
+     "start": "2026-08-31T07:35:54.000Z",
+     "end": "2026-08-31T14:29:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBDをやる→ﾑﾗｹﾞの集まり→球拾いのゲーム",
+     "game": null
+    },
+    {
+     "stream_id": "316452959603",
+     "start": "2026-09-01T03:06:03.000Z",
+     "end": "2026-09-01T04:05:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBDを極めた",
+     "game": null
+    },
+    {
+     "stream_id": "316453534579",
+     "start": "2026-09-01T06:42:48.000Z",
+     "end": "2026-09-01T16:08:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "19時までだらだらする",
+     "game": null
+    },
+    {
+     "stream_id": "316389833201",
+     "start": "2026-09-02T00:24:05.000Z",
+     "end": "2026-09-02T01:11:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBD鍛えてから体鍛える",
+     "game": null
+    },
+    {
+     "stream_id": "316390217457",
+     "start": "2026-09-02T02:55:23.000Z",
+     "end": "2026-09-02T03:45:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一 7日目",
+     "game": null
+    },
+    {
+     "stream_id": "316461775987",
+     "start": "2026-09-03T02:05:30.000Z",
+     "end": "2026-09-03T05:57:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おはよう",
+     "game": null
+    },
+    {
+     "stream_id": "316396051185",
+     "start": "2026-09-03T10:39:32.000Z",
+     "end": "2026-09-03T17:30:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "加藤純一のポケットモンスター シャイニングパール 実況プレイPart2",
+     "game": null
+    },
+    {
+     "stream_id": "316466409203",
+     "start": "2026-09-04T04:00:45.000Z",
+     "end": "2026-09-04T07:54:21.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DBD",
+     "game": null
+    },
+    {
+     "stream_id": "316400622321",
+     "start": "2026-09-04T11:17:42.000Z",
+     "end": "2026-09-04T15:55:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "加藤純一のポケットモンスター シャイニングパール 実況プレイPart3",
+     "game": null
+    },
+    {
+     "stream_id": "316413439474",
+     "start": "2026-09-05T02:23:50.000Z",
+     "end": "2026-09-05T03:08:42.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一 8日目",
+     "game": null
+    },
+    {
+     "stream_id": "316414820210",
+     "start": "2026-09-05T08:59:06.000Z",
+     "end": "2026-09-05T14:04:29.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "PUBG LAND2026 涙の優勝会場#PR",
+     "game": null
+    },
+    {
+     "stream_id": "316418514418",
+     "start": "2026-09-06T03:37:57.000Z",
+     "end": "2026-09-06T14:29:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "だらだらしてからﾍﾟｹｲﾒﾝ",
+     "game": null
+    },
+    {
+     "stream_id": "316478668915",
+     "start": "2026-09-06T16:17:08.000Z",
+     "end": "2026-09-06T20:49:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "数試合VALOやって寝る",
+     "game": null
+    },
+    {
+     "stream_id": "316484370419",
+     "start": "2026-09-08T02:11:12.000Z",
+     "end": "2026-09-08T03:21:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "フィットネス純一 9日目",
+     "game": null
+    },
+    {
+     "stream_id": "316428521074",
+     "start": "2026-09-08T08:56:32.000Z",
+     "end": "2026-09-08T17:57:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談してポケモン最終回涙",
+     "game": null
+    },
+    {
+     "stream_id": "316490028915",
+     "start": "2026-09-09T08:07:09.000Z",
+     "end": "2026-09-09T17:59:28.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談してﾑﾗｹﾞびシャドバ見てなにかしてマタギ戦の練習する",
+     "game": null
+    },
+    {
+     "stream_id": "316429302513",
+     "start": "2026-09-10T16:54:38.000Z",
+     "end": "2026-09-10T20:41:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ﾏﾀｷﾞｽﾅｲﾊﾟｰｽﾞ戦に向けみんなで練習をする2",
+     "game": null
+    },
+    {
+     "stream_id": "316442386162",
+     "start": "2026-09-11T11:03:52.000Z",
+     "end": "2026-09-11T12:12:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "デスゲームの報告書最後までやる",
+     "game": null
+    },
+    {
+     "stream_id": "316433304561",
+     "start": "2026-09-11T15:04:47.000Z",
+     "end": "2026-09-11T19:00:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKSパチスロ王決定戦 〜L青ブタ編〜 supported by パチマガスロマガ 加藤純一視点 #PR",
+     "game": null
+    },
+    {
+     "stream_id": "316503947379",
+     "start": "2026-09-12T10:04:08.000Z",
+     "end": "2026-09-12T14:45:13.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "最近会ったダイレクトを全部見る男",
+     "game": null
+    },
+    {
+     "stream_id": "316505620723",
+     "start": "2026-09-12T16:15:29.000Z",
+     "end": "2026-09-12T23:00:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "２．３試合VALOして寝る",
+     "game": null
+    },
+    {
+     "stream_id": "316450928370",
+     "start": "2026-09-13T06:40:15.000Z",
+     "end": "2026-09-13T13:02:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "19時からﾏﾀｷﾞｽﾅｲﾊﾟｰｽﾞ戦",
+     "game": null
+    },
+    {
+     "stream_id": "316454739698",
+     "start": "2026-09-14T01:36:40.000Z",
+     "end": "2026-09-14T14:59:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "風邪ひき男",
+     "game": null
+    },
+    {
+     "stream_id": "316458038642",
+     "start": "2026-09-14T18:31:58.000Z",
+     "end": "2026-09-14T23:53:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "風邪ひきﾛｰｸﾞﾗｲｶｰ純2日目",
+     "game": null
+    },
+    {
+     "stream_id": "316450323185",
+     "start": "2026-09-15T13:07:13.000Z",
+     "end": "2026-09-15T21:19:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "寝る前に雑談する男",
+     "game": null
+    },
+    {
+     "stream_id": "316464249842",
+     "start": "2026-09-16T07:17:39.000Z",
+     "end": "2026-09-16T07:59:04.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "病院でしっかり検査をしてきた",
+     "game": null
+    },
+    {
+     "stream_id": "321568596059",
+     "start": "2026-09-16T12:50:12.000Z",
+     "end": "2026-09-16T13:42:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "病院でしっかり検査をしてきた",
+     "game": null
+    },
+    {
+     "stream_id": "316466120434",
+     "start": "2026-09-16T14:44:55.000Z",
+     "end": "2026-09-16T16:23:17.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "話して寝る男",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "813704147",
+    "login": "indegnasen0706",
+    "display_name": "布団ちゃんと申します",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e6e621ba-8f31-4832-9e11-56010f40248c-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316206673394",
+     "start": "2026-07-21T03:20:40.000Z",
+     "end": "2026-07-21T17:53:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "本日もPCが落ちたが何とか明日まで持ってくれ...！昼の雑談放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316210942450",
+     "start": "2026-07-22T03:11:57.000Z",
+     "end": "2026-07-22T04:47:24.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "まだPCは治っていない...放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316203670641",
+     "start": "2026-07-22T11:15:13.000Z",
+     "end": "2026-07-22T17:54:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "カマータ本当にありがとう！新構成PCが馴染むか今日はいくぞいくぞ！",
+     "game": null
+    },
+    {
+     "stream_id": "316273414643",
+     "start": "2026-07-23T15:35:52.000Z",
+     "end": "2026-07-23T19:08:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ちとキャプボの設定したいナ！",
+     "game": null
+    },
+    {
+     "stream_id": "316211586161",
+     "start": "2026-07-24T07:15:45.000Z",
+     "end": "2026-07-24T17:44:34.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "昼下がりですね！皆さんお元気ですか！まずは整えましょう！17時過ぎからｼｬｲﾝﾎﾟしましょう！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316222819826",
+     "start": "2026-07-24T18:02:24.000Z",
+     "end": "2026-07-24T19:45:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "スト６三日目MR1750～",
+     "game": null
+    },
+    {
+     "stream_id": "316216116593",
+     "start": "2026-07-25T06:45:14.000Z",
+     "end": "2026-07-25T18:55:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "しっかり水分を取りながら雑談した後シャインポストかナ！？放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316285213427",
+     "start": "2026-07-26T06:55:32.000Z",
+     "end": "2026-07-26T13:16:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雨がすごかったな！まずは雑談してまったりしようぜ！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316286822131",
+     "start": "2026-07-26T13:17:12.000Z",
+     "end": "2026-07-26T17:02:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【最終公演】シャインポスト４年目6月下旬から←雨がすごかったな！まずは雑談してまったりしようぜ！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316238843889",
+     "start": "2026-07-30T10:26:13.000Z",
+     "end": "2026-07-30T14:52:45.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "皆さんお久しブリーフ！少しだけ雑談します！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316251004145",
+     "start": "2026-08-02T03:42:56.000Z",
+     "end": "2026-08-02T19:31:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "さぁ！雑談だ！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316255392881",
+     "start": "2026-08-03T03:52:21.000Z",
+     "end": "2026-08-03T08:50:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【rust】１７時まで座学継続ロードマップ作製",
+     "game": null
+    },
+    {
+     "stream_id": "316322662131",
+     "start": "2026-08-03T14:26:23.000Z",
+     "end": "2026-08-03T17:15:12.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【布団ちゃん視点】きむちゃんねる軍 vs DRKS軍 パチスロ×競輪 最強バトル 【木村魚拓、青山りょう、JIRO、水樹あや】【もこう、おにや、布団ちゃん、ゆゆうた】",
+     "game": null
+    },
+    {
+     "stream_id": "316259726833",
+     "start": "2026-08-04T04:04:46.000Z",
+     "end": "2026-08-04T21:20:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【rust】建築しおり作成＆アイテムショップで買い物",
+     "game": null
+    },
+    {
+     "stream_id": "316264350705",
+     "start": "2026-08-05T05:21:53.000Z",
+     "end": "2026-08-05T17:14:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【rust練習鯖】２１時にチーム全員邂逅",
+     "game": null
+    },
+    {
+     "stream_id": "316276855154",
+     "start": "2026-08-06T03:34:52.000Z",
+     "end": "2026-08-06T16:32:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "クリエイティブ鯖で速度、正確さをただただ上げる",
+     "game": null
+    },
+    {
+     "stream_id": "316338698099",
+     "start": "2026-08-07T08:05:16.000Z",
+     "end": "2026-08-07T21:43:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコ生老人会RUST優勝会場 お布団ちゃん、う〇ちちゃん、恭ちゃん、キズナ",
+     "game": null
+    },
+    {
+     "stream_id": "316342033523",
+     "start": "2026-08-08T00:52:58.000Z",
+     "end": "2026-08-08T01:00:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコ生老人会RUST優勝会場 お布団ちゃん、う〇ちちゃん、恭ちゃん、キズナ ２日目",
+     "game": null
+    },
+    {
+     "stream_id": "316285158898",
+     "start": "2026-08-08T01:04:55.000Z",
+     "end": "2026-08-08T18:19:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコ生老人会RUST優勝会場 お布団ちゃん、う〇ちちゃん、恭ちゃん、キズナ ２日目",
+     "game": null
+    },
+    {
+     "stream_id": "316281777521",
+     "start": "2026-08-09T01:29:34.000Z",
+     "end": "2026-08-09T15:21:24.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコ生老人会RUST優勝会場 お布団ちゃん、う〇ちちゃん、恭ちゃん、キズナ ２日目",
+     "game": null
+    },
+    {
+     "stream_id": "316301508594",
+     "start": "2026-08-11T10:06:36.000Z",
+     "end": "2026-08-11T16:27:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談します！なんだこれ！まだボーっとするぞ！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316302048113",
+     "start": "2026-08-13T10:08:43.000Z",
+     "end": "2026-08-13T16:37:39.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "なんだ！やっとネットが繋がったわ！まずはこんばんは！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316303944561",
+     "start": "2026-08-13T17:25:52.000Z",
+     "end": "2026-08-13T18:56:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "スト６ 何があってもいいように鍛錬する",
+     "game": null
+    },
+    {
+     "stream_id": "316306313585",
+     "start": "2026-08-14T08:46:15.000Z",
+     "end": "2026-08-14T15:28:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今日から禁煙０日目 電動シーシャの案件を頂き、ノンニコチン＆タール生活でいくぞいくぞ！放送！PR",
+     "game": null
+    },
+    {
+     "stream_id": "316311096689",
+     "start": "2026-08-15T09:40:02.000Z",
+     "end": "2026-08-15T15:33:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんばんは！禁ニコ＆タール２日目突入！とてもつらいです。指が震えます",
+     "game": null
+    },
+    {
+     "stream_id": "316321952626",
+     "start": "2026-08-15T17:03:52.000Z",
+     "end": "2026-08-15T19:24:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ぼくのなつやすみ ２２日目から３１日まで過ごしましょう！←こんばんは！禁ニコ＆タール２日目突入！とてもつらいです。指が震えます",
+     "game": null
+    },
+    {
+     "stream_id": "316324981234",
+     "start": "2026-08-16T09:52:56.000Z",
+     "end": "2026-08-16T18:47:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談...！",
+     "game": null
+    },
+    {
+     "stream_id": "316319742577",
+     "start": "2026-08-17T08:36:14.000Z",
+     "end": "2026-08-17T18:38:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "7 Days to Die 複数のジジイたちと",
+     "game": null
+    },
+    {
+     "stream_id": "316333033842",
+     "start": "2026-08-18T05:12:32.000Z",
+     "end": "2026-08-18T08:31:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "何かゲームでも探しながら雑談だな！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316390844659",
+     "start": "2026-08-18T10:34:03.000Z",
+     "end": "2026-08-18T16:45:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "スヌーズ７回くらいで起きた男、放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316328555505",
+     "start": "2026-08-19T09:17:48.000Z",
+     "end": "2026-08-19T16:29:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おい！今日は暑かったわ！用事を済ませ帰宅！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316347363186",
+     "start": "2026-08-21T11:03:02.000Z",
+     "end": "2026-08-21T20:52:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談のち禁煙マリオメーカーしたいと思ってる。思っているだけかもしれん、放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316340803953",
+     "start": "2026-08-22T03:24:17.000Z",
+     "end": "2026-08-22T16:00:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "土曜の昼はスーパーのアジフライとカップラーメンではじまるヨ、放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316355486578",
+     "start": "2026-08-23T02:15:06.000Z",
+     "end": "2026-08-23T20:33:00.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "日曜おはようございます！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316418481779",
+     "start": "2026-08-24T11:31:25.000Z",
+     "end": "2026-08-24T20:20:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談！マリメ、A帯目指しているがその前に俺が壊れてしまう；；放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316368931698",
+     "start": "2026-08-26T03:08:57.000Z",
+     "end": "2026-08-26T07:44:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんにちは！RPG強化週間、FF16夜からヤる！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316360029297",
+     "start": "2026-08-26T09:12:38.000Z",
+     "end": "2026-08-26T17:46:41.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "起床、整ったら火曜ロードショーFF１６",
+     "game": null
+    },
+    {
+     "stream_id": "316374499570",
+     "start": "2026-08-27T09:12:07.000Z",
+     "end": "2026-08-27T18:22:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんばんは！雑からFFだナ！",
+     "game": null
+    },
+    {
+     "stream_id": "316367887473",
+     "start": "2026-08-28T04:08:24.000Z",
+     "end": "2026-08-28T19:32:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "寝起きたらまず雑だよナ！？？放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316373131633",
+     "start": "2026-08-29T07:01:02.000Z",
+     "end": "2026-08-29T18:18:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "１８時までマリメをまもなくする！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316443946611",
+     "start": "2026-08-30T02:40:12.000Z",
+     "end": "2026-08-30T06:45:45.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ダチョブまでマリメをする【７日目】",
+     "game": null
+    },
+    {
+     "stream_id": "316449183603",
+     "start": "2026-08-31T06:27:27.000Z",
+     "end": "2026-08-31T18:06:48.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "金煙マリメをする【８日目】※１８時半あたりから月曜ロードショー",
+     "game": null
+    },
+    {
+     "stream_id": "316395762546",
+     "start": "2026-09-01T03:11:11.000Z",
+     "end": "2026-09-01T17:20:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "昨日できなかったスト６からのマリメ予定、あくまでも予定",
+     "game": null
+    },
+    {
+     "stream_id": "316400190194",
+     "start": "2026-09-02T03:00:16.000Z",
+     "end": "2026-09-02T15:13:48.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "禁煙マリオメーカー２【幾日経ったかはもう知らぬ】",
+     "game": null
+    },
+    {
+     "stream_id": "316399289841",
+     "start": "2026-09-04T04:26:49.000Z",
+     "end": "2026-09-04T14:52:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "禁煙マリオメーカー２ A帯からS帯へーーーーー",
+     "game": null
+    },
+    {
+     "stream_id": "316403748081",
+     "start": "2026-09-05T03:16:15.000Z",
+     "end": "2026-09-05T06:06:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "15時半までスクワッドでPUBGしませんか",
+     "game": null
+    },
+    {
+     "stream_id": "316414824050",
+     "start": "2026-09-05T09:00:21.000Z",
+     "end": "2026-09-05T14:04:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "PUBG LAND2026 布団ちゃん視点with加藤純一、もこう、おにや",
+     "game": null
+    },
+    {
+     "stream_id": "316408600945",
+     "start": "2026-09-06T03:31:31.000Z",
+     "end": "2026-09-06T15:42:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "まずカレーうどんを食う枠",
+     "game": null
+    },
+    {
+     "stream_id": "316414976369",
+     "start": "2026-09-07T12:16:02.000Z",
+     "end": "2026-09-07T18:03:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "遅くなり申した",
+     "game": null
+    },
+    {
+     "stream_id": "316485456115",
+     "start": "2026-09-08T07:13:56.000Z",
+     "end": "2026-09-08T15:49:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今日こそS帯突入！？禁煙マリオメーカー！",
+     "game": null
+    },
+    {
+     "stream_id": "316494606579",
+     "start": "2026-09-10T08:51:40.000Z",
+     "end": "2026-09-10T18:06:00.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "先生、トルネコがしたいです...！",
+     "game": null
+    },
+    {
+     "stream_id": "316498700019",
+     "start": "2026-09-11T07:03:37.000Z",
+     "end": "2026-09-11T11:05:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "20時あたりまでのらりくらり！放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316500819827",
+     "start": "2026-09-11T15:05:06.000Z",
+     "end": "2026-09-11T19:00:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKS パチスロ王決定戦 〜L青ブタ編〜 supported by パチマガスロマガ 布団ちゃん視点",
+     "game": null
+    },
+    {
+     "stream_id": "316503123955",
+     "start": "2026-09-12T05:58:27.000Z",
+     "end": "2026-09-12T14:25:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "先生、もっと不思議なダンジョン楽しんだあとにマリカワしたいです...！",
+     "game": null
+    },
+    {
+     "stream_id": "316511931507",
+     "start": "2026-09-14T05:14:44.000Z",
+     "end": "2026-09-14T15:56:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "先生、もっと不思議なダンジョンしてNISCの練習したいです...！",
+     "game": null
+    },
+    {
+     "stream_id": "316459914610",
+     "start": "2026-09-15T08:01:05.000Z",
+     "end": "2026-09-15T18:12:29.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "先生、マリオカートしたいけど、マリオからはなれる日も必要じゃないかって思う。放送！",
+     "game": null
+    },
+    {
+     "stream_id": "316521092467",
+     "start": "2026-09-16T09:39:09.000Z",
+     "end": "2026-09-16T10:59:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "漏電し、エアコン使えない男 今日は２０時まで",
+     "game": null
+    },
+    {
+     "stream_id": "316456946289",
+     "start": "2026-09-17T04:53:18.000Z",
+     "end": "2026-09-17T08:35:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "メシを食らい、マリ〇をする",
+     "game": null
+    },
+    {
+     "stream_id": "316460596209",
+     "start": "2026-09-18T00:50:10.000Z",
+     "end": "2026-09-18T03:01:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おはようございます。納豆炒飯を食べながら",
+     "game": null
+    },
+    {
+     "stream_id": "316477273970",
+     "start": "2026-09-19T04:47:56.000Z",
+     "end": "2026-09-19T15:54:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "昨日は仙台行けずにすまなかった！！！放送！！！",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "50967098",
+    "login": "mokouliszt1",
+    "display_name": "もこうやで",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/9eab22b0-9b8d-4d8d-a61f-554d67970624-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "320420425433",
+     "start": "2026-07-21T03:26:31.000Z",
+     "end": "2026-07-21T06:17:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "放送中！",
+     "game": null
+    },
+    {
+     "stream_id": "320423098585",
+     "start": "2026-07-21T06:28:58.000Z",
+     "end": "2026-07-21T08:05:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "放送中！",
+     "game": null
+    },
+    {
+     "stream_id": "320501926618",
+     "start": "2026-07-22T11:13:23.000Z",
+     "end": "2026-07-22T12:27:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "放送中！",
+     "game": null
+    },
+    {
+     "stream_id": "320769297499",
+     "start": "2026-07-30T19:50:03.000Z",
+     "end": "2026-07-30T22:08:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "放送中！",
+     "game": null
+    },
+    {
+     "stream_id": "316257783921",
+     "start": "2026-08-03T14:26:34.000Z",
+     "end": "2026-08-03T17:15:30.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "どろくさvs木村魚拓軍団 配信者競輪パチスロ対決！もこう",
+     "game": null
+    },
+    {
+     "stream_id": "316394906867",
+     "start": "2026-08-19T09:01:35.000Z",
+     "end": "2026-08-19T10:11:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ムラゲのミラーや！！！",
+     "game": null
+    },
+    {
+     "stream_id": "321075561305",
+     "start": "2026-08-27T17:29:30.000Z",
+     "end": "2026-08-27T19:08:34.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "放送中！",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "752988454",
+    "login": "yuyuta0702",
+    "display_name": "ゆゆうた押忍",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/c9923860-b55f-435f-be2d-560107cc2205-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316198798577",
+     "start": "2026-07-21T09:00:34.000Z",
+     "end": "2026-07-21T15:45:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！",
+     "game": null
+    },
+    {
+     "stream_id": "316207534321",
+     "start": "2026-07-23T09:00:42.000Z",
+     "end": "2026-07-23T15:36:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍",
+     "game": null
+    },
+    {
+     "stream_id": "316211902065",
+     "start": "2026-07-24T09:00:14.000Z",
+     "end": "2026-07-24T17:29:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍",
+     "game": null
+    },
+    {
+     "stream_id": "316280799475",
+     "start": "2026-07-25T09:00:10.000Z",
+     "end": "2026-07-25T16:31:05.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316220392177",
+     "start": "2026-07-26T04:27:23.000Z",
+     "end": "2026-07-26T07:55:08.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316225616241",
+     "start": "2026-07-27T08:59:40.000Z",
+     "end": "2026-07-27T14:22:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316291497587",
+     "start": "2026-07-27T14:30:19.000Z",
+     "end": "2026-07-27T15:06:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "真夏の夜のゆゆ散歩",
+     "game": null
+    },
+    {
+     "stream_id": "316229410801",
+     "start": "2026-07-28T05:58:23.000Z",
+     "end": "2026-07-28T06:38:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ホロドリをやる戦士",
+     "game": null
+    },
+    {
+     "stream_id": "316229534833",
+     "start": "2026-07-28T06:38:56.000Z",
+     "end": "2026-07-28T09:10:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ホロドリをやる戦士",
+     "game": null
+    },
+    {
+     "stream_id": "316303140083",
+     "start": "2026-07-30T09:00:32.000Z",
+     "end": "2026-07-30T10:32:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316247441650",
+     "start": "2026-07-30T10:36:34.000Z",
+     "end": "2026-07-30T15:44:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "RUST 練習",
+     "game": null
+    },
+    {
+     "stream_id": "316307515251",
+     "start": "2026-07-31T09:03:28.000Z",
+     "end": "2026-07-31T13:58:04.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUST チーム顔合わせ！",
+     "game": null
+    },
+    {
+     "stream_id": "316312164467",
+     "start": "2026-08-01T09:00:23.000Z",
+     "end": "2026-08-01T19:56:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！",
+     "game": null
+    },
+    {
+     "stream_id": "316260632306",
+     "start": "2026-08-02T09:07:07.000Z",
+     "end": "2026-08-02T16:08:11.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "すまんいまおきた！",
+     "game": null
+    },
+    {
+     "stream_id": "316266305010",
+     "start": "2026-08-03T14:25:59.000Z",
+     "end": "2026-08-03T17:15:13.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "(ゆゆうた視点)きむちゃんねる軍 vs DRKS軍 パチスロ×競輪 最強バトル 【木村魚拓、青山りょう、JIRO、水樹あや】【もこう、おにや、布団ちゃん、ゆゆうた】",
+     "game": null
+    },
+    {
+     "stream_id": "316269115634",
+     "start": "2026-08-04T09:00:44.000Z",
+     "end": "2026-08-04T20:41:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！",
+     "game": null
+    },
+    {
+     "stream_id": "316264970737",
+     "start": "2026-08-05T08:53:55.000Z",
+     "end": "2026-08-05T16:25:32.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUST 猛練習編",
+     "game": null
+    },
+    {
+     "stream_id": "316277780722",
+     "start": "2026-08-06T09:01:26.000Z",
+     "end": "2026-08-06T15:01:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ossu!!!",
+     "game": null
+    },
+    {
+     "stream_id": "316281909490",
+     "start": "2026-08-07T07:59:45.000Z",
+     "end": "2026-08-07T22:24:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコニコ老人会RUST 開始",
+     "game": null
+    },
+    {
+     "stream_id": "316286779634",
+     "start": "2026-08-08T09:31:47.000Z",
+     "end": "2026-08-08T10:21:04.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコニコ老人会RUST 開始",
+     "game": null
+    },
+    {
+     "stream_id": "316278703729",
+     "start": "2026-08-08T10:23:24.000Z",
+     "end": "2026-08-08T19:58:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコニコ老人会RUST 開始",
+     "game": null
+    },
+    {
+     "stream_id": "316347231091",
+     "start": "2026-08-09T03:28:08.000Z",
+     "end": "2026-08-09T15:37:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第３回ニコニコ老人会RUST 最終日！",
+     "game": null
+    },
+    {
+     "stream_id": "316301240562",
+     "start": "2026-08-11T08:49:11.000Z",
+     "end": "2026-08-11T19:27:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "乙",
+     "game": null
+    },
+    {
+     "stream_id": "316297116913",
+     "start": "2026-08-12T09:00:16.000Z",
+     "end": "2026-08-12T15:42:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "魔法少女の魔女裁判 初見プレイ 第2話",
+     "game": null
+    },
+    {
+     "stream_id": "316310698610",
+     "start": "2026-08-13T09:00:30.000Z",
+     "end": "2026-08-13T15:02:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "魔法少女の魔女裁判 初見プレイ 第3話",
+     "game": null
+    },
+    {
+     "stream_id": "316376149363",
+     "start": "2026-08-15T07:11:02.000Z",
+     "end": "2026-08-15T17:49:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！",
+     "game": null
+    },
+    {
+     "stream_id": "316381411571",
+     "start": "2026-08-16T09:00:34.000Z",
+     "end": "2026-08-16T16:17:24.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！",
+     "game": null
+    },
+    {
+     "stream_id": "316324130289",
+     "start": "2026-08-18T08:59:01.000Z",
+     "end": "2026-08-18T15:39:46.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316338033650",
+     "start": "2026-08-19T08:56:38.000Z",
+     "end": "2026-08-19T15:17:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316408550003",
+     "start": "2026-08-22T09:00:56.000Z",
+     "end": "2026-08-22T16:58:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316410864499",
+     "start": "2026-08-22T17:02:27.000Z",
+     "end": "2026-08-22T18:03:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "鬱散歩",
+     "game": null
+    },
+    {
+     "stream_id": "316417905395",
+     "start": "2026-08-24T08:58:44.000Z",
+     "end": "2026-08-24T18:13:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316368539249",
+     "start": "2026-08-28T07:54:52.000Z",
+     "end": "2026-08-28T15:37:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "帰宅！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316382738162",
+     "start": "2026-08-29T05:17:09.000Z",
+     "end": "2026-08-29T13:29:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316384787058",
+     "start": "2026-08-29T13:36:26.000Z",
+     "end": "2026-08-29T14:16:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "夜のゆゆ散歩",
+     "game": null
+    },
+    {
+     "stream_id": "316445339635",
+     "start": "2026-08-30T09:00:12.000Z",
+     "end": "2026-08-30T15:03:16.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316449627379",
+     "start": "2026-08-31T09:00:24.000Z",
+     "end": "2026-09-01T00:21:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316453925107",
+     "start": "2026-09-01T09:00:21.000Z",
+     "end": "2026-09-01T18:47:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "pogoの時間だああああああああ",
+     "game": null
+    },
+    {
+     "stream_id": "316401145330",
+     "start": "2026-09-02T08:49:14.000Z",
+     "end": "2026-09-02T16:43:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！",
+     "game": null
+    },
+    {
+     "stream_id": "316460511347",
+     "start": "2026-09-02T16:49:26.000Z",
+     "end": "2026-09-02T17:48:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "デス散歩",
+     "game": null
+    },
+    {
+     "stream_id": "316467306739",
+     "start": "2026-09-04T09:00:36.000Z",
+     "end": "2026-09-04T18:02:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316404890353",
+     "start": "2026-09-05T08:57:45.000Z",
+     "end": "2026-09-05T15:09:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316419653106",
+     "start": "2026-09-06T09:00:35.000Z",
+     "end": "2026-09-06T20:40:34.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316414065137",
+     "start": "2026-09-07T09:00:15.000Z",
+     "end": "2026-09-07T13:59:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316428530930",
+     "start": "2026-09-08T09:00:10.000Z",
+     "end": "2026-09-08T22:00:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316423280625",
+     "start": "2026-09-09T10:03:33.000Z",
+     "end": "2026-09-09T18:01:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おはようございます！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316494628595",
+     "start": "2026-09-10T08:59:22.000Z",
+     "end": "2026-09-10T23:54:23.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！",
+     "game": null
+    },
+    {
+     "stream_id": "316500821491",
+     "start": "2026-09-11T15:05:32.000Z",
+     "end": "2026-09-11T19:00:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKS パチスロ王決定戦 〜L青ブタ編〜 supported by パチマガスロマガ ゆゆうた視点",
+     "game": null
+    },
+    {
+     "stream_id": "316507260147",
+     "start": "2026-09-13T03:44:05.000Z",
+     "end": "2026-09-13T08:54:42.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316451524082",
+     "start": "2026-09-13T09:00:47.000Z",
+     "end": "2026-09-13T14:25:17.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ヴァロラント vsマタギスナイパーズ 勝つぞ！！！！！！配信",
+     "game": null
+    },
+    {
+     "stream_id": "316444767985",
+     "start": "2026-09-14T07:35:09.000Z",
+     "end": "2026-09-14T14:31:21.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！からのpogoクリアまで",
+     "game": null
+    },
+    {
+     "stream_id": "316460082674",
+     "start": "2026-09-15T08:59:50.000Z",
+     "end": "2026-09-15T15:16:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316520862707",
+     "start": "2026-09-16T08:23:56.000Z",
+     "end": "2026-09-16T09:05:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雨のゆゆ散歩",
+     "game": null
+    },
+    {
+     "stream_id": "316469175922",
+     "start": "2026-09-17T09:00:44.000Z",
+     "end": "2026-09-17T14:42:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316461840753",
+     "start": "2026-09-18T08:51:32.000Z",
+     "end": "2026-09-18T09:45:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ゆゆ散歩 秋葉原編",
+     "game": null
+    },
+    {
+     "stream_id": "316478294514",
+     "start": "2026-09-19T09:01:51.000Z",
+     "end": "2026-09-19T15:39:23.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "押忍！！！！",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "605425209",
+    "login": "oniyadayo",
+    "display_name": "おにや",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2e63e25e-5372-4b80-99da-1aad3ebde532-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316264202355",
+     "start": "2026-07-21T13:54:45.000Z",
+     "end": "2026-07-21T16:20:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "寝る前のリラックスぺクスはこちら！！！！！SOXじゃなくてペックスなんよ！！睡眠導入枠。安眠。寝れない皆さんへ。APEX LEGENDS！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316203134193",
+     "start": "2026-07-22T08:59:36.000Z",
+     "end": "2026-07-22T12:01:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "グラブルリリンクPARKでるぜ！！！！Dチームリーダーとして勝つ！！！！with みゃこさんみさこさんゆふな！！【PR】",
+     "game": null
+    },
+    {
+     "stream_id": "316212797553",
+     "start": "2026-07-24T12:29:07.000Z",
+     "end": "2026-07-24T18:23:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "steamで圧倒的高評価のベルギー産サスペンスホラーゲーム「MOLE」というインディゲームやっていく！",
+     "game": null
+    },
+    {
+     "stream_id": "316285259123",
+     "start": "2026-07-26T07:06:35.000Z",
+     "end": "2026-07-26T14:36:11.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "シャドバCRリーグ第2節！！！現在２位の我がチーム！！完全に勝利を掴むぜおい！！！※３分ディレイ！",
+     "game": null
+    },
+    {
+     "stream_id": "316230427377",
+     "start": "2026-07-28T11:10:54.000Z",
+     "end": "2026-07-28T14:12:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "傷心中ゆえに何かチルなリラックスできるゲームを探す男！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316307839347",
+     "start": "2026-07-31T10:40:44.000Z",
+     "end": "2026-07-31T12:42:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "どうもペク界の狩人です。ここでペクスを仕掛けられる男が高みへ行く。魂のAPEX LEGENDS！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316246841201",
+     "start": "2026-08-01T05:32:33.000Z",
+     "end": "2026-08-01T07:25:05.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "シャドバプレミアシリーズ！！ヘッドとしてREJECTの勝利を見届ける！！！！勝てよ！！！おい！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316252511217",
+     "start": "2026-08-02T11:02:34.000Z",
+     "end": "2026-08-02T13:24:39.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "FPS老人会として本日はついにリリースされた「サドンアタック」をやっていきます！！！１５年ぶりの古巣へ。胸が高まります。いざ！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316257782513",
+     "start": "2026-08-03T14:26:09.000Z",
+     "end": "2026-08-03T17:15:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【おにや視点】きむちゃんねる軍 vs DRKS軍 パチスロ×競輪 最強バトル 【木村魚拓、青山りょう、JIRO、水樹あや】【もこう、おにや、布団ちゃん、ゆゆうた】",
+     "game": null
+    },
+    {
+     "stream_id": "316325568627",
+     "start": "2026-08-04T09:17:38.000Z",
+     "end": "2026-08-04T13:05:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おにやに再びやってほしいゲームランキング上半期第１位を取った「ストリートファイター６」をやっていきたいと思います！！！投票総数１件！！！みんな！！たくさんのリクエストありがとう！！！LEGENDケン使い行きます。",
+     "game": null
+    },
+    {
+     "stream_id": "316273358962",
+     "start": "2026-08-05T08:21:18.000Z",
+     "end": "2026-08-05T10:04:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "どうも皆のヘッドです。ストップ高を当てすぎてすいませんｗ株ってイージーだねぇｗあまりに気持ちが良い夕暮れ刻。ここでシャドバプレミアシリーズ我がチームのＲＥＪＥＣＴ 対 ＣＲを応援ミラーさせて頂きます！！勝てよ！！！！オイ！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316296600690",
+     "start": "2026-08-10T08:33:27.000Z",
+     "end": "2026-08-10T11:20:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "日々の落ち着きを取り戻したのでなんか夏っぽいゲームをやっていく男！！！まずなんか探すぜ！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316371423475",
+     "start": "2026-08-14T07:05:23.000Z",
+     "end": "2026-08-14T12:00:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "CRシャドバリーグ最終節！！さぁ今期の象徴環境のクライマックスへいざ！！",
+     "game": null
+    },
+    {
+     "stream_id": "316320612337",
+     "start": "2026-08-17T12:13:02.000Z",
+     "end": "2026-08-17T14:32:00.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "配信、動画投稿そして配信！！真夏のトライアスロンを新シーズンのぺクスで迎え撃つ男！！だが初日で既にマターリ寄りである！！これもまた人生なのだ！！！APEX LEGENDS！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316338265330",
+     "start": "2026-08-19T10:08:01.000Z",
+     "end": "2026-08-19T13:52:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "シャドバPS！！REJECT頑張って圧勝を見せてくれミラー配信！！VS RIDLE！！",
+     "game": null
+    },
+    {
+     "stream_id": "316403395443",
+     "start": "2026-08-21T07:01:51.000Z",
+     "end": "2026-08-21T12:28:30.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "新環境のぺクスがおもしろすぎる件。ぺクスのプロとしてシルバー帯で負ける訳にいかない。蹂躙を魅せる！！ＡＰＥＸ ＬＥＧＥＮＤＳ！！",
+     "game": null
+    },
+    {
+     "stream_id": "316409070195",
+     "start": "2026-08-22T11:04:10.000Z",
+     "end": "2026-08-22T18:01:28.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "夏休みSP！！あのイカしたメンバーが帰ってきた！？-この夏、何かが起こる-人類は目撃する。焼き付けろそのぺクスを。「-ペク部 with 関優太、SPYGEA」さぁいくぞ夏はApex Legends！！",
+     "game": null
+    },
+    {
+     "stream_id": "316347341297",
+     "start": "2026-08-23T11:42:08.000Z",
+     "end": "2026-08-23T16:46:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "劇場版-ペク部ー「夏の陣 with  関優太、SPYGEA」さぁ夢のプラチナの世界へ。",
+     "game": null
+    },
+    {
+     "stream_id": "316361588978",
+     "start": "2026-08-24T10:42:57.000Z",
+     "end": "2026-08-24T18:15:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "仲間たちの「想い」を背負って。ペク部の部長として。公式大会優勝者として。最難関ソロプラチナを達成してみせます！！！！！魂のAPEX LEGENDS！！",
+     "game": null
+    },
+    {
+     "stream_id": "316370360946",
+     "start": "2026-08-26T10:41:06.000Z",
+     "end": "2026-08-26T13:22:04.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "第１回視聴者総会～グッズデザインを決める枠～デザイナーの才能も開花させてしまう男。なんかシンボルマーク的なやつも欲しい。倒したいライバル企業、ルイヴィトン、グッチ、バレンシアガ、ロエベ、ロレックス",
+     "game": null
+    },
+    {
+     "stream_id": "316374760434",
+     "start": "2026-08-27T10:25:11.000Z",
+     "end": "2026-08-27T16:39:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "やっとシャドバ新弾きたぁああああああ！！！魔手もナーフでなかなかエグい八獄環境との噂！！！ナイトメア研究会としてナイトメアを環境ＴＯＰにさせます！！！shadow verse！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316387878514",
+     "start": "2026-08-30T07:16:35.000Z",
+     "end": "2026-08-30T11:23:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "既に今期グラマス到達＆ダイヤ戦績７０％超え維持の名実ともにナイトメア名手な漢のREJECT応援ミラー放送！！！VS我が古巣ZETA！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316392260722",
+     "start": "2026-08-31T07:40:07.000Z",
+     "end": "2026-08-31T11:19:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "夏休みの最終日を締めくくるゲーム。8月に最後に選ばれたゲームはァァァァァ！！デデン！！！！！！Apex Legends。いざソロダイヤへ。",
+     "game": null
+    },
+    {
+     "stream_id": "316395422577",
+     "start": "2026-09-03T07:25:56.000Z",
+     "end": "2026-09-03T10:21:07.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "早寝早起き昼下がりの健康ぺクス。これこそ心技一体の最強生活習慣なり。晩飯タイムまでにいざソロダイヤへ。APEX LEGENDS！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316408972786",
+     "start": "2026-09-04T04:18:51.000Z",
+     "end": "2026-09-04T05:50:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ハイゲまでに腹筋シックスパックのゴリゴリマッチョになる漢。「オタクジムCLALABO」さんから筋トレ案件を頂きました！！！#PR",
+     "game": null
+    },
+    {
+     "stream_id": "316414824690",
+     "start": "2026-09-05T09:00:32.000Z",
+     "end": "2026-09-05T14:04:29.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "元スマホゲーのプロとしてPUBG LAND 2026完全優勝する！！オクトパスフィンガー！！！加藤さん、布団さん、もこうさんを導く！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316481321459",
+     "start": "2026-09-07T10:05:02.000Z",
+     "end": "2026-09-07T16:30:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "男のソロダイヤチャレンジ最終章！！！！俺はこの環境でプロとしてダイヤの輝きを取るんだぁぁぁ！！現在P3！！！APEX LEGENDS！！",
+     "game": null
+    },
+    {
+     "stream_id": "316490461299",
+     "start": "2026-09-09T10:14:05.000Z",
+     "end": "2026-09-09T11:52:42.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今期最高64位、ナイトメア現ULTIMATEによる完全解説シャドバPSミラー！！REJECT VS レバンガ応援いくぜ！！！ナイトメア任せてください。",
+     "game": null
+    },
+    {
+     "stream_id": "316427733233",
+     "start": "2026-09-10T10:45:42.000Z",
+     "end": "2026-09-10T13:02:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺はソロダイヤの資格があるんだよ。それを証明する！！ソロダイヤクライマックス！！一人の漢として。ぺクサーの代表として。ペク部部長として。いくｚ！！Apex Legends！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316439023218",
+     "start": "2026-09-10T15:21:06.000Z",
+     "end": "2026-09-10T17:11:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ソロダイヤ到達への猛者。１日４枠配信という大記録へいざ！！現在P3！！Apex Legends！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316500815475",
+     "start": "2026-09-11T15:04:26.000Z",
+     "end": "2026-09-11T19:00:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKS パチスロ王決定戦 〜L青ブタ編〜 supported by パチマガスロマガ おにや視点",
+     "game": null
+    },
+    {
+     "stream_id": "316466067058",
+     "start": "2026-09-16T14:31:31.000Z",
+     "end": "2026-09-16T17:33:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKSでやりたい企画があります！その企画はシャドウバースランクマナイトメア縛りポイント大会！！どうですか！チルshadow verseしていく！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316525426547",
+     "start": "2026-09-17T10:01:07.000Z",
+     "end": "2026-09-17T15:39:37.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ぺクス新シーズンきたぁぁあああ！！蹂躙するぜええええ！親指０日目👍Apex Legends！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316534290803",
+     "start": "2026-09-19T10:34:58.000Z",
+     "end": "2026-09-19T16:53:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺はぺクスを極めないといけない。エペ部の部長して。キーマウ１６００日目👍Apex Legends！！！",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "792691462",
+    "login": "assarisyoko1",
+    "display_name": "あっさりしょこー",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2317edf4-3b28-4854-a698-f8ba84243ea2-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316208163314",
+     "start": "2026-07-21T11:25:40.000Z",
+     "end": "2026-07-21T15:30:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ドブドやる",
+     "game": null
+    },
+    {
+     "stream_id": "316211931890",
+     "start": "2026-07-22T09:02:13.000Z",
+     "end": "2026-07-22T12:02:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "グラブルリリンンクPARK 勝つぞ！！#PR",
+     "game": null
+    },
+    {
+     "stream_id": "316216492658",
+     "start": "2026-07-23T10:07:58.000Z",
+     "end": "2026-07-23T15:05:33.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "スプラトゥーンレイダースをやる",
+     "game": null
+    },
+    {
+     "stream_id": "316220714866",
+     "start": "2026-07-24T09:32:32.000Z",
+     "end": "2026-07-24T16:40:32.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "20時くらいまでドブド",
+     "game": null
+    },
+    {
+     "stream_id": "316303101939",
+     "start": "2026-07-30T08:49:21.000Z",
+     "end": "2026-07-30T16:48:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おひさしびり",
+     "game": null
+    },
+    {
+     "stream_id": "316256469234",
+     "start": "2026-08-01T11:03:56.000Z",
+     "end": "2026-08-01T15:23:18.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "Shape of Dreams というゲームをみんなでやる w/フルコンEXAMまお #PR",
+     "game": null
+    },
+    {
+     "stream_id": "316321805427",
+     "start": "2026-08-03T11:47:23.000Z",
+     "end": "2026-08-03T19:53:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "rust のちほどチームのみんなと",
+     "game": null
+    },
+    {
+     "stream_id": "316325972211",
+     "start": "2026-08-04T11:03:08.000Z",
+     "end": "2026-08-04T16:15:41.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "rustを学ぶ",
+     "game": null
+    },
+    {
+     "stream_id": "316273815026",
+     "start": "2026-08-05T10:38:05.000Z",
+     "end": "2026-08-05T14:57:58.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "デッドバイやろうぜ！",
+     "game": null
+    },
+    {
+     "stream_id": "316334873587",
+     "start": "2026-08-06T11:00:43.000Z",
+     "end": "2026-08-06T15:03:11.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "RUSTやろうや！",
+     "game": null
+    },
+    {
+     "stream_id": "316338762099",
+     "start": "2026-08-07T08:28:11.000Z",
+     "end": "2026-08-08T04:23:07.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUST一日目！！全員ぶっ飛ばす",
+     "game": null
+    },
+    {
+     "stream_id": "316286252274",
+     "start": "2026-08-08T07:00:26.000Z",
+     "end": "2026-08-09T00:09:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUSTに日目！！全員ぶっ飛ばす",
+     "game": null
+    },
+    {
+     "stream_id": "316282220273",
+     "start": "2026-08-09T04:03:56.000Z",
+     "end": "2026-08-09T15:18:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUST三日目！！全員ぶっ飛ばす",
+     "game": null
+    },
+    {
+     "stream_id": "316311278706",
+     "start": "2026-08-13T11:32:39.000Z",
+     "end": "2026-08-13T15:33:31.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "寝るまでちょっとだけやる",
+     "game": null
+    },
+    {
+     "stream_id": "316315757041",
+     "start": "2026-08-16T09:49:53.000Z",
+     "end": "2026-08-16T21:20:28.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "釈迦さんとわいわいさんとバトラさんとマイクらハードコア",
+     "game": null
+    },
+    {
+     "stream_id": "316404030579",
+     "start": "2026-08-21T10:22:56.000Z",
+     "end": "2026-08-21T17:10:35.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ビッツ禁止/ナイトレインカンスト目指す",
+     "game": null
+    },
+    {
+     "stream_id": "316365838450",
+     "start": "2026-08-25T10:24:53.000Z",
+     "end": "2026-08-25T18:29:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ビッツ禁止/ナイトレインカンスト目指す2",
+     "game": null
+    },
+    {
+     "stream_id": "316431406067",
+     "start": "2026-08-27T10:15:56.000Z",
+     "end": "2026-08-27T20:03:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "マイクラハードコアみんなでクリアリベンジ",
+     "game": null
+    },
+    {
+     "stream_id": "316379118962",
+     "start": "2026-08-28T10:36:22.000Z",
+     "end": "2026-08-28T15:38:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ナイトレインカンストへの道/ビッツ禁止",
+     "game": null
+    },
+    {
+     "stream_id": "316378615409",
+     "start": "2026-08-30T09:50:56.000Z",
+     "end": "2026-08-30T15:44:39.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DbD/ジャッジメントの可能性を探る",
+     "game": null
+    },
+    {
+     "stream_id": "316393026674",
+     "start": "2026-08-31T11:25:08.000Z",
+     "end": "2026-08-31T15:43:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DbD/ジャッジメントの可能性は無限大なのかもしれない",
+     "game": null
+    },
+    {
+     "stream_id": "316397727602",
+     "start": "2026-09-01T12:35:13.000Z",
+     "end": "2026-09-01T16:59:21.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "どうも！DbDと申します",
+     "game": null
+    },
+    {
+     "stream_id": "316459092339",
+     "start": "2026-09-02T11:26:46.000Z",
+     "end": "2026-09-02T15:45:21.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "どうも～！DbDで～す！",
+     "game": null
+    },
+    {
+     "stream_id": "316405156081",
+     "start": "2026-09-05T10:13:14.000Z",
+     "end": "2026-09-05T16:12:27.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DbDと申します！よろしくお願いします！",
+     "game": null
+    },
+    {
+     "stream_id": "316410020721",
+     "start": "2026-09-06T09:59:02.000Z",
+     "end": "2026-09-06T19:12:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "バトラさん釈迦さんわいわいさんとL4D2",
+     "game": null
+    },
+    {
+     "stream_id": "316424764402",
+     "start": "2026-09-07T11:19:14.000Z",
+     "end": "2026-09-07T15:47:48.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ハロウィンTHEGAME",
+     "game": null
+    },
+    {
+     "stream_id": "316429042674",
+     "start": "2026-09-08T11:14:14.000Z",
+     "end": "2026-09-08T16:56:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DbDをプレイさせていただく",
+     "game": null
+    },
+    {
+     "stream_id": "316423308145",
+     "start": "2026-09-09T10:10:57.000Z",
+     "end": "2026-09-09T10:16:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ハロウィンのゲームをプレイさせていただきたい",
+     "game": null
+    },
+    {
+     "stream_id": "316490482419",
+     "start": "2026-09-09T10:20:16.000Z",
+     "end": "2026-09-09T14:03:37.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ハロウィンのゲームをプレイさせていただきたい",
+     "game": null
+    },
+    {
+     "stream_id": "316451728242",
+     "start": "2026-09-13T09:50:03.000Z",
+     "end": "2026-09-13T15:59:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "本日はハロウィンのゲームをプレイさせていただきたい",
+     "game": null
+    },
+    {
+     "stream_id": "316456380658",
+     "start": "2026-09-14T11:01:28.000Z",
+     "end": "2026-09-14T15:04:32.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今日もオレはハロウィンのゲームをプレイさせていただきく",
+     "game": null
+    },
+    {
+     "stream_id": "316460611442",
+     "start": "2026-09-15T11:01:04.000Z",
+     "end": "2026-09-15T14:48:45.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "友達とハロウィン",
+     "game": null
+    },
+    {
+     "stream_id": "316473479026",
+     "start": "2026-09-18T09:48:18.000Z",
+     "end": "2026-09-18T12:33:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "お疲れ様です！",
+     "game": null
+    },
+    {
+     "stream_id": "316474408818",
+     "start": "2026-09-18T12:39:47.000Z",
+     "end": "2026-09-18T16:59:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "お疲れ様です！→ドブドやろう！",
+     "game": null
+    },
+    {
+     "stream_id": "316466503665",
+     "start": "2026-09-19T10:04:03.000Z",
+     "end": "2026-09-19T21:00:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "トルネコちょっとやらせてくれませんか？",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "93828097",
+    "login": "batora324",
+    "display_name": "バトラ",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/606420a1-58b8-4965-826e-d376b83ac0f8-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316208640626",
+     "start": "2026-07-21T12:51:26.000Z",
+     "end": "2026-07-21T18:33:29.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "マリメ最強の男になりたいいやなる S＋5509～",
+     "game": null
+    },
+    {
+     "stream_id": "316217354610",
+     "start": "2026-07-23T12:59:35.000Z",
+     "end": "2026-07-23T19:27:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "テンション爆上げ男↑↑↑",
+     "game": null
+    },
+    {
+     "stream_id": "316223858802",
+     "start": "2026-07-25T01:52:53.000Z",
+     "end": "2026-07-25T09:19:34.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ガッツリ寝た男",
+     "game": null
+    },
+    {
+     "stream_id": "316220310641",
+     "start": "2026-07-26T04:02:37.000Z",
+     "end": "2026-07-26T12:28:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "W",
+     "game": null
+    },
+    {
+     "stream_id": "316225436913",
+     "start": "2026-07-27T08:00:31.000Z",
+     "end": "2026-07-27T12:19:14.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "😇",
+     "game": null
+    },
+    {
+     "stream_id": "316229713905",
+     "start": "2026-07-28T07:43:52.000Z",
+     "end": "2026-07-28T13:49:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談してまり召して夜間警備予定",
+     "game": null
+    },
+    {
+     "stream_id": "316242707314",
+     "start": "2026-07-29T08:28:23.000Z",
+     "end": "2026-07-29T15:33:06.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ういういういう",
+     "game": null
+    },
+    {
+     "stream_id": "316302237811",
+     "start": "2026-07-30T03:48:03.000Z",
+     "end": "2026-07-30T03:54:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんな暑い日は引きこもって配信に限る放送",
+     "game": null
+    },
+    {
+     "stream_id": "316246268402",
+     "start": "2026-07-30T03:58:28.000Z",
+     "end": "2026-07-30T11:53:39.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんな暑い日は引きこもって配信に限る放送",
+     "game": null
+    },
+    {
+     "stream_id": "316250494834",
+     "start": "2026-07-31T03:47:28.000Z",
+     "end": "2026-07-31T08:25:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "建築練習→夜に練習用サーバー",
+     "game": null
+    },
+    {
+     "stream_id": "316242947953",
+     "start": "2026-07-31T09:27:47.000Z",
+     "end": "2026-08-01T00:04:30.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会rust 練習用サーバー行くぞ！！",
+     "game": null
+    },
+    {
+     "stream_id": "316247198065",
+     "start": "2026-08-01T07:17:55.000Z",
+     "end": "2026-08-01T08:37:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "小一時間マリメして出かける ～俺のレート返してください～",
+     "game": null
+    },
+    {
+     "stream_id": "316259464690",
+     "start": "2026-08-02T03:16:13.000Z",
+     "end": "2026-08-02T08:42:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "近々メンバー集まるかもRUST",
+     "game": null
+    },
+    {
+     "stream_id": "316320002547",
+     "start": "2026-08-03T02:10:47.000Z",
+     "end": "2026-08-03T04:46:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "チーム集まるまでに拠点完成させたい",
+     "game": null
+    },
+    {
+     "stream_id": "316321862771",
+     "start": "2026-08-03T11:58:03.000Z",
+     "end": "2026-08-03T19:54:00.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "チーム顔合わせ わいわいリーダー、釈迦さん、しょこ",
+     "game": null
+    },
+    {
+     "stream_id": "316264565617",
+     "start": "2026-08-05T06:37:57.000Z",
+     "end": "2026-08-05T11:45:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "らすとからのなにか",
+     "game": null
+    },
+    {
+     "stream_id": "316334760819",
+     "start": "2026-08-06T10:34:53.000Z",
+     "end": "2026-08-06T16:17:36.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "RUST練習サーバー最終日 のちほどしょこと深海いくよ",
+     "game": null
+    },
+    {
+     "stream_id": "316338756595",
+     "start": "2026-08-07T08:26:10.000Z",
+     "end": "2026-08-07T22:44:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUST本番いくぞ！！！！！！！！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316341939699",
+     "start": "2026-08-08T00:16:34.000Z",
+     "end": "2026-08-08T04:21:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "レイドくるらしい",
+     "game": null
+    },
+    {
+     "stream_id": "316343287027",
+     "start": "2026-08-08T07:30:06.000Z",
+     "end": "2026-08-09T04:07:45.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "悪い夢を見ていた気がする",
+     "game": null
+    },
+    {
+     "stream_id": "316283069553",
+     "start": "2026-08-09T08:12:52.000Z",
+     "end": "2026-08-09T20:54:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ラストスパートいくぞ！！！",
+     "game": null
+    },
+    {
+     "stream_id": "316357326451",
+     "start": "2026-08-11T07:04:17.000Z",
+     "end": "2026-08-11T18:39:08.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "日常が戻ってきた。老人会くそおもろかったな！",
+     "game": null
+    },
+    {
+     "stream_id": "316363155315",
+     "start": "2026-08-12T12:08:32.000Z",
+     "end": "2026-08-12T18:29:12.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今日はナポリタンとパンケーキを食べました。おいしかったです。",
+     "game": null
+    },
+    {
+     "stream_id": "316303210097",
+     "start": "2026-08-13T14:02:00.000Z",
+     "end": "2026-08-13T17:43:47.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ﾊﾞｸﾓﾘｵﾄｺｫ‼️ S＋5447～",
+     "game": null
+    },
+    {
+     "stream_id": "316374860531",
+     "start": "2026-08-15T00:04:25.000Z",
+     "end": "2026-08-15T04:29:37.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おはようございます。でかけるあｍで。",
+     "game": null
+    },
+    {
+     "stream_id": "316381549299",
+     "start": "2026-08-16T09:40:49.000Z",
+     "end": "2026-08-16T21:53:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "みんなでマイクラハードコアクリア目指す わいわいさん、釈迦さん、しょこ",
+     "game": null
+    },
+    {
+     "stream_id": "316329393522",
+     "start": "2026-08-17T09:53:59.000Z",
+     "end": "2026-08-17T23:01:00.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "マイクラハードコア わいわいさんとどっちが先にクリアできるか対決",
+     "game": null
+    },
+    {
+     "stream_id": "316334073714",
+     "start": "2026-08-18T10:53:41.000Z",
+     "end": "2026-08-18T12:11:21.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "みんなでハイゲダイレクトみようぜ配信",
+     "game": null
+    },
+    {
+     "stream_id": "316330076401",
+     "start": "2026-08-19T14:25:20.000Z",
+     "end": "2026-08-19T20:18:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "体調ゲキワル男",
+     "game": null
+    },
+    {
+     "stream_id": "316344796530",
+     "start": "2026-08-20T18:33:43.000Z",
+     "end": "2026-08-21T05:21:10.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "からだがおかしいなんだこれ",
+     "game": null
+    },
+    {
+     "stream_id": "316340022129",
+     "start": "2026-08-21T22:26:25.000Z",
+     "end": "2026-08-22T02:44:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺のシルバーPEXをみてくれ 12時ごろまで",
+     "game": null
+    },
+    {
+     "stream_id": "316344564337",
+     "start": "2026-08-22T20:28:57.000Z",
+     "end": "2026-08-23T09:10:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "シルバーでスタックしているAPEXをみれるのはここだけ！",
+     "game": null
+    },
+    {
+     "stream_id": "316413954419",
+     "start": "2026-08-23T10:42:21.000Z",
+     "end": "2026-08-23T15:27:54.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "最近モリモリな男 S＋5565～",
+     "game": null
+    },
+    {
+     "stream_id": "316416431859",
+     "start": "2026-08-24T00:08:10.000Z",
+     "end": "2026-08-24T09:25:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんな僕でもプラチナを目指しています ゴールド2～",
+     "game": null
+    },
+    {
+     "stream_id": "316363908466",
+     "start": "2026-08-24T22:41:01.000Z",
+     "end": "2026-08-25T09:52:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "プラチナの敵が強いです。助けてください。",
+     "game": null
+    },
+    {
+     "stream_id": "316356368113",
+     "start": "2026-08-25T12:03:19.000Z",
+     "end": "2026-08-25T16:11:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺だよ俺",
+     "game": null
+    },
+    {
+     "stream_id": "316364508401",
+     "start": "2026-08-27T09:55:43.000Z",
+     "end": "2026-08-27T20:10:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "みんなでマイクラハードコア ~リベンジ編~",
+     "game": null
+    },
+    {
+     "stream_id": "316377868786",
+     "start": "2026-08-28T03:39:54.000Z",
+     "end": "2026-08-28T09:38:41.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "この俺がプラチナ4でスタックするわけがない",
+     "game": null
+    },
+    {
+     "stream_id": "316436253427",
+     "start": "2026-08-28T11:55:31.000Z",
+     "end": "2026-08-28T17:58:40.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "今もっとも赤帯に近い男 S＋5655～",
+     "game": null
+    },
+    {
+     "stream_id": "316384418034",
+     "start": "2026-08-29T12:28:06.000Z",
+     "end": "2026-08-30T09:52:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "くたくたになるまでマリメをやる S＋5552～",
+     "game": null
+    },
+    {
+     "stream_id": "316453064179",
+     "start": "2026-09-01T03:50:17.000Z",
+     "end": "2026-09-01T08:14:12.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "こんな僕でもダイヤを目指しています",
+     "game": null
+    },
+    {
+     "stream_id": "316404943601",
+     "start": "2026-09-05T09:12:56.000Z",
+     "end": "2026-09-05T19:43:57.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おひさ",
+     "game": null
+    },
+    {
+     "stream_id": "316419820530",
+     "start": "2026-09-06T09:49:12.000Z",
+     "end": "2026-09-06T19:20:20.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "みんなでL4D2",
+     "game": null
+    },
+    {
+     "stream_id": "316424509042",
+     "start": "2026-09-07T10:19:30.000Z",
+     "end": "2026-09-07T19:22:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "とっとこハム太郎2 ハムちゃんず大集合でちゅ 初見プレイ",
+     "game": null
+    },
+    {
+     "stream_id": "316419373937",
+     "start": "2026-09-08T12:17:58.000Z",
+     "end": "2026-09-08T20:36:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雨ヤバスギル件",
+     "game": null
+    },
+    {
+     "stream_id": "316423909361",
+     "start": "2026-09-09T12:14:26.000Z",
+     "end": "2026-09-09T16:05:12.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニンダイまで昨日失われたレートを取り戻す",
+     "game": null
+    },
+    {
+     "stream_id": "316433059185",
+     "start": "2026-09-11T14:07:19.000Z",
+     "end": "2026-09-11T15:47:01.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "皆さんはじめまして、バトラと申します。",
+     "game": null
+    },
+    {
+     "stream_id": "316503117811",
+     "start": "2026-09-12T05:55:48.000Z",
+     "end": "2026-09-12T10:48:56.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "W",
+     "game": null
+    },
+    {
+     "stream_id": "316456364274",
+     "start": "2026-09-14T10:59:31.000Z",
+     "end": "2026-09-14T16:38:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "雑談→顔出しマリパ対決",
+     "game": null
+    },
+    {
+     "stream_id": "316517710835",
+     "start": "2026-09-15T12:44:07.000Z",
+     "end": "2026-09-15T15:31:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "うーし",
+     "game": null
+    },
+    {
+     "stream_id": "316458231921",
+     "start": "2026-09-17T11:38:48.000Z",
+     "end": "2026-09-17T23:53:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "DRKSに加入しました。バトラと申します。",
+     "game": null
+    },
+    {
+     "stream_id": "316530801907",
+     "start": "2026-09-18T13:37:54.000Z",
+     "end": "2026-09-19T05:05:44.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "遅くなりマスタ",
+     "game": null
+    },
+    {
+     "stream_id": "316535415283",
+     "start": "2026-09-19T14:28:59.000Z",
+     "end": "2026-09-19T22:24:52.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "配信したい ノープラン",
+     "game": null
+    }
+   ]
+  },
+  {
+   "channel": {
+    "id": "793808122",
+    "login": "bakumatsu_shishi",
+    "display_name": "幕末志士",
+    "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/e47666ce-9ccd-477f-a0b0-9c5c73289ff2-profile_image-300x300.png"
+   },
+   "streams": [
+    {
+     "stream_id": "316217253618",
+     "start": "2026-07-23T12:41:31.000Z",
+     "end": "2026-07-23T15:06:25.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "誰だよニコニコ老人会に「うん〇カード」実装しろって言ったの",
+     "game": null
+    },
+    {
+     "stream_id": "316277014515",
+     "start": "2026-07-24T12:43:56.000Z",
+     "end": "2026-07-24T13:45:31.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "おおえのたかゆきに喝！／「加藤純一は無視しろ問題」",
+     "game": null
+    },
+    {
+     "stream_id": "316222086257",
+     "start": "2026-07-26T12:01:37.000Z",
+     "end": "2026-07-26T15:05:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "坂ちゃんがただ喋るだけの回",
+     "game": null
+    },
+    {
+     "stream_id": "316235140337",
+     "start": "2026-07-29T12:27:39.000Z",
+     "end": "2026-07-29T14:37:07.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "老人会RUSTのテストサーバーを整える",
+     "game": null
+    },
+    {
+     "stream_id": "316248181106",
+     "start": "2026-07-30T13:02:40.000Z",
+     "end": "2026-07-30T17:21:03.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUSTの初心者講習会(たろちん、イボーン、湯毛)",
+     "game": null
+    },
+    {
+     "stream_id": "316313157363",
+     "start": "2026-08-01T12:49:48.000Z",
+     "end": "2026-08-01T15:59:12.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会RUSTの初心者講習会②(はるしげT,囲炉裏T,藤吉T)",
+     "game": null
+    },
+    {
+     "stream_id": "316260774770",
+     "start": "2026-08-02T09:52:42.000Z",
+     "end": "2026-08-02T17:01:31.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "正義の坂ちゃんマン+老人会初心者講習会(蛇足T、こーすけT)",
+     "game": null
+    },
+    {
+     "stream_id": "316256500977",
+     "start": "2026-08-03T10:14:24.000Z",
+     "end": "2026-08-03T16:50:59.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会初心者講習会(キビT,横山緑T,モンどうT,MSSP_T,etc)",
+     "game": null
+    },
+    {
+     "stream_id": "316261476081",
+     "start": "2026-08-04T12:26:41.000Z",
+     "end": "2026-08-04T17:21:19.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会初心者講習会(ラマーズP、ろん、やみえん、五月病マリオ)",
+     "game": null
+    },
+    {
+     "stream_id": "316265449329",
+     "start": "2026-08-05T11:02:33.000Z",
+     "end": "2026-08-05T18:02:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "チームTier表+ニコニコ老人会初心者講習会(鬱先生T、フルコンT、つわはすT、etc）",
+     "game": null
+    },
+    {
+     "stream_id": "316278539378",
+     "start": "2026-08-06T12:04:41.000Z",
+     "end": "2026-08-06T15:08:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "さよならニコニコ老人会練習用サーバー",
+     "game": null
+    },
+    {
+     "stream_id": "316342609779",
+     "start": "2026-08-08T04:15:45.000Z",
+     "end": "2026-08-08T08:06:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "とりバードを寝せて拠点を守り抜け【ニコニコ老人会RUST】",
+     "game": null
+    },
+    {
+     "stream_id": "316289817330",
+     "start": "2026-08-09T01:22:09.000Z",
+     "end": "2026-08-09T08:05:15.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "とりバードをぐっすり眠らせてスカルを集める放送【ニコニコ老人会RUST】",
+     "game": null
+    },
+    {
+     "stream_id": "316353855987",
+     "start": "2026-08-10T12:36:22.000Z",
+     "end": "2026-08-10T13:43:49.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "坂本謝罪しろ /「ミサイルカード」「泣いた運営」「坂本独断調整」【ニコニコ老人会RUST】",
+     "game": null
+    },
+    {
+     "stream_id": "316302216434",
+     "start": "2026-08-11T12:35:11.000Z",
+     "end": "2026-08-11T15:53:05.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ニコニコ老人会振り返りラーメン杯 ～坂本が爆笑したら+10杯～",
+     "game": null
+    },
+    {
+     "stream_id": "316312380145",
+     "start": "2026-08-15T14:15:04.000Z",
+     "end": "2026-08-15T14:43:41.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "鎌田さん申し訳ありませんでした",
+     "game": null
+    },
+    {
+     "stream_id": "316324506353",
+     "start": "2026-08-18T10:48:21.000Z",
+     "end": "2026-08-18T12:35:02.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "ハイゲ限定発売！坂&純 心の友フィギュアセット！！！【ハイゲミラー】",
+     "game": null
+    },
+    {
+     "stream_id": "316355551730",
+     "start": "2026-08-23T02:39:36.000Z",
+     "end": "2026-08-23T14:55:55.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
+     "game": null
+    },
+    {
+     "stream_id": "316388737650",
+     "start": "2026-08-30T11:21:29.000Z",
+     "end": "2026-08-30T18:30:22.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "性癖坂ミノ7dtd ～死んだら終わりのラプンツェル防衛戦～",
+     "game": null
+    },
+    {
+     "stream_id": "316401594866",
+     "start": "2026-09-02T10:59:01.000Z",
+     "end": "2026-09-02T16:19:43.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "PUBG大会特訓～あゆたろう,軍師ミノル,yunocy～",
+     "game": null
+    },
+    {
+     "stream_id": "316396714993",
+     "start": "2026-09-03T12:35:03.000Z",
+     "end": "2026-09-03T15:39:09.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "PUBG大会ソロ特訓",
+     "game": null
+    },
+    {
+     "stream_id": "316411520626",
+     "start": "2026-09-04T14:47:39.000Z",
+     "end": "2026-09-04T18:56:32.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "PUBG大会前日特訓～あゆたろう,軍師ミノル,yunocy～",
+     "game": null
+    },
+    {
+     "stream_id": "316404884465",
+     "start": "2026-09-05T08:55:27.000Z",
+     "end": "2026-09-05T15:24:53.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【PUBG LAND 2026】幕末坂本チームで優勝せよ(幕末坂本、yunocy、軍師ミノル、あゆたろう)",
+     "game": null
+    },
+    {
+     "stream_id": "316424050929",
+     "start": "2026-09-09T12:39:30.000Z",
+     "end": "2026-09-09T18:30:05.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺たちがシソジスナイパーズだ(蛇足コーチ、加藤純一、こくにい、ゆゆうた、軍師ミノル)【valorant】",
+     "game": null
+    },
+    {
+     "stream_id": "316437760370",
+     "start": "2026-09-10T10:58:40.000Z",
+     "end": "2026-09-10T19:12:29.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺たちがヨソジスナイパーズだ 二日目(蛇足コ、こくにい、ゆゆうた、軍師ミノル)【valorant】",
+     "game": null
+    },
+    {
+     "stream_id": "316500938995",
+     "start": "2026-09-11T15:38:59.000Z",
+     "end": "2026-09-11T18:57:26.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺たちがヨソジスナイパーズだ 三日目(蛇足コ、こくにい、軍師ミノル)【valorant】",
+     "game": null
+    },
+    {
+     "stream_id": "316448328818",
+     "start": "2026-09-12T15:49:53.000Z",
+     "end": "2026-09-12T23:03:48.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "俺たちがヨソジスナイパーズだ 4日目(ソロ)【valorant】",
+     "game": null
+    },
+    {
+     "stream_id": "316451262194",
+     "start": "2026-09-13T07:59:45.000Z",
+     "end": "2026-09-13T14:27:51.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "【VALOLANT】vs.マタギスナイパーズ(幕末坂本,加藤純一,こく兄,ゆゆうた,軍師ミノル,蛇足コーチ)",
+     "game": null
+    },
+    {
+     "stream_id": "316465929074",
+     "start": "2026-09-16T13:58:33.000Z",
+     "end": "2026-09-16T14:59:50.000Z",
+     "end_source": "vod",
+     "live": false,
+     "title": "幕末坂本、ドロクサ外部顧問に就任",
+     "game": null
+    }
+   ]
+  }
+ ]
 }
