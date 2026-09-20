@@ -216,6 +216,14 @@ a.who-link:hover .name { text-decoration: underline; }
   text-align: center;
   text-decoration: none;
 }
+/* 全員ぶんをまとめた行。個人の行と区別がつくよう、バーは文字色、下の線を太くする */
+.row.team { border-bottom: 2px solid var(--ink); font-weight: 700; }
+.row.team + .row.person { border-top: 0; }
+.seg.team { background-color: var(--ink); cursor: default; }
+.team .initial { background: var(--ink); color: var(--paper); font-family: "Dela Gothic One", sans-serif; font-size: max(0.75rem, 32cqh); }
+.team .who-link { font-weight: 700; }
+.team .total { color: var(--ink); line-height: 1.2; }
+.team .total small { display: block; font-size: 0.85em; font-weight: 500; color: var(--muted); }
 .p-twitch { background: var(--heat); }
 .p-youtube { background: var(--youtube); }
 .p-kick { background: var(--kick); }

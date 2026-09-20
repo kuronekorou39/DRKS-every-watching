@@ -1,6 +1,6 @@
 import {
   TZ_OFFSET_MIN, localDayStart, localWeekday, localDateString, parseLocalDate, normalizeHistory,
-  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd, PLATFORMS,
+  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd, mergeIntervals, PLATFORMS,
 } from './lib/core.mjs';
 
 const HOUR = 3600_000;
@@ -17,6 +17,7 @@ const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ
 const FALLBACK_TRACK_PX = 600;
 const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズのときの値
 const RELOAD_MS = 5 * 60_000;
+const TEAM_NAME = 'チームドロクサ';
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -114,6 +115,12 @@ function renderBoard(now) {
   ]);
   const rows = [el('div', { className: 'row bands', ariaHidden: 'true' }, [el('span'), el('div', { className: 'track' }), el('span')])];
 
+  // いちばん上に、全員ぶんをまとめた行（誰か1人でも配信していた時間）を置く
+  const clip = (g) => ({ start: Math.max(from, g.start), end: Math.min(to, g.end), live: g.live });
+  const everyone = channels.flatMap((c) => c.sources.flatMap((source) =>
+    source.streams.map((s) => clip({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
+  rows.push(renderTeamRow(mergeIntervals(everyone.filter((g) => g.end > g.start)), { from, to, now, pos }));
+
   for (const { name, icon, sources } of channels) {
     // 1人1行。配信先（Twitch / YouTube / Kick）は色で見分ける
     const track = el('div', { className: 'track' });
@@ -149,14 +156,7 @@ function renderBoard(now) {
     if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
 
     // 合計は、同時配信を二重に数えないよう重なりをまとめてから足す
-    let totalMs = 0;
-    let coveredTo = from;
-    for (const g of [...segs].sort((x, y) => x.start - y.start)) {
-      const a = Math.max(coveredTo, g.start);
-      const b = Math.min(to, g.end);
-      if (b > a) totalMs += b - a;
-      coveredTo = Math.max(coveredTo, b);
-    }
+    const totalMs = mergeIntervals(segs.map(clip)).reduce((sum, g) => sum + g.end - g.start, 0);
 
     // サンプルデータのチャンネルは実在しない（url が空）のでリンクにしない
     const link = (url, props, children) => (url ? externalLink(url, props, children) : el('span', props, children));
@@ -187,11 +187,43 @@ function renderBoard(now) {
     ]));
   }
 
-  $('#board').style.setProperty('--rows', channels.length);
+  $('#board').style.setProperty('--rows', channels.length + 1);
   const body = el('div', { className: 'body' }, rows);
   attachCursorLine(body, from, span);
   $('#board').replaceChildren(head, body);
   renderScale();
+}
+
+/** 全員ぶんをまとめた行。合計時間と、表示範囲（今より先は除く）のうち誰かが配信していた割合を出す */
+function renderTeamRow(merged, { from, to, now, pos }) {
+  const track = el('div', { className: 'track' }, merged.map((g) => {
+    const label =
+      `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
+      `（${formatDuration(g.end - g.start)}）`;
+    return el('span', {
+      className: `seg team${g.live ? ' live' : ''}`,
+      title: `誰かが配信していた時間\n${label}`,
+      style: `left:${pos(g.start)};width:${((g.end - g.start) / (to - from)) * 100}%;top:0;height:100%`,
+    });
+  }));
+  if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
+
+  const totalMs = merged.reduce((sum, g) => sum + g.end - g.start, 0);
+  const elapsed = Math.min(to, now) - from;
+  const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
+    el('span', { className: 'who-link', title: TEAM_NAME }, [
+      el('span', { className: 'avatar' }, [el('span', { className: 'initial', ariaHidden: 'true', textContent: '泥' })]),
+      el('span', { className: 'name', textContent: TEAM_NAME }),
+    ]),
+  ]);
+  return el('div', { className: 'row person team' }, [
+    who,
+    track,
+    el('span', { className: 'total' }, [
+      totalMs ? formatDuration(totalMs) : '—',
+      ...(elapsed > 0 ? [el('small', { textContent: `${Math.round((totalMs / elapsed) * 100)}%` })] : []),
+    ]),
+  ]);
 }
 
 /** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */

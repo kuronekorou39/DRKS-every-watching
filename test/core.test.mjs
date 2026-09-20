@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, fromManual, splitByLocalDay, weeklyHeatmap,
-  localDateString, parseLocalDate, localDayStart,
+  localDateString, parseLocalDate, localDayStart, mergeIntervals,
 } from '../lib/core.mjs';
 
 test('parseDuration', () => {
@@ -127,4 +127,14 @@ test('配信のページとサムネイルを記録し、アーカイブがで�
   // アーカイブが消えたあとも残る
   h = mergeHistory(h, fromTwitch([], null));
   assert.equal(h[0].thumb, 'https://t/vod-320x180.jpg');
+});
+
+test('mergeIntervals: 重なる区間と接する区間を1本にまとめる', () => {
+  const merged = mergeIntervals([
+    { start: 50, end: 60 },
+    { start: 0, end: 10 },
+    { start: 5, end: 20, live: true },
+    { start: 20, end: 30 },
+  ]);
+  assert.deepEqual(merged, [{ start: 0, end: 30, live: true }, { start: 50, end: 60, live: false }]);
 });
