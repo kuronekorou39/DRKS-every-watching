@@ -19,8 +19,10 @@ DRKS の公式サイト: https://dorokusa.co.jp/
 
 ## しくみ
 
-サーバーは持たない。GitHub Actions（`collect`）が10分おきに各 API から取得して `data` ブランチの
-`history.json` に足し、変化があったときだけ GitHub Pages を再デプロイする。
+サーバーは持たない。GitHub Actions の `collect` が10分おきに各 API から取得して `data` ブランチの
+`history.json` に足し、変化があったときだけ `deploy` を起動して GitHub Pages を公開し直す。
+Actions の cron は混雑で数時間あくことがあるので、`collect` は1回の実行の中で取得を繰り返し（約5時間半）、
+終わる直前に自分で次の実行を起動してつなぐ。cron は、それが切れたときに起こし直す保険。
 
 | 配信先 | 取り方 | 過去の配信 |
 |---|---|---|
@@ -53,7 +55,7 @@ DRKS の公式サイト: https://dorokusa.co.jp/
 { "recordFrom": "2026-09-16" }
 ```
 
-どれも `main` に push すれば、すぐ取得とデプロイが走って反映される。
+どれも `main` に push すれば、次の取得（10分以内）から反映される。
 
 ## セットアップ（自分のリポジトリで動かす場合）
 
@@ -67,7 +69,7 @@ DRKS の公式サイト: https://dorokusa.co.jp/
    | `KICK_CLIENT_ID` / `KICK_CLIENT_SECRET` | https://kick.com/settings/developer でアプリを作る |
 
 3. Settings → Pages → Source を「GitHub Actions」にする
-4. `channels.json` を書き換えて push する（または Actions タブから `collect` を手動実行）
+4. `channels.json` を書き換えて push する（`deploy` が走り、止まっていれば `collect` も起動する）
 
 ## ローカルで動かす
 
@@ -85,11 +87,11 @@ npm run fetch
 | `index.html` / `app.mjs` / `style.css` | 画面。ビルドなしの素の HTML・ES Modules・CSS |
 | `lib/core.mjs` | 取得スクリプトと画面で共有するロジック（マージ、区間の結合、日時の整形） |
 | `scripts/fetch.mjs` / `scripts/platforms/` | 取得。プラットフォームごとに1ファイル |
-| `.github/workflows/collect.yml` | 10分おきの取得と Pages へのデプロイ |
+| `.github/workflows/collect.yml` / `deploy.yml` | 10分おきの取得 / Pages への公開 |
 
 ## 注意
 
 - 開始時刻は API の値なので正確。アーカイブが残らない配信は、終了時刻が最大10分ほどずれる
 - YouTube はプレミア公開もライブとして拾うことがある（API で区別できない）
-- Actions の cron は混雑時に遅れたりスキップされたりする
+- 取得の間隔は `collect.yml` の `INTERVAL_SECONDS`。実行の切り替わりで数分あくことがある
 - リポジトリに60日間動きがないと定期実行は自動停止する。止まっていたら Actions タブから再有効化する

@@ -1,34 +1,45 @@
 name: collect
 
+# GitHub Actions の cron は混雑で数時間あくことがあり、書いた間隔では動かない。
+# そこで1回の実行の中で一定間隔の取得を繰り返し、終わる直前に自分で次の実行を起動してつないでいく。
+# cron は、そのつながりが切れていたときに起こし直すための保険として残す。
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
 
-# data ブランチへの push が競合しないよう、同時に1本だけ走らせる
+# data ブランチへの push が競合しないよう、同時に1本だけ走らせる。
+# 走っている間に来た起動は1つだけ待機し、いまの実行が終わったら引き継ぐ
 concurrency:
   group: collect
   cancel-in-progress: false
 
+env:
+  INTERVAL_SECONDS: 600 # 取得の間隔
+  LOOP_MINUTES: 330 # 1回の実行で繰り返す時間（1ジョブの上限は6時間）
+  MAX_FAILURES: 6 # 取得がこの回数つづけて失敗したら、実行を失敗にして知らせる
+
 jobs:
   collect:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     permissions:
-      contents: write
-    outputs:
-      deploy: ${{ steps.decide.outputs.deploy }}
+      contents: write # data ブランチへの push
+      actions: write # deploy と、次の collect の起動
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+      TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
+      KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
+      DATA_DIR: data
     steps:
       - uses: actions/checkout@v5
 
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-
-      - name: テスト
-        if: github.event_name != 'schedule'
-        run: npm test
 
       - name: data ブランチを data/ に取り出す
         run: |
@@ -39,58 +50,43 @@ jobs:
             git worktree add --orphan -b data data
           fi
 
-      - name: Twitch から取得
-        env:
-          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
-          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
-          KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
-          DATA_DIR: data
-        run: node scripts/fetch.mjs
-
-      - name: 変化があれば data ブランチにコミット
-        id: commit
-        working-directory: data
+      - name: 一定間隔で取得を繰り返す
         run: |
-          git add history.json
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          git -c user.name='github-actions[bot]' \
-              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
-              commit -m "記録を更新"
-          git push origin data
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+          failures=0
+          end=$((SECONDS + LOOP_MINUTES * 60))
+          while [ "$SECONDS" -lt "$end" ]; do
+            started=$SECONDS
 
-      # 定期実行は記録が変わったときだけ、手動実行と main への push は常にデプロイ
-      - name: デプロイするか決める
-        id: decide
-        run: echo "deploy=${{ steps.commit.outputs.changed == 'true' || github.event_name != 'schedule' }}" >> "$GITHUB_OUTPUT"
+            # 実行中に main が変わっても（channels.json や取得スクリプトの変更）、次の回から反映されるようにする
+            git fetch --quiet --depth=1 origin main && git checkout --quiet --detach FETCH_HEAD
 
-      - name: サイトを組み立てる
-        if: steps.decide.outputs.deploy == 'true'
+            if node scripts/fetch.mjs; then
+              failures=0
+              git -C data add history.json
+              if ! git -C data diff --cached --quiet; then
+                git -C data -c user.name='github-actions[bot]' \
+                    -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                    commit --quiet -m "記録を更新"
+                git -C data push --quiet origin data
+                # 記録が変わったときだけ公開し直す
+                gh workflow run deploy.yml --ref main
+              fi
+            else
+              failures=$((failures + 1))
+              echo "::warning::取得に失敗しました（連続 ${failures} 回）"
+              if [ "$failures" -ge "$MAX_FAILURES" ]; then
+                # 設定の誤りなど、放っておいても直らない失敗。次の実行はつながず、cron の保険に任せる
+                echo "::error::取得が ${MAX_FAILURES} 回つづけて失敗したので止めます"
+                exit 1
+              fi
+            fi
+
+            wait=$((INTERVAL_SECONDS - (SECONDS - started)))
+            if [ "$wait" -gt 0 ]; then sleep "$wait"; fi
+          done
+
+      - name: 次の実行を起動してつなぐ
         run: |
-          mkdir -p _site/data
-          cp -r index.html style.css app.mjs manifest.webmanifest lib icons _site/
-          cp data/history.json _site/data/
-
-      - uses: actions/upload-pages-artifact@v4
-        if: steps.decide.outputs.deploy == 'true'
-        with:
-          path: _site
-
-  deploy:
-    needs: collect
-    if: needs.collect.outputs.deploy == 'true'
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          # cron などで起動した実行がすでに待機していれば、それが引き継ぐので何もしない
+          waiting=$(gh run list --workflow collect.yml --limit 20 --json status -q '[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length')
+          if [ "$waiting" -eq 0 ]; then gh workflow run collect.yml --ref main; fi

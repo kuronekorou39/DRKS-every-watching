@@ -1,0 +1,66 @@
+name: deploy
+
+# サイトを組み立てて GitHub Pages に公開する。
+# main への push（画面や設定の変更）と、collect からの起動（記録が変わったとき）で走る
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 公開は同時に1本だけ。走っている間に来た分は1つだけ待機し、最新の内容で公開し直す
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: write # collect の起動
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: テスト
+        if: github.event_name == 'push'
+        run: npm test
+
+      - name: サイトを組み立てる
+        run: |
+          mkdir -p _site/data
+          cp -r index.html style.css app.mjs manifest.webmanifest lib icons _site/
+          # 記録は data ブランチにある。まだ無ければ、画面だけ公開する
+          if git ls-remote --exit-code --heads origin data >/dev/null; then
+            git fetch --depth=1 origin data
+            git show FETCH_HEAD:history.json > _site/data/history.json
+          fi
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      # 取得の繰り返しが止まっていたら、ここで起こす
+      - name: collect が動いているようにする
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          active=$(gh run list --workflow collect.yml --limit 20 --json status -q '[.[] | select(.status != "completed")] | length')
+          if [ "$active" -eq 0 ]; then gh workflow run collect.yml --ref main; fi
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
