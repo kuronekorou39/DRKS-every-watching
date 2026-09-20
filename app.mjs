@@ -19,6 +19,7 @@ const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズ
 const RELOAD_MS = 5 * 60_000;
 const TEAM_NAME = 'DRKS';
 const SLIDE_MS = 380;
+const ZOOM_MS = 450;
 const MAX_SLIDE_SPANS = 2; // これより遠くへ動くときはスライドさせない（描く範囲が広がりすぎるため）
 
 const $ = (sel) => document.querySelector(sel);
@@ -34,16 +35,16 @@ let recordFromMs = -Infinity;
 // 表示範囲: start（現地日の 0:00）から days 日ぶん
 const view = { start: 0, days: DEFAULT_DAYS };
 
-// ◀ ▶ で動かした直後だけ入る、動かす前の表示範囲の開始。スライドのあいだは前後の範囲をまとめて描く
-let slideFrom = null;
-let slideToken = 0;
+// 表示範囲を動かした直後だけ入る、動かす前の表示範囲 { start, days }。
+// アニメーションのあいだは、前後の範囲をまとめて描いておく
+let animFrom = null;
+let animToken = 0;
 
 const viewEnd = () => view.start + view.days * DAY;
-/** いま描く範囲。ふだんは表示範囲そのもの、スライド中は動かす前の範囲も含める */
+/** いま描く範囲。ふだんは表示範囲そのもの、アニメーション中は動かす前の範囲も含める */
 const drawRange = () => {
-  const from = Math.min(view.start, slideFrom ?? view.start);
-  const to = Math.max(viewEnd(), (slideFrom ?? view.start) + view.days * DAY);
-  return { from, to };
+  const before = animFrom ?? view;
+  return { from: Math.min(view.start, before.start), to: Math.max(viewEnd(), before.start + before.days * DAY) };
 };
 const todayEnd = () => localDayStart(Date.now()) + DAY;
 
@@ -115,6 +116,7 @@ function render() {
   document.querySelectorAll('.js-today').forEach((b) => b.setAttribute('aria-pressed', String(viewEnd() >= todayEnd())));
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
+  moveThumb();
   // 用意した日数に当てはまらないときは「指定」を出す
   for (const select of document.querySelectorAll('.js-days')) {
     select.value = [...select.options].some((o) => Number(o.value) === view.days) ? String(view.days) : '';
@@ -221,7 +223,7 @@ function renderBoard(now) {
   attachCursorLine(body, from, span);
   $('#board').replaceChildren(head, body);
   renderScale();
-  if (slideFrom != null) slide();
+  if (animFrom) animateBoard();
 }
 
 /** 全員ぶんをまとめた行。合計は、誰か1人でも配信していた時間（coveredMs） */
@@ -325,24 +327,51 @@ function renderScale() {
   $('#board .bands .track').replaceChildren(bandStrip);
 }
 
-/** ◀ ▶ で動かしたとき、動かす前の位置から新しい位置へ横に滑らせる */
-function slide() {
+/**
+ * 表示範囲を変えたとき、変える前の見え方から新しい見え方へ動かす。
+ * ◀ ▶ なら横に滑り、日数の切替なら横に伸び縮みする（時刻 t の位置は、前後とも t の一次式なので
+ * 「新しい位置 x → 前の位置 a*x + b」の変形を 0 へ戻せばよい）
+ */
+function animateBoard() {
   const board = $('#board');
-  const shiftPx = ((view.start - slideFrom) / (view.days * DAY)) * board.querySelector('.scale').getBoundingClientRect().width;
-  const token = ++slideToken;
+  // 幅と左端は帯の入れ物から測る（横軸の入れ物は、はみ出した中身のぶん広く測れてしまうことがある）
+  const scaleBox = board.querySelector('.bands .track').getBoundingClientRect();
+  const a = view.days / animFrom.days;
+  const b = ((view.start - animFrom.start) / (animFrom.days * DAY)) * scaleBox.width;
+  const zoom = a !== 1;
+  const duration = zoom ? ZOOM_MS : SLIDE_MS;
+  const timing = { duration, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' };
+  const token = ++animToken;
   board.classList.add('sliding');
-  for (const node of board.querySelectorAll('.strip, .band-strip, .days, .hours')) {
-    node.animate([{ transform: `translateX(${shiftPx}px)` }, { transform: 'none' }], { duration: SLIDE_MS, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' });
+  for (const node of board.querySelectorAll('.strip, .band-strip')) {
+    // 左端がバーの領域の左端からずれている要素（帯）は、そのずれ m のぶん平行移動を補正する
+    const m = node.getBoundingClientRect().left - scaleBox.left;
+    node.animate([{ transform: `translateX(${a * m + b - m}px) scaleX(${a})` }, { transform: 'none' }], timing);
+  }
+  for (const node of board.querySelectorAll('.days, .hours')) {
+    // 目盛りの文字は、伸び縮みさせると潰れて読めないので、日数の切替ではふわっと入れ替える
+    node.animate(zoom ? [{ opacity: 0 }, { opacity: 1 }] : [{ transform: `translateX(${b}px)` }, { transform: 'none' }], timing);
   }
   // 片付けはタイマーで行う。アニメーションの完了通知は、描き直しで要素が消えたときや
   // タブが裏にあるときに届かないことがあり、それに頼ると範囲外のバーが残ったままになる
   setTimeout(() => {
     // 途中でもう一度動かされていたら、後から始まったほうに片付けを任せる
-    if (token !== slideToken) return;
-    slideFrom = null;
+    if (token !== animToken) return;
+    animFrom = null;
     board.classList.remove('sliding');
     renderBoard(Date.now());
-  }, SLIDE_MS);
+  }, duration);
+}
+
+/** 日数ボタンの塗りつぶし（つまみ）を、選択中のボタンの位置へ動かす。用意した日数でなければ隠す */
+function moveThumb() {
+  const range = $('.range');
+  const pressed = range.querySelector('[aria-pressed="true"]');
+  const thumb = range.querySelector('.thumb');
+  thumb.style.opacity = pressed ? 1 : 0;
+  if (!pressed || !pressed.offsetWidth) return;
+  thumb.style.width = `${pressed.offsetWidth}px`;
+  thumb.style.transform = `translateX(${pressed.offsetLeft - thumb.offsetLeft}px)`;
 }
 
 /** マウスの位置に縦の補助線を出し、その位置の日時を添える（タッチ操作では出さない） */
@@ -412,34 +441,42 @@ function hideDetail() {
   $('#detail').hidden = true;
 }
 
-/** 表示範囲を変えたあとの描き直し。slideStart を渡すと、その位置から横に滑らせる */
-function update(slideStart = null) {
+const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/** 表示範囲を変えたあとの描き直し。before（変える前の { start, days }）を渡すと、そこからアニメーションする */
+function update(before = null) {
   hideDetail();
-  // 滑っている途中で別の操作が来たら、前のスライドの片付けは無効にする
-  slideFrom = slideStart;
-  slideToken++;
+  // 動いている途中で別の操作が来たら、前のアニメーションの片付けは無効にする
+  animFrom = before && !reducedMotion() && (before.start !== view.start || before.days !== view.days) ? before : null;
+  animToken++;
   $('#board').classList.remove('sliding');
   writeUrl();
   render();
 }
 
-/** 日数はそのままで表示範囲を動かす。近くへの移動なら横に滑らせる（「動きを減らす」設定のときはしない） */
+/** 日数はそのままで表示範囲を動かす。近くへの移動なら横に滑らせる */
 function moveTo(end) {
-  const before = view.start;
+  const before = { ...view };
   setView(end, view.days);
-  const near = Math.abs(view.start - before) <= MAX_SLIDE_SPANS * view.days * DAY;
-  update(near && view.start !== before && !matchMedia('(prefers-reduced-motion: reduce)').matches ? before : null);
+  update(Math.abs(view.start - before.start) <= MAX_SLIDE_SPANS * view.days * DAY ? before : null);
+}
+
+/** 終わりの日はそのままで日数を変える。バーは横に伸び縮みして切り替わる */
+function zoomTo(days) {
+  const before = { ...view };
+  setView(viewEnd(), days);
+  update(before);
 }
 
 $('#prev').addEventListener('click', () => moveTo(viewEnd() - view.days * DAY));
 $('#next').addEventListener('click', () => moveTo(viewEnd() + view.days * DAY));
 document.querySelectorAll('.js-today').forEach((btn) => btn.addEventListener('click', () => moveTo(todayEnd())));
 document.querySelectorAll('.range button').forEach((btn) => {
-  btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
+  btn.addEventListener('click', () => zoomTo(Number(btn.dataset.days)));
 });
 // 日数のプルダウンは、中くらいの幅ではヘッダー、狭い画面ではフッターに出すので、2つある
 document.querySelectorAll('.js-days').forEach((select) =>
-  select.addEventListener('change', () => { setView(viewEnd(), Number(select.value)); update(); }));
+  select.addEventListener('change', () => zoomTo(Number(select.value))));
 for (const input of [$('#from'), $('#to')]) {
   // 入力欄は透明で文字の上に重ねてあるので、どこを押してもカレンダーが開くようにする
   input.addEventListener('click', () => { try { input.showPicker?.(); } catch { /* 開けない環境では通常の入力欄として動く */ } });
@@ -465,6 +502,10 @@ new ResizeObserver(([entry]) => {
 // カードの外を押すか Esc で閉じる
 document.addEventListener('click', (e) => { if (!e.target.closest('#detail')) hideDetail(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideDetail(); });
+
+// 日数ボタンのつまみはボタンの実寸から位置を決めるので、大きさが変わったら置き直す
+new ResizeObserver(moveThumb).observe($('.range'));
+document.fonts.ready.then(moveThumb); // フォントが入るとボタンの幅が変わる
 
 readUrl();
 load();

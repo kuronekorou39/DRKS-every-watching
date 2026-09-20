@@ -34,6 +34,8 @@
           <button type="button" class="js-today">今日</button>
         </div>
         <div class="range" role="group" aria-label="表示する日数">
+          <!-- 選択中のボタンの下に敷く塗りつぶし。JS が位置と幅を決め、切り替えると横に滑る -->
+          <span class="thumb" aria-hidden="true"></span>
           <button type="button" data-days="1">1日</button>
           <button type="button" data-days="3">3日</button>
           <button type="button" data-days="7">1週</button>

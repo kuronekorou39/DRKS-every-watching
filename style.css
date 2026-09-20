@@ -121,9 +121,20 @@ h1, h2, h3, p { margin: 0; }
 select.pill { display: none; color: var(--ink); }
 /* 選択中の「今日」は塗りつぶしの上に背景色の文字を載せているので、乗せても文字色を変えない（変えると地と同じ色になって消える） */
 .step button:hover:not(:disabled):not([aria-pressed="true"]) { color: var(--ink); }
-button.pill:not([aria-pressed="true"]):hover, .range button:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
+button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
+.range button:not([aria-pressed="true"]):hover { color: var(--ink); }
 .step button:disabled { opacity: 0.35; cursor: default; }
-.range button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+/* 日数の切替: 選んでいない項目は控えめにし、塗りつぶし（つまみ）が選んだ項目へ横に滑る */
+.range { position: relative; }
+.range button { position: relative; z-index: 1; color: var(--muted); transition: color 0.25s; }
+.range button[aria-pressed="true"] { color: var(--paper); }
+.range .thumb {
+  position: absolute; top: 2px; bottom: 2px; left: 2px;
+  width: 0;
+  border-radius: 999px;
+  background: var(--ink);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), width 0.35s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s;
+}
 /* 今日を表示しているあいだは「今日」を選択中の見た目にして、押しても変わらないことが分かるようにする */
 .step .js-today[aria-pressed="true"] { background: var(--ink); color: var(--paper); cursor: default; }
 /* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
@@ -162,6 +173,7 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 }
 
 /* 横軸: 上段が日付、下段が時刻 */
+.scale { min-width: 0; }
 .days { display: flex; }
 .day {
   flex: 1 1 0;
@@ -188,8 +200,9 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 .row.bands { position: absolute; inset: 0; height: auto; pointer-events: none; }
 .bands .track { height: 100%; }
 .band-strip { position: relative; display: flex; height: 100%; }
-/* 行ごとのバーを載せる層。◀ ▶ で動かすときは、この層と横軸・帯をまとめて横に滑らせる */
+/* 行ごとのバーを載せる層。表示範囲を変えるときは、この層と帯をまとめて横に動かす（左端を軸に伸び縮みさせる） */
 .strip { position: absolute; inset: 0; }
+.strip, .band-strip { transform-origin: 0 0; }
 .board.sliding .track, .board.sliding .scale { overflow-x: clip; }
 .band {
   flex: 1 1 0;
@@ -356,6 +369,7 @@ a.who-link:hover .name { text-decoration: underline; }
 
 @media (prefers-reduced-motion: reduce) {
   .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .plat.live { animation: none; }
+  .range .thumb, .range button { transition: none; }
 }
 
 /* 広い画面（全画面表示など）では、離れても読めるように文字を画面幅に合わせて大きく、濃くする */
