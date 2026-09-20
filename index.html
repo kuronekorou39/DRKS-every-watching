@@ -29,8 +29,10 @@
           <label class="pick"><span id="from-text"></span><input type="date" id="from" aria-label="開始日"></label>
           <span id="to-part">〜<label class="pick"><span id="to-text"></span><input type="date" id="to" aria-label="終了日"></label></span>
           <button type="button" id="next" aria-label="次へ">▶</button>
+          <!-- 「今日」も表示位置を動かす操作なので、◀ ▶ と同じまとまりに入れる -->
+          <span class="sep" aria-hidden="true"></span>
+          <button type="button" class="js-today">今日</button>
         </div>
-        <button type="button" class="pill js-today">今日</button>
         <div class="range" role="group" aria-label="表示する日数">
           <button type="button" data-days="1">1日</button>
           <button type="button" data-days="3">3日</button>

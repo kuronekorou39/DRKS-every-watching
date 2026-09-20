@@ -97,6 +97,8 @@ h1, h2, h3, p { margin: 0; }
   font-weight: 700;
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
+/* カプセルの高さは、中のボタン（行の高さ 1.75em + 上下の余白 0.3rem）＋内側の余白と枠でそろえる */
+.range, .step, select.pill { box-sizing: border-box; min-height: calc(1.75em + 0.3rem + 6px); }
 .range, .step { display: flex; align-items: center; padding: 2px; }
 .step { white-space: nowrap; }
 .range button, .step button, .pill {
@@ -111,6 +113,10 @@ h1, h2, h3, p { margin: 0; }
 .range button, .step button { border: 0; }
 /* ◀ ▶ は脇役なので小さく薄いままにする */
 .step button { font-size: 0.875rem; font-weight: 400; color: var(--muted); }
+/* 期間のカプセルの右端に入れる「今日」。日数ボタンと同じ大きさ・同じ塗りつぶしにする */
+.step .sep { align-self: center; width: 1px; height: 1.2em; margin-inline: 0.35rem 0.25rem; background: var(--line); }
+.step .js-today { font-size: inherit; font-weight: inherit; color: var(--ink); }
+.step .js-today:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .pill { padding-block: calc(0.15rem + 2px); }
 select.pill { display: none; color: var(--ink); }
 .step button:hover:not(:disabled) { color: var(--ink); }
@@ -391,7 +397,7 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero { gap: 0.4rem 0.75rem; }
   .hero h1 { font-size: 1.6rem; }
   .controls { flex: 1 0 auto; }
-  .controls .js-today, .controls .js-days { display: none; }
+  .controls .js-today, .controls .sep, .controls .js-days { display: none; }
   .step { font-size: 0.9375rem; }
   .step button { padding-inline: 0.5rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
