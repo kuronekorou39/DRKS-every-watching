@@ -331,6 +331,7 @@ a.who-link:hover .name { text-decoration: underline; }
   color: var(--muted);
 }
 .foot a { color: inherit; }
+.foot .note { white-space: nowrap; }
 
 @media (prefers-reduced-motion: reduce) {
   .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .plat.live { animation: none; }
