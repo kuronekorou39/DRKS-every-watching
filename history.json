@@ -138,7 +138,7 @@
       {
        "stream_id": "316482599922",
        "start": "2026-09-20T07:51:56.000Z",
-       "end": "2026-09-20T16:31:33.422Z",
+       "end": "2026-09-20T17:01:16.701Z",
        "end_source": "poll",
        "live": true,
        "title": "エアコンが効かない中での鬼武者 Way of the Sword ウルトラ高画質【２日目】←ちくしょう！！！シルバーウィーク、どこもエアコン直せず。明後日スポットクーラー届くまで耐え抜く！放送！",
@@ -253,14 +253,14 @@
       },
       {
        "stream_id": "316470687089",
-       "start": "2026-09-20T09:00:24.000Z",
-       "end": "2026-09-20T16:31:33.423Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-20T09:00:29.000Z",
+       "end": "2026-09-20T16:50:28.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学園アイドルマスター 初見プレイ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2879163328",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e41462660ebdfd6a1ef6_yuyuta0702_316470687089_1789894824//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -327,14 +327,14 @@
       },
       {
        "stream_id": "316471716337",
-       "start": "2026-09-20T13:01:49.000Z",
-       "end": "2026-09-20T16:31:33.423Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-20T13:01:54.000Z",
+       "end": "2026-09-20T16:31:40.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シルバーウィークだがエペ部いくぞおおおお！！！！APEX LEGENDS！！！！w/関優太、SPYGEA",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2879286974",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/88ed920307898abdc342_oniyadayo_316471716337_1789909309//thumb/thumb0-320x180.jpg"
       }
      ]
     },
