@@ -188,7 +188,19 @@
       "profile_image_url": "",
       "url": "https://kick.com/mokoutoaruotoko"
      },
-     "streams": []
+     "streams": [
+      {
+       "stream_id": "manual-2026-09-19T06:49:40.000Z",
+       "start": "2026-09-19T06:49:40.000Z",
+       "end": "2026-09-19T08:28:08.000Z",
+       "end_source": "manual",
+       "live": false,
+       "title": "Vtuberです",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko/videos/e990c691-af87-4cc4-9800-2d3eb212621c",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/GgXwkWVGtuTP/720.webp"
+      }
+     ]
     }
    ]
   },
