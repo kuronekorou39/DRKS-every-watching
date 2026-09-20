@@ -267,6 +267,9 @@ function renderScale() {
   const dayPx = width / view.days / fontScale;
   const hourStep = HOUR_STEPS.find((h) => (dayPx / 24) * h >= MIN_HOUR_LABEL_PX);
   const dayStep = Math.ceil(MIN_DAY_LABEL_PX / dayPx) || 1;
+  // 日付の横に曜日が入らない幅では、曜日を下の段に回す。そのときは時刻の段を出さず、見出しを2段までに収める
+  // （その幅で出せる時刻は「12」だけなので、曜日を優先する。時刻の目盛り線は帯に残る）
+  const weekdayBelow = dayPx < DATE_WEEKDAY_PX && dayStep === 1;
   const today = localDayStart(Date.now());
 
   // スライド中は動かす前の範囲の日も並べ、表示範囲の幅を 100% として左右にはみ出させる
@@ -292,13 +295,13 @@ function renderScale() {
       // 幅があれば1行で、狭ければ曜日を下の行に回し、間引くほど狭ければ日付だけにする
       if (dayPx >= FULL_DATE_PX) cell.textContent = formatDate(day);
       else if (dayPx >= DATE_WEEKDAY_PX) cell.textContent = `${short} ${weekdayLabel(wd)}`;
-      else if (dayStep === 1) cell.append(short, el('span', { className: 'wd', textContent: weekdayLabel(wd) }));
+      else if (weekdayBelow) cell.append(short, el('span', { className: 'wd', textContent: weekdayLabel(wd) }));
       else cell.textContent = short;
       cell.classList.add('labeled');
     }
     dayCells.push(cell);
 
-    if (hourStep) {
+    if (hourStep && !weekdayBelow) {
       for (let h = hourStep; h < 24; h += hourStep) {
         hourLabels.push(el('span', { textContent: h, style: `left:${((n + h / 24) / drawDays) * 100}%` }));
       }
