@@ -1,6 +1,6 @@
 import {
   TZ_OFFSET_MIN, localDayStart, localWeekday, localDateString, parseLocalDate, normalizeHistory,
-  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd, mergeIntervals, PLATFORMS,
+  formatDate, formatClock, formatDuration, formatHourMinute, weekdayLabel, streamEnd, mergeIntervals, PLATFORMS,
 } from './lib/core.mjs';
 
 const HOUR = 3600_000;
@@ -214,12 +214,11 @@ function renderBoard(now) {
         }))),
     ]);
 
-    const total = totalMs ? formatDuration(totalMs) : '—';
+    if (totalMs) track.append(trackTotal(formatHourMinute(totalMs)));
     rows.push(el('div', { className: 'row person' }, [
       who,
       track,
-      el('span', { className: 'total', textContent: total }),
-      metaLine(name, [total]),
+      el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
     ]));
   }
 
@@ -255,29 +254,24 @@ function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }
       el('span', { className: 'name', textContent: TEAM_NAME }),
     ]),
   ]);
-  const covered = formatDuration(coveredMs);
-  const coverage = elapsed > 0 ? `カバー ${Math.round((coveredMs / elapsed) * 100)}%` : null;
-  const gross = `のべ ${formatDuration(grossMs)}`;
+  const percent = elapsed > 0 ? `${Math.round((coveredMs / elapsed) * 100)}%` : null;
+  if (coveredMs) track.append(trackTotal([formatHourMinute(coveredMs), percent].filter(Boolean).join(' · ')));
   return el('div', { className: 'row person team' }, [
     who,
     track,
     el('span', { className: 'total' }, coveredMs
       ? [
-          el('span', { title: '誰か1人でも配信していた時間', textContent: covered }),
-          ...(coverage ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: coverage })] : []),
-          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: gross }),
+          el('span', { title: '誰か1人でも配信していた時間', textContent: formatDuration(coveredMs) }),
+          ...(percent ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: `カバー ${percent}` })] : []),
+          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: `のべ ${formatDuration(grossMs)}` }),
         ]
       : ['—']),
-    metaLine(TEAM_NAME, coveredMs ? [covered, coverage, gross].filter(Boolean) : ['—']),
   ]);
 }
 
-/** 狭い画面用の1行。名前と合計の列を隠す代わりに、バーの上に小さく名前と数字を出す（広い画面では CSS で隠す） */
-function metaLine(name, values) {
-  return el('div', { className: 'meta' }, [
-    el('span', { className: 'meta-name', textContent: name }),
-    el('span', { className: 'meta-values', textContent: values.join(' · ') }),
-  ]);
+/** 狭い画面で合計の列を隠す代わりに、バーの右端へ重ねて出す合計（広い画面では CSS で隠す）。スライドしても動かないよう strip の外に置く */
+function trackTotal(text) {
+  return el('span', { className: 'track-total', ariaHidden: 'true', textContent: text });
 }
 
 /** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */

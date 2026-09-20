@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, fromManual, splitByLocalDay, weeklyHeatmap,
-  localDateString, parseLocalDate, localDayStart, mergeIntervals,
+  localDateString, parseLocalDate, localDayStart, mergeIntervals, formatHourMinute,
 } from '../lib/core.mjs';
 
 test('parseDuration', () => {
@@ -139,4 +139,10 @@ test('mergeIntervals: 重なる区間と接する区間を1本にまとめる', 
     { start: 20, end: 30 },
   ]);
   assert.deepEqual(merged, [{ start: 0, end: 30, live: true }, { start: 50, end: 60, live: false }]);
+});
+
+test('formatHourMinute: 時間と分を短く書く', () => {
+  assert.equal(formatHourMinute((9 * 60 + 57) * 60_000), '9:57');
+  assert.equal(formatHourMinute(5 * 60_000), '0:05');
+  assert.equal(formatHourMinute(150 * 3600_000), '150:00');
 });

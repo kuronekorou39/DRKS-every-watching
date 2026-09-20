@@ -236,7 +236,7 @@ a.who-link:hover .name { text-decoration: underline; }
 .p-twitch { background: var(--heat); }
 .p-youtube { background: var(--youtube); }
 .p-kick { background: var(--kick); }
-.meta { display: none; }
+.track-total { display: none; }
 .total { text-align: right; color: var(--muted); white-space: nowrap; }
 .track { position: relative; height: var(--track-h); }
 .seg {
@@ -357,23 +357,19 @@ a.who-link:hover .name { text-decoration: underline; }
   .row { grid-template-columns: 24px 1fr; column-gap: 0.5rem; }
   .row > :nth-child(3) { display: none; }
   .board { --avatar: 24px; }
-  .body { grid-auto-rows: minmax(2.4rem, 1fr); max-height: calc(var(--rows, 8) * 4.2rem); }
+  .body { max-height: calc(var(--rows, 8) * 3.4rem); }
   .who .name, .who .plats { display: none; }
-  /* 名前と合計の列を隠す代わりに、各行を2段にする: 上に名前と合計の小さな1行、下にバー */
-  .row.person { grid-template-rows: auto 1fr; row-gap: 1px; padding-block: 3px; }
-  .person .who { grid-area: 1 / 1 / 3 / 2; }
-  .person .meta {
-    grid-area: 1 / 2;
-    position: relative; z-index: 1;
-    display: flex; justify-content: space-between; gap: 0.5rem;
-    min-width: 0;
-    font-size: 0.6875rem; line-height: 1.3;
+  /* 合計の列を隠す代わりに、バーの右端へ小さく重ねて出す。行の中身は動かさず、バーも押せるままにする */
+  .track-total {
+    display: block;
+    position: absolute; right: 3px; top: 50%; z-index: 2;
+    transform: translateY(-50%);
+    color: var(--ink);
+    font-size: 0.6875rem; font-weight: 700; line-height: 1;
+    /* バーや縞の上でも読めるよう、背景色で縁取る */
+    text-shadow: 0 0 2px var(--paper), 0 0 2px var(--paper), 1px 0 0 var(--paper), -1px 0 0 var(--paper), 0 1px 0 var(--paper), 0 -1px 0 var(--paper);
+    pointer-events: none;
   }
-  .meta-name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 500; }
-  .meta-values { flex: none; color: var(--muted); }
-  .team .meta-name { font-weight: 700; }
-  .team .meta-values { color: var(--ink); }
-  .person .track { grid-area: 2 / 2; align-self: stretch; height: auto; }
   /* 詳細カードは画面の下端に固定する */
   .detail { inset: auto 8px 8px 8px !important; width: auto; }
   .detail .thumb { width: 7.5rem; }
