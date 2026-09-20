@@ -120,7 +120,7 @@ select.pill { display: none; color: var(--ink); }
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
-.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who:focus-visible, .plat:focus-visible {
+.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -131,13 +131,12 @@ select.pill { display: none; color: var(--ink); }
 .row {
   position: relative;
   display: grid;
-  grid-template-columns: 11rem 1.25rem 1fr 5.5rem;
+  grid-template-columns: 15rem 1fr 5.5rem;
   align-items: center;
   column-gap: 0.6rem;
   height: 2.3rem;
 }
-/* 1人ぶんの行（配信先ごと）をまとめ、人の境目にだけ線を引く */
-.person { position: relative; border-top: 1px solid var(--line); }
+.person { border-top: 1px solid var(--line); }
 .row.head { height: auto; align-items: end; padding-bottom: 0.35rem; color: var(--muted); }
 .body { position: relative; border-bottom: 1px solid var(--line); }
 
@@ -178,8 +177,8 @@ select.pill { display: none; color: var(--ink); }
 .band.alt { background-color: var(--empty-alt); }
 .narrow .band { border-left: 0; background-image: none; }
 
-.who {
-  position: relative; z-index: 1;
+.who { position: relative; z-index: 1; display: flex; align-items: center; gap: 0.4rem; min-width: 0; }
+.who-link {
   display: flex; align-items: center; gap: 0.5rem;
   min-width: 0;
   color: inherit;
@@ -190,15 +189,25 @@ select.pill { display: none; color: var(--ink); }
 .who img, .who .initial { flex: none; width: 24px; height: 24px; border-radius: 50%; }
 .who .initial { background: var(--empty-alt); font-size: 0.75rem; line-height: 24px; text-align: center; }
 .who .name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.who.live img, .who.live .initial { outline: 2px solid var(--signal); outline-offset: 1px; }
-a.who:hover .name { text-decoration: underline; }
+.who.live img, .who.live .initial { outline: 2px solid var(--signal); outline-offset: 1px; animation: ping 1.6s ease-out infinite; }
+a.who-link:hover .name { text-decoration: underline; }
+.live-chip {
+  flex: none;
+  padding: 0 0.35rem;
+  border-radius: 3px;
+  background: var(--signal);
+  color: var(--paper);
+  font-size: 0.625rem; font-weight: 700; line-height: 1.5; letter-spacing: 0.04em;
+  animation: blink 1.6s ease-in-out infinite;
+}
+.plats { display: flex; gap: 2px; margin-left: auto; }
 /* 配信先の印。バーも同じ色にする */
 .plat {
-  position: relative; z-index: 1;
-  width: 1.25rem; height: 1.25rem;
-  border-radius: 4px;
+  width: 1.1rem; height: 1.1rem;
+  border-radius: 3px;
   color: var(--paper);
-  font-size: 0.6875rem; font-weight: 700; line-height: 1.25rem;
+  font-size: 0.625rem; font-weight: 700; line-height: 1.1rem;
+  font-style: normal;
   text-align: center;
   text-decoration: none;
 }
@@ -208,7 +217,7 @@ a.who:hover .name { text-decoration: underline; }
 .total { text-align: right; color: var(--muted); white-space: nowrap; }
 .track { position: relative; height: 1.5rem; }
 .seg {
-  position: absolute; top: 0; bottom: 0;
+  position: absolute;
   min-width: 3px;
   padding: 0;
   border: 0;
@@ -217,8 +226,32 @@ a.who:hover .name { text-decoration: underline; }
   z-index: 1;
 }
 .seg:hover { filter: brightness(1.25); }
-.seg.live { background: var(--signal); }
+/* 配信中: 配信先の色のまま縞を流し、先端（いま）で点を脈打たせる */
+.seg.live {
+  border-radius: 3px 0 0 3px;
+  background-image: repeating-linear-gradient(-45deg, rgb(255 255 255 / 0.3) 0 6px, transparent 6px 12px);
+  background-size: 17px 100%; /* 縞の周期 12px を横方向に測った長さ。これでループの継ぎ目が出ない */
+  animation: stripes 0.9s linear infinite;
+}
+.seg.live::after {
+  content: "";
+  position: absolute; right: -5px; top: 50%;
+  width: 10px; height: 10px; margin-top: -5px;
+  border-radius: 50%;
+  background: var(--signal);
+  animation: ping 1.6s ease-out infinite;
+}
+.plat.live { animation: blink 1.6s ease-in-out infinite; }
+@keyframes stripes { to { background-position: 17px 0; } }
+@keyframes ping {
+  from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--signal) 75%, transparent); }
+  to { box-shadow: 0 0 0 9px transparent; }
+}
+@keyframes blink { 50% { opacity: 0.45; } }
 .now { position: absolute; top: -0.3rem; bottom: -0.3rem; width: 2px; margin-left: -1px; background: var(--signal); pointer-events: none; }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; margin-top: 0.75rem; font-size: 0.8125rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
+.legend .plat { display: inline-block; }
 .detail { margin-top: 0.9rem; min-height: 3.5em; font-size: 0.875rem; color: var(--muted); max-width: 80ch; }
 .detail strong { color: var(--ink); }
 
@@ -235,14 +268,14 @@ a.who:hover .name { text-decoration: underline; }
 .foot a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
-  .status .dot { animation: none; }
+  .status .dot, .seg.live, .seg.live::after, .who.live img, .who.live .initial, .live-chip, .plat.live { animation: none; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
 @media (max-width: 40rem) {
-  .row { grid-template-columns: 24px 1.25rem 1fr; column-gap: 0.4rem; }
-  .row > :nth-child(4) { display: none; }
-  .who .name { display: none; }
+  .row { grid-template-columns: 24px 1fr; column-gap: 0.5rem; }
+  .row > :nth-child(3) { display: none; }
+  .who .name, .who .plats, .who .live-chip { display: none; }
   /* 操作欄を1行に収める: 日数はボタン列をやめてプルダウンにし、余白を詰める */
   .controls { gap: 0.25rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
