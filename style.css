@@ -181,6 +181,10 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 }
 .band.alt { background-color: var(--empty-alt); }
 .narrow .band { border-left: 0; background-image: none; }
+.no-data {
+  position: absolute; inset: 0 auto 0 0;
+  background: repeating-linear-gradient(-45deg, var(--paper) 0 5px, color-mix(in srgb, var(--paper) 55%, transparent) 5px 10px);
+}
 
 .who { position: relative; z-index: 1; display: flex; align-items: center; gap: 0.4rem; min-width: 0; }
 .who-link {

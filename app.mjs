@@ -17,7 +17,7 @@ const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ
 const FALLBACK_TRACK_PX = 600;
 const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズのときの値
 const RELOAD_MS = 5 * 60_000;
-const TEAM_NAME = 'チームドロクサ';
+const TEAM_NAME = 'DRKS';
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -27,6 +27,8 @@ const el = (tag, props = {}, children = []) => {
 };
 
 let channels = [];
+// 記録を残しはじめた日の 0:00。これより前は「記録なし」として扱う（決めていなければ -Infinity）
+let recordFromMs = -Infinity;
 // 表示範囲: start（現地日の 0:00）から days 日ぶん
 const view = { start: 0, days: DEFAULT_DAYS };
 
@@ -57,7 +59,9 @@ async function load() {
     const res = await fetch('./data/history.json', { cache: 'no-store' });
     if (res.status === 404) return renderMessage('まだ記録がありません。GitHub Actions の collect を一度実行すると、ここに表示されます。');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    channels = normalizeHistory(await res.json()).channels.filter((c) => c.sources.length);
+    const history = normalizeHistory(await res.json());
+    channels = history.channels.filter((c) => c.sources.length);
+    recordFromMs = history.recordFrom ? parseLocalDate(history.recordFrom) : -Infinity;
     render();
   } catch (e) {
     renderMessage(`記録を読み込めませんでした（${e.message}）。data/history.json があるか確認してください。`);
@@ -92,6 +96,9 @@ function render() {
   $('#from').value = localDateString(view.start);
   $('#to').value = localDateString(lastDay);
   $('#to').max = $('#from').max = localDateString(now);
+  $('#to').min = $('#from').min = Number.isFinite(recordFromMs) ? localDateString(recordFromMs) : '';
+  // 記録のない期間へは戻らせない
+  $('#prev').disabled = view.start <= recordFromMs;
   $('#next').disabled = viewEnd() >= todayEnd();
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
@@ -209,7 +216,8 @@ function renderTeamRow(merged, { from, to, now, pos }) {
   if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
 
   const totalMs = merged.reduce((sum, g) => sum + g.end - g.start, 0);
-  const elapsed = Math.min(to, now) - from;
+  // 割合の分母からは、まだ来ていない時間と、記録を残す前の期間を除く
+  const elapsed = Math.min(to, now) - Math.max(from, recordFromMs);
   const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
     el('span', { className: 'who-link', title: TEAM_NAME }, [
       el('span', { className: 'avatar' }, [el('span', { className: 'initial', ariaHidden: 'true', textContent: '泥' })]),
@@ -282,6 +290,9 @@ function renderScale() {
   bandTrack.classList.toggle('narrow', narrow);
   bandTrack.style.setProperty('--hour-frac', hourStep ? hourStep / 24 : 1);
   bandTrack.replaceChildren(...bands);
+  // 記録を残す前の期間は、斜線をかけて「配信なし」と区別する
+  const noData = (Math.min(viewEnd(), recordFromMs) - view.start) / (view.days * DAY);
+  if (noData > 0) bandTrack.append(el('span', { className: 'no-data', title: '記録なし', style: `width:${noData * 100}%` }));
 }
 
 /** マウスの位置に縦の補助線を出し、その位置の日時を添える（タッチ操作では出さない） */

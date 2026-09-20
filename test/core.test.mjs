@@ -59,6 +59,7 @@ test('ヒートマップ: 1週間で金曜21時台を丸ごと配信 → その�
 test('normalizeHistory: Twitch だけだった頃の形式も sources にそろえる', () => {
   const channel = { id: '1', login: 'a', display_name: 'A', profile_image_url: 'i.png' };
   const expected = {
+    recordFrom: null,
     channels: [{
       name: 'A',
       icon: 'i.png',
@@ -67,7 +68,8 @@ test('normalizeHistory: Twitch だけだった頃の形式も sources にそろ�
   };
   assert.deepEqual(normalizeHistory({ channel, streams: [] }), expected);
   assert.deepEqual(normalizeHistory({ channels: [{ channel, streams: [] }] }), expected);
-  assert.deepEqual(normalizeHistory(null), { channels: [] });
+  assert.deepEqual(normalizeHistory(null), { recordFrom: null, channels: [] });
+  assert.equal(normalizeHistory({ recordFrom: '2026-09-16', channels: [] }).recordFrom, '2026-09-16');
   assert.deepEqual(normalizeHistory(expected), expected);
 });
 
