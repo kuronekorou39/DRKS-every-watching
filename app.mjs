@@ -144,14 +144,11 @@ function renderBoard(now) {
   const clipTo = (range) => (g) => ({ start: Math.max(range.from, g.start), end: Math.min(range.to, g.end), live: g.live });
   const sumIn = (range, list) =>
     mergeIntervals(list.map(clipTo(range)).filter((g) => g.end > g.start)).reduce((sum, g) => sum + g.end - g.start, 0);
-  const streamsOf = (c) => c.sources.flatMap((source) =>
-    source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live })));
-  const everyone = channels.flatMap(streamsOf);
+  const everyone = channels.flatMap((c) => c.sources.flatMap((source) =>
+    source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
   rows.push(renderTeamRow(mergeIntervals(everyone.map(clipTo(draw)).filter((g) => g.end > g.start)), {
     coveredMs: sumIn({ from, to }, everyone),
-    // のべ時間は、各行の「合計」を足したもの（同じ時間に2人が配信していれば2人ぶん数える）
-    grossMs: channels.reduce((sum, c) => sum + sumIn({ from, to }, streamsOf(c)), 0),
-    from, to, now, pos, strip,
+    from, to, pos, strip,
   }));
 
   for (const { name, icon, sources } of channels) {
@@ -214,12 +211,7 @@ function renderBoard(now) {
         }))),
     ]);
 
-    if (totalMs) track.append(trackTotal(formatHourMinute(totalMs)));
-    rows.push(el('div', { className: 'row person' }, [
-      who,
-      track,
-      el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
-    ]));
+    rows.push(el('div', { className: 'row person' }, [who, track, totalCell(totalMs)]));
   }
 
   $('#board').style.setProperty('--rows', channels.length + 1);
@@ -230,11 +222,8 @@ function renderBoard(now) {
   if (slideFrom != null) slide();
 }
 
-/**
- * 全員ぶんをまとめた行。誰かが配信していた時間（coveredMs）と、それが表示範囲（今より先は除く）に占める割合、
- * 全員の配信時間を足したのべ時間（grossMs）を出す
- */
-function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }) {
+/** 全員ぶんをまとめた行。合計は、誰か1人でも配信していた時間（coveredMs） */
+function renderTeamRow(merged, { coveredMs, from, to, pos, strip }) {
   const track = el('div', { className: 'track' }, [strip(merged.map((g) => {
     const label =
       `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
@@ -246,32 +235,20 @@ function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }
     });
   }))]);
 
-  // 割合の分母からは、まだ来ていない時間と、記録を残す前の期間を除く
-  const elapsed = Math.min(to, now) - Math.max(from, recordFromMs);
   const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
     el('span', { className: 'who-link', title: TEAM_NAME }, [
       el('span', { className: 'avatar' }, [el('span', { className: 'initial', ariaHidden: 'true', textContent: '泥' })]),
       el('span', { className: 'name', textContent: TEAM_NAME }),
     ]),
   ]);
-  const percent = elapsed > 0 ? `${Math.round((coveredMs / elapsed) * 100)}%` : null;
-  if (coveredMs) track.append(trackTotal(formatHourMinute(coveredMs)));
-  return el('div', { className: 'row person team' }, [
-    who,
-    track,
-    el('span', { className: 'total' }, coveredMs
-      ? [
-          el('span', { title: '誰か1人でも配信していた時間', textContent: formatDuration(coveredMs) }),
-          ...(percent ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: `カバー ${percent}` })] : []),
-          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: `のべ ${formatDuration(grossMs)}` }),
-        ]
-      : ['—']),
-  ]);
+  return el('div', { className: 'row person team' }, [who, track, totalCell(coveredMs, '誰か1人でも配信していた時間')]);
 }
 
-/** 狭い画面で合計の列を隠す代わりに、バーの右端へ重ねて出す合計（広い画面では CSS で隠す）。スライドしても動かないよう strip の外に置く */
-function trackTotal(text) {
-  return el('span', { className: 'track-total', ariaHidden: 'true', textContent: text });
+/** 合計の列。広い画面では「9時間57分」、狭い画面では列を細くして「9h57m」と出す（どちらを出すかは CSS が決める） */
+function totalCell(ms, title = '') {
+  return el('span', { className: 'total', title }, ms
+    ? [el('span', { className: 'long', textContent: formatDuration(ms) }), el('span', { className: 'short', textContent: formatHourMinute(ms) })]
+    : ['—']);
 }
 
 /** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */
@@ -454,7 +431,8 @@ function moveTo(end) {
 
 $('#prev').addEventListener('click', () => moveTo(viewEnd() - view.days * DAY));
 $('#next').addEventListener('click', () => moveTo(viewEnd() + view.days * DAY));
-$('#today').addEventListener('click', () => moveTo(todayEnd()));
+// 「今日」は広い画面ではヘッダー、狭い画面ではフッターに出すので、2つある
+document.querySelectorAll('.js-today').forEach((btn) => btn.addEventListener('click', () => moveTo(todayEnd())));
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
 });

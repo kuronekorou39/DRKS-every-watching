@@ -114,7 +114,7 @@ select.pill { display: none; color: var(--ink); }
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
-.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
+.controls button:focus-visible, .foot-controls .pill:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -230,13 +230,11 @@ a.who-link:hover .name { text-decoration: underline; }
 .seg.team { background-color: var(--ink); cursor: default; }
 .team .initial { background: var(--ink); color: var(--paper); font-family: "Dela Gothic One", sans-serif; font-size: max(0.75rem, 32cqh); }
 .team .who-link { font-weight: 700; }
-.team .total { color: var(--ink); line-height: 1.2; }
-.team .total > * { display: block; }
-.team .total small { font-size: 0.8em; font-weight: 500; color: var(--muted); }
+.team .total { color: var(--ink); }
 .p-twitch { background: var(--heat); }
 .p-youtube { background: var(--youtube); }
 .p-kick { background: var(--kick); }
-.track-total { display: none; }
+.total .short, .foot-controls { display: none; }
 .total { text-align: right; color: var(--muted); white-space: nowrap; }
 .track { position: relative; height: var(--track-h); }
 .seg {
@@ -355,43 +353,30 @@ a.who-link:hover .name { text-decoration: underline; }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
 @media (max-width: 40rem) {
-  .row { grid-template-columns: 24px 1fr; column-gap: 0.5rem; }
-  .row > :nth-child(3) { display: none; }
+  /* 名前は隠してアイコンだけにし、合計は右端の細い列に短い書き方で出す。バーとは重ねない */
+  .row { grid-template-columns: 24px 1fr 3.1rem; column-gap: 0.4rem; }
   .board { --avatar: 24px; }
   .body { max-height: calc(var(--rows, 8) * 3.4rem); }
   .who .name, .who .plats { display: none; }
-  /* 合計の列を隠す代わりに、バーの右端へ小さく重ねて出す。行の中身は動かさず、バーも押せるままにする */
-  .track-total {
-    display: block;
-    position: absolute; right: 3px; top: 50%; z-index: 2;
-    transform: translateY(-50%);
-    /* 時刻の目盛りと同じ調子にして、控えめに見せる */
-    color: var(--muted);
-    font-size: 0.6875rem; font-weight: 400; line-height: 1;
-    /* バーや縞の上でも読めるよう、背景色で縁取る */
-    text-shadow: 0 0 2px var(--paper), 0 0 2px var(--paper), 1px 0 0 var(--paper), -1px 0 0 var(--paper), 0 1px 0 var(--paper), 0 -1px 0 var(--paper);
-    pointer-events: none;
-  }
+  .total { font-size: 0.6875rem; }
+  .total .long { display: none; }
+  .total .short { display: inline; }
   /* 詳細カードは画面の下端に固定する */
   .detail { inset: auto 8px 8px 8px !important; width: auto; }
   .detail .thumb { width: 7.5rem; }
-  /* ロゴの右に操作欄を並べて1行にする: ロゴを小さくし、日数はボタン列をやめてプルダウンに、余白も詰める。
-     それでも入らない幅では、操作欄がまとまってロゴの下へ折り返す */
-  .hero { gap: 0.4rem 0.5rem; }
-  .hero h1 { font-size: 1.35rem; }
-  .controls { flex: 1 0 auto; flex-wrap: nowrap; gap: 0.25rem; }
+  /* ヘッダーはロゴと日付の移動だけにして余白を作り、「今日」と日数の切替はフッターの凡例の右に出す */
+  .hero { gap: 0.4rem 0.75rem; }
+  .hero h1 { font-size: 1.6rem; }
+  .controls { flex: 1 0 auto; }
+  .controls .js-today, .range { display: none; }
+  .step { margin-right: 0; margin-left: auto; font-size: 0.9375rem; }
+  .step button { padding-inline: 0.5rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
   .step:not(.single) .w { display: none; }
-  .range { display: none; }
-  select.pill { display: block; padding-inline: 0.15rem; font-size: 0.8125rem; }
-  .step { font-size: 0.875rem; }
-  .step button { padding-inline: 0.35rem; font-size: 0.8125rem; }
-  button.pill { padding-inline: 0.4rem; font-size: 0.8125rem; }
-}
-/* 横 360px 級の小さい機種でも1行に収まるよう、もうひと詰めする */
-@media (max-width: 23rem) {
-  .hero { column-gap: 0.35rem; }
-  .hero h1 { font-size: 1.2rem; }
-  .step button { padding-inline: 0.25rem; }
-  button.pill { padding-inline: 0.3rem; }
+  .foot { align-items: center; gap: 0.25rem 0.5rem; }
+  .legend { gap: 0.3rem 0.6rem; }
+  .foot-controls { display: flex; gap: 0.35rem; }
+  .foot-controls .pill { padding-inline: 0.6rem; font-size: 0.8125rem; }
+  select.pill { display: block; padding-inline: 0.3rem; }
+  .foot .note { flex-basis: 100%; }
 }
