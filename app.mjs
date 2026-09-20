@@ -214,10 +214,12 @@ function renderBoard(now) {
         }))),
     ]);
 
+    const total = totalMs ? formatDuration(totalMs) : '—';
     rows.push(el('div', { className: 'row person' }, [
       who,
       track,
-      el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
+      el('span', { className: 'total', textContent: total }),
+      metaLine(name, [total]),
     ]));
   }
 
@@ -253,18 +255,28 @@ function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }
       el('span', { className: 'name', textContent: TEAM_NAME }),
     ]),
   ]);
+  const covered = formatDuration(coveredMs);
+  const coverage = elapsed > 0 ? `カバー ${Math.round((coveredMs / elapsed) * 100)}%` : null;
+  const gross = `のべ ${formatDuration(grossMs)}`;
   return el('div', { className: 'row person team' }, [
     who,
     track,
     el('span', { className: 'total' }, coveredMs
       ? [
-          el('span', { title: '誰か1人でも配信していた時間', textContent: formatDuration(coveredMs) }),
-          ...(elapsed > 0
-            ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: `カバー ${Math.round((coveredMs / elapsed) * 100)}%` })]
-            : []),
-          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: `のべ ${formatDuration(grossMs)}` }),
+          el('span', { title: '誰か1人でも配信していた時間', textContent: covered }),
+          ...(coverage ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: coverage })] : []),
+          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: gross }),
         ]
       : ['—']),
+    metaLine(TEAM_NAME, coveredMs ? [covered, coverage, gross].filter(Boolean) : ['—']),
+  ]);
+}
+
+/** 狭い画面用の1行。名前と合計の列を隠す代わりに、バーの上に小さく名前と数字を出す（広い画面では CSS で隠す） */
+function metaLine(name, values) {
+  return el('div', { className: 'meta' }, [
+    el('span', { className: 'meta-name', textContent: name }),
+    el('span', { className: 'meta-values', textContent: values.join(' · ') }),
   ]);
 }
 
