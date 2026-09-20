@@ -114,3 +114,17 @@ test('fromManual: 日本時間で書いた配信を記録に足す', () => {
   assert.throws(() => fromManual({ start: '2026-09-02 21:00', end: '2026-09-02 20:00' }));
   assert.throws(() => fromManual({ start: '9/2 21:00', end: '9/2 23:00' }));
 });
+
+test('配信のページとサムネイルを記録し、アーカイブができたら差し替える', () => {
+  const live = { id: 's1', user_login: 'a', started_at: '2026-09-18T12:00:00Z', title: 'A', thumbnail_url: 'https://t/live-{width}x{height}.jpg' };
+  let h = mergeHistory([], fromTwitch([], live));
+  assert.equal(h[0].url, 'https://www.twitch.tv/a');
+  assert.equal(h[0].thumb, 'https://t/live-320x180.jpg');
+  const videos = [{ stream_id: 's1', created_at: '2026-09-18T12:00:00Z', duration: '1h0m0s', title: 'A', url: 'https://www.twitch.tv/videos/1', thumbnail_url: 'https://t/vod-%{width}x%{height}.jpg' }];
+  h = mergeHistory(h, fromTwitch(videos, null));
+  assert.equal(h[0].url, 'https://www.twitch.tv/videos/1');
+  assert.equal(h[0].thumb, 'https://t/vod-320x180.jpg');
+  // アーカイブが消えたあとも残る
+  h = mergeHistory(h, fromTwitch([], null));
+  assert.equal(h[0].thumb, 'https://t/vod-320x180.jpg');
+});

@@ -61,7 +61,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  max-width: 120rem;
+  max-width: 150rem;
   min-height: 100svh;
   margin: 0 auto;
   padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.5rem);
@@ -114,7 +114,7 @@ select.pill { display: none; color: var(--ink); }
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
-.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible {
+.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -141,7 +141,7 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
   flex: 1;
   display: grid;
   grid-auto-rows: minmax(2.3rem, 1fr);
-  max-height: calc(var(--rows, 8) * 7rem);
+  max-height: calc(var(--rows, 8) * 8rem);
   border-bottom: 1px solid var(--line);
 }
 
@@ -258,8 +258,47 @@ a.who-link:hover .name { text-decoration: underline; }
 .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; }
 .legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend .plat { display: inline-block; }
-.detail { margin-top: 0.5rem; min-height: 1.75em; font-size: 0.875rem; color: var(--muted); max-width: 80ch; }
-.detail strong { color: var(--ink); }
+/* マウスに追従する縦の補助線と、その位置の日時 */
+.cursor-line { position: absolute; top: 0; bottom: 0; z-index: 3; width: 1px; background: var(--ink); opacity: 0.6; pointer-events: none; }
+.cursor-line[hidden] { display: none; }
+.cursor-line span {
+  position: absolute; bottom: 100%; left: 0;
+  padding: 0.05rem 0.45rem;
+  border-radius: 4px 4px 4px 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.9em; font-weight: 500; white-space: nowrap;
+}
+.cursor-line.flip span { left: auto; right: 0; border-radius: 4px 4px 0 4px; }
+
+/* 押したバーのそばに出す詳細カード。位置は JS が決める */
+.detail {
+  position: fixed; z-index: 10;
+  display: flex; gap: 0.75rem;
+  width: min(34em, calc(100vw - 16px));
+  padding: 0.75rem 2.25rem 0.75rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.25);
+  font-size: clamp(0.875rem, 0.75vw, 1.1rem); line-height: 1.5;
+}
+.detail[hidden] { display: none; }
+.detail .thumb { flex: none; align-self: start; width: 10rem; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: var(--empty); }
+.detail .thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.detail-text { min-width: 0; color: var(--muted); }
+.detail-who { display: flex; align-items: center; gap: 0.4rem; color: var(--ink); font-weight: 700; }
+.detail-title { color: var(--ink); overflow-wrap: anywhere; }
+.detail a { color: var(--ink); }
+.detail .close {
+  position: absolute; top: 0.3rem; right: 0.3rem;
+  width: 1.75rem; height: 1.75rem;
+  border: 0; border-radius: 50%;
+  background: none; color: var(--muted);
+  font: inherit; font-size: 1.1rem; line-height: 1;
+  cursor: pointer;
+}
+.detail .close:hover { color: var(--ink); }
 
 /* ---- footer ---- */
 .foot {
@@ -293,7 +332,6 @@ a.who-link:hover .name { text-decoration: underline; }
   .seg.live { border-radius: 5px 0 0 5px; }
   .seg.live::after { right: -7px; width: 14px; height: 14px; margin-top: -7px; }
   .step { font-size: 1.35rem; }
-  .detail { font-size: 1rem; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
@@ -303,6 +341,9 @@ a.who-link:hover .name { text-decoration: underline; }
   .board { --avatar: 24px; }
   .body { max-height: calc(var(--rows, 8) * 3.4rem); }
   .who .name, .who .plats { display: none; }
+  /* 詳細カードは画面の下端に固定する */
+  .detail { inset: auto 8px 8px 8px !important; width: auto; }
+  .detail .thumb { width: 7.5rem; }
   /* 操作欄を1行に収める: 日数はボタン列をやめてプルダウンにし、余白を詰める */
   .controls { gap: 0.25rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */

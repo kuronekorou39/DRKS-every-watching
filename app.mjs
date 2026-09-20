@@ -140,7 +140,10 @@ function renderBoard(now) {
           `left:${pos(a)};width:${((b - a) / span) * 100}%;` +
           `top:${(lanes.indexOf(g.lane) / lanes.length) * 100}%;height:${100 / lanes.length}%`,
       });
-      seg.addEventListener('click', () => showDetail(`${name}（${platform.label}）`, label));
+      seg.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showDetail(seg, { name, source, stream: s, start, end });
+      });
       track.append(seg);
     }
     if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
@@ -156,7 +159,7 @@ function renderBoard(now) {
     }
 
     // サンプルデータのチャンネルは実在しない（url が空）のでリンクにしない
-    const link = (url, props, children) => (url ? el('a', { ...props, href: url, rel: 'noopener' }, children) : el('span', props, children));
+    const link = (url, props, children) => (url ? externalLink(url, props, children) : el('span', props, children));
     const live = sources.some(isLive);
     const who = el('div', { className: `who${live ? ' live' : ''}` }, [
       link(sources[0].channel.url, { className: 'who-link', title: name }, [
@@ -185,9 +188,10 @@ function renderBoard(now) {
   }
 
   $('#board').style.setProperty('--rows', channels.length);
-  $('#board').replaceChildren(head, el('div', { className: 'body' }, rows));
+  const body = el('div', { className: 'body' }, rows);
+  attachCursorLine(body, from, span);
+  $('#board').replaceChildren(head, body);
   renderScale();
-  $('#detail').textContent = '';
 }
 
 /** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */
@@ -248,11 +252,75 @@ function renderScale() {
   bandTrack.replaceChildren(...bands);
 }
 
-function showDetail(name, label) {
-  $('#detail').replaceChildren(el('strong', { textContent: name }), `　${label.replaceAll('\n', ' / ')}`);
+/** マウスの位置に縦の補助線を出し、その位置の日時を添える（タッチ操作では出さない） */
+function attachCursorLine(body, from, span) {
+  const label = el('span');
+  const line = el('div', { className: 'cursor-line', hidden: true, ariaHidden: 'true' }, [label]);
+  body.append(line);
+  body.addEventListener('pointermove', (e) => {
+    const track = body.querySelector('.bands .track').getBoundingClientRect();
+    const ratio = (e.clientX - track.left) / track.width;
+    line.hidden = e.pointerType !== 'mouse' || ratio < 0 || ratio > 1;
+    if (line.hidden) return;
+    const t = from + ratio * span;
+    line.style.left = `${e.clientX - body.getBoundingClientRect().left}px`;
+    label.textContent = `${formatDate(t)} ${formatClock(t)}`;
+    // 右端ではラベルが画面からはみ出すので、線の左側に出す
+    line.classList.toggle('flip', ratio > 0.85);
+  });
+  body.addEventListener('pointerleave', () => { line.hidden = true; });
+}
+
+/** 外部へのリンクは、ボードを開いたままにできるよう別タブで開く */
+function externalLink(url, props, children) {
+  return el('a', { ...props, href: url, target: '_blank', rel: 'noopener' }, children);
+}
+
+/** 押したバーのそばに、その配信の詳細（サムネイル・時刻・タイトル）をカードで出す */
+function showDetail(seg, { name, source, stream, start, end }) {
+  const platform = PLATFORMS[source.platform];
+  const url = stream.url || source.channel.url;
+  const time =
+    `${formatDate(start)} ${formatClock(start)}〜${stream.live ? '配信中' : formatClock(end)}（${formatDuration(end - start)}）`;
+  const openLabel = stream.live ? '配信を開く ↗' : stream.url ? 'アーカイブを開く ↗' : 'チャンネルを開く ↗';
+  const thumb = el('img', { src: stream.thumb ?? '', alt: '', referrerPolicy: 'no-referrer' });
+  // アーカイブが消えるとサムネイルも消えるので、読めなければ枠ごと出さない
+  thumb.addEventListener('error', () => thumb.parentElement.remove());
+  const close = el('button', { type: 'button', className: 'close', ariaLabel: '閉じる', textContent: '×' });
+  close.addEventListener('click', hideDetail);
+
+  const card = $('#detail');
+  card.replaceChildren(
+    ...(stream.thumb && url ? [externalLink(url, { className: 'thumb', tabIndex: -1, ariaHidden: 'true' }, [thumb])] : []),
+    el('div', { className: 'detail-text' }, [
+      el('p', { className: 'detail-who' }, [
+        el('i', { className: `plat p-${source.platform}`, textContent: platform.mark }),
+        `${name}（${platform.label}）`,
+      ]),
+      el('p', { textContent: time }),
+      ...(stream.title ? [el('p', { className: 'detail-title', textContent: stream.title })] : []),
+      ...(stream.game ? [el('p', { textContent: stream.game })] : []),
+      ...(url ? [el('p', {}, [externalLink(url, { textContent: openLabel })])] : []),
+    ]),
+    close,
+  );
+  card.hidden = false;
+
+  // バーのすぐ下に出す。下に入らなければ上、左右は画面内に収める（狭い画面では CSS で下端に固定する）
+  const r = seg.getBoundingClientRect();
+  const margin = 8;
+  const below = r.bottom + margin;
+  const top = below + card.offsetHeight <= innerHeight ? below : Math.max(margin, r.top - margin - card.offsetHeight);
+  card.style.left = `${Math.max(margin, Math.min(r.left, innerWidth - card.offsetWidth - margin))}px`;
+  card.style.top = `${top}px`;
+}
+
+function hideDetail() {
+  $('#detail').hidden = true;
 }
 
 function update() {
+  hideDetail();
   writeUrl();
   render();
 }
@@ -285,6 +353,10 @@ new ResizeObserver(([entry]) => {
   scaleWidth = entry.contentRect.width;
   renderScale();
 }).observe($('#board'));
+
+// カードの外を押すか Esc で閉じる
+document.addEventListener('click', (e) => { if (!e.target.closest('#detail')) hideDetail(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideDetail(); });
 
 readUrl();
 load();
