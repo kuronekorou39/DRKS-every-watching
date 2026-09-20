@@ -116,7 +116,8 @@ h1, h2, h3, p { margin: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .controls {
   display: flex;
-  flex-wrap: wrap;
+  /* 操作欄の中では折り返さない。入りきらないときは、操作欄ごとロゴの下の行へ回る（ヘッダーは最大2行） */
+  flex-wrap: nowrap;
   align-items: center;
   /* 期間・「今日」・日数の切替はひとまとめにして右へ寄せる */
   justify-content: flex-end;
@@ -322,16 +323,13 @@ a.who-link:hover .name { text-decoration: underline; }
   border-radius: 3px;
   cursor: pointer;
   z-index: 1;
-  /* 上が少し明るく下が少し暗い濃淡と、薄い影で立体感を出す */
-  background-image: var(--sheen);
-  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
 }
 .seg:hover { filter: brightness(1.25); }
 /* 配信中: 配信先の色のまま縞を流し、先端（いま）で点を脈打たせる */
 .seg.live {
   border-radius: 3px 0 0 3px;
-  background-image: repeating-linear-gradient(-45deg, rgb(255 255 255 / 0.3) 0 6px, transparent 6px 12px), var(--sheen);
-  background-size: 17px 100%, 100% 100%; /* 縞の周期 12px を横方向に測った長さ。これでループの継ぎ目が出ない */
+  background-image: repeating-linear-gradient(-45deg, rgb(255 255 255 / 0.3) 0 6px, transparent 6px 12px);
+  background-size: 17px 100%; /* 縞の周期 12px を横方向に測った長さ。これでループの継ぎ目が出ない */
   animation: stripes 0.9s linear infinite;
 }
 .seg.live::after {
@@ -343,7 +341,7 @@ a.who-link:hover .name { text-decoration: underline; }
   animation: ping 1.6s ease-out infinite;
 }
 .plat.live { animation: blink 1.6s ease-in-out infinite; }
-@keyframes stripes { to { background-position: 17px 0, 0 0; } }
+@keyframes stripes { to { background-position: 17px 0; } }
 @keyframes ping {
   from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--signal) 75%, transparent); }
   to { box-shadow: 0 0 0 9px transparent; }
@@ -439,11 +437,13 @@ a.who-link:hover .name { text-decoration: underline; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
-/* 日数のボタン列がヘッダーに入りきらない幅では、プルダウンに替える（折り返してヘッダーが2段になるのを防ぐ） */
+/* 日数のボタン列がロゴの横に入りきらないときは、プルダウンに替える。
+   入るかどうかはフォントや文字の拡大率で変わるので、幅の決め打ちではなく JS が実測して .compact を付ける */
+.hero.compact .range { display: none; }
+.hero.compact .controls .js-days { display: block; }
+
 @media (max-width: 54rem) {
-  .range { display: none; }
-  .controls .js-days { display: block; }
-  /* 名前の列も狭くなるので、配信先の印は隠して名前に幅を回す（配信先はバーの色で分かる） */
+  /* 名前の列が狭くなるので、配信先の印は隠して名前に幅を回す（配信先はバーの色で分かる） */
   .who .plats { display: none; }
 }
 
@@ -465,7 +465,7 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero { gap: 0.4rem 0.5rem; }
   .hero h1 { font-size: 1.45rem; }
   .controls { flex: 1 0 auto; }
-  .controls .js-days { display: none; }
+  .range, .controls .js-days { display: none; }
   .step { font-size: 0.9375rem; }
   .step button { padding-inline: 0.4rem; }
   .step .sep { margin-inline: 0.15rem 0.1rem; }

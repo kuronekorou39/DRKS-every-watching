@@ -116,6 +116,7 @@ function render() {
   document.querySelectorAll('.js-today').forEach((b) => b.setAttribute('aria-pressed', String(viewEnd() >= todayEnd())));
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
+  fitHeader();
   moveThumb();
   // 用意した日数に当てはまらないときは「指定」を出す
   for (const select of document.querySelectorAll('.js-days')) {
@@ -363,6 +364,23 @@ function animateBoard() {
   }, duration);
 }
 
+/**
+ * 日数のボタン列がロゴの横に入りきるかを実測し、入らなければプルダウンに替える（.compact）。
+ * 入るかどうかはフォントや文字の拡大率、期間の文字数で変わるので、幅の決め打ちにはしない
+ */
+function fitHeader() {
+  const hero = $('.hero');
+  hero.classList.remove('compact');
+  // 狭い画面は、ヘッダーに期間だけを置く別の並べ方（CSS のメディアクエリ側で決める）
+  if (matchMedia('(max-width: 40rem)').matches) return;
+  const logo = hero.querySelector('h1').getBoundingClientRect();
+  const controls = hero.querySelector('.controls');
+  const box = controls.getBoundingClientRect();
+  const wrapped = box.top >= logo.bottom - 1;
+  const overflowing = controls.scrollWidth > controls.clientWidth + 1 || box.right > hero.getBoundingClientRect().right + 1;
+  if (wrapped || overflowing) hero.classList.add('compact');
+}
+
 /** 日数ボタンの塗りつぶし（つまみ）を、選択中のボタンの位置へ動かす。用意した日数でなければ隠す */
 function moveThumb() {
   const range = $('.range');
@@ -507,7 +525,11 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideDetail
 
 // 日数ボタンのつまみはボタンの実寸から位置を決めるので、大きさが変わったら置き直す
 new ResizeObserver(moveThumb).observe($('.range'));
-document.fonts.ready.then(moveThumb); // フォントが入るとボタンの幅が変わる
+// ヘッダーの幅が変わったら、ボタン列が入るかを測り直す
+new ResizeObserver(fitHeader).observe($('.hero'));
+// フォントが入るとボタンの幅が変わる。太字などは使われてから読み込まれるので、読み込みが終わるたびに測り直す
+document.fonts.addEventListener('loadingdone', () => { fitHeader(); moveThumb(); });
+document.fonts.ready.then(() => { fitHeader(); moveThumb(); });
 
 readUrl();
 load();
