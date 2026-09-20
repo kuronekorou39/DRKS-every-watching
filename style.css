@@ -374,13 +374,23 @@ a.who-link:hover .name { text-decoration: underline; }
   /* 詳細カードは画面の下端に固定する */
   .detail { inset: auto 8px 8px 8px !important; width: auto; }
   .detail .thumb { width: 7.5rem; }
-  /* 操作欄を1行に収める: 日数はボタン列をやめてプルダウンにし、余白を詰める */
-  .controls { gap: 0.25rem; }
+  /* ロゴの右に操作欄を並べて1行にする: ロゴを小さくし、日数はボタン列をやめてプルダウンに、余白も詰める。
+     それでも入らない幅では、操作欄がまとまってロゴの下へ折り返す */
+  .hero { gap: 0.4rem 0.5rem; }
+  .hero h1 { font-size: 1.35rem; }
+  .controls { flex: 1 0 auto; flex-wrap: nowrap; gap: 0.25rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
   .step:not(.single) .w { display: none; }
   .range { display: none; }
-  select.pill { display: block; padding-inline: 0.25rem; }
-  .step { font-size: 0.9375rem; }
-  .step button { padding-inline: 0.45rem; }
-  button.pill { padding-inline: 0.45rem; }
+  select.pill { display: block; padding-inline: 0.15rem; font-size: 0.8125rem; }
+  .step { font-size: 0.875rem; }
+  .step button { padding-inline: 0.35rem; font-size: 0.8125rem; }
+  button.pill { padding-inline: 0.4rem; font-size: 0.8125rem; }
+}
+/* 横 360px 級の小さい機種でも1行に収まるよう、もうひと詰めする */
+@media (max-width: 23rem) {
+  .hero { column-gap: 0.35rem; }
+  .hero h1 { font-size: 1.2rem; }
+  .step button { padding-inline: 0.25rem; }
+  button.pill { padding-inline: 0.3rem; }
 }
