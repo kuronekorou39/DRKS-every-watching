@@ -38,6 +38,15 @@
           <button type="button" data-days="14">2週</button>
           <button type="button" data-days="28">4週</button>
         </div>
+        <!-- ボタン列が入りきらない幅では、代わりにこのプルダウンを出す -->
+        <select class="pill js-days" aria-label="表示する日数">
+          <option value="1">1日</option>
+          <option value="3">3日</option>
+          <option value="7">1週</option>
+          <option value="14">2週</option>
+          <option value="28">4週</option>
+          <option value="" hidden>指定</option>
+        </select>
       </div>
     </header>
     <p id="status" class="status" aria-live="polite">読み込み中…</p>
@@ -59,7 +68,7 @@
       <!-- 狭い画面ではヘッダーを空けるため、「今日」と日数の切替をここに出す（広い画面では隠す） -->
       <div class="foot-controls" role="group" aria-label="表示範囲の操作">
         <button type="button" class="pill js-today">今日</button>
-        <select id="days" class="pill" aria-label="表示する日数">
+        <select class="pill js-days" aria-label="表示する日数">
           <option value="1">1日</option>
           <option value="3">3日</option>
           <option value="7">1週</option>

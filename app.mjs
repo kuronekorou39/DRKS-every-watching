@@ -115,8 +115,9 @@ function render() {
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
   // 用意した日数に当てはまらないときは「指定」を出す
-  const days = $('#days');
-  days.value = [...days.options].some((o) => Number(o.value) === view.days) ? String(view.days) : '';
+  for (const select of document.querySelectorAll('.js-days')) {
+    select.value = [...select.options].some((o) => Number(o.value) === view.days) ? String(view.days) : '';
+  }
 
   renderBoard(now);
 }
@@ -436,7 +437,9 @@ document.querySelectorAll('.js-today').forEach((btn) => btn.addEventListener('cl
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
 });
-$('#days').addEventListener('change', (e) => { setView(viewEnd(), Number(e.target.value)); update(); });
+// 日数のプルダウンは、中くらいの幅ではヘッダー、狭い画面ではフッターに出すので、2つある
+document.querySelectorAll('.js-days').forEach((select) =>
+  select.addEventListener('change', () => { setView(viewEnd(), Number(select.value)); update(); }));
 for (const input of [$('#from'), $('#to')]) {
   // 入力欄は透明で文字の上に重ねてあるので、どこを押してもカレンダーが開くようにする
   input.addEventListener('click', () => { try { input.showPicker?.(); } catch { /* 開けない環境では通常の入力欄として動く */ } });

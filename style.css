@@ -128,7 +128,7 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 .row {
   position: relative;
   display: grid;
-  grid-template-columns: 15rem 1fr 7rem;
+  grid-template-columns: clamp(9rem, 22vw, 15rem) 1fr clamp(5.5rem, 9vw, 7rem);
   align-items: center;
   column-gap: 0.6rem;
   height: 2.3rem;
@@ -352,6 +352,14 @@ a.who-link:hover .name { text-decoration: underline; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
+/* 日数のボタン列がヘッダーに入りきらない幅では、プルダウンに替える（折り返してヘッダーが2段になるのを防ぐ） */
+@media (max-width: 52rem) {
+  .range { display: none; }
+  .controls .js-days { display: block; }
+  /* 名前の列も狭くなるので、配信先の印は隠して名前に幅を回す（配信先はバーの色で分かる） */
+  .who .plats { display: none; }
+}
+
 @media (max-width: 40rem) {
   /* 名前は隠してアイコンだけにし、合計は右端の細い列に短い書き方で出す。バーとは重ねない */
   .row { grid-template-columns: 24px 1fr 3.1rem; column-gap: 0.4rem; }
@@ -368,7 +376,7 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero { gap: 0.4rem 0.75rem; }
   .hero h1 { font-size: 1.6rem; }
   .controls { flex: 1 0 auto; }
-  .controls .js-today, .range { display: none; }
+  .controls .js-today, .controls .js-days { display: none; }
   .step { margin-right: 0; margin-left: auto; font-size: 0.9375rem; }
   .step button { padding-inline: 0.5rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
@@ -377,6 +385,6 @@ a.who-link:hover .name { text-decoration: underline; }
   .legend { gap: 0.3rem 0.6rem; }
   .foot-controls { display: flex; gap: 0.35rem; }
   .foot-controls .pill { padding-inline: 0.6rem; font-size: 0.8125rem; }
-  select.pill { display: block; padding-inline: 0.3rem; }
+  .foot-controls .js-days { display: block; padding-inline: 0.3rem; }
   .foot .note { flex-basis: 100%; }
 }
