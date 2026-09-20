@@ -20,7 +20,7 @@ const RELOAD_MS = 5 * 60_000;
 const TEAM_NAME = 'DRKS';
 const SLIDE_MS = 380;
 const ZOOM_MS = 450;
-const MAX_SLIDE_SPANS = 2; // これより遠くへ動くときはスライドさせない（描く範囲が広がりすぎるため）
+const MAX_ANIM_DAYS = 120; // 変える前後を合わせた範囲がこれより長いときは、アニメーションなしで切り替える（描く量が増えすぎるため）
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -448,17 +448,18 @@ function update(before = null) {
   hideDetail();
   // 動いている途中で別の操作が来たら、前のアニメーションの片付けは無効にする
   animFrom = before && !reducedMotion() && (before.start !== view.start || before.days !== view.days) ? before : null;
+  if (animFrom && (drawRange().to - drawRange().from) / DAY > MAX_ANIM_DAYS) animFrom = null;
   animToken++;
   $('#board').classList.remove('sliding');
   writeUrl();
   render();
 }
 
-/** 日数はそのままで表示範囲を動かす。近くへの移動なら横に滑らせる */
+/** 日数はそのままで表示範囲を動かす。ボードは横に滑って切り替わる */
 function moveTo(end) {
   const before = { ...view };
   setView(end, view.days);
-  update(Math.abs(view.start - before.start) <= MAX_SLIDE_SPANS * view.days * DAY ? before : null);
+  update(before);
 }
 
 /** 終わりの日はそのままで日数を変える。バーは横に伸び縮みして切り替わる */
@@ -485,9 +486,10 @@ for (const input of [$('#from'), $('#to')]) {
     const to = parseLocalDate($('#to').value);
     if (Number.isNaN(from) || Number.isNaN(to)) return;
     // 1日表示のときは選んだ日へ移動する。開始と終了が逆転したら、いま触ったほうに合わせて1日表示にする
+    const before = { ...view };
     if (view.days === 1 || from > to) setView((input.id === 'from' ? from : to) + DAY, 1);
     else setView(to + DAY, (to - from) / DAY + 1);
-    update();
+    update(before);
   });
 }
 
