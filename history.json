@@ -137,14 +137,14 @@
       },
       {
        "stream_id": "316482599922",
-       "start": "2026-09-20T07:51:56.000Z",
-       "end": "2026-09-20T17:01:16.701Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-20T07:52:01.000Z",
+       "end": "2026-09-20T17:15:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "エアコンが効かない中での鬼武者 Way of the Sword ウルトラ高画質【２日目】←ちくしょう！！！シルバーウィーク、どこもエアコン直せず。明後日スポットクーラー届くまで耐え抜く！放送！",
        "game": "Onimusha: Way of the Sword",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2879136104",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8f9a04da974cad2b6d37_indegnasen0706_316482599922_1789890716//thumb/thumb0-320x180.jpg"
       }
      ]
     }
