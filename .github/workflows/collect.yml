@@ -73,7 +73,7 @@ jobs:
         if: steps.decide.outputs.deploy == 'true'
         run: |
           mkdir -p _site/data
-          cp -r index.html style.css app.mjs lib _site/
+          cp -r index.html style.css app.mjs manifest.webmanifest lib icons _site/
           cp data/history.json _site/data/
 
       - uses: actions/upload-pages-artifact@v4
