@@ -1,10 +1,10 @@
 [
-  { "twitch": "kato_junichi0817" },
+  { "twitch": "kato_junichi0817", "youtube": "@junchannel" },
   { "twitch": "indegnasen0706" },
-  { "twitch": "mokouliszt1" },
+  { "twitch": "mokouliszt1", "youtube": "@mokoustream", "kick": "mokoutoaruotoko" },
   { "twitch": "yuyuta0702" },
-  { "twitch": "oniyadayo" },
+  { "twitch": "oniyadayo", "youtube": "@tensaioniya" },
   { "twitch": "assarisyoko1" },
   { "twitch": "batora324" },
-  { "twitch": "bakumatsu_shishi" }
+  { "twitch": "bakumatsu_shishi", "youtube": "@幕末志士チャンネル" }
 ]
