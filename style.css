@@ -246,7 +246,8 @@ a.who-link:hover .name { text-decoration: underline; }
 .seg.team { background-color: var(--ink); cursor: default; }
 .team .initial { background: var(--ink); color: var(--paper); font-family: "Dela Gothic One", sans-serif; font-size: max(0.75rem, 32cqh); }
 .team .who-link { font-weight: 700; }
-.team .total { color: var(--ink); }
+/* 太さもここで決める（広い画面用の .total の指定に負けて、DRKS 行だけ細くならないように） */
+.team .total { color: var(--ink); font-weight: 700; }
 .p-twitch { background: var(--heat); }
 .p-youtube { background: var(--youtube); }
 .p-kick { background: var(--kick); }
@@ -384,8 +385,10 @@ a.who-link:hover .name { text-decoration: underline; }
 
 @media (max-width: 40rem) {
   /* 名前は隠してアイコンだけにし、合計は右端の細い列に短い書き方で出す。バーとは重ねない */
-  .row { grid-template-columns: 24px 1fr 3.1rem; column-gap: 0.4rem; }
-  .board { --avatar: 24px; }
+  /* アイコンは行の高さに合わせて最大 34px。列の幅は固定し、行が低くてアイコンが小さくなるときは中央に置く */
+  .row { grid-template-columns: 34px 1fr 3.1rem; column-gap: 0.5rem; }
+  .board { --avatar: min(64cqh, 34px); }
+  .who { justify-content: center; }
   .body { max-height: calc(var(--rows, 8) * 3.4rem); }
   .who .name, .who .plats { display: none; }
   .total { font-size: 0.6875rem; }
