@@ -112,6 +112,7 @@ function render() {
   // 記録のない期間へは戻らせない
   $('#prev').disabled = view.start <= recordFromMs;
   $('#next').disabled = viewEnd() >= todayEnd();
+  document.querySelectorAll('.js-today').forEach((b) => b.setAttribute('aria-pressed', String(viewEnd() >= todayEnd())));
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
   // 用意した日数に当てはまらないときは「指定」を出す

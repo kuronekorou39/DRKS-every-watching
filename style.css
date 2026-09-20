@@ -88,6 +88,8 @@ h1, h2, h3, p { margin: 0; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  /* 期間・「今日」・日数の切替はひとまとめにして右へ寄せる */
+  justify-content: flex-end;
   gap: 0.5rem 0.75rem;
   flex: 1 1 17rem;
   /* 期間・「今日」・日数の切替は同じ大きさと太さにそろえる */
@@ -96,7 +98,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
 .range, .step { display: flex; align-items: center; padding: 2px; }
-.step { margin-right: auto; white-space: nowrap; }
+.step { white-space: nowrap; }
 .range button, .step button, .pill {
   font: inherit;
   color: var(--ink);
@@ -112,9 +114,11 @@ h1, h2, h3, p { margin: 0; }
 .pill { padding-block: calc(0.15rem + 2px); }
 select.pill { display: none; color: var(--ink); }
 .step button:hover:not(:disabled) { color: var(--ink); }
-button.pill:hover, .range button:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
+button.pill:not([aria-pressed="true"]):hover, .range button:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .step button:disabled { opacity: 0.35; cursor: default; }
 .range button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+/* 今日を表示しているあいだは「今日」を選択中の見た目にして、押しても変わらないことが分かるようにする */
+.js-today[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--paper); cursor: default; }
 /* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
@@ -388,7 +392,7 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero h1 { font-size: 1.6rem; }
   .controls { flex: 1 0 auto; }
   .controls .js-today, .controls .js-days { display: none; }
-  .step { margin-right: 0; margin-left: auto; font-size: 0.9375rem; }
+  .step { font-size: 0.9375rem; }
   .step button { padding-inline: 0.5rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
   .step:not(.single) .w { display: none; }
