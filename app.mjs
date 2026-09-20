@@ -144,12 +144,15 @@ function renderBoard(now) {
   const clipTo = (range) => (g) => ({ start: Math.max(range.from, g.start), end: Math.min(range.to, g.end), live: g.live });
   const sumIn = (range, list) =>
     mergeIntervals(list.map(clipTo(range)).filter((g) => g.end > g.start)).reduce((sum, g) => sum + g.end - g.start, 0);
-  const everyone = channels.flatMap((c) => c.sources.flatMap((source) =>
-    source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
-  rows.push(renderTeamRow(
-    mergeIntervals(everyone.map(clipTo(draw)).filter((g) => g.end > g.start)),
-    { totalMs: sumIn({ from, to }, everyone), from, to, now, pos, strip },
-  ));
+  const streamsOf = (c) => c.sources.flatMap((source) =>
+    source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live })));
+  const everyone = channels.flatMap(streamsOf);
+  rows.push(renderTeamRow(mergeIntervals(everyone.map(clipTo(draw)).filter((g) => g.end > g.start)), {
+    coveredMs: sumIn({ from, to }, everyone),
+    // のべ時間は、各行の「合計」を足したもの（同じ時間に2人が配信していれば2人ぶん数える）
+    grossMs: channels.reduce((sum, c) => sum + sumIn({ from, to }, streamsOf(c)), 0),
+    from, to, now, pos, strip,
+  }));
 
   for (const { name, icon, sources } of channels) {
     // 1人1行。配信先（Twitch / YouTube / Kick）は色で見分ける
@@ -226,8 +229,11 @@ function renderBoard(now) {
   if (slideFrom != null) slide();
 }
 
-/** 全員ぶんをまとめた行。合計時間と、表示範囲（今より先は除く）のうち誰かが配信していた割合を出す */
-function renderTeamRow(merged, { totalMs, from, to, now, pos, strip }) {
+/**
+ * 全員ぶんをまとめた行。誰かが配信していた時間（coveredMs）と、それが表示範囲（今より先は除く）に占める割合、
+ * 全員の配信時間を足したのべ時間（grossMs）を出す
+ */
+function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }) {
   const track = el('div', { className: 'track' }, [strip(merged.map((g) => {
     const label =
       `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
@@ -250,10 +256,15 @@ function renderTeamRow(merged, { totalMs, from, to, now, pos, strip }) {
   return el('div', { className: 'row person team' }, [
     who,
     track,
-    el('span', { className: 'total' }, [
-      totalMs ? formatDuration(totalMs) : '—',
-      ...(elapsed > 0 ? [el('small', { textContent: `${Math.round((totalMs / elapsed) * 100)}%` })] : []),
-    ]),
+    el('span', { className: 'total' }, coveredMs
+      ? [
+          el('span', { title: '誰か1人でも配信していた時間', textContent: formatDuration(coveredMs) }),
+          ...(elapsed > 0
+            ? [el('small', { title: '表示範囲のうち、誰かが配信していた時間の割合', textContent: `カバー ${Math.round((coveredMs / elapsed) * 100)}%` })]
+            : []),
+          el('small', { title: '全員の配信時間を足した合計（下の各行の合計の和）', textContent: `のべ ${formatDuration(grossMs)}` }),
+        ]
+      : ['—']),
   ]);
 }
 
