@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, fromManual, splitByLocalDay, weeklyHeatmap,
-  localDateString, parseLocalDate, localDayStart, mergeIntervals, formatHourMinute,
+  localDateString, parseLocalDate, localDayStart, mergeIntervals, formatHourMinute, localDateTimeString,
 } from '../lib/core.mjs';
 
 test('parseDuration', () => {
@@ -146,4 +146,15 @@ test('formatHourMinute: 時間と分を短く書く', () => {
   assert.equal(formatHourMinute((9 * 60 + 5) * 60_000), '9h05m');
   assert.equal(formatHourMinute(5 * 60_000), '5m');
   assert.equal(formatHourMinute(150 * 3600_000), '150h00m');
+});
+
+test('fromManual: 終わりは長さでも書ける。秒・URL・サムネイルも受け取る', () => {
+  const f = fromManual({ start: '2026-09-19 15:49:40', duration: '1h38m28s', url: 'https://kick.com/x/videos/1', thumb: 'https://img/1.webp' });
+  assert.equal(new Date(f.start).toISOString(), '2026-09-19T06:49:40.000Z');
+  assert.equal(new Date(f.end).toISOString(), '2026-09-19T08:28:08.000Z');
+  assert.equal(localDateTimeString(f.end), '2026-09-19 17:28:08');
+  const h = mergeHistory([], { finished: [f] });
+  assert.equal(h[0].url, 'https://kick.com/x/videos/1');
+  assert.equal(h[0].thumb, 'https://img/1.webp');
+  assert.throws(() => fromManual({ start: '2026-09-19 15:49' }));
 });

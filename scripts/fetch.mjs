@@ -81,7 +81,11 @@ const channels = config.map((entry) => {
     // 手で足した配信は manual.json を正とする。いったん外して入れ直すので、書き換えや削除もそのまま反映される
     const kept = (prev?.streams ?? []).filter((s) => s.end_source !== 'manual');
     const added = manual.filter((m) => m.platform === platform && m.channel === key).map(fromManual);
-    const streams = mergeHistory(kept, { ...result, finished: [...result.finished, ...added] }).filter(inRecord);
+    // 手で足した配信と同じ時間帯に、ポーリングで拾った記録（終了時刻がおおまか）が残っていたら、手で足したほうを優先する
+    const overlapsManual = (s) => added.some((m) => Date.parse(s.start) < m.end && Date.parse(s.end) > m.start);
+    const streams = mergeHistory(kept, { ...result, finished: [...result.finished, ...added] })
+      .filter(inRecord)
+      .filter((s) => s.end_source === 'manual' || s.live || !overlapsManual(s));
     sources.push({ platform, key, channel: result.channel, streams });
     console.log(
       `${PLATFORMS[platform].label} ${result.channel.display_name}: 記録 ${streams.length} 件` +

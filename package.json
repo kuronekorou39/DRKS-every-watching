@@ -6,6 +6,7 @@
   "scripts": {
     "fetch": "node --env-file=.env scripts/fetch.mjs",
     "sample": "node scripts/sample.mjs",
+    "kick-import": "node scripts/kick-import.mjs",
     "serve": "npx --yes http-server -c-1 -p 8080 .",
     "test": "node --test"
   }

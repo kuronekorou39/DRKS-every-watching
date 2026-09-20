@@ -42,12 +42,15 @@ Actions の cron は混雑で数時間あくことがあるので、`collect` �
 [{ "name": "表示名（省略可）", "twitch": "ログイン名", "youtube": "@ハンドル か UC… の ID", "kick": "チャンネル名" }]
 ```
 
-**`manual.json`** … API から取れない配信を手で足す。時刻は日本時間。`channel` は `channels.json` と同じ値。
-このファイルが正なので、書き換えたり消したりすれば記録もそうなる（API から取った記録には影響しない）。
+**`manual.json`** … API から取れない配信を手で足す。時刻は日本時間で、終わりは `end` か `duration`（`"1h38m"` の形）。
+このファイルが正なので、書き換えたり消したりすれば記録もそうなる。同じ時間帯にポーリングの記録があれば、こちらが優先される。
 
 ```json
-[{ "platform": "kick", "channel": "mokoutoaruotoko", "start": "2026-09-01 21:00", "end": "2026-09-02 01:30", "title": "省略可" }]
+[{ "platform": "kick", "channel": "mokoutoaruotoko", "start": "2026-09-19 15:49", "duration": "1h38m", "title": "省略可" }]
 ```
+
+Kick の過去分は、ブラウザで `https://kick.com/api/v2/channels/<チャンネル名>/videos` を開いて JSON を保存し、
+`npm run kick-import -- 保存したファイル` で取り込める（同じ配信は入れ直すだけなので、何度やってもよい）。
 
 **`settings.json`** … `recordFrom`（日本時間の日付）より前に始まった配信は記録しない。ボードでは斜線の「記録なし」になる。
 

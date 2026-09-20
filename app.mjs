@@ -17,6 +17,7 @@ const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ
 const FALLBACK_TRACK_PX = 600;
 const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズのときの値
 const RELOAD_MS = 5 * 60_000;
+const TICK_MS = 60_000; // 現在時刻の線と配信中のバーを進める間隔
 const TEAM_NAME = 'DRKS';
 const SLIDE_MS = 380;
 const ZOOM_MS = 450;
@@ -184,6 +185,7 @@ function renderBoard(now) {
           `left:${pos(a)};width:${((b - a) / span) * 100}%;` +
           `top:${(lanes.indexOf(g.lane) / lanes.length) * 100}%;height:${100 / lanes.length}%`,
       });
+      if (s.live) seg.dataset.liveFrom = a;
       seg.addEventListener('click', (e) => {
         e.stopPropagation();
         showDetail(seg, { name, source, stream: s, start, end });
@@ -234,11 +236,13 @@ function renderTeamRow(merged, { coveredMs, from, to, pos, strip }) {
     const label =
       `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
       `（${formatDuration(g.end - g.start)}）`;
-    return el('span', {
+    const seg = el('span', {
       className: `seg team${g.live ? ' live' : ''}`,
       title: `誰かが配信していた時間\n${label}`,
       style: `left:${pos(g.start)};width:${((g.end - g.start) / (to - from)) * 100}%;top:0;height:100%`,
     });
+    if (g.live) seg.dataset.liveFrom = g.start;
+    return seg;
   }))]);
 
   const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
@@ -537,6 +541,36 @@ new ResizeObserver(fitHeader).observe($('.hero'));
 document.fonts.addEventListener('loadingdone', () => { fitHeader(); moveThumb(); });
 document.fonts.ready.then(() => { fitHeader(); moveThumb(); });
 
+/**
+ * 1分ごとの更新。データは読み直さず、時間の経過で変わるところだけ進める:
+ * - 日付が変わったら、今日までを表示していた場合に限り、表示範囲を1日進める（開きっぱなしでも今日に追従する）
+ * - 現在時刻の線と、配信中のバーの先端を今の時刻まで進める
+ */
+let shownToday = todayEnd();
+function tick() {
+  const today = todayEnd();
+  if (today !== shownToday) {
+    const following = viewEnd() === shownToday;
+    shownToday = today;
+    if (following) {
+      setView(today, view.days);
+      if (location.search) writeUrl(); // 範囲を URL に出していた場合だけ書き換える
+    }
+    return render();
+  }
+  if (animFrom) return; // 動いている最中は触らない（終わると描き直される）
+
+  const now = Date.now();
+  const from = view.start;
+  const span = view.days * DAY;
+  if (now < from || now >= from + span) return;
+  for (const line of document.querySelectorAll('#board .now')) line.style.left = `${((now - from) / span) * 100}%`;
+  for (const seg of document.querySelectorAll('#board .seg[data-live-from]')) {
+    seg.style.width = `${((now - Number(seg.dataset.liveFrom)) / span) * 100}%`;
+  }
+}
+
 readUrl();
 load();
 setInterval(load, RELOAD_MS);
+setInterval(tick, TICK_MS);
