@@ -14,12 +14,7 @@
   <main>
     <header class="hero">
       <h1>泥臭ログ</h1>
-      <p id="status" class="status" aria-live="polite">読み込み中…</p>
-    </header>
-
-    <section aria-labelledby="board-title">
-      <h2 id="board-title" class="sr-only">配信のスケジュール</h2>
-      <div class="controls">
+      <div class="controls" role="group" aria-label="表示範囲の操作">
         <div class="step" role="group" aria-label="表示範囲">
           <button type="button" id="prev" aria-label="前へ">◀</button>
           <!-- 日付の文字の上に透明な日付入力を重ねてあり、押すとカレンダーが開く -->
@@ -45,18 +40,23 @@
           <option value="" hidden>指定</option>
         </select>
       </div>
+    </header>
+    <p id="status" class="status" aria-live="polite">読み込み中…</p>
+
+    <section aria-labelledby="board-title">
+      <h2 id="board-title" class="sr-only">配信のスケジュール</h2>
       <div class="scroll">
         <div id="board" class="board"></div>
       </div>
+      <p id="detail" class="detail" aria-live="polite"></p>
+    </section>
+
+    <footer class="foot">
       <p class="legend">
         <span><i class="plat p-twitch">T</i>Twitch</span>
         <span><i class="plat p-youtube">Y</i>YouTube</span>
         <span><i class="plat p-kick">K</i>Kick</span>
       </p>
-      <p id="detail" class="detail" aria-live="polite"></p>
-    </section>
-
-    <footer class="foot">
       <p>時刻はすべて日本時間です。開始時刻は正確ですが、アーカイブの残っていない配信は終了時刻が最大10分ほどずれることがあります。</p>
     </footer>
   </main>

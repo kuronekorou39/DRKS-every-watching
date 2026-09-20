@@ -15,6 +15,7 @@ const MIN_HOUR_LABEL_PX = 18; // 時刻ラベルどうしの最小間隔
 const HOUR_STEPS = [1, 2, 3, 6, 12];
 const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ、週ごとに色分けする
 const FALLBACK_TRACK_PX = 600;
+const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズのときの値
 const RELOAD_MS = 5 * 60_000;
 
 const $ = (sel) => document.querySelector(sel);
@@ -167,7 +168,6 @@ function renderBoard(now) {
         ]),
         el('span', { className: 'name', textContent: name }),
       ]),
-      ...(live ? [el('span', { className: 'live-chip', textContent: 'LIVE' })] : []),
       el('span', { className: 'plats' }, sources.map((source) =>
         link(source.channel.url, {
           className: `plat p-${source.platform}${isLive(source) ? ' live' : ''}`,
@@ -195,10 +195,12 @@ function renderScale() {
   const scale = $('#board .scale');
   if (!scale) return;
   const width = scale.getBoundingClientRect().width || FALLBACK_TRACK_PX;
-  const dayPx = width / view.days;
+  // 広い画面では文字が大きくなるので、ラベルの出し分けは文字サイズで割った幅で決める
+  const fontScale = parseFloat(getComputedStyle(scale).fontSize) / BASE_FONT_PX || 1;
+  const narrow = width / view.days < NARROW_DAY_PX;
+  const dayPx = width / view.days / fontScale;
   const hourStep = HOUR_STEPS.find((h) => (dayPx / 24) * h >= MIN_HOUR_LABEL_PX);
   const dayStep = Math.ceil(MIN_DAY_LABEL_PX / dayPx) || 1;
-  const narrow = dayPx < NARROW_DAY_PX;
   const today = localDayStart(Date.now());
 
   const dayCells = [];

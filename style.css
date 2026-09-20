@@ -57,22 +57,26 @@ body {
   font: 400 1rem/1.75 "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
   font-variant-numeric: tabular-nums;
 }
+/* 縦スクロールなしで収まるよう、画面の高さいっぱいの縦積みにしてボードに残りの高さを全部回す */
 main {
+  display: flex;
+  flex-direction: column;
   max-width: 120rem;
+  min-height: 100svh;
   margin: 0 auto;
-  padding: clamp(1.5rem, 5vw, 4rem) clamp(1rem, 4vw, 2.5rem) 3rem;
+  padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.5rem);
 }
 h1, h2, h3, p { margin: 0; }
 
 /* ---- hero ---- */
-.hero { margin-bottom: 1.5rem; }
+.hero { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.75rem; margin-bottom: 0.75rem; }
 .hero h1 {
-  font: 400 clamp(2.4rem, 7vw, 4.5rem)/1.1 "Dela Gothic One", "IBM Plex Sans JP", sans-serif;
+  font: 400 clamp(1.8rem, 3.5vw, 3rem)/1.1 "Dela Gothic One", "IBM Plex Sans JP", sans-serif;
   letter-spacing: 0.01em;
   overflow-wrap: anywhere;
 }
 .status {
-  margin-top: 0.9rem;
+  margin-bottom: 0.75rem;
   color: var(--muted);
   max-width: 60ch;
 }
@@ -85,7 +89,7 @@ h1, h2, h3, p { margin: 0; }
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem 0.75rem;
-  margin-bottom: 1rem;
+  flex: 1 1 17rem;
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
 .range, .step { display: flex; align-items: center; padding: 2px; }
@@ -114,11 +118,13 @@ select.pill { display: none; color: var(--ink); }
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
+section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 /* 配信中のアイコンの輪と波紋が左端で切れないよう、切り取る位置を外側へずらす */
 .scroll { overflow-x: clip; margin-inline: -12px; padding-inline: 12px; }
 
 /* ---- board ---- */
-.board { --avatar: 24px; --track-h: 1.5rem; font-size: 0.8125rem; }
+/* アイコンとバーの大きさは行の高さ（cqh = .person の高さの1%）から決める */
+.board { --avatar: min(70cqh, 4.5rem); --track-h: 68cqh; font-size: 0.8125rem; }
 .row {
   position: relative;
   display: grid;
@@ -127,9 +133,17 @@ select.pill { display: none; color: var(--ink); }
   column-gap: 0.6rem;
   height: 2.3rem;
 }
-.person { border-top: 1px solid var(--line); }
+.row.person { height: auto; border-top: 1px solid var(--line); container-type: size; }
 .row.head { height: auto; align-items: end; padding-bottom: 0.35rem; color: var(--muted); }
-.body { position: relative; border-bottom: 1px solid var(--line); }
+/* 人数で高さを等分する。1行が高くなりすぎないよう全体の高さに上限を置く（--rows は人数。JS が入れる） */
+.body {
+  position: relative;
+  flex: 1;
+  display: grid;
+  grid-auto-rows: minmax(2.3rem, 1fr);
+  max-height: calc(var(--rows, 8) * 7rem);
+  border-bottom: 1px solid var(--line);
+}
 
 /* 横軸: 上段が日付、下段が時刻 */
 .days { display: flex; }
@@ -173,7 +187,7 @@ select.pill { display: none; color: var(--ink); }
   display: flex; align-items: center; gap: 0.5rem;
   min-width: 0;
   color: inherit;
-  font-size: 0.875rem;
+  font-size: clamp(0.875rem, 27cqh, 1.4rem);
   font-weight: 500;
   text-decoration: none;
 }
@@ -191,15 +205,6 @@ select.pill { display: none; color: var(--ink); }
 }
 .who.live .avatar::after { inset: -4px; animation: ping 1.6s ease-out infinite; }
 a.who-link:hover .name { text-decoration: underline; }
-.live-chip {
-  flex: none;
-  padding: 0 0.35rem;
-  border-radius: 3px;
-  background: var(--signal);
-  color: var(--paper);
-  font-size: 0.625rem; font-weight: 700; line-height: 1.5; letter-spacing: 0.04em;
-  animation: blink 1.6s ease-in-out infinite;
-}
 .plats { display: flex; gap: 2px; margin-left: auto; }
 /* 配信先の印。バーも同じ色にする */
 .plat {
@@ -250,55 +255,54 @@ a.who-link:hover .name { text-decoration: underline; }
 @keyframes blink { 50% { opacity: 0.45; } }
 @keyframes spin { to { transform: rotate(1turn); } }
 .now { position: absolute; top: -0.3rem; bottom: -0.3rem; width: 2px; margin-left: -1px; background: var(--signal); pointer-events: none; }
-.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; margin-top: 0.75rem; font-size: 0.8125rem; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; }
 .legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend .plat { display: inline-block; }
-.detail { margin-top: 0.9rem; min-height: 1.75em; font-size: 0.875rem; color: var(--muted); max-width: 80ch; }
+.detail { margin-top: 0.5rem; min-height: 1.75em; font-size: 0.875rem; color: var(--muted); max-width: 80ch; }
 .detail strong { color: var(--ink); }
 
 /* ---- footer ---- */
 .foot {
-  margin-top: 3.5rem;
-  padding-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
   border-top: 1px solid var(--line);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   color: var(--muted);
-  max-width: 70ch;
 }
-.foot p + p { margin-top: 0.4rem; }
 .foot a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
-  .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .live-chip, .plat.live { animation: none; }
+  .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .plat.live { animation: none; }
 }
 
-/* 広い画面では幅いっぱいに使い、行・アイコン・文字をひとまわり大きくする */
+/* 広い画面（全画面表示など）では、離れても読めるように文字を画面幅に合わせて大きく、濃くする */
 @media (min-width: 75rem) {
-  /* 行の高さは画面の高さを人数で割って決め、ボードが画面いっぱいに広がるようにする（--rows は人数。JS が入れる） */
-  .board {
-    --row-h: clamp(3.6rem, calc((100svh - 17rem) / var(--rows, 8)), 6.5rem);
-    --avatar: calc(var(--row-h) * 0.7);
-    --track-h: calc(var(--row-h) * 0.68);
-    font-size: 0.9375rem;
-  }
-  .row { grid-template-columns: 24rem 1fr 7rem; column-gap: 1rem; height: var(--row-h); }
-  .who-link { gap: 0.75rem; font-size: clamp(1.05rem, calc(var(--row-h) * 0.27), 1.4rem); }
+  .board { font-size: clamp(0.9375rem, 0.85vw, 1.3rem); }
+  .row { grid-template-columns: 24rem 1fr 8em; column-gap: 1rem; }
+  .who-link { gap: 0.75rem; }
   .who .initial { font-size: 1rem; }
   .plat { width: 1.35rem; height: 1.35rem; font-size: 0.75rem; line-height: 1.35rem; }
-  .live-chip { font-size: 0.6875rem; }
-  .hours { font-size: 0.75rem; }
-  .seg, .seg.live { border-radius: 5px; }
+  .day { font-weight: 700; }
+  .hours { height: 1.3em; font-size: 0.85em; line-height: 1.3; color: color-mix(in srgb, var(--ink) 75%, var(--paper)); }
+  .total { color: var(--ink); font-weight: 500; }
+  .seg { border-radius: 5px; }
   .seg.live { border-radius: 5px 0 0 5px; }
   .seg.live::after { right: -7px; width: 14px; height: 14px; margin-top: -7px; }
   .step { font-size: 1.35rem; }
-  .total { font-size: 0.9375rem; }
+  .detail { font-size: 1rem; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
 @media (max-width: 40rem) {
   .row { grid-template-columns: 24px 1fr; column-gap: 0.5rem; }
   .row > :nth-child(3) { display: none; }
-  .who .name, .who .plats, .who .live-chip { display: none; }
+  .board { --avatar: 24px; }
+  .body { max-height: calc(var(--rows, 8) * 3.4rem); }
+  .who .name, .who .plats { display: none; }
   /* 操作欄を1行に収める: 日数はボタン列をやめてプルダウンにし、余白を詰める */
   .controls { gap: 0.25rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
