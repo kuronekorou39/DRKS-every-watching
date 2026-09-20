@@ -1,112 +1,81 @@
-// Twitch Helix API から VOD とライブ状態を取得し、history.json にマージする。
-// 必要な環境変数: TWITCH_CLIENT_ID, TWITCH_CLIENT_SECRET, TWITCH_LOGINS（カンマ区切り。任意: DATA_DIR）
+// channels.json に書いた各チャンネルの配信状況を取得し、history.json にマージする。
+// 必要な環境変数はプラットフォームごと（各 platforms/*.mjs の requiredEnv）。任意: DATA_DIR
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { setTimeout as sleep } from 'node:timers/promises';
-import { mergeHistory, normalizeHistory } from '../lib/core.mjs';
+import { mergeHistory, normalizeHistory, PLATFORMS } from '../lib/core.mjs';
+import { ConfigError } from './platforms/http.mjs';
+import * as twitch from './platforms/twitch.mjs';
+import * as youtube from './platforms/youtube.mjs';
+import * as kick from './platforms/kick.mjs';
 
-const {
-  TWITCH_CLIENT_ID: clientId,
-  TWITCH_CLIENT_SECRET: clientSecret,
-  TWITCH_LOGINS: loginsRaw = '',
-  DATA_DIR: dataDir = 'data',
-} = process.env;
-
-const logins = [...new Set(loginsRaw.toLowerCase().split(/[\s,]+/).filter(Boolean))];
-
-if (!clientId || !clientSecret || !logins.length) {
-  console.error('TWITCH_CLIENT_ID / TWITCH_CLIENT_SECRET / TWITCH_LOGINS を設定してください');
-  process.exit(1);
-}
-
+const FETCHERS = { twitch, youtube, kick };
+const dataDir = process.env.DATA_DIR ?? 'data';
 const file = join(dataDir, 'history.json');
 
-async function getAppToken() {
-  const res = await fetch('https://id.twitch.tv/oauth2/token', {
-    method: 'POST',
-    body: new URLSearchParams({
-      client_id: clientId,
-      client_secret: clientSecret,
-      grant_type: 'client_credentials',
-    }),
-  });
-  if (!res.ok) throw new Error(`token: ${res.status} ${await res.text()}`);
-  return (await res.json()).access_token;
-}
+// GitHub Actions では実行結果の画面に警告として出る
+const warn = (msg) => console.log(`::warning::${msg}`);
 
-function helixClient(token) {
-  return async function helix(path, params = {}) {
-    const url = new URL(`https://api.twitch.tv/helix/${path}`);
-    // 配列は同じキーの繰り返しで渡す（login=a&login=b）
-    for (const [k, v] of Object.entries(params)) {
-      for (const item of [v].flat()) if (item != null) url.searchParams.append(k, item);
-    }
-    for (let attempt = 0; ; attempt++) {
-      const res = await fetch(url, {
-        headers: { 'Client-Id': clientId, Authorization: `Bearer ${token}` },
-      });
-      if (res.status === 429 && attempt < 3) {
-        const reset = Number(res.headers.get('ratelimit-reset')) * 1000;
-        await sleep(Math.max(1000, reset - Date.now()));
-        continue;
-      }
-      if (!res.ok) throw new Error(`${path}: ${res.status} ${await res.text()}`);
-      return res.json();
-    }
-  };
-}
-
-async function readHistory() {
+async function readJson(path) {
   try {
-    return JSON.parse(await readFile(file, 'utf8'));
+    return JSON.parse(await readFile(path, 'utf8'));
   } catch (e) {
     if (e.code === 'ENOENT') return null;
     throw e;
   }
 }
 
-const helix = helixClient(await getAppToken());
+const config = await readJson('channels.json');
+if (!config?.length) throw new Error('channels.json に記録するチャンネルを書いてください');
 
-const { data: found } = await helix('users', { login: logins });
-const users = logins.map((login) => found.find((u) => u.login === login));
-const missing = logins.filter((_, i) => !users[i]);
-// 打ち間違いで記録が消えないよう、1人でも見つからなければ何も書かずに止める
-if (missing.length) throw new Error(`ユーザーが見つかりません: ${missing.join(', ')}`);
-
-const { data: lives } = await helix('streams', { user_id: users.map((u) => u.id), type: 'live', first: 100 });
-
-const prev = normalizeHistory(await readHistory());
-const channels = [];
-
-for (const user of users) {
-  // アーカイブは多くても数十〜百件程度。念のため上限を置く
-  const videos = [];
-  let cursor;
-  do {
-    const r = await helix('videos', { user_id: user.id, type: 'archive', first: 100, after: cursor });
-    videos.push(...r.data);
-    cursor = r.data.length ? r.pagination?.cursor : undefined;
-  } while (cursor && videos.length < 1000);
-
-  const live = lives.find((l) => l.user_id === user.id) ?? null;
-  // ログイン名は変わりうるので、前回の記録とは id で突き合わせる
-  const prevStreams = prev.channels.find((c) => c.channel.id === user.id)?.streams ?? [];
-  const streams = mergeHistory(prevStreams, { videos, live });
-
-  channels.push({
-    channel: {
-      id: user.id,
-      login: user.login,
-      display_name: user.display_name,
-      profile_image_url: user.profile_image_url,
-    },
-    streams,
-  });
-
-  console.log(
-    `${user.display_name}: 記録 ${streams.length} 件（VOD ${videos.length} 件 / ライブ中: ${live ? 'はい' : 'いいえ'}）`,
-  );
+// プラットフォームごとにまとめて取得する。一時的な失敗（API の不調や上限超過）ではそのプラットフォームだけ飛ばし、
+// 前回までの記録をそのまま残す。channels.json の誤りは放っておいても直らないので、全体を止める
+const fetched = {};
+for (const [platform, fetcher] of Object.entries(FETCHERS)) {
+  const keys = config.map((c) => c[platform]).filter(Boolean);
+  if (!keys.length) continue;
+  const missingEnv = fetcher.requiredEnv.filter((name) => !process.env[name]);
+  if (missingEnv.length) {
+    warn(`${PLATFORMS[platform].label}: ${missingEnv.join(', ')} が未設定なので取得を飛ばします`);
+    continue;
+  }
+  try {
+    fetched[platform] = await fetcher.fetchAll(keys, process.env);
+  } catch (e) {
+    if (e instanceof ConfigError) throw e;
+    warn(`${PLATFORMS[platform].label}: 取得に失敗したので今回は飛ばします（${e.message}）`);
+  }
 }
+if (!Object.keys(fetched).length) throw new Error('どのプラットフォームからも取得できませんでした');
+
+const prevSources = normalizeHistory(await readJson(file)).channels.flatMap((c) => c.sources);
+
+const channels = config.map((entry) => {
+  const sources = [];
+  for (const platform of Object.keys(FETCHERS)) {
+    const key = entry[platform];
+    if (!key) continue;
+    const result = fetched[platform]?.get(key);
+    // ログイン名は変わりうるので、前回の記録とはまず id で突き合わせる
+    const prev =
+      prevSources.find((s) => s.platform === platform && result && s.channel.id === result.channel.id) ??
+      prevSources.find((s) => s.platform === platform && s.key === key);
+    if (!result) {
+      if (prev) sources.push(prev);
+      continue;
+    }
+    const streams = mergeHistory(prev?.streams ?? [], result);
+    sources.push({ platform, key, channel: result.channel, streams });
+    console.log(
+      `${PLATFORMS[platform].label} ${result.channel.display_name}: 記録 ${streams.length} 件` +
+        `（今回確定 ${result.finished.length} 件 / ライブ中: ${result.live ? 'はい' : 'いいえ'}）`,
+    );
+  }
+  return {
+    name: entry.name ?? sources[0]?.channel.display_name ?? '',
+    icon: sources.find((s) => s.channel.profile_image_url)?.channel.profile_image_url ?? '',
+    sources,
+  };
+});
 
 await mkdir(dataDir, { recursive: true });
 // 1 件 1 行寄りの整形にしておくと git の差分が読みやすい

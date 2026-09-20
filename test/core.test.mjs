@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  parseDuration, mergeHistory, normalizeHistory, splitByLocalDay, weeklyHeatmap,
+  parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, splitByLocalDay, weeklyHeatmap,
   localDateString, parseLocalDate, localDayStart,
 } from '../lib/core.mjs';
 
@@ -14,7 +14,7 @@ test('parseDuration', () => {
 
 test('ライブ中はポーリング記録、終了後は VOD で補正', () => {
   const live = { id: 's1', started_at: '2026-09-18T12:00:00Z', title: 'A', game_name: 'G' };
-  let h = mergeHistory([], { live, now: new Date('2026-09-18T13:00:00Z') });
+  let h = mergeHistory([], { ...fromTwitch([], live), now: new Date('2026-09-18T13:00:00Z') });
   assert.equal(h[0].live, true);
   assert.equal(h[0].end_source, 'poll');
 
@@ -25,7 +25,7 @@ test('ライブ中はポーリング記録、終了後は VOD で補正', () => 
 
   // VOD が見つかったら正確な終了時刻に
   const videos = [{ stream_id: 's1', created_at: '2026-09-18T12:00:05Z', duration: '2h30m0s', title: 'A' }];
-  h = mergeHistory(h, { videos });
+  h = mergeHistory(h, fromTwitch(videos, null));
   assert.equal(h[0].end_source, 'vod');
   assert.equal(h[0].end, '2026-09-18T14:30:05.000Z');
   assert.equal(h[0].game, 'G');
@@ -33,8 +33,8 @@ test('ライブ中はポーリング記録、終了後は VOD で補正', () => 
 
 test('同じ入力を再マージしても結果が変わらない（無駄コミット防止）', () => {
   const videos = [{ stream_id: 's2', created_at: '2026-09-10T11:00:00Z', duration: '1h0m0s', title: 'B' }];
-  const a = mergeHistory([], { videos });
-  const b = mergeHistory(a, { videos });
+  const a = mergeHistory([], fromTwitch(videos, null));
+  const b = mergeHistory(a, fromTwitch(videos, null));
   assert.equal(JSON.stringify(a), JSON.stringify(b));
 });
 
@@ -56,12 +56,44 @@ test('ヒートマップ: 1週間で金曜21時台を丸ごと配信 → その�
   assert.equal(v.reduce((a, b) => a + b), 1);
 });
 
-test('normalizeHistory: 1チャンネル時代の形式も channels にそろえる', () => {
-  const channel = { id: '1', login: 'a' };
-  assert.deepEqual(normalizeHistory({ channel, streams: [] }), { channels: [{ channel, streams: [] }] });
+test('normalizeHistory: Twitch だけだった頃の形式も sources にそろえる', () => {
+  const channel = { id: '1', login: 'a', display_name: 'A', profile_image_url: 'i.png' };
+  const expected = {
+    channels: [{
+      name: 'A',
+      icon: 'i.png',
+      sources: [{ platform: 'twitch', key: 'a', channel: { ...channel, url: 'https://www.twitch.tv/a' }, streams: [] }],
+    }],
+  };
+  assert.deepEqual(normalizeHistory({ channel, streams: [] }), expected);
+  assert.deepEqual(normalizeHistory({ channels: [{ channel, streams: [] }] }), expected);
   assert.deepEqual(normalizeHistory(null), { channels: [] });
-  const multi = { channels: [{ channel, streams: [] }] };
-  assert.equal(normalizeHistory(multi), multi);
+  assert.deepEqual(normalizeHistory(expected), expected);
+});
+
+test('fromYouTube: 終わったライブと配信中だけ拾い、予約枠と普通の動画は無視', () => {
+  const r = fromYouTube([
+    { id: 'done', snippet: { title: 'D', liveBroadcastContent: 'none' }, liveStreamingDetails: { actualStartTime: '2026-09-18T12:00:00Z', actualEndTime: '2026-09-18T14:00:00Z' } },
+    { id: 'now', snippet: { title: 'N', liveBroadcastContent: 'live' }, liveStreamingDetails: { actualStartTime: '2026-09-19T12:00:00Z' } },
+    { id: 'soon', snippet: { title: 'S', liveBroadcastContent: 'upcoming' }, liveStreamingDetails: { scheduledStartTime: '2026-09-21T12:00:00Z' } },
+    { id: 'video', snippet: { title: 'V', liveBroadcastContent: 'none' } },
+  ]);
+  assert.deepEqual(r.finished.map((f) => f.stream_id), ['done']);
+  assert.equal(r.live.stream_id, 'now');
+  const h = mergeHistory([], r);
+  assert.equal(h[0].end, '2026-09-18T14:00:00.000Z');
+  assert.equal(h[1].live, true);
+});
+
+test('fromKick: 配信 ID の代わりに開始時刻で同じ配信を見分ける', () => {
+  const ch = { slug: 'k', stream_title: 'T', category: { name: 'G' }, stream: { is_live: true, start_time: '2026-09-18T12:00:00Z' } };
+  let h = mergeHistory([], { ...fromKick(ch), now: new Date('2026-09-18T12:10:00Z') });
+  h = mergeHistory(h, { ...fromKick(ch), now: new Date('2026-09-18T12:20:00Z') });
+  assert.equal(h.length, 1);
+  assert.equal(h[0].game, 'G');
+  h = mergeHistory(h, fromKick({ ...ch, stream: { is_live: false } }));
+  assert.equal(h[0].live, false);
+  assert.equal(h[0].end, '2026-09-18T12:20:00.000Z');
 });
 
 test('日付文字列と JST の 0:00 を相互変換', () => {

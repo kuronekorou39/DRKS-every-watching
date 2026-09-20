@@ -9,6 +9,8 @@
   --sat: #2a5db0;
   --sun: #c0392b;
   --heat: #3e2c92;
+  --youtube: #c4302b;
+  --kick: #2c8a1a;
   --signal: #d98a06;
   color-scheme: light;
 }
@@ -24,6 +26,8 @@
     --sat: #7fa8f0;
     --sun: #f08a80;
     --heat: #b9a8ff;
+    --youtube: #ff7a70;
+    --kick: #6be33a;
     --signal: #f2b138;
     color-scheme: dark;
   }
@@ -39,6 +43,8 @@
   --sat: #7fa8f0;
   --sun: #f08a80;
   --heat: #b9a8ff;
+  --youtube: #ff7a70;
+  --kick: #6be33a;
   --signal: #f2b138;
   color-scheme: dark;
 }
@@ -114,24 +120,25 @@ h1, h2, h3, p { margin: 0; }
   border-radius: 6px;
   padding: 0.05rem 0.4rem;
 }
-.controls button:focus-visible, .dates input:focus-visible, .seg:focus-visible, .who:focus-visible {
+.controls button:focus-visible, .dates input:focus-visible, .seg:focus-visible, .who:focus-visible, .plat:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
-.scroll { overflow-x: clip; }
+.scroll { overflow-x: clip; overflow-clip-margin: 4px; }
 
 /* ---- board ---- */
 .board { font-size: 0.8125rem; }
 .row {
   position: relative;
   display: grid;
-  grid-template-columns: 11rem 1fr 5.5rem;
+  grid-template-columns: 11rem 1.25rem 1fr 5.5rem;
   align-items: center;
-  column-gap: 0.75rem;
-  height: 2.6rem;
-  border-top: 1px solid var(--line);
+  column-gap: 0.6rem;
+  height: 2.3rem;
 }
-.row.head { height: auto; align-items: end; padding-bottom: 0.35rem; border-top: 0; color: var(--muted); }
+/* 1人ぶんの行（配信先ごと）をまとめ、人の境目にだけ線を引く */
+.person { position: relative; border-top: 1px solid var(--line); }
+.row.head { height: auto; align-items: end; padding-bottom: 0.35rem; color: var(--muted); }
 .body { position: relative; border-bottom: 1px solid var(--line); }
 
 /* 横軸: 上段が日付、下段が時刻 */
@@ -158,7 +165,7 @@ h1, h2, h3, p { margin: 0; }
 .hours span { position: absolute; top: 0; transform: translateX(-50%); }
 
 /* 日ごとの帯。全員の行の後ろに1枚だけ敷く */
-.row.bands { position: absolute; inset: 0; height: auto; border: 0; pointer-events: none; }
+.row.bands { position: absolute; inset: 0; height: auto; pointer-events: none; }
 .bands .track { display: flex; height: 100%; }
 .band {
   flex: 1 1 0;
@@ -185,6 +192,19 @@ h1, h2, h3, p { margin: 0; }
 .who .name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .who.live img, .who.live .initial { outline: 2px solid var(--signal); outline-offset: 1px; }
 a.who:hover .name { text-decoration: underline; }
+/* 配信先の印。バーも同じ色にする */
+.plat {
+  position: relative; z-index: 1;
+  width: 1.25rem; height: 1.25rem;
+  border-radius: 4px;
+  color: var(--paper);
+  font-size: 0.6875rem; font-weight: 700; line-height: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+}
+.p-twitch { background: var(--heat); }
+.p-youtube { background: var(--youtube); }
+.p-kick { background: var(--kick); }
 .total { text-align: right; color: var(--muted); white-space: nowrap; }
 .track { position: relative; height: 1.5rem; }
 .seg {
@@ -193,7 +213,6 @@ a.who:hover .name { text-decoration: underline; }
   padding: 0;
   border: 0;
   border-radius: 3px;
-  background: var(--heat);
   cursor: pointer;
   z-index: 1;
 }
@@ -221,8 +240,8 @@ a.who:hover .name { text-decoration: underline; }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
 @media (max-width: 40rem) {
-  .row { grid-template-columns: 24px 1fr; column-gap: 0.5rem; }
-  .row > :nth-child(3) { display: none; }
+  .row { grid-template-columns: 24px 1.25rem 1fr; column-gap: 0.4rem; }
+  .row > :nth-child(4) { display: none; }
   .who .name { display: none; }
   .range-label { flex-basis: 100%; font-size: 1.1rem; }
   .range button, .step button { padding-inline: 0.55rem; }

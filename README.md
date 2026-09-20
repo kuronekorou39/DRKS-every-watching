@@ -1,25 +1,47 @@
 # drks-every-watching
 
-Twitch の複数チャンネル（現在は8人）の配信実績を記録し、1人1行のスケジュールボードに並べて表示する静的サイト。
+複数の配信者（現在は8人）の配信実績を記録し、1つのスケジュールボードに並べて表示する静的サイト。
+Twitch に加えて YouTube と Kick にも対応し、1人につき配信先ごとに1行ずつ並ぶ。
 表示範囲は 1日〜4週の切り替え、前後への移動、開始日・終了日の指定で変えられる（範囲は URL の `?from=&to=` に残るので共有できる）。
-サーバーは使わず、GitHub Actions が10分おきに Twitch API から取得し、GitHub Pages で公開する。
+サーバーは使わず、GitHub Actions が10分おきに各 API から取得し、GitHub Pages で公開する。
+
+## 記録するチャンネル
+
+`channels.json` に、表示したい順に1人1件で書く。`twitch` / `youtube` / `kick` は配信しているものだけ書けばよい。
+
+```json
+[
+  { "name": "表示名（省略可）", "twitch": "ログイン名", "youtube": "@ハンドル か UC… のチャンネルID", "kick": "チャンネル名" }
+]
+```
+
+- `twitch` … twitch.tv/◯◯ の部分
+- `youtube` … youtube.com/@◯◯ の `@◯◯`、または `UC` で始まるチャンネル ID
+- `kick` … kick.com/◯◯ の部分
+- `name` を省くと、最初の配信先の表示名を使う
 
 ## しくみ
 
-- `scripts/fetch.mjs` … アーカイブ（`/videos`）で正確な開始・終了を取り、ライブ状態（`/streams`）のポーリングで取りこぼしを補って `history.json` にマージ
-- ログイン名が1つでも見つからないときは、記録を書き換えずにエラーで止まる（打ち間違いで記録を消さないため）
-- 記録は `data` ブランチに保存（変化があったときだけコミット）。一度記録した配信は、VOD が消えても残る
+- `scripts/fetch.mjs` が `scripts/platforms/*.mjs` でプラットフォームごとに取得し、`history.json` にマージ
+  - Twitch … アーカイブ（`/videos`）で正確な開始・終了を取り、ライブ状態（`/streams`）のポーリングで取りこぼしを補う
+  - YouTube … アップロード一覧の新しい50本から、ライブだったものの実際の開始・終了時刻を取る（1チャンネル1回3ユニット。10分おき×8チャンネルで1日の上限1万ユニットの3分の1ほど）
+  - Kick … 公開 API に過去の配信を返すものがないので、配信中かどうかのポーリングだけで記録する（設定する前の配信は埋まらない）
+- `channels.json` のチャンネルが見つからないときは、記録を書き換えずにエラーで止まる（打ち間違いで記録を消さないため）
+- API の不調や上限超過、Secrets の未設定では、そのプラットフォームだけ飛ばして前回までの記録を残す（Actions の実行結果に警告が出る）
+- 記録は `data` ブランチに保存（変化があったときだけコミット）。一度記録した配信は、アーカイブが消えても残る
 - 記録に変化があったときだけ Pages を再デプロイ
 - `lib/core.mjs` は取得スクリプトとブラウザで共有
 
 ## セットアップ
 
-1. https://dev.twitch.tv/console/apps でアプリを登録し、Client ID と Client Secret を取得
-   （OAuth リダイレクト URL は `http://localhost` で可、クライアントの種類は「機密」）
+1. API の認証情報を用意する（YouTube と Kick は `channels.json` に書いた場合だけ）
+   - Twitch … https://dev.twitch.tv/console/apps でアプリを登録し、Client ID と Client Secret を取得
+     （OAuth リダイレクト URL は `http://localhost` で可、クライアントの種類は「機密」）
+   - YouTube … Google Cloud Console でプロジェクトを作り、「YouTube Data API v3」を有効にして API キーを作る
+     （キーの制限で API を YouTube Data API v3 だけに絞っておく）
+   - Kick … https://kick.com/settings/developer でアプリを作り、Client ID と Client Secret を取得
 2. リポジトリを **public** で作る（private だと10分おきの cron で Actions の無料枠を超える）
-3. Secrets と Variables を設定
-   - Secrets: `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`
-   - Variables: `TWITCH_LOGINS`（チャンネルのログイン名をカンマ区切りで。URL の twitch.tv/◯◯ の部分。並べた順に表示される）
+3. Secrets を設定: `TWITCH_CLIENT_ID`, `TWITCH_CLIENT_SECRET`, `YOUTUBE_API_KEY`, `KICK_CLIENT_ID`, `KICK_CLIENT_SECRET`
 4. Settings → Pages → Source を「GitHub Actions」に
 5. Actions タブから `collect` を手動実行（初回で直近のアーカイブ分が埋まる）
 

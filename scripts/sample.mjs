@@ -44,9 +44,20 @@ function sampleStreams(profile, idBase) {
   return streams;
 }
 
+// 何人かは YouTube や Kick でも配信していることにして、複数行の見た目を確認できるようにする
+const EXTRA_PLATFORMS = { 0: ['youtube'], 3: ['youtube', 'kick'], 6: ['kick'] };
+
 const channels = PROFILES.map((profile, i) => ({
-  channel: { id: String(i), login: `sample${i + 1}`, display_name: profile.name, profile_image_url: '' },
-  streams: sampleStreams(profile, 40000000000 + i * 1000),
+  name: profile.name,
+  icon: '',
+  sources: ['twitch', ...(EXTRA_PLATFORMS[i] ?? [])].map((platform, j) => ({
+    platform,
+    key: `sample${i + 1}`,
+    // url を空にしておくと、画面側でリンクにならない
+    channel: { id: `${i}-${j}`, login: `sample${i + 1}`, display_name: profile.name, profile_image_url: '', url: '' },
+    // 2つ目以降の配信先は、たまにしか使わない想定で休みを多めにする
+    streams: sampleStreams(j ? { ...profile, rest: 0.8, weekdayStart: profile.weekdayStart - 6 } : profile, 40000000000 + i * 10000 + j * 1000),
+  })),
 }));
 
 await mkdir('data', { recursive: true });

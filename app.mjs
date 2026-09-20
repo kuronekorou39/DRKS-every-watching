@@ -1,6 +1,6 @@
 import {
   TZ_OFFSET_MIN, localDayStart, localWeekday, localDateString, parseLocalDate, normalizeHistory,
-  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd,
+  formatDate, formatClock, formatDuration, weekdayLabel, streamEnd, PLATFORMS,
 } from './lib/core.mjs';
 
 const HOUR = 3600_000;
@@ -56,7 +56,7 @@ async function load() {
     const res = await fetch('./data/history.json', { cache: 'no-store' });
     if (res.status === 404) return renderMessage('まだ記録がありません。GitHub Actions の collect を一度実行すると、ここに表示されます。');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    channels = normalizeHistory(await res.json()).channels;
+    channels = normalizeHistory(await res.json()).channels.filter((c) => c.sources.length);
     render();
   } catch (e) {
     renderMessage(`記録を読み込めませんでした（${e.message}）。data/history.json があるか確認してください。`);
@@ -67,14 +67,14 @@ function renderMessage(text) {
   $('#status').textContent = text;
 }
 
-const channelName = (c) => c.display_name || c.login;
-const liveStream = (streams) => streams.find((s) => s.live);
+const isLive = (source) => source.streams.some((s) => s.live);
 
 function render() {
   if (!channels.length) return renderMessage('まだ記録がありません。');
   const now = Date.now();
 
-  const liveNames = channels.filter((c) => liveStream(c.streams)).map((c) => channelName(c.channel));
+  const liveNames = channels.flatMap((c) =>
+    c.sources.filter(isLive).map((source) => `${c.name}（${PLATFORMS[source.platform].label}）`));
   $('#status').replaceChildren(
     ...(liveNames.length
       ? [el('span', { className: 'dot', ariaHidden: 'true' }), el('strong', { textContent: '配信中' }), `　${liveNames.join('、')}`]
@@ -102,54 +102,63 @@ function renderBoard(now) {
   // 横軸と日ごとの帯は幅に応じて描き分けるので、renderScale() であとから埋める
   const head = el('div', { className: 'row head' }, [
     el('span'),
+    el('span'),
     el('div', { className: 'scale' }, [el('div', { className: 'days' }), el('div', { className: 'hours' })]),
     el('span', { className: 'total', textContent: '合計' }),
   ]);
-  const rows = [el('div', { className: 'row bands', ariaHidden: 'true' }, [el('span'), el('div', { className: 'track' }), el('span')])];
+  const rows = [el('div', { className: 'row bands', ariaHidden: 'true' }, [el('span'), el('span'), el('div', { className: 'track' }), el('span')])];
 
-  for (const { channel, streams } of channels) {
-    const name = channelName(channel);
-    const track = el('div', { className: 'track' });
-    let totalMs = 0;
-    for (const s of streams) {
-      const start = Date.parse(s.start);
-      const end = streamEnd(s, now);
-      const a = Math.max(from, start);
-      const b = Math.min(to, end);
-      if (b <= a) continue;
-      totalMs += b - a;
-      const label =
-        `${formatDate(start)} ${formatClock(start)}〜${s.live ? '配信中' : formatClock(end)}` +
-        `（${formatDuration(end - start)}）${s.title ? `\n${s.title}` : ''}${s.game ? `\n${s.game}` : ''}`;
-      const seg = el('button', {
-        type: 'button',
-        className: `seg${s.live ? ' live' : ''}`,
-        title: label,
-        ariaLabel: `${name} ${label}`,
-        style: `left:${pos(a)};width:${((b - a) / span) * 100}%`,
-      });
-      seg.addEventListener('click', () => showDetail(name, label));
-      track.append(seg);
-    }
-    if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
+  for (const { name, icon, sources } of channels) {
+    // 1人につき、配信先（Twitch / YouTube / Kick）ごとに1行
+    const person = el('div', { className: 'person' });
+    sources.forEach((source, i) => {
+      const platform = PLATFORMS[source.platform];
+      const track = el('div', { className: 'track' });
+      let totalMs = 0;
+      for (const s of source.streams) {
+        const start = Date.parse(s.start);
+        const end = streamEnd(s, now);
+        const a = Math.max(from, start);
+        const b = Math.min(to, end);
+        if (b <= a) continue;
+        totalMs += b - a;
+        const label =
+          `${formatDate(start)} ${formatClock(start)}〜${s.live ? '配信中' : formatClock(end)}` +
+          `（${formatDuration(end - start)}）${s.title ? `\n${s.title}` : ''}${s.game ? `\n${s.game}` : ''}`;
+        const seg = el('button', {
+          type: 'button',
+          className: `seg p-${source.platform}${s.live ? ' live' : ''}`,
+          title: `${platform.label}\n${label}`,
+          ariaLabel: `${name} ${platform.label} ${label}`,
+          style: `left:${pos(a)};width:${((b - a) / span) * 100}%`,
+        });
+        seg.addEventListener('click', () => showDetail(`${name}（${platform.label}）`, label));
+        track.append(seg);
+      }
+      if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
 
-    // サンプルデータのチャンネルは実在しないのでリンクにしない
-    const who = channel.login.startsWith('sample')
-      ? el('span', { className: 'who' })
-      : el('a', { className: 'who', href: `https://www.twitch.tv/${channel.login}`, rel: 'noopener' });
-    if (liveStream(streams)) who.classList.add('live');
-    who.title = name;
-    // 狭い画面では名前を隠してアイコンだけにするので、画像がなければ頭文字で代用する
-    who.append(channel.profile_image_url
-      ? el('img', { src: channel.profile_image_url, alt: '', width: 24, height: 24 })
-      : el('span', { className: 'initial', ariaHidden: 'true', textContent: [...name][0] }));
-    who.append(el('span', { className: 'name', textContent: name }));
+      // 名前とアイコンは1行目にだけ出す。サンプルデータのチャンネルは実在しないのでリンクにしない
+      const link = (props) => (source.channel.url ? el('a', { ...props, href: source.channel.url, rel: 'noopener' }) : el('span', props));
+      const who = i === 0 ? link({ className: 'who', title: name }) : el('span');
+      if (i === 0) {
+        if (sources.some(isLive)) who.classList.add('live');
+        // 狭い画面では名前を隠してアイコンだけにするので、画像がなければ頭文字で代用する
+        who.append(
+          icon
+            ? el('img', { src: icon, alt: '', width: 24, height: 24, referrerPolicy: 'no-referrer' })
+            : el('span', { className: 'initial', ariaHidden: 'true', textContent: [...name][0] }),
+          el('span', { className: 'name', textContent: name }),
+        );
+      }
 
-    rows.push(el('div', { className: 'row' }, [
-      who,
-      track,
-      el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
-    ]));
+      person.append(el('div', { className: 'row' }, [
+        who,
+        link({ className: `plat p-${source.platform}`, title: platform.label, ariaLabel: `${name}の${platform.label}`, textContent: platform.mark }),
+        track,
+        el('span', { className: 'total', textContent: totalMs ? formatDuration(totalMs) : '—' }),
+      ]));
+    });
+    rows.push(person);
   }
 
   $('#board').replaceChildren(head, el('div', { className: 'body' }, rows));
