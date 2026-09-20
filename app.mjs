@@ -496,7 +496,6 @@ document.querySelectorAll('.js-today').forEach((btn) => btn.addEventListener('cl
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => zoomTo(Number(btn.dataset.days)));
 });
-// 日数のプルダウンは、中くらいの幅ではヘッダー、狭い画面ではフッターに出すので、2つある
 document.querySelectorAll('.js-days').forEach((select) =>
   select.addEventListener('change', () => zoomTo(Number(select.value))));
 for (const input of [$('#from'), $('#to')]) {

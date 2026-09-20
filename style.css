@@ -129,7 +129,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
 /* カプセルは、背景のグラデーションが透けるすりガラス風にして少し浮かせる */
-.range, .step, select.pill, .foot-controls .pill {
+.range, .step, select.pill {
   border-color: var(--glass-line);
   background-color: var(--glass);
   box-shadow: var(--glass-shadow);
@@ -187,7 +187,7 @@ button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
-.controls button:focus-visible, .foot-controls .pill:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
+.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -312,7 +312,7 @@ a.who-link:hover .name { text-decoration: underline; }
 .p-youtube { background-color: var(--youtube); }
 .p-kick { background-color: var(--kick); }
 .plat { background-image: var(--sheen); }
-.total .short, .foot-controls { display: none; }
+.total .short { display: none; }
 .total { text-align: right; color: var(--muted); white-space: nowrap; }
 .track { position: relative; height: var(--track-h); }
 .seg {
@@ -471,34 +471,40 @@ a.who-link:hover .name { text-decoration: underline; }
   /* 詳細カードは画面の下端に固定する */
   .detail { inset: auto 8px 8px 8px !important; width: auto; }
   .detail .thumb { width: 7.5rem; }
-  /* ヘッダーはロゴと、期間のカプセル（◀ ▶ と「今日」）だけにする。日数の切替はフッターの凡例の右に出す */
-  .hero { gap: 0.4rem 0.5rem; }
-  .hero h1 { font-size: 1.45rem; }
-  .controls { flex: 1 0 auto; }
-  .range, .controls .js-days { display: none; }
-  .step { font-size: 0.9375rem; }
-  .step button { padding-inline: 0.4rem; }
-  .step .sep { margin-inline: 0.15rem 0.1rem; }
+  /* ヘッダーはロゴ、期間のカプセル（◀ ▶ と「今日」）、その右に日数のプルダウン。ボタン列は使わない */
+  .hero { gap: 0.4rem 0.4rem; }
+  .hero h1 { font-size: 1.35rem; }
+  .controls { flex: 1 0 auto; gap: 0.25rem; }
+  .range { display: none; }
+  .controls .js-days { display: block; padding-inline: 0.1rem; font-size: 0.8125rem; font-weight: 500; }
+  .step { font-size: 0.875rem; }
+  .step button { padding-inline: 0.3rem; }
+  .step .js-today { padding-inline: 0.45rem; }
+  .step .sep { margin-inline: 0.1rem 0.05rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
   .step:not(.single) .w { display: none; }
   .foot { align-items: center; gap: 0.25rem 0.5rem; }
   .legend { gap: 0.3rem 0.6rem; }
-  .foot-controls { display: flex; gap: 0.35rem; }
-  .foot-controls .pill { padding-inline: 0.6rem; font-size: 0.8125rem; }
-  .foot-controls .js-days { display: block; padding-inline: 0.3rem; }
-  /* 狭い画面では、1行目に凡例・リンク・日数の切替、2行目に注記 */
+  /* 狭い画面では、1行目に凡例とリンク、2行目に注記 */
   .links { order: 0; margin-left: auto; gap: 0.5rem; }
   .links .wide-only { display: none; }
   .foot .note { order: 2; flex-basis: 100%; margin-left: 0; }
 }
-/* 横 360px 級の小さい機種では、凡例は色の印だけにして（文字は隠す）、リンクと日数の切替を同じ行に収める */
-@media (max-width: 23rem) {
-  .legend .label { display: none; }
+/* 横 360px 級の小さい機種でもヘッダーが1行に収まるよう、ロゴと余白をもうひと詰めする */
+@media (max-width: 24rem) {
+  .hero h1 { font-size: 1.15rem; }
+  .step button { padding-inline: 0.2rem; }
+  .step .js-today { padding-inline: 0.35rem; }
   /* 注記は1行に入りきらない幅があるので、ここでは折り返しを許す */
   .foot .note { white-space: normal; }
 }
-/* 横 320px 級のごく小さい機種でも、ヘッダーが1行に収まるようにもうひと詰めする */
-@media (max-width: 21.5rem) {
-  .hero h1 { font-size: 1.25rem; }
-  .step button { padding-inline: 0.25rem; }
+/* 横 320px 級のごく小さい機種向けに、さらに詰める */
+@media (max-width: 21.75rem) {
+  .hero { column-gap: 0.25rem; }
+  .hero h1 { font-size: 1rem; }
+  .step { font-size: 0.8125rem; }
+  .step .sep { display: none; }
+  .step button { padding-inline: 0.1rem; }
+  .step .js-today { padding-inline: 0.3rem; }
+  .controls .js-days { font-size: 0.75rem; }
 }
