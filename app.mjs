@@ -16,7 +16,6 @@ const HOUR_STEPS = [1, 2, 3, 6, 12];
 const NARROW_DAY_PX = 12; // これより狭いと日ごとの区切りをやめ、週ごとに色分けする
 const FALLBACK_TRACK_PX = 600;
 const RELOAD_MS = 5 * 60_000;
-const DETAIL_HINT = 'バーを選ぶと、その配信の詳細がここに出ます。';
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -78,13 +77,8 @@ function render() {
   if (!channels.length) return renderMessage('まだ記録がありません。');
   const now = Date.now();
 
-  const liveNames = channels.flatMap((c) =>
-    c.sources.filter(isLive).map((source) => `${c.name}（${PLATFORMS[source.platform].label}）`));
-  $('#status').replaceChildren(
-    ...(liveNames.length
-      ? [el('span', { className: 'dot', ariaHidden: 'true' }), el('strong', { textContent: '配信中' }), `　${liveNames.join('、')}`]
-      : ['いま配信している人はいません。']),
-  );
+  // #status は読み込み中やエラーの表示にだけ使う
+  renderMessage('');
 
   const lastDay = viewEnd() - DAY;
   $('#board-title').textContent =
@@ -190,9 +184,10 @@ function renderBoard(now) {
     ]));
   }
 
+  $('#board').style.setProperty('--rows', channels.length);
   $('#board').replaceChildren(head, el('div', { className: 'body' }, rows));
   renderScale();
-  $('#detail').textContent = DETAIL_HINT;
+  $('#detail').textContent = '';
 }
 
 /** 横軸（上段: 日付、下段: 時刻）と、日ごとの帯を描く。ラベルの細かさは実際の幅から決める */

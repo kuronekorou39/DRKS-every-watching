@@ -1,4 +1,4 @@
-# drks-every-watching
+# 泥臭ログ（drks-every-watching）
 
 複数の配信者（現在は8人）の配信実績を記録し、1つのスケジュールボードに並べて表示する静的サイト。
 Twitch に加えて YouTube と Kick にも対応し、1人につき配信先ごとに1行ずつ並ぶ。
