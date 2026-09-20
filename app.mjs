@@ -20,6 +20,7 @@ const RELOAD_MS = 5 * 60_000;
 const TEAM_NAME = 'DRKS';
 const SLIDE_MS = 380;
 const ZOOM_MS = 450;
+const MIN_HEADER_GAP_EM = 5; // ロゴと操作欄の間がこれ（操作欄の文字の大きさの何倍か）より詰まったら、日数のボタン列をプルダウンに替える
 const MAX_ANIM_DAYS = 120; // 変える前後を合わせた範囲がこれより長いときは、アニメーションなしで切り替える（描く量が増えすぎるため）
 
 const $ = (sel) => document.querySelector(sel);
@@ -368,7 +369,7 @@ function animateBoard() {
 }
 
 /**
- * 日数のボタン列がロゴの横に入りきるかを実測し、入らなければプルダウンに替える（.compact）。
+ * 日数のボタン列がロゴの横に余裕を持って入るかを実測し、窮屈ならプルダウンに替える（.compact）。
  * 入るかどうかはフォントや文字の拡大率、期間の文字数で変わるので、幅の決め打ちにはしない
  */
 function fitHeader() {
@@ -381,7 +382,10 @@ function fitHeader() {
   const box = controls.getBoundingClientRect();
   const wrapped = box.top >= logo.bottom - 1;
   const overflowing = controls.scrollWidth > controls.clientWidth + 1 || box.right > hero.getBoundingClientRect().right + 1;
-  if (wrapped || overflowing) hero.classList.add('compact');
+  // 入りきっていても、ロゴとの間が詰まって見える手前で早めに切り替える
+  const gap = controls.querySelector('.step').getBoundingClientRect().left - logo.right;
+  const cramped = gap < MIN_HEADER_GAP_EM * parseFloat(getComputedStyle(controls).fontSize);
+  if (wrapped || overflowing || cramped) hero.classList.add('compact');
 }
 
 /** 日数ボタンの塗りつぶし（つまみ）を、選択中のボタンの位置へ動かす。用意した日数でなければ隠す */
