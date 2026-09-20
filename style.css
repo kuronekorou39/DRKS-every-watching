@@ -124,7 +124,8 @@ select.pill { display: none; color: var(--ink); }
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
-.scroll { overflow-x: clip; overflow-clip-margin: 4px; }
+/* 配信中のアイコンの輪と波紋が左端で切れないよう、切り取る位置を外側へずらす */
+.scroll { overflow-x: clip; margin-inline: -12px; padding-inline: 12px; }
 
 /* ---- board ---- */
 .board { font-size: 0.8125rem; }
@@ -186,10 +187,19 @@ select.pill { display: none; color: var(--ink); }
   font-weight: 500;
   text-decoration: none;
 }
-.who img, .who .initial { flex: none; width: 24px; height: 24px; border-radius: 50%; }
+.avatar { position: relative; flex: none; display: flex; border-radius: 50%; }
+.who img, .who .initial { position: relative; z-index: 1; width: 24px; height: 24px; border-radius: 50%; }
 .who .initial { background: var(--empty-alt); font-size: 0.75rem; line-height: 24px; text-align: center; }
 .who .name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
-.who.live img, .who.live .initial { outline: 2px solid var(--signal); outline-offset: 1px; animation: ping 1.6s ease-out infinite; }
+/* 配信中のアイコン: 輪が回り、外へ波紋が広がる */
+.who.live img, .who.live .initial { box-shadow: 0 0 0 1.5px var(--paper); }
+.who.live .avatar::before, .who.live .avatar::after { content: ""; position: absolute; border-radius: 50%; }
+.who.live .avatar::before {
+  inset: -4px;
+  background: conic-gradient(var(--signal), color-mix(in srgb, var(--signal) 15%, transparent) 70%, var(--signal));
+  animation: spin 1.4s linear infinite;
+}
+.who.live .avatar::after { inset: -4px; animation: ping 1.6s ease-out infinite; }
 a.who-link:hover .name { text-decoration: underline; }
 .live-chip {
   flex: none;
@@ -248,6 +258,7 @@ a.who-link:hover .name { text-decoration: underline; }
   to { box-shadow: 0 0 0 9px transparent; }
 }
 @keyframes blink { 50% { opacity: 0.45; } }
+@keyframes spin { to { transform: rotate(1turn); } }
 .now { position: absolute; top: -0.3rem; bottom: -0.3rem; width: 2px; margin-left: -1px; background: var(--signal); pointer-events: none; }
 .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; margin-top: 0.75rem; font-size: 0.8125rem; color: var(--muted); }
 .legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
@@ -268,7 +279,7 @@ a.who-link:hover .name { text-decoration: underline; }
 .foot a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
-  .status .dot, .seg.live, .seg.live::after, .who.live img, .who.live .initial, .live-chip, .plat.live { animation: none; }
+  .status .dot, .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .live-chip, .plat.live { animation: none; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */

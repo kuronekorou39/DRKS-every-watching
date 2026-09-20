@@ -166,9 +166,11 @@ function renderBoard(now) {
     const who = el('div', { className: `who${live ? ' live' : ''}` }, [
       link(sources[0].channel.url, { className: 'who-link', title: name }, [
         // 狭い画面では名前を隠してアイコンだけにするので、画像がなければ頭文字で代用する
-        icon
-          ? el('img', { src: icon, alt: '', width: 24, height: 24, referrerPolicy: 'no-referrer' })
-          : el('span', { className: 'initial', ariaHidden: 'true', textContent: [...name][0] }),
+        el('span', { className: 'avatar' }, [
+          icon
+            ? el('img', { src: icon, alt: '', width: 24, height: 24, referrerPolicy: 'no-referrer' })
+            : el('span', { className: 'initial', ariaHidden: 'true', textContent: [...name][0] }),
+        ]),
         el('span', { className: 'name', textContent: name }),
       ]),
       ...(live ? [el('span', { className: 'live-chip', textContent: 'LIVE' })] : []),
