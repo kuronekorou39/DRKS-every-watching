@@ -18,6 +18,8 @@ const FALLBACK_TRACK_PX = 600;
 const BASE_FONT_PX = 13; // 上の px のしきい値は、この文字サイズのときの値
 const RELOAD_MS = 5 * 60_000;
 const TEAM_NAME = 'DRKS';
+const SLIDE_MS = 380;
+const MAX_SLIDE_SPANS = 2; // これより遠くへ動くときはスライドさせない（描く範囲が広がりすぎるため）
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, children = []) => {
@@ -32,7 +34,17 @@ let recordFromMs = -Infinity;
 // 表示範囲: start（現地日の 0:00）から days 日ぶん
 const view = { start: 0, days: DEFAULT_DAYS };
 
+// ◀ ▶ で動かした直後だけ入る、動かす前の表示範囲の開始。スライドのあいだは前後の範囲をまとめて描く
+let slideFrom = null;
+let slideToken = 0;
+
 const viewEnd = () => view.start + view.days * DAY;
+/** いま描く範囲。ふだんは表示範囲そのもの、スライド中は動かす前の範囲も含める */
+const drawRange = () => {
+  const from = Math.min(view.start, slideFrom ?? view.start);
+  const to = Math.max(viewEnd(), (slideFrom ?? view.start) + view.days * DAY);
+  return { from, to };
+};
 const todayEnd = () => localDayStart(Date.now()) + DAY;
 
 /** 終わりの日を固定して範囲を決める。未来にはみ出す分は今日までに詰める */
@@ -114,6 +126,12 @@ function renderBoard(now) {
   const to = viewEnd();
   const span = to - from;
   const pos = (ms) => `${((ms - from) / span) * 100}%`;
+  // バーは描く範囲ぶん作る（表示範囲の外は 0〜100% をはみ出し、スライドで入ってくる）
+  const draw = drawRange();
+  const strip = (children) => el('div', { className: 'strip' }, [
+    ...children,
+    ...(now >= from && now < to ? [el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` })] : []),
+  ]);
   // 横軸と日ごとの帯は幅に応じて描き分けるので、renderScale() であとから埋める
   const head = el('div', { className: 'row head' }, [
     el('span'),
@@ -123,23 +141,29 @@ function renderBoard(now) {
   const rows = [el('div', { className: 'row bands', ariaHidden: 'true' }, [el('span'), el('div', { className: 'track' }), el('span')])];
 
   // いちばん上に、全員ぶんをまとめた行（誰か1人でも配信していた時間）を置く
-  const clip = (g) => ({ start: Math.max(from, g.start), end: Math.min(to, g.end), live: g.live });
+  const clipTo = (range) => (g) => ({ start: Math.max(range.from, g.start), end: Math.min(range.to, g.end), live: g.live });
+  const sumIn = (range, list) =>
+    mergeIntervals(list.map(clipTo(range)).filter((g) => g.end > g.start)).reduce((sum, g) => sum + g.end - g.start, 0);
   const everyone = channels.flatMap((c) => c.sources.flatMap((source) =>
-    source.streams.map((s) => clip({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
-  rows.push(renderTeamRow(mergeIntervals(everyone.filter((g) => g.end > g.start)), { from, to, now, pos }));
+    source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
+  rows.push(renderTeamRow(
+    mergeIntervals(everyone.map(clipTo(draw)).filter((g) => g.end > g.start)),
+    { totalMs: sumIn({ from, to }, everyone), from, to, now, pos, strip },
+  ));
 
   for (const { name, icon, sources } of channels) {
     // 1人1行。配信先（Twitch / YouTube / Kick）は色で見分ける
     const track = el('div', { className: 'track' });
     const segs = sources.flatMap((source, lane) =>
       source.streams.map((s) => ({ s, source, lane, start: Date.parse(s.start), end: streamEnd(s, now) })))
-      .filter((g) => Math.min(to, g.end) > Math.max(from, g.start));
+      .filter((g) => Math.min(draw.to, g.end) > Math.max(draw.from, g.start));
+    const bars = [];
 
     for (const g of segs) {
       const { s, source, start, end } = g;
       const platform = PLATFORMS[source.platform];
-      const a = Math.max(from, start);
-      const b = Math.min(to, end);
+      const a = Math.max(draw.from, start);
+      const b = Math.min(draw.to, end);
       // 同時配信で別の配信先と重なるところは、行を上下に分けて両方見えるようにする
       const lanes = [...new Set(segs.filter((o) => o.start < end && o.end > start).map((o) => o.lane))].sort();
       const label =
@@ -158,12 +182,12 @@ function renderBoard(now) {
         e.stopPropagation();
         showDetail(seg, { name, source, stream: s, start, end });
       });
-      track.append(seg);
+      bars.push(seg);
     }
-    if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
+    track.append(strip(bars));
 
     // 合計は、同時配信を二重に数えないよう重なりをまとめてから足す
-    const totalMs = mergeIntervals(segs.map(clip)).reduce((sum, g) => sum + g.end - g.start, 0);
+    const totalMs = sumIn({ from, to }, segs);
 
     // サンプルデータのチャンネルは実在しない（url が空）のでリンクにしない
     const link = (url, props, children) => (url ? externalLink(url, props, children) : el('span', props, children));
@@ -199,11 +223,12 @@ function renderBoard(now) {
   attachCursorLine(body, from, span);
   $('#board').replaceChildren(head, body);
   renderScale();
+  if (slideFrom != null) slide();
 }
 
 /** 全員ぶんをまとめた行。合計時間と、表示範囲（今より先は除く）のうち誰かが配信していた割合を出す */
-function renderTeamRow(merged, { from, to, now, pos }) {
-  const track = el('div', { className: 'track' }, merged.map((g) => {
+function renderTeamRow(merged, { totalMs, from, to, now, pos, strip }) {
+  const track = el('div', { className: 'track' }, [strip(merged.map((g) => {
     const label =
       `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
       `（${formatDuration(g.end - g.start)}）`;
@@ -212,10 +237,8 @@ function renderTeamRow(merged, { from, to, now, pos }) {
       title: `誰かが配信していた時間\n${label}`,
       style: `left:${pos(g.start)};width:${((g.end - g.start) / (to - from)) * 100}%;top:0;height:100%`,
     });
-  }));
-  if (now >= from && now < to) track.append(el('span', { className: 'now', ariaHidden: 'true', style: `left:${pos(now)}` }));
+  }))]);
 
-  const totalMs = merged.reduce((sum, g) => sum + g.end - g.start, 0);
   // 割合の分母からは、まだ来ていない時間と、記録を残す前の期間を除く
   const elapsed = Math.min(to, now) - Math.max(from, recordFromMs);
   const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
@@ -247,16 +270,22 @@ function renderScale() {
   const dayStep = Math.ceil(MIN_DAY_LABEL_PX / dayPx) || 1;
   const today = localDayStart(Date.now());
 
+  // スライド中は動かす前の範囲の日も並べ、表示範囲の幅を 100% として左右にはみ出させる
+  const draw = drawRange();
+  const drawDays = Math.round((draw.to - draw.from) / DAY);
+  const stripStyle = `width:${(drawDays / view.days) * 100}%;margin-left:${((draw.from - view.start) / DAY / view.days) * 100}%`;
+
   const dayCells = [];
   const hourLabels = [];
   const bands = [];
   let lastMonth = null;
-  for (let i = 0; i < view.days; i++) {
-    const day = view.start + i * DAY;
+  for (let n = 0; n < drawDays; n++) {
+    const day = draw.from + n * DAY;
+    const i = Math.round((day - view.start) / DAY); // 表示範囲の先頭から数えた日（範囲の外は負や days 以上になる）
     const wd = localWeekday(day);
     const cell = el('span', { className: `day wd${wd}${day === today ? ' today' : ''}` });
     // 右端で見切れるラベルは出さない
-    if (i % dayStep === 0 && (view.days - i) * dayPx >= MIN_DAY_LABEL_PX) {
+    if (((i % dayStep) + dayStep) % dayStep === 0 && (i >= view.days || (view.days - i) * dayPx >= MIN_DAY_LABEL_PX)) {
       const [, month, date] = localDateString(day).split('-').map(Number);
       // 月は最初のラベルと、月が変わったところにだけ付ける
       const short = `${month === lastMonth ? '' : `${month}/`}${date}`;
@@ -272,7 +301,7 @@ function renderScale() {
 
     if (hourStep) {
       for (let h = hourStep; h < 24; h += hourStep) {
-        hourLabels.push(el('span', { textContent: h, style: `left:${((i + h / 24) / view.days) * 100}%` }));
+        hourLabels.push(el('span', { textContent: h, style: `left:${((n + h / 24) / drawDays) * 100}%` }));
       }
     }
 
@@ -285,14 +314,39 @@ function renderScale() {
   const days = scale.querySelector('.days');
   days.classList.toggle('sparse', dayStep > 1);
   days.replaceChildren(...dayCells);
-  scale.querySelector('.hours').replaceChildren(...hourLabels);
-  const bandTrack = $('#board .bands .track');
-  bandTrack.classList.toggle('narrow', narrow);
-  bandTrack.style.setProperty('--hour-frac', hourStep ? hourStep / 24 : 1);
-  bandTrack.replaceChildren(...bands);
+  days.style.cssText = stripStyle;
+  const hours = scale.querySelector('.hours');
+  hours.replaceChildren(...hourLabels);
+  hours.style.cssText = stripStyle;
+
   // 記録を残す前の期間は、斜線をかけて「配信なし」と区別する
-  const noData = (Math.min(viewEnd(), recordFromMs) - view.start) / (view.days * DAY);
-  if (noData > 0) bandTrack.append(el('span', { className: 'no-data', title: '記録なし', style: `width:${noData * 100}%` }));
+  const noData = (Math.min(draw.to, recordFromMs) - draw.from) / (draw.to - draw.from);
+  const bandStrip = el('div', { className: `band-strip${narrow ? ' narrow' : ''}`, style: stripStyle }, [
+    ...bands,
+    ...(noData > 0 ? [el('span', { className: 'no-data', title: '記録なし', style: `width:${noData * 100}%` })] : []),
+  ]);
+  bandStrip.style.setProperty('--hour-frac', hourStep ? hourStep / 24 : 1);
+  $('#board .bands .track').replaceChildren(bandStrip);
+}
+
+/** ◀ ▶ で動かしたとき、動かす前の位置から新しい位置へ横に滑らせる */
+function slide() {
+  const board = $('#board');
+  const shiftPx = ((view.start - slideFrom) / (view.days * DAY)) * board.querySelector('.scale').getBoundingClientRect().width;
+  const token = ++slideToken;
+  board.classList.add('sliding');
+  for (const node of board.querySelectorAll('.strip, .band-strip, .days, .hours')) {
+    node.animate([{ transform: `translateX(${shiftPx}px)` }, { transform: 'none' }], { duration: SLIDE_MS, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' });
+  }
+  // 片付けはタイマーで行う。アニメーションの完了通知は、描き直しで要素が消えたときや
+  // タブが裏にあるときに届かないことがあり、それに頼ると範囲外のバーが残ったままになる
+  setTimeout(() => {
+    // 途中でもう一度動かされていたら、後から始まったほうに片付けを任せる
+    if (token !== slideToken) return;
+    slideFrom = null;
+    board.classList.remove('sliding');
+    renderBoard(Date.now());
+  }, SLIDE_MS);
 }
 
 /** マウスの位置に縦の補助線を出し、その位置の日時を添える（タッチ操作では出さない） */
@@ -362,15 +416,28 @@ function hideDetail() {
   $('#detail').hidden = true;
 }
 
-function update() {
+/** 表示範囲を変えたあとの描き直し。slideStart を渡すと、その位置から横に滑らせる */
+function update(slideStart = null) {
   hideDetail();
+  // 滑っている途中で別の操作が来たら、前のスライドの片付けは無効にする
+  slideFrom = slideStart;
+  slideToken++;
+  $('#board').classList.remove('sliding');
   writeUrl();
   render();
 }
 
-$('#prev').addEventListener('click', () => { setView(viewEnd() - view.days * DAY, view.days); update(); });
-$('#next').addEventListener('click', () => { setView(viewEnd() + view.days * DAY, view.days); update(); });
-$('#today').addEventListener('click', () => { setView(todayEnd(), view.days); update(); });
+/** 日数はそのままで表示範囲を動かす。近くへの移動なら横に滑らせる（「動きを減らす」設定のときはしない） */
+function moveTo(end) {
+  const before = view.start;
+  setView(end, view.days);
+  const near = Math.abs(view.start - before) <= MAX_SLIDE_SPANS * view.days * DAY;
+  update(near && view.start !== before && !matchMedia('(prefers-reduced-motion: reduce)').matches ? before : null);
+}
+
+$('#prev').addEventListener('click', () => moveTo(viewEnd() - view.days * DAY));
+$('#next').addEventListener('click', () => moveTo(viewEnd() + view.days * DAY));
+$('#today').addEventListener('click', () => moveTo(todayEnd()));
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
 });

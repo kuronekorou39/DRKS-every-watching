@@ -170,7 +170,11 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 
 /* 日ごとの帯。全員の行の後ろに1枚だけ敷く */
 .row.bands { position: absolute; inset: 0; height: auto; pointer-events: none; }
-.bands .track { display: flex; height: 100%; }
+.bands .track { height: 100%; }
+.band-strip { position: relative; display: flex; height: 100%; }
+/* 行ごとのバーを載せる層。◀ ▶ で動かすときは、この層と横軸・帯をまとめて横に滑らせる */
+.strip { position: absolute; inset: 0; }
+.board.sliding .track, .board.sliding .scale { overflow-x: clip; }
 .band {
   flex: 1 1 0;
   border-left: 1px solid var(--day-line);
