@@ -801,11 +801,78 @@
       {
        "stream_id": "316470283761",
        "start": "2026-09-20T06:49:17.000Z",
-       "end": "2026-09-20T09:38:53.892Z",
+       "end": "2026-09-20T10:19:44.584Z",
        "end_source": "poll",
        "live": true,
-       "title": "おはようございます",
-       "game": "Just Chatting"
+       "title": "APEXをやる理由がある",
+       "game": "Apex Legends"
+      }
+     ]
+    },
+    {
+     "platform": "youtube",
+     "key": "@junchannel",
+     "channel": {
+      "id": "UCx1nAvtVDIsaGmCMSe8ofsQ",
+      "login": "@junchannel",
+      "display_name": "加藤純一【jun channel】",
+      "profile_image_url": "https://yt3.ggpht.com/ob-rT9lFwpBgSiwRnCbVoaD80NvE4oQdMFqmVSn2VEVqt_c7CjW5WThGDw0DITrwJtFKYO5N=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/channel/UCx1nAvtVDIsaGmCMSe8ofsQ"
+     },
+     "streams": [
+      {
+       "stream_id": "dGwTjwpOR0A",
+       "start": "2025-12-25T11:00:11.000Z",
+       "end": "2025-12-25T15:05:34.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "もこうに謎解きさせる ～夜の学校から脱出せよ～",
+       "game": null
+      },
+      {
+       "stream_id": "6DlqSLTvm9A",
+       "start": "2026-02-04T11:00:06.000Z",
+       "end": "2026-02-04T11:36:38.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "全国穴掘り大会3!!!",
+       "game": null
+      },
+      {
+       "stream_id": "6C2tKmxtADs",
+       "start": "2026-03-31T09:00:06.000Z",
+       "end": "2026-03-31T09:48:44.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "加藤純一の、社会科見学【nosh編】",
+       "game": null
+      },
+      {
+       "stream_id": "sqiwb4a3RUE",
+       "start": "2026-06-21T10:54:55.000Z",
+       "end": "2026-06-21T11:35:53.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "加藤純一からのお知らせ",
+       "game": null
+      },
+      {
+       "stream_id": "zt0tFtowYhw",
+       "start": "2026-07-19T10:50:12.000Z",
+       "end": "2026-07-19T12:16:55.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "HYG Direct(ハイゲダイレクト) #1",
+       "game": null
+      },
+      {
+       "stream_id": "D-CdoLIwGXM",
+       "start": "2026-08-18T10:46:14.000Z",
+       "end": "2026-08-18T12:08:33.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "HYG Direct(ハイゲダイレクト) #2",
+       "game": null
       }
      ]
     }
@@ -1369,11 +1436,11 @@
       {
        "stream_id": "316482599922",
        "start": "2026-09-20T07:51:56.000Z",
-       "end": "2026-09-20T09:38:53.893Z",
+       "end": "2026-09-20T10:19:44.585Z",
        "end_source": "poll",
        "live": true,
-       "title": "ちくしょう！！！シルバーウィーク、どこもエアコン直せず。明後日スポットクーラー届くまで耐え抜く！放送！",
-       "game": "Just Chatting"
+       "title": "エアコンが効かない中での鬼武者 Way of the Sword ウルトラ高画質【２日目】←ちくしょう！！！シルバーウィーク、どこもエアコン直せず。明後日スポットクーラー届くまで耐え抜く！放送！",
+       "game": "Onimusha: Way of the Sword"
       }
      ]
     }
@@ -1458,6 +1525,58 @@
        "game": null
       }
      ]
+    },
+    {
+     "platform": "youtube",
+     "key": "@mokoustream",
+     "channel": {
+      "id": "UCENoC6MLc4pL-vehJyzSWmg",
+      "login": "@mokoustream",
+      "display_name": "もこうの実況",
+      "profile_image_url": "https://yt3.ggpht.com/ytc/AIdro_nEK176i3cmeOg8fZgG7jQobKIHB4MHkf7o0p4VEyljuW0=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/channel/UCENoC6MLc4pL-vehJyzSWmg"
+     },
+     "streams": [
+      {
+       "stream_id": "zWa-akzgWx0",
+       "start": "2026-08-07T08:58:53.000Z",
+       "end": "2026-08-07T19:08:05.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "全員ぶっ〇す。ニコニコ老人会RUST もこう視点 第三回",
+       "game": null
+      },
+      {
+       "stream_id": "whwMyyx2MBM",
+       "start": "2026-08-09T08:03:41.000Z",
+       "end": "2026-08-09T15:16:03.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【最終日】全員ぶっ〇す。第三回ニコニコ老人会RUST もこう視点",
+       "game": null
+      },
+      {
+       "stream_id": "BCApB4n3SFY",
+       "start": "2026-09-03T11:04:49.000Z",
+       "end": "2026-09-03T14:52:40.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【緊急】マリオカートワールドでコラボ！　不破湊、P-P、GON、葉、馬場",
+       "game": null
+      }
+     ]
+    },
+    {
+     "platform": "kick",
+     "key": "mokoutoaruotoko",
+     "channel": {
+      "id": "57626177",
+      "login": "mokoutoaruotoko",
+      "display_name": "mokoutoaruotoko",
+      "profile_image_url": "",
+      "url": "https://kick.com/mokoutoaruotoko"
+     },
+     "streams": []
     }
    ]
   },
@@ -1983,7 +2102,7 @@
       {
        "stream_id": "316470687089",
        "start": "2026-09-20T09:00:24.000Z",
-       "end": "2026-09-20T09:38:53.893Z",
+       "end": "2026-09-20T10:19:44.585Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -2321,6 +2440,163 @@
        "end_source": "vod",
        "live": false,
        "title": "TGS会場のソニー・インタラクティブエンタテイメントブースからスト６武者修行３０勝する男",
+       "game": null
+      }
+     ]
+    },
+    {
+     "platform": "youtube",
+     "key": "@tensaioniya",
+     "channel": {
+      "id": "UCC0FNUII8Zp2OAc7IaetICg",
+      "login": "@tensaioniya",
+      "display_name": "天才おにや",
+      "profile_image_url": "https://yt3.ggpht.com/9mo4IV7z9zh_e1AWP88Ui_y2-L2FAw6nEBqJfX73dy7K1GIi6A0hLthgutWs99qMfzDzeSAg=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/channel/UCC0FNUII8Zp2OAc7IaetICg"
+     },
+     "streams": [
+      {
+       "stream_id": "avPeYWpgPFk",
+       "start": "2026-09-03T23:45:04.000Z",
+       "end": "2026-09-04T02:33:21.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【前場寄り付き株ライブ】為替介入？なんと違うらしい。いきなりの円高！ベッセントの発言で不穏な動き。この円高ドル安に向けて金利も大暴れ。日経平均どうなるんだ。イラン情勢も変わらず大動乱。",
+       "game": null
+      },
+      {
+       "stream_id": "jEmzCCsGuRY",
+       "start": "2026-09-04T11:59:22.000Z",
+       "end": "2026-09-04T14:25:49.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【アメリカ時間株ライブ】鬼門のアメリカ雇用統計を見届ける！最重要指数で半導体メモリーの未来はいかに！？今晩のSOX指数は織り込み済みなのかそれともぶっ飛ぶのか！？",
+       "game": null
+      },
+      {
+       "stream_id": "XJzjNhZHoL4",
+       "start": "2026-09-06T23:45:03.000Z",
+       "end": "2026-09-07T02:41:07.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "半導体やべぇえええええ！にょわあああ！ここから見れるか反撃の日経平均！半導体の底力を拝見させてもらおうか。夏枯れ最終日のレイバーデイにて勝負の朝の寄り付き株ライブ生放送！！",
+       "game": null
+      },
+      {
+       "stream_id": "Otyik_E2J2A",
+       "start": "2026-09-07T23:44:20.000Z",
+       "end": "2026-09-08T02:05:10.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】爆上げの翌日。ここが問題の日。世界各国で米国債を大量売却したとの噂。ドル円の為替が時間外乱高下。為替もヤバいし、アメリカも開場。どうなるんだ日経平均。",
+       "game": null
+      },
+      {
+       "stream_id": "N9-LIz1Pb6w",
+       "start": "2026-09-08T23:41:35.000Z",
+       "end": "2026-09-09T02:23:29.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】米国がまたもイランを攻撃。更に金利引き上げ示唆。アメリカSOXは急降下。大荒れ半導体セクターと思いきや為替ドル円が荒れすぎて乱高下。朝のデイトレ株ライブ生放送！！",
+       "game": null
+      },
+      {
+       "stream_id": "FJwNgMI7IV8",
+       "start": "2026-09-09T23:44:40.000Z",
+       "end": "2026-09-10T02:06:24.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】トランプ大統領の演説を生で見届ける！メジャーSQを控えまだ下げるか日経平均！下落強めか。思惑と弱気が交錯する時、株価は動き出す。見届けねばなるまい朝の株デイトレ株ライブ生放送！",
+       "game": null
+      },
+      {
+       "stream_id": "n61T-VuBaxU",
+       "start": "2026-09-10T13:08:53.000Z",
+       "end": "2026-09-10T15:01:20.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【アメリカ時間ライブ】おい。時間外で日経先物１０００円急落なんだこれ。しかも原油１００ドル超え！？明日は暴落マンデー確定？アメリカのSOXを見届ける緊急株ライブ会議！",
+       "game": null
+      },
+      {
+       "stream_id": "5ZKmNU2f_E8",
+       "start": "2026-09-10T23:44:18.000Z",
+       "end": "2026-09-11T02:36:42.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】暴落やめろおおおお！メジャーSQ魔の金曜日がマンデーとなるか。金利はリーマンショック級。日経平均は暴落の原油100ドル突破。しかしオラクル好決算！！",
+       "game": null
+      },
+      {
+       "stream_id": "zqEOI8fTH6U",
+       "start": "2026-09-11T11:38:14.000Z",
+       "end": "2026-09-11T12:46:05.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【夕方ライブ】来るぞCPI発表！日経平均クラッシュ。半導体メモリー爆下げの中ついに来る最重要指数CPI。頼む。どうか俺を安心させてくれ。土日を安心して過ごさせてください！！",
+       "game": null
+      },
+      {
+       "stream_id": "Yho1sCInEPE",
+       "start": "2026-09-13T11:58:09.000Z",
+       "end": "2026-09-13T14:26:27.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【日曜夜ライブ】マンデー回避どころかガチな暴落マンデーあるんですかね。イーロンマスク「AI開発の減速の賛成する」発言。狼狽するな。サンデー株ライブ！！",
+       "game": null
+      },
+      {
+       "stream_id": "lExcNI4vmv4",
+       "start": "2026-09-13T23:42:44.000Z",
+       "end": "2026-09-14T02:08:46.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】AI暴落だけは勘弁して下さい！追証なんです！メジャーSQも終わりCPIも無事通過！！今週は期待したい！しかしイーロンマスクのAI減速宣言の影響もあるか？どうなる日経平均！",
+       "game": null
+      },
+      {
+       "stream_id": "uggJJ6MABBM",
+       "start": "2026-09-14T23:41:52.000Z",
+       "end": "2026-09-15T02:37:48.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】またマンデーか！連日の暴落。アメリカsox爆下げ。更にFOMCを控え、常に売られる日経平均。止まらない損切り。この追証に終わりはないのか。シルバーウィークへの警戒も。",
+       "game": null
+      },
+      {
+       "stream_id": "KYUUrhk-OUo",
+       "start": "2026-09-15T23:42:32.000Z",
+       "end": "2026-09-16T02:17:46.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】ついに今晩に迫ったFOMC！１００ドル超え原油がヤべぇ！追証こないでくれ！！いい加減あげろ日経平均コラ！！ビットコインも壊滅へ。アメリカは情勢不安から３日続落。",
+       "game": null
+      },
+      {
+       "stream_id": "1yjINwtIFkQ",
+       "start": "2026-09-16T17:39:55.000Z",
+       "end": "2026-09-16T19:06:27.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【深夜時間ライブ】アメリカFOMCを生で見届ける！退場したくない。正直に言います。怖くて寝れません。据え置き頼む。運命の暴落回避おねがいします。深夜３時の株ライブ生放送！！",
+       "game": null
+      },
+      {
+       "stream_id": "GTkE2NZ2jcM",
+       "start": "2026-09-17T03:14:41.000Z",
+       "end": "2026-09-17T06:05:36.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【午後の寄り付き株ライブ】FOMCサプライズ無し。半導体よええ！損切やだぁああ！もう日経平均はダメなのか。金利と原油に破壊された株式市場。植田ショックへの警戒売りも相まってもはや地獄か。",
+       "game": null
+      },
+      {
+       "stream_id": "k93qxzwQLvI",
+       "start": "2026-09-17T23:44:01.000Z",
+       "end": "2026-09-18T02:32:39.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【朝の寄り付き株ライブ】日銀からの半導体が最強で草！！！！ついに全ての命運を決める日銀会合。２年前の大暴落をもう起こしてはいけない。連休前の日経平均ジャッジメント！！朝の寄り付き株ライブ生放送！",
        "game": null
       }
      ]
@@ -3431,6 +3707,469 @@
        "end_source": "vod",
        "live": false,
        "title": "幕末坂本、ドロクサ外部顧問に就任",
+       "game": null
+      }
+     ]
+    },
+    {
+     "platform": "youtube",
+     "key": "@幕末志士チャンネル",
+     "channel": {
+      "id": "UC0C6oq3TlGiSlDCei57hY6A",
+      "login": "@幕末志士チャンネル",
+      "display_name": "幕末志士チャンネル",
+      "profile_image_url": "https://yt3.ggpht.com/ytc/AIdro_mR2-82rzEZ7hOoMV2SROgZgUYt0kQU2xTy0WQesdY--l4=s88-c-k-c0x00ffffff-no-rj",
+      "url": "https://www.youtube.com/channel/UC0C6oq3TlGiSlDCei57hY6A"
+     },
+     "streams": [
+      {
+       "stream_id": "WZ5xv0s6zgY",
+       "start": "2026-05-19T12:01:00.000Z",
+       "end": "2026-05-19T14:47:47.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士と新宿の狼",
+       "game": null
+      },
+      {
+       "stream_id": "q6avrpjPkDg",
+       "start": "2026-05-22T12:00:23.000Z",
+       "end": "2026-05-22T14:37:28.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のスーパーボンバーマン5",
+       "game": null
+      },
+      {
+       "stream_id": "q0N742PHmMc",
+       "start": "2026-05-25T12:00:27.000Z",
+       "end": "2026-05-25T16:33:32.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "突発　坂ミノPUBG",
+       "game": null
+      },
+      {
+       "stream_id": "8avwViguDaQ",
+       "start": "2026-05-26T12:01:06.000Z",
+       "end": "2026-05-26T14:18:33.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末坂本とドライブデート【Forza Horizon 6】",
+       "game": null
+      },
+      {
+       "stream_id": "JLbcJy6SBaQ",
+       "start": "2026-05-29T12:02:17.000Z",
+       "end": "2026-05-29T14:37:18.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末坂本と列車の旅【RUNNING TRAIN】",
+       "game": null
+      },
+      {
+       "stream_id": "Yqz6fJR3ink",
+       "start": "2026-06-02T12:04:11.000Z",
+       "end": "2026-06-02T14:19:35.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士達のニコイチドライブ【Forza Horizon 6】",
+       "game": null
+      },
+      {
+       "stream_id": "AB77GkbDkmU",
+       "start": "2026-06-05T12:00:28.000Z",
+       "end": "2026-06-05T15:11:36.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士の侍道2　～中岡の生涯～",
+       "game": null
+      },
+      {
+       "stream_id": "1npEonDDRF8",
+       "start": "2026-06-09T11:02:16.000Z",
+       "end": "2026-06-09T13:54:24.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のマリカダブルダッシュ　ガチ対決だッ！！",
+       "game": null
+      },
+      {
+       "stream_id": "IsCerTAk9nE",
+       "start": "2026-06-14T09:04:06.000Z",
+       "end": "2026-06-14T14:20:44.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "たいじわかば杯！幕末坂本チーム！絶対優勝！［スプラトゥーン3】",
+       "game": null
+      },
+      {
+       "stream_id": "gADGXM6qsZE",
+       "start": "2026-06-16T12:01:12.000Z",
+       "end": "2026-06-16T14:26:03.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士の悪意",
+       "game": null
+      },
+      {
+       "stream_id": "Gsp7yO2s2Ro",
+       "start": "2026-06-19T12:01:20.000Z",
+       "end": "2026-06-19T14:51:08.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "めっちゃ幕末志士のカメレオン",
+       "game": null
+      },
+      {
+       "stream_id": "QWLXuXL3iBo",
+       "start": "2026-06-23T12:03:18.000Z",
+       "end": "2026-06-23T14:48:31.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のワールドカップ2026【FC26】",
+       "game": null
+      },
+      {
+       "stream_id": "_u0Y8QObIBA",
+       "start": "2026-06-26T11:00:33.000Z",
+       "end": "2026-06-26T11:42:55.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "中岡の今年二度目の手術入院と休止について",
+       "game": null
+      },
+      {
+       "stream_id": "SS2z8Le72OA",
+       "start": "2026-06-26T12:00:31.000Z",
+       "end": "2026-06-26T12:52:33.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第三回ニコニコ老人会RUST　ルール決定会議【8.7～9開催】",
+       "game": null
+      },
+      {
+       "stream_id": "_QZUsgbThfA",
+       "start": "2026-06-26T12:59:11.000Z",
+       "end": "2026-06-26T16:37:14.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "スーパージジイPUBG(幕末坂本、軍師ミノル、加藤純一、布団ちゃん)",
+       "game": null
+      },
+      {
+       "stream_id": "jME2oKAQ9uY",
+       "start": "2026-06-28T12:02:04.000Z",
+       "end": "2026-06-28T14:35:46.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "めっちゃ坂ちゃんのカメレオン",
+       "game": null
+      },
+      {
+       "stream_id": "z2Rd6WxJ8rM",
+       "start": "2026-06-30T12:01:43.000Z",
+       "end": "2026-06-30T14:16:55.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士の漢字バカ決定戦【漢字でGO！】",
+       "game": null
+      },
+      {
+       "stream_id": "vf8oZhvgxAo",
+       "start": "2026-07-03T12:00:18.000Z",
+       "end": "2026-07-03T14:44:04.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のリズム天国 ミラクルスターズ",
+       "game": null
+      },
+      {
+       "stream_id": "f8CzaFF62i8",
+       "start": "2026-07-05T12:00:54.000Z",
+       "end": "2026-07-05T14:39:40.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "めっちゃ坂ちゃんのカメレオン杯　～坂本に勝てたらラーメン～",
+       "game": null
+      },
+      {
+       "stream_id": "-4s055haV48",
+       "start": "2026-07-07T12:00:27.000Z",
+       "end": "2026-07-07T14:30:14.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "髭と豚の真・三國無双3　長坂の戦い【幕末志士】",
+       "game": null
+      },
+      {
+       "stream_id": "m8Lj8x8ttJI",
+       "start": "2026-07-10T12:10:33.000Z",
+       "end": "2026-07-10T14:55:49.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "めっちゃ幕末志士のカメレオン 完",
+       "game": null
+      },
+      {
+       "stream_id": "HMWQNRgfmFE",
+       "start": "2026-07-14T12:00:31.000Z",
+       "end": "2026-07-14T12:34:16.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "坂本いい加減にしろよ",
+       "game": null
+      },
+      {
+       "stream_id": "EJb5He-G3e4",
+       "start": "2026-07-14T12:45:25.000Z",
+       "end": "2026-07-14T14:58:16.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "坂本不要　視聴者3人とドン勝取る【PUBG】",
+       "game": null
+      },
+      {
+       "stream_id": "jaJydD_ogxk",
+       "start": "2026-07-17T12:03:25.000Z",
+       "end": "2026-07-17T14:36:47.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "楽しいな　顔腫れてる奴　ボコるのは【アソビ大全】",
+       "game": null
+      },
+      {
+       "stream_id": "mP7IndM3GTY",
+       "start": "2026-07-22T11:54:21.000Z",
+       "end": "2026-07-22T13:11:19.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第三回ニコニコ老人会RUST　最終決定会議【8.7～9開催】",
+       "game": null
+      },
+      {
+       "stream_id": "eivFxRZZqkQ",
+       "start": "2026-07-22T13:20:24.000Z",
+       "end": "2026-07-22T16:06:34.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "スーパージジイPUBG 第2回(幕末坂本、軍師ミノル、加藤純一、布団ちゃん)",
+       "game": null
+      },
+      {
+       "stream_id": "nprW9EbXLV8",
+       "start": "2026-07-24T11:31:59.000Z",
+       "end": "2026-07-24T12:03:02.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "手術直後の中岡を励ます会",
+       "game": null
+      },
+      {
+       "stream_id": "B_3qzmOvpew",
+       "start": "2026-07-28T12:00:27.000Z",
+       "end": "2026-07-28T13:20:00.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末坂本のAt Dead Of Night",
+       "game": null
+      },
+      {
+       "stream_id": "p2dTt6QarTg",
+       "start": "2026-07-31T12:02:07.000Z",
+       "end": "2026-07-31T13:28:05.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第3回ニコニコ老人会RUSTの視聴者説明会",
+       "game": null
+      },
+      {
+       "stream_id": "zjKCZboOVhM",
+       "start": "2026-08-07T08:57:37.000Z",
+       "end": "2026-08-07T20:35:14.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第3回ニコニコ老人会RUST 初日【主催者・坂本視点】",
+       "game": null
+      },
+      {
+       "stream_id": "mPTP--pQcfI",
+       "start": "2026-08-07T20:37:37.000Z",
+       "end": "2026-08-08T01:35:11.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第3回ニコニコ老人会RUST 初日～2日目朝【主催者・坂本視点】",
+       "game": null
+      },
+      {
+       "stream_id": "_L3QmF4_FKg",
+       "start": "2026-08-08T12:40:05.000Z",
+       "end": "2026-08-08T19:09:25.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第3回ニコニコ老人会RUST 2日目夜【主催者・坂本視点】",
+       "game": null
+      },
+      {
+       "stream_id": "VC6tBfUU51s",
+       "start": "2026-08-09T08:54:55.000Z",
+       "end": "2026-08-09T15:26:07.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "第3回ニコニコ老人会RUST 最終日【主催者・坂本視点】",
+       "game": null
+      },
+      {
+       "stream_id": "6_siZcCKjWk",
+       "start": "2026-08-14T12:00:44.000Z",
+       "end": "2026-08-14T14:04:24.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士の日本事故物件監視協会3",
+       "game": null
+      },
+      {
+       "stream_id": "Ls101vArStA",
+       "start": "2026-08-16T12:01:43.000Z",
+       "end": "2026-08-16T14:51:06.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "さかのなつやすみ【ぼくのなつやすみ】",
+       "game": null
+      },
+      {
+       "stream_id": "aXKaPG26r7s",
+       "start": "2026-08-20T12:00:36.000Z",
+       "end": "2026-08-20T15:03:57.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "帰ってきた幕末坂本のAt Dead Of Night　絶対攻略編",
+       "game": null
+      },
+      {
+       "stream_id": "ollfRD9yAyU",
+       "start": "2026-08-21T11:01:54.000Z",
+       "end": "2026-08-21T14:53:42.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の一【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "nK4N1Cpkrws",
+       "start": "2026-08-24T12:03:15.000Z",
+       "end": "2026-08-24T15:12:00.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "さかのなつやすみ　2日目【ぼくのなつやすみ】",
+       "game": null
+      },
+      {
+       "stream_id": "qqeDdfMucU8",
+       "start": "2026-08-25T11:02:46.000Z",
+       "end": "2026-08-25T14:48:00.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の二【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "vGcyXDASBMk",
+       "start": "2026-08-28T11:01:07.000Z",
+       "end": "2026-08-28T14:49:42.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の三【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "oyY3bzFgYcA",
+       "start": "2026-09-01T11:05:32.000Z",
+       "end": "2026-09-01T14:42:55.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の四【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "QUqxNCo5COA",
+       "start": "2026-09-04T12:00:54.000Z",
+       "end": "2026-09-04T14:40:16.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のドット絵バトルだッ！",
+       "game": null
+      },
+      {
+       "stream_id": "XTLp2XjgmDE",
+       "start": "2026-09-05T08:56:05.000Z",
+       "end": "2026-09-05T15:24:57.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【PUBG LAND 2026】幕末坂本チームで優勝せよ(幕末坂本、yunocy、軍師ミノル、あゆたろう)",
+       "game": null
+      },
+      {
+       "stream_id": "jM_ru3yRqlc",
+       "start": "2026-09-08T11:02:32.000Z",
+       "end": "2026-09-08T15:15:50.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の五(ジョウト編END)【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "vAe9v6XK9N4",
+       "start": "2026-09-11T11:01:05.000Z",
+       "end": "2026-09-11T15:17:20.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の六(ポケモンリーグ編)【縛り20種類】",
+       "game": null
+      },
+      {
+       "stream_id": "wGwA7a-rUnw",
+       "start": "2026-09-13T08:00:21.000Z",
+       "end": "2026-09-13T14:27:56.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "【VALOLANT】vs.マタギスナイパーズ(幕末坂本,加藤純一,こく兄,ゆゆうた,軍師ミノル,蛇足コーチ)",
+       "game": null
+      },
+      {
+       "stream_id": "1u6tB4FFqKY",
+       "start": "2026-09-14T08:17:19.000Z",
+       "end": "2026-09-14T10:02:20.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "坂ちゃん生誕前夜記念杯で大儲けせよ【#坂本幕誕祭2026】",
+       "game": null
+      },
+      {
+       "stream_id": "u04YynrdhlA",
+       "start": "2026-09-15T11:52:29.000Z",
+       "end": "2026-09-15T14:40:57.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "坂本誕おめ！敗北をプレゼントSP！(スマ64,スマDX,スマSP,マリカ64)【#坂本幕誕祭2026】",
+       "game": null
+      },
+      {
+       "stream_id": "Zsua35MRYKw",
+       "start": "2026-09-16T13:59:20.000Z",
+       "end": "2026-09-16T14:59:53.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末坂本、ドロクサ外部顧問に就任",
+       "game": null
+      },
+      {
+       "stream_id": "K0DAs3ynFtM",
+       "start": "2026-09-18T12:00:22.000Z",
+       "end": "2026-09-18T15:05:12.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "100枚コインで新・奴が来る【#幕末志士18周年】",
        "game": null
       }
      ]
