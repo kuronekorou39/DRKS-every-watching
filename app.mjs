@@ -67,6 +67,11 @@ function renderMessage(text) {
   $('#status').textContent = text;
 }
 
+// 操作欄の日付。曜日は別の要素にして、狭い画面で期間を出すときは CSS で隠せるようにする
+function dateLabel(ms) {
+  const [date, weekday] = formatDate(ms).replace('）', '').split('（');
+  return [date, el('span', { className: 'w', textContent: `(${weekday})` })];
+}
 const isLive = (source) => source.streams.some((s) => s.live);
 
 function render() {
@@ -83,13 +88,20 @@ function render() {
 
   const lastDay = viewEnd() - DAY;
   $('#board-title').textContent =
-    view.days === 1 ? formatDate(view.start) : `${formatDate(view.start)}〜${formatDate(lastDay)}`;
+    view.days === 1 ? `${formatDate(view.start)}の配信` : `${formatDate(view.start)}〜${formatDate(lastDay)}の配信`;
+  $('#from-text').replaceChildren(...dateLabel(view.start));
+  $('#to-text').replaceChildren(...dateLabel(lastDay));
+  $('#to-part').hidden = view.days === 1;
+  $('.step').classList.toggle('single', view.days === 1);
   $('#from').value = localDateString(view.start);
   $('#to').value = localDateString(lastDay);
   $('#to').max = $('#from').max = localDateString(now);
   $('#next').disabled = viewEnd() >= todayEnd();
   document.querySelectorAll('.range button').forEach((b) =>
     b.setAttribute('aria-pressed', String(Number(b.dataset.days) === view.days)));
+  // 用意した日数に当てはまらないときは「指定」を出す
+  const days = $('#days');
+  days.value = [...days.options].some((o) => Number(o.value) === view.days) ? String(view.days) : '';
 
   renderBoard(now);
 }
@@ -237,13 +249,16 @@ $('#today').addEventListener('click', () => { setView(todayEnd(), view.days); up
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
 });
+$('#days').addEventListener('change', (e) => { setView(viewEnd(), Number(e.target.value)); update(); });
 for (const input of [$('#from'), $('#to')]) {
+  // 入力欄は透明で文字の上に重ねてあるので、どこを押してもカレンダーが開くようにする
+  input.addEventListener('click', () => { try { input.showPicker?.(); } catch { /* 開けない環境では通常の入力欄として動く */ } });
   input.addEventListener('change', () => {
     const from = parseLocalDate($('#from').value);
     const to = parseLocalDate($('#to').value);
     if (Number.isNaN(from) || Number.isNaN(to)) return;
-    // 開始と終了が逆転したら、いま触ったほうに合わせて1日表示にする
-    if (from > to) setView((input.id === 'from' ? from : to) + DAY, 1);
+    // 1日表示のときは選んだ日へ移動する。開始と終了が逆転したら、いま触ったほうに合わせて1日表示にする
+    if (view.days === 1 || from > to) setView((input.id === 'from' ? from : to) + DAY, 1);
     else setView(to + DAY, (to - from) / DAY + 1);
     update();
   });

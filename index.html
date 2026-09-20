@@ -18,13 +18,16 @@
     </header>
 
     <section aria-labelledby="board-title">
+      <h2 id="board-title" class="sr-only">配信のスケジュール</h2>
       <div class="controls">
-        <h2 id="board-title" class="range-label">&nbsp;</h2>
-        <div class="step" role="group" aria-label="表示範囲を前後に動かす">
+        <div class="step" role="group" aria-label="表示範囲">
           <button type="button" id="prev" aria-label="前へ">◀</button>
-          <button type="button" id="today">今日</button>
+          <!-- 日付の文字の上に透明な日付入力を重ねてあり、押すとカレンダーが開く -->
+          <label class="pick"><span id="from-text"></span><input type="date" id="from" aria-label="開始日"></label>
+          <span id="to-part">〜<label class="pick"><span id="to-text"></span><input type="date" id="to" aria-label="終了日"></label></span>
           <button type="button" id="next" aria-label="次へ">▶</button>
         </div>
+        <button type="button" id="today" class="pill">今日</button>
         <div class="range" role="group" aria-label="表示する日数">
           <button type="button" data-days="1">1日</button>
           <button type="button" data-days="3">3日</button>
@@ -32,10 +35,15 @@
           <button type="button" data-days="14">2週</button>
           <button type="button" data-days="28">4週</button>
         </div>
-        <div class="dates">
-          <label>開始 <input type="date" id="from"></label>
-          <label>終了 <input type="date" id="to"></label>
-        </div>
+        <!-- 狭い画面では上のボタン列の代わりにこちらを出す -->
+        <select id="days" class="pill" aria-label="表示する日数">
+          <option value="1">1日</option>
+          <option value="3">3日</option>
+          <option value="7">1週</option>
+          <option value="14">2週</option>
+          <option value="28">4週</option>
+          <option value="" hidden>指定</option>
+        </select>
       </div>
       <div class="scroll">
         <div id="board" class="board"></div>

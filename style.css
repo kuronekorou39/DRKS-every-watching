@@ -89,38 +89,38 @@ h1, h2, h3, p { margin: 0; }
 @keyframes pulse { 50% { opacity: 0.35; } }
 
 /* ---- controls ---- */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .controls {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.6rem 1rem;
+  gap: 0.5rem 0.75rem;
   margin-bottom: 1rem;
 }
-.range-label { flex: 1 1 14rem; font-size: 1.25rem; font-weight: 700; }
-.range, .step { display: flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; }
-.range button, .step button {
+.range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
+.range, .step { display: flex; align-items: center; padding: 2px; }
+.step { margin-right: auto; font-size: 1.05rem; font-weight: 700; white-space: nowrap; }
+.range button, .step button, .pill {
   font: inherit;
   font-size: 0.875rem;
   color: var(--muted);
   background: none;
-  border: 0;
   border-radius: 999px;
   padding: 0.15rem 0.8rem;
   cursor: pointer;
+  white-space: nowrap;
 }
-.step button:hover:not(:disabled) { color: var(--ink); }
+.range button, .step button { border: 0; }
+.pill { padding-block: calc(0.15rem + 2px); }
+select.pill { display: none; color: var(--ink); }
+.step button:hover:not(:disabled), button.pill:hover { color: var(--ink); }
 .step button:disabled { opacity: 0.35; cursor: default; }
 .range button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
-.dates { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; font-size: 0.875rem; color: var(--muted); }
-.dates input {
-  font: inherit;
-  color: var(--ink);
-  background: none;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 0.05rem 0.4rem;
-}
-.controls button:focus-visible, .dates input:focus-visible, .seg:focus-visible, .who:focus-visible, .plat:focus-visible {
+/* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
+.pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
+.pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+.pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
+.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who:focus-visible, .plat:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -243,6 +243,13 @@ a.who:hover .name { text-decoration: underline; }
   .row { grid-template-columns: 24px 1.25rem 1fr; column-gap: 0.4rem; }
   .row > :nth-child(4) { display: none; }
   .who .name { display: none; }
-  .range-label { flex-basis: 100%; font-size: 1.1rem; }
-  .range button, .step button { padding-inline: 0.55rem; }
+  /* 操作欄を1行に収める: 日数はボタン列をやめてプルダウンにし、余白を詰める */
+  .controls { gap: 0.25rem; }
+  /* 期間を出すときは曜日を省く（1日表示のときは出す） */
+  .step:not(.single) .w { display: none; }
+  .range { display: none; }
+  select.pill { display: block; padding-inline: 0.25rem; }
+  .step { font-size: 0.9375rem; }
+  .step button { padding-inline: 0.45rem; }
+  button.pill { padding-inline: 0.45rem; }
 }
