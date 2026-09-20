@@ -2,7 +2,7 @@
 // 必要な環境変数はプラットフォームごと（各 platforms/*.mjs の requiredEnv）。任意: DATA_DIR
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
-import { mergeHistory, normalizeHistory, PLATFORMS } from '../lib/core.mjs';
+import { mergeHistory, normalizeHistory, fromManual, PLATFORMS } from '../lib/core.mjs';
 import { ConfigError } from './platforms/http.mjs';
 import * as twitch from './platforms/twitch.mjs';
 import * as youtube from './platforms/youtube.mjs';
@@ -26,6 +26,14 @@ async function readJson(path) {
 
 const config = await readJson('channels.json');
 if (!config?.length) throw new Error('channels.json に記録するチャンネルを書いてください');
+
+// API から取れない過去の配信を手で足すためのファイル。channels.json にないチャンネル宛てのものは書き間違いとして止める
+const manual = (await readJson('manual.json')) ?? [];
+for (const m of manual) {
+  if (!config.some((c) => m.platform in FETCHERS && c[m.platform] === m.channel)) {
+    throw new ConfigError(`manual.json: channels.json にないチャンネルです（${m.platform} ${m.channel}）`);
+  }
+}
 
 // プラットフォームごとにまとめて取得する。一時的な失敗（API の不調や上限超過）ではそのプラットフォームだけ飛ばし、
 // 前回までの記録をそのまま残す。channels.json の誤りは放っておいても直らないので、全体を止める
@@ -63,7 +71,10 @@ const channels = config.map((entry) => {
       if (prev) sources.push(prev);
       continue;
     }
-    const streams = mergeHistory(prev?.streams ?? [], result);
+    // 手で足した配信は manual.json を正とする。いったん外して入れ直すので、書き換えや削除もそのまま反映される
+    const kept = (prev?.streams ?? []).filter((s) => s.end_source !== 'manual');
+    const added = manual.filter((m) => m.platform === platform && m.channel === key).map(fromManual);
+    const streams = mergeHistory(kept, { ...result, finished: [...result.finished, ...added] });
     sources.push({ platform, key, channel: result.channel, streams });
     console.log(
       `${PLATFORMS[platform].label} ${result.channel.display_name}: 記録 ${streams.length} 件` +

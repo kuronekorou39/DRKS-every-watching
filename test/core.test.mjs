@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, splitByLocalDay, weeklyHeatmap,
+  parseDuration, mergeHistory, normalizeHistory, fromTwitch, fromYouTube, fromKick, fromManual, splitByLocalDay, weeklyHeatmap,
   localDateString, parseLocalDate, localDayStart,
 } from '../lib/core.mjs';
 
@@ -103,4 +103,14 @@ test('日付文字列と JST の 0:00 を相互変換', () => {
   assert.equal(localDateString(day + 23.5 * 3600_000), '2026-09-20');
   assert.equal(localDayStart(day + 3600_000), day);
   assert.ok(Number.isNaN(parseLocalDate('9/20')));
+});
+
+test('fromManual: 日本時間で書いた配信を記録に足す', () => {
+  const f = fromManual({ start: '2026-09-01 21:00', end: '2026-09-02 1:30', title: 'M' });
+  const h = mergeHistory([], { finished: [f] });
+  assert.equal(h[0].start, '2026-09-01T12:00:00.000Z');
+  assert.equal(h[0].end, '2026-09-01T16:30:00.000Z');
+  assert.equal(h[0].end_source, 'manual');
+  assert.throws(() => fromManual({ start: '2026-09-02 21:00', end: '2026-09-02 20:00' }));
+  assert.throws(() => fromManual({ start: '9/2 21:00', end: '9/2 23:00' }));
 });

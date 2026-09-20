@@ -20,6 +20,19 @@ Twitch に加えて YouTube と Kick にも対応し、1人につき配信先ご
 - `kick` … kick.com/◯◯ の部分
 - `name` を省くと、最初の配信先の表示名を使う
 
+## 手で足す配信
+
+API から取れない過去の配信（Kick の過去分など）は `manual.json` に書くと、次の取得でボードに入る。時刻は日本時間。
+
+```json
+[
+  { "platform": "kick", "channel": "mokoutoaruotoko", "start": "2026-09-01 21:00", "end": "2026-09-02 01:30", "title": "省略可", "game": "省略可" }
+]
+```
+
+- `channel` は `channels.json` に書いた値と同じもの
+- 手で足した分はこのファイルが正。書き換えたり消したりすれば、記録のほうもそうなる（API から取った記録には影響しない）
+
 ## しくみ
 
 - `scripts/fetch.mjs` が `scripts/platforms/*.mjs` でプラットフォームごとに取得し、`history.json` にマージ
