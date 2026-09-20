@@ -90,14 +90,16 @@ h1, h2, h3, p { margin: 0; }
   align-items: center;
   gap: 0.5rem 0.75rem;
   flex: 1 1 17rem;
+  /* 期間・「今日」・日数の切替は同じ大きさと太さにそろえる */
+  font-size: 1.05rem;
+  font-weight: 700;
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
 .range, .step { display: flex; align-items: center; padding: 2px; }
-.step { margin-right: auto; font-size: 1.05rem; font-weight: 700; white-space: nowrap; }
+.step { margin-right: auto; white-space: nowrap; }
 .range button, .step button, .pill {
   font: inherit;
-  font-size: 0.875rem;
-  color: var(--muted);
+  color: var(--ink);
   background: none;
   border-radius: 999px;
   padding: 0.15rem 0.8rem;
@@ -105,9 +107,12 @@ h1, h2, h3, p { margin: 0; }
   white-space: nowrap;
 }
 .range button, .step button { border: 0; }
+/* ◀ ▶ は脇役なので小さく薄いままにする */
+.step button { font-size: 0.875rem; font-weight: 400; color: var(--muted); }
 .pill { padding-block: calc(0.15rem + 2px); }
 select.pill { display: none; color: var(--ink); }
-.step button:hover:not(:disabled), button.pill:hover { color: var(--ink); }
+.step button:hover:not(:disabled) { color: var(--ink); }
+button.pill:hover, .range button:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .step button:disabled { opacity: 0.35; cursor: default; }
 .range button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 /* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
@@ -274,6 +279,12 @@ a.who-link:hover .name { text-decoration: underline; }
 .legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem 0.9rem; }
 .legend span { display: inline-flex; align-items: center; gap: 0.3rem; }
 .legend .plat { display: inline-block; }
+/* マウスを乗せた行を、うっすら色づけて目で追いやすくする（タッチ操作では出さない） */
+@media (hover: hover) {
+  .row.person:hover { background: color-mix(in srgb, var(--signal) 13%, transparent); }
+  .row.person:hover .total { color: var(--ink); }
+}
+
 /* マウスに追従する縦の補助線と、その位置の日時 */
 .cursor-line { position: absolute; top: 0; bottom: 0; z-index: 3; width: 1px; background: var(--ink); opacity: 0.6; pointer-events: none; }
 .cursor-line[hidden] { display: none; }
@@ -348,12 +359,12 @@ a.who-link:hover .name { text-decoration: underline; }
   .seg { border-radius: 5px; }
   .seg.live { border-radius: 5px 0 0 5px; }
   .seg.live::after { right: -7px; width: 14px; height: 14px; margin-top: -7px; }
-  .step { font-size: 1.35rem; }
+  .controls { font-size: 1.35rem; }
 }
 
 /* 狭い画面では横スクロールさせない。名前と合計を隠してアイコンだけにし、バーに幅を回す */
 /* 日数のボタン列がヘッダーに入りきらない幅では、プルダウンに替える（折り返してヘッダーが2段になるのを防ぐ） */
-@media (max-width: 52rem) {
+@media (max-width: 54rem) {
   .range { display: none; }
   .controls .js-days { display: block; }
   /* 名前の列も狭くなるので、配信先の印は隠して名前に幅を回す（配信先はバーの色で分かる） */
