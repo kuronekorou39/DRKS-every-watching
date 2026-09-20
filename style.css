@@ -393,13 +393,14 @@ a.who-link:hover .name { text-decoration: underline; }
   /* 詳細カードは画面の下端に固定する */
   .detail { inset: auto 8px 8px 8px !important; width: auto; }
   .detail .thumb { width: 7.5rem; }
-  /* ヘッダーはロゴと日付の移動だけにして余白を作り、「今日」と日数の切替はフッターの凡例の右に出す */
-  .hero { gap: 0.4rem 0.75rem; }
-  .hero h1 { font-size: 1.6rem; }
+  /* ヘッダーはロゴと、期間のカプセル（◀ ▶ と「今日」）だけにする。日数の切替はフッターの凡例の右に出す */
+  .hero { gap: 0.4rem 0.5rem; }
+  .hero h1 { font-size: 1.45rem; }
   .controls { flex: 1 0 auto; }
-  .controls .js-today, .controls .sep, .controls .js-days { display: none; }
+  .controls .js-days { display: none; }
   .step { font-size: 0.9375rem; }
-  .step button { padding-inline: 0.5rem; }
+  .step button { padding-inline: 0.4rem; }
+  .step .sep { margin-inline: 0.15rem 0.1rem; }
   /* 期間を出すときは曜日を省く（1日表示のときは出す） */
   .step:not(.single) .w { display: none; }
   .foot { align-items: center; gap: 0.25rem 0.5rem; }
@@ -408,4 +409,9 @@ a.who-link:hover .name { text-decoration: underline; }
   .foot-controls .pill { padding-inline: 0.6rem; font-size: 0.8125rem; }
   .foot-controls .js-days { display: block; padding-inline: 0.3rem; }
   .foot .note { flex-basis: 100%; }
+}
+/* 横 320px 級のごく小さい機種でも、ヘッダーが1行に収まるようにもうひと詰めする */
+@media (max-width: 21.5rem) {
+  .hero h1 { font-size: 1.25rem; }
+  .step button { padding-inline: 0.25rem; }
 }

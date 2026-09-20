@@ -433,7 +433,6 @@ function moveTo(end) {
 
 $('#prev').addEventListener('click', () => moveTo(viewEnd() - view.days * DAY));
 $('#next').addEventListener('click', () => moveTo(viewEnd() + view.days * DAY));
-// 「今日」は広い画面ではヘッダー、狭い画面ではフッターに出すので、2つある
 document.querySelectorAll('.js-today').forEach((btn) => btn.addEventListener('click', () => moveTo(todayEnd())));
 document.querySelectorAll('.range button').forEach((btn) => {
   btn.addEventListener('click', () => { setView(viewEnd(), Number(btn.dataset.days)); update(); });
