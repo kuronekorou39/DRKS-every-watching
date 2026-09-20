@@ -255,7 +255,7 @@ function renderTeamRow(merged, { coveredMs, grossMs, from, to, now, pos, strip }
     ]),
   ]);
   const percent = elapsed > 0 ? `${Math.round((coveredMs / elapsed) * 100)}%` : null;
-  if (coveredMs) track.append(trackTotal([formatHourMinute(coveredMs), percent].filter(Boolean).join(' · ')));
+  if (coveredMs) track.append(trackTotal(formatHourMinute(coveredMs)));
   return el('div', { className: 'row person team' }, [
     who,
     track,

@@ -142,7 +142,8 @@ test('mergeIntervals: 重なる区間と接する区間を1本にまとめる', 
 });
 
 test('formatHourMinute: 時間と分を短く書く', () => {
-  assert.equal(formatHourMinute((9 * 60 + 57) * 60_000), '9:57');
-  assert.equal(formatHourMinute(5 * 60_000), '0:05');
-  assert.equal(formatHourMinute(150 * 3600_000), '150:00');
+  assert.equal(formatHourMinute((9 * 60 + 57) * 60_000), '9h57m');
+  assert.equal(formatHourMinute((9 * 60 + 5) * 60_000), '9h05m');
+  assert.equal(formatHourMinute(5 * 60_000), '5m');
+  assert.equal(formatHourMinute(150 * 3600_000), '150h00m');
 });
