@@ -94,12 +94,14 @@ main {
   max-width: 150rem;
   min-height: 100svh;
   margin: 0 auto;
-  padding: clamp(0.75rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.5rem);
+  /* 上下の余白は画面幅に合わせて広がる。ヘッダーの下の余白も同じ値にして、操作欄の上下をそろえる */
+  --page-pad-y: clamp(0.75rem, 2vw, 1.5rem);
+  padding: var(--page-pad-y) clamp(1rem, 3vw, 2.5rem);
 }
 h1, h2, h3, p { margin: 0; }
 
 /* ---- hero ---- */
-.hero { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.75rem; margin-bottom: 0.75rem; }
+.hero { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.75rem; margin-bottom: var(--page-pad-y); }
 .hero h1 {
   font: 400 clamp(1.8rem, 3.5vw, 3rem)/1.1 "Dela Gothic One", "IBM Plex Sans JP", sans-serif;
   letter-spacing: 0.01em;
