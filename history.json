@@ -59,6 +59,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2879111881",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/504ae108be2348fbcc00_kato_junichi0817_316470283761_1789886957//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316474960753",
+       "start": "2026-09-21T08:35:31.000Z",
+       "end": "2026-09-21T08:38:45.106Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "体調上向き",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -149,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T08:28:44.567Z",
+       "end": "2026-09-21T08:38:45.107Z",
        "end_source": "poll",
        "live": true,
        "title": "風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
