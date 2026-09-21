@@ -63,7 +63,7 @@
       {
        "stream_id": "316474960753",
        "start": "2026-09-21T08:35:31.000Z",
-       "end": "2026-09-21T14:20:36.918Z",
+       "end": "2026-09-21T14:30:37.431Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールド前人未到空前絶後人類未到森羅万象レート9000への道",
@@ -160,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T14:20:36.919Z",
+       "end": "2026-09-21T14:30:37.432Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -299,7 +299,7 @@
       {
        "stream_id": "316487168242",
        "start": "2026-09-21T09:00:45.000Z",
-       "end": "2026-09-21T14:20:36.920Z",
+       "end": "2026-09-21T14:30:37.433Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター 初見プレイ！",
@@ -552,6 +552,17 @@
        "game": null,
        "url": "https://www.twitch.tv/videos/2878392834",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/88720853e1ecf0536300_batora324_316535415283_1789828134//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316544328563",
+       "start": "2026-09-21T14:27:23.000Z",
+       "end": "2026-09-21T14:30:37.434Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "大爆睡男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -586,7 +597,7 @@
       {
        "stream_id": "316475718001",
        "start": "2026-09-21T11:59:57.000Z",
-       "end": "2026-09-21T14:20:36.922Z",
+       "end": "2026-09-21T14:30:37.434Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談してれば風邪治る理論でござる",
