@@ -74,7 +74,7 @@
       {
        "stream_id": "316488967154",
        "start": "2026-09-21T16:28:18.000Z",
-       "end": "2026-09-21T17:20:37.291Z",
+       "end": "2026-09-21T17:30:36.681Z",
        "end_source": "poll",
        "live": true,
        "title": "エイペックｽｻｽジュンイチ",
@@ -171,7 +171,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T17:20:37.292Z",
+       "end": "2026-09-21T17:30:36.682Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -567,11 +567,11 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T17:20:37.294Z",
+       "end": "2026-09-21T17:30:36.685Z",
        "end_source": "poll",
        "live": true,
-       "title": "スイッチスポーツ ランクマッチで汗を流そうぜ！",
-       "game": "Nintendo Switch Sports",
+       "title": "シメのマリメ",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
