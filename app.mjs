@@ -5,7 +5,7 @@ import {
 
 const HOUR = 3600_000;
 const DAY = 24 * HOUR;
-const DEFAULT_DAYS = 7;
+const DEFAULT_DAYS = 3;
 const MAX_DAYS = 92;
 // 横軸ラベルの出し分け（1日ぶんの幅 px に応じて決める）
 const FULL_DATE_PX = 84; // 「9/14（月）」が収まる
