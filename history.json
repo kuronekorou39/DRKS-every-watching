@@ -73,14 +73,14 @@
       },
       {
        "stream_id": "316488967154",
-       "start": "2026-09-21T16:28:18.000Z",
-       "end": "2026-09-21T19:40:50.467Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T16:28:23.000Z",
+       "end": "2026-09-21T19:43:11.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "エイペックｽｻｽジュンイチ",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880281631",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ff83c4fe4f4cafcaefed_kato_junichi0817_316488967154_1790008098//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -567,7 +567,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T19:40:50.469Z",
+       "end": "2026-09-21T19:50:49.541Z",
        "end_source": "poll",
        "live": true,
        "title": "シメのマリメ",
