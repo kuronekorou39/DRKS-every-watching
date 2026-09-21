@@ -160,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T15:20:36.724Z",
+       "end": "2026-09-21T15:30:37.464Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -299,7 +299,7 @@
       {
        "stream_id": "316487168242",
        "start": "2026-09-21T09:00:45.000Z",
-       "end": "2026-09-21T15:20:36.725Z",
+       "end": "2026-09-21T15:30:37.465Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター 初見プレイ！",
@@ -556,7 +556,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T15:20:36.726Z",
+       "end": "2026-09-21T15:30:37.466Z",
        "end_source": "poll",
        "live": true,
        "title": "スイッチスポーツ ランクマッチで汗を流そうぜ！",
@@ -596,14 +596,14 @@
       },
       {
        "stream_id": "316475718001",
-       "start": "2026-09-21T11:59:57.000Z",
-       "end": "2026-09-21T15:20:36.727Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T12:00:02.000Z",
+       "end": "2026-09-21T15:29:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "雑談してれば風邪治る理論でござる",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880121241",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/272ce246a34542ee2ee6_bakumatsu_shishi_316475718001_1789991997//thumb/thumb0-320x180.jpg"
       }
      ]
     },
