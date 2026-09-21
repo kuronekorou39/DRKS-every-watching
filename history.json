@@ -63,7 +63,7 @@
       {
        "stream_id": "316474960753",
        "start": "2026-09-21T08:35:31.000Z",
-       "end": "2026-09-21T08:58:44.458Z",
+       "end": "2026-09-21T09:08:43.995Z",
        "end_source": "poll",
        "live": true,
        "title": "体調上向き",
@@ -160,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T08:58:44.459Z",
+       "end": "2026-09-21T09:08:43.996Z",
        "end_source": "poll",
        "live": true,
        "title": "風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -295,6 +295,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2879163328",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e41462660ebdfd6a1ef6_yuyuta0702_316470687089_1789894824//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316487168242",
+       "start": "2026-09-21T09:00:45.000Z",
+       "end": "2026-09-21T09:08:43.997Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
