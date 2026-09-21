@@ -23,6 +23,16 @@ npm run sample   # ダミーデータを data/history.json に作る
 npm run serve    # http://localhost:8080
 npm test         # 共通ロジックのテスト（Node 20.6 以上）
 
+# 画面のテスト（Playwright）。初回だけ npm install と npx playwright install chromium が要る
+npm run test:e2e
+
 # 実データを取る場合は .env.example を .env にコピーして値を入れてから
 npm run fetch
 ```
+
+## テスト
+
+- `test/` … 共通ロジック（`lib/core.mjs`）の単体テスト。`deploy` でも走り、失敗すると公開されない
+- `e2e/` … 画面のテスト。決まった時刻とデータを差し込んで、幅 20 通り × 日数 5 通りでレイアウトの約束
+  （ヘッダーは1行、横軸の見出しは2段まで、スクロールなし、バーは行の縦中央 など）と、操作したときの動きを確かめる。
+  push のたびに `test` ワークフローで走る

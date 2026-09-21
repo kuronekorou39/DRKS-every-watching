@@ -38,7 +38,8 @@ push のときはテストも走らせ、`collect` が止まっていれば起�
 | `lib/core.mjs` | 取得スクリプトと画面で共有するロジック（マージ、区間の結合、日時の整形） |
 | `scripts/fetch.mjs` / `scripts/platforms/` | 取得。プラットフォームごとに1ファイル |
 | `scripts/kick-import.mjs` | Kick の過去の配信を `manual.json` に取り込む |
-| `.github/workflows/collect.yml` / `deploy.yml` | 取得 / 公開 |
+| `.github/workflows/collect.yml` / `deploy.yml` / `test.yml` | 取得 / 公開 / 画面のテスト |
+| `test/` / `e2e/` | 共通ロジックのテスト / 画面のテスト（[詳しくは](setup.md#テスト)） |
 
 ## 注意
 

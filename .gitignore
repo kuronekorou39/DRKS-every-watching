@@ -3,3 +3,5 @@ node_modules/
 data/
 _site/
 .data/
+test-results/
+playwright-report/

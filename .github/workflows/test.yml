@@ -1,0 +1,34 @@
+name: test
+
+# 画面のテスト（Playwright）。ブラウザの用意に時間がかかるので、公開（deploy）とは別に走らせる。
+# 失敗しても公開は止まらないが、GitHub から通知メールが届く
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 共通ロジックのテスト
+        run: npm test
+
+      - name: ブラウザを用意する
+        run: npx playwright install --with-deps chromium
+
+      - name: 画面のテスト
+        run: npm run test:e2e

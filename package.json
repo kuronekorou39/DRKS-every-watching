@@ -2,12 +2,18 @@
   "name": "drks-every-watching",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20.6" },
+  "engines": {
+    "node": ">=20.6"
+  },
   "scripts": {
     "fetch": "node --env-file=.env scripts/fetch.mjs",
     "sample": "node scripts/sample.mjs",
     "kick-import": "node scripts/kick-import.mjs",
     "serve": "npx --yes http-server -c-1 -p 8080 .",
-    "test": "node --test"
+    "test": "node --test",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
   }
 }
