@@ -62,14 +62,14 @@
       },
       {
        "stream_id": "316474960753",
-       "start": "2026-09-21T08:35:31.000Z",
-       "end": "2026-09-21T14:40:37.477Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T08:35:36.000Z",
+       "end": "2026-09-21T14:41:20.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マリオカートワールド前人未到空前絶後人類未到森羅万象レート9000への道",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880049112",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2430ae1e23e9bd4f1437_kato_junichi0817_316474960753_1789979731//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -160,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T14:40:37.478Z",
+       "end": "2026-09-21T14:50:39.300Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -299,7 +299,7 @@
       {
        "stream_id": "316487168242",
        "start": "2026-09-21T09:00:45.000Z",
-       "end": "2026-09-21T14:40:37.480Z",
+       "end": "2026-09-21T14:50:39.300Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター 初見プレイ！",
@@ -556,7 +556,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T14:40:37.481Z",
+       "end": "2026-09-21T14:50:39.301Z",
        "end_source": "poll",
        "live": true,
        "title": "大爆睡男",
@@ -597,7 +597,7 @@
       {
        "stream_id": "316475718001",
        "start": "2026-09-21T11:59:57.000Z",
-       "end": "2026-09-21T14:40:37.481Z",
+       "end": "2026-09-21T14:50:39.302Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談してれば風邪治る理論でござる",
