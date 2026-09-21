@@ -72,7 +72,7 @@ for (const width of WIDTHS) {
       expect(m.headerOverflow, `${at}: ヘッダーのはみ出し`).toBe(false);
       expect(m.axisLines, `${at}: 横軸の見出しの段数`).toBeLessThanOrEqual(2);
       expect(m.labelsOverlap, `${at}: 日付ラベルの重なり`).toBe(false);
-      expect(m.footRows, `${at}: フッターの行数`).toBeLessThanOrEqual(width < 350 ? 3 : 2);
+      expect(m.footRows, `${at}: フッターの行数`).toBeLessThanOrEqual(2);
       expect(m.footOverflow, `${at}: フッターのはみ出し`).toBe(false);
       expect(m.worstBarOffset, `${at}: バーが行の縦中央にある`).toBeLessThanOrEqual(1);
       expect(m.worstAvatarOffset, `${at}: アイコンが行の縦中央にある`).toBeLessThanOrEqual(1);

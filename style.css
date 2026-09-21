@@ -498,8 +498,8 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero h1 { font-size: 1.15rem; }
   .step button { padding-inline: 0.2rem; }
   .step .js-today { padding-inline: 0.35rem; }
-  /* 注記は1行に入りきらない幅があるので、ここでは折り返しを許す */
-  .foot .note { white-space: normal; }
+  /* 注記は、フォントによっては1行に入りきらない。後半を省いて、どの環境でも1行に収める */
+  .note-extra { display: none; }
 }
 /* 横 320px 級のごく小さい機種向けに、さらに詰める */
 @media (max-width: 21.75rem) {
