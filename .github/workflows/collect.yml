@@ -17,7 +17,8 @@ concurrency:
 env:
   INTERVAL_SECONDS: 600 # 取得の間隔
   LOOP_MINUTES: 330 # 1回の実行で繰り返す時間（1ジョブの上限は6時間）
-  MAX_FAILURES: 6 # 取得がこの回数つづけて失敗したら、実行を失敗にして知らせる
+  ALERT_AFTER: 3 # 不調がこの回数つづいたら Issue で知らせる（一時的な失敗では知らせない）
+  ALERT_LABEL: collect-alert
 
 jobs:
   collect:
@@ -26,6 +27,7 @@ jobs:
     permissions:
       contents: write # data ブランチへの push
       actions: write # deploy と、次の collect の起動
+      issues: write # 不調の知らせ
     env:
       GH_TOKEN: ${{ github.token }}
       TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
@@ -34,6 +36,8 @@ jobs:
       KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
       KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
       DATA_DIR: data
+      PROBLEMS_FILE: ${{ runner.temp }}/problems.md
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - uses: actions/checkout@v5
 
@@ -50,9 +54,16 @@ jobs:
             git worktree add --orphan -b data data
           fi
 
+      # 取得の不調（チャンネルが見つからない、ある配信先の API が通らない、など）は、実行を失敗にはせず Issue で知らせる。
+      # 失敗にすると取得の繰り返しごと止まってしまい、問題のないチャンネルの記録まで途切れるため。
+      # 知らせは不調1件につき Issue 1つだけ（つづいている間は増やさない）。直ったら自動で閉じる
       - name: 一定間隔で取得を繰り返す
         run: |
-          failures=0
+          # 知らせの操作（gh）が一時的に失敗しても、取得の繰り返しは止めない
+          gh label create "$ALERT_LABEL" --color D93F0B --description "取得の不調（自動で作成・クローズ）" --force >/dev/null || true
+          alert=$(gh issue list --label "$ALERT_LABEL" --state open --limit 1 --json number -q '.[0].number // empty' || true)
+          posted=""
+          streak=0
           end=$((SECONDS + LOOP_MINUTES * 60))
           while [ "$SECONDS" -lt "$end" ]; do
             started=$SECONDS
@@ -60,8 +71,8 @@ jobs:
             # 実行中に main が変わっても（channels.json や取得スクリプトの変更）、次の回から反映されるようにする
             git fetch --quiet --depth=1 origin main && git checkout --quiet --detach FETCH_HEAD
 
+            : > "$PROBLEMS_FILE"
             if node scripts/fetch.mjs; then
-              failures=0
               git -C data add history.json
               if ! git -C data diff --cached --quiet; then
                 git -C data -c user.name='github-actions[bot]' \
@@ -69,15 +80,34 @@ jobs:
                     commit --quiet -m "記録を更新"
                 git -C data push --quiet origin data
                 # 記録が変わったときだけ公開し直す
-                gh workflow run deploy.yml --ref main
+                gh workflow run deploy.yml --ref main || echo "::warning::deploy を起動できませんでした"
               fi
             else
-              failures=$((failures + 1))
-              echo "::warning::取得に失敗しました（連続 ${failures} 回）"
-              if [ "$failures" -ge "$MAX_FAILURES" ]; then
-                # 設定の誤りなど、放っておいても直らない失敗。次の実行はつながず、cron の保険に任せる
-                echo "::error::取得が ${MAX_FAILURES} 回つづけて失敗したので止めます"
-                exit 1
+              echo "- 取得スクリプトが失敗し、今回は何も記録できませんでした（設定ファイルの書き間違いか、すべての API の不調）" >> "$PROBLEMS_FILE"
+            fi
+
+            if [ -s "$PROBLEMS_FILE" ]; then
+              streak=$((streak + 1))
+              problems=$(cat "$PROBLEMS_FILE")
+              # 前の実行から開いたままの Issue があれば、同じ内容をもう一度は書き込まない
+              if [ -n "$alert" ] && [ -z "$posted" ]; then posted=$problems; fi
+              if [ "$streak" -ge "$ALERT_AFTER" ] && [ "$problems" != "$posted" ]; then
+                body=$(printf '取得で、次の不調が %s 回つづいています。\n\n%s\n\n取れている分の記録は続けています。直ると、この Issue は自動で閉じます。\n\n実行のログ: %s\n' "$streak" "$problems" "$RUN_URL")
+                if [ -z "$alert" ]; then
+                  url=$(gh issue create --title "取得がうまくいっていません" --label "$ALERT_LABEL" --body "$body" || true)
+                  alert=${url##*/}
+                else
+                  # 知らせたあとで内容が変わったときだけ、追記する
+                  gh issue comment "$alert" --body "$body" >/dev/null || true
+                fi
+                posted=$problems
+              fi
+            else
+              streak=0
+              posted=""
+              if [ -n "$alert" ]; then
+                gh issue close "$alert" --comment "不調が解消しました。すべて取得できています。" >/dev/null || true
+                alert=""
               fi
             fi
 

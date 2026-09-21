@@ -1,5 +1,9 @@
 // channels.json に書いた各チャンネルの配信状況を取得し、history.json にマージする。
-// 必要な環境変数はプラットフォームごと（各 platforms/*.mjs の requiredEnv）。任意: DATA_DIR
+// 必要な環境変数はプラットフォームごと（各 platforms/*.mjs の requiredEnv）。任意: DATA_DIR, PROBLEMS_FILE
+//
+// 一部がうまくいかなくても（チャンネルが見つからない、あるプラットフォームの API が不調、Secrets の未設定）、
+// 取れた分は記録して、取れなかった分は前回までの記録を残す。何がうまくいかなかったかは PROBLEMS_FILE に書き出し、
+// 呼び出し側（collect.yml）が、つづくようなら知らせる
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { mergeHistory, normalizeHistory, fromManual, parseLocalDate, PLATFORMS } from '../lib/core.mjs';
@@ -12,8 +16,15 @@ const FETCHERS = { twitch, youtube, kick };
 const dataDir = process.env.DATA_DIR ?? 'data';
 const file = join(dataDir, 'history.json');
 
-// GitHub Actions では実行結果の画面に警告として出る
-const warn = (msg) => console.log(`::warning::${msg}`);
+// うまくいかなかったこと。GitHub Actions の実行結果の画面にも警告として出す
+const problems = [];
+const report = (msg) => {
+  problems.push(msg);
+  console.log(`::warning::${msg}`);
+};
+const writeProblems = async () => {
+  if (process.env.PROBLEMS_FILE) await writeFile(process.env.PROBLEMS_FILE, problems.map((p) => `- ${p}\n`).join(''));
+};
 
 async function readJson(path) {
   try {
@@ -42,27 +53,30 @@ for (const m of manual) {
   }
 }
 
-// プラットフォームごとにまとめて取得する。一時的な失敗（API の不調や上限超過）ではそのプラットフォームだけ飛ばし、
-// 前回までの記録をそのまま残す。channels.json の誤りは放っておいても直らないので、全体を止める
+const prevSources = normalizeHistory(await readJson(file)).channels.flatMap((c) => c.sources);
+
+// プラットフォームごとにまとめて取得する。うまくいかなかったプラットフォームやチャンネルは飛ばし、前回までの記録を残す
 const fetched = {};
 for (const [platform, fetcher] of Object.entries(FETCHERS)) {
   const keys = config.map((c) => c[platform]).filter(Boolean);
   if (!keys.length) continue;
   const missingEnv = fetcher.requiredEnv.filter((name) => !process.env[name]);
   if (missingEnv.length) {
-    warn(`${PLATFORMS[platform].label}: ${missingEnv.join(', ')} が未設定なので取得を飛ばします`);
+    report(`${PLATFORMS[platform].label}: ${missingEnv.join(', ')} が未設定なので取得を飛ばしました`);
     continue;
   }
+  // 名前が変わったチャンネルを ID で探し直せるよう、前回までに分かっている ID を渡す
+  const knownIds = new Map(prevSources.filter((s) => s.platform === platform).map((s) => [s.key, s.channel.id]));
   try {
-    fetched[platform] = await fetcher.fetchAll(keys, process.env);
+    fetched[platform] = await fetcher.fetchAll(keys, process.env, { knownIds, report });
   } catch (e) {
-    if (e instanceof ConfigError) throw e;
-    warn(`${PLATFORMS[platform].label}: 取得に失敗したので今回は飛ばします（${e.message}）`);
+    report(`${PLATFORMS[platform].label}: 取得に失敗したので今回は飛ばしました（${e.message}）`);
   }
 }
-if (!Object.keys(fetched).length) throw new Error('どのプラットフォームからも取得できませんでした');
-
-const prevSources = normalizeHistory(await readJson(file)).channels.flatMap((c) => c.sources);
+if (!Object.values(fetched).some((results) => results.size)) {
+  await writeProblems();
+  throw new Error('どのプラットフォームからも取得できませんでした');
+}
 
 const channels = config.map((entry) => {
   const sources = [];
@@ -75,7 +89,9 @@ const channels = config.map((entry) => {
       prevSources.find((s) => s.platform === platform && result && s.channel.id === result.channel.id) ??
       prevSources.find((s) => s.platform === platform && s.key === key);
     if (!result) {
-      if (prev) sources.push({ ...prev, streams: prev.streams.filter(inRecord) });
+      // 取れなかったチャンネルは前回までの記録を残す。配信中のままにはせず、最後に確認した時刻で閉じておく
+      // （次に取れたときに同じ配信がまだ続いていれば、また配信中に戻る）
+      if (prev) sources.push({ ...prev, streams: prev.streams.filter(inRecord).map((s) => ({ ...s, live: false })) });
       continue;
     }
     // 手で足した配信は manual.json を正とする。いったん外して入れ直すので、書き換えや削除もそのまま反映される
@@ -102,3 +118,4 @@ const channels = config.map((entry) => {
 await mkdir(dataDir, { recursive: true });
 // 1 件 1 行寄りの整形にしておくと git の差分が読みやすい
 await writeFile(file, JSON.stringify({ recordFrom, channels }, null, 1) + '\n');
+await writeProblems();
