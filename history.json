@@ -70,6 +70,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2880049112",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2430ae1e23e9bd4f1437_kato_junichi0817_316474960753_1789979731//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316488967154",
+       "start": "2026-09-21T16:28:18.000Z",
+       "end": "2026-09-21T16:30:36.607Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "エイペックｽｻｽジュンイチ",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -160,7 +171,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T16:20:36.982Z",
+       "end": "2026-09-21T16:30:36.609Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -556,7 +567,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T16:20:36.984Z",
+       "end": "2026-09-21T16:30:36.611Z",
        "end_source": "poll",
        "live": true,
        "title": "スイッチスポーツ ランクマッチで汗を流そうぜ！",
