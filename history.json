@@ -178,6 +178,17 @@
        "game": "Onimusha: Way of the Sword",
        "url": "https://www.twitch.tv/videos/2880020802",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c7f07d4a4339a7b75166_indegnasen0706_316486799986_1789974207//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316545626995",
+       "start": "2026-09-21T23:38:34.000Z",
+       "end": "2026-09-21T23:41:02.852Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "義経が興奮して寝れない、７dayの時間までロマサガ３クリアチャレンジ",
+       "game": "Romancing SaGa 3",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -567,7 +578,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T23:31:01.734Z",
+       "end": "2026-09-21T23:41:02.854Z",
        "end_source": "poll",
        "live": true,
        "title": "シメのマリメ",
