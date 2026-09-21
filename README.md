@@ -3,11 +3,11 @@
 配信者チーム DRKS（8人）の配信実績を記録して、1枚のスケジュールボードで見るサイト。
 「24時間、誰か1人は配信しているか」をひと目で確かめるために作った。
 
-**https://kuronekorou39.github.io/DRKS-every-watching/**
+**https://kuronekorou39.github.io/DRKS-every-watching/** ・ DRKS の公式サイト: https://dorokusa.co.jp/
 
-DRKS の公式サイト: https://dorokusa.co.jp/
-
-![泥臭ログの画面](docs/screenshot.jpg)
+| PC | スマホ |
+|---|---|
+| <img src="docs/screenshot.jpg" alt="PC での画面" width="640"> | <img src="docs/screenshot-mobile.jpg" alt="スマホでの画面" width="200"> |
 
 ## できること
 
@@ -17,84 +17,13 @@ DRKS の公式サイト: https://dorokusa.co.jp/
 - 配信中は、バーの縞とアイコンの輪が動く。バーを押すとサムネイル・タイトル・アーカイブへのリンクが出る
 - スマホでも PC の全画面でも、スクロールなしで1画面に収まる
 
-## しくみ
+## しくみ（ひとことで）
 
-サーバーは持たない。GitHub Actions の `collect` が10分おきに各 API から取得して `data` ブランチの
-`history.json` に足し、変化があったときだけ `deploy` を起動して GitHub Pages を公開し直す。
-Actions の cron は混雑で数時間あくことがあるので、`collect` は1回の実行の中で取得を繰り返し（約5時間半）、
-終わる直前に自分で次の実行を起動してつなぐ。cron は、それが切れたときに起こし直す保険。
+サーバーは持たない。GitHub Actions が10分おきに Twitch / YouTube / Kick の API から取得して `data` ブランチに記録し、
+GitHub Pages で公開する。一度記録した配信は、アーカイブが消えても残る。
 
-| 配信先 | 取り方 | 過去の配信 |
-|---|---|---|
-| Twitch | アーカイブで正確な開始・終了を取り、ライブ状態のポーリングで補う | アーカイブが残っている分は初回に埋まる |
-| YouTube | アップロード一覧の新しい50本から、ライブだったものの実際の時刻を取る | その50本に入っている分 |
-| Kick | 配信中かどうかのポーリングだけ（公開 API に過去分がない） | 埋まらない。`manual.json` で足す |
+## ドキュメント
 
-- 一度記録した配信は、アーカイブが消えても残る（サムネイルは消える）
-- `channels.json` の書き間違いでは、記録を書き換えずにエラーで止まる
-- API の不調や Secrets の未設定では、そのプラットフォームだけ飛ばして前回までの記録を残す（Actions に警告が出る）
-
-## 設定ファイル
-
-**`channels.json`** … 記録するチャンネル。表示したい順に1人1件。配信しているものだけ書けばよい。
-
-```json
-[{ "name": "表示名（省略可）", "twitch": "ログイン名", "youtube": "@ハンドル か UC… の ID", "kick": "チャンネル名" }]
-```
-
-**`manual.json`** … API から取れない配信を手で足す。時刻は日本時間で、終わりは `end` か `duration`（`"1h38m"` の形）。
-このファイルが正なので、書き換えたり消したりすれば記録もそうなる。同じ時間帯にポーリングの記録があれば、こちらが優先される。
-
-```json
-[{ "platform": "kick", "channel": "mokoutoaruotoko", "start": "2026-09-19 15:49", "duration": "1h38m", "title": "省略可" }]
-```
-
-Kick の過去分は、ブラウザで `https://kick.com/api/v2/channels/<チャンネル名>/videos` を開いて JSON を保存し、
-`npm run kick-import -- 保存したファイル` で取り込める（同じ配信は入れ直すだけなので、何度やってもよい）。
-
-**`settings.json`** … `recordFrom`（日本時間の日付）より前に始まった配信は記録しない。ボードでは斜線の「記録なし」になる。
-
-```json
-{ "recordFrom": "2026-09-16" }
-```
-
-どれも `main` に push すれば、次の取得（10分以内）から反映される。
-
-## セットアップ（自分のリポジトリで動かす場合）
-
-1. リポジトリを **public** で作る（private だと10分おきの cron で Actions の無料枠を超える）
-2. API の認証情報を用意して、リポジトリの Secrets に入れる（YouTube と Kick は使う場合だけ）
-
-   | Secrets | 取得先 |
-   |---|---|
-   | `TWITCH_CLIENT_ID` / `TWITCH_CLIENT_SECRET` | https://dev.twitch.tv/console/apps でアプリ登録（リダイレクト URL は `http://localhost`、種類は「機密」） |
-   | `YOUTUBE_API_KEY` | Google Cloud Console で「YouTube Data API v3」を有効にして API キーを作る |
-   | `KICK_CLIENT_ID` / `KICK_CLIENT_SECRET` | https://kick.com/settings/developer でアプリを作る |
-
-3. Settings → Pages → Source を「GitHub Actions」にする
-4. `channels.json` を書き換えて push する（`deploy` が走り、止まっていれば `collect` も起動する）
-
-## ローカルで動かす
-
-```powershell
-npm run sample   # ダミーデータを data/history.json に作る
-npm run serve    # http://localhost:8080
-npm test         # 共通ロジックのテスト（Node 20.6 以上）
-
-# 実データを取る場合は .env.example を .env にコピーして値を入れてから
-npm run fetch
-```
-
-| 場所 | 中身 |
-|---|---|
-| `index.html` / `app.mjs` / `style.css` | 画面。ビルドなしの素の HTML・ES Modules・CSS |
-| `lib/core.mjs` | 取得スクリプトと画面で共有するロジック（マージ、区間の結合、日時の整形） |
-| `scripts/fetch.mjs` / `scripts/platforms/` | 取得。プラットフォームごとに1ファイル |
-| `.github/workflows/collect.yml` / `deploy.yml` | 10分おきの取得 / Pages への公開 |
-
-## 注意
-
-- 開始時刻は API の値なので正確。アーカイブが残らない配信は、終了時刻が最大10分ほどずれる
-- YouTube はプレミア公開もライブとして拾うことがある（API で区別できない）
-- 取得の間隔は `collect.yml` の `INTERVAL_SECONDS`。実行の切り替わりで数分あくことがある
-- リポジトリに60日間動きがないと定期実行は自動停止する。止まっていたら Actions タブから再有効化する
+- [しくみ](docs/how-it-works.md) … 取得と公開の流れ、配信先ごとの取り方、ファイルの構成、注意点
+- [設定ファイル](docs/config.md) … 記録するチャンネル、手で足す配信（Kick の過去分の取り込み）、記録を残しはじめる日
+- [セットアップ](docs/setup.md) … 自分のリポジトリで動かす手順、ローカルでの動かし方
