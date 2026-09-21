@@ -6,26 +6,19 @@ export const requiredEnv = ['TWITCH_CLIENT_ID', 'TWITCH_CLIENT_SECRET'];
 /**
  * keys: Twitch のログイン名の配列 → Map(key → { channel, finished, live })
  * 見つからないチャンネル（名前の変更・停止・書き間違い）は結果に入れず、report で知らせる。ほかのチャンネルは続ける。
- * knownIds（key → 前回までに分かっているユーザー ID）があれば、名前が変わっていても ID で探し直す
+ * 停止が解ければ、次の取得からまた見つかって記録が再開する
  */
-export async function fetchAll(keys, env, { knownIds = new Map(), report = () => {} } = {}) {
+export async function fetchAll(keys, env, { report = () => {} } = {}) {
   const token = await getAppToken('https://id.twitch.tv/oauth2/token', env.TWITCH_CLIENT_ID, env.TWITCH_CLIENT_SECRET);
   const headers = { 'Client-Id': env.TWITCH_CLIENT_ID, Authorization: `Bearer ${token}` };
   const helix = (path, params) => getJson(buildUrl(`https://api.twitch.tv/helix/${path}`, params), headers);
 
-  const { data: byLogin } = await helix('users', { login: keys });
-  const lostIds = keys.filter((key) => !byLogin.some((u) => u.login === key.toLowerCase())).map((key) => knownIds.get(key)).filter(Boolean);
-  const { data: byId } = lostIds.length ? await helix('users', { id: lostIds }) : { data: [] };
-
+  const { data: users } = await helix('users', { login: keys });
   const found = new Map();
   for (const key of keys) {
-    const user = byLogin.find((u) => u.login === key.toLowerCase()) ?? byId.find((u) => u.id === knownIds.get(key));
-    if (!user) {
-      report(`Twitch の ${key} が見つかりません（名前の変更・停止・書き間違いのどれか）。このチャンネルは飛ばして続けます`);
-    } else {
-      if (user.login !== key.toLowerCase()) report(`Twitch の ${key} は ${user.login} に名前が変わっています。channels.json を直してください（記録は続けています）`);
-      found.set(key, user);
-    }
+    const user = users.find((u) => u.login === key.toLowerCase());
+    if (user) found.set(key, user);
+    else report(`Twitch の ${key} が見つかりません（名前の変更・停止・書き間違いのどれか）。このチャンネルは飛ばして続けます`);
   }
   if (!found.size) return new Map();
 

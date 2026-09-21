@@ -1,4 +1,4 @@
-// 各プラットフォームの取得で、チャンネルが見つからない・名前が変わった場合でも、ほかのチャンネルの取得が続くことを確かめる。
+// 各プラットフォームの取得で、チャンネルが見つからなくても（停止・名前の変更・書き間違い）、ほかのチャンネルの取得が続くことを確かめる。
 // 実際の API は呼ばず、fetch を差し替えて決まった応答を返す
 import { test, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
@@ -37,53 +37,29 @@ test('Twitch: 見つからないチャンネル（停止など）は飛ばして
   assert.match(reports[0], /banned が見つかりません/);
 });
 
-test('Twitch: 名前が変わっていても、前回までに分かっている ID で探し直して記録を続ける', async () => {
-  stubFetch((url) => {
-    if (url.pathname === '/oauth2/token') return { access_token: 't' };
-    if (url.pathname === '/helix/users') return { data: url.searchParams.getAll('id').includes('7') ? [twitchUser('7', 'newname')] : [] };
-    if (url.pathname === '/helix/streams') return { data: [] };
-    if (url.pathname === '/helix/videos') return { data: [] };
-  });
-  const reports = [];
-  const out = await twitch.fetchAll(['oldname'], env, { knownIds: new Map([['oldname', '7']]), report: (m) => reports.push(m) });
-  assert.equal(out.get('oldname').channel.login, 'newname');
-  assert.equal(out.get('oldname').channel.id, '7');
-  assert.match(reports[0], /oldname は newname に名前が変わっています/);
-});
-
-test('YouTube: 見つからないチャンネルは飛ばし、ハンドルが変わっていれば ID で探し直す', async () => {
+test('YouTube: 見つからないチャンネルは飛ばして知らせ、ほかのチャンネルは取得する', async () => {
   const channel = (id, handle) => ({ id, snippet: { title: handle, customUrl: handle, thumbnails: {} }, contentDetails: { relatedPlaylists: { uploads: `UU${id}` } } });
   stubFetch((url) => {
-    if (url.pathname.endsWith('/channels')) {
-      if (url.searchParams.get('forHandle') === '@ok') return { items: [channel('UC1', '@ok')] };
-      if (url.searchParams.get('id') === 'UC2') return { items: [channel('UC2', '@renamed')] };
-      return { items: [] };
-    }
+    if (url.pathname.endsWith('/channels')) return { items: url.searchParams.get('forHandle') === '@ok' ? [channel('UC1', '@ok')] : [] };
     if (url.pathname.endsWith('/playlistItems')) return { items: [] };
   });
   const reports = [];
-  const out = await youtube.fetchAll(['@ok', '@gone', '@old'], env, { knownIds: new Map([['@old', 'UC2']]), report: (m) => reports.push(m) });
-  assert.deepEqual([...out.keys()], ['@ok', '@old']);
-  assert.equal(out.get('@old').channel.id, 'UC2');
-  assert.equal(reports.length, 2);
-  assert.ok(reports.some((m) => /@gone が見つかりません/.test(m)));
-  assert.ok(reports.some((m) => /@old はハンドルが変わっています/.test(m)));
+  const out = await youtube.fetchAll(['@ok', '@gone'], env, { report: (m) => reports.push(m) });
+  assert.deepEqual([...out.keys()], ['@ok']);
+  assert.equal(reports.length, 1);
+  assert.match(reports[0], /@gone が見つかりません/);
 });
 
-test('Kick: 見つからないチャンネルは飛ばし、名前が変わっていれば ID で探し直す', async () => {
+test('Kick: 見つからないチャンネルは飛ばして知らせ、ほかのチャンネルは取得する', async () => {
   const channel = (id, slug, live) => ({ broadcaster_user_id: id, slug, stream_title: 'T', category: { name: 'G' }, stream: { is_live: live, start_time: '2026-09-21T10:00:00Z', thumbnail: '' } });
   stubFetch((url) => {
     if (url.pathname === '/oauth/token') return { access_token: 't' };
-    if (url.pathname === '/public/v1/channels') {
-      if (url.searchParams.has('slug')) return { data: [channel(1, 'ok', true)] };
-      if (url.searchParams.getAll('broadcaster_user_id').includes('2')) return { data: [channel(2, 'renamed', false)] };
-      return { data: [] };
-    }
+    if (url.pathname === '/public/v1/channels') return { data: [channel(1, 'ok', true)] };
   });
   const reports = [];
-  const out = await kick.fetchAll(['ok', 'gone', 'old'], env, { knownIds: new Map([['old', '2']]), report: (m) => reports.push(m) });
-  assert.deepEqual([...out.keys()], ['ok', 'old']);
+  const out = await kick.fetchAll(['ok', 'gone'], env, { report: (m) => reports.push(m) });
+  assert.deepEqual([...out.keys()], ['ok']);
   assert.ok(out.get('ok').live);
-  assert.equal(out.get('old').channel.login, 'renamed');
-  assert.equal(reports.length, 2);
+  assert.equal(reports.length, 1);
+  assert.match(reports[0], /gone が見つかりません/);
 });

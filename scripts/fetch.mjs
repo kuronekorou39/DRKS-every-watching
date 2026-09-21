@@ -65,10 +65,8 @@ for (const [platform, fetcher] of Object.entries(FETCHERS)) {
     report(`${PLATFORMS[platform].label}: ${missingEnv.join(', ')} が未設定なので取得を飛ばしました`);
     continue;
   }
-  // 名前が変わったチャンネルを ID で探し直せるよう、前回までに分かっている ID を渡す
-  const knownIds = new Map(prevSources.filter((s) => s.platform === platform).map((s) => [s.key, s.channel.id]));
   try {
-    fetched[platform] = await fetcher.fetchAll(keys, process.env, { knownIds, report });
+    fetched[platform] = await fetcher.fetchAll(keys, process.env, { report });
   } catch (e) {
     report(`${PLATFORMS[platform].label}: 取得に失敗したので今回は飛ばしました（${e.message}）`);
   }
