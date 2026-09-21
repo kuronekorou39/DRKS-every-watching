@@ -490,7 +490,8 @@ a.who-link:hover .name { text-decoration: underline; }
   /* 狭い画面では、1行目に凡例とリンク、2行目に注記 */
   .links { order: 0; margin-left: auto; gap: 0.5rem; }
   .links .wide-only { display: none; }
-  .foot .note { order: 2; flex-basis: 100%; margin-left: 0; }
+  /* 注記は少し小さくして、360px 級の幅でも1行に収める */
+  .foot .note { order: 2; flex-basis: 100%; margin-left: 0; font-size: 0.65625rem; }
 }
 /* 横 360px 級の小さい機種でもヘッダーが1行に収まるよう、ロゴと余白をもうひと詰めする */
 @media (max-width: 24rem) {
