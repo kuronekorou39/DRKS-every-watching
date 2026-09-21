@@ -160,7 +160,7 @@
       {
        "stream_id": "316486799986",
        "start": "2026-09-21T07:03:27.000Z",
-       "end": "2026-09-21T15:50:37.685Z",
+       "end": "2026-09-21T16:00:37.338Z",
        "end_source": "poll",
        "live": true,
        "title": "鬼武者 Way of the Sword 3日目←風来のシレン６←やい！シルバーウィーククーラー壊れて頭おかしなるで放送！",
@@ -298,14 +298,14 @@
       },
       {
        "stream_id": "316487168242",
-       "start": "2026-09-21T09:00:45.000Z",
-       "end": "2026-09-21T15:50:37.686Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T09:00:50.000Z",
+       "end": "2026-09-21T15:55:54.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学園アイドルマスター 初見プレイ！",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880056721",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c1cd2d640d508d21fa76_yuyuta0702_316487168242_1789981245//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -556,7 +556,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-21T15:50:37.687Z",
+       "end": "2026-09-21T16:00:37.340Z",
        "end_source": "poll",
        "live": true,
        "title": "スイッチスポーツ ランクマッチで汗を流そうぜ！",
