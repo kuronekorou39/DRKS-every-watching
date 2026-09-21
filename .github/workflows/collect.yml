@@ -36,7 +36,6 @@ jobs:
       KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
       KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
       DATA_DIR: data
-      PROBLEMS_FILE: ${{ runner.temp }}/problems.md
       RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - uses: actions/checkout@v5
@@ -59,6 +58,8 @@ jobs:
       # 知らせは不調1件につき Issue 1つだけ（つづいている間は増やさない）。直ったら自動で閉じる
       - name: 一定間隔で取得を繰り返す
         run: |
+          # 取得スクリプトが、うまくいかなかったことを書き出す先
+          export PROBLEMS_FILE="$RUNNER_TEMP/problems.md"
           # 知らせの操作（gh）が一時的に失敗しても、取得の繰り返しは止めない
           gh label create "$ALERT_LABEL" --color D93F0B --description "取得の不調（自動で作成・クローズ）" --force >/dev/null || true
           alert=$(gh issue list --label "$ALERT_LABEL" --state open --limit 1 --json number -q '.[0].number // empty' || true)
