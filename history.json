@@ -577,14 +577,14 @@
       },
       {
        "stream_id": "316544328563",
-       "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-22T02:11:01.561Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T14:27:28.000Z",
+       "end": "2026-09-22T02:14:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シメのマリメ",
        "game": "Super Mario Maker 2",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880200853",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cf7fbce9dc521401635e_batora324_316544328563_1790000843//thumb/thumb0-320x180.jpg"
       }
      ]
     }
