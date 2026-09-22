@@ -626,6 +626,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2880121241",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/272ce246a34542ee2ee6_bakumatsu_shishi_316475718001_1789991997//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316490341874",
+       "start": "2026-09-22T02:42:06.000Z",
+       "end": "2026-09-22T02:51:02.425Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
+       "game": "7 Days to Die",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
@@ -661,6 +672,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=K0DAs3ynFtM",
        "thumb": "https://i.ytimg.com/vi/K0DAs3ynFtM/mqdefault.jpg"
+      },
+      {
+       "stream_id": "-twj2AWHhps",
+       "start": "2026-09-22T02:42:51.000Z",
+       "end": "2026-09-22T02:51:02.425Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=-twj2AWHhps",
+       "thumb": "https://i.ytimg.com/vi/-twj2AWHhps/mqdefault_live.jpg"
       }
      ]
     }
