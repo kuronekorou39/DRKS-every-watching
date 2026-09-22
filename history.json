@@ -181,14 +181,14 @@
       },
       {
        "stream_id": "316545626995",
-       "start": "2026-09-21T23:38:34.000Z",
-       "end": "2026-09-22T00:51:02.721Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-21T23:38:39.000Z",
+       "end": "2026-09-22T00:54:25.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "義経が興奮して寝れない、７dayの時間までロマサガ３クリアチャレンジ",
        "game": "Romancing SaGa 3",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880611470",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a6304ebf062f3feda35b_indegnasen0706_316545626995_1790033914//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -578,7 +578,7 @@
       {
        "stream_id": "316544328563",
        "start": "2026-09-21T14:27:23.000Z",
-       "end": "2026-09-22T00:51:02.723Z",
+       "end": "2026-09-22T01:01:02.195Z",
        "end_source": "poll",
        "live": true,
        "title": "シメのマリメ",
