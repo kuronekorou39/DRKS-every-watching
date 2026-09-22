@@ -84,14 +84,14 @@
       },
       {
        "stream_id": "316546126323",
-       "start": "2026-09-22T02:54:14.000Z",
-       "end": "2026-09-22T16:32:02.769Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-22T02:54:19.000Z",
+       "end": "2026-09-22T16:41:10.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
        "game": "7 Days to Die",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880758064",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d20f85d2eec5a7dc2e17_kato_junichi0817_316546126323_1790045654//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -204,7 +204,7 @@
       {
        "stream_id": "316490374386",
        "start": "2026-09-22T02:55:16.000Z",
-       "end": "2026-09-22T16:32:02.770Z",
+       "end": "2026-09-22T16:42:03.034Z",
        "end_source": "poll",
        "live": true,
        "title": "7days with ＵＮＫ、ＤＳＫ、坂ちゃん、こく、ＵＫ、ＦＴＮ",
@@ -611,7 +611,7 @@
       {
        "stream_id": "316491907826",
        "start": "2026-09-22T11:02:22.000Z",
-       "end": "2026-09-22T16:32:02.771Z",
+       "end": "2026-09-22T16:42:03.035Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #1 ネタバレ注意",
@@ -663,7 +663,7 @@
       {
        "stream_id": "316490341874",
        "start": "2026-09-22T02:42:06.000Z",
-       "end": "2026-09-22T16:32:02.772Z",
+       "end": "2026-09-22T16:42:03.035Z",
        "end_source": "poll",
        "live": true,
        "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
@@ -720,7 +720,7 @@
       {
        "stream_id": "2F27fiEGvzA",
        "start": "2026-09-22T13:03:35.000Z",
-       "end": "2026-09-22T16:32:02.772Z",
+       "end": "2026-09-22T16:42:03.035Z",
        "end_source": "poll",
        "live": true,
        "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
