@@ -622,7 +622,7 @@
       {
        "stream_id": "316491907826",
        "start": "2026-09-22T11:02:22.000Z",
-       "end": "2026-09-22T17:32:03.904Z",
+       "end": "2026-09-22T17:42:03.320Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #1 ネタバレ注意",
@@ -673,14 +673,14 @@
       },
       {
        "stream_id": "316490341874",
-       "start": "2026-09-22T02:42:06.000Z",
-       "end": "2026-09-22T17:32:03.904Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-22T02:42:11.000Z",
+       "end": "2026-09-22T17:34:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
        "game": "7 Days to Die",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2880750923",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7ccf625446fee9458595_bakumatsu_shishi_316490341874_1790044926//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -731,9 +731,9 @@
       {
        "stream_id": "2F27fiEGvzA",
        "start": "2026-09-22T13:03:35.000Z",
-       "end": "2026-09-22T17:32:03.904Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-09-22T17:35:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "第2回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
        "game": null,
        "url": "https://www.youtube.com/watch?v=2F27fiEGvzA",
