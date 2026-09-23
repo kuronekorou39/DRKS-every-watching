@@ -525,6 +525,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=by6blBYNz90",
        "thumb": "https://i.ytimg.com/vi/by6blBYNz90/mqdefault.jpg"
+      },
+      {
+       "stream_id": "E1K8lQXpX-Y",
+       "start": "2026-09-23T11:59:46.000Z",
+       "end": "2026-09-23T12:02:34.561Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【ご報告】おにやからいつも応援してくださる皆様へ、ご報告があります",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=E1K8lQXpX-Y",
+       "thumb": "https://i.ytimg.com/vi/E1K8lQXpX-Y/mqdefault_live.jpg"
       }
      ]
     }
@@ -581,7 +592,7 @@
       {
        "stream_id": "316484174577",
        "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T11:52:33.820Z",
+       "end": "2026-09-23T12:02:34.561Z",
        "end_source": "poll",
        "live": true,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
@@ -666,7 +677,7 @@
       {
        "stream_id": "316550661619",
        "start": "2026-09-23T03:46:01.000Z",
-       "end": "2026-09-23T11:52:33.820Z",
+       "end": "2026-09-23T12:02:34.561Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #2 ぷーさんに出会ったところから ネタバレ注意",
