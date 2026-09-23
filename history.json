@@ -449,14 +449,14 @@
       },
       {
        "stream_id": "316551593715",
-       "start": "2026-09-23T08:30:50.000Z",
-       "end": "2026-09-23T11:32:34.232Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-23T08:30:55.000Z",
+       "end": "2026-09-23T11:38:27.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "今期ナイトメアULTIMATE、ネメシス魔手EPICの猛者がREJECT VS ムラッシュゲーミング！！因縁のミラーを完全解説します！！！！",
        "game": "Shadowverse: Worlds Beyond",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2881750903",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/147e743b8a199edb5211_oniyadayo_316551593715_1790152250//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -581,7 +581,7 @@
       {
        "stream_id": "316484174577",
        "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T11:32:34.232Z",
+       "end": "2026-09-23T11:42:34.303Z",
        "end_source": "poll",
        "live": true,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
@@ -666,7 +666,7 @@
       {
        "stream_id": "316550661619",
        "start": "2026-09-23T03:46:01.000Z",
-       "end": "2026-09-23T11:32:34.232Z",
+       "end": "2026-09-23T11:42:34.303Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #2 ぷーさんに出会ったところから ネタバレ注意",
