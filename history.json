@@ -107,11 +107,11 @@
       {
        "stream_id": "316496808050",
        "start": "2026-09-23T12:22:18.000Z",
-       "end": "2026-09-23T13:52:48.114Z",
+       "end": "2026-09-23T15:01:28.541Z",
        "end_source": "poll",
        "live": true,
-       "title": "だいぶ体調良くなりし男",
-       "game": "Just Chatting",
+       "title": "APEXをやります",
+       "game": "Apex Legends",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -293,7 +293,7 @@
        "start": "2026-09-23T12:35:30.000Z",
        "end": "2026-09-23T13:52:48.116Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "しにました",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -551,13 +551,13 @@
       {
        "stream_id": "E1K8lQXpX-Y",
        "start": "2026-09-23T11:59:46.000Z",
-       "end": "2026-09-23T13:52:48.117Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-09-23T13:59:23.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【ご報告】おにやからいつも応援してくださる皆様へ、ご報告があります",
        "game": null,
        "url": "https://www.youtube.com/watch?v=E1K8lQXpX-Y",
-       "thumb": "https://i.ytimg.com/vi/E1K8lQXpX-Y/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/E1K8lQXpX-Y/mqdefault.jpg"
       }
      ]
     }
@@ -614,7 +614,7 @@
       {
        "stream_id": "316484174577",
        "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T13:52:48.117Z",
+       "end": "2026-09-23T15:01:28.545Z",
        "end_source": "poll",
        "live": true,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
