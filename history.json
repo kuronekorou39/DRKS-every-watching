@@ -364,14 +364,14 @@
       },
       {
        "stream_id": "316551310579",
-       "start": "2026-09-23T07:01:04.000Z",
-       "end": "2026-09-23T08:42:33.163Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-23T07:01:09.000Z",
+       "end": "2026-09-23T08:44:59.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "押忍！！！！",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2881722275",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cdadae55abbe8cd9d8a7_yuyuta0702_316551310579_1790146863//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -450,7 +450,7 @@
       {
        "stream_id": "316551593715",
        "start": "2026-09-23T08:30:50.000Z",
-       "end": "2026-09-23T08:42:33.164Z",
+       "end": "2026-09-23T08:52:34.844Z",
        "end_source": "poll",
        "live": true,
        "title": "今期ナイトメアULTIMATE、ネメシス魔手EPICの猛者がREJECT VS ムラッシュゲーミング！！因縁のミラーを完全解説します！！！！",
@@ -655,7 +655,7 @@
       {
        "stream_id": "316550661619",
        "start": "2026-09-23T03:46:01.000Z",
-       "end": "2026-09-23T08:42:33.164Z",
+       "end": "2026-09-23T08:52:34.845Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #2 ぷーさんに出会ったところから ネタバレ注意",
