@@ -361,6 +361,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2880056721",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c1cd2d640d508d21fa76_yuyuta0702_316487168242_1789981245//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316551310579",
+       "start": "2026-09-23T07:01:04.000Z",
+       "end": "2026-09-23T07:02:24.298Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -633,7 +644,7 @@
       {
        "stream_id": "316550661619",
        "start": "2026-09-23T03:46:01.000Z",
-       "end": "2026-09-23T06:52:24.611Z",
+       "end": "2026-09-23T07:02:24.299Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツやる #2 ぷーさんに出会ったところから ネタバレ注意",
