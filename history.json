@@ -103,6 +103,17 @@
        "game": "7 Days to Die",
        "url": "https://www.twitch.tv/videos/2881140291",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6d56995cd8189a1e03ee_kato_junichi0817_316549127155_1790095394//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316496808050",
+       "start": "2026-09-23T12:22:18.000Z",
+       "end": "2026-09-23T12:22:34.645Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "だいぶ体調良くなりし男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -529,7 +540,7 @@
       {
        "stream_id": "E1K8lQXpX-Y",
        "start": "2026-09-23T11:59:46.000Z",
-       "end": "2026-09-23T12:12:35.419Z",
+       "end": "2026-09-23T12:22:34.648Z",
        "end_source": "poll",
        "live": true,
        "title": "【ご報告】おにやからいつも応援してくださる皆様へ、ご報告があります",
@@ -592,7 +603,7 @@
       {
        "stream_id": "316484174577",
        "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T12:12:35.419Z",
+       "end": "2026-09-23T12:22:34.649Z",
        "end_source": "poll",
        "live": true,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
