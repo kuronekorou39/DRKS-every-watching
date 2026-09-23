@@ -106,14 +106,14 @@
       },
       {
        "stream_id": "316496808050",
-       "start": "2026-09-23T12:22:18.000Z",
-       "end": "2026-09-23T15:01:28.541Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-23T12:22:23.000Z",
+       "end": "2026-09-23T16:17:13.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEXをやります",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2881839882",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/260945cd07ebdee5adb2_kato_junichi0817_316496808050_1790166138//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -479,6 +479,17 @@
        "game": "Shadowverse: Worlds Beyond",
        "url": "https://www.twitch.tv/videos/2881750903",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/147e743b8a199edb5211_oniyadayo_316551593715_1790152250//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316485570289",
+       "start": "2026-09-23T15:10:51.000Z",
+       "end": "2026-09-23T18:52:31.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "本日３枠目の配信は深夜のチルAPEXをお届けしますwith 関優太",
+       "game": null,
+       "url": "https://www.twitch.tv/videos/2881938271",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8c694c84fbe90efd4dab_oniyadayo_316485570289_1790176246//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -613,14 +624,14 @@
       },
       {
        "stream_id": "316484174577",
-       "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T15:01:28.545Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-23T09:45:21.000Z",
+       "end": "2026-09-23T18:58:23.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2881774735",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f37f4cb37982d8591630_assarisyoko1_316484174577_1790156714//thumb/thumb0-320x180.jpg"
       }
      ]
     }
