@@ -529,7 +529,7 @@
       {
        "stream_id": "E1K8lQXpX-Y",
        "start": "2026-09-23T11:59:46.000Z",
-       "end": "2026-09-23T12:02:34.561Z",
+       "end": "2026-09-23T12:12:35.419Z",
        "end_source": "poll",
        "live": true,
        "title": "【ご報告】おにやからいつも応援してくださる皆様へ、ご報告があります",
@@ -592,7 +592,7 @@
       {
        "stream_id": "316484174577",
        "start": "2026-09-23T09:45:14.000Z",
-       "end": "2026-09-23T12:02:34.561Z",
+       "end": "2026-09-23T12:12:35.419Z",
        "end_source": "poll",
        "live": true,
        "title": "好きなキラー15体連続で全滅をとらせていただく",
@@ -676,14 +676,14 @@
       },
       {
        "stream_id": "316550661619",
-       "start": "2026-09-23T03:46:01.000Z",
-       "end": "2026-09-23T12:02:34.561Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-23T03:46:06.000Z",
+       "end": "2026-09-23T12:05:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツやる #2 ぷーさんに出会ったところから ネタバレ注意",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2881643192",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2bebc5407dcc4bd14d3c_batora324_316550661619_1790135161//thumb/thumb0-320x180.jpg"
       }
      ]
     }
