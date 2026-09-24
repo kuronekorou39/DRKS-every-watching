@@ -728,6 +728,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2881643192",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2bebc5407dcc4bd14d3c_batora324_316550661619_1790135161//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316499623538",
+       "start": "2026-09-24T06:15:58.000Z",
+       "end": "2026-09-24T06:24:12.894Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "お昼の健康マリメ S＋5656～",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
