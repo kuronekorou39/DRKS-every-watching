@@ -394,6 +394,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2881722275",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cdadae55abbe8cd9d8a7_yuyuta0702_316551310579_1790146863//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316488103537",
+       "start": "2026-09-24T09:00:37.000Z",
+       "end": "2026-09-24T09:04:12.825Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -732,7 +743,7 @@
       {
        "stream_id": "316499623538",
        "start": "2026-09-24T06:15:58.000Z",
-       "end": "2026-09-24T08:54:13.578Z",
+       "end": "2026-09-24T09:04:12.826Z",
        "end_source": "poll",
        "live": true,
        "title": "お昼の健康マリメ S＋5656～",
