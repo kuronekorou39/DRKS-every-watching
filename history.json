@@ -128,14 +128,14 @@
       },
       {
        "stream_id": "316556929395",
-       "start": "2026-09-24T13:07:27.000Z",
-       "end": "2026-09-24T16:04:28.010Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-24T13:07:33.000Z",
+       "end": "2026-09-24T16:10:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "話してAPEXして寝る",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2882719062",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/beceaad58e39405049cc_kato_junichi0817_316556929395_1790255247//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -820,14 +820,14 @@
       },
       {
        "stream_id": "316489067249",
-       "start": "2026-09-24T12:44:34.000Z",
-       "end": "2026-09-24T16:04:28.012Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-24T12:44:39.000Z",
+       "end": "2026-09-24T16:08:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "少しだけキングダムハーツ #3",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2882705717",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9a2b600d2305ce1d24b5_batora324_316489067249_1790253874//thumb/thumb0-320x180.jpg"
       }
      ]
     }
