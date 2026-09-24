@@ -118,7 +118,7 @@
       {
        "stream_id": "316500454258",
        "start": "2026-09-24T10:49:56.000Z",
-       "end": "2026-09-24T11:44:28.331Z",
+       "end": "2026-09-24T11:54:27.859Z",
        "end_source": "poll",
        "live": true,
        "title": "HYG Direct(ハイゲダイレクト) #3",
@@ -142,7 +142,7 @@
       {
        "stream_id": "R0SS-Y0RHXo",
        "start": "2026-09-24T10:50:35.000Z",
-       "end": "2026-09-24T11:44:28.332Z",
+       "end": "2026-09-24T11:54:27.860Z",
        "end_source": "poll",
        "live": true,
        "title": "HYG Direct(ハイゲダイレクト) #3",
@@ -321,6 +321,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/MOIoaPIh86JX/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-09-24T11:49:22.000Z",
+       "start": "2026-09-24T11:49:22.000Z",
+       "end": "2026-09-24T11:54:27.861Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "しにました",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/S4CLEKaDbyQB/480.webp"
       }
      ]
     }
@@ -421,7 +432,7 @@
       {
        "stream_id": "316488103537",
        "start": "2026-09-24T09:00:37.000Z",
-       "end": "2026-09-24T11:44:28.333Z",
+       "end": "2026-09-24T11:54:27.861Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲダイレクトみます",
@@ -766,7 +777,7 @@
       {
        "stream_id": "316499623538",
        "start": "2026-09-24T06:15:58.000Z",
-       "end": "2026-09-24T11:44:28.334Z",
+       "end": "2026-09-24T11:54:27.862Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイダイみる",
