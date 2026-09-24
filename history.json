@@ -129,7 +129,7 @@
       {
        "stream_id": "316556929395",
        "start": "2026-09-24T13:07:27.000Z",
-       "end": "2026-09-24T15:54:28.008Z",
+       "end": "2026-09-24T16:04:28.010Z",
        "end_source": "poll",
        "live": true,
        "title": "話してAPEXして寝る",
@@ -453,14 +453,14 @@
       },
       {
        "stream_id": "316489734513",
-       "start": "2026-09-24T15:25:27.000Z",
-       "end": "2026-09-24T15:54:28.009Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-24T15:25:32.000Z",
+       "end": "2026-09-24T16:02:50.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学園アイドルマスターをやらせていただく",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2882800761",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/45b2104b9bc732ebd387_yuyuta0702_316489734513_1790263527//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -560,14 +560,14 @@
       },
       {
        "stream_id": "316556656755",
-       "start": "2026-09-24T12:19:22.000Z",
-       "end": "2026-09-24T15:54:28.009Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-24T12:19:28.000Z",
+       "end": "2026-09-24T16:01:34.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "エペ部いくぞおおお！！！これが俺たちのうん〇くうぺクス！！！with 関優太 スパイギア",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2882693197",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a795eb25aa567914c913_oniyadayo_316556656755_1790252362//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -821,7 +821,7 @@
       {
        "stream_id": "316489067249",
        "start": "2026-09-24T12:44:34.000Z",
-       "end": "2026-09-24T15:54:28.010Z",
+       "end": "2026-09-24T16:04:28.012Z",
        "end_source": "poll",
        "live": true,
        "title": "少しだけキングダムハーツ #3",
