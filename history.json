@@ -573,9 +573,9 @@
       {
        "stream_id": "9th37h-31Bg",
        "start": "2026-09-23T23:44:27.000Z",
-       "end": "2026-09-24T02:14:01.699Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-09-24T02:20:04.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おい！マンデーなのか？連休後は爆上げじゃないのかよ！米国債がクソ悪い件！シルバーウィーク明け日経平均どうなる！！半導体メモリーは吹っ飛ぶのかそれとも下がるのか！どうなる朝の株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=9th37h-31Bg",
