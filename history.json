@@ -125,6 +125,17 @@
        "game": "Special Events",
        "url": "https://www.twitch.tv/videos/2882653372",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d11b3304d34dacedde94_kato_junichi0817_316500454258_1790246996//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316556929395",
+       "start": "2026-09-24T13:07:27.000Z",
+       "end": "2026-09-24T13:14:27.226Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "話してAPEXして寝る",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -325,7 +336,7 @@
       {
        "stream_id": "kick-2026-09-24T11:49:22.000Z",
        "start": "2026-09-24T11:49:22.000Z",
-       "end": "2026-09-24T13:04:28.058Z",
+       "end": "2026-09-24T13:14:27.228Z",
        "end_source": "poll",
        "live": true,
        "title": "しにました",
@@ -432,7 +443,7 @@
       {
        "stream_id": "316488103537",
        "start": "2026-09-24T09:00:37.000Z",
-       "end": "2026-09-24T13:04:28.058Z",
+       "end": "2026-09-24T13:14:27.228Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲダイレクトみます",
@@ -539,7 +550,7 @@
       {
        "stream_id": "316556656755",
        "start": "2026-09-24T12:19:22.000Z",
-       "end": "2026-09-24T13:04:28.058Z",
+       "end": "2026-09-24T13:14:27.228Z",
        "end_source": "poll",
        "live": true,
        "title": "エペ部いくぞおおお！！！これが俺たちのうん〇くうぺクス！！！with 関優太 スパイギア",
@@ -799,7 +810,7 @@
       {
        "stream_id": "316489067249",
        "start": "2026-09-24T12:44:34.000Z",
-       "end": "2026-09-24T13:04:28.058Z",
+       "end": "2026-09-24T13:14:27.229Z",
        "end_source": "poll",
        "live": true,
        "title": "少しだけキングダムハーツ #3",
