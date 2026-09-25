@@ -347,7 +347,7 @@
       {
        "stream_id": "kick-2026-09-25T14:00:08.000Z",
        "start": "2026-09-25T14:00:08.000Z",
-       "end": "2026-09-25T14:15:12.411Z",
+       "end": "2026-09-25T14:25:15.041Z",
        "end_source": "poll",
        "live": true,
        "title": "しにました",
@@ -854,7 +854,7 @@
       {
        "stream_id": "316492313969",
        "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T14:15:12.412Z",
+       "end": "2026-09-25T14:25:15.041Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ最終回 ネタバレ注意",
@@ -980,7 +980,7 @@
        "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の七(END)【縛り20種類】",
        "game": null,
        "url": "https://www.youtube.com/watch?v=kWHXr4vFbt4",
-       "thumb": "https://i.ytimg.com/vi/kWHXr4vFbt4/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/kWHXr4vFbt4/mqdefault.jpg"
       }
      ]
     }
