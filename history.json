@@ -140,7 +140,7 @@
       {
        "stream_id": "316505914738",
        "start": "2026-09-25T14:40:30.000Z",
-       "end": "2026-09-25T15:05:29.401Z",
+       "end": "2026-09-25T15:15:30.367Z",
        "end_source": "poll",
        "live": true,
        "title": "APEXﾌﾙﾊﾟﾜｰ",
@@ -360,7 +360,7 @@
        "start": "2026-09-25T14:00:08.000Z",
        "end": "2026-09-25T15:05:29.403Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "しにました",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -865,7 +865,7 @@
       {
        "stream_id": "316492313969",
        "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T15:05:29.405Z",
+       "end": "2026-09-25T15:15:30.370Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ最終回 ネタバレ注意",
