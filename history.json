@@ -136,6 +136,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2882719062",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/beceaad58e39405049cc_kato_junichi0817_316556929395_1790255247//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316505914738",
+       "start": "2026-09-25T14:40:30.000Z",
+       "end": "2026-09-25T14:45:13.264Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "APEXﾌﾙﾊﾟﾜｰ",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -347,7 +358,7 @@
       {
        "stream_id": "kick-2026-09-25T14:00:08.000Z",
        "start": "2026-09-25T14:00:08.000Z",
-       "end": "2026-09-25T14:35:12.337Z",
+       "end": "2026-09-25T14:45:13.265Z",
        "end_source": "poll",
        "live": true,
        "title": "しにました",
@@ -854,7 +865,7 @@
       {
        "stream_id": "316492313969",
        "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T14:35:12.338Z",
+       "end": "2026-09-25T14:45:13.266Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ最終回 ネタバレ注意",
