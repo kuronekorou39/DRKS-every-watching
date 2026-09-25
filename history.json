@@ -140,7 +140,7 @@
       {
        "stream_id": "316505914738",
        "start": "2026-09-25T14:40:30.000Z",
-       "end": "2026-09-25T17:35:29.909Z",
+       "end": "2026-09-25T17:45:29.461Z",
        "end_source": "poll",
        "live": true,
        "title": "APEXﾌﾙﾊﾟﾜｰ",
@@ -875,14 +875,14 @@
       },
       {
        "stream_id": "316492313969",
-       "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T17:35:29.912Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-25T08:43:57.000Z",
+       "end": "2026-09-25T17:39:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ最終回 ネタバレ注意",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2883458446",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f1b2146b9084ca00e0a5_batora324_316492313969_1790325832//thumb/thumb0-320x180.jpg"
       }
      ]
     }
