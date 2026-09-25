@@ -139,14 +139,14 @@
       },
       {
        "stream_id": "316505914738",
-       "start": "2026-09-25T14:40:30.000Z",
-       "end": "2026-09-25T20:35:42.095Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-25T14:40:35.000Z",
+       "end": "2026-09-25T20:42:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEXﾌﾙﾊﾟﾜｰ",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2883623576",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e4c5aefe158cb4bdeb89_kato_junichi0817_316505914738_1790347230//thumb/thumb0-320x180.jpg"
       }
      ]
     },
