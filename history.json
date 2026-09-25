@@ -343,6 +343,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/S4CLEKaDbyQB/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-09-25T14:00:08.000Z",
+       "start": "2026-09-25T14:00:08.000Z",
+       "end": "2026-09-25T14:05:13.240Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "しにました",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/SwqQEANZ3kpD/480.webp"
       }
      ]
     }
@@ -843,7 +854,7 @@
       {
        "stream_id": "316492313969",
        "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T13:55:13.421Z",
+       "end": "2026-09-25T14:05:13.241Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ最終回 ネタバレ注意",
@@ -963,7 +974,7 @@
       {
        "stream_id": "kWHXr4vFbt4",
        "start": "2026-09-25T11:03:13.000Z",
-       "end": "2026-09-25T13:55:13.421Z",
+       "end": "2026-09-25T14:05:13.241Z",
        "end_source": "poll",
        "live": true,
        "title": "【金銀】幕末志士の2画面ポケモンバトルだッ！！其の七(END)【縛り20種類】",
