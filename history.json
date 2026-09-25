@@ -140,7 +140,7 @@
       {
        "stream_id": "316505914738",
        "start": "2026-09-25T14:40:30.000Z",
-       "end": "2026-09-25T15:15:30.367Z",
+       "end": "2026-09-25T15:25:29.639Z",
        "end_source": "poll",
        "live": true,
        "title": "APEXﾌﾙﾊﾟﾜｰ",
@@ -365,6 +365,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/SwqQEANZ3kpD/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-09-25T15:21:22.000Z",
+       "start": "2026-09-25T15:21:22.000Z",
+       "end": "2026-09-25T15:25:29.641Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "しにました",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/KLHWt51vRzHk/480.webp"
       }
      ]
     }
@@ -865,7 +876,7 @@
       {
        "stream_id": "316492313969",
        "start": "2026-09-25T08:43:52.000Z",
-       "end": "2026-09-25T15:15:30.370Z",
+       "end": "2026-09-25T15:25:29.643Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ最終回 ネタバレ注意",
