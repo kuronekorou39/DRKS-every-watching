@@ -883,6 +883,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2883458446",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f1b2146b9084ca00e0a5_batora324_316492313969_1790325832//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316563429491",
+       "start": "2026-09-26T01:47:00.000Z",
+       "end": "2026-09-26T01:55:43.083Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "夕方までい",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
