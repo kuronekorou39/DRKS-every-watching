@@ -282,7 +282,7 @@
       {
        "stream_id": "316496343537",
        "start": "2026-09-26T06:19:42.000Z",
-       "end": "2026-09-26T08:56:08.728Z",
+       "end": "2026-09-26T09:06:08.249Z",
        "end_source": "poll",
        "live": true,
        "title": "ケーキのゲーム ドントドロップザケーキ ←お久しブリーフ",
@@ -505,6 +505,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2882800761",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/45b2104b9bc732ebd387_yuyuta0702_316489734513_1790263527//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316508936434",
+       "start": "2026-09-26T09:00:37.000Z",
+       "end": "2026-09-26T09:06:08.250Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
