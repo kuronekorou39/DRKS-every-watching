@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T16:37:17.986Z",
+       "end": "2026-09-27T16:47:17.645Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -715,7 +715,7 @@
       {
        "stream_id": "316514786162",
        "start": "2026-09-27T13:31:44.000Z",
-       "end": "2026-09-27T16:37:17.986Z",
+       "end": "2026-09-27T16:47:17.645Z",
        "end_source": "poll",
        "live": true,
        "title": "２６年前の伝説的ゲーム「METAL SLUG３」コンティニュー１０００円縛りチャレンジ！！",
@@ -911,14 +911,14 @@
       },
       {
        "stream_id": "316513961970",
-       "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T16:37:17.986Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T10:46:13.000Z",
+       "end": "2026-09-27T16:40:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マリオカートワールドやっていかせていただく",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885375897",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/107e04c426629a8b50f1_assarisyoko1_316513961970_1790505966//thumb/thumb0-320x180.jpg"
       }
      ]
     }
