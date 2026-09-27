@@ -151,7 +151,7 @@
       {
        "stream_id": "316512342002",
        "start": "2026-09-27T03:09:07.000Z",
-       "end": "2026-09-27T06:46:51.319Z",
+       "end": "2026-09-27T06:56:50.972Z",
        "end_source": "poll",
        "live": true,
        "title": "たいじ＆スモバードとAPEX",
@@ -311,6 +311,17 @@
        "game": "DigDigDrill",
        "url": "https://www.twitch.tv/videos/2884487114",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/20f22936f9d5169eb587_indegnasen0706_316565869427_1790426650//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316513193458",
+       "start": "2026-09-27T06:53:05.000Z",
+       "end": "2026-09-27T06:56:50.973Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "寝起きのメガネオジ。さて、今日は何をしようかナ！放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
