@@ -151,7 +151,7 @@
       {
        "stream_id": "316512342002",
        "start": "2026-09-27T03:09:07.000Z",
-       "end": "2026-09-27T04:06:40.919Z",
+       "end": "2026-09-27T04:16:41.048Z",
        "end_source": "poll",
        "live": true,
        "title": "たいじ＆スモバードとAPEX",
@@ -426,7 +426,7 @@
        "start": "2026-09-27T02:09:07.000Z",
        "end": "2026-09-27T04:06:40.921Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "どうがをとりにきた",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
