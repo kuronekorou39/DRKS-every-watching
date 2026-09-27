@@ -162,7 +162,7 @@
       {
        "stream_id": "316514120178",
        "start": "2026-09-27T11:20:11.000Z",
-       "end": "2026-09-27T13:47:02.622Z",
+       "end": "2026-09-27T13:57:03.009Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -326,7 +326,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T13:47:02.623Z",
+       "end": "2026-09-27T13:57:03.010Z",
        "end_source": "poll",
        "live": true,
        "title": "パカゲーフェスティバル2026秋の陣",
@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T13:47:02.624Z",
+       "end": "2026-09-27T13:57:03.011Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -715,11 +715,11 @@
       {
        "stream_id": "316514786162",
        "start": "2026-09-27T13:31:44.000Z",
-       "end": "2026-09-27T13:47:02.624Z",
+       "end": "2026-09-27T13:57:03.011Z",
        "end_source": "poll",
        "live": true,
-       "title": "Japanese Ramen Simulatorとかいう気になりすぎるゲームを先行配信とれたのでやっていく男！！！！許諾ありがとうございます！！",
-       "game": "Japanese Ramen Simulator",
+       "title": "なんかやる",
+       "game": "Just Chatting",
        "url": "https://www.twitch.tv/oniyadayo",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
@@ -912,7 +912,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T13:47:02.625Z",
+       "end": "2026-09-27T13:57:03.012Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
@@ -1103,14 +1103,14 @@
       },
       {
        "stream_id": "316570421491",
-       "start": "2026-09-27T12:00:34.000Z",
-       "end": "2026-09-27T13:47:02.625Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T12:00:39.000Z",
+       "end": "2026-09-27T13:52:38.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "幕末坂本の月刊ドロクサニュース9月号",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885414802",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cf9d6ff72dd851ca7a10_bakumatsu_shishi_316570421491_1790510434//thumb/thumb0-320x180.jpg"
       }
      ]
     },
