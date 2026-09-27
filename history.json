@@ -158,6 +158,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2885165327",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/83b653f1ec9556197065_kato_junichi0817_316512342002_1790478547//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316514120178",
+       "start": "2026-09-27T11:20:11.000Z",
+       "end": "2026-09-27T11:27:02.273Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -315,7 +326,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T11:17:02.749Z",
+       "end": "2026-09-27T11:27:02.275Z",
        "end_source": "poll",
        "live": true,
        "title": "パカゲーフェスティバル2026秋の陣",
@@ -575,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T11:17:02.750Z",
+       "end": "2026-09-27T11:27:02.276Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -890,7 +901,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T11:17:02.751Z",
+       "end": "2026-09-27T11:27:02.277Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
