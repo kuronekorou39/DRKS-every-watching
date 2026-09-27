@@ -162,7 +162,7 @@
       {
        "stream_id": "316514120178",
        "start": "2026-09-27T11:20:11.000Z",
-       "end": "2026-09-27T11:57:03.306Z",
+       "end": "2026-09-27T12:07:02.147Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -326,7 +326,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T11:57:03.307Z",
+       "end": "2026-09-27T12:07:02.148Z",
        "end_source": "poll",
        "live": true,
        "title": "パカゲーフェスティバル2026秋の陣",
@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T11:57:03.309Z",
+       "end": "2026-09-27T12:07:02.149Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -901,7 +901,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T11:57:03.310Z",
+       "end": "2026-09-27T12:07:02.150Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
@@ -1089,6 +1089,17 @@
        "game": "7 Days to Die",
        "url": "https://www.twitch.tv/videos/2880750923",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7ccf625446fee9458595_bakumatsu_shishi_316490341874_1790044926//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316570421491",
+       "start": "2026-09-27T12:00:34.000Z",
+       "end": "2026-09-27T12:07:02.151Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末坂本の月刊ドロクサニュース9月号",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
