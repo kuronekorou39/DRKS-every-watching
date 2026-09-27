@@ -150,14 +150,14 @@
       },
       {
        "stream_id": "316512342002",
-       "start": "2026-09-27T03:09:07.000Z",
-       "end": "2026-09-27T09:26:51.265Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T03:09:12.000Z",
+       "end": "2026-09-27T09:28:21.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "たいじ＆スモバードとAPEX",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885165327",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/83b653f1ec9556197065_kato_junichi0817_316512342002_1790478547//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -315,7 +315,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T09:26:51.266Z",
+       "end": "2026-09-27T09:36:50.506Z",
        "end_source": "poll",
        "live": true,
        "title": "人形限界＆コアキーパーもやりたい気持ちがある男←寝起きのメガネオジ。さて、今日は何をしようかナ！放送！",
@@ -575,7 +575,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T09:26:51.267Z",
+       "end": "2026-09-27T09:36:50.507Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
