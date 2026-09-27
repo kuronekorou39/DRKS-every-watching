@@ -333,6 +333,17 @@
        "game": "Others",
        "url": "https://www.twitch.tv/videos/2885280188",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/87ee6ea520869e86a944_indegnasen0706_316513193458_1790491985//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316503736177",
+       "start": "2026-09-27T17:51:54.000Z",
+       "end": "2026-09-27T17:57:17.197Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘",
+       "game": "Romancing SaGa 3",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
