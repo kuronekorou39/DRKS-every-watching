@@ -162,7 +162,7 @@
       {
        "stream_id": "316514120178",
        "start": "2026-09-27T11:20:11.000Z",
-       "end": "2026-09-27T15:37:03.506Z",
+       "end": "2026-09-27T15:47:03.987Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX１２時間だけやる",
@@ -325,14 +325,14 @@
       },
       {
        "stream_id": "316513193458",
-       "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T15:37:03.508Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T06:53:10.000Z",
+       "end": "2026-09-27T15:42:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "パカゲーフェスティバル2026秋の陣",
        "game": "Others",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885280188",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/87ee6ea520869e86a944_indegnasen0706_316513193458_1790491985//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T15:37:03.509Z",
+       "end": "2026-09-27T15:47:03.990Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -715,7 +715,7 @@
       {
        "stream_id": "316514786162",
        "start": "2026-09-27T13:31:44.000Z",
-       "end": "2026-09-27T15:37:03.509Z",
+       "end": "2026-09-27T15:47:03.990Z",
        "end_source": "poll",
        "live": true,
        "title": "２６年前の伝説的ゲーム「METAL SLUG３」コンティニュー１０００円縛りチャレンジ！！",
@@ -912,7 +912,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T15:37:03.509Z",
+       "end": "2026-09-27T15:47:03.991Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
