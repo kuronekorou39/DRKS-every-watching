@@ -337,7 +337,7 @@
       {
        "stream_id": "316503736177",
        "start": "2026-09-27T17:51:54.000Z",
-       "end": "2026-09-27T23:37:27.441Z",
+       "end": "2026-09-27T23:47:27.545Z",
        "end_source": "poll",
        "live": true,
        "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘",
@@ -464,6 +464,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/PjnEFHcg0e3I/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-09-27T23:37:54.000Z",
+       "start": "2026-09-27T23:37:54.000Z",
+       "end": "2026-09-27T23:47:27.546Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "どうがをとりにきた",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/bY3AUdjZkrnW/480.webp"
       }
      ]
     }
@@ -834,6 +845,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=k96aD1VdugQ",
        "thumb": "https://i.ytimg.com/vi/k96aD1VdugQ/mqdefault.jpg"
+      },
+      {
+       "stream_id": "WEdX157m-nQ",
+       "start": "2026-09-27T23:44:55.000Z",
+       "end": "2026-09-27T23:47:27.546Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ついに来る。9月最後の分割ラッシュ。またもクラッシュするのか？どうなる半導体メモリーの分割銘柄！！そして日経平均そろそろ爆上がり見せてくれ！原油も下がって来てるぞ！魂の朝の寄り付き株ライブ生放送！！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=WEdX157m-nQ",
+       "thumb": "https://i.ytimg.com/vi/WEdX157m-nQ/mqdefault_live.jpg"
       }
      ]
     }
