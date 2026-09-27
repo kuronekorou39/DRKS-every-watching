@@ -161,14 +161,14 @@
       },
       {
        "stream_id": "316514120178",
-       "start": "2026-09-27T11:20:11.000Z",
-       "end": "2026-09-27T16:17:03.299Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T11:20:16.000Z",
+       "end": "2026-09-27T16:26:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEX１２時間だけやる",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885393056",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/af29b294156f95f7619c_kato_junichi0817_316514120178_1790508011//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T16:17:03.301Z",
+       "end": "2026-09-27T16:27:02.618Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -715,7 +715,7 @@
       {
        "stream_id": "316514786162",
        "start": "2026-09-27T13:31:44.000Z",
-       "end": "2026-09-27T16:17:03.301Z",
+       "end": "2026-09-27T16:27:02.618Z",
        "end_source": "poll",
        "live": true,
        "title": "２６年前の伝説的ゲーム「METAL SLUG３」コンティニュー１０００円縛りチャレンジ！！",
@@ -912,7 +912,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T16:17:03.302Z",
+       "end": "2026-09-27T16:27:02.619Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
