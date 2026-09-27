@@ -162,7 +162,7 @@
       {
        "stream_id": "316514120178",
        "start": "2026-09-27T11:20:11.000Z",
-       "end": "2026-09-27T13:27:02.641Z",
+       "end": "2026-09-27T13:37:03.669Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -326,7 +326,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T13:27:02.642Z",
+       "end": "2026-09-27T13:37:03.670Z",
        "end_source": "poll",
        "live": true,
        "title": "パカゲーフェスティバル2026秋の陣",
@@ -586,7 +586,7 @@
       {
        "stream_id": "316569668467",
        "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T13:27:02.643Z",
+       "end": "2026-09-27T13:37:03.671Z",
        "end_source": "poll",
        "live": true,
        "title": "本日も学園アイドルマスター やらせていただきます",
@@ -711,6 +711,17 @@
        "game": "The Deadseat",
        "url": "https://www.twitch.tv/videos/2884409442",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6363ea8fc7ed37da4cbc_oniyadayo_316509171186_1790417591//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316514786162",
+       "start": "2026-09-27T13:31:44.000Z",
+       "end": "2026-09-27T13:37:03.671Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "Japanese Ramen Simulatorとかいう気になりすぎるゲームを先行配信とれたのでやっていく男！！！！許諾ありがとうございます！！",
+       "game": "Japanese Ramen Simulator",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -901,7 +912,7 @@
       {
        "stream_id": "316513961970",
        "start": "2026-09-27T10:46:06.000Z",
-       "end": "2026-09-27T13:27:02.644Z",
+       "end": "2026-09-27T13:37:03.672Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやっていかせていただく",
@@ -1093,7 +1104,7 @@
       {
        "stream_id": "316570421491",
        "start": "2026-09-27T12:00:34.000Z",
-       "end": "2026-09-27T13:27:02.645Z",
+       "end": "2026-09-27T13:37:03.672Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末坂本の月刊ドロクサニュース9月号",
