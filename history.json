@@ -151,7 +151,7 @@
       {
        "stream_id": "316512342002",
        "start": "2026-09-27T03:09:07.000Z",
-       "end": "2026-09-27T08:56:50.819Z",
+       "end": "2026-09-27T09:06:50.308Z",
        "end_source": "poll",
        "live": true,
        "title": "たいじ＆スモバードとAPEX",
@@ -315,7 +315,7 @@
       {
        "stream_id": "316513193458",
        "start": "2026-09-27T06:53:05.000Z",
-       "end": "2026-09-27T08:56:50.820Z",
+       "end": "2026-09-27T09:06:50.309Z",
        "end_source": "poll",
        "live": true,
        "title": "人形限界＆コアキーパーもやりたい気持ちがある男←寝起きのメガネオジ。さて、今日は何をしようかナ！放送！",
@@ -571,6 +571,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2884379870",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3f8863a52956756c6e74_yuyuta0702_316508936434_1790413237//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316569668467",
+       "start": "2026-09-27T09:00:39.000Z",
+       "end": "2026-09-27T09:06:50.310Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
