@@ -409,6 +409,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/TsoItxQBPuGn/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-09-27T02:09:07.000Z",
+       "start": "2026-09-27T02:09:07.000Z",
+       "end": "2026-09-27T02:16:42.553Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "どうがをとりにきた",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/PjnEFHcg0e3I/480.webp"
       }
      ]
     }
