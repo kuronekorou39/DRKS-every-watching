@@ -585,14 +585,14 @@
       },
       {
        "stream_id": "316569668467",
-       "start": "2026-09-27T09:00:39.000Z",
-       "end": "2026-09-27T17:07:18.250Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T09:00:44.000Z",
+       "end": "2026-09-27T17:15:51.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "本日も学園アイドルマスター やらせていただきます",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885330940",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e7d310f4b0be895bb326_yuyuta0702_316569668467_1790499639//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -714,14 +714,14 @@
       },
       {
        "stream_id": "316514786162",
-       "start": "2026-09-27T13:31:44.000Z",
-       "end": "2026-09-27T17:07:18.250Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T13:31:49.000Z",
+       "end": "2026-09-27T17:13:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "２６年前の伝説的ゲーム「METAL SLUG３」コンティニュー１０００円縛りチャレンジ！！",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885473033",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ca0ca8842e299800d027_oniyadayo_316514786162_1790515904//thumb/thumb0-320x180.jpg"
       }
      ]
     },
