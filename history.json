@@ -336,14 +336,14 @@
       },
       {
        "stream_id": "316503736177",
-       "start": "2026-09-27T17:51:54.000Z",
-       "end": "2026-09-28T07:47:39.547Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-27T17:51:59.000Z",
+       "end": "2026-09-28T07:50:40.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘 © SQUARE ENIX Planned & Developed by ArtePiazza ILLUSTRATION: TOMOMI KOBAYASHI 当該作品の転載・配布は禁止いたします。",
        "game": "Romancing SaGa 3",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885678692",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e10288c6d78b2077b69c_indegnasen0706_316503736177_1790531514//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1096,7 +1096,7 @@
       {
        "stream_id": "316505227377",
        "start": "2026-09-28T05:06:15.000Z",
-       "end": "2026-09-28T07:47:39.549Z",
+       "end": "2026-09-28T07:57:39.364Z",
        "end_source": "poll",
        "live": true,
        "title": "帰宅マン平日昼のキッズを狩りつくす",
