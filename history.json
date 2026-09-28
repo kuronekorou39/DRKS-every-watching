@@ -173,7 +173,7 @@
       {
        "stream_id": "316575015155",
        "start": "2026-09-28T12:56:25.000Z",
-       "end": "2026-09-28T15:18:18.262Z",
+       "end": "2026-09-28T15:28:18.176Z",
        "end_source": "poll",
        "live": true,
        "title": "妹に運転教えるゲームやって早く寝ろ",
@@ -359,7 +359,7 @@
       {
        "stream_id": "316506668017",
        "start": "2026-09-28T12:00:08.000Z",
-       "end": "2026-09-28T15:18:18.263Z",
+       "end": "2026-09-28T15:28:18.177Z",
        "end_source": "poll",
        "live": true,
        "title": "狂い咲き←こんばんは。スマウガー松本です",
@@ -640,14 +640,14 @@
       },
       {
        "stream_id": "316505910513",
-       "start": "2026-09-28T09:00:04.000Z",
-       "end": "2026-09-28T15:18:18.264Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-28T09:00:09.000Z",
+       "end": "2026-09-28T15:22:52.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ヘビーレイン やる 初見",
        "game": "Heavy Rain",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886223152",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f2cd1126d65a3f5f02c4_yuyuta0702_316505910513_1790586004//thumb/thumb0-320x180.jpg"
       }
      ]
     }
