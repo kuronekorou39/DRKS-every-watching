@@ -337,7 +337,7 @@
       {
        "stream_id": "316503736177",
        "start": "2026-09-27T17:51:54.000Z",
-       "end": "2026-09-28T02:07:28.440Z",
+       "end": "2026-09-28T02:17:28.972Z",
        "end_source": "poll",
        "live": true,
        "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘 © SQUARE ENIX Planned & Developed by ArtePiazza ILLUSTRATION: TOMOMI KOBAYASHI 当該作品の転載・配布は禁止いたします。",
@@ -849,13 +849,13 @@
       {
        "stream_id": "WEdX157m-nQ",
        "start": "2026-09-27T23:44:55.000Z",
-       "end": "2026-09-28T02:07:28.441Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-09-28T02:08:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ついに来る。9月最後の分割ラッシュ。またもクラッシュするのか？どうなる半導体メモリーの分割銘柄！！そして日経平均そろそろ爆上がり見せてくれ！原油も下がって来てるぞ！魂の朝の寄り付き株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=WEdX157m-nQ",
-       "thumb": "https://i.ytimg.com/vi/WEdX157m-nQ/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/WEdX157m-nQ/mqdefault.jpg"
       }
      ]
     }
@@ -1085,7 +1085,7 @@
       {
        "stream_id": "316516502130",
        "start": "2026-09-28T00:34:03.000Z",
-       "end": "2026-09-28T02:07:28.441Z",
+       "end": "2026-09-28T02:17:28.973Z",
        "end_source": "poll",
        "live": true,
        "title": "平日朝のキッズを狩りつくす",
