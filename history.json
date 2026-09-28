@@ -337,7 +337,7 @@
       {
        "stream_id": "316503736177",
        "start": "2026-09-27T17:51:54.000Z",
-       "end": "2026-09-28T03:47:38.681Z",
+       "end": "2026-09-28T03:57:39.314Z",
        "end_source": "poll",
        "live": true,
        "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘 © SQUARE ENIX Planned & Developed by ArtePiazza ILLUSTRATION: TOMOMI KOBAYASHI 当該作品の転載・配布は禁止いたします。",
@@ -1084,14 +1084,14 @@
       },
       {
        "stream_id": "316516502130",
-       "start": "2026-09-28T00:34:03.000Z",
-       "end": "2026-09-28T03:47:38.683Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-28T00:34:08.000Z",
+       "end": "2026-09-28T03:56:15.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "平日朝のキッズを狩りつくす",
        "game": "Super Mario Maker 2",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2885993885",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ba8e886c3106c517eb00_batora324_316516502130_1790555643//thumb/thumb0-320x180.jpg"
       }
      ]
     }
