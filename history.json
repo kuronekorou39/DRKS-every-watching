@@ -619,7 +619,7 @@
       {
        "stream_id": "316505910513",
        "start": "2026-09-28T09:00:04.000Z",
-       "end": "2026-09-28T10:37:58.002Z",
+       "end": "2026-09-28T10:47:59.350Z",
        "end_source": "poll",
        "live": true,
        "title": "ヘビーレイン やる 初見",
@@ -1107,11 +1107,11 @@
       {
        "stream_id": "316505227377",
        "start": "2026-09-28T05:06:15.000Z",
-       "end": "2026-09-28T10:37:58.003Z",
+       "end": "2026-09-28T10:47:59.351Z",
        "end_source": "poll",
        "live": true,
-       "title": "帰宅マン平日昼のキッズを狩りつくす",
-       "game": "Super Mario Maker 2",
+       "title": "ゴールデンレトリバーと過ごす日々",
+       "game": "Golden Retriever Simple Life",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
