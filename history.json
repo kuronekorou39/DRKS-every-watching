@@ -173,11 +173,11 @@
       {
        "stream_id": "316575015155",
        "start": "2026-09-28T12:56:25.000Z",
-       "end": "2026-09-28T14:07:58.033Z",
+       "end": "2026-09-28T14:17:58.404Z",
        "end_source": "poll",
        "live": true,
-       "title": "ちょこっとﾑﾗｹﾞ見て妹に運転教えるゲームやって早く寝ろ",
-       "game": "Overwatch",
+       "title": "妹に運転教えるゲームやって早く寝ろ",
+       "game": "Teach My Little Sister How to Drive",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -359,7 +359,7 @@
       {
        "stream_id": "316506668017",
        "start": "2026-09-28T12:00:08.000Z",
-       "end": "2026-09-28T14:07:58.034Z",
+       "end": "2026-09-28T14:17:58.405Z",
        "end_source": "poll",
        "live": true,
        "title": "狂い咲き←こんばんは。スマウガー松本です",
@@ -641,7 +641,7 @@
       {
        "stream_id": "316505910513",
        "start": "2026-09-28T09:00:04.000Z",
-       "end": "2026-09-28T14:07:58.035Z",
+       "end": "2026-09-28T14:17:58.405Z",
        "end_source": "poll",
        "live": true,
        "title": "ヘビーレイン やる 初見",
@@ -1128,14 +1128,14 @@
       },
       {
        "stream_id": "316505227377",
-       "start": "2026-09-28T05:06:15.000Z",
-       "end": "2026-09-28T14:07:58.036Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-28T05:06:20.000Z",
+       "end": "2026-09-28T14:13:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キレたら即終了の妹に運転を教えるゲーム",
        "game": "Teach My Little Sister How to Drive",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886147746",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e6019202c7c2271b0be2_batora324_316505227377_1790571975//thumb/thumb0-320x180.jpg"
       }
      ]
     }
