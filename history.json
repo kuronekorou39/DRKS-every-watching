@@ -337,7 +337,7 @@
       {
        "stream_id": "316503736177",
        "start": "2026-09-27T17:51:54.000Z",
-       "end": "2026-09-28T00:27:28.265Z",
+       "end": "2026-09-28T00:37:27.463Z",
        "end_source": "poll",
        "live": true,
        "title": "深夜のレトロゲー ロマサガ３ レアドロドパ発掘",
@@ -470,7 +470,7 @@
        "start": "2026-09-27T23:37:54.000Z",
        "end": "2026-09-28T00:27:28.266Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "どうがをとりにきた",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -849,7 +849,7 @@
       {
        "stream_id": "WEdX157m-nQ",
        "start": "2026-09-27T23:44:55.000Z",
-       "end": "2026-09-28T00:27:28.266Z",
+       "end": "2026-09-28T00:37:27.464Z",
        "end_source": "poll",
        "live": true,
        "title": "ついに来る。9月最後の分割ラッシュ。またもクラッシュするのか？どうなる半導体メモリーの分割銘柄！！そして日経平均そろそろ爆上がり見せてくれ！原油も下がって来てるぞ！魂の朝の寄り付き株ライブ生放送！！",
@@ -1081,6 +1081,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2884152501",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/86caed8bd4f044f9691f_batora324_316563429491_1790387220//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316516502130",
+       "start": "2026-09-28T00:34:03.000Z",
+       "end": "2026-09-28T00:37:27.464Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "平日朝のキッズを狩りつくす",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
