@@ -615,6 +615,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2885330940",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e7d310f4b0be895bb326_yuyuta0702_316569668467_1790499639//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316505910513",
+       "start": "2026-09-28T09:00:04.000Z",
+       "end": "2026-09-28T09:07:58.788Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -1096,7 +1107,7 @@
       {
        "stream_id": "316505227377",
        "start": "2026-09-28T05:06:15.000Z",
-       "end": "2026-09-28T08:57:39.752Z",
+       "end": "2026-09-28T09:07:58.789Z",
        "end_source": "poll",
        "live": true,
        "title": "帰宅マン平日昼のキッズを狩りつくす",
