@@ -173,7 +173,7 @@
       {
        "stream_id": "316575015155",
        "start": "2026-09-28T12:56:25.000Z",
-       "end": "2026-09-28T15:28:18.176Z",
+       "end": "2026-09-28T15:38:18.861Z",
        "end_source": "poll",
        "live": true,
        "title": "妹に運転教えるゲームやって早く寝ろ",
@@ -358,14 +358,14 @@
       },
       {
        "stream_id": "316506668017",
-       "start": "2026-09-28T12:00:08.000Z",
-       "end": "2026-09-28T15:28:18.177Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-28T12:00:13.000Z",
+       "end": "2026-09-28T15:30:59.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "狂い咲き←こんばんは。スマウガー松本です",
        "game": "Unseasonable Flowering",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886288036",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/616837350003727076e8_indegnasen0706_316506668017_1790596808//thumb/thumb0-320x180.jpg"
       }
      ]
     }
