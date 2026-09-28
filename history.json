@@ -172,14 +172,14 @@
       },
       {
        "stream_id": "316575015155",
-       "start": "2026-09-28T12:56:25.000Z",
-       "end": "2026-09-28T17:08:19.910Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-28T12:56:30.000Z",
+       "end": "2026-09-28T17:16:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "妹に運転教えるゲームやって早く寝ろ",
        "game": "Teach My Little Sister How to Drive",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886316109",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c41fdfd08f1db88d635e_kato_junichi0817_316575015155_1790600185//thumb/thumb0-320x180.jpg"
       }
      ]
     },
