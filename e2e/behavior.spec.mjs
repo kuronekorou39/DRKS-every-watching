@@ -54,6 +54,21 @@ test('配信中の人はアイコンとバーが配信中の見た目になり�
   await expect(page.locator('.team .who.live')).toHaveCount(1);
 });
 
+test('現在時刻の線は行の境目で切れず、今日の見出しには色が付く', async ({ page }) => {
+  for (const width of [390, 1400]) {
+    await openBoard(page, { width, height: 800 });
+    const lines = await page.locator('.row.person .now').evaluateAll((els) =>
+      els.map((el) => { const r = el.getBoundingClientRect(); return { top: r.top, bottom: r.bottom }; }));
+    expect(lines).toHaveLength(9);
+    const gaps = lines.slice(1).map((line, i) => line.top - lines[i].bottom);
+    expect(Math.max(...gaps), `幅 ${width}px: 線のすき間`).toBeLessThanOrEqual(0.5);
+    const body = await page.locator('.body').boundingBox();
+    expect(lines.at(-1).bottom, `幅 ${width}px: 線が表の下へはみ出さない`).toBeLessThanOrEqual(body.y + body.height + 0.5);
+    await expect(page.locator('.day.today')).not.toHaveCSS('background-color', 'rgba(0, 0, 0, 0)');
+    await expect(page.locator('.day:not(.today)').first()).toHaveCSS('background-color', 'rgba(0, 0, 0, 0)');
+  }
+});
+
 test('配信していない人のアイコンは控えめになり、行に乗せると元に戻る', async ({ page }) => {
   await openBoard(page, { width: 1400, height: 800 });
   const live = page.locator('.who.live .initial').first();
