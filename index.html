@@ -23,8 +23,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=IBM+Plex+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <!-- ライトかダークかは、描く前にここで決める（あとから決めると、最初の一瞬だけ違う色で出てしまう） -->
-  <script>document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';</script>
+  <!-- ライトかダークかは、描く前にここで決める（あとから決めると、最初の一瞬だけ違う色で出てしまう）。
+       フッターのボタンで選んだものがあればそれ、なければ OS の設定に合わせる -->
+  <script>
+    let chosen = null;
+    try { chosen = localStorage.getItem('theme'); } catch { /* 保存できない環境では OS の設定に合わせる */ }
+    document.documentElement.dataset.theme = chosen ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  </script>
   <script type="module" src="app.mjs"></script>
 </head>
 <body>
@@ -98,6 +103,11 @@
         <a class="github" href="https://github.com/kuronekorou39/DRKS-every-watching" target="_blank" rel="noopener" aria-label="GitHub でソースを見る" title="GitHub">
           <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
         </a>
+        <!-- ライトのときは月（押すとダークへ）、ダークのときは太陽（押すとライトへ）を出す -->
+        <button type="button" class="theme" aria-label="ライト／ダークを切り替える" title="ライト／ダークを切り替える">
+          <svg class="to-dark" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M6.2.6a7.5 7.5 0 1 0 9.2 9.2A6.2 6.2 0 0 1 6.2.6z"/></svg>
+          <svg class="to-light" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M3.05 12.95l1.06-1.06M11.89 4.11l1.06-1.06"/></svg>
+        </button>
       </p>
       <p class="note">非公式ファンサイト ・ 時刻は日本時間<span class="note-extra"> ・ 終了は最大10分ずれます</span></p>
     </footer>

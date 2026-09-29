@@ -126,7 +126,28 @@ function render() {
     select.value = [...select.options].some((o) => Number(o.value) === view.days) ? String(view.days) : '';
   }
 
+  updateMultiviewLinks();
   renderBoard(now);
+}
+
+// マルチビュー（1つのタブに配信を並べて見る別サイト）の URL と説明。index.html に書いたものを元にする
+const MULTIVIEW_URL = $('.multiview').href;
+const MULTIVIEW_TITLE = $('.multiview').title;
+
+/** マルチビューへのリンクに、いま配信中の配信を渡す。開くと、その配信が並んだ状態になる（1人につき1つ） */
+function updateMultiviewLinks() {
+  const url = new URL(MULTIVIEW_URL);
+  for (const { sources } of channels) {
+    const source = sources.find(isLive);
+    // YouTube はチャンネルの URL では配信を開けないので、配信そのものの URL を渡す
+    const stream = source?.platform === 'youtube' ? source.streams.find((s) => s.live).url : source?.channel.url;
+    if (stream) url.searchParams.append('add', stream);
+  }
+  const count = url.searchParams.getAll('add').length;
+  for (const link of document.querySelectorAll('.multiview')) {
+    link.href = url;
+    if (!link.closest('.links')) link.title = count ? `配信中の${count}人を、1つのタブに並べて見る` : MULTIVIEW_TITLE;
+  }
 }
 
 function renderBoard(now) {
@@ -571,9 +592,18 @@ $('#board').addEventListener('pointerup', (e) => {
   $(dx > 0 ? '#prev' : '#next').click();
 });
 
-// 開いているあいだに OS のライト／ダークが切り替わったら追従する（最初の決定は index.html の中で行う）
+// ライト／ダーク。最初の決定は index.html の中で行う（保存のキーも同じ 'theme'）。
+// ボタンで選んだらそれを覚え、選んでいなければ OS の設定の切り替えに追従する
+const root = document.documentElement;
+let themeChosen = false;
+try { themeChosen = localStorage.getItem('theme') !== null; } catch { /* 保存できない環境では、開いているあいだだけ切り替わる */ }
+$('.theme').addEventListener('click', () => {
+  root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  themeChosen = true;
+  try { localStorage.setItem('theme', root.dataset.theme); } catch { /* 上と同じ */ }
+});
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-  document.documentElement.dataset.theme = e.matches ? 'dark' : 'light';
+  if (!themeChosen) root.dataset.theme = e.matches ? 'dark' : 'light';
 });
 
 // 日数ボタンのつまみはボタンの実寸から位置を決めるので、大きさが変わったら置き直す

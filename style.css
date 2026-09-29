@@ -415,12 +415,16 @@ a.who-link:hover .name { text-decoration: underline; }
 .foot .note { margin-left: auto; white-space: nowrap; }
 .links { order: 1; display: flex; align-items: center; gap: 0.75rem; white-space: nowrap; }
 .links a { display: inline-flex; align-items: center; text-underline-offset: 0.2em; }
-.links a:hover { color: var(--ink); }
+.links a:hover, .links button:hover { color: var(--ink); }
+/* ライト／ダークの切り替え。いまのテーマの反対側のアイコンだけを出す */
+.links .theme { display: inline-flex; align-items: center; padding: 0; border: 0; background: none; color: inherit; cursor: pointer; }
+.theme .to-light, :root[data-theme="dark"] .theme .to-dark { display: none; }
+:root[data-theme="dark"] .theme .to-light { display: block; }
 .links .github { text-decoration: none; }
 /* マルチビューへのリンクは、ヘッダーに出せないときだけフッターに出す */
 .links .multiview { display: none; }
 main:has(.hero.link-off) .links .multiview { display: inline-flex; }
-.links a:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; border-radius: 3px; }
+.links a:focus-visible, .links button:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; border-radius: 3px; }
 
 @media (prefers-reduced-motion: reduce) {
   .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .plat.live { animation: none; }
@@ -513,8 +517,6 @@ main:has(.hero.link-off) .links .multiview { display: inline-flex; }
   .step button { padding-inline: 0.1rem; }
   .step .js-today { padding-inline: 0.3rem; }
   .controls .js-days { font-size: 0.75rem; }
-  /* フッターの1行目（凡例とリンク）が折り返さないよう、間隔を詰める */
-  .legend { gap: 0.3rem 0.35rem; }
-  .legend span { gap: 0.2rem; }
-  .links { gap: 0.3rem; }
+  /* フッターの1行目（凡例とリンク）が折り返さないよう、凡例は印だけにする */
+  .legend .label { display: none; }
 }

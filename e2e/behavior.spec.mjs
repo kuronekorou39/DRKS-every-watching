@@ -84,6 +84,29 @@ test('ライトかダークかは、開いたときの OS の設定に合わせ�
   }
 });
 
+test('フッターのボタンでライトとダークが切り替わり、開き直しても覚えている', async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'light' });
+  await openBoard(page, { width: 1400, height: 800 });
+  await page.locator('.theme').click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await page.locator('.theme').click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+});
+
+test('マルチビューへのリンクは、配信中の配信を1人につき1つ渡す', async ({ page }) => {
+  await openBoard(page, { width: 1400, height: 800 });
+  const hrefs = await page.locator('.multiview').evaluateAll((links) => links.map((a) => a.href));
+  expect(hrefs).toHaveLength(2);
+  for (const href of hrefs) {
+    const url = new URL(href);
+    expect(url.pathname).toBe('/chrome-parallel-stream/multiview.html');
+    // 配信中は1人目（Twitch）だけ
+    expect(url.searchParams.getAll('add')).toEqual(['https://example.com/twitch/long']);
+  }
+});
+
 test('URL の from / to で範囲を指定して開ける', async ({ page }) => {
   await openBoard(page, { width: 1400, height: 800, search: '?from=2026-09-17&to=2026-09-18' });
   expect(await period(page)).toEqual(['2026-09-17', '2026-09-18']);
