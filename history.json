@@ -184,7 +184,7 @@
       {
        "stream_id": "316521343474",
        "start": "2026-09-29T03:52:21.000Z",
-       "end": "2026-09-29T04:58:45.917Z",
+       "end": "2026-09-29T05:08:43.852Z",
        "end_source": "poll",
        "live": true,
        "title": "APEXをやる人々",
@@ -1161,14 +1161,14 @@
       },
       {
        "stream_id": "316520909938",
-       "start": "2026-09-29T00:48:42.000Z",
-       "end": "2026-09-29T04:58:45.921Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-29T00:48:47.000Z",
+       "end": "2026-09-29T05:04:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "平日朝のキッズ負けてくれ 昼過ぎまで",
        "game": "Super Mario Maker 2",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886829412",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/042da9f596ec8ceb2daf_batora324_316520909938_1790642922//thumb/thumb0-320x180.jpg"
       }
      ]
     }
