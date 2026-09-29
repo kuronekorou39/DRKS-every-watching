@@ -54,6 +54,20 @@ test('配信中の人はアイコンとバーが配信中の見た目になり�
   await expect(page.locator('.team .who.live')).toHaveCount(1);
 });
 
+test('配信していない人のアイコンは控えめになり、行に乗せると元に戻る', async ({ page }) => {
+  await openBoard(page, { width: 1400, height: 800 });
+  const live = page.locator('.who.live .initial').first();
+  const idleRow = page.locator('.row.person:has(.who:not(.live))').first();
+  const idle = idleRow.locator('.initial');
+  await expect(live).toHaveCSS('opacity', '1');
+  await expect(live).toHaveCSS('filter', 'none');
+  await expect(idle).not.toHaveCSS('opacity', '1');
+  await expect(idle).not.toHaveCSS('filter', 'none');
+  await idleRow.hover();
+  await expect(idle).toHaveCSS('opacity', '1');
+  await expect(idle).toHaveCSS('filter', 'none');
+});
+
 test('同時配信は上下に分かれ、合計は二重に数えない', async ({ page }) => {
   await openBoard(page, { width: 1400, height: 800, search: '?from=2026-09-19&to=2026-09-19' });
   const first = page.locator('.person:not(.team)').first();

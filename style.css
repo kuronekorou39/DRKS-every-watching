@@ -284,6 +284,9 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 .who img, .who .initial { position: relative; z-index: 1; width: var(--avatar); height: var(--avatar); border-radius: 50%; }
 .who .initial { background: var(--empty-alt); font-size: 0.75rem; line-height: var(--avatar); text-align: center; }
 .who .name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+/* 配信していない人は、アイコンの色を少し抜き、名前も控えめにして、配信中の人を引き立てる */
+.who:not(.live) :is(img, .initial) { filter: grayscale(0.6); opacity: 0.75; transition: filter 0.2s, opacity 0.2s; }
+.who:not(.live) .name { color: color-mix(in srgb, var(--ink) 72%, var(--paper)); transition: color 0.2s; }
 /* 配信中のアイコン: 輪が回り、外へ波紋が広がる */
 .who.live img, .who.live .initial { box-shadow: 0 0 0 1.5px var(--paper); }
 .who.live .avatar::before, .who.live .avatar::after { content: ""; position: absolute; border-radius: 50%; }
@@ -362,6 +365,9 @@ a.who-link:hover .name { text-decoration: underline; }
 @media (hover: hover) {
   .row.person:hover { background: color-mix(in srgb, var(--signal) 13%, transparent); }
   .row.person:hover .total { color: var(--ink); }
+  /* 配信していない人の控えめな見た目も、乗せているあいだは元に戻す */
+  .row.person:hover .who:not(.live) :is(img, .initial) { filter: none; opacity: 1; }
+  .row.person:hover .who:not(.live) .name { color: inherit; }
 }
 
 /* マウスに追従する縦の補助線と、その位置の日時 */
@@ -433,7 +439,7 @@ main:has(.hero.link-off) .links .multiview { display: inline-flex; }
 
 @media (prefers-reduced-motion: reduce) {
   .seg.live, .seg.live::after, .who.live .avatar::before, .who.live .avatar::after, .plat.live { animation: none; }
-  .range .thumb, .range button { transition: none; }
+  .range .thumb, .range button, .who :is(img, .initial, .name) { transition: none; }
 }
 
 /* 広い画面（全画面表示など）では、離れても読めるように文字を画面幅に合わせて大きく、濃くする */
