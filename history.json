@@ -893,7 +893,7 @@
       {
        "stream_id": "YdXtfKet3Ck",
        "start": "2026-09-28T23:44:46.000Z",
-       "end": "2026-09-29T00:48:31.640Z",
+       "end": "2026-09-29T00:58:31.145Z",
        "end_source": "poll",
        "live": true,
        "title": "ついに来てしまったこの日。皆のトラウマの日。大幅な株式分割。果たしてどうなる日経平均。荒れまくる半導体メモリー相場。損切りしたくない。株はもう下がらないんだ。苦悶の朝の寄り付き株ライブ生放送！！",
@@ -1147,6 +1147,17 @@
        "game": "Teach My Little Sister How to Drive",
        "url": "https://www.twitch.tv/videos/2886147746",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e6019202c7c2271b0be2_batora324_316505227377_1790571975//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316520909938",
+       "start": "2026-09-29T00:48:42.000Z",
+       "end": "2026-09-29T00:58:31.146Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "平日朝のキッズ負けてくれ 昼過ぎまで",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
