@@ -154,14 +154,13 @@ h1, h2, h3, p { margin: 0; }
 .range button, .step button { border: 0; }
 /* ◀ ▶ は脇役なので小さく薄いままにする */
 .step button { font-size: 0.875rem; font-weight: 400; color: var(--muted); }
-/* 期間のカプセルの右端に入れる「今日」。日数ボタンと同じ大きさ・同じ塗りつぶしにする */
+/* 期間のカプセルの右端に入れる「今日」。日数ボタンと同じ大きさにする */
 .step .sep { align-self: center; width: 1px; height: 1.2em; margin-inline: 0.35rem 0.25rem; background: var(--line); }
 .step .js-today { font-size: inherit; font-weight: inherit; color: var(--ink); }
 .step .js-today:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .pill { padding-block: calc(0.15rem + 2px); }
 select.pill { display: none; color: var(--ink); }
-/* 選択中の「今日」は塗りつぶしの上に背景色の文字を載せているので、乗せても文字色を変えない（変えると地と同じ色になって消える） */
-.step button:hover:not(:disabled):not([aria-pressed="true"]) { color: var(--ink); }
+.step button:hover:not(:disabled) { color: var(--ink); }
 button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 /* マルチビュー（別サイト）へのリンク。ほかのカプセルと同じ見た目にして、操作欄の右端に置く */
 a.pill { display: inline-flex; align-items: center; gap: 0.4em; text-decoration: none; }
@@ -182,11 +181,11 @@ a.pill svg { flex: none; width: 1em; height: 1em; }
   box-shadow: var(--accent-shadow), inset 0 1px 0 rgb(255 255 255 / 0.2);
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), width 0.35s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s;
 }
-/* 今日を表示しているあいだは「今日」を選択中の見た目にして、押しても変わらないことが分かるようにする */
+/* 今日を表示しているあいだは「今日」を押してある見た目にして、押しても変わらないことが分かるようにする。
+   日数の切替（選択中は濃い塗りつぶし）とは役割が違うので、淡い塗りにして見分けがつくようにする */
 .step .js-today[aria-pressed="true"] {
-  background: var(--accent-grad);
-  box-shadow: var(--accent-shadow), inset 0 1px 0 rgb(255 255 255 / 0.2);
-  color: var(--paper);
+  /* 文字色を薄く重ねる（ダークモードでも地に埋もれないように） */
+  background: color-mix(in srgb, var(--ink) 13%, transparent);
   cursor: default;
 }
 /* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
