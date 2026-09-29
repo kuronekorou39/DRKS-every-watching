@@ -285,7 +285,7 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 .who .initial { background: var(--empty-alt); font-size: 0.75rem; line-height: var(--avatar); text-align: center; }
 .who .name { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 /* 配信していない人は、アイコンの色を少し抜き、名前も控えめにして、配信中の人を引き立てる */
-.who:not(.live) :is(img, .initial) { filter: grayscale(0.6); opacity: 0.75; transition: filter 0.2s, opacity 0.2s; }
+.who:not(.live) :is(img, .initial) { filter: grayscale(0.6); opacity: 0.6; transition: filter 0.2s, opacity 0.2s; }
 .who:not(.live) .name { color: color-mix(in srgb, var(--ink) 72%, var(--paper)); transition: color 0.2s; }
 /* 配信中のアイコン: 輪が回り、外へ波紋が広がる */
 .who.live img, .who.live .initial { box-shadow: 0 0 0 1.5px var(--paper); }
