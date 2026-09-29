@@ -377,6 +377,17 @@
        "game": "Unseasonable Flowering",
        "url": "https://www.twitch.tv/videos/2886288036",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/616837350003727076e8_indegnasen0706_316506668017_1790596808//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316578673395",
+       "start": "2026-09-29T11:01:10.000Z",
+       "end": "2026-09-29T11:08:57.995Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "こんばんは！布団ちゃんです！何をしましょうかネ！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -663,7 +674,7 @@
       {
        "stream_id": "316578237811",
        "start": "2026-09-29T09:00:23.000Z",
-       "end": "2026-09-29T10:58:57.601Z",
+       "end": "2026-09-29T11:08:57.995Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -799,6 +810,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2885473033",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ca0ca8842e299800d027_oniyadayo_316514786162_1790515904//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316578689267",
+       "start": "2026-09-29T11:03:46.000Z",
+       "end": "2026-09-29T11:08:57.996Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "Apex Legendsスト６コラボやっていくぞ！！関優太、スパイギアといくぞおお！！sponcered by EA！！【PR】",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
