@@ -22,6 +22,9 @@
   --accent-grad: linear-gradient(135deg, #1d2640 0%, #3e2c92 100%);
   --sheen: linear-gradient(180deg, rgb(255 255 255 / 0.18), rgb(0 0 0 / 0.12));
   --accent-shadow: 0 1px 2px rgb(29 38 64 / 0.3), 0 5px 12px -3px rgb(62 44 146 / 0.45);
+  /* カプセルの中の、乗せたとき・押してあるときの淡い塗り。文字色を薄く重ねるので、ダークモードでも地に埋もれない */
+  --hover-fill: color-mix(in srgb, var(--ink) 8%, transparent);
+  --pressed-fill: color-mix(in srgb, var(--ink) 13%, transparent);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -157,14 +160,14 @@ h1, h2, h3, p { margin: 0; }
 /* 期間のカプセルの右端に入れる「今日」。日数ボタンと同じ大きさにする */
 .step .sep { align-self: center; width: 1px; height: 1.2em; margin-inline: 0.35rem 0.25rem; background: var(--line); }
 .step .js-today { font-size: inherit; font-weight: inherit; color: var(--ink); }
-.step .js-today:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
+.step .js-today:not([aria-pressed="true"]):hover { background: var(--hover-fill); }
 .pill { padding-block: calc(0.15rem + 2px); }
 select.pill { display: none; color: var(--ink); }
 .step button:hover:not(:disabled) { color: var(--ink); }
 button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 /* マルチビュー（別サイト）へのリンク。ほかのカプセルと同じ見た目にして、操作欄の右端に置く */
 a.pill { display: inline-flex; align-items: center; gap: 0.4em; text-decoration: none; }
-a.pill:hover { background-color: var(--empty-alt); }
+a.pill:hover { background-color: var(--hover-fill); }
 a.pill svg { flex: none; width: 1em; height: 1em; }
 .range button:not([aria-pressed="true"]):hover { color: var(--ink); }
 .step button:disabled { opacity: 0.35; cursor: default; }
@@ -184,8 +187,7 @@ a.pill svg { flex: none; width: 1em; height: 1em; }
 /* 今日を表示しているあいだは「今日」を押してある見た目にして、押しても変わらないことが分かるようにする。
    日数の切替（選択中は濃い塗りつぶし）とは役割が違うので、淡い塗りにして見分けがつくようにする */
 .step .js-today[aria-pressed="true"] {
-  /* 文字色を薄く重ねる（ダークモードでも地に埋もれないように） */
-  background: color-mix(in srgb, var(--ink) 13%, transparent);
+  background: var(--pressed-fill);
   cursor: default;
 }
 /* 日付の文字。透明な日付入力を上に重ねて、押すとカレンダーが開くようにしている */
