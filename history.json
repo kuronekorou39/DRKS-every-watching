@@ -381,7 +381,7 @@
       {
        "stream_id": "316578673395",
        "start": "2026-09-29T11:01:10.000Z",
-       "end": "2026-09-29T12:49:12.554Z",
+       "end": "2026-09-29T12:59:12.124Z",
        "end_source": "poll",
        "live": true,
        "title": "コアキーパーがどんなゲームなのかを考えてみる←こんばんは！布団ちゃんです！何をしましょうかネ！",
@@ -674,7 +674,7 @@
       {
        "stream_id": "316578237811",
        "start": "2026-09-29T09:00:23.000Z",
-       "end": "2026-09-29T12:49:12.555Z",
+       "end": "2026-09-29T12:59:12.125Z",
        "end_source": "poll",
        "live": true,
        "title": "ヘビーレイン 初見プレイ ２日目",
@@ -821,6 +821,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2887105168",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bd33897c1a83fa559ddf_oniyadayo_316578689267_1790679826//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316579297267",
+       "start": "2026-09-29T12:55:27.000Z",
+       "end": "2026-09-29T12:59:12.125Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "エペ部、最終回。俺はお前らを見送るよ。CRカップ絶対に勝てよ。「卒業編」：卒業者 関優太 スパイギア。Apex Legends！！",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -1044,7 +1055,7 @@
       {
        "stream_id": "316510659825",
        "start": "2026-09-29T11:23:56.000Z",
-       "end": "2026-09-29T12:49:12.556Z",
+       "end": "2026-09-29T12:59:12.125Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートをやるぜ!目指せレート7000",
@@ -1348,7 +1359,7 @@
       {
        "stream_id": "RtBhEaHBAWk",
        "start": "2026-09-29T12:01:54.000Z",
-       "end": "2026-09-29T12:49:12.556Z",
+       "end": "2026-09-29T12:59:12.126Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS",
