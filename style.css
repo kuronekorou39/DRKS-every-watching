@@ -331,8 +331,7 @@ a.who-link:hover .name { text-decoration: underline; }
   background: var(--signal);
   animation: ping 1.6s ease-out infinite;
 }
-.plat.live { animation: blink 1.6s ease-in-out infinite; }
-@keyframes stripes { to { background-position: 17px 0; } }
+.plat.live { animation: blink 1.6s ease-in-out infinite; }@keyframes stripes { to { background-position: 17px 0; } }
 @keyframes ping {
   from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--signal) 75%, transparent); }
   to { box-shadow: 0 0 0 9px transparent; }

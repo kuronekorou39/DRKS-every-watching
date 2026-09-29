@@ -134,6 +134,29 @@ test('配信中の人はアイコンとバーが配信中の見た目になり�
   await expect(page.locator('.team .who.live')).toHaveCount(1);
 });
 
+test('過去の期間を見ていても、配信中の人と DRKS のアイコンは配信中の見た目のまま', async ({ page }) => {
+  await openBoard(page, { width: 1400, height: 800 });
+  await page.locator('#prev').click();
+  await expect(page.locator('.seg.live')).toHaveCount(0);
+  await expect(page.locator('.person:not(.team) .who.live')).toHaveCount(1);
+  await expect(page.locator('.team .who.live')).toHaveCount(1);
+});
+
+test('描き直しても、配信中のアニメーションは最初からやり直さない', async ({ page }) => {
+  // ほかのテストは動きを減らす設定で走る。ここではアニメーションを動かす
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await openBoard(page, { width: 1400, height: 800 });
+  const startTimes = () => page.locator('#board').evaluate((board) =>
+    board.getAnimations({ subtree: true }).filter((a) => a instanceof CSSAnimation).map((a) => a.startTime));
+  // 輪と波紋（DRKS 行と本人）、配信先の印、バーの縞と先端の点（DRKS 行と本人）
+  expect(await startTimes()).toHaveLength(9);
+  for (const key of ['ArrowRight', 'ArrowLeft', 'ArrowRight']) {
+    await page.keyboard.press(key);
+    // どれも始まりの時刻が同じ（= 描き直しても、動きの位置が続いている）
+    expect(new Set(await startTimes())).toEqual(new Set([0]));
+  }
+});
+
 test('現在時刻の線は行の境目で切れず、今日の見出しには色が付く', async ({ page }) => {
   for (const width of [390, 1400]) {
     await openBoard(page, { width, height: 800 });

@@ -177,6 +177,8 @@ function renderBoard(now) {
     source.streams.map((s) => ({ start: Date.parse(s.start), end: streamEnd(s, now), live: s.live }))));
   rows.push(renderTeamRow(mergeIntervals(everyone.map(clipTo(draw)).filter((g) => g.end > g.start)), {
     coveredMs: sumIn({ from, to }, everyone),
+    // 配信中かどうかは、表示している期間に関係なく決める（過去を見ていても、誰かが配信中ならアイコンは配信中の見た目）
+    live: channels.some((c) => c.sources.some(isLive)),
     from, to, pos, strip,
   }));
 
@@ -248,12 +250,17 @@ function renderBoard(now) {
   const body = el('div', { className: 'body' }, rows);
   attachCursorLine(body, from, span);
   $('#board').replaceChildren(head, body);
+  // 描き直すと要素が作り直され、配信中のアニメーション（輪・波紋・縞）が最初から始まってしまう。
+  // 始まりの時刻をそろえて、描き直しても動きが途切れないようにする
+  for (const anim of $('#board').getAnimations({ subtree: true })) {
+    if (anim instanceof CSSAnimation) anim.startTime = 0;
+  }
   renderScale();
   if (animFrom) animateBoard();
 }
 
 /** 全員ぶんをまとめた行。合計は、誰か1人でも配信していた時間（coveredMs） */
-function renderTeamRow(merged, { coveredMs, from, to, pos, strip }) {
+function renderTeamRow(merged, { coveredMs, live, from, to, pos, strip }) {
   const track = el('div', { className: 'track' }, [strip(merged.map((g) => {
     const label =
       `${formatDate(g.start)} ${formatClock(g.start)}〜${g.live ? '配信中' : `${formatDate(g.end)} ${formatClock(g.end)}`}` +
@@ -267,7 +274,7 @@ function renderTeamRow(merged, { coveredMs, from, to, pos, strip }) {
     return seg;
   }))]);
 
-  const who = el('div', { className: `who${merged.some((g) => g.live) ? ' live' : ''}` }, [
+  const who = el('div', { className: `who${live ? ' live' : ''}` }, [
     el('span', { className: 'who-link', title: TEAM_NAME }, [
       el('span', { className: 'avatar' }, [el('span', { className: 'initial', ariaHidden: 'true', textContent: '泥' })]),
       el('span', { className: 'name', textContent: TEAM_NAME }),
