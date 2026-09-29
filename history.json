@@ -381,7 +381,7 @@
       {
        "stream_id": "316578673395",
        "start": "2026-09-29T11:01:10.000Z",
-       "end": "2026-09-29T11:18:58.931Z",
+       "end": "2026-09-29T11:28:59.601Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！布団ちゃんです！何をしましょうかネ！",
@@ -674,7 +674,7 @@
       {
        "stream_id": "316578237811",
        "start": "2026-09-29T09:00:23.000Z",
-       "end": "2026-09-29T11:18:58.931Z",
+       "end": "2026-09-29T11:28:59.602Z",
        "end_source": "poll",
        "live": true,
        "title": "ヘビーレイン 初見プレイ ２日目",
@@ -814,7 +814,7 @@
       {
        "stream_id": "316578689267",
        "start": "2026-09-29T11:03:46.000Z",
-       "end": "2026-09-29T11:18:58.932Z",
+       "end": "2026-09-29T11:28:59.602Z",
        "end_source": "poll",
        "live": true,
        "title": "Apex Legendsスト６コラボやっていくぞ！！関優太、スパイギアといくぞおお！！sponcered by EA！！【PR】",
@@ -1040,6 +1040,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2885375897",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/107e04c426629a8b50f1_assarisyoko1_316513961970_1790505966//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316510659825",
+       "start": "2026-09-29T11:23:56.000Z",
+       "end": "2026-09-29T11:28:59.603Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "マリオカートをやるぜ!目指せレート7000",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
