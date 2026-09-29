@@ -893,13 +893,13 @@
       {
        "stream_id": "YdXtfKet3Ck",
        "start": "2026-09-28T23:44:46.000Z",
-       "end": "2026-09-29T02:18:43.616Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-09-29T02:19:42.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ついに来てしまったこの日。皆のトラウマの日。大幅な株式分割。果たしてどうなる日経平均。荒れまくる半導体メモリー相場。損切りしたくない。株はもう下がらないんだ。苦悶の朝の寄り付き株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=YdXtfKet3Ck",
-       "thumb": "https://i.ytimg.com/vi/YdXtfKet3Ck/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/YdXtfKet3Ck/mqdefault.jpg"
       }
      ]
     }
@@ -1151,7 +1151,7 @@
       {
        "stream_id": "316520909938",
        "start": "2026-09-29T00:48:42.000Z",
-       "end": "2026-09-29T02:18:43.617Z",
+       "end": "2026-09-29T02:28:43.863Z",
        "end_source": "poll",
        "live": true,
        "title": "平日朝のキッズ負けてくれ 昼過ぎまで",
