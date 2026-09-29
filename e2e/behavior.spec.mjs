@@ -27,6 +27,65 @@ test('◀ ▶ と「今日」で表示範囲が動き、URL に残る', async ({
   await expect(page.locator('.js-today')).toHaveAttribute('aria-pressed', 'true');
 });
 
+test('キーボードの ← → と T で表示範囲が動く。入力欄の操作は横取りしない', async ({ page }) => {
+  await openBoard(page, { width: 1400, height: 800 });
+  await page.keyboard.press('ArrowLeft');
+  expect(await period(page)).toEqual(['2026-09-16', '2026-09-18']);
+  await page.keyboard.press('ArrowRight');
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+  // 今日より先へは進めない
+  await page.keyboard.press('ArrowRight');
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+  await page.keyboard.press('ArrowLeft');
+  await page.keyboard.press('t');
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+
+  await page.locator('#from').focus();
+  await page.keyboard.press('ArrowLeft');
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+});
+
+test('ボードを指で左右に払うと表示範囲が動く。縦の動きやマウスでは動かない', async ({ page }) => {
+  await openBoard(page, { width: 390, height: 760 });
+  const swipe = (dx, dy, pointerType = 'touch') => page.locator('.row.person .track').nth(3).evaluate((el, [dx, dy, pointerType]) => {
+    const r = el.getBoundingClientRect();
+    const at = { clientX: r.left + r.width / 2, clientY: r.top + r.height / 2 };
+    const fire = (type, x, y) => el.dispatchEvent(new PointerEvent(type, { bubbles: true, isPrimary: true, pointerType, clientX: x, clientY: y }));
+    fire('pointerdown', at.clientX, at.clientY);
+    fire('pointerup', at.clientX + dx, at.clientY + dy);
+  }, [dx, dy, pointerType]);
+
+  await swipe(120, 10);
+  expect(await period(page)).toEqual(['2026-09-16', '2026-09-18']);
+  await swipe(-120, -10);
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+  await swipe(60, 200);
+  await swipe(20, 0);
+  await swipe(120, 0, 'mouse');
+  expect(await period(page)).toEqual(['2026-09-19', '2026-09-21']);
+});
+
+test('文字を選択できるのは詳細カードだけ', async ({ page }) => {
+  await openBoard(page, { width: 1400, height: 800 });
+  await page.locator('.person:not(.team) .seg').first().click();
+  for (const selector of ['.hero h1', '.day', '.who .name', '.total', '.foot .note']) {
+    await expect(page.locator(selector).first(), selector).toHaveCSS('user-select', 'none');
+  }
+  await expect(page.locator('#detail .detail-title')).toHaveCSS('user-select', 'text');
+});
+
+test('ライトかダークかは OS の設定に合わせ、開いているあいだの切り替えにも追従する', async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await openBoard(page, { width: 1400, height: 800 });
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await expect(page.locator('body')).toHaveCSS('color', 'rgb(230, 233, 242)');
+  await page.emulateMedia({ colorScheme: 'light' });
+  // テストでは時刻を止めていて画面が描き直されないので、読み取りで設定の変化を反映させる
+  await page.evaluate(() => matchMedia('(prefers-color-scheme: dark)').matches);
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+  await expect(page.locator('body')).toHaveCSS('color', 'rgb(29, 38, 64)');
+});
+
 test('URL の from / to で範囲を指定して開ける', async ({ page }) => {
   await openBoard(page, { width: 1400, height: 800, search: '?from=2026-09-17&to=2026-09-18' });
   expect(await period(page)).toEqual(['2026-09-17', '2026-09-18']);

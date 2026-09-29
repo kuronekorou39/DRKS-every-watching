@@ -27,32 +27,7 @@
   --pressed-fill: color-mix(in srgb, var(--ink) 13%, transparent);
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #121829;
-    --ink: #e6e9f2;
-    --muted: #8b93a8;
-    --line: #283049;
-    --empty: #1b2236;
-    --empty-alt: #232b44;
-    --day-line: #414b6b;
-    --sat: #7fa8f0;
-    --sun: #f08a80;
-    --heat: #b9a8ff;
-    --youtube: #ff7a70;
-    --kick: #6be33a;
-    --signal: #f2b138;
-    --bg-top: #171e36;
-    --bg-bottom: #0d1220;
-    --glow: rgb(185 168 255 / 0.13);
-    --glass: rgb(255 255 255 / 0.06);
-    --glass-line: rgb(255 255 255 / 0.14);
-    --glass-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 20px -8px rgb(0 0 0 / 0.5);
-    --accent-grad: linear-gradient(135deg, #e6e9f2 0%, #b9a8ff 100%);
-    --accent-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 5px 12px -3px rgb(185 168 255 / 0.35);
-    color-scheme: dark;
-  }
-}
+/* ダークモード。どちらで描くかは index.html の先頭のスクリプトが決めて data-theme に入れる */
 :root[data-theme="dark"] {
   --paper: #121829;
   --ink: #e6e9f2;
@@ -89,6 +64,9 @@ body {
   color: var(--ink);
   font: 400 1rem/1.75 "IBM Plex Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
   font-variant-numeric: tabular-nums;
+  /* 表なので、文字は選択させない（全選択で目盛りや凡例まで選ばれないように）。コピーする価値のある詳細カードだけ選択できる */
+  -webkit-user-select: none;
+  user-select: none;
 }
 /* 縦スクロールなしで収まるよう、画面の高さいっぱいの縦積みにしてボードに残りの高さを全部回す */
 main {
@@ -204,7 +182,8 @@ section, .scroll, .board { flex: 1; display: flex; flex-direction: column; }
 
 /* ---- board ---- */
 /* アイコンとバーの大きさは行の高さ（cqh = .person の高さの1%）から決める */
-.board { --avatar: min(70cqh, 4.5rem); --track-h: 68cqh; font-size: 0.8125rem; }
+/* 左右に払う操作は JS が受け取るので、ブラウザには縦のスクロールと拡大だけを任せる */
+.board { --avatar: min(70cqh, 4.5rem); --track-h: 68cqh; font-size: 0.8125rem; touch-action: pan-y pinch-zoom; }
 .row {
   position: relative;
   display: grid;
@@ -398,6 +377,8 @@ a.who-link:hover .name { text-decoration: underline; }
   background: var(--paper);
   box-shadow: 0 10px 30px rgb(0 0 0 / 0.25);
   font-size: clamp(0.875rem, 0.75vw, 1.1rem); line-height: 1.5;
+  -webkit-user-select: text;
+  user-select: text;
 }
 .detail[hidden] { display: none; }
 .detail .thumb { flex: none; align-self: start; width: 10rem; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: var(--empty); }

@@ -22,6 +22,7 @@ const TEAM_NAME = 'DRKS';
 const SLIDE_MS = 380;
 const ZOOM_MS = 450;
 const MIN_HEADER_GAP_EM = 5; // ロゴと操作欄の間がこれ（操作欄の文字の大きさの何倍か）より詰まったら、日数のボタン列をプルダウンに替える
+const SWIPE_MIN_PX = 48; // 指で払ったとみなす横の移動量
 const MAX_ANIM_DAYS = 120; // 変える前後を合わせた範囲がこれより長いときは、アニメーションなしで切り替える（描く量が増えすぎるため）
 
 const $ = (sel) => document.querySelector(sel);
@@ -544,7 +545,36 @@ new ResizeObserver(([entry]) => {
 
 // カードの外を押すか Esc で閉じる
 document.addEventListener('click', (e) => { if (!e.target.closest('#detail')) hideDetail(); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideDetail(); });
+// キーボード: ← → で表示範囲を前後へ、T で今日へ。入力欄やプルダウンを操作しているときは横取りしない
+const KEY_BUTTONS = { ArrowLeft: '#prev', ArrowRight: '#next', t: '.js-today', T: '.js-today' };
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') return hideDetail();
+  const button = KEY_BUTTONS[e.key];
+  if (!button || e.ctrlKey || e.metaKey || e.altKey || e.target.closest('input, select, textarea')) return;
+  e.preventDefault();
+  $(button).click();
+});
+
+// タッチ操作では、ボードを左右に払って表示範囲を前後へ動かす。中身が指についてくる向きにする（右へ払うと前の期間）
+let swipeFrom = null;
+$('#board').addEventListener('pointerdown', (e) => {
+  swipeFrom = e.pointerType === 'touch' && e.isPrimary ? { x: e.clientX, y: e.clientY } : null;
+});
+$('#board').addEventListener('pointercancel', () => { swipeFrom = null; });
+$('#board').addEventListener('pointerup', (e) => {
+  if (!swipeFrom) return;
+  const dx = e.clientX - swipeFrom.x;
+  const dy = e.clientY - swipeFrom.y;
+  swipeFrom = null;
+  // 縦のスクロールや、バーを押したときの指のぶれは拾わない
+  if (Math.abs(dx) < SWIPE_MIN_PX || Math.abs(dx) < 2 * Math.abs(dy)) return;
+  $(dx > 0 ? '#prev' : '#next').click();
+});
+
+// 開いているあいだに OS のライト／ダークが切り替わったら追従する（最初の決定は index.html の中で行う）
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  document.documentElement.dataset.theme = e.matches ? 'dark' : 'light';
+});
 
 // 日数ボタンのつまみはボタンの実寸から位置を決めるので、大きさが変わったら置き直す
 new ResizeObserver(moveThumb).observe($('.range'));
