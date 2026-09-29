@@ -131,7 +131,7 @@ h1, h2, h3, p { margin: 0; }
 }
 .range, .step, .pill { border: 1px solid var(--line); border-radius: 999px; }
 /* カプセルは、背景のグラデーションが透けるすりガラス風にして少し浮かせる */
-.range, .step, select.pill {
+.range, .step, select.pill, a.pill {
   border-color: var(--glass-line);
   background-color: var(--glass);
   box-shadow: var(--glass-shadow);
@@ -139,7 +139,7 @@ h1, h2, h3, p { margin: 0; }
   backdrop-filter: blur(10px);
 }
 /* カプセルの高さは、中のボタン（行の高さ 1.75em + 上下の余白 0.3rem）＋内側の余白と枠でそろえる */
-.range, .step, select.pill { box-sizing: border-box; min-height: calc(1.75em + 0.3rem + 6px); }
+.range, .step, select.pill, a.pill { box-sizing: border-box; min-height: calc(1.75em + 0.3rem + 6px); }
 .range, .step { display: flex; align-items: center; padding: 2px; }
 .step { white-space: nowrap; }
 .range button, .step button, .pill {
@@ -163,6 +163,10 @@ select.pill { display: none; color: var(--ink); }
 /* 選択中の「今日」は塗りつぶしの上に背景色の文字を載せているので、乗せても文字色を変えない（変えると地と同じ色になって消える） */
 .step button:hover:not(:disabled):not([aria-pressed="true"]) { color: var(--ink); }
 button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
+/* マルチビュー（別サイト）へのリンク。ほかのカプセルと同じ見た目にして、操作欄の右端に置く */
+a.pill { display: inline-flex; align-items: center; gap: 0.4em; text-decoration: none; }
+a.pill:hover { background-color: var(--empty-alt); }
+a.pill svg { flex: none; width: 1em; height: 1em; }
 .range button:not([aria-pressed="true"]):hover { color: var(--ink); }
 .step button:disabled { opacity: 0.35; cursor: default; }
 /* 日数の切替: 選んでいない項目は控えめにし、塗りつぶし（つまみ）が選んだ項目へ横に滑る */
@@ -189,7 +193,7 @@ button.pill:not([aria-pressed="true"]):hover { background: var(--empty-alt); }
 .pick { position: relative; padding: 0 0.15rem; border-bottom: 1px dashed var(--muted); white-space: nowrap; cursor: pointer; }
 .pick input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
 .pick:has(input:focus-visible) { outline: 2px solid var(--signal); outline-offset: 2px; }
-.controls button:focus-visible, .controls select:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
+.controls button:focus-visible, .controls select:focus-visible, .controls a:focus-visible, .seg:focus-visible, .who-link:focus-visible, .plat:focus-visible, .detail a:focus-visible, .detail .close:focus-visible {
   outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
@@ -422,6 +426,9 @@ a.who-link:hover .name { text-decoration: underline; }
 .links a { display: inline-flex; align-items: center; text-underline-offset: 0.2em; }
 .links a:hover { color: var(--ink); }
 .links .github { text-decoration: none; }
+/* マルチビューへのリンクは、ヘッダーに出せないときだけフッターに出す */
+.links .multiview { display: none; }
+main:has(.hero.link-off) .links .multiview { display: inline-flex; }
 .links a:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; border-radius: 3px; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -450,6 +457,10 @@ a.who-link:hover .name { text-decoration: underline; }
    入るかどうかはフォントや文字の拡大率で変わるので、幅の決め打ちではなく JS が実測して .compact を付ける */
 .hero.compact .range { display: none; }
 .hero.compact .controls .js-days { display: block; }
+/* マルチビューのリンクも、文字つきで入らなければアイコンだけにする。それでも入らなければフッターに任せる。これも JS が実測して決める */
+.hero.link-icon .multiview { padding-inline: 0.6rem; }
+.hero.link-icon .multiview .label { display: none; }
+.hero.link-off .multiview { display: none; }
 
 @media (max-width: 54rem) {
   /* 名前の列が狭くなるので、配信先の印は隠して名前に幅を回す（配信先はバーの色で分かる） */
@@ -477,7 +488,8 @@ a.who-link:hover .name { text-decoration: underline; }
   .hero { gap: 0.4rem 0.4rem; }
   .hero h1 { font-size: 1.35rem; }
   .controls { flex: 1 0 auto; gap: 0.25rem; }
-  .range { display: none; }
+  .range, .controls .multiview { display: none; }
+  .links .multiview { display: inline-flex; }
   .controls .js-days { display: block; padding-inline: 0.1rem; font-size: 0.8125rem; font-weight: 500; }
   .step { font-size: 0.875rem; }
   .step button { padding-inline: 0.3rem; }
@@ -510,4 +522,8 @@ a.who-link:hover .name { text-decoration: underline; }
   .step button { padding-inline: 0.1rem; }
   .step .js-today { padding-inline: 0.3rem; }
   .controls .js-days { font-size: 0.75rem; }
+  /* フッターの1行目（凡例とリンク）が折り返さないよう、間隔を詰める */
+  .legend { gap: 0.3rem 0.35rem; }
+  .legend span { gap: 0.2rem; }
+  .links { gap: 0.3rem; }
 }

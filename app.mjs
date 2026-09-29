@@ -374,13 +374,26 @@ function animateBoard() {
 
 /**
  * 日数のボタン列がロゴの横に余裕を持って入るかを実測し、窮屈ならプルダウンに替える（.compact）。
+ * マルチビューへのリンクは、その残りの空きに入る形で出す: 文字つき → アイコンだけ（.link-icon）→ フッターに任せる（.link-off）。
  * 入るかどうかはフォントや文字の拡大率、期間の文字数で変わるので、幅の決め打ちにはしない
  */
 function fitHeader() {
   const hero = $('.hero');
-  hero.classList.remove('compact');
+  hero.classList.remove('compact', 'link-icon', 'link-off');
   // 狭い画面は、ヘッダーに期間だけを置く別の並べ方（CSS のメディアクエリ側で決める）
   if (matchMedia('(max-width: 40rem)').matches) return;
+  // ボタン列かプルダウンかは、リンクを除いて決める（リンクのせいでボタン列を諦めない）
+  hero.classList.add('link-off');
+  if (!headerFits(hero)) hero.classList.add('compact');
+  hero.classList.remove('link-off');
+  if (headerFits(hero)) return;
+  hero.classList.add('link-icon');
+  if (headerFits(hero)) return;
+  hero.classList.replace('link-icon', 'link-off');
+}
+
+/** いまの並べ方で、操作欄がロゴの横に余裕を持って入っているか */
+function headerFits(hero) {
   const logo = hero.querySelector('h1').getBoundingClientRect();
   const controls = hero.querySelector('.controls');
   const box = controls.getBoundingClientRect();
@@ -389,7 +402,7 @@ function fitHeader() {
   // 入りきっていても、ロゴとの間が詰まって見える手前で早めに切り替える
   const gap = controls.querySelector('.step').getBoundingClientRect().left - logo.right;
   const cramped = gap < MIN_HEADER_GAP_EM * parseFloat(getComputedStyle(controls).fontSize);
-  if (wrapped || overflowing || cramped) hero.classList.add('compact');
+  return !(wrapped || overflowing || cramped);
 }
 
 /** 日数ボタンの塗りつぶし（つまみ）を、選択中のボタンの位置へ動かす。用意した日数でなければ隠す */

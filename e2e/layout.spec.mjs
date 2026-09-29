@@ -21,7 +21,7 @@ function measure() {
   const doc = document.documentElement;
 
   const hero = document.querySelector('.hero');
-  const headerParts = [...hero.querySelectorAll('h1, .step, .range, .controls .js-days')].filter(visible);
+  const headerParts = [...hero.querySelectorAll('h1, .step, .range, .controls .js-days, .controls .multiview')].filter(visible);
   const heroRight = hero.getBoundingClientRect().right;
 
   const scale = document.querySelector('#board .scale').getBoundingClientRect();
@@ -55,6 +55,7 @@ function measure() {
     worstAvatarOffset: Math.max(...rows.map((r) => r.avatar)),
     avatarsFit: rows.every((r) => r.avatarFits),
     personRows: rows.length,
+    multiviewLinks: [...document.querySelectorAll('.multiview')].filter(visible).map((a) => (a.closest('.hero') ? 'header' : 'footer') + (visible(a.querySelector('.label')) ? '+label' : '')),
   };
 }
 
@@ -77,6 +78,8 @@ for (const width of WIDTHS) {
       expect(m.worstBarOffset, `${at}: バーが行の縦中央にある`).toBeLessThanOrEqual(1);
       expect(m.worstAvatarOffset, `${at}: アイコンが行の縦中央にある`).toBeLessThanOrEqual(1);
       expect(m.avatarsFit, `${at}: アイコンが行に収まる`).toBe(true);
+      // マルチビューへのリンクは、ヘッダーかフッターのどちらか一方にだけ出る
+      expect(m.multiviewLinks, `${at}: マルチビューへのリンク`).toHaveLength(1);
     }
   });
 }
