@@ -183,14 +183,14 @@
       },
       {
        "stream_id": "316521343474",
-       "start": "2026-09-29T03:52:21.000Z",
-       "end": "2026-09-29T09:38:57.815Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-29T03:52:26.000Z",
+       "end": "2026-09-29T09:41:34.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEXをやる人々",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2886951915",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b82b990739297efbcd8d_kato_junichi0817_316521343474_1790653941//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -663,7 +663,7 @@
       {
        "stream_id": "316578237811",
        "start": "2026-09-29T09:00:23.000Z",
-       "end": "2026-09-29T09:38:57.817Z",
+       "end": "2026-09-29T09:48:58.171Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
