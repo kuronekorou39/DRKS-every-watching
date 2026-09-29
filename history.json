@@ -381,7 +381,7 @@
       {
        "stream_id": "316578673395",
        "start": "2026-09-29T11:01:10.000Z",
-       "end": "2026-09-29T15:49:12.936Z",
+       "end": "2026-09-29T15:59:12.563Z",
        "end_source": "poll",
        "live": true,
        "title": "コアキーパーがどんなゲームなのかを考えてみる←こんばんは！布団ちゃんです！何をしましょうかネ！",
@@ -825,7 +825,7 @@
       {
        "stream_id": "316579297267",
        "start": "2026-09-29T12:55:27.000Z",
-       "end": "2026-09-29T15:49:12.937Z",
+       "end": "2026-09-29T15:59:12.563Z",
        "end_source": "poll",
        "live": true,
        "title": "エペ部、最終回。俺はお前らを見送るよ。CRカップ絶対に勝てよ。「卒業編」：卒業者 関優太 スパイギア。Apex Legends！！",
@@ -1054,14 +1054,14 @@
       },
       {
        "stream_id": "316510659825",
-       "start": "2026-09-29T11:23:56.000Z",
-       "end": "2026-09-29T15:49:12.937Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-29T11:24:03.000Z",
+       "end": "2026-09-29T15:55:33.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マリオカートをやるぜ!目指せレート7000",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2887113266",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/77ae4be8446d086734d7_assarisyoko1_316510659825_1790681036//thumb/thumb0-320x180.jpg"
       }
      ]
     }
