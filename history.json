@@ -206,7 +206,7 @@
       {
        "stream_id": "316527522162",
        "start": "2026-09-30T12:57:20.000Z",
-       "end": "2026-09-30T13:50:04.820Z",
+       "end": "2026-09-30T14:00:08.846Z",
        "end_source": "poll",
        "live": true,
        "title": "何かやりましょう",
@@ -868,14 +868,14 @@
       },
       {
        "stream_id": "316515190129",
-       "start": "2026-09-30T12:25:11.000Z",
-       "end": "2026-09-30T13:50:04.823Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-30T12:25:16.000Z",
+       "end": "2026-09-30T13:58:26.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "今期既に４リーダーEPICの男。調整後の環境変化シャドバいくぜぇええ！！！！最強デッキで無双します！！",
        "game": "Shadowverse: Worlds Beyond",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888001476",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fca68104c4e4eab11870_oniyadayo_316515190129_1790771111//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1283,7 +1283,7 @@
       {
        "stream_id": "316582814579",
        "start": "2026-09-30T09:57:11.000Z",
-       "end": "2026-09-30T13:50:04.824Z",
+       "end": "2026-09-30T14:00:08.850Z",
        "end_source": "poll",
        "live": true,
        "title": "スイッチでとんでもないゲーム見つけた ©コーエーテクモゲームス",
