@@ -206,7 +206,7 @@
       {
        "stream_id": "316527522162",
        "start": "2026-09-30T12:57:20.000Z",
-       "end": "2026-09-30T14:00:08.846Z",
+       "end": "2026-09-30T14:10:06.221Z",
        "end_source": "poll",
        "live": true,
        "title": "何かやりましょう",
@@ -1282,14 +1282,14 @@
       },
       {
        "stream_id": "316582814579",
-       "start": "2026-09-30T09:57:11.000Z",
-       "end": "2026-09-30T14:00:08.850Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-30T09:57:16.000Z",
+       "end": "2026-09-30T14:03:42.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "スイッチでとんでもないゲーム見つけた ©コーエーテクモゲームス",
        "game": "Dead or Alive Xtreme 3: Fortune",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2887938995",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f698ca7bd7f276803e2a_batora324_316582814579_1790762231//thumb/thumb0-320x180.jpg"
       }
      ]
     }
