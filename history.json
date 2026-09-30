@@ -194,14 +194,14 @@
       },
       {
        "stream_id": "316513371889",
-       "start": "2026-09-30T03:14:19.000Z",
-       "end": "2026-09-30T08:19:49.299Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-09-30T03:14:24.000Z",
+       "end": "2026-09-30T08:25:20.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEXをやる人々",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2887789602",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/51b546b16be6a8851935_kato_junichi0817_316513371889_1790738059//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -403,7 +403,7 @@
       {
        "stream_id": "316513623793",
        "start": "2026-09-30T04:54:04.000Z",
-       "end": "2026-09-30T08:19:49.301Z",
+       "end": "2026-09-30T08:29:49.340Z",
        "end_source": "poll",
        "live": true,
        "title": "※ハマってはない【コアキーパー２日目】",
