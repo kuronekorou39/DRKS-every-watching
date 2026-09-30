@@ -403,7 +403,7 @@
       {
        "stream_id": "316513623793",
        "start": "2026-09-30T04:54:04.000Z",
-       "end": "2026-09-30T09:49:49.962Z",
+       "end": "2026-09-30T09:59:50.672Z",
        "end_source": "poll",
        "live": true,
        "title": "※ハマってはない【コアキーパー２日目】",
@@ -1257,6 +1257,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2886829412",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/042da9f596ec8ceb2daf_batora324_316520909938_1790642922//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316582814579",
+       "start": "2026-09-30T09:57:11.000Z",
+       "end": "2026-09-30T09:59:50.674Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "参上",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
