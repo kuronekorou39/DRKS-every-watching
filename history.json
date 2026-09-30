@@ -195,7 +195,7 @@
       {
        "stream_id": "316513371889",
        "start": "2026-09-30T03:14:19.000Z",
-       "end": "2026-09-30T04:49:36.372Z",
+       "end": "2026-09-30T04:59:36.193Z",
        "end_source": "poll",
        "live": true,
        "title": "APEXをやる人々",
@@ -399,6 +399,17 @@
        "game": "Core Keeper",
        "url": "https://www.twitch.tv/videos/2887103941",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1d66ed4a2c88900c4089_indegnasen0706_316578673395_1790679670//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316513623793",
+       "start": "2026-09-30T04:54:04.000Z",
+       "end": "2026-09-30T04:59:36.195Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "※ハマってはない【コアキーパー２日目】",
+       "game": "Core Keeper",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
