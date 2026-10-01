@@ -216,14 +216,14 @@
       },
       {
        "stream_id": "316586362227",
-       "start": "2026-10-01T04:41:26.000Z",
-       "end": "2026-10-01T09:11:01.317Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T04:41:32.000Z",
+       "end": "2026-10-01T09:15:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "APEX＆APEX＆APEX",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888693312",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ecac89af74a3c0b1602a_kato_junichi0817_316586362227_1790829686//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -436,7 +436,7 @@
       {
        "stream_id": "316518485105",
        "start": "2026-10-01T08:51:07.000Z",
-       "end": "2026-10-01T09:11:01.318Z",
+       "end": "2026-10-01T09:20:58.611Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
@@ -740,7 +740,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T09:11:01.319Z",
+       "end": "2026-10-01T09:20:58.612Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
