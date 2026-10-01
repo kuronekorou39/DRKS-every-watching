@@ -228,7 +228,7 @@
       {
        "stream_id": "316587485171",
        "start": "2026-10-01T11:00:22.000Z",
-       "end": "2026-10-01T11:50:58.904Z",
+       "end": "2026-10-01T12:00:59.387Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップスクリム配信",
@@ -447,7 +447,7 @@
       {
        "stream_id": "316518485105",
        "start": "2026-10-01T08:51:07.000Z",
-       "end": "2026-10-01T11:50:58.905Z",
+       "end": "2026-10-01T12:00:59.388Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
@@ -751,7 +751,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T11:50:58.906Z",
+       "end": "2026-10-01T12:00:59.389Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター やらせてくださいお願いします",
@@ -1176,7 +1176,7 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T11:50:58.907Z",
+       "end": "2026-10-01T12:00:59.389Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートをやるぜ!目指せレート7500",
@@ -1430,6 +1430,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2885414802",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cf9d6ff72dd851ca7a10_bakumatsu_shishi_316570421491_1790510434//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316531488882",
+       "start": "2026-10-01T11:53:44.000Z",
+       "end": "2026-10-01T12:00:59.390Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
+       "game": "Slay the Spire II",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
