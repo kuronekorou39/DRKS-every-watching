@@ -227,14 +227,14 @@
       },
       {
        "stream_id": "316587485171",
-       "start": "2026-10-01T11:00:22.000Z",
-       "end": "2026-10-01T15:11:13.335Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T11:00:27.000Z",
+       "end": "2026-10-01T15:13:10.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "CRカップスクリム配信",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888823657",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/170c479ecff39360cb5b_kato_junichi0817_316587485171_1790852422//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -751,7 +751,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T15:11:13.336Z",
+       "end": "2026-10-01T15:21:12.407Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター やらせてくださいお願いします",
@@ -1176,10 +1176,10 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T15:11:13.337Z",
+       "end": "2026-10-01T15:21:12.408Z",
        "end_source": "poll",
        "live": true,
-       "title": "ないとれいん",
+       "title": "ないとれいんカンストする",
        "game": "ELDEN RING NIGHTREIGN",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
@@ -1434,7 +1434,7 @@
       {
        "stream_id": "316531488882",
        "start": "2026-10-01T11:53:44.000Z",
-       "end": "2026-10-01T15:11:13.337Z",
+       "end": "2026-10-01T15:21:12.408Z",
        "end_source": "poll",
        "live": true,
        "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
