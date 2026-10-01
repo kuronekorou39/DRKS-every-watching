@@ -213,6 +213,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2888018719",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b386f618d6130ccaac6a_kato_junichi0817_316527522162_1790773040//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316586362227",
+       "start": "2026-10-01T04:41:26.000Z",
+       "end": "2026-10-01T04:50:49.085Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "APEX＆APEX＆APEX",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1305,7 +1316,7 @@
       {
        "stream_id": "316529791090",
        "start": "2026-10-01T02:40:01.000Z",
-       "end": "2026-10-01T04:40:48.231Z",
+       "end": "2026-10-01T04:50:49.088Z",
        "end_source": "poll",
        "live": true,
        "title": "夕方まで男",
