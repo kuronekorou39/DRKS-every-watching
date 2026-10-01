@@ -1175,14 +1175,14 @@
       },
       {
        "stream_id": "316518832113",
-       "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T18:41:12.758Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T10:38:46.000Z",
+       "end": "2026-10-01T18:43:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ないとれいんカンストするビッツ禁止",
        "game": "ELDEN RING NIGHTREIGN",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888815092",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/22bf22c898e6ee6774db_assarisyoko1_316518832113_1790851118//thumb/thumb0-320x180.jpg"
       }
      ]
     }
