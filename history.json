@@ -228,7 +228,7 @@
       {
        "stream_id": "316587485171",
        "start": "2026-10-01T11:00:22.000Z",
-       "end": "2026-10-01T14:41:13.971Z",
+       "end": "2026-10-01T14:51:12.093Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップスクリム配信",
@@ -446,14 +446,14 @@
       },
       {
        "stream_id": "316518485105",
-       "start": "2026-10-01T08:51:07.000Z",
-       "end": "2026-10-01T14:41:13.972Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T08:51:12.000Z",
+       "end": "2026-10-01T14:48:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888778677",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1de3aefa239d9fa1deb9_indegnasen0706_316518485105_1790844667//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -751,7 +751,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T14:41:13.973Z",
+       "end": "2026-10-01T14:51:12.095Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター やらせてくださいお願いします",
@@ -1176,7 +1176,7 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T14:41:13.973Z",
+       "end": "2026-10-01T14:51:12.095Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートをやるぜ!目指せレート7500",
@@ -1434,7 +1434,7 @@
       {
        "stream_id": "316531488882",
        "start": "2026-10-01T11:53:44.000Z",
-       "end": "2026-10-01T14:41:13.974Z",
+       "end": "2026-10-01T14:51:12.096Z",
        "end_source": "poll",
        "live": true,
        "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
