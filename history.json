@@ -1176,7 +1176,7 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T16:21:12.783Z",
+       "end": "2026-10-01T16:31:13.515Z",
        "end_source": "poll",
        "live": true,
        "title": "ないとれいんカンストするビッツ禁止",
@@ -1433,14 +1433,14 @@
       },
       {
        "stream_id": "316531488882",
-       "start": "2026-10-01T11:53:44.000Z",
-       "end": "2026-10-01T16:21:12.783Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T11:53:49.000Z",
+       "end": "2026-10-01T16:28:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
        "game": "Slay the Spire II",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888846155",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/10c89593179e4bf711f2_bakumatsu_shishi_316531488882_1790855624//thumb/thumb0-320x180.jpg"
       }
      ]
     },
