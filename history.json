@@ -750,14 +750,14 @@
       },
       {
        "stream_id": "316530815602",
-       "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T15:51:12.896Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-01T09:00:14.000Z",
+       "end": "2026-10-01T15:57:15.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学園アイドルマスター やらせてくださいお願いします",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2888781671",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0bd87787abe6c7ceb8a8_yuyuta0702_316530815602_1790845209//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1176,7 +1176,7 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T15:51:12.896Z",
+       "end": "2026-10-01T16:01:13.105Z",
        "end_source": "poll",
        "live": true,
        "title": "ないとれいんカンストするビッツ禁止",
@@ -1434,7 +1434,7 @@
       {
        "stream_id": "316531488882",
        "start": "2026-10-01T11:53:44.000Z",
-       "end": "2026-10-01T15:51:12.897Z",
+       "end": "2026-10-01T16:01:13.106Z",
        "end_source": "poll",
        "live": true,
        "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
