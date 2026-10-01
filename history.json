@@ -1301,6 +1301,17 @@
        "game": "Dead or Alive Xtreme 3: Fortune",
        "url": "https://www.twitch.tv/videos/2887938995",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f698ca7bd7f276803e2a_batora324_316582814579_1790762231//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316529791090",
+       "start": "2026-10-01T02:40:01.000Z",
+       "end": "2026-10-01T02:40:36.280Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "夕方まで男",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
