@@ -228,7 +228,7 @@
       {
        "stream_id": "316587485171",
        "start": "2026-10-01T11:00:22.000Z",
-       "end": "2026-10-01T14:31:14.419Z",
+       "end": "2026-10-01T14:41:13.971Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップスクリム配信",
@@ -447,7 +447,7 @@
       {
        "stream_id": "316518485105",
        "start": "2026-10-01T08:51:07.000Z",
-       "end": "2026-10-01T14:31:14.420Z",
+       "end": "2026-10-01T14:41:13.972Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
@@ -751,7 +751,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T14:31:14.421Z",
+       "end": "2026-10-01T14:41:13.973Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター やらせてくださいお願いします",
@@ -1176,7 +1176,7 @@
       {
        "stream_id": "316518832113",
        "start": "2026-10-01T10:38:38.000Z",
-       "end": "2026-10-01T14:31:14.421Z",
+       "end": "2026-10-01T14:41:13.973Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートをやるぜ!目指せレート7500",
@@ -1434,11 +1434,11 @@
       {
        "stream_id": "316531488882",
        "start": "2026-10-01T11:53:44.000Z",
-       "end": "2026-10-01T14:31:14.422Z",
+       "end": "2026-10-01T14:41:13.974Z",
        "end_source": "poll",
        "live": true,
        "title": "21時～初スレスパ2,23時～ゴールデンアイ64でケニー絶望",
-       "game": "GoldenEye 007",
+       "game": "Mario Kart 64",
        "url": "https://www.twitch.tv/bakumatsu_shishi",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
