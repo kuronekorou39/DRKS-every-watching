@@ -436,7 +436,7 @@
       {
        "stream_id": "316518485105",
        "start": "2026-10-01T08:51:07.000Z",
-       "end": "2026-10-01T10:31:00.964Z",
+       "end": "2026-10-01T10:40:59.915Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
@@ -740,7 +740,7 @@
       {
        "stream_id": "316530815602",
        "start": "2026-10-01T09:00:09.000Z",
-       "end": "2026-10-01T10:31:00.965Z",
+       "end": "2026-10-01T10:40:59.916Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -1161,6 +1161,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2887113266",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/77ae4be8446d086734d7_assarisyoko1_316510659825_1790681036//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316518832113",
+       "start": "2026-10-01T10:38:38.000Z",
+       "end": "2026-10-01T10:40:59.916Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "マリオカートをやるぜ!目指せレート7500",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
