@@ -217,7 +217,7 @@
       {
        "stream_id": "316586362227",
        "start": "2026-10-01T04:41:26.000Z",
-       "end": "2026-10-01T08:50:59.772Z",
+       "end": "2026-10-01T09:00:58.804Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX＆APEX",
@@ -432,6 +432,17 @@
        "game": "Core Keeper",
        "url": "https://www.twitch.tv/videos/2887838036",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/690cd0936df3491799de_indegnasen0706_316513623793_1790744044//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316518485105",
+       "start": "2026-10-01T08:51:07.000Z",
+       "end": "2026-10-01T09:00:58.805Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "今日はキズナと恭ちゃんで遊ぶ日！放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -725,6 +736,17 @@
        "game": "Heavy Rain",
        "url": "https://www.twitch.tv/videos/2887061929",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/21fc38544bb6a817b67b_yuyuta0702_316578237811_1790672423//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316530815602",
+       "start": "2026-10-01T09:00:09.000Z",
+       "end": "2026-10-01T09:00:58.806Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
