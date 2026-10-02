@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T10:31:45.256Z",
+       "end": "2026-10-02T10:41:44.230Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T10:31:45.257Z",
+       "end": "2026-10-02T10:41:44.231Z",
        "end_source": "poll",
        "live": true,
        "title": "１日空けてたら全くハマってないことに気づいたコアキーパー３日目←はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -607,6 +607,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/bY3AUdjZkrnW/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-02T10:40:10.000Z",
+       "start": "2026-10-02T10:40:10.000Z",
+       "end": "2026-10-02T10:41:44.232Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "話す",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/noGWgexPer9q/480.webp"
       }
      ]
     }
@@ -784,7 +795,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T10:31:45.258Z",
+       "end": "2026-10-02T10:41:44.232Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -1415,7 +1426,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T10:31:45.259Z",
+       "end": "2026-10-02T10:41:44.234Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
