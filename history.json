@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T12:21:56.897Z",
+       "end": "2026-10-02T15:49:08.828Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップスクリムDAY２",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T12:21:56.898Z",
+       "end": "2026-10-02T15:49:08.829Z",
        "end_source": "poll",
        "live": true,
        "title": "１日空けてたら全くハマってないことに気づいたコアキーパー３日目←はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -613,7 +613,7 @@
        "start": "2026-10-02T10:40:10.000Z",
        "end": "2026-10-02T12:21:56.899Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "話す",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -795,7 +795,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T12:21:56.899Z",
+       "end": "2026-10-02T15:49:08.830Z",
        "end_source": "poll",
        "live": true,
        "title": "Life Is Strange 初見プレイ やります     LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
@@ -1124,13 +1124,13 @@
       {
        "stream_id": "MXeLeUi-q3A",
        "start": "2026-10-02T11:49:15.000Z",
-       "end": "2026-10-02T12:21:56.899Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-02T14:16:26.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】くるぞアメリカ雇用統計。大荒れの発表が！！どうなる金利！どうなる為替！どうなる半導体大相場！やっと含み損が1500万になったんだ。救ってくれ！アメリカ相場の寄り付き見届け生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=MXeLeUi-q3A",
-       "thumb": "https://i.ytimg.com/vi/MXeLeUi-q3A/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/MXeLeUi-q3A/mqdefault.jpg"
       }
      ]
     }
@@ -1253,7 +1253,7 @@
       {
        "stream_id": "316535407090",
        "start": "2026-10-02T10:52:06.000Z",
-       "end": "2026-10-02T12:21:56.899Z",
+       "end": "2026-10-02T15:49:08.831Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートやりたいよおおおおおおおおお",
@@ -1448,7 +1448,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T12:21:56.900Z",
+       "end": "2026-10-02T15:49:08.832Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
@@ -1612,13 +1612,13 @@
       {
        "stream_id": "S6cGHBALNZE",
        "start": "2026-10-02T12:00:54.000Z",
-       "end": "2026-10-02T12:21:56.900Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-02T14:57:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "幕末志士のDARK SOULS #2「牛頭のデーモン」",
        "game": null,
        "url": "https://www.youtube.com/watch?v=S6cGHBALNZE",
-       "thumb": "https://i.ytimg.com/vi/S6cGHBALNZE/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/S6cGHBALNZE/mqdefault.jpg"
       }
      ]
     }
