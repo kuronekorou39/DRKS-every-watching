@@ -1252,14 +1252,14 @@
       },
       {
        "stream_id": "316535407090",
-       "start": "2026-10-02T10:52:06.000Z",
-       "end": "2026-10-02T17:49:08.420Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-02T10:52:13.000Z",
+       "end": "2026-10-02T17:58:32.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マリオカートやりたいよおおおおおおおおお",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2889688912",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2c70a8cb04931bfb5464_assarisyoko1_316535407090_1790938326//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1448,7 +1448,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T17:49:08.420Z",
+       "end": "2026-10-02T17:59:07.640Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
