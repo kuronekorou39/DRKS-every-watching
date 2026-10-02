@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T10:51:43.582Z",
+       "end": "2026-10-02T11:01:45.272Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T10:51:43.583Z",
+       "end": "2026-10-02T11:01:45.273Z",
        "end_source": "poll",
        "live": true,
        "title": "１日空けてたら全くハマってないことに気づいたコアキーパー３日目←はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -611,7 +611,7 @@
       {
        "stream_id": "kick-2026-10-02T10:40:10.000Z",
        "start": "2026-10-02T10:40:10.000Z",
-       "end": "2026-10-02T10:51:43.584Z",
+       "end": "2026-10-02T11:01:45.274Z",
        "end_source": "poll",
        "live": true,
        "title": "話す",
@@ -795,7 +795,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T10:51:43.584Z",
+       "end": "2026-10-02T11:01:45.274Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -1238,6 +1238,17 @@
        "game": "ELDEN RING NIGHTREIGN",
        "url": "https://www.twitch.tv/videos/2888815092",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/22bf22c898e6ee6774db_assarisyoko1_316518832113_1790851118//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316535407090",
+       "start": "2026-10-02T10:52:06.000Z",
+       "end": "2026-10-02T11:01:45.275Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "マリオカートやりたいよおおおおおおおおお",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -1426,7 +1437,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T10:51:43.585Z",
+       "end": "2026-10-02T11:01:45.275Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
