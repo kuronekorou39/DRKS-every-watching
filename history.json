@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T09:31:44.185Z",
+       "end": "2026-10-02T09:41:44.890Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T09:31:44.186Z",
+       "end": "2026-10-02T09:41:44.891Z",
        "end_source": "poll",
        "live": true,
        "title": "はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -784,7 +784,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T09:31:44.187Z",
+       "end": "2026-10-02T09:41:44.892Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -1411,6 +1411,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2888627862",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6ad66894568d67c91e46_batora324_316529791090_1790822401//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316522753137",
+       "start": "2026-10-02T09:32:19.000Z",
+       "end": "2026-10-02T09:41:44.893Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "今日はキンハCoM",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
