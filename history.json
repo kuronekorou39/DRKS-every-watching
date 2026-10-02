@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T09:51:44.325Z",
+       "end": "2026-10-02T10:01:44.525Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T09:51:44.326Z",
+       "end": "2026-10-02T10:01:44.526Z",
        "end_source": "poll",
        "live": true,
        "title": "はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -784,7 +784,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T09:51:44.327Z",
+       "end": "2026-10-02T10:01:44.527Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -1415,11 +1415,11 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T09:51:44.329Z",
+       "end": "2026-10-02T10:01:44.529Z",
        "end_source": "poll",
        "live": true,
-       "title": "今日はキンハCoM",
-       "game": "Just Chatting",
+       "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
+       "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
