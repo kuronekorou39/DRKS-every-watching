@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T08:51:43.824Z",
+       "end": "2026-10-02T09:01:44.705Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T08:51:43.825Z",
+       "end": "2026-10-02T09:01:44.706Z",
        "end_source": "poll",
        "live": true,
        "title": "こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -780,6 +780,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2888781671",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0bd87787abe6c7ceb8a8_yuyuta0702_316530815602_1790845209//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316522656753",
+       "start": "2026-10-02T09:00:35.000Z",
+       "end": "2026-10-02T09:01:44.707Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
