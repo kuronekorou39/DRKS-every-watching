@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T09:01:44.705Z",
+       "end": "2026-10-02T09:11:44.567Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -469,11 +469,11 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T09:01:44.706Z",
+       "end": "2026-10-02T09:11:44.568Z",
        "end_source": "poll",
        "live": true,
-       "title": "こんにちは！冷えてきましたね！まずは与太話でも！放送！",
-       "game": "Just Chatting",
+       "title": "はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
+       "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -784,7 +784,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T09:01:44.707Z",
+       "end": "2026-10-02T09:11:44.569Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
