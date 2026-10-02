@@ -239,7 +239,7 @@
       {
        "stream_id": "316522025201",
        "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T07:21:43.529Z",
+       "end": "2026-10-02T07:31:45.614Z",
        "end_source": "poll",
        "live": true,
        "title": "APEX＆APEX",
@@ -465,6 +465,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2888778677",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1de3aefa239d9fa1deb9_indegnasen0706_316518485105_1790844667//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316522385137",
+       "start": "2026-10-02T07:24:24.000Z",
+       "end": "2026-10-02T07:31:45.615Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "こんにちは！冷えてきましたね！まずは与太話でも！放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
