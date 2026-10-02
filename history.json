@@ -238,14 +238,14 @@
       },
       {
        "stream_id": "316522025201",
-       "start": "2026-10-02T05:09:45.000Z",
-       "end": "2026-10-02T16:09:10.542Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-02T05:09:51.000Z",
+       "end": "2026-10-02T16:16:51.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "CRカップスクリムDAY２",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2889570440",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cc09f61aa4a3e94fedf8_kato_junichi0817_316522025201_1790917785//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T16:09:10.543Z",
+       "end": "2026-10-02T16:19:09.066Z",
        "end_source": "poll",
        "live": true,
        "title": "１日空けてたら全くハマってないことに気づいたコアキーパー３日目←はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -795,7 +795,7 @@
       {
        "stream_id": "316522656753",
        "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T16:09:10.544Z",
+       "end": "2026-10-02T16:19:09.067Z",
        "end_source": "poll",
        "live": true,
        "title": "Life Is Strange 初見プレイ やります     LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
@@ -1253,7 +1253,7 @@
       {
        "stream_id": "316535407090",
        "start": "2026-10-02T10:52:06.000Z",
-       "end": "2026-10-02T16:09:10.545Z",
+       "end": "2026-10-02T16:19:09.068Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートやりたいよおおおおおおおおお",
@@ -1448,7 +1448,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T16:09:10.545Z",
+       "end": "2026-10-02T16:19:09.068Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
