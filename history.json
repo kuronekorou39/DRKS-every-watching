@@ -469,7 +469,7 @@
       {
        "stream_id": "316522385137",
        "start": "2026-10-02T07:24:24.000Z",
-       "end": "2026-10-02T16:29:08.505Z",
+       "end": "2026-10-02T16:39:08.279Z",
        "end_source": "poll",
        "live": true,
        "title": "１日空けてたら全くハマってないことに気づいたコアキーパー３日目←はじめのチャンネルポイント賭けパブジ←こんにちは！冷えてきましたね！まずは与太話でも！放送！",
@@ -794,14 +794,14 @@
       },
       {
        "stream_id": "316522656753",
-       "start": "2026-10-02T09:00:35.000Z",
-       "end": "2026-10-02T16:29:08.506Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-02T09:00:40.000Z",
+       "end": "2026-10-02T16:33:33.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "Life Is Strange 初見プレイ やります     LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
        "game": "Life Is Strange",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2889649262",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d3aff7c51708a8226559_yuyuta0702_316522656753_1790931635//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1253,7 +1253,7 @@
       {
        "stream_id": "316535407090",
        "start": "2026-10-02T10:52:06.000Z",
-       "end": "2026-10-02T16:29:08.507Z",
+       "end": "2026-10-02T16:39:08.282Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートやりたいよおおおおおおおおお",
@@ -1448,7 +1448,7 @@
       {
        "stream_id": "316522753137",
        "start": "2026-10-02T09:32:19.000Z",
-       "end": "2026-10-02T16:29:08.507Z",
+       "end": "2026-10-02T16:39:08.282Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ #1 ※ネタばれ注意",
