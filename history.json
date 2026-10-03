@@ -250,7 +250,7 @@
       {
        "stream_id": "316526840817",
        "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T14:39:54.945Z",
+       "end": "2026-10-03T14:49:55.112Z",
        "end_source": "poll",
        "live": true,
        "title": "２１時よりCRカップスクリムラスト",
@@ -490,14 +490,14 @@
       },
       {
        "stream_id": "316539075826",
-       "start": "2026-10-03T05:09:32.000Z",
-       "end": "2026-10-03T14:39:54.946Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-03T05:09:37.000Z",
+       "end": "2026-10-03T14:41:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "けん玉←ゆるゆる生配信する推しは１００万回死ぬ ネタバレ含む ←ＰＵＢＧダービーの時間です←夜ラーメン食って幸せ起床、放送！",
        "game": "The Kendama Challenge: 100 Players",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2890487841",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6db9211c1c48be43c4b5_indegnasen0706_316539075826_1791004172//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -644,7 +644,7 @@
       {
        "stream_id": "kick-2026-10-03T11:45:20.000Z",
        "start": "2026-10-03T11:45:20.000Z",
-       "end": "2026-10-03T14:39:54.947Z",
+       "end": "2026-10-03T14:49:55.114Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップ",
@@ -839,7 +839,7 @@
       {
        "stream_id": "316527820017",
        "start": "2026-10-03T08:59:54.000Z",
-       "end": "2026-10-03T14:39:54.948Z",
+       "end": "2026-10-03T14:49:55.114Z",
        "end_source": "poll",
        "live": true,
        "title": "ライフイズストレンジ やるぞ！！！LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
@@ -1308,7 +1308,7 @@
       {
        "stream_id": "316540316658",
        "start": "2026-10-03T11:16:56.000Z",
-       "end": "2026-10-03T14:39:54.949Z",
+       "end": "2026-10-03T14:49:55.115Z",
        "end_source": "poll",
        "live": true,
        "title": "DbDやるぞやるぞやるぞ",
