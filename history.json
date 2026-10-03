@@ -249,14 +249,14 @@
       },
       {
        "stream_id": "316526840817",
-       "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T16:49:56.398Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-03T05:08:58.000Z",
+       "end": "2026-10-03T16:53:41.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "２１時よりCRカップスクリムラスト",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2890487486",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/59f261ed5cb9ce4118e7_kato_junichi0817_316526840817_1791004133//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -644,7 +644,7 @@
       {
        "stream_id": "kick-2026-10-03T11:45:20.000Z",
        "start": "2026-10-03T11:45:20.000Z",
-       "end": "2026-10-03T16:49:56.400Z",
+       "end": "2026-10-03T16:59:54.839Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップ",
@@ -850,7 +850,7 @@
       {
        "stream_id": "316529942129",
        "start": "2026-10-03T15:37:59.000Z",
-       "end": "2026-10-03T16:49:56.400Z",
+       "end": "2026-10-03T16:59:54.839Z",
        "end_source": "poll",
        "live": true,
        "title": "ライフイズストレンジ やるぞ！！！LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
@@ -1319,7 +1319,7 @@
       {
        "stream_id": "316540316658",
        "start": "2026-10-03T11:16:56.000Z",
-       "end": "2026-10-03T16:49:56.401Z",
+       "end": "2026-10-03T16:59:54.840Z",
        "end_source": "poll",
        "live": true,
        "title": "シレン超神髄一発クリア配信へようこそ←DbDやるぞやるぞやるぞ",
