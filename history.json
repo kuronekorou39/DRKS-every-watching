@@ -849,14 +849,14 @@
       },
       {
        "stream_id": "316529942129",
-       "start": "2026-10-03T15:37:59.000Z",
-       "end": "2026-10-03T21:20:06.181Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-03T15:38:04.000Z",
+       "end": "2026-10-03T21:25:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ライフイズストレンジ やるぞ！！！LIFE IS STRANGE (C) 2015-2026 Square Enix Ltd. All rights reserved.",
        "game": "Life Is Strange",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2890818497",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/508a230177803ea6f187_yuyuta0702_316529942129_1791041879//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1319,7 +1319,7 @@
       {
        "stream_id": "316540316658",
        "start": "2026-10-03T11:16:56.000Z",
-       "end": "2026-10-03T21:20:06.182Z",
+       "end": "2026-10-03T21:30:06.741Z",
        "end_source": "poll",
        "live": true,
        "title": "シレン超神髄一発クリア配信へようこそ←DbDやるぞやるぞやるぞ",
