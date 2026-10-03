@@ -250,7 +250,7 @@
       {
        "stream_id": "316526840817",
        "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T11:09:43.411Z",
+       "end": "2026-10-03T11:19:44.951Z",
        "end_source": "poll",
        "live": true,
        "title": "２１時よりCRカップスクリムラスト",
@@ -491,7 +491,7 @@
       {
        "stream_id": "316539075826",
        "start": "2026-10-03T05:09:32.000Z",
-       "end": "2026-10-03T11:09:43.412Z",
+       "end": "2026-10-03T11:19:44.951Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆるゆる生配信する推しは１００万回死ぬ ネタバレ含む ←ＰＵＢＧダービーの時間です←夜ラーメン食って幸せ起床、放送！",
@@ -828,7 +828,7 @@
       {
        "stream_id": "316527820017",
        "start": "2026-10-03T08:59:54.000Z",
-       "end": "2026-10-03T11:09:43.413Z",
+       "end": "2026-10-03T11:19:44.952Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -1293,6 +1293,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2889688912",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2c70a8cb04931bfb5464_assarisyoko1_316535407090_1790938326//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316540316658",
+       "start": "2026-10-03T11:16:56.000Z",
+       "end": "2026-10-03T11:19:44.953Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "DbDやるぞやるぞやるぞ",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -1503,7 +1514,7 @@
       {
        "stream_id": "316539305330",
        "start": "2026-10-03T06:16:22.000Z",
-       "end": "2026-10-03T11:09:43.413Z",
+       "end": "2026-10-03T11:19:44.953Z",
        "end_source": "poll",
        "live": true,
        "title": "神ゲーのキングダムハーツ チェインオブメモリーズ #2 俺の最強デッキをみてくれ！ソラは俺が守る。※ネタばれ注意",
