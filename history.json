@@ -246,6 +246,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2889570440",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cc09f61aa4a3e94fedf8_kato_junichi0817_316522025201_1790917785//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316526840817",
+       "start": "2026-10-03T05:08:53.000Z",
+       "end": "2026-10-03T05:09:30.853Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "２１時よりCRカップスクリムラスト",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1459,7 +1470,7 @@
       {
        "stream_id": "316538686450",
        "start": "2026-10-03T03:06:29.000Z",
-       "end": "2026-10-03T04:59:32.898Z",
+       "end": "2026-10-03T05:09:30.856Z",
        "end_source": "poll",
        "live": true,
        "title": "神ゲーのキングダムハーツ チェインオブメモリーズ #2 俺の最強デッキをみてくれ！ソラは俺が守る。※ネタばれ注意",
