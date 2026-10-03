@@ -250,7 +250,7 @@
       {
        "stream_id": "316526840817",
        "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T08:59:44.983Z",
+       "end": "2026-10-03T09:09:45.331Z",
        "end_source": "poll",
        "live": true,
        "title": "２１時よりCRカップスクリムラスト",
@@ -491,7 +491,7 @@
       {
        "stream_id": "316539075826",
        "start": "2026-10-03T05:09:32.000Z",
-       "end": "2026-10-03T08:59:44.984Z",
+       "end": "2026-10-03T09:09:45.332Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆるゆる生配信する推しは１００万回死ぬ ネタバレ含む ←ＰＵＢＧダービーの時間です←夜ラーメン食って幸せ起床、放送！",
@@ -824,6 +824,17 @@
        "game": "Life Is Strange",
        "url": "https://www.twitch.tv/videos/2889649262",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d3aff7c51708a8226559_yuyuta0702_316522656753_1790931635//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316527820017",
+       "start": "2026-10-03T08:59:54.000Z",
+       "end": "2026-10-03T09:09:45.332Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -1492,7 +1503,7 @@
       {
        "stream_id": "316539305330",
        "start": "2026-10-03T06:16:22.000Z",
-       "end": "2026-10-03T08:59:44.985Z",
+       "end": "2026-10-03T09:09:45.333Z",
        "end_source": "poll",
        "live": true,
        "title": "神ゲーのキングダムハーツ チェインオブメモリーズ #2 俺の最強デッキをみてくれ！ソラは俺が守る。※ネタばれ注意",
