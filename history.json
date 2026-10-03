@@ -250,7 +250,7 @@
       {
        "stream_id": "316526840817",
        "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T07:09:30.751Z",
+       "end": "2026-10-03T07:19:30.649Z",
        "end_source": "poll",
        "live": true,
        "title": "２１時よりCRカップスクリムラスト",
@@ -491,11 +491,11 @@
       {
        "stream_id": "316539075826",
        "start": "2026-10-03T05:09:32.000Z",
-       "end": "2026-10-03T07:09:30.752Z",
+       "end": "2026-10-03T07:19:30.650Z",
        "end_source": "poll",
        "live": true,
-       "title": "夜ラーメン食って幸せ起床、放送！",
-       "game": "Just Chatting",
+       "title": "ＰＵＢＧダービーの時間です←夜ラーメン食って幸せ起床、放送！",
+       "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -1492,7 +1492,7 @@
       {
        "stream_id": "316539305330",
        "start": "2026-10-03T06:16:22.000Z",
-       "end": "2026-10-03T07:09:30.755Z",
+       "end": "2026-10-03T07:19:30.652Z",
        "end_source": "poll",
        "live": true,
        "title": "神ゲーのキングダムハーツ チェインオブメモリーズ #2 俺の最強デッキをみてくれ！ソラは俺が守る。※ネタばれ注意",
