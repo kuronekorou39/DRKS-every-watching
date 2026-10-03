@@ -250,7 +250,7 @@
       {
        "stream_id": "316526840817",
        "start": "2026-10-03T05:08:53.000Z",
-       "end": "2026-10-03T11:59:44.864Z",
+       "end": "2026-10-03T12:09:43.775Z",
        "end_source": "poll",
        "live": true,
        "title": "２１時よりCRカップスクリムラスト",
@@ -491,7 +491,7 @@
       {
        "stream_id": "316539075826",
        "start": "2026-10-03T05:09:32.000Z",
-       "end": "2026-10-03T11:59:44.864Z",
+       "end": "2026-10-03T12:09:43.776Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆるゆる生配信する推しは１００万回死ぬ ネタバレ含む ←ＰＵＢＧダービーの時間です←夜ラーメン食って幸せ起床、放送！",
@@ -644,7 +644,7 @@
       {
        "stream_id": "kick-2026-10-03T11:45:20.000Z",
        "start": "2026-10-03T11:45:20.000Z",
-       "end": "2026-10-03T11:59:44.865Z",
+       "end": "2026-10-03T12:09:43.776Z",
        "end_source": "poll",
        "live": true,
        "title": "CRカップ",
@@ -839,7 +839,7 @@
       {
        "stream_id": "316527820017",
        "start": "2026-10-03T08:59:54.000Z",
-       "end": "2026-10-03T11:59:44.865Z",
+       "end": "2026-10-03T12:09:43.776Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -1308,7 +1308,7 @@
       {
        "stream_id": "316540316658",
        "start": "2026-10-03T11:16:56.000Z",
-       "end": "2026-10-03T11:59:44.866Z",
+       "end": "2026-10-03T12:09:43.777Z",
        "end_source": "poll",
        "live": true,
        "title": "DbDやるぞやるぞやるぞ",
@@ -1524,14 +1524,14 @@
       },
       {
        "stream_id": "316539305330",
-       "start": "2026-10-03T06:16:22.000Z",
-       "end": "2026-10-03T11:59:44.866Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-03T06:16:27.000Z",
+       "end": "2026-10-03T12:05:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "神ゲーのキングダムハーツ チェインオブメモリーズ #2 俺の最強デッキをみてくれ！ソラは俺が守る。※ネタばれ注意",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2890518552",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/556871be05d90ec00045_batora324_316539305330_1791008182//thumb/thumb0-320x180.jpg"
       }
      ]
     }
