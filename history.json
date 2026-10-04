@@ -272,7 +272,7 @@
       {
        "stream_id": "316532645617",
        "start": "2026-10-04T07:46:49.000Z",
-       "end": "2026-10-04T09:40:30.924Z",
+       "end": "2026-10-04T09:50:31.724Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時よりCRカップ優勝会場",
@@ -684,6 +684,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/ZSd8faU9TH85/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-04T09:47:15.000Z",
+       "start": "2026-10-04T09:47:15.000Z",
+       "end": "2026-10-04T09:50:31.726Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/jtVuf9wCNcrb/480.webp"
       }
      ]
     }
