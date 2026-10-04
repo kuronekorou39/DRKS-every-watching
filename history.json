@@ -257,6 +257,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2890487486",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/59f261ed5cb9ce4118e7_kato_junichi0817_316526840817_1791004133//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316543776498",
+       "start": "2026-10-04T05:57:25.000Z",
+       "end": "2026-10-04T06:00:17.249Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "１７時よりCRカップ優勝会場",
+       "game": "Apex Legends",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -655,7 +666,7 @@
       {
        "stream_id": "kick-2026-10-04T04:13:06.000Z",
        "start": "2026-10-04T04:13:06.000Z",
-       "end": "2026-10-04T05:50:16.842Z",
+       "end": "2026-10-04T06:00:17.250Z",
        "end_source": "poll",
        "live": true,
        "title": "うおｗ",
@@ -1558,7 +1569,7 @@
       {
        "stream_id": "316531525489",
        "start": "2026-10-04T02:06:18.000Z",
-       "end": "2026-10-04T05:50:16.843Z",
+       "end": "2026-10-04T06:00:17.251Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ リク編#1 ※ネタばれ注意",
