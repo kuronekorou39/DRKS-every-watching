@@ -272,7 +272,7 @@
       {
        "stream_id": "316532645617",
        "start": "2026-10-04T07:46:49.000Z",
-       "end": "2026-10-04T07:50:31.305Z",
+       "end": "2026-10-04T08:00:31.212Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時よりCRカップ優勝会場",
@@ -679,7 +679,7 @@
        "start": "2026-10-04T04:13:06.000Z",
        "end": "2026-10-04T07:50:31.306Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "うおｗ",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -1580,7 +1580,7 @@
       {
        "stream_id": "316531525489",
        "start": "2026-10-04T02:06:18.000Z",
-       "end": "2026-10-04T07:50:31.307Z",
+       "end": "2026-10-04T08:00:31.214Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ チェインオブメモリーズ リク編#1 ※ネタばれ注意",
