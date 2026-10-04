@@ -1319,7 +1319,7 @@
       {
        "stream_id": "316540316658",
        "start": "2026-10-03T11:16:56.000Z",
-       "end": "2026-10-04T02:00:16.389Z",
+       "end": "2026-10-04T02:10:16.918Z",
        "end_source": "poll",
        "live": true,
        "title": "シレン超神髄一発クリア配信へようこそ←DbDやるぞやるぞやるぞ",
@@ -1543,6 +1543,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2890518552",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/556871be05d90ec00045_batora324_316539305330_1791008182//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316531525489",
+       "start": "2026-10-04T02:06:18.000Z",
+       "end": "2026-10-04T02:10:16.918Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "キングダムハーツ チェインオブメモリーズ リク編#1 ※ネタばれ注意",
+       "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
