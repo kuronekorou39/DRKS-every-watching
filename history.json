@@ -272,7 +272,7 @@
       {
        "stream_id": "316532645617",
        "start": "2026-10-04T07:46:49.000Z",
-       "end": "2026-10-04T09:00:30.806Z",
+       "end": "2026-10-04T09:10:30.902Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時よりCRカップ優勝会場",
@@ -1579,14 +1579,14 @@
       },
       {
        "stream_id": "316531525489",
-       "start": "2026-10-04T02:06:18.000Z",
-       "end": "2026-10-04T09:00:30.808Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-04T02:06:23.000Z",
+       "end": "2026-10-04T09:08:41.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ チェインオブメモリーズ リク編#1 ※ネタばれ注意",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2891343785",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/38c13c3567d10148dd6d_batora324_316531525489_1791079578//thumb/thumb0-320x180.jpg"
       }
      ]
     }
