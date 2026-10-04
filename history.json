@@ -272,7 +272,7 @@
       {
        "stream_id": "316532645617",
        "start": "2026-10-04T07:46:49.000Z",
-       "end": "2026-10-04T13:10:45.549Z",
+       "end": "2026-10-04T13:20:48.700Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時よりCRカップ優勝会場",
@@ -690,7 +690,7 @@
        "start": "2026-10-04T09:47:15.000Z",
        "end": "2026-10-04T13:10:45.551Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "あ",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
