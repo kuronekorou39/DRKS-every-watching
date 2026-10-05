@@ -535,7 +535,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T09:41:21.102Z",
+       "end": "2026-10-05T09:51:32.642Z",
        "end_source": "poll",
        "live": true,
        "title": "シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -927,7 +927,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T09:41:21.103Z",
+       "end": "2026-10-05T09:51:32.643Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！",
@@ -1642,6 +1642,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2891343785",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/38c13c3567d10148dd6d_batora324_316531525489_1791079578//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316604687219",
+       "start": "2026-10-05T09:47:27.000Z",
+       "end": "2026-10-05T09:51:32.644Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "最高のTシャツを着て元気に配信",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
