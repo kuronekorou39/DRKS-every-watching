@@ -294,7 +294,7 @@
       {
        "stream_id": "316538314481",
        "start": "2026-10-05T13:39:04.000Z",
-       "end": "2026-10-05T16:51:47.345Z",
+       "end": "2026-10-05T17:01:48.131Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -937,14 +937,14 @@
       },
       {
        "stream_id": "316604576883",
-       "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T16:51:47.347Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-05T09:08:33.000Z",
+       "end": "2026-10-05T16:59:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス ちょっとだけ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2892442044",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/366c0280d7d14b038813_yuyuta0702_316604576883_1791191307//thumb/thumb0-320x180.jpg"
       }
      ]
     }
