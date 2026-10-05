@@ -1245,9 +1245,9 @@
       {
        "stream_id": "eQ2JgECmgiI",
        "start": "2026-10-04T23:44:50.000Z",
-       "end": "2026-10-05T02:21:08.867Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-05T02:21:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ついに四ヶ月ぶりの日経平均7万円へ。最悪の地合いは終わった。これはまだAIバブルの始まりですらない。止まない雨はない。抜けないトンネルはない。株はもう下がらない。圧倒の朝のデイトレ株ライブ生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=eQ2JgECmgiI",
