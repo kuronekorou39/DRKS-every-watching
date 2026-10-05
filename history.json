@@ -535,7 +535,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T11:01:32.307Z",
+       "end": "2026-10-05T11:11:33.360Z",
        "end_source": "poll",
        "live": true,
        "title": "シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -927,7 +927,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T11:01:32.308Z",
+       "end": "2026-10-05T11:11:33.361Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！",
@@ -1096,6 +1096,17 @@
        "game": "Shadowverse: Worlds Beyond",
        "url": "https://www.twitch.tv/videos/2888001476",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fca68104c4e4eab11870_oniyadayo_316515190129_1790771111//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316604973171",
+       "start": "2026-10-05T11:01:23.000Z",
+       "end": "2026-10-05T11:11:33.361Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "CRカップお疲れ様でした！！！振り返り雑談！！変な海外インディーゲームを探す男！！みなさん先輩方グッズ着てくれてありがとうございます💦（照",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -1646,11 +1657,11 @@
       {
        "stream_id": "316604687219",
        "start": "2026-10-05T09:47:27.000Z",
-       "end": "2026-10-05T11:01:32.309Z",
+       "end": "2026-10-05T11:11:33.362Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲにありそうなゲームヤル",
-       "game": "Powerful Pro Yakyuu 2026-2027",
+       "game": "Mario Tennis Fever",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
