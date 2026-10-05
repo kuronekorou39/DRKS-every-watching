@@ -290,6 +290,17 @@
        "game": "Super Battle Golf",
        "url": "https://www.twitch.tv/videos/2891696764",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ffdc50b15d42be01ad5a_kato_junichi0817_316534125937_1791120782//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316538314481",
+       "start": "2026-10-05T13:39:04.000Z",
+       "end": "2026-10-05T13:41:32.297Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -535,7 +546,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T13:31:33.417Z",
+       "end": "2026-10-05T13:41:32.299Z",
        "end_source": "poll",
        "live": true,
        "title": "シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -927,7 +938,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T13:31:33.418Z",
+       "end": "2026-10-05T13:41:32.300Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！",
@@ -1100,7 +1111,7 @@
       {
        "stream_id": "316604973171",
        "start": "2026-10-05T11:01:23.000Z",
-       "end": "2026-10-05T13:31:33.418Z",
+       "end": "2026-10-05T13:41:32.300Z",
        "end_source": "poll",
        "live": true,
        "title": "ペルー産の圧倒的高評価インディーゲーム「地獄で悪魔相手にコンビニ店員をするゲーム」RETAIL HELLやっていく！！！",
@@ -1657,7 +1668,7 @@
       {
        "stream_id": "316604687219",
        "start": "2026-10-05T09:47:27.000Z",
-       "end": "2026-10-05T13:31:33.419Z",
+       "end": "2026-10-05T13:41:32.301Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲにありそうなゲームヤル",
@@ -1742,7 +1753,7 @@
       {
        "stream_id": "316549350258",
        "start": "2026-10-05T12:29:31.000Z",
-       "end": "2026-10-05T13:31:33.419Z",
+       "end": "2026-10-05T13:41:32.301Z",
        "end_source": "poll",
        "live": true,
        "title": "すぐに坂ちゃんを鍛えろ！【スマブラSP】",
