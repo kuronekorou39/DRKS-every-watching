@@ -535,7 +535,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T09:01:21.287Z",
+       "end": "2026-10-05T09:11:21.941Z",
        "end_source": "poll",
        "live": true,
        "title": "シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -923,6 +923,17 @@
        "game": "Life Is Strange",
        "url": "https://www.twitch.tv/videos/2890818497",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/508a230177803ea6f187_yuyuta0702_316529942129_1791041879//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316604576883",
+       "start": "2026-10-05T09:08:27.000Z",
+       "end": "2026-10-05T09:11:21.942Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
