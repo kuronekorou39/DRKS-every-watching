@@ -294,7 +294,7 @@
       {
        "stream_id": "316538314481",
        "start": "2026-10-05T13:39:04.000Z",
-       "end": "2026-10-05T15:01:32.584Z",
+       "end": "2026-10-05T15:11:31.970Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -546,7 +546,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T15:01:32.586Z",
+       "end": "2026-10-05T15:11:31.972Z",
        "end_source": "poll",
        "live": true,
        "title": "寝ましょう。チルゲー Bottle Can Float←シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -938,7 +938,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T15:01:32.587Z",
+       "end": "2026-10-05T15:11:31.973Z",
        "end_source": "poll",
        "live": true,
        "title": "ダレカレ 初見プレイ",
@@ -1111,7 +1111,7 @@
       {
        "stream_id": "316604973171",
        "start": "2026-10-05T11:01:23.000Z",
-       "end": "2026-10-05T15:01:32.587Z",
+       "end": "2026-10-05T15:11:31.973Z",
        "end_source": "poll",
        "live": true,
        "title": "ペルー産の圧倒的高評価インディーゲーム「地獄で悪魔相手にコンビニ店員をするゲーム」RETAIL HELLやっていく！！！",
@@ -1668,7 +1668,7 @@
       {
        "stream_id": "316604687219",
        "start": "2026-10-05T09:47:27.000Z",
-       "end": "2026-10-05T15:01:32.588Z",
+       "end": "2026-10-05T15:11:31.974Z",
        "end_source": "poll",
        "live": true,
        "title": "俺はマリメに帰ってきた",
@@ -1752,14 +1752,14 @@
       },
       {
        "stream_id": "316549350258",
-       "start": "2026-10-05T12:29:31.000Z",
-       "end": "2026-10-05T15:01:32.588Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-05T12:29:36.000Z",
+       "end": "2026-10-05T15:01:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "すぐに坂ちゃんを鍛えろ！【スマブラSP】",
        "game": "Super Smash Bros. Ultimate",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2892518874",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2fbbfc41a69ab05f742f_bakumatsu_shishi_316549350258_1791203371//thumb/thumb0-320x180.jpg"
       }
      ]
     },
