@@ -535,7 +535,7 @@
       {
        "stream_id": "316536396657",
        "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T12:21:31.374Z",
+       "end": "2026-10-05T12:31:33.163Z",
        "end_source": "poll",
        "live": true,
        "title": "シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
@@ -927,7 +927,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T12:21:31.375Z",
+       "end": "2026-10-05T12:31:33.164Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！",
@@ -1100,7 +1100,7 @@
       {
        "stream_id": "316604973171",
        "start": "2026-10-05T11:01:23.000Z",
-       "end": "2026-10-05T12:21:31.375Z",
+       "end": "2026-10-05T12:31:33.165Z",
        "end_source": "poll",
        "live": true,
        "title": "ペルー産の圧倒的高評価インディーゲーム「地獄で悪魔相手にコンビニ店員をするゲーム」RETAIL HELLやっていく！！！",
@@ -1657,7 +1657,7 @@
       {
        "stream_id": "316604687219",
        "start": "2026-10-05T09:47:27.000Z",
-       "end": "2026-10-05T12:21:31.376Z",
+       "end": "2026-10-05T12:31:33.165Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲにありそうなゲームヤル",
@@ -1738,6 +1738,17 @@
        "game": "Slay the Spire II",
        "url": "https://www.twitch.tv/videos/2888846155",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/10c89593179e4bf711f2_bakumatsu_shishi_316531488882_1790855624//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316549350258",
+       "start": "2026-10-05T12:29:31.000Z",
+       "end": "2026-10-05T12:31:33.166Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "すぐに坂ちゃんを鍛えろ！【スマブラSP】",
+       "game": "Super Smash Bros. Ultimate",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
