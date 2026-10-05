@@ -294,7 +294,7 @@
       {
        "stream_id": "316538314481",
        "start": "2026-10-05T13:39:04.000Z",
-       "end": "2026-10-05T16:21:48.168Z",
+       "end": "2026-10-05T16:31:47.514Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談",
@@ -545,14 +545,14 @@
       },
       {
        "stream_id": "316536396657",
-       "start": "2026-10-05T05:13:05.000Z",
-       "end": "2026-10-05T16:21:48.169Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-05T05:13:10.000Z",
+       "end": "2026-10-05T16:29:28.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "The Rotting Man | 悪臭男←寝ましょう。チルゲー Bottle Can Float←シニ戻リ誰ガ為←ポイント賭けFPS！←雑談ヒゲクソ爺、放送！",
        "game": "The Rotting Man",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2892367606",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/49a65921a1297a42ac75_indegnasen0706_316536396657_1791177185//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -938,7 +938,7 @@
       {
        "stream_id": "316604576883",
        "start": "2026-10-05T09:08:27.000Z",
-       "end": "2026-10-05T16:21:48.170Z",
+       "end": "2026-10-05T16:31:47.517Z",
        "end_source": "poll",
        "live": true,
        "title": "学マス ちょっとだけ",
