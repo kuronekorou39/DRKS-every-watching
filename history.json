@@ -305,7 +305,7 @@
       {
        "stream_id": "316541396465",
        "start": "2026-10-06T09:47:33.000Z",
-       "end": "2026-10-06T10:31:13.059Z",
+       "end": "2026-10-06T10:41:12.044Z",
        "end_source": "poll",
        "live": true,
        "title": "話してﾑﾗｹﾞ見てなにかやろう",
@@ -993,11 +993,11 @@
       {
        "stream_id": "316552674034",
        "start": "2026-10-06T08:59:06.000Z",
-       "end": "2026-10-06T10:31:13.060Z",
+       "end": "2026-10-06T10:41:12.045Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！！",
-       "game": "Just Chatting",
+       "title": "みんなで推理 初見プレイ",
+       "game": "Deduce Together",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
