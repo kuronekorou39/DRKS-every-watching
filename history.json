@@ -557,7 +557,7 @@
       {
        "stream_id": "316607852019",
        "start": "2026-10-06T03:34:32.000Z",
-       "end": "2026-10-06T05:31:00.613Z",
+       "end": "2026-10-06T05:40:59.799Z",
        "end_source": "poll",
        "live": true,
        "title": "コアキーパー ハードモードで最初から18時まで←こんにちは！昼の雑談、放送！",
@@ -750,6 +750,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/31DfPyfnLNIL/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-06T05:32:00.000Z",
+       "start": "2026-10-06T05:32:00.000Z",
+       "end": "2026-10-06T05:40:59.800Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/kOPSPjawsfj2/480.webp"
       }
      ]
     }
