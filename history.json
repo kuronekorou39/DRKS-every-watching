@@ -557,7 +557,7 @@
       {
        "stream_id": "316607852019",
        "start": "2026-10-06T03:34:32.000Z",
-       "end": "2026-10-06T08:51:11.194Z",
+       "end": "2026-10-06T09:01:12.185Z",
        "end_source": "poll",
        "live": true,
        "title": "コアキーパー ハードモードで最初から18時まで←こんにちは！昼の雑談、放送！",
@@ -978,6 +978,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2892442044",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/366c0280d7d14b038813_yuyuta0702_316604576883_1791191307//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316552674034",
+       "start": "2026-10-06T08:59:06.000Z",
+       "end": "2026-10-06T09:01:12.186Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
