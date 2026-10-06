@@ -305,7 +305,7 @@
       {
        "stream_id": "316541396465",
        "start": "2026-10-06T09:47:33.000Z",
-       "end": "2026-10-06T12:01:23.654Z",
+       "end": "2026-10-06T12:11:25.078Z",
        "end_source": "poll",
        "live": true,
        "title": "ムラゲOW応援するぞ放送",
@@ -993,7 +993,7 @@
       {
        "stream_id": "316552674034",
        "start": "2026-10-06T08:59:06.000Z",
-       "end": "2026-10-06T12:01:23.656Z",
+       "end": "2026-10-06T12:11:25.080Z",
        "end_source": "poll",
        "live": true,
        "title": "みんなで推理 初見プレイ",
@@ -1916,6 +1916,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=S6cGHBALNZE",
        "thumb": "https://i.ytimg.com/vi/S6cGHBALNZE/mqdefault.jpg"
+      },
+      {
+       "stream_id": "zurBll8cqFc",
+       "start": "2026-10-06T12:01:38.000Z",
+       "end": "2026-10-06T12:11:25.081Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #3「病み村に勇者降臨」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=zurBll8cqFc",
+       "thumb": "https://i.ytimg.com/vi/zurBll8cqFc/mqdefault_live.jpg"
       }
      ]
     }
