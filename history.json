@@ -305,7 +305,7 @@
       {
        "stream_id": "316541396465",
        "start": "2026-10-06T09:47:33.000Z",
-       "end": "2026-10-06T15:01:25.781Z",
+       "end": "2026-10-06T15:11:23.499Z",
        "end_source": "poll",
        "live": true,
        "title": "Kingdom Come: Deliverance II やる",
@@ -992,14 +992,14 @@
       },
       {
        "stream_id": "316552674034",
-       "start": "2026-10-06T08:59:06.000Z",
-       "end": "2026-10-06T15:01:25.783Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-06T08:59:11.000Z",
+       "end": "2026-10-06T15:11:06.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "みんなで推理 初見プレイ",
        "game": "Deduce Together",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2893286496",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4c8d3fbef023ff142024_yuyuta0702_316552674034_1791277146//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1926,7 +1926,7 @@
        "title": "幕末志士のDARK SOULS #3「病み村に勇者降臨」",
        "game": null,
        "url": "https://www.youtube.com/watch?v=zurBll8cqFc",
-       "thumb": "https://i.ytimg.com/vi/zurBll8cqFc/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/zurBll8cqFc/mqdefault.jpg"
       }
      ]
     }
