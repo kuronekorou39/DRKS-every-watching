@@ -1568,6 +1568,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2894183407",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b52570ff0af006e2ebbb_assarisyoko1_316613379955_1791370261//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316559446770",
+       "start": "2026-10-07T22:25:30.000Z",
+       "end": "2026-10-07T22:28:40.045Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "みんなおはよう！元気？",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -1811,7 +1822,7 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-07T22:18:39.583Z",
+       "end": "2026-10-07T22:28:40.046Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやってみる",
