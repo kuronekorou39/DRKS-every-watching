@@ -590,7 +590,7 @@
       {
        "stream_id": "316545425649",
        "start": "2026-10-07T09:04:14.000Z",
-       "end": "2026-10-07T09:42:18.555Z",
+       "end": "2026-10-07T09:52:18.264Z",
        "end_source": "poll",
        "live": true,
        "title": "ぐえー、起床",
@@ -1026,7 +1026,7 @@
       {
        "stream_id": "316545412977",
        "start": "2026-10-07T09:00:43.000Z",
-       "end": "2026-10-07T09:42:18.556Z",
+       "end": "2026-10-07T09:52:18.265Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -1206,6 +1206,17 @@
        "game": "Retail Hell",
        "url": "https://www.twitch.tv/videos/2892479662",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/625a3f7e20b1c01c83b1_oniyadayo_316604973171_1791198083//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316545545969",
+       "start": "2026-10-07T09:45:07.000Z",
+       "end": "2026-10-07T09:52:18.266Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "そろそろ涼しくなってきたので何か企画を企む男DRKS交えても交えなくても良い。打倒幕末志士。～秋に相応しいやつ募集～",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
