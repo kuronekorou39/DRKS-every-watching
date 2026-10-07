@@ -589,14 +589,14 @@
       },
       {
        "stream_id": "316545425649",
-       "start": "2026-10-07T09:04:14.000Z",
-       "end": "2026-10-07T15:02:32.971Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-07T09:04:19.000Z",
+       "end": "2026-10-07T18:33:45.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "獣人が脱獄するゲーム、ブレイクザアニマルプリズン←ぐえー、起床",
        "game": "Back to the Dawn",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2894147429",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4c40e3b6d9fe0ea1f728_indegnasen0706_316545425649_1791363854//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1025,14 +1025,14 @@
       },
       {
        "stream_id": "316545412977",
-       "start": "2026-10-07T09:00:43.000Z",
-       "end": "2026-10-07T15:02:32.972Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-07T09:00:48.000Z",
+       "end": "2026-10-07T16:58:50.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ポケモンチャンピオンズ 初見プレイ",
        "game": "Pokémon Champions",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2894145980",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8b61b357bda71f641f89_yuyuta0702_316545412977_1791363643//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1560,14 +1560,14 @@
       },
       {
        "stream_id": "316613379955",
-       "start": "2026-10-07T10:51:01.000Z",
-       "end": "2026-10-07T15:02:32.973Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-07T10:51:07.000Z",
+       "end": "2026-10-07T16:51:27.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マジでDbD２きたらしい",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2894183407",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b52570ff0af006e2ebbb_assarisyoko1_316613379955_1791370261//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1811,11 +1811,11 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-07T15:02:32.974Z",
+       "end": "2026-10-07T21:58:40.447Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやってみる",
-       "game": "Super Mario Maker 2",
+       "game": "Mario Kart World",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
