@@ -327,7 +327,7 @@
       {
        "stream_id": "316562078706",
        "start": "2026-10-08T12:58:27.000Z",
-       "end": "2026-10-08T13:39:06.838Z",
+       "end": "2026-10-08T13:49:07.034Z",
        "end_source": "poll",
        "live": true,
        "title": "暇つぶし",
@@ -634,7 +634,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T13:39:06.839Z",
+       "end": "2026-10-08T13:49:07.036Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1081,7 +1081,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T13:39:06.840Z",
+       "end": "2026-10-08T13:49:07.037Z",
        "end_source": "poll",
        "live": true,
        "title": "ポケモン チャンピオンズ",
@@ -1980,6 +1980,17 @@
        "game": "Super Smash Bros. Ultimate",
        "url": "https://www.twitch.tv/videos/2892518874",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2fbbfc41a69ab05f742f_bakumatsu_shishi_316549350258_1791203371//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316562323058",
+       "start": "2026-10-08T13:47:20.000Z",
+       "end": "2026-10-08T13:49:07.038Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "寝過ごしたピエロのHYG directミラー",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
