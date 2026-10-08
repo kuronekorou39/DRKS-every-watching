@@ -323,6 +323,17 @@
        "game": "Special Events",
        "url": "https://www.twitch.tv/videos/2895048806",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/88362c8d2fe626250a31_kato_junichi0817_316561410290_1791456557//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316562078706",
+       "start": "2026-10-08T12:58:27.000Z",
+       "end": "2026-10-08T12:59:06.656Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "暇つぶし",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -623,7 +634,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T12:49:06.836Z",
+       "end": "2026-10-08T12:59:06.657Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1070,7 +1081,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T12:49:06.836Z",
+       "end": "2026-10-08T12:59:06.658Z",
        "end_source": "poll",
        "live": true,
        "title": "ポケモン チャンピオンズ",
