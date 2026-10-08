@@ -315,14 +315,14 @@
       },
       {
        "stream_id": "316561410290",
-       "start": "2026-10-08T10:49:17.000Z",
-       "end": "2026-10-08T11:29:06.612Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-08T10:49:22.000Z",
+       "end": "2026-10-08T11:36:23.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "HYG Direct(ハイゲダイレクト) #4",
        "game": "Special Events",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895048806",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/88362c8d2fe626250a31_kato_junichi0817_316561410290_1791456557//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -351,9 +351,9 @@
       {
        "stream_id": "Yks0L0A1mkI",
        "start": "2026-10-08T10:49:55.000Z",
-       "end": "2026-10-08T11:29:06.612Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-08T11:36:16.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "HYG Direct(ハイゲダイレクト) #4",
        "game": null,
        "url": "https://www.youtube.com/watch?v=Yks0L0A1mkI",
@@ -623,7 +623,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T11:29:06.613Z",
+       "end": "2026-10-08T11:39:07.084Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1070,7 +1070,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T11:29:06.613Z",
+       "end": "2026-10-08T11:39:07.085Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲダイレクト みる",
@@ -1877,7 +1877,7 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T11:29:06.614Z",
+       "end": "2026-10-08T11:39:07.086Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイダイみる",
