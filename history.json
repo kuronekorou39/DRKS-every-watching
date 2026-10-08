@@ -597,6 +597,17 @@
        "game": "Back to the Dawn",
        "url": "https://www.twitch.tv/videos/2894147429",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4c40e3b6d9fe0ea1f728_indegnasen0706_316545425649_1791363854//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316616607347",
+       "start": "2026-10-08T05:33:49.000Z",
+       "end": "2026-10-08T05:38:52.730Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "起床したんゴ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -1833,7 +1844,7 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T05:28:52.065Z",
+       "end": "2026-10-08T05:38:52.732Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートワールドやってみる",
