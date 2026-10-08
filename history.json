@@ -634,7 +634,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T17:09:20.981Z",
+       "end": "2026-10-08T17:19:20.750Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1080,14 +1080,14 @@
       },
       {
        "stream_id": "316617173747",
-       "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T17:09:20.981Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-08T08:58:47.000Z",
+       "end": "2026-10-08T17:16:06.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス やらせろ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895010578",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/14f23b5b1e1866af714d_yuyuta0702_316617173747_1791449922//thumb/thumb0-320x180.jpg"
       }
      ]
     }
