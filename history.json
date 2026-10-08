@@ -634,7 +634,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T15:59:20.328Z",
+       "end": "2026-10-08T16:09:20.844Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1081,7 +1081,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T15:59:20.328Z",
+       "end": "2026-10-08T16:09:20.845Z",
        "end_source": "poll",
        "live": true,
        "title": "学マス やらせろ",
@@ -1983,14 +1983,14 @@
       },
       {
        "stream_id": "316562323058",
-       "start": "2026-10-08T13:47:20.000Z",
-       "end": "2026-10-08T15:59:20.329Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-08T13:47:25.000Z",
+       "end": "2026-10-08T16:01:10.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "寝過ごしたピエロのHYG directミラー",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895138112",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1bd8a9376d332f238523_bakumatsu_shishi_316562323058_1791467240//thumb/thumb0-320x180.jpg"
       }
      ]
     },
