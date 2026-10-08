@@ -326,14 +326,14 @@
       },
       {
        "stream_id": "316562078706",
-       "start": "2026-10-08T12:58:27.000Z",
-       "end": "2026-10-08T15:49:20.949Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-08T12:58:32.000Z",
+       "end": "2026-10-08T15:52:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "みんなで推理『加藤純一軍団クイズ』",
        "game": "Deduce Together",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895109664",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0467aec438af69870157_kato_junichi0817_316562078706_1791464307//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -634,7 +634,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T15:49:20.950Z",
+       "end": "2026-10-08T15:59:20.328Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1081,7 +1081,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T15:49:20.951Z",
+       "end": "2026-10-08T15:59:20.328Z",
        "end_source": "poll",
        "live": true,
        "title": "学マス やらせろ",
@@ -1984,7 +1984,7 @@
       {
        "stream_id": "316562323058",
        "start": "2026-10-08T13:47:20.000Z",
-       "end": "2026-10-08T15:49:20.952Z",
+       "end": "2026-10-08T15:59:20.329Z",
        "end_source": "poll",
        "live": true,
        "title": "寝過ごしたピエロのHYG directミラー",
