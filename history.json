@@ -312,6 +312,17 @@
        "game": "Kingdom Come: Deliverance II",
        "url": "https://www.twitch.tv/videos/2893302455",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6dd7d9c8cd8f5d1a34da_kato_junichi0817_316541396465_1791280053//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316561410290",
+       "start": "2026-10-08T10:49:17.000Z",
+       "end": "2026-10-08T10:59:06.228Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "HYG Direct(ハイゲダイレクト) #4",
+       "game": "Special Events",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -336,6 +347,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=R0SS-Y0RHXo",
        "thumb": "https://i.ytimg.com/vi/R0SS-Y0RHXo/mqdefault.jpg"
+      },
+      {
+       "stream_id": "Yks0L0A1mkI",
+       "start": "2026-10-08T10:49:55.000Z",
+       "end": "2026-10-08T10:59:06.229Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "HYG Direct(ハイゲダイレクト) #4",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=Yks0L0A1mkI",
+       "thumb": "https://i.ytimg.com/vi/Yks0L0A1mkI/mqdefault_live.jpg"
       }
      ]
     }
@@ -601,7 +623,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T10:49:06.222Z",
+       "end": "2026-10-08T10:59:06.229Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1048,10 +1070,10 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T10:49:06.223Z",
+       "end": "2026-10-08T10:59:06.230Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！",
+       "title": "ハイゲダイレクト みる",
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
@@ -1855,11 +1877,11 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T10:49:06.224Z",
+       "end": "2026-10-08T10:59:06.231Z",
        "end_source": "poll",
        "live": true,
-       "title": "マリオカート→マリメ→マリオカート8590いった→マリメ",
-       "game": "Super Mario Maker 2",
+       "title": "ハイダイみる",
+       "game": "Just Chatting",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
