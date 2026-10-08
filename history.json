@@ -633,14 +633,14 @@
       },
       {
        "stream_id": "316616607347",
-       "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T18:29:20.859Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-08T05:33:54.000Z",
+       "end": "2026-10-08T18:35:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
        "game": "Back to the Dawn",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2894943218",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ce8773c35df4b5d7e56d_indegnasen0706_316616607347_1791437629//thumb/thumb0-320x180.jpg"
       }
      ]
     }
