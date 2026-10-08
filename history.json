@@ -357,7 +357,7 @@
        "title": "HYG Direct(ハイゲダイレクト) #4",
        "game": null,
        "url": "https://www.youtube.com/watch?v=Yks0L0A1mkI",
-       "thumb": "https://i.ytimg.com/vi/Yks0L0A1mkI/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/Yks0L0A1mkI/mqdefault.jpg"
       }
      ]
     }
@@ -623,7 +623,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T11:39:07.084Z",
+       "end": "2026-10-08T11:49:06.891Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲー back to the dawn ２日目←１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1070,7 +1070,7 @@
       {
        "stream_id": "316617173747",
        "start": "2026-10-08T08:58:42.000Z",
-       "end": "2026-10-08T11:39:07.085Z",
+       "end": "2026-10-08T11:49:06.892Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲダイレクト みる",
@@ -1876,14 +1876,14 @@
       },
       {
        "stream_id": "316545765873",
-       "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T11:39:07.086Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-07T10:46:47.000Z",
+       "end": "2026-10-08T11:40:51.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ハイダイみる",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2894181900",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/68825b660f498cce1de4_batora324_316545765873_1791370002//thumb/thumb0-320x180.jpg"
       }
      ]
     }
