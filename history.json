@@ -601,7 +601,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T08:48:51.478Z",
+       "end": "2026-10-08T08:59:06.614Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1044,6 +1044,17 @@
        "game": "Pokémon Champions",
        "url": "https://www.twitch.tv/videos/2894145980",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8b61b357bda71f641f89_yuyuta0702_316545412977_1791363643//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316617173747",
+       "start": "2026-10-08T08:58:42.000Z",
+       "end": "2026-10-08T08:59:06.615Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -1844,7 +1855,7 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T08:48:51.480Z",
+       "end": "2026-10-08T08:59:06.616Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート→マリメ→マリオカート8590いった→マリメ",
