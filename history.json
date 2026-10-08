@@ -601,7 +601,7 @@
       {
        "stream_id": "316616607347",
        "start": "2026-10-08T05:33:49.000Z",
-       "end": "2026-10-08T06:38:52.042Z",
+       "end": "2026-10-08T06:48:53.847Z",
        "end_source": "poll",
        "live": true,
        "title": "１７時半までコアキ主に装置作り ※延長も視野←起床したんゴ",
@@ -1844,11 +1844,11 @@
       {
        "stream_id": "316545765873",
        "start": "2026-10-07T10:46:42.000Z",
-       "end": "2026-10-08T06:38:52.044Z",
+       "end": "2026-10-08T06:48:53.849Z",
        "end_source": "poll",
        "live": true,
-       "title": "マリオカートワールドやってみる",
-       "game": "Mario Kart World",
+       "title": "マリオカート→マリメ→マリオカート8590いった→マリメ",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
