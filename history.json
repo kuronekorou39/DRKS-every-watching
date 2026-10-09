@@ -338,7 +338,7 @@
       {
        "stream_id": "316553773553",
        "start": "2026-10-09T08:37:22.000Z",
-       "end": "2026-10-09T08:59:51.589Z",
+       "end": "2026-10-09T09:09:51.290Z",
        "end_source": "poll",
        "live": true,
        "title": "ohayou",
@@ -656,11 +656,11 @@
       {
        "stream_id": "316564923762",
        "start": "2026-10-09T07:08:37.000Z",
-       "end": "2026-10-09T08:59:51.590Z",
+       "end": "2026-10-09T09:09:51.292Z",
        "end_source": "poll",
        "live": true,
-       "title": "ポイント賭けパブジ←マタリ、マタリ雑談、その後脱獄ゲー",
-       "game": "PUBG: BATTLEGROUNDS",
+       "title": "ポイント賭けペクス←ポイント賭けパブジ←マタリ、マタリ雑談、その後脱獄ゲー",
+       "game": "Apex Legends",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -1110,6 +1110,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2895010578",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/14f23b5b1e1866af714d_yuyuta0702_316617173747_1791449922//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316553846513",
+       "start": "2026-10-09T09:01:02.000Z",
+       "end": "2026-10-09T09:09:51.293Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "osu",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
