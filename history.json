@@ -641,6 +641,17 @@
        "game": "Back to the Dawn",
        "url": "https://www.twitch.tv/videos/2894943218",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ce8773c35df4b5d7e56d_indegnasen0706_316616607347_1791437629//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316564923762",
+       "start": "2026-10-09T07:08:37.000Z",
+       "end": "2026-10-09T07:09:52.311Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "マタリ、マタリ雑談、その後脱獄ゲー",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
