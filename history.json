@@ -337,14 +337,14 @@
       },
       {
        "stream_id": "316553773553",
-       "start": "2026-10-09T08:37:22.000Z",
-       "end": "2026-10-09T17:10:09.131Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-09T08:37:27.000Z",
+       "end": "2026-10-09T17:17:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ARC RAIDERSに帰ってきた男",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895870298",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/26d4b9693ba4f33fbc8f_kato_junichi0817_316553773553_1791535042//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -656,7 +656,7 @@
       {
        "stream_id": "316564923762",
        "start": "2026-10-09T07:08:37.000Z",
-       "end": "2026-10-09T17:10:09.132Z",
+       "end": "2026-10-09T17:20:09.259Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲーム back to the dawn  3日目 ポイント賭けペクス←ポイント賭けパブジ←マタリ、マタリ雑談、その後脱獄ゲー",
