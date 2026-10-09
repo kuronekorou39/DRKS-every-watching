@@ -338,7 +338,7 @@
       {
        "stream_id": "316553773553",
        "start": "2026-10-09T08:37:22.000Z",
-       "end": "2026-10-09T17:00:10.124Z",
+       "end": "2026-10-09T17:10:09.131Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男",
@@ -656,7 +656,7 @@
       {
        "stream_id": "316564923762",
        "start": "2026-10-09T07:08:37.000Z",
-       "end": "2026-10-09T17:00:10.125Z",
+       "end": "2026-10-09T17:10:09.132Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲーム back to the dawn  3日目 ポイント賭けペクス←ポイント賭けパブジ←マタリ、マタリ雑談、その後脱獄ゲー",
@@ -1113,14 +1113,14 @@
       },
       {
        "stream_id": "316553846513",
-       "start": "2026-10-09T09:01:02.000Z",
-       "end": "2026-10-09T17:00:10.126Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-09T09:01:08.000Z",
+       "end": "2026-10-09T17:04:53.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マスきちゃああああああああ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2895878206",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1c9fd5f6ffc2bcd62271_yuyuta0702_316553846513_1791536462//thumb/thumb0-320x180.jpg"
       }
      ]
     }
