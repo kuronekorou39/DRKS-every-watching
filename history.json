@@ -334,6 +334,17 @@
        "game": "Deduce Together",
        "url": "https://www.twitch.tv/videos/2895109664",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0467aec438af69870157_kato_junichi0817_316562078706_1791464307//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316553773553",
+       "start": "2026-10-09T08:37:22.000Z",
+       "end": "2026-10-09T08:39:51.701Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ohayou",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -645,7 +656,7 @@
       {
        "stream_id": "316564923762",
        "start": "2026-10-09T07:08:37.000Z",
-       "end": "2026-10-09T08:29:50.865Z",
+       "end": "2026-10-09T08:39:51.702Z",
        "end_source": "poll",
        "live": true,
        "title": "ポイント賭けパブジ←マタリ、マタリ雑談、その後脱獄ゲー",
