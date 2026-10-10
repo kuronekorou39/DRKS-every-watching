@@ -348,14 +348,14 @@
       },
       {
        "stream_id": "316568714738",
-       "start": "2026-10-10T03:42:31.000Z",
-       "end": "2026-10-10T16:01:10.179Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-10T03:42:37.000Z",
+       "end": "2026-10-10T16:02:04.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ARC RAIDERSに帰ってきた男2日目",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2896667483",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/774cb964f4e5a2074552_kato_junichi0817_316568714738_1791603751//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1342,7 +1342,7 @@
       {
        "stream_id": "316626729715",
        "start": "2026-10-10T08:02:19.000Z",
-       "end": "2026-10-10T16:01:10.181Z",
+       "end": "2026-10-10T16:11:10.575Z",
        "end_source": "poll",
        "live": true,
        "title": "あまりにキモすぎる（褒め言葉）「実写版スレイザスパイア」みたいなゲーム「萬手一体」やる！！！※ちなみに割と苦手な人は苦手かも（笑）",
@@ -1987,7 +1987,7 @@
       {
        "stream_id": "316569857522",
        "start": "2026-10-10T09:36:53.000Z",
-       "end": "2026-10-10T16:01:10.182Z",
+       "end": "2026-10-10T16:11:10.576Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ2 #1 ネタばれ注意、匂わせ禁止",
