@@ -349,7 +349,7 @@
       {
        "stream_id": "316568714738",
        "start": "2026-10-10T03:42:31.000Z",
-       "end": "2026-10-10T06:20:47.456Z",
+       "end": "2026-10-10T06:30:46.310Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男2日目",
@@ -674,6 +674,17 @@
        "game": "Back to the Dawn",
        "url": "https://www.twitch.tv/videos/2895841791",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/41f74e291f5563f92763_indegnasen0706_316564923762_1791529717//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316569267058",
+       "start": "2026-10-10T06:25:36.000Z",
+       "end": "2026-10-10T06:30:46.312Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "脱獄ゲーム back to the dawn  ４日目 脱獄までぶっちぎり会場",
+       "game": "Back to the Dawn",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
