@@ -1341,14 +1341,14 @@
       },
       {
        "stream_id": "316626729715",
-       "start": "2026-10-10T08:02:19.000Z",
-       "end": "2026-10-10T17:21:09.857Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-10T08:02:24.000Z",
+       "end": "2026-10-10T17:26:46.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "あまりにキモすぎる（褒め言葉）「実写版スレイザスパイア」みたいなゲーム「萬手一体」やる！！！※ちなみに割と苦手な人は苦手かも（笑）",
        "game": "Out of Hands",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2896788769",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/66c9c72b9e986a22b3b6_oniyadayo_316626729715_1791619339//thumb/thumb0-320x180.jpg"
       }
      ]
     },
