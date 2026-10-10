@@ -1342,7 +1342,7 @@
       {
        "stream_id": "316626729715",
        "start": "2026-10-10T08:02:19.000Z",
-       "end": "2026-10-10T17:11:09.858Z",
+       "end": "2026-10-10T17:21:09.857Z",
        "end_source": "poll",
        "live": true,
        "title": "あまりにキモすぎる（褒め言葉）「実写版スレイザスパイア」みたいなゲーム「萬手一体」やる！！！※ちなみに割と苦手な人は苦手かも（笑）",
@@ -1986,14 +1986,14 @@
       },
       {
        "stream_id": "316569857522",
-       "start": "2026-10-10T09:36:53.000Z",
-       "end": "2026-10-10T17:11:09.859Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-10T09:36:59.000Z",
+       "end": "2026-10-10T17:16:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ2 #1 ネタばれ注意、匂わせ禁止",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2896826050",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/927ae208717e0e914f45_batora324_316569857522_1791625013//thumb/thumb0-320x180.jpg"
       }
      ]
     }
