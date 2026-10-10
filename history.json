@@ -349,7 +349,7 @@
       {
        "stream_id": "316568714738",
        "start": "2026-10-10T03:42:31.000Z",
-       "end": "2026-10-10T08:50:46.075Z",
+       "end": "2026-10-10T09:00:48.433Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男2日目",
@@ -678,7 +678,7 @@
       {
        "stream_id": "316569267058",
        "start": "2026-10-10T06:25:36.000Z",
-       "end": "2026-10-10T08:50:46.076Z",
+       "end": "2026-10-10T09:00:48.434Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲーム back to the dawn  ４日目 脱獄までぶっちぎり会場",
@@ -1143,6 +1143,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2895878206",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1c9fd5f6ffc2bcd62271_yuyuta0702_316553846513_1791536462//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316626930291",
+       "start": "2026-10-10T09:00:18.000Z",
+       "end": "2026-10-10T09:00:48.435Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -1331,11 +1342,11 @@
       {
        "stream_id": "316626729715",
        "start": "2026-10-10T08:02:19.000Z",
-       "end": "2026-10-10T08:50:46.078Z",
+       "end": "2026-10-10T09:00:48.435Z",
        "end_source": "poll",
        "live": true,
-       "title": "良く寝た男。じっくり腰を据えれる海外の奇妙なインディーゲーム募集なり！！！",
-       "game": "Just Chatting",
+       "title": "あまりにキモすぎる（褒め言葉）「実写版スレイザスパイア」みたいなゲーム「萬手一体」やる！！！※ちなみに割と苦手な人は苦手かも（笑）",
+       "game": "Out of Hands",
        "url": "https://www.twitch.tv/oniyadayo",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
