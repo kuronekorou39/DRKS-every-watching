@@ -349,7 +349,7 @@
       {
        "stream_id": "316568714738",
        "start": "2026-10-10T03:42:31.000Z",
-       "end": "2026-10-10T08:00:45.894Z",
+       "end": "2026-10-10T08:10:45.845Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男2日目",
@@ -678,7 +678,7 @@
       {
        "stream_id": "316569267058",
        "start": "2026-10-10T06:25:36.000Z",
-       "end": "2026-10-10T08:00:45.896Z",
+       "end": "2026-10-10T08:10:45.846Z",
        "end_source": "poll",
        "live": true,
        "title": "脱獄ゲーム back to the dawn  ４日目 脱獄までぶっちぎり会場",
@@ -1327,6 +1327,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2894160451",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3ddd299db8bddfd7fd64_oniyadayo_316545545969_1791366307//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316626729715",
+       "start": "2026-10-10T08:02:19.000Z",
+       "end": "2026-10-10T08:10:45.847Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "良く寝た男。じっくり腰を据えれる海外の奇妙なインディーゲーム募集なり！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
