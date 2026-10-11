@@ -919,7 +919,7 @@
       {
        "stream_id": "kick-2026-10-11T15:44:23.000Z",
        "start": "2026-10-11T15:44:23.000Z",
-       "end": "2026-10-11T18:21:54.379Z",
+       "end": "2026-10-11T18:31:55.726Z",
        "end_source": "poll",
        "live": true,
        "title": "いろいろと",
@@ -1408,7 +1408,7 @@
       {
        "stream_id": "316564356721",
        "start": "2026-10-11T13:13:46.000Z",
-       "end": "2026-10-11T18:21:54.380Z",
+       "end": "2026-10-11T18:31:55.726Z",
        "end_source": "poll",
        "live": true,
        "title": "日本語、英語、中国語、トリリンガル話者かつ一流AIMのFPSプレイヤーによる無敗のARC Raiders！！！",
@@ -2063,14 +2063,14 @@
       },
       {
        "stream_id": "316632410483",
-       "start": "2026-10-11T11:11:31.000Z",
-       "end": "2026-10-11T18:21:54.380Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-11T11:11:36.000Z",
+       "end": "2026-10-11T18:25:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ2 #2 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2897822321",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/004795ef814ec069d515_batora324_316632410483_1791717090//thumb/thumb0-320x180.jpg"
       }
      ]
     }
