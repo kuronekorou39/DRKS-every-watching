@@ -360,7 +360,7 @@
       {
        "stream_id": "316561934449",
        "start": "2026-10-11T02:06:22.000Z",
-       "end": "2026-10-11T13:11:45.093Z",
+       "end": "2026-10-11T13:21:44.482Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男3日目～今日こそちゃんとやります編～",
@@ -700,7 +700,7 @@
       {
        "stream_id": "316631890931",
        "start": "2026-10-11T08:49:10.000Z",
-       "end": "2026-10-11T13:11:45.094Z",
+       "end": "2026-10-11T13:21:44.483Z",
        "end_source": "poll",
        "live": true,
        "title": "拉麺、魔神家←布団ちゃんgptというのを使ってみる、放送！",
@@ -1191,7 +1191,7 @@
       {
        "stream_id": "316631928691",
        "start": "2026-10-11T09:00:42.000Z",
-       "end": "2026-10-11T13:11:45.095Z",
+       "end": "2026-10-11T13:21:44.484Z",
        "end_source": "poll",
        "live": true,
        "title": "ポケモンチャンピオンズ やります！",
@@ -1393,6 +1393,17 @@
        "game": "Out of Hands",
        "url": "https://www.twitch.tv/videos/2896788769",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/66c9c72b9e986a22b3b6_oniyadayo_316626729715_1791619339//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316564356721",
+       "start": "2026-10-11T13:13:46.000Z",
+       "end": "2026-10-11T13:21:44.484Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "日本語、英語、中国語、トリリンガル話者かつ一流AIMのFPSプレイヤーによる無敗のARC Raiders！！！",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -2042,7 +2053,7 @@
       {
        "stream_id": "316632410483",
        "start": "2026-10-11T11:11:31.000Z",
-       "end": "2026-10-11T13:11:45.096Z",
+       "end": "2026-10-11T13:21:44.485Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ2 #2 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
