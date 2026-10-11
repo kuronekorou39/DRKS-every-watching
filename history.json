@@ -360,7 +360,7 @@
       {
        "stream_id": "316561934449",
        "start": "2026-10-11T02:06:22.000Z",
-       "end": "2026-10-11T08:51:43.981Z",
+       "end": "2026-10-11T09:01:44.759Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男3日目～今日こそちゃんとやります編～",
@@ -700,7 +700,7 @@
       {
        "stream_id": "316631890931",
        "start": "2026-10-11T08:49:10.000Z",
-       "end": "2026-10-11T08:51:43.982Z",
+       "end": "2026-10-11T09:01:44.760Z",
        "end_source": "poll",
        "live": true,
        "title": "布団ちゃんgptというのを使ってみる、放送！",
@@ -908,7 +908,7 @@
       {
        "stream_id": "kick-2026-10-11T08:14:38.000Z",
        "start": "2026-10-11T08:14:38.000Z",
-       "end": "2026-10-11T08:51:43.983Z",
+       "end": "2026-10-11T09:01:44.761Z",
        "end_source": "poll",
        "live": true,
        "title": "いろいろと",
@@ -1187,6 +1187,17 @@
        "game": "Pokémon Champions",
        "url": "https://www.twitch.tv/videos/2896811359",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8ff5990abfb3c0e44003_yuyuta0702_316626930291_1791622818//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316631928691",
+       "start": "2026-10-11T09:00:42.000Z",
+       "end": "2026-10-11T09:01:44.761Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
