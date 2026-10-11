@@ -921,7 +921,7 @@
        "start": "2026-10-11T15:44:23.000Z",
        "end": "2026-10-11T20:22:15.391Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "いろいろと",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
