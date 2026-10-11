@@ -360,7 +360,7 @@
       {
        "stream_id": "316561934449",
        "start": "2026-10-11T02:06:22.000Z",
-       "end": "2026-10-11T08:11:36.270Z",
+       "end": "2026-10-11T08:21:34.570Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男3日目～今日こそちゃんとやります編～",
@@ -893,6 +893,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/kOPSPjawsfj2/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-11T08:14:38.000Z",
+       "start": "2026-10-11T08:14:38.000Z",
+       "end": "2026-10-11T08:21:34.572Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "いろいろと",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/0Eledm08ZrJI/480.webp"
       }
      ]
     }
