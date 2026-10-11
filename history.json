@@ -360,7 +360,7 @@
       {
        "stream_id": "316561934449",
        "start": "2026-10-11T02:06:22.000Z",
-       "end": "2026-10-11T11:11:45.250Z",
+       "end": "2026-10-11T11:21:44.628Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男3日目～今日こそちゃんとやります編～",
@@ -700,7 +700,7 @@
       {
        "stream_id": "316631890931",
        "start": "2026-10-11T08:49:10.000Z",
-       "end": "2026-10-11T11:11:45.251Z",
+       "end": "2026-10-11T11:21:44.629Z",
        "end_source": "poll",
        "live": true,
        "title": "拉麺、魔神家←布団ちゃんgptというのを使ってみる、放送！",
@@ -908,7 +908,7 @@
       {
        "stream_id": "kick-2026-10-11T08:14:38.000Z",
        "start": "2026-10-11T08:14:38.000Z",
-       "end": "2026-10-11T11:11:45.252Z",
+       "end": "2026-10-11T11:21:44.629Z",
        "end_source": "poll",
        "live": true,
        "title": "いろいろと",
@@ -1191,11 +1191,11 @@
       {
        "stream_id": "316631928691",
        "start": "2026-10-11T09:00:42.000Z",
-       "end": "2026-10-11T11:11:45.252Z",
+       "end": "2026-10-11T11:21:44.630Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！！",
-       "game": "Just Chatting",
+       "title": "ポケモンチャンピオンズ やります！",
+       "game": "Pokémon Champions",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -2041,14 +2041,14 @@
       },
       {
        "stream_id": "316632410483",
-       "start": "2026-10-11T11:11:36.000Z",
-       "end": "2026-10-11T11:11:41.000Z",
-       "end_source": "vod",
-       "live": false,
+       "start": "2026-10-11T11:11:31.000Z",
+       "end": "2026-10-11T11:21:44.631Z",
+       "end_source": "poll",
+       "live": true,
        "title": "キングダムハーツ2 #2 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
-       "game": null,
-       "url": "https://www.twitch.tv/videos/2897822321",
-       "thumb": "https://vod-secure.twitch.tv/_404/404_processing_320x180.png"
+       "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
