@@ -360,7 +360,7 @@
       {
        "stream_id": "316561934449",
        "start": "2026-10-11T02:06:22.000Z",
-       "end": "2026-10-11T11:01:44.636Z",
+       "end": "2026-10-11T11:11:45.250Z",
        "end_source": "poll",
        "live": true,
        "title": "ARC RAIDERSに帰ってきた男3日目～今日こそちゃんとやります編～",
@@ -700,7 +700,7 @@
       {
        "stream_id": "316631890931",
        "start": "2026-10-11T08:49:10.000Z",
-       "end": "2026-10-11T11:01:44.637Z",
+       "end": "2026-10-11T11:11:45.251Z",
        "end_source": "poll",
        "live": true,
        "title": "拉麺、魔神家←布団ちゃんgptというのを使ってみる、放送！",
@@ -908,7 +908,7 @@
       {
        "stream_id": "kick-2026-10-11T08:14:38.000Z",
        "start": "2026-10-11T08:14:38.000Z",
-       "end": "2026-10-11T11:01:44.638Z",
+       "end": "2026-10-11T11:11:45.252Z",
        "end_source": "poll",
        "live": true,
        "title": "いろいろと",
@@ -1191,7 +1191,7 @@
       {
        "stream_id": "316631928691",
        "start": "2026-10-11T09:00:42.000Z",
-       "end": "2026-10-11T11:01:44.639Z",
+       "end": "2026-10-11T11:11:45.252Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -2038,6 +2038,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2896826050",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/927ae208717e0e914f45_batora324_316569857522_1791625013//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316632410483",
+       "start": "2026-10-11T11:11:36.000Z",
+       "end": "2026-10-11T11:11:41.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "キングダムハーツ2 #2 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
+       "game": null,
+       "url": "https://www.twitch.tv/videos/2897822321",
+       "thumb": "https://vod-secure.twitch.tv/_404/404_processing_320x180.png"
       }
      ]
     }
