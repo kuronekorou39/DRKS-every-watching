@@ -371,7 +371,7 @@
       {
        "stream_id": "316566514545",
        "start": "2026-10-12T02:59:31.000Z",
-       "end": "2026-10-12T03:43:25.615Z",
+       "end": "2026-10-12T03:53:25.522Z",
        "end_source": "poll",
        "live": true,
        "title": "ジジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
@@ -721,14 +721,14 @@
       },
       {
        "stream_id": "316566455281",
-       "start": "2026-10-12T02:37:52.000Z",
-       "end": "2026-10-12T03:43:25.616Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-12T02:37:57.000Z",
+       "end": "2026-10-12T03:50:14.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "今日こそ越える、７DAYS←こく、楽しみであまり寝れんかった、放送！",
        "game": "7 Days to Die",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2898517316",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0c970ffe0bb1edba18c6_indegnasen0706_316566455281_1791772672//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2193,7 +2193,7 @@
       {
        "stream_id": "316566467825",
        "start": "2026-10-12T02:42:20.000Z",
-       "end": "2026-10-12T03:43:25.618Z",
+       "end": "2026-10-12T03:53:25.527Z",
        "end_source": "poll",
        "live": true,
        "title": "第3回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
@@ -2327,7 +2327,7 @@
       {
        "stream_id": "9MP8qpnY-kA",
        "start": "2026-10-12T02:43:35.000Z",
-       "end": "2026-10-12T03:43:25.619Z",
+       "end": "2026-10-12T03:53:25.527Z",
        "end_source": "poll",
        "live": true,
        "title": "第3回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
