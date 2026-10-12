@@ -965,7 +965,7 @@
        "start": "2026-10-12T22:23:13.000Z",
        "end": "2026-10-12T23:44:22.885Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "あさ",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -1692,6 +1692,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=7DPMUDfcsKk",
        "thumb": "https://i.ytimg.com/vi/7DPMUDfcsKk/mqdefault.jpg"
+      },
+      {
+       "stream_id": "v_uKtysYOT0",
+       "start": "2026-10-12T23:47:28.000Z",
+       "end": "2026-10-12T23:54:23.321Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "さぁ混沌の週明け。アメリカもKOSPもI下がって半導体クラッシュへ。またも原油高に加え、激弱メモリー相場の継続。もしかして日経平均はまたマンデーするのか？安寧のなき朝の寄り付き株ライブ生放送！！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=v_uKtysYOT0",
+       "thumb": "https://i.ytimg.com/vi/v_uKtysYOT0/mqdefault_live.jpg"
       }
      ]
     }
@@ -2130,7 +2141,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-12T23:44:22.885Z",
+       "end": "2026-10-12T23:54:23.322Z",
        "end_source": "poll",
        "live": true,
        "title": "締めのマリカ",
