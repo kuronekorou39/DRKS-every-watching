@@ -732,14 +732,14 @@
       },
       {
        "stream_id": "316635392243",
-       "start": "2026-10-12T03:57:53.000Z",
-       "end": "2026-10-12T14:23:59.068Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-12T03:57:58.000Z",
+       "end": "2026-10-12T14:31:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "いっかいぽっきり駆けpubg←今日こそ越える、７DAYS←こく、楽しみであまり寝れんかった、放送！",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2898562555",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/75699c971fbe3afa37cb_indegnasen0706_316635392243_1791777473//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1670,6 +1670,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=9pvMFkGdlFU",
        "thumb": "https://i.ytimg.com/vi/9pvMFkGdlFU/mqdefault.jpg"
+      },
+      {
+       "stream_id": "7DPMUDfcsKk",
+       "start": "2026-10-12T14:31:19.000Z",
+       "end": "2026-10-12T14:33:59.211Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】おい！！キオクシア時間外マイナス７パー！？KOSPI暴落でアメリカもメモリ株クラッシュしてるやんけ！！！俺の５０００万ポジションはもしや終わりですか？なにこれ。追証は勘弁して下さい。",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=7DPMUDfcsKk",
+       "thumb": "https://i.ytimg.com/vi/7DPMUDfcsKk/mqdefault_live.jpg"
       }
      ]
     }
@@ -2108,7 +2119,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-12T14:23:59.070Z",
+       "end": "2026-10-12T14:33:59.211Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ2 #3 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
