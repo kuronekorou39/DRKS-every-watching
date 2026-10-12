@@ -711,7 +711,7 @@
       {
        "stream_id": "316566455281",
        "start": "2026-10-12T02:37:52.000Z",
-       "end": "2026-10-12T02:43:26.683Z",
+       "end": "2026-10-12T02:53:24.904Z",
        "end_source": "poll",
        "live": true,
        "title": "こく、楽しみであまり寝れんかった、放送！",
@@ -2182,7 +2182,7 @@
       {
        "stream_id": "316566467825",
        "start": "2026-10-12T02:42:20.000Z",
-       "end": "2026-10-12T02:43:26.686Z",
+       "end": "2026-10-12T02:53:24.907Z",
        "end_source": "poll",
        "live": true,
        "title": "第3回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
@@ -2312,6 +2312,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=GYfi73GgXBU",
        "thumb": "https://i.ytimg.com/vi/GYfi73GgXBU/mqdefault.jpg"
+      },
+      {
+       "stream_id": "9MP8qpnY-kA",
+       "start": "2026-10-12T02:43:35.000Z",
+       "end": "2026-10-12T02:53:24.907Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "第3回スーパージジイ7Days to Die(こく兄、加藤純一、布団ちゃん、蛇足、UK、幕末坂本)",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=9MP8qpnY-kA",
+       "thumb": "https://i.ytimg.com/vi/9MP8qpnY-kA/mqdefault_live.jpg"
       }
      ]
     }
