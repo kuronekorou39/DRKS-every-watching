@@ -959,6 +959,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/PqjOGwTjhtkx/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-12T22:23:13.000Z",
+       "start": "2026-10-12T22:23:13.000Z",
+       "end": "2026-10-12T22:24:09.629Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あさ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/Tr6hgT5HOfmK/480.webp"
       }
      ]
     }
@@ -2119,7 +2130,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-12T22:14:10.052Z",
+       "end": "2026-10-12T22:24:09.630Z",
        "end_source": "poll",
        "live": true,
        "title": "締めのマリカ",
