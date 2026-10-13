@@ -378,6 +378,17 @@
        "game": "7 Days to Die",
        "url": "https://www.twitch.tv/videos/2898530002",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/480cc8a9e2d4ec04974b_kato_junichi0817_316566514545_1791773971//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316582630770",
+       "start": "2026-10-13T07:13:03.000Z",
+       "end": "2026-10-13T07:14:34.439Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "まずは話そうよ！ねぇ！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2141,7 +2152,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-13T07:04:31.335Z",
+       "end": "2026-10-13T07:14:34.442Z",
        "end_source": "poll",
        "live": true,
        "title": "締めのマリカ",
