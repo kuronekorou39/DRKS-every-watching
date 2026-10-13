@@ -382,7 +382,7 @@
       {
        "stream_id": "316582630770",
        "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T11:54:44.187Z",
+       "end": "2026-10-13T12:04:44.130Z",
        "end_source": "poll",
        "live": true,
        "title": "８０億分の１の男。加藤純一",
@@ -755,7 +755,7 @@
       {
        "stream_id": "316583130994",
        "start": "2026-10-13T10:04:35.000Z",
-       "end": "2026-10-13T11:54:44.188Z",
+       "end": "2026-10-13T12:04:44.131Z",
        "end_source": "poll",
        "live": true,
        "title": "【介護士として悪霊に立ち向かう】でんでん東京ホラー←こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
@@ -1279,7 +1279,7 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T11:54:44.189Z",
+       "end": "2026-10-13T12:04:44.133Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -2422,6 +2422,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=9MP8qpnY-kA",
        "thumb": "https://i.ytimg.com/vi/9MP8qpnY-kA/mqdefault.jpg"
+      },
+      {
+       "stream_id": "ZjBl7jqXxSk",
+       "start": "2026-10-13T12:01:28.000Z",
+       "end": "2026-10-13T12:04:44.134Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "「麺屋なかおか」で働こう！【Japanese Ramen Simulator】",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=ZjBl7jqXxSk",
+       "thumb": "https://i.ytimg.com/vi/ZjBl7jqXxSk/mqdefault_live.jpg"
       }
      ]
     }
