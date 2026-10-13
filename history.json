@@ -381,14 +381,14 @@
       },
       {
        "stream_id": "316582630770",
-       "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T15:14:44.009Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-13T07:13:09.000Z",
+       "end": "2026-10-13T15:24:07.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "プラネットZOO２をやる",
        "game": "Planet Zoo 2",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2899513720",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a454c4981af4f6038d0a_kato_junichi0817_316582630770_1791875583//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -755,7 +755,7 @@
       {
        "stream_id": "316583130994",
        "start": "2026-10-13T10:04:35.000Z",
-       "end": "2026-10-13T15:14:44.010Z",
+       "end": "2026-10-13T15:24:45.177Z",
        "end_source": "poll",
        "live": true,
        "title": "【介護士として悪霊に立ち向かう】でんでん東京ホラー←こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
@@ -1279,7 +1279,7 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T15:14:44.012Z",
+       "end": "2026-10-13T15:24:45.178Z",
        "end_source": "poll",
        "live": true,
        "title": "学マス やらせろ！！！！！",
