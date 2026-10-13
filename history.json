@@ -754,14 +754,14 @@
       },
       {
        "stream_id": "316583130994",
-       "start": "2026-10-13T10:04:35.000Z",
-       "end": "2026-10-13T16:34:59.319Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-13T10:04:40.000Z",
+       "end": "2026-10-13T16:36:59.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【介護士として悪霊に立ち向かう】でんでん東京ホラー←こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
        "game": "Others",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2899567489",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1e75565ea9162a64a1a2_indegnasen0706_316583130994_1791885875//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1279,7 +1279,7 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T16:34:59.320Z",
+       "end": "2026-10-13T16:44:59.580Z",
        "end_source": "poll",
        "live": true,
        "title": "学マス やらせろ！！！！！",
