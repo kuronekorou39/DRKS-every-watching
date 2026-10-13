@@ -382,7 +382,7 @@
       {
        "stream_id": "316582630770",
        "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T08:54:32.265Z",
+       "end": "2026-10-13T09:04:32.573Z",
        "end_source": "poll",
        "live": true,
        "title": "まずは話そうよ！ねぇ！！",
@@ -1264,6 +1264,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2897764743",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fda6cb1448a0074b035d_yuyuta0702_316631928691_1791709242//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316571764081",
+       "start": "2026-10-13T09:00:50.000Z",
+       "end": "2026-10-13T09:04:32.575Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -2152,7 +2163,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-13T08:54:32.268Z",
+       "end": "2026-10-13T09:04:32.576Z",
        "end_source": "poll",
        "live": true,
        "title": "締めのマリカ",
