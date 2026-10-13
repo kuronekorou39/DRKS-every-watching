@@ -382,7 +382,7 @@
       {
        "stream_id": "316582630770",
        "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T14:24:43.748Z",
+       "end": "2026-10-13T14:34:45.513Z",
        "end_source": "poll",
        "live": true,
        "title": "プラネットZOO２をやる",
@@ -755,7 +755,7 @@
       {
        "stream_id": "316583130994",
        "start": "2026-10-13T10:04:35.000Z",
-       "end": "2026-10-13T14:24:43.749Z",
+       "end": "2026-10-13T14:34:45.514Z",
        "end_source": "poll",
        "live": true,
        "title": "【介護士として悪霊に立ち向かう】でんでん東京ホラー←こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
@@ -1279,11 +1279,11 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T14:24:43.750Z",
+       "end": "2026-10-13T14:34:45.515Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！",
-       "game": "Just Chatting",
+       "title": "学マス やらせろ！！！！！",
+       "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -2426,9 +2426,9 @@
       {
        "stream_id": "ZjBl7jqXxSk",
        "start": "2026-10-13T12:01:28.000Z",
-       "end": "2026-10-13T14:24:43.752Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-13T14:32:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "「麺屋なかおか」で働こう！【Japanese Ramen Simulator】",
        "game": null,
        "url": "https://www.youtube.com/watch?v=ZjBl7jqXxSk",
