@@ -389,6 +389,17 @@
        "game": "Planet Zoo 2",
        "url": "https://www.twitch.tv/videos/2899513720",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a454c4981af4f6038d0a_kato_junichi0817_316582630770_1791875583//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316642607859",
+       "start": "2026-10-13T18:00:09.000Z",
+       "end": "2026-10-13T18:05:00.146Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "OWをやる人",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1278,14 +1289,14 @@
       },
       {
        "stream_id": "316571764081",
-       "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T17:55:00.461Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-13T09:00:55.000Z",
+       "end": "2026-10-13T17:56:53.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス やらせろ！！！！！",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2899546785",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8570f9e45f8850f2d628_yuyuta0702_316571764081_1791882050//thumb/thumb0-320x180.jpg"
       }
      ]
     }
