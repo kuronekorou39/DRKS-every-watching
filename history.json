@@ -382,11 +382,11 @@
       {
        "stream_id": "316582630770",
        "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T10:14:44.236Z",
+       "end": "2026-10-13T10:24:43.991Z",
        "end_source": "poll",
        "live": true,
-       "title": "まずは話そうよ！ねぇ！！",
-       "game": "Just Chatting",
+       "title": "ムラゲＯＷを応援する男",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -755,7 +755,7 @@
       {
        "stream_id": "316583130994",
        "start": "2026-10-13T10:04:35.000Z",
-       "end": "2026-10-13T10:14:44.237Z",
+       "end": "2026-10-13T10:24:43.992Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
@@ -1279,7 +1279,7 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T10:14:44.238Z",
+       "end": "2026-10-13T10:24:43.993Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -2173,14 +2173,14 @@
       },
       {
        "stream_id": "316636719219",
-       "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-13T10:14:44.240Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-12T10:37:08.000Z",
+       "end": "2026-10-13T10:15:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "締めのマリカ",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2898706744",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2faaaa67fabc685460cf_batora324_316636719219_1791801423//thumb/thumb0-320x180.jpg"
       }
      ]
     }
