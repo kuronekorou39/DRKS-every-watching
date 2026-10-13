@@ -382,7 +382,7 @@
       {
        "stream_id": "316582630770",
        "start": "2026-10-13T07:13:03.000Z",
-       "end": "2026-10-13T10:04:44.100Z",
+       "end": "2026-10-13T10:14:44.236Z",
        "end_source": "poll",
        "live": true,
        "title": "まずは話そうよ！ねぇ！！",
@@ -751,6 +751,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2898562555",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/75699c971fbe3afa37cb_indegnasen0706_316635392243_1791777473//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316583130994",
+       "start": "2026-10-13T10:04:35.000Z",
+       "end": "2026-10-13T10:14:44.237Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "こんばんは！ヘイルメアリーを見てにっこりの男、放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -1268,7 +1279,7 @@
       {
        "stream_id": "316571764081",
        "start": "2026-10-13T09:00:50.000Z",
-       "end": "2026-10-13T10:04:44.103Z",
+       "end": "2026-10-13T10:14:44.238Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -2163,7 +2174,7 @@
       {
        "stream_id": "316636719219",
        "start": "2026-10-12T10:37:03.000Z",
-       "end": "2026-10-13T10:04:44.104Z",
+       "end": "2026-10-13T10:14:44.240Z",
        "end_source": "poll",
        "live": true,
        "title": "締めのマリカ",
