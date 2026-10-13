@@ -392,14 +392,14 @@
       },
       {
        "stream_id": "316642607859",
-       "start": "2026-10-13T18:00:09.000Z",
-       "end": "2026-10-13T21:15:13.697Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-13T18:00:14.000Z",
+       "end": "2026-10-13T21:17:25.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "OWをやる人",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2899847593",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e9cffc3215450e40e839_kato_junichi0817_316642607859_1791914409//thumb/thumb0-320x180.jpg"
       }
      ]
     },
