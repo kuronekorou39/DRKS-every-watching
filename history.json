@@ -1312,14 +1312,14 @@
       },
       {
        "stream_id": "316644803571",
-       "start": "2026-10-14T09:00:24.000Z",
-       "end": "2026-10-14T16:35:50.024Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-14T09:00:29.000Z",
+       "end": "2026-10-14T16:38:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス！！！！！！",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2900405223",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8e1e11a7a72d797ecdd4_yuyuta0702_316644803571_1791968424//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1979,14 +1979,14 @@
       },
       {
        "stream_id": "316576219377",
-       "start": "2026-10-14T10:33:22.000Z",
-       "end": "2026-10-14T16:35:50.025Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-14T10:33:29.000Z",
+       "end": "2026-10-14T16:44:32.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "OWやるぞおおおおおおお",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2900436341",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a6a050ee2a00ea2876d7_assarisyoko1_316576219377_1791974002//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2285,7 +2285,7 @@
       {
        "stream_id": "316645204723",
        "start": "2026-10-14T10:56:48.000Z",
-       "end": "2026-10-14T16:35:50.025Z",
+       "end": "2026-10-14T16:45:49.406Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ2 #4 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
