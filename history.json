@@ -2284,14 +2284,14 @@
       },
       {
        "stream_id": "316645204723",
-       "start": "2026-10-14T10:56:48.000Z",
-       "end": "2026-10-14T17:55:49.824Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-14T10:56:53.000Z",
+       "end": "2026-10-14T18:05:28.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ2 #4 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2900444878",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0180e5cb69a6a7ac7e62_batora324_316645204723_1791975408//thumb/thumb0-320x180.jpg"
       }
      ]
     }
