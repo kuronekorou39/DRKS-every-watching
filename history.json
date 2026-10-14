@@ -1751,13 +1751,13 @@
       {
        "stream_id": "1hiVEucZ7GM",
        "start": "2026-10-13T23:48:38.000Z",
-       "end": "2026-10-14T02:35:25.529Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-14T02:36:38.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "半導体メモリー大幅クラッシュどうなる。AIバブルは弾けたのか？含み損２１００万なにこれ。ASML場中決算＆アメリカCPI発表も。どうなる今日の日経平均。魂の朝の寄り付き株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=1hiVEucZ7GM",
-       "thumb": "https://i.ytimg.com/vi/1hiVEucZ7GM/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/1hiVEucZ7GM/mqdefault.jpg"
       }
      ]
     }
@@ -2207,7 +2207,7 @@
       {
        "stream_id": "316574660721",
        "start": "2026-10-14T01:11:25.000Z",
-       "end": "2026-10-14T02:35:25.529Z",
+       "end": "2026-10-14T02:45:27.013Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカートの虜",
