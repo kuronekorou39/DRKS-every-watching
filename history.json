@@ -1313,7 +1313,7 @@
       {
        "stream_id": "316644803571",
        "start": "2026-10-14T09:00:24.000Z",
-       "end": "2026-10-14T10:55:36.655Z",
+       "end": "2026-10-14T11:05:37.032Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！”！！",
@@ -1530,7 +1530,7 @@
       {
        "stream_id": "316586915570",
        "start": "2026-10-14T08:04:04.000Z",
-       "end": "2026-10-14T10:55:36.655Z",
+       "end": "2026-10-14T11:05:37.033Z",
        "end_source": "poll",
        "live": true,
        "title": "シャドバPSミラー！！REJECT VS DFN！！頼むぞ！軍師",
@@ -1969,7 +1969,7 @@
       {
        "stream_id": "316576219377",
        "start": "2026-10-14T10:33:22.000Z",
-       "end": "2026-10-14T10:55:36.655Z",
+       "end": "2026-10-14T11:05:37.033Z",
        "end_source": "poll",
        "live": true,
        "title": "お久しぶりです",
@@ -2270,6 +2270,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2900187645",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6baaeb5ea1988cc6ee26_batora324_316574660721_1791940285//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316645204723",
+       "start": "2026-10-14T10:56:48.000Z",
+       "end": "2026-10-14T11:05:37.033Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "キングダムハーツ2 #4 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
+       "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
