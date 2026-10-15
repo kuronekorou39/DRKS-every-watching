@@ -777,7 +777,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T09:26:25.558Z",
+       "end": "2026-10-15T09:36:26.963Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！さて今日はどうする、放送！",
@@ -1335,7 +1335,7 @@
       {
        "stream_id": "316649023091",
        "start": "2026-10-15T09:00:59.000Z",
-       "end": "2026-10-15T09:26:25.559Z",
+       "end": "2026-10-15T09:36:26.964Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！！！！！！！！",
@@ -1563,7 +1563,7 @@
       {
        "stream_id": "316591109874",
        "start": "2026-10-15T07:48:47.000Z",
-       "end": "2026-10-15T09:26:25.560Z",
+       "end": "2026-10-15T09:36:26.964Z",
        "end_source": "poll",
        "live": true,
        "title": "あまりに悲しいので「日本の誰かとして生まれて育つ 1億2380万分の1」 人生ゲームシミュレーターで最強の人生を狙う男。",
@@ -2336,6 +2336,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2900444878",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0180e5cb69a6a7ac7e62_batora324_316645204723_1791975408//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316649130099",
+       "start": "2026-10-15T09:35:19.000Z",
+       "end": "2026-10-15T09:36:26.964Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
+       "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
