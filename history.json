@@ -787,14 +787,14 @@
       },
       {
        "stream_id": "316580157041",
-       "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T16:46:40.301Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-15T09:21:41.000Z",
+       "end": "2026-10-15T16:48:14.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "賭けPUBGの時間がやってみまいります。←こんばんは！さて今日はどうする、放送！",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2901275511",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d4e684d39d45fc12a055_indegnasen0706_316580157041_1792056096//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2079,7 +2079,7 @@
       {
        "stream_id": "316581016561",
        "start": "2026-10-15T12:25:00.000Z",
-       "end": "2026-10-15T16:46:40.303Z",
+       "end": "2026-10-15T16:56:40.508Z",
        "end_source": "poll",
        "live": true,
        "title": "フルコンさんまおさんEXAMさんとテラリアを初見でやらせていただく",
@@ -2395,7 +2395,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T16:46:40.303Z",
+       "end": "2026-10-15T16:56:40.508Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
