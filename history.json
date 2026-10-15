@@ -773,6 +773,17 @@
        "game": "Others",
        "url": "https://www.twitch.tv/videos/2899567489",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1e75565ea9162a64a1a2_indegnasen0706_316583130994_1791885875//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316580157041",
+       "start": "2026-10-15T09:21:36.000Z",
+       "end": "2026-10-15T09:26:25.558Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "こんばんは！さて今日はどうする、放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -1324,7 +1335,7 @@
       {
        "stream_id": "316649023091",
        "start": "2026-10-15T09:00:59.000Z",
-       "end": "2026-10-15T09:16:27.121Z",
+       "end": "2026-10-15T09:26:25.559Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！！！！！！！！",
@@ -1552,7 +1563,7 @@
       {
        "stream_id": "316591109874",
        "start": "2026-10-15T07:48:47.000Z",
-       "end": "2026-10-15T09:16:27.121Z",
+       "end": "2026-10-15T09:26:25.560Z",
        "end_source": "poll",
        "live": true,
        "title": "あまりに悲しいので「日本の誰かとして生まれて育つ 1億2380万分の1」 人生ゲームシミュレーターで最強の人生を狙う男。",
