@@ -400,6 +400,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2899847593",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e9cffc3215450e40e839_kato_junichi0817_316642607859_1791914409//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316580551025",
+       "start": "2026-10-15T11:08:26.000Z",
+       "end": "2026-10-15T11:16:27.778Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "プラネットズー２にて理想の動物園を経営することにした男",
+       "game": "Planet Zoo 2",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -777,7 +788,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T11:06:26.840Z",
+       "end": "2026-10-15T11:16:27.780Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！さて今日はどうする、放送！",
@@ -1335,7 +1346,7 @@
       {
        "stream_id": "316649023091",
        "start": "2026-10-15T09:00:59.000Z",
-       "end": "2026-10-15T11:06:26.841Z",
+       "end": "2026-10-15T11:16:27.781Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！！！！！！！！",
@@ -1562,14 +1573,14 @@
       },
       {
        "stream_id": "316591109874",
-       "start": "2026-10-15T07:48:47.000Z",
-       "end": "2026-10-15T11:06:26.841Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-15T07:48:52.000Z",
+       "end": "2026-10-15T11:14:18.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "あまりに悲しいので「日本の誰かとして生まれて育つ 1億2380万分の1」 人生ゲームシミュレーターで最強の人生を狙う男。",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2901245960",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/54df62c314ec392901aa_oniyadayo_316591109874_1792050527//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2340,7 +2351,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T11:06:26.842Z",
+       "end": "2026-10-15T11:16:27.782Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
