@@ -411,6 +411,17 @@
        "game": "Planet Zoo 2",
        "url": "https://www.twitch.tv/videos/2901314485",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/16fb88443860818f099e_kato_junichi0817_316580551025_1792062506//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316650944371",
+       "start": "2026-10-15T17:13:00.000Z",
+       "end": "2026-10-15T17:16:57.492Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "オーバーウォッチャー純",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2079,7 +2090,7 @@
       {
        "stream_id": "316581016561",
        "start": "2026-10-15T12:25:00.000Z",
-       "end": "2026-10-15T17:06:58.253Z",
+       "end": "2026-10-15T17:16:57.494Z",
        "end_source": "poll",
        "live": true,
        "title": "フルコンさんまおさんEXAMさんとテラリアを初見でやらせていただく",
@@ -2406,7 +2417,7 @@
       {
        "stream_id": "316582125553",
        "start": "2026-10-15T17:01:58.000Z",
-       "end": "2026-10-15T17:06:58.253Z",
+       "end": "2026-10-15T17:16:57.494Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート9000って可能？",
