@@ -1537,6 +1537,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2900387723",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5c12b919a1c9f05148a2_oniyadayo_316586915570_1791965044//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316591109874",
+       "start": "2026-10-15T07:48:47.000Z",
+       "end": "2026-10-15T07:56:25.876Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あまりに悲しいので「日本の誰かとして生まれて育つ 1億2380万分の1」 人生ゲームシミュレーターで最強の人生を狙う男。",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
