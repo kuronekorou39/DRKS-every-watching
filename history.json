@@ -788,7 +788,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T16:26:39.821Z",
+       "end": "2026-10-15T16:36:39.910Z",
        "end_source": "poll",
        "live": true,
        "title": "賭けPUBGの時間がやってみまいります。←こんばんは！さて今日はどうする、放送！",
@@ -1367,14 +1367,14 @@
       },
       {
        "stream_id": "316592980338",
-       "start": "2026-10-15T15:36:41.000Z",
-       "end": "2026-10-15T16:26:39.822Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-15T15:36:46.000Z",
+       "end": "2026-10-15T16:33:27.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ミッドナイトゆゆ散歩",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2901464046",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/870dfdd8aaa80f8a6c73_yuyuta0702_316592980338_1792078601//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2079,7 +2079,7 @@
       {
        "stream_id": "316581016561",
        "start": "2026-10-15T12:25:00.000Z",
-       "end": "2026-10-15T16:26:39.822Z",
+       "end": "2026-10-15T16:36:39.911Z",
        "end_source": "poll",
        "live": true,
        "title": "フルコンさんまおさんEXAMさんとテラリアを初見でやらせていただく",
@@ -2395,7 +2395,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T16:26:39.823Z",
+       "end": "2026-10-15T16:36:39.912Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
