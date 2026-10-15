@@ -404,7 +404,7 @@
       {
        "stream_id": "316580551025",
        "start": "2026-10-15T11:08:26.000Z",
-       "end": "2026-10-15T12:16:40.353Z",
+       "end": "2026-10-15T12:26:38.910Z",
        "end_source": "poll",
        "live": true,
        "title": "プラネットズー２にて理想の動物園を経営することにした男",
@@ -788,7 +788,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T12:16:40.354Z",
+       "end": "2026-10-15T12:26:38.911Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！さて今日はどうする、放送！",
@@ -1346,7 +1346,7 @@
       {
        "stream_id": "316649023091",
        "start": "2026-10-15T09:00:59.000Z",
-       "end": "2026-10-15T12:16:40.355Z",
+       "end": "2026-10-15T12:26:38.912Z",
        "end_source": "poll",
        "live": true,
        "title": "パラノマサイト 伊勢人魚物語 初見プレイ © SQUARE ENIX",
@@ -1862,7 +1862,7 @@
       {
        "stream_id": "lZnrBEFgOSU",
        "start": "2026-10-15T12:06:17.000Z",
-       "end": "2026-10-15T12:16:40.355Z",
+       "end": "2026-10-15T12:26:38.912Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】あぁ救ってくれ。もうアメリカPPIお前しかいない。この暴落相場に立ち向かう最後の指標に全てを委ねる！！日経平均クラッシュ追証。地獄のアメリカ相場を見とどける魂の株ライブ生放送！！",
@@ -2053,6 +2053,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2900436341",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a6a050ee2a00ea2876d7_assarisyoko1_316576219377_1791974002//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316581016561",
+       "start": "2026-10-15T12:25:00.000Z",
+       "end": "2026-10-15T12:26:38.912Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "フルコンさんまおさんEXAMさんとテラリアを初見でやらせていただく",
+       "game": "Terraria",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -2362,7 +2373,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T12:16:40.356Z",
+       "end": "2026-10-15T12:26:38.913Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
@@ -2625,7 +2636,7 @@
       {
        "stream_id": "79igY5VH6ds",
        "start": "2026-10-15T12:00:54.000Z",
-       "end": "2026-10-15T12:16:40.356Z",
+       "end": "2026-10-15T12:26:38.913Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #5「勇者サカ、アレを倒す」",
