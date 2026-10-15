@@ -404,7 +404,7 @@
       {
        "stream_id": "316580551025",
        "start": "2026-10-15T11:08:26.000Z",
-       "end": "2026-10-15T11:56:38.512Z",
+       "end": "2026-10-15T12:06:39.570Z",
        "end_source": "poll",
        "live": true,
        "title": "プラネットズー２にて理想の動物園を経営することにした男",
@@ -788,7 +788,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T11:56:38.513Z",
+       "end": "2026-10-15T12:06:39.571Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは！さて今日はどうする、放送！",
@@ -1346,11 +1346,11 @@
       {
        "stream_id": "316649023091",
        "start": "2026-10-15T09:00:59.000Z",
-       "end": "2026-10-15T11:56:38.514Z",
+       "end": "2026-10-15T12:06:39.571Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！！！！！！！！！！！",
-       "game": "Just Chatting",
+       "title": "パラノマサイト 伊勢人魚物語 初見プレイ © SQUARE ENIX",
+       "game": "PARANORMASIGHT: The Mermaid's Curse",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -1858,6 +1858,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=wiYUKHr9-kA",
        "thumb": "https://i.ytimg.com/vi/wiYUKHr9-kA/mqdefault.jpg"
+      },
+      {
+       "stream_id": "lZnrBEFgOSU",
+       "start": "2026-10-15T12:06:17.000Z",
+       "end": "2026-10-15T12:06:39.572Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】あぁ救ってくれ。もうアメリカPPIお前しかいない。この暴落相場に立ち向かう最後の指標に全てを委ねる！！日経平均クラッシュ追証。地獄のアメリカ相場を見とどける魂の株ライブ生放送！！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=lZnrBEFgOSU",
+       "thumb": "https://i.ytimg.com/vi/lZnrBEFgOSU/mqdefault_live.jpg"
       }
      ]
     }
@@ -2351,7 +2362,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T11:56:38.515Z",
+       "end": "2026-10-15T12:06:39.572Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
@@ -2610,6 +2621,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=ZjBl7jqXxSk",
        "thumb": "https://i.ytimg.com/vi/ZjBl7jqXxSk/mqdefault.jpg"
+      },
+      {
+       "stream_id": "79igY5VH6ds",
+       "start": "2026-10-15T12:00:54.000Z",
+       "end": "2026-10-15T12:06:39.573Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #5「勇者サカ、アレを倒す」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=79igY5VH6ds",
+       "thumb": "https://i.ytimg.com/vi/79igY5VH6ds/mqdefault_live.jpg"
       }
      ]
     }
