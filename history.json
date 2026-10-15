@@ -403,14 +403,14 @@
       },
       {
        "stream_id": "316580551025",
-       "start": "2026-10-15T11:08:26.000Z",
-       "end": "2026-10-15T15:56:40.908Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-15T11:08:31.000Z",
+       "end": "2026-10-15T15:57:39.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "プラネットズー２にて理想の動物園を経営することにした男",
        "game": "Planet Zoo 2",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2901314485",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/16fb88443860818f099e_kato_junichi0817_316580551025_1792062506//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -788,7 +788,7 @@
       {
        "stream_id": "316580157041",
        "start": "2026-10-15T09:21:36.000Z",
-       "end": "2026-10-15T15:56:40.909Z",
+       "end": "2026-10-15T16:06:39.078Z",
        "end_source": "poll",
        "live": true,
        "title": "賭けPUBGの時間がやってみまいります。←こんばんは！さて今日はどうする、放送！",
@@ -1368,7 +1368,7 @@
       {
        "stream_id": "316592980338",
        "start": "2026-10-15T15:36:41.000Z",
-       "end": "2026-10-15T15:56:40.910Z",
+       "end": "2026-10-15T16:06:39.079Z",
        "end_source": "poll",
        "live": true,
        "title": "ミッドナイトゆゆ散歩",
@@ -2079,7 +2079,7 @@
       {
        "stream_id": "316581016561",
        "start": "2026-10-15T12:25:00.000Z",
-       "end": "2026-10-15T15:56:40.911Z",
+       "end": "2026-10-15T16:06:39.080Z",
        "end_source": "poll",
        "live": true,
        "title": "フルコンさんまおさんEXAMさんとテラリアを初見でやらせていただく",
@@ -2395,7 +2395,7 @@
       {
        "stream_id": "316649130099",
        "start": "2026-10-15T09:35:19.000Z",
-       "end": "2026-10-15T15:56:40.911Z",
+       "end": "2026-10-15T16:06:39.080Z",
        "end_source": "poll",
        "live": true,
        "title": "いよいよ物語の核心へ！？ キングダムハーツ2 #5 ネタバレ注意、ネタバレ禁止、匂わせ禁止、指示はほどほど",
