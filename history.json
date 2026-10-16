@@ -806,6 +806,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2901275511",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d4e684d39d45fc12a055_indegnasen0706_316580157041_1792056096//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316584157169",
+       "start": "2026-10-16T07:38:19.000Z",
+       "end": "2026-10-16T07:47:18.107Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "過去に感じたドン勝の味を思い出いだしたいと思っている、放送！",
+       "game": null,
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2439,7 +2450,7 @@
       {
        "stream_id": "316582125553",
        "start": "2026-10-15T17:01:58.000Z",
-       "end": "2026-10-16T07:37:17.808Z",
+       "end": "2026-10-16T07:47:18.110Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート9000って可能？",
