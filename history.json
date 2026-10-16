@@ -437,7 +437,7 @@
       {
        "stream_id": "316597473906",
        "start": "2026-10-16T17:22:34.000Z",
-       "end": "2026-10-16T18:07:49.571Z",
+       "end": "2026-10-16T18:17:51.021Z",
        "end_source": "poll",
        "live": true,
        "title": "OWして寝る",
@@ -2177,14 +2177,14 @@
       },
       {
        "stream_id": "316595489394",
-       "start": "2026-10-16T09:07:44.000Z",
-       "end": "2026-10-16T18:07:49.575Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-16T09:07:50.000Z",
+       "end": "2026-10-16T18:08:40.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "OWやりましょか！？←デッドバイデイライトやりましょか！？",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2902130935",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e5b6676a2a78cea3938a_assarisyoko1_316595489394_1792141664//thumb/thumb0-320x180.jpg"
       }
      ]
     }
