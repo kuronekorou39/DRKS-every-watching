@@ -425,14 +425,14 @@
       },
       {
        "stream_id": "316595455730",
-       "start": "2026-10-16T08:56:11.000Z",
-       "end": "2026-10-16T15:37:49.419Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-16T08:56:16.000Z",
+       "end": "2026-10-16T15:38:04.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "文字ブレード世界チャンピオン",
        "game": "Moji Blade",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2902126852",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5321e2d9ce6cff71899b_kato_junichi0817_316595455730_1792140971//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1423,7 +1423,7 @@
       {
        "stream_id": "316584393329",
        "start": "2026-10-16T09:03:18.000Z",
-       "end": "2026-10-16T15:37:49.421Z",
+       "end": "2026-10-16T15:47:49.835Z",
        "end_source": "poll",
        "live": true,
        "title": "パラノマサイト伊勢人魚物語 初見プレイ © SQUARE ENIX",
@@ -2167,11 +2167,11 @@
       {
        "stream_id": "316595489394",
        "start": "2026-10-16T09:07:44.000Z",
-       "end": "2026-10-16T15:37:49.422Z",
+       "end": "2026-10-16T15:47:49.835Z",
        "end_source": "poll",
        "live": true,
-       "title": "デッドバイデイライトやりましょか！？",
-       "game": "Dead by Daylight",
+       "title": "OWやりましょか！？←デッドバイデイライトやりましょか！？",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
