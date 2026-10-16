@@ -1065,7 +1065,7 @@
        "start": "2026-10-16T01:35:03.000Z",
        "end": "2026-10-16T02:37:09.565Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "でかけるまで",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -2439,7 +2439,7 @@
       {
        "stream_id": "316582125553",
        "start": "2026-10-15T17:01:58.000Z",
-       "end": "2026-10-16T02:37:09.566Z",
+       "end": "2026-10-16T02:47:08.647Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート9000って可能？",
