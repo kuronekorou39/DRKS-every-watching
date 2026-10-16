@@ -437,7 +437,7 @@
       {
        "stream_id": "316597473906",
        "start": "2026-10-16T17:22:34.000Z",
-       "end": "2026-10-16T17:57:49.470Z",
+       "end": "2026-10-16T18:07:49.571Z",
        "end_source": "poll",
        "live": true,
        "title": "OWして寝る",
@@ -1433,14 +1433,14 @@
       },
       {
        "stream_id": "316584393329",
-       "start": "2026-10-16T09:03:18.000Z",
-       "end": "2026-10-16T17:57:49.473Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-16T09:03:23.000Z",
+       "end": "2026-10-16T18:04:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マスの時間だ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2902129503",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/26205927c2cec411df7c_yuyuta0702_316584393329_1792141398//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2178,7 +2178,7 @@
       {
        "stream_id": "316595489394",
        "start": "2026-10-16T09:07:44.000Z",
-       "end": "2026-10-16T17:57:49.474Z",
+       "end": "2026-10-16T18:07:49.575Z",
        "end_source": "poll",
        "live": true,
        "title": "OWやりましょか！？←デッドバイデイライトやりましょか！？",
