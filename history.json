@@ -2185,6 +2185,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2902130935",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e5b6676a2a78cea3938a_assarisyoko1_316595489394_1792141664//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316656445299",
+       "start": "2026-10-17T01:56:54.000Z",
+       "end": "2026-10-17T01:58:02.809Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "お昼休みはうきうきOWッチング",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
