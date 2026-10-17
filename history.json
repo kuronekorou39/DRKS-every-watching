@@ -448,7 +448,7 @@
       {
        "stream_id": "316599762802",
        "start": "2026-10-17T07:54:28.000Z",
-       "end": "2026-10-17T13:18:36.746Z",
+       "end": "2026-10-17T13:28:36.727Z",
        "end_source": "poll",
        "live": true,
        "title": "STEAMゲーム部２０２６/10月の部",
@@ -854,7 +854,7 @@
       {
        "stream_id": "316656741107",
        "start": "2026-10-17T03:43:36.000Z",
-       "end": "2026-10-17T13:18:36.747Z",
+       "end": "2026-10-17T13:28:36.729Z",
        "end_source": "poll",
        "live": true,
        "title": "アークレイダーのレアドロとは何かを学ぶ",
@@ -894,14 +894,14 @@
       },
       {
        "stream_id": "322007041627",
-       "start": "2026-10-17T11:55:54.000Z",
-       "end": "2026-10-17T13:18:36.748Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-17T11:56:02.000Z",
+       "end": "2026-10-17T13:23:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ムラゲ対戦会",
        "game": null,
-       "url": "https://www.twitch.tv/mokouliszt1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mokouliszt1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2903149205",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/2165124be8b1ca3340cc_mokouliszt1_322007041627_1792238154//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2233,7 +2233,7 @@
       {
        "stream_id": "316658234867",
        "start": "2026-10-17T11:05:20.000Z",
-       "end": "2026-10-17T13:18:36.750Z",
+       "end": "2026-10-17T13:28:36.731Z",
        "end_source": "poll",
        "live": true,
        "title": "テラリアむずいのやってみよう",
@@ -2593,7 +2593,7 @@
       {
        "stream_id": "316600537458",
        "start": "2026-10-17T11:34:12.000Z",
-       "end": "2026-10-17T13:18:36.750Z",
+       "end": "2026-10-17T13:28:36.731Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート9000って人に可能？",
