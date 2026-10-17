@@ -448,7 +448,7 @@
       {
        "stream_id": "316599762802",
        "start": "2026-10-17T07:54:28.000Z",
-       "end": "2026-10-17T09:58:24.861Z",
+       "end": "2026-10-17T10:08:25.061Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCﾚｲﾀﾞｰｽかまして２０時くらいからゲーム部をする",
@@ -854,7 +854,7 @@
       {
        "stream_id": "316656741107",
        "start": "2026-10-17T03:43:36.000Z",
-       "end": "2026-10-17T09:58:24.862Z",
+       "end": "2026-10-17T10:08:25.063Z",
        "end_source": "poll",
        "live": true,
        "title": "アークレイダーのレアドロとは何かを学ぶ",
@@ -2559,14 +2559,14 @@
       },
       {
        "stream_id": "316598882802",
-       "start": "2026-10-17T03:24:55.000Z",
-       "end": "2026-10-17T09:58:24.864Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-17T03:25:00.000Z",
+       "end": "2026-10-17T10:06:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "めっちゃイライラするのにやりたくなる謎のゲーム",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2902914733",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/62c5eab9c5ab9baecc0a_batora324_316598882802_1792207495//thumb/thumb0-320x180.jpg"
       }
      ]
     }
