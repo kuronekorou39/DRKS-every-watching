@@ -448,7 +448,7 @@
       {
        "stream_id": "316599762802",
        "start": "2026-10-17T07:54:28.000Z",
-       "end": "2026-10-17T14:58:36.413Z",
+       "end": "2026-10-17T15:08:36.809Z",
        "end_source": "poll",
        "live": true,
        "title": "STEAMゲーム部２０２６/10月の部",
@@ -854,7 +854,7 @@
       {
        "stream_id": "316656741107",
        "start": "2026-10-17T03:43:36.000Z",
-       "end": "2026-10-17T14:58:36.414Z",
+       "end": "2026-10-17T15:08:36.810Z",
        "end_source": "poll",
        "live": true,
        "title": "アークレイダーのレアドロとは何かを学ぶ",
@@ -1140,7 +1140,7 @@
       {
        "stream_id": "kick-2026-10-17T13:46:20.000Z",
        "start": "2026-10-17T13:46:20.000Z",
-       "end": "2026-10-17T14:58:36.415Z",
+       "end": "2026-10-17T15:08:36.811Z",
        "end_source": "poll",
        "live": true,
        "title": "かます",
@@ -2243,14 +2243,14 @@
       },
       {
        "stream_id": "316658234867",
-       "start": "2026-10-17T11:05:20.000Z",
-       "end": "2026-10-17T14:58:36.416Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-17T11:05:27.000Z",
+       "end": "2026-10-17T15:07:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "テラリアむずいのやってみよう",
        "game": "Terraria",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2903123927",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f6707eb728f7a60ab2c0_assarisyoko1_316658234867_1792235120//thumb/thumb0-320x180.jpg"
       }
      ]
     }
