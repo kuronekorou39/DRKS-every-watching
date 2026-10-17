@@ -448,11 +448,11 @@
       {
        "stream_id": "316599762802",
        "start": "2026-10-17T07:54:28.000Z",
-       "end": "2026-10-17T10:58:24.890Z",
+       "end": "2026-10-17T11:08:24.272Z",
        "end_source": "poll",
        "live": true,
-       "title": "ARCﾚｲﾀﾞｰｽかまして２０時くらいからゲーム部をする",
-       "game": "ARC Raiders",
+       "title": "STEAMゲーム部２０２６/10月の部",
+       "game": "Scritchy Scratchy",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -854,7 +854,7 @@
       {
        "stream_id": "316656741107",
        "start": "2026-10-17T03:43:36.000Z",
-       "end": "2026-10-17T10:58:24.891Z",
+       "end": "2026-10-17T11:08:24.274Z",
        "end_source": "poll",
        "live": true,
        "title": "アークレイダーのレアドロとは何かを学ぶ",
@@ -2218,6 +2218,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2902848829",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4b0184dceb1fbfed5af0_assarisyoko1_316656445299_1792202214//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316658234867",
+       "start": "2026-10-17T11:05:20.000Z",
+       "end": "2026-10-17T11:08:24.276Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "テラリアむずいのやってみよう",
+       "game": "Terraria",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
