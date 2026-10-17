@@ -444,6 +444,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2902415296",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8ec614bf34437e506cb9_kato_junichi0817_316597473906_1792171354//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316599762802",
+       "start": "2026-10-17T07:54:28.000Z",
+       "end": "2026-10-17T07:58:25.244Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ARCﾚｲﾀﾞｰｽかまして２０時くらいからゲーム部をする",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -843,7 +854,7 @@
       {
        "stream_id": "316656741107",
        "start": "2026-10-17T03:43:36.000Z",
-       "end": "2026-10-17T07:48:25.047Z",
+       "end": "2026-10-17T07:58:25.245Z",
        "end_source": "poll",
        "live": true,
        "title": "アークレイダーのレアドロとは何かを学ぶ",
@@ -2549,7 +2560,7 @@
       {
        "stream_id": "316598882802",
        "start": "2026-10-17T03:24:55.000Z",
-       "end": "2026-10-17T07:48:25.049Z",
+       "end": "2026-10-17T07:58:25.248Z",
        "end_source": "poll",
        "live": true,
        "title": "めっちゃイライラするのにやりたくなる謎のゲーム",
