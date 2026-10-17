@@ -2189,7 +2189,7 @@
       {
        "stream_id": "316656445299",
        "start": "2026-10-17T01:56:54.000Z",
-       "end": "2026-10-17T03:18:12.877Z",
+       "end": "2026-10-17T03:28:13.569Z",
        "end_source": "poll",
        "live": true,
        "title": "お昼休みはうきうきOWッチング",
@@ -2534,6 +2534,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2902164688",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e49f38fe39e7a9daded2_batora324_316653572851_1792147683//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316598882802",
+       "start": "2026-10-17T03:24:55.000Z",
+       "end": "2026-10-17T03:28:13.569Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "めっちゃイライラするのにやりたくなる謎のゲーム",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
