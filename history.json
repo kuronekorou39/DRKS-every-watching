@@ -2669,14 +2669,14 @@
       },
       {
        "stream_id": "316605238130",
-       "start": "2026-10-18T12:00:38.000Z",
-       "end": "2026-10-18T20:59:35.937Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-18T12:00:44.000Z",
+       "end": "2026-10-18T21:06:24.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "このゲーム面白すぎてたまらん 8700～",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2904114898",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d532104deef6983a6808_batora324_316605238130_1792324838//thumb/thumb0-320x180.jpg"
       }
      ]
     }
