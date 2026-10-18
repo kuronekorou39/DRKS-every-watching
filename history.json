@@ -865,7 +865,7 @@
       {
        "stream_id": "316592481265",
        "start": "2026-10-18T03:42:34.000Z",
-       "end": "2026-10-18T17:49:37.048Z",
+       "end": "2026-10-18T17:59:35.394Z",
        "end_source": "poll",
        "live": true,
        "title": "ハマってしまいました。アークレイダース",
@@ -1507,6 +1507,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2904030195",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cc4a0f8efee54566e977_yuyuta0702_316662496371_1792314034//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316595653489",
+       "start": "2026-10-18T17:57:13.000Z",
+       "end": "2026-10-18T17:59:35.395Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ミッドナイトゆゆ散歩",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -2659,7 +2670,7 @@
       {
        "stream_id": "316605238130",
        "start": "2026-10-18T12:00:38.000Z",
-       "end": "2026-10-18T17:49:37.049Z",
+       "end": "2026-10-18T17:59:35.395Z",
        "end_source": "poll",
        "live": true,
        "title": "このゲーム面白すぎてたまらん 8700～",
