@@ -864,14 +864,14 @@
       },
       {
        "stream_id": "316592481265",
-       "start": "2026-10-18T03:42:34.000Z",
-       "end": "2026-10-18T20:19:36.125Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-18T03:42:39.000Z",
+       "end": "2026-10-18T20:23:41.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ハマってしまいました。アークレイダース",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2903888940",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5e8783ab4cfb12fe8604_indegnasen0706_316592481265_1792294954//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2670,7 +2670,7 @@
       {
        "stream_id": "316605238130",
        "start": "2026-10-18T12:00:38.000Z",
-       "end": "2026-10-18T20:19:36.126Z",
+       "end": "2026-10-18T20:29:35.721Z",
        "end_source": "poll",
        "live": true,
        "title": "このゲーム面白すぎてたまらん 8700～",
