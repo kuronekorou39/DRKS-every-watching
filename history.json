@@ -448,7 +448,7 @@
       {
        "stream_id": "316599762802",
        "start": "2026-10-17T07:54:28.000Z",
-       "end": "2026-10-18T09:39:10.535Z",
+       "end": "2026-10-18T09:49:10.717Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCﾚｲﾀﾞｰｽﾞを１０００時間くらい一睡もせずにやる",
@@ -865,7 +865,7 @@
       {
        "stream_id": "316592481265",
        "start": "2026-10-18T03:42:34.000Z",
-       "end": "2026-10-18T09:39:10.536Z",
+       "end": "2026-10-18T09:49:10.718Z",
        "end_source": "poll",
        "live": true,
        "title": "ハマってしまいました。アークレイダース",
@@ -1500,7 +1500,7 @@
       {
        "stream_id": "316662496371",
        "start": "2026-10-18T09:00:34.000Z",
-       "end": "2026-10-18T09:39:10.537Z",
+       "end": "2026-10-18T09:49:10.719Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -2045,6 +2045,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=wYEVqOnvr-A",
        "thumb": "https://i.ytimg.com/vi/wYEVqOnvr-A/mqdefault.jpg"
+      },
+      {
+       "stream_id": "cPcdSaSIsKM",
+       "start": "2026-10-18T09:43:04.000Z",
+       "end": "2026-10-18T09:49:10.720Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】終わった。俺は退場なのか。日経平均、いきなり時間外2000円下げ。世界の経済が終わる瞬間を見ているのか？39年前のブラックマンデーの日にまたド級のナイフが落ちるのか？急会議です。",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=cPcdSaSIsKM",
+       "thumb": "https://i.ytimg.com/vi/cPcdSaSIsKM/mqdefault_live.jpg"
       }
      ]
     }
@@ -2637,7 +2648,7 @@
       {
        "stream_id": "316592904177",
        "start": "2026-10-18T05:46:19.000Z",
-       "end": "2026-10-18T09:39:10.538Z",
+       "end": "2026-10-18T09:49:10.720Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオカート9000をあきらめない男 8600～",
