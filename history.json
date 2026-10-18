@@ -865,7 +865,7 @@
       {
        "stream_id": "316592481265",
        "start": "2026-10-18T03:42:34.000Z",
-       "end": "2026-10-18T18:29:35.490Z",
+       "end": "2026-10-18T18:39:35.170Z",
        "end_source": "poll",
        "live": true,
        "title": "ハマってしまいました。アークレイダース",
@@ -1510,14 +1510,14 @@
       },
       {
        "stream_id": "316595653489",
-       "start": "2026-10-18T17:57:13.000Z",
-       "end": "2026-10-18T18:29:35.491Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-18T17:57:17.000Z",
+       "end": "2026-10-18T18:34:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ミッドナイトゆゆ散歩",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2904385938",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6c707c10029931c239e9_yuyuta0702_316595653489_1792346233//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2670,7 +2670,7 @@
       {
        "stream_id": "316605238130",
        "start": "2026-10-18T12:00:38.000Z",
-       "end": "2026-10-18T18:29:35.492Z",
+       "end": "2026-10-18T18:39:35.172Z",
        "end_source": "poll",
        "live": true,
        "title": "このゲーム面白すぎてたまらん 8700～",
