@@ -455,6 +455,17 @@
        "game": "BOMBANANA!",
        "url": "https://www.twitch.tv/videos/2903044012",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9ba478df87e89019ac86_kato_junichi0817_316599762802_1792223668//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316597719537",
+       "start": "2026-10-19T08:45:48.000Z",
+       "end": "2026-10-19T08:49:59.540Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ムラゲOWプレイオフを応援する男の子",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -876,7 +887,7 @@
       {
        "stream_id": "316666452339",
        "start": "2026-10-19T07:04:04.000Z",
-       "end": "2026-10-19T08:39:59.570Z",
+       "end": "2026-10-19T08:49:59.541Z",
        "end_source": "poll",
        "live": true,
        "title": "配信したては一発ポイント賭け！PUBGの時間です←起床爆炎陣",
@@ -1173,7 +1184,7 @@
       {
        "stream_id": "kick-2026-10-19T05:04:15.000Z",
        "start": "2026-10-19T05:04:15.000Z",
-       "end": "2026-10-19T08:39:59.571Z",
+       "end": "2026-10-19T08:49:59.542Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
