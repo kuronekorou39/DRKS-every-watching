@@ -886,14 +886,14 @@
       },
       {
        "stream_id": "316666452339",
-       "start": "2026-10-19T07:04:04.000Z",
-       "end": "2026-10-19T22:00:33.397Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-19T07:04:09.000Z",
+       "end": "2026-10-19T22:00:25.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "今日のレアドロなーにかな。アークレイダース４日目←配信したては一発ポイント賭け！PUBGの時間です←起床爆炎陣",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2904887699",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/15e834590eac5f948857_indegnasen0706_316666452339_1792393444//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2747,7 +2747,7 @@
       {
        "stream_id": "316609490674",
        "start": "2026-10-19T12:30:38.000Z",
-       "end": "2026-10-19T22:00:33.399Z",
+       "end": "2026-10-19T22:10:33.357Z",
        "end_source": "poll",
        "live": true,
        "title": "ちいかわの映画見てきました 8600～",
