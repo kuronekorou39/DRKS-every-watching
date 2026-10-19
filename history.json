@@ -459,11 +459,11 @@
       {
        "stream_id": "316597719537",
        "start": "2026-10-19T08:45:48.000Z",
-       "end": "2026-10-19T12:30:11.709Z",
+       "end": "2026-10-19T12:40:12.038Z",
        "end_source": "poll",
        "live": true,
-       "title": "ムラゲOWプレイオフを応援する男の子",
-       "game": "Overwatch",
+       "title": "アークレイダースにて悪の限りを尽くす",
+       "game": "ARC Raiders",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -887,7 +887,7 @@
       {
        "stream_id": "316666452339",
        "start": "2026-10-19T07:04:04.000Z",
-       "end": "2026-10-19T12:30:11.710Z",
+       "end": "2026-10-19T12:40:12.039Z",
        "end_source": "poll",
        "live": true,
        "title": "今日のレアドロなーにかな。アークレイダース４日目←配信したては一発ポイント賭け！PUBGの時間です←起床爆炎陣",
@@ -1555,7 +1555,7 @@
       {
        "stream_id": "316597760881",
        "start": "2026-10-19T08:59:49.000Z",
-       "end": "2026-10-19T12:30:11.710Z",
+       "end": "2026-10-19T12:40:12.040Z",
        "end_source": "poll",
        "live": true,
        "title": "パラノマサイト 伊勢人魚物語 初見プレイⒸSQUARE ENIX",
@@ -2354,11 +2354,11 @@
       {
        "stream_id": "316598326129",
        "start": "2026-10-19T11:32:02.000Z",
-       "end": "2026-10-19T12:30:11.711Z",
+       "end": "2026-10-19T12:40:12.040Z",
        "end_source": "poll",
        "live": true,
-       "title": "まずはありがとう",
-       "game": "Just Chatting",
+       "title": "マリオカート1位三回とるまでオレはやる",
+       "game": "Mario Kart World",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
@@ -2743,6 +2743,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2904114898",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d532104deef6983a6808_batora324_316605238130_1792324838//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316609490674",
+       "start": "2026-10-19T12:30:38.000Z",
+       "end": "2026-10-19T12:40:12.040Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ちいかわの映画見てきました 8600～",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
