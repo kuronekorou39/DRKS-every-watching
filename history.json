@@ -872,6 +872,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2903888940",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5e8783ab4cfb12fe8604_indegnasen0706_316592481265_1792294954//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316666452339",
+       "start": "2026-10-19T07:04:04.000Z",
+       "end": "2026-10-19T07:09:59.693Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "起床爆炎陣",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -1162,7 +1173,7 @@
       {
        "stream_id": "kick-2026-10-19T05:04:15.000Z",
        "start": "2026-10-19T05:04:15.000Z",
-       "end": "2026-10-19T06:59:58.937Z",
+       "end": "2026-10-19T07:09:59.693Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
