@@ -887,7 +887,7 @@
       {
        "stream_id": "316666452339",
        "start": "2026-10-19T07:04:04.000Z",
-       "end": "2026-10-19T17:30:22.537Z",
+       "end": "2026-10-19T17:40:24.147Z",
        "end_source": "poll",
        "live": true,
        "title": "今日のレアドロなーにかな。アークレイダース４日目←配信したては一発ポイント賭け！PUBGの時間です←起床爆炎陣",
@@ -1555,7 +1555,7 @@
       {
        "stream_id": "316597760881",
        "start": "2026-10-19T08:59:49.000Z",
-       "end": "2026-10-19T17:30:22.538Z",
+       "end": "2026-10-19T17:40:24.148Z",
        "end_source": "poll",
        "live": true,
        "title": "パラノマサイト 伊勢人魚物語 初見プレイⒸSQUARE ENIX",
@@ -2353,14 +2353,14 @@
       },
       {
        "stream_id": "316598326129",
-       "start": "2026-10-19T11:32:02.000Z",
-       "end": "2026-10-19T17:30:22.539Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-19T11:32:09.000Z",
+       "end": "2026-10-19T17:30:13.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マリオカート1位三回とるまでオレはやる",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2904977167",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aa45efc96266aff80c03_assarisyoko1_316598326129_1792409522//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2747,7 +2747,7 @@
       {
        "stream_id": "316609490674",
        "start": "2026-10-19T12:30:38.000Z",
-       "end": "2026-10-19T17:30:22.539Z",
+       "end": "2026-10-19T17:40:24.149Z",
        "end_source": "poll",
        "live": true,
        "title": "ちいかわの映画見てきました 8600～",
