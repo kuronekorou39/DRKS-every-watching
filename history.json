@@ -459,7 +459,7 @@
       {
        "stream_id": "316597719537",
        "start": "2026-10-19T08:45:48.000Z",
-       "end": "2026-10-19T11:30:12.885Z",
+       "end": "2026-10-19T11:40:12.280Z",
        "end_source": "poll",
        "live": true,
        "title": "ムラゲOWプレイオフを応援する男の子",
@@ -887,7 +887,7 @@
       {
        "stream_id": "316666452339",
        "start": "2026-10-19T07:04:04.000Z",
-       "end": "2026-10-19T11:30:12.886Z",
+       "end": "2026-10-19T11:40:12.281Z",
        "end_source": "poll",
        "live": true,
        "title": "今日のレアドロなーにかな。アークレイダース４日目←配信したては一発ポイント賭け！PUBGの時間です←起床爆炎陣",
@@ -1555,7 +1555,7 @@
       {
        "stream_id": "316597760881",
        "start": "2026-10-19T08:59:49.000Z",
-       "end": "2026-10-19T11:30:12.887Z",
+       "end": "2026-10-19T11:40:12.282Z",
        "end_source": "poll",
        "live": true,
        "title": "パラノマサイト 伊勢人魚物語 初見プレイⒸSQUARE ENIX",
@@ -2350,6 +2350,17 @@
        "game": "Terraria",
        "url": "https://www.twitch.tv/videos/2903123927",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f6707eb728f7a60ab2c0_assarisyoko1_316658234867_1792235120//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316598326129",
+       "start": "2026-10-19T11:32:02.000Z",
+       "end": "2026-10-19T11:40:12.282Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "まずはありがとう",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
