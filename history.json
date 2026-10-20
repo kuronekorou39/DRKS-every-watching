@@ -470,7 +470,7 @@
       {
        "stream_id": "316613193458",
        "start": "2026-10-20T11:03:47.000Z",
-       "end": "2026-10-20T15:01:10.615Z",
+       "end": "2026-10-20T15:11:13.543Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをしっかりとやる",
@@ -909,7 +909,7 @@
       {
        "stream_id": "316602109041",
        "start": "2026-10-20T10:11:46.000Z",
-       "end": "2026-10-20T15:01:10.616Z",
+       "end": "2026-10-20T15:11:13.544Z",
        "end_source": "poll",
        "live": true,
        "title": "起床、夢でも現実でもARCの音色が聞こえるようになってきた。５日目",
@@ -2203,9 +2203,9 @@
       {
        "stream_id": "lIBhD5bhsa8",
        "start": "2026-10-20T12:52:02.000Z",
-       "end": "2026-10-20T15:01:10.617Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-20T15:05:16.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】本日も追証。うわああああん（泣）ブラックマンデー結局来るのかよおお。明日も下がるのか？止まらない半導体メモリーの暴落。スペースXの決算を控えたアメリカ相場を見届けたい。株ライブ生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=lIBhD5bhsa8",
@@ -2453,11 +2453,11 @@
       {
        "stream_id": "316671110515",
        "start": "2026-10-20T09:56:01.000Z",
-       "end": "2026-10-20T15:01:10.617Z",
+       "end": "2026-10-20T15:11:13.546Z",
        "end_source": "poll",
        "live": true,
-       "title": "デッドバイデイ",
-       "game": "Dead by Daylight",
+       "title": "デッドバイデイ→おpばおぅっち",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
