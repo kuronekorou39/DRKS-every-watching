@@ -2126,13 +2126,13 @@
       {
        "stream_id": "iho3K9tchkk",
        "start": "2026-10-19T23:45:03.000Z",
-       "end": "2026-10-20T02:30:42.414Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-20T02:31:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おい待て。ブラックマンデーは回避したはずなのに。今日まさか下げるのか？なぜか弱いアメリカSOX指数に加え、今週はアメリカのIT決算も多数。半導体AIの未来はいかに。懸念の朝の寄り付き株ライブ生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=iho3K9tchkk",
-       "thumb": "https://i.ytimg.com/vi/iho3K9tchkk/mqdefault_live.jpg"
+       "thumb": "https://i.ytimg.com/vi/iho3K9tchkk/mqdefault.jpg"
       }
      ]
     }
@@ -2758,7 +2758,7 @@
       {
        "stream_id": "316609490674",
        "start": "2026-10-19T12:30:38.000Z",
-       "end": "2026-10-20T02:30:42.414Z",
+       "end": "2026-10-20T02:40:43.321Z",
        "end_source": "poll",
        "live": true,
        "title": "ちいかわの映画見てきました 8600～",
