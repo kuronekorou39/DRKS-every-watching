@@ -1191,6 +1191,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/3cqMJ3y9v8DN/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-20T07:33:17.000Z",
+       "start": "2026-10-20T07:33:17.000Z",
+       "end": "2026-10-20T07:40:54.835Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "DRKS放送",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/wutbAlxgRzTb/480.webp"
       }
      ]
     }
