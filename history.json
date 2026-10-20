@@ -2757,14 +2757,14 @@
       },
       {
        "stream_id": "316609490674",
-       "start": "2026-10-19T12:30:38.000Z",
-       "end": "2026-10-20T06:30:43.009Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-19T12:30:43.000Z",
+       "end": "2026-10-20T06:31:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ちいかわの映画見てきました 8600～",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2905005114",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bad31430325763f24b38_batora324_316609490674_1792413038//thumb/thumb0-320x180.jpg"
       }
      ]
     }
