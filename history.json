@@ -1195,7 +1195,7 @@
       {
        "stream_id": "kick-2026-10-20T07:33:17.000Z",
        "start": "2026-10-20T07:33:17.000Z",
-       "end": "2026-10-20T09:50:54.458Z",
+       "end": "2026-10-20T10:00:55.573Z",
        "end_source": "poll",
        "live": true,
        "title": "DRKS放送",
@@ -1587,8 +1587,19 @@
       },
       {
        "stream_id": "316612638194",
-       "start": "2026-10-20T08:22:35.000Z",
-       "end": "2026-10-20T09:50:54.459Z",
+       "start": "2026-10-20T08:22:40.000Z",
+       "end": "2026-10-20T09:56:30.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "ゆゆ散歩 新しい靴を買った男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/videos/2905759324",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/838abf58d2b1b7beeb46_yuyuta0702_316612638194_1792484555//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316612925426",
+       "start": "2026-10-20T09:56:45.000Z",
+       "end": "2026-10-20T10:00:55.574Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩 新しい靴を買った男",
@@ -2405,6 +2416,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2904977167",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aa45efc96266aff80c03_assarisyoko1_316598326129_1792409522//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316671110515",
+       "start": "2026-10-20T09:56:01.000Z",
+       "end": "2026-10-20T10:00:55.574Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "デッドバイデイ",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
