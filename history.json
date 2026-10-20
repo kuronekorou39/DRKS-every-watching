@@ -1195,7 +1195,7 @@
       {
        "stream_id": "kick-2026-10-20T07:33:17.000Z",
        "start": "2026-10-20T07:33:17.000Z",
-       "end": "2026-10-20T08:20:55.601Z",
+       "end": "2026-10-20T08:30:54.210Z",
        "end_source": "poll",
        "live": true,
        "title": "DRKS放送",
@@ -1576,8 +1576,19 @@
       },
       {
        "stream_id": "316612601330",
-       "start": "2026-10-20T08:10:15.000Z",
-       "end": "2026-10-20T08:20:55.601Z",
+       "start": "2026-10-20T08:10:20.000Z",
+       "end": "2026-10-20T08:22:16.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "ゆゆ散歩 新しい靴を買った男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/videos/2905755656",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b10e13495f9f4e302dcd_yuyuta0702_316612601330_1792483815//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316612638194",
+       "start": "2026-10-20T08:22:35.000Z",
+       "end": "2026-10-20T08:30:54.210Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩 新しい靴を買った男",
