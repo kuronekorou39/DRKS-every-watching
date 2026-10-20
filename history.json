@@ -470,7 +470,7 @@
       {
        "stream_id": "316613193458",
        "start": "2026-10-20T11:03:47.000Z",
-       "end": "2026-10-20T18:31:24.154Z",
+       "end": "2026-10-20T18:41:24.088Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをしっかりとやる",
@@ -908,14 +908,14 @@
       },
       {
        "stream_id": "316602109041",
-       "start": "2026-10-20T10:11:46.000Z",
-       "end": "2026-10-20T18:31:24.155Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-20T10:11:52.000Z",
+       "end": "2026-10-20T18:40:55.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "起床、夢でも現実でもARCの音色が聞こえるようになってきた。５日目",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2905795249",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/28e71b69f28bc458d6c7_indegnasen0706_316602109041_1792491106//thumb/thumb0-320x180.jpg"
       }
      ]
     }
