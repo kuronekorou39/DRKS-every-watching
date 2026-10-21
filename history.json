@@ -481,7 +481,7 @@
       {
        "stream_id": "316616492146",
        "start": "2026-10-21T06:24:08.000Z",
-       "end": "2026-10-21T13:12:00.014Z",
+       "end": "2026-10-21T13:22:01.083Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾄﾞﾗﾌﾟﾘﾝでﾓｴﾓｴｷｭｿ",
@@ -1235,6 +1235,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/wutbAlxgRzTb/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-21T13:20:34.000Z",
+       "start": "2026-10-21T13:20:34.000Z",
+       "end": "2026-10-21T13:22:01.085Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ネットがやばいらしい|DRKS配信者放送",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/TJVgVGHu6D8c/480.webp"
       }
      ]
     }
@@ -1893,7 +1904,7 @@
       {
        "stream_id": "316676205811",
        "start": "2026-10-21T13:02:06.000Z",
-       "end": "2026-10-21T13:12:00.017Z",
+       "end": "2026-10-21T13:22:01.086Z",
        "end_source": "poll",
        "live": true,
        "title": "国家サイバー統括室からの「PHP脆弱性」の緊急発表ヤバすぎるんだが。本日２３時に大規模ハッキング攻防って行われるってマジですか？リアルサマーウォーズに備える男。なにをすれば良いのこれ会議。",
@@ -2901,7 +2912,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-21T13:12:00.017Z",
+       "end": "2026-10-21T13:22:01.087Z",
        "end_source": "poll",
        "live": true,
        "title": "ちゃお",
@@ -3197,7 +3208,7 @@
       {
        "stream_id": "1H8icJTVL9w",
        "start": "2026-10-21T12:00:54.000Z",
-       "end": "2026-10-21T13:12:00.018Z",
+       "end": "2026-10-21T13:22:01.087Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #7「病み村に勇者降臨」",
