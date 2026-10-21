@@ -491,14 +491,14 @@
       },
       {
        "stream_id": "316619292018",
-       "start": "2026-10-21T19:41:32.000Z",
-       "end": "2026-10-21T21:42:23.288Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-21T19:41:37.000Z",
+       "end": "2026-10-21T21:49:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "11時までARCﾚｲﾀﾞｰｽﾞ",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2907027790",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3e56be2674ab02c7ffd3_kato_junichi0817_316619292018_1792611692//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2923,7 +2923,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-21T21:42:23.291Z",
+       "end": "2026-10-21T21:52:23.564Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ・ノマリーカ",
