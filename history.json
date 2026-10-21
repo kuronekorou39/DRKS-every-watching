@@ -488,6 +488,17 @@
        "game": "Cicada",
        "url": "https://www.twitch.tv/videos/2906584484",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/85aafa3adf589f44e777_kato_junichi0817_316616492146_1792563848//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316619292018",
+       "start": "2026-10-21T19:41:32.000Z",
+       "end": "2026-10-21T19:42:10.905Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "11時までARCﾚｲﾀﾞｰｽﾞ",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2912,7 +2923,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-21T19:32:10.228Z",
+       "end": "2026-10-21T19:42:10.907Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ・ノマリーカ",
