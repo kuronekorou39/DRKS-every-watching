@@ -481,7 +481,7 @@
       {
        "stream_id": "316616492146",
        "start": "2026-10-21T06:24:08.000Z",
-       "end": "2026-10-21T12:51:59.956Z",
+       "end": "2026-10-21T13:02:00.321Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをしてそのあと単発でゲームする",
@@ -2886,6 +2886,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2905005114",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bad31430325763f24b38_batora324_316609490674_1792413038//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316617977586",
+       "start": "2026-10-21T12:53:06.000Z",
+       "end": "2026-10-21T13:02:00.325Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ちゃお",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -3175,7 +3186,7 @@
       {
        "stream_id": "1H8icJTVL9w",
        "start": "2026-10-21T12:00:54.000Z",
-       "end": "2026-10-21T12:51:59.959Z",
+       "end": "2026-10-21T13:02:00.325Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #7「病み村に勇者降臨」",
