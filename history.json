@@ -481,7 +481,7 @@
       {
        "stream_id": "316616492146",
        "start": "2026-10-21T06:24:08.000Z",
-       "end": "2026-10-21T16:22:10.469Z",
+       "end": "2026-10-21T16:32:10.438Z",
        "end_source": "poll",
        "live": true,
        "title": "セミたちはどう生きるか",
@@ -1903,14 +1903,14 @@
       },
       {
        "stream_id": "316676205811",
-       "start": "2026-10-21T13:02:06.000Z",
-       "end": "2026-10-21T16:22:10.476Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-21T13:02:12.000Z",
+       "end": "2026-10-21T16:23:50.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シャドバグランプリいきます！！！国家サイバー統括室からの「PHP脆弱性」の緊急発表ヤバすぎるんだが。本日２３時に大規模ハッキング攻防って行われるってマジですか？リアルサマーウォーズに備える男。なにをすれば良いのこれ会議。",
        "game": "Shadowverse: Worlds Beyond",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2906736591",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f03c5c431733cffd7776_oniyadayo_316676205811_1792587726//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2912,7 +2912,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-21T16:22:10.477Z",
+       "end": "2026-10-21T16:32:10.440Z",
        "end_source": "poll",
        "live": true,
        "title": "ネタバレが激しすぎるＲＰＧ―最後の敵の正体は勇者の父―",
