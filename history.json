@@ -2280,9 +2280,9 @@
       {
        "stream_id": "qoHq5Uuj8tM",
        "start": "2026-10-21T23:45:03.000Z",
-       "end": "2026-10-22T02:22:22.451Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-22T02:23:33.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "PHP問題翌日の相場はいかに。METAとMETAとテスラ決算ぶっ飛び！このまま追証も吹っ飛ばせ！しかし上値の重い日経平均の行き先はどうなる。そろそろブチ上がってくれ。魂の朝の寄り付き株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=qoHq5Uuj8tM",
@@ -2934,7 +2934,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-22T02:22:22.451Z",
+       "end": "2026-10-22T02:32:24.494Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ・ノマリーカ",
