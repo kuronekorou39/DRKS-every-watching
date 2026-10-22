@@ -938,6 +938,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2905795249",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/28e71b69f28bc458d6c7_indegnasen0706_316602109041_1792491106//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316610453233",
+       "start": "2026-10-22T09:35:21.000Z",
+       "end": "2026-10-22T09:42:43.696Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "AI布団ちゃんv2が出たらしいから試しに使ってみる",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -1676,7 +1687,7 @@
       {
        "stream_id": "316610344817",
        "start": "2026-10-22T08:58:33.000Z",
-       "end": "2026-10-22T09:32:44.357Z",
+       "end": "2026-10-22T09:42:43.697Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -2945,7 +2956,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-22T09:32:44.357Z",
+       "end": "2026-10-22T09:42:43.697Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ・ノマリーカ",
