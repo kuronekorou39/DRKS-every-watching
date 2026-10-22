@@ -1672,6 +1672,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2906689226",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1224fb28481dd44b5711_yuyuta0702_316675686003_1792582265//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316610344817",
+       "start": "2026-10-22T08:58:33.000Z",
+       "end": "2026-10-22T09:02:43.468Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -2934,7 +2945,7 @@
       {
        "stream_id": "316617977586",
        "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-22T08:52:43.448Z",
+       "end": "2026-10-22T09:02:43.469Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ・ノマリーカ",
