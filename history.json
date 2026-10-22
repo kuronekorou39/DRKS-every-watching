@@ -942,7 +942,7 @@
       {
        "stream_id": "316610453233",
        "start": "2026-10-22T09:35:21.000Z",
-       "end": "2026-10-22T10:22:44.281Z",
+       "end": "2026-10-22T10:32:44.212Z",
        "end_source": "poll",
        "live": true,
        "title": "AI布団ちゃんv2が出たらしいから試しに使ってみる",
@@ -1687,7 +1687,7 @@
       {
        "stream_id": "316610344817",
        "start": "2026-10-22T08:58:33.000Z",
-       "end": "2026-10-22T10:22:44.282Z",
+       "end": "2026-10-22T10:32:44.212Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！！",
@@ -2955,14 +2955,14 @@
       },
       {
        "stream_id": "316617977586",
-       "start": "2026-10-21T12:53:06.000Z",
-       "end": "2026-10-22T10:22:44.283Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-21T12:53:11.000Z",
+       "end": "2026-10-22T10:25:46.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シメ・ノマリーカ",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2906730597",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6c0c22f84fd97ed2562d_batora324_316617977586_1792587186//thumb/thumb0-320x180.jpg"
       }
      ]
     }
