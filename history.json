@@ -1686,14 +1686,14 @@
       },
       {
        "stream_id": "316610344817",
-       "start": "2026-10-22T08:58:33.000Z",
-       "end": "2026-10-22T18:43:02.216Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-22T08:58:38.000Z",
+       "end": "2026-10-22T18:45:54.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス ガシャだけ",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2907490747",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/70acebdb10764eccab2c_yuyuta0702_316610344817_1792659513//thumb/thumb0-320x180.jpg"
       }
      ]
     }
