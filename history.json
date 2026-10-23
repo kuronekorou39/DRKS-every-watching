@@ -2985,6 +2985,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2906730597",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6c0c22f84fd97ed2562d_batora324_316617977586_1792587186//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316613930993",
+       "start": "2026-10-23T03:46:03.000Z",
+       "end": "2026-10-23T03:53:31.370Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "帰宅後即真理香",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
