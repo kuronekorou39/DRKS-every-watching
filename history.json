@@ -1694,6 +1694,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2907490747",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/70acebdb10764eccab2c_yuyuta0702_316610344817_1792659513//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316682889203",
+       "start": "2026-10-23T04:12:17.000Z",
+       "end": "2026-10-23T04:13:30.565Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "髪を切ってきた男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -2989,7 +3000,7 @@
       {
        "stream_id": "316613930993",
        "start": "2026-10-23T03:46:03.000Z",
-       "end": "2026-10-23T04:03:29.903Z",
+       "end": "2026-10-23T04:13:30.566Z",
        "end_source": "poll",
        "live": true,
        "title": "帰宅後即真理香",
