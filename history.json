@@ -499,6 +499,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2907027790",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3e56be2674ab02c7ffd3_kato_junichi0817_316619292018_1792611692//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316683320947",
+       "start": "2026-10-23T06:44:59.000Z",
+       "end": "2026-10-23T06:53:43.730Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "読売ジャイアンツ２０２７ペナント優勝記念会場",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -3000,7 +3011,7 @@
       {
        "stream_id": "316613930993",
        "start": "2026-10-23T03:46:03.000Z",
-       "end": "2026-10-23T06:43:43.225Z",
+       "end": "2026-10-23T06:53:43.734Z",
        "end_source": "poll",
        "live": true,
        "title": "帰宅後即真理香",
