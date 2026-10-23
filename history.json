@@ -514,7 +514,7 @@
       {
        "stream_id": "316686016371",
        "start": "2026-10-23T18:55:07.000Z",
-       "end": "2026-10-23T21:24:07.702Z",
+       "end": "2026-10-23T21:34:09.228Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCﾚｲﾀﾞｰｽﾞををずっとやる",
@@ -974,14 +974,14 @@
       },
       {
        "stream_id": "316625550962",
-       "start": "2026-10-23T09:02:10.000Z",
-       "end": "2026-10-23T21:24:07.702Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-23T09:02:15.000Z",
+       "end": "2026-10-23T21:28:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ACE COMBAT 8: WINGS OF THEVE 初見プレイ←ポイント賭けパbウジ←サイレントヒル２ 初見プレイ ←週末が来る...さあ何をやろうか模索するか、放送！",
        "game": "ACE COMBAT 8: WINGS OF THEVE",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2908369328",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5c1d202eeafddc335e33_indegnasen0706_316625550962_1792746130//thumb/thumb0-320x180.jpg"
       }
      ]
     }
