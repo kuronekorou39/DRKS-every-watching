@@ -502,14 +502,14 @@
       },
       {
        "stream_id": "316683320947",
-       "start": "2026-10-23T06:44:59.000Z",
-       "end": "2026-10-23T14:03:57.233Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-23T06:45:04.000Z",
+       "end": "2026-10-23T14:07:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "人狼メトロポリスで悪の限りを尽くす",
        "game": "Jinro Metropolis",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2908322600",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a4937c6922403f722d90_kato_junichi0817_316683320947_1792737899//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -964,7 +964,7 @@
       {
        "stream_id": "316625550962",
        "start": "2026-10-23T09:02:10.000Z",
-       "end": "2026-10-23T14:03:57.234Z",
+       "end": "2026-10-23T14:13:56.328Z",
        "end_source": "poll",
        "live": true,
        "title": "ACE COMBAT 8: WINGS OF THEVE 初見プレイ←ポイント賭けパbウジ←サイレントヒル２ 初見プレイ ←週末が来る...さあ何をやろうか模索するか、放送！",
@@ -2368,7 +2368,7 @@
       {
        "stream_id": "Gul5HA7yMcE",
        "start": "2026-10-23T12:52:24.000Z",
-       "end": "2026-10-23T14:03:57.235Z",
+       "end": "2026-10-23T14:13:56.329Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】また日経時間外で下がってるんですが！だが俺は大底予想である。原油もついに100ドル超え。この土日をゆっくり過ごしたい！頼むぞ半導体メモリー！ぶち上げアメリカ相場見届け生放送！",
@@ -3033,7 +3033,7 @@
       {
        "stream_id": "316613930993",
        "start": "2026-10-23T03:46:03.000Z",
-       "end": "2026-10-23T14:03:57.235Z",
+       "end": "2026-10-23T14:13:56.329Z",
        "end_source": "poll",
        "live": true,
        "title": "帰宅後即真理香",
@@ -3340,7 +3340,7 @@
       {
        "stream_id": "3FAYI2QscwQ",
        "start": "2026-10-23T12:00:32.000Z",
-       "end": "2026-10-23T14:03:57.235Z",
+       "end": "2026-10-23T14:13:56.329Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #8「センの古城を大突破」",
