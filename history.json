@@ -997,7 +997,7 @@
       {
        "stream_id": "316629803890",
        "start": "2026-10-24T06:49:04.000Z",
-       "end": "2026-10-24T16:44:58.981Z",
+       "end": "2026-10-24T16:54:58.549Z",
        "end_source": "poll",
        "live": true,
        "title": "エースコンバット８ シリーズ初見プレイ ２日←ポイント賭けPUBG←軽く駄弁った後にエスコン８だよ～ん",
@@ -1327,7 +1327,7 @@
       {
        "stream_id": "kick-2026-10-24T10:53:45.000Z",
        "start": "2026-10-24T10:53:45.000Z",
-       "end": "2026-10-24T16:44:58.981Z",
+       "end": "2026-10-24T16:54:58.550Z",
        "end_source": "poll",
        "live": true,
        "title": "配信|DRKS",
@@ -1774,14 +1774,14 @@
       },
       {
        "stream_id": "316630197234",
-       "start": "2026-10-24T08:55:20.000Z",
-       "end": "2026-10-24T16:44:58.982Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-24T08:55:25.000Z",
+       "end": "2026-10-24T16:46:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学園アイドルマスターをがっつりやる",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2909308170",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6279722b294cbf5b2556_yuyuta0702_316630197234_1792832120//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3099,7 +3099,7 @@
       {
        "stream_id": "316629583346",
        "start": "2026-10-24T05:43:33.000Z",
-       "end": "2026-10-24T16:44:58.982Z",
+       "end": "2026-10-24T16:54:58.551Z",
        "end_source": "poll",
        "live": true,
        "title": "イライラやばいのに気が付いたら起動してるこのゲームは何？",
