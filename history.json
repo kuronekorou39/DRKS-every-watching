@@ -525,7 +525,7 @@
       {
        "stream_id": "316618824049",
        "start": "2026-10-24T06:26:01.000Z",
-       "end": "2026-10-24T08:54:29.604Z",
+       "end": "2026-10-24T09:04:29.655Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCﾚｲﾀﾞｰｽﾞをを２１時までやる",
@@ -997,7 +997,7 @@
       {
        "stream_id": "316629803890",
        "start": "2026-10-24T06:49:04.000Z",
-       "end": "2026-10-24T08:54:29.605Z",
+       "end": "2026-10-24T09:04:29.656Z",
        "end_source": "poll",
        "live": true,
        "title": "軽く駄弁った後にエスコン８だよ～ん",
@@ -1760,6 +1760,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2908260526",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4396bb25c461edf12d69_yuyuta0702_316682889203_1792728737//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316630197234",
+       "start": "2026-10-24T08:55:20.000Z",
+       "end": "2026-10-24T09:04:29.656Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -3077,7 +3088,7 @@
       {
        "stream_id": "316629583346",
        "start": "2026-10-24T05:43:33.000Z",
-       "end": "2026-10-24T08:54:29.607Z",
+       "end": "2026-10-24T09:04:29.657Z",
        "end_source": "poll",
        "live": true,
        "title": "イライラやばいのに気が付いたら起動してるこのゲームは何？",
