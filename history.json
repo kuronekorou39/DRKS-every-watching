@@ -521,6 +521,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2908745412",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/75364e49615f533013dd_kato_junichi0817_316686016371_1792781707//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316618824049",
+       "start": "2026-10-24T06:26:01.000Z",
+       "end": "2026-10-24T06:34:30.776Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ARCﾚｲﾀﾞｰｽﾞをを２１時までやる",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -3055,7 +3066,7 @@
       {
        "stream_id": "316629583346",
        "start": "2026-10-24T05:43:33.000Z",
-       "end": "2026-10-24T06:24:29.727Z",
+       "end": "2026-10-24T06:34:30.779Z",
        "end_source": "poll",
        "live": true,
        "title": "イライラやばいのに気が付いたら起動してるこのゲームは何？",
