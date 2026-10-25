@@ -547,7 +547,7 @@
       {
        "stream_id": "316623315057",
        "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T08:35:42.613Z",
+       "end": "2026-10-25T08:45:41.940Z",
        "end_source": "poll",
        "live": true,
        "title": "本日もまた２１時から何かをやります",
@@ -1030,11 +1030,11 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T08:35:42.614Z",
+       "end": "2026-10-25T08:45:41.941Z",
        "end_source": "poll",
        "live": true,
-       "title": "解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
-       "game": "Just Chatting",
+       "title": "PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
+       "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
