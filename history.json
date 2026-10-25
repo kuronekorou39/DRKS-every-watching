@@ -547,7 +547,7 @@
       {
        "stream_id": "316623315057",
        "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T11:05:42.983Z",
+       "end": "2026-10-25T11:15:42.270Z",
        "end_source": "poll",
        "live": true,
        "title": "本日もまた２１時から何かをやります",
@@ -1030,7 +1030,7 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T11:05:42.984Z",
+       "end": "2026-10-25T11:15:42.270Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
@@ -1819,7 +1819,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T11:05:42.984Z",
+       "end": "2026-10-25T11:15:42.271Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -2724,6 +2724,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2905789368",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/379bfcc08a5b9f47b8fc_assarisyoko1_316671110515_1792490161//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316693517427",
+       "start": "2026-10-25T11:14:35.000Z",
+       "end": "2026-10-25T11:15:42.272Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "デッドバイデイライトやろうや",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
