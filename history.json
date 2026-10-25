@@ -554,6 +554,17 @@
        "game": "Content Warning",
        "url": "https://www.twitch.tv/videos/2910214494",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aef42907a82329761554_kato_junichi0817_316623315057_1792908881//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316694721523",
+       "start": "2026-10-25T15:43:34.000Z",
+       "end": "2026-10-25T15:45:57.387Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ARCレイダースをくそやる",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1030,7 +1041,7 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T15:35:57.070Z",
+       "end": "2026-10-25T15:45:57.389Z",
        "end_source": "poll",
        "live": true,
        "title": "エースコンバット８ シリーズ初見プレイ ３日目 ←PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
@@ -1819,7 +1830,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T15:35:57.071Z",
+       "end": "2026-10-25T15:45:57.389Z",
        "end_source": "poll",
        "live": true,
        "title": "栄冠ナイン やるぞ 2年目",
@@ -2739,7 +2750,7 @@
       {
        "stream_id": "316693517427",
        "start": "2026-10-25T11:14:35.000Z",
-       "end": "2026-10-25T15:35:57.072Z",
+       "end": "2026-10-25T15:45:57.390Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバイデイライトやろうや",
