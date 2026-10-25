@@ -557,14 +557,14 @@
       },
       {
        "stream_id": "316694721523",
-       "start": "2026-10-25T15:43:34.000Z",
-       "end": "2026-10-25T20:16:10.197Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-25T15:43:40.000Z",
+       "end": "2026-10-25T20:17:39.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ARCレイダースをくそやる",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2910513766",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1459c22491ab48f0ae3e_kato_junichi0817_316694721523_1792943014//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1829,14 +1829,14 @@
       },
       {
        "stream_id": "316692998003",
-       "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T20:16:10.198Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-25T09:00:25.000Z",
+       "end": "2026-10-25T20:20:18.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "栄冠ナイン やるぞ 2年目",
        "game": "Powerful Pro Yakyuu 2026-2027",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2910278196",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4cbf3f21427d5f2d4c88_yuyuta0702_316692998003_1792918820//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3187,7 +3187,7 @@
       {
        "stream_id": "316625984497",
        "start": "2026-10-25T19:07:31.000Z",
-       "end": "2026-10-25T20:16:10.199Z",
+       "end": "2026-10-25T20:26:09.948Z",
        "end_source": "poll",
        "live": true,
        "title": "ニスク練習",
