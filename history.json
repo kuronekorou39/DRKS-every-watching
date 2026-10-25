@@ -547,7 +547,7 @@
       {
        "stream_id": "316623315057",
        "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T11:25:42.328Z",
+       "end": "2026-10-25T11:35:43.053Z",
        "end_source": "poll",
        "live": true,
        "title": "本日もまた２１時から何かをやります",
@@ -1030,11 +1030,11 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T11:25:42.329Z",
+       "end": "2026-10-25T11:35:43.054Z",
        "end_source": "poll",
        "live": true,
-       "title": "PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
-       "game": "PUBG: BATTLEGROUNDS",
+       "title": "エースコンバット８ シリーズ初見プレイ ３日目 ←PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
+       "game": "ACE COMBAT 8: WINGS OF THEVE",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -1819,7 +1819,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T11:25:42.330Z",
+       "end": "2026-10-25T11:35:43.054Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -2728,7 +2728,7 @@
       {
        "stream_id": "316693517427",
        "start": "2026-10-25T11:14:35.000Z",
-       "end": "2026-10-25T11:25:42.330Z",
+       "end": "2026-10-25T11:35:43.055Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバイデイライトやろうや",
