@@ -547,7 +547,7 @@
       {
        "stream_id": "316623315057",
        "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T06:35:30.213Z",
+       "end": "2026-10-25T06:45:29.289Z",
        "end_source": "poll",
        "live": true,
        "title": "本日もまた２１時から何かをやります",
@@ -1026,6 +1026,17 @@
        "game": "ACE COMBAT 8: WINGS OF THEVE",
        "url": "https://www.twitch.tv/videos/2909259823",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3aba54e30d77226f4945_indegnasen0706_316629803890_1792824544//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316634348658",
+       "start": "2026-10-25T06:41:34.000Z",
+       "end": "2026-10-25T06:45:29.290Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -3121,7 +3132,7 @@
       {
        "stream_id": "316629583346",
        "start": "2026-10-24T05:43:33.000Z",
-       "end": "2026-10-25T06:35:30.217Z",
+       "end": "2026-10-25T06:45:29.292Z",
        "end_source": "poll",
        "live": true,
        "title": "イライラやばいのに気が付いたら起動してるこのゲームは何？",
