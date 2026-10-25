@@ -558,7 +558,7 @@
       {
        "stream_id": "316694721523",
        "start": "2026-10-25T15:43:34.000Z",
-       "end": "2026-10-25T19:05:56.431Z",
+       "end": "2026-10-25T19:16:12.206Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをくそやる",
@@ -1830,7 +1830,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T19:05:56.433Z",
+       "end": "2026-10-25T19:16:12.207Z",
        "end_source": "poll",
        "live": true,
        "title": "栄冠ナイン やるぞ 2年目",
@@ -3183,6 +3183,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2909232971",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4d5af724d42009ad3225_batora324_316629583346_1792820613//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316625984497",
+       "start": "2026-10-25T19:07:31.000Z",
+       "end": "2026-10-25T19:16:12.208Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ニスク練習",
+       "game": "Mario Kart World",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
