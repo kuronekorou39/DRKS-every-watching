@@ -547,7 +547,7 @@
       {
        "stream_id": "316623315057",
        "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T08:55:42.750Z",
+       "end": "2026-10-25T09:05:42.502Z",
        "end_source": "poll",
        "live": true,
        "title": "本日もまた２１時から何かをやります",
@@ -1030,7 +1030,7 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T08:55:42.751Z",
+       "end": "2026-10-25T09:05:42.503Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
@@ -1815,6 +1815,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2909308170",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6279722b294cbf5b2556_yuyuta0702_316630197234_1792832120//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316692998003",
+       "start": "2026-10-25T09:00:20.000Z",
+       "end": "2026-10-25T09:05:42.503Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
