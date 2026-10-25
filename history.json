@@ -558,7 +558,7 @@
       {
        "stream_id": "316694721523",
        "start": "2026-10-25T15:43:34.000Z",
-       "end": "2026-10-25T16:25:56.163Z",
+       "end": "2026-10-25T16:35:56.604Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをくそやる",
@@ -1041,7 +1041,7 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T16:25:56.164Z",
+       "end": "2026-10-25T16:35:56.606Z",
        "end_source": "poll",
        "live": true,
        "title": "エースコンバット８ シリーズ初見プレイ ３日目 ←PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
@@ -1830,7 +1830,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T16:25:56.165Z",
+       "end": "2026-10-25T16:35:56.607Z",
        "end_source": "poll",
        "live": true,
        "title": "栄冠ナイン やるぞ 2年目",
@@ -2495,7 +2495,7 @@
        "title": "【緊急株ライブ】ついに１０３ドル突破の原油。来るのか明日の暴落。含み損３２００万。そして始まる地獄の決算ウィーク。キオクシア決算、東京エレク決算、日経平均の先行きは。俺は週明けとても怖い。作戦会議！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=TB6lRdiV4aQ",
-       "thumb": "https://i.ytimg.com/vi/TB6lRdiV4aQ/mqdefault.jpg?v=6addf1c0"
+       "thumb": "https://i.ytimg.com/vi/TB6lRdiV4aQ/mqdefault.jpg"
       }
      ]
     }
@@ -2750,11 +2750,11 @@
       {
        "stream_id": "316693517427",
        "start": "2026-10-25T11:14:35.000Z",
-       "end": "2026-10-25T16:25:56.166Z",
+       "end": "2026-10-25T16:35:56.607Z",
        "end_source": "poll",
        "live": true,
-       "title": "デッドバイデイライトやろうや",
-       "game": "Dead by Daylight",
+       "title": "デッドバイデイライトやろうや→マリカ",
+       "game": "Mario Kart World",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
