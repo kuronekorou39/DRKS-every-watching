@@ -558,7 +558,7 @@
       {
        "stream_id": "316694721523",
        "start": "2026-10-25T15:43:34.000Z",
-       "end": "2026-10-25T18:25:55.467Z",
+       "end": "2026-10-25T18:36:24.223Z",
        "end_source": "poll",
        "live": true,
        "title": "ARCレイダースをくそやる",
@@ -1040,14 +1040,14 @@
       },
       {
        "stream_id": "316634348658",
-       "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T18:25:55.469Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-25T06:41:39.000Z",
+       "end": "2026-10-25T18:31:39.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "エースコンバット８ シリーズ初見プレイ ３日目 ←PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
        "game": "ACE COMBAT 8: WINGS OF THEVE",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2910225057",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4c399f2cfe19eb457bd3_indegnasen0706_316634348658_1792910494//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1830,7 +1830,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T18:25:55.470Z",
+       "end": "2026-10-25T18:36:24.225Z",
        "end_source": "poll",
        "live": true,
        "title": "栄冠ナイン やるぞ 2年目",
