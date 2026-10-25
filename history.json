@@ -2496,6 +2496,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=TB6lRdiV4aQ",
        "thumb": "https://i.ytimg.com/vi/TB6lRdiV4aQ/mqdefault.jpg"
+      },
+      {
+       "stream_id": "QESadLPmqww",
+       "start": "2026-10-25T23:45:54.000Z",
+       "end": "2026-10-25T23:46:11.530Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ついに始まる日本株決算ウィーク。しかしまだ大量の信用買い。一生重い上値は救われるのか。追証投げ売りと含み損9割超えの先へ。日経平均たのむぞ朝の寄り付き株ライブ生放送！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=QESadLPmqww",
+       "thumb": "https://i.ytimg.com/vi/QESadLPmqww/mqdefault.jpg?v=6ade3be2"
       }
      ]
     }
@@ -3186,14 +3197,14 @@
       },
       {
        "stream_id": "316625984497",
-       "start": "2026-10-25T19:07:31.000Z",
-       "end": "2026-10-25T23:36:09.913Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-25T19:07:36.000Z",
+       "end": "2026-10-25T23:43:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ニスク練習",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2910694248",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1d7a9718102dee8526d6_batora324_316625984497_1792955251//thumb/thumb0-320x180.jpg"
       }
      ]
     }
