@@ -546,14 +546,14 @@
       },
       {
        "stream_id": "316623315057",
-       "start": "2026-10-25T06:14:41.000Z",
-       "end": "2026-10-25T14:35:55.162Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-25T06:14:46.000Z",
+       "end": "2026-10-25T14:43:45.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "Content Warningを３人でやる",
        "game": "Content Warning",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2910214494",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aef42907a82329761554_kato_junichi0817_316623315057_1792908881//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1030,7 +1030,7 @@
       {
        "stream_id": "316634348658",
        "start": "2026-10-25T06:41:34.000Z",
-       "end": "2026-10-25T14:35:55.163Z",
+       "end": "2026-10-25T14:45:56.467Z",
        "end_source": "poll",
        "live": true,
        "title": "エースコンバット８ シリーズ初見プレイ ３日目 ←PUBGポイントダービーの時間がやってまいりました←解凍メシとイカの塩辛、そんでいい、夜はエスコン８放送！",
@@ -1819,7 +1819,7 @@
       {
        "stream_id": "316692998003",
        "start": "2026-10-25T09:00:20.000Z",
-       "end": "2026-10-25T14:35:55.164Z",
+       "end": "2026-10-25T14:45:56.468Z",
        "end_source": "poll",
        "live": true,
        "title": "栄冠ナイン やるぞ 2年目",
@@ -2478,7 +2478,7 @@
       {
        "stream_id": "TB6lRdiV4aQ",
        "start": "2026-10-25T12:27:18.000Z",
-       "end": "2026-10-25T14:35:55.165Z",
+       "end": "2026-10-25T14:45:56.468Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】ついに１０３ドル突破の原油。来るのか明日の暴落。含み損３２００万。そして始まる地獄の決算ウィーク。キオクシア決算、東京エレク決算、日経平均の先行きは。俺は週明けとても怖い。作戦会議！",
@@ -2739,7 +2739,7 @@
       {
        "stream_id": "316693517427",
        "start": "2026-10-25T11:14:35.000Z",
-       "end": "2026-10-25T14:35:55.165Z",
+       "end": "2026-10-25T14:45:56.469Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバイデイライトやろうや",
