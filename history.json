@@ -2826,14 +2826,14 @@
       },
       {
        "stream_id": "316697348723",
-       "start": "2026-10-26T09:33:00.000Z",
-       "end": "2026-10-26T15:26:48.710Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-26T09:33:06.000Z",
+       "end": "2026-10-26T15:31:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "dbdbdbdbdbdbdbdbd",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2911189513",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c50782b55949597aab53_assarisyoko1_316697348723_1793007180//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3275,7 +3275,7 @@
       {
        "stream_id": "316698698739",
        "start": "2026-10-26T14:22:49.000Z",
-       "end": "2026-10-26T15:26:48.710Z",
+       "end": "2026-10-26T15:36:46.269Z",
        "end_source": "poll",
        "live": true,
        "title": "ニスクに磨きをかけた俺に死角はないガチで9000イク",
