@@ -2555,9 +2555,9 @@
       {
        "stream_id": "dgiKTSpTTbs",
        "start": "2026-10-26T12:59:57.000Z",
-       "end": "2026-10-26T15:16:47.390Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-26T15:18:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】今日も追証が来ておりました。この半導体メモリー相場はもはや地獄そのものです。しかし反転は近い。この月曜のアメリカが全てを決める。たのむぞsox！！アメリカ相場見届け株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=dgiKTSpTTbs",
@@ -2827,7 +2827,7 @@
       {
        "stream_id": "316697348723",
        "start": "2026-10-26T09:33:00.000Z",
-       "end": "2026-10-26T15:16:47.390Z",
+       "end": "2026-10-26T15:26:48.710Z",
        "end_source": "poll",
        "live": true,
        "title": "dbdbdbdbdbdbdbdbd",
@@ -3275,7 +3275,7 @@
       {
        "stream_id": "316698698739",
        "start": "2026-10-26T14:22:49.000Z",
-       "end": "2026-10-26T15:16:47.390Z",
+       "end": "2026-10-26T15:26:48.710Z",
        "end_source": "poll",
        "live": true,
        "title": "ニスクに磨きをかけた俺に死角はないガチで9000イク",
@@ -3599,7 +3599,7 @@
        "title": "幕末志士のDARK SOULS #9「アノールロンド最速脱出」",
        "game": null,
        "url": "https://www.youtube.com/watch?v=-cRSJCe1EHo",
-       "thumb": "https://i.ytimg.com/vi/-cRSJCe1EHo/mqdefault.jpg?v=6adf123b"
+       "thumb": "https://i.ytimg.com/vi/-cRSJCe1EHo/mqdefault.jpg"
       }
      ]
     }
