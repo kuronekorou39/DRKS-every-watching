@@ -565,6 +565,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2910513766",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1459c22491ab48f0ae3e_kato_junichi0817_316694721523_1792943014//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316639657202",
+       "start": "2026-10-26T10:23:07.000Z",
+       "end": "2026-10-26T10:26:35.892Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談をしよう",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1052,7 +1063,7 @@
       {
        "stream_id": "316638681842",
        "start": "2026-10-26T06:05:06.000Z",
-       "end": "2026-10-26T10:16:35.461Z",
+       "end": "2026-10-26T10:26:35.893Z",
        "end_source": "poll",
        "live": true,
        "title": "１日４回ぽっきりのpubgポイント賭けの時間です←マックのザクザクをキめがら、コピルアクを飲む",
@@ -1852,7 +1863,7 @@
       {
        "stream_id": "316627978609",
        "start": "2026-10-26T09:00:40.000Z",
-       "end": "2026-10-26T10:16:35.462Z",
+       "end": "2026-10-26T10:26:35.895Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -2794,7 +2805,7 @@
       {
        "stream_id": "316697348723",
        "start": "2026-10-26T09:33:00.000Z",
-       "end": "2026-10-26T10:16:35.463Z",
+       "end": "2026-10-26T10:26:35.895Z",
        "end_source": "poll",
        "live": true,
        "title": "dbdbdbdbdbdbdbdbd",
