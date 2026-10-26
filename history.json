@@ -1052,7 +1052,7 @@
       {
        "stream_id": "316638681842",
        "start": "2026-10-26T06:05:06.000Z",
-       "end": "2026-10-26T09:26:35.817Z",
+       "end": "2026-10-26T09:36:35.238Z",
        "end_source": "poll",
        "live": true,
        "title": "マックのザクザクをキめがら、コピルアクを飲む",
@@ -1852,7 +1852,7 @@
       {
        "stream_id": "316627978609",
        "start": "2026-10-26T09:00:40.000Z",
-       "end": "2026-10-26T09:26:35.818Z",
+       "end": "2026-10-26T09:36:35.239Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -2790,6 +2790,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2910337307",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/88b3ca9f251a5ad1b82c_assarisyoko1_316693517427_1792926875//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316697348723",
+       "start": "2026-10-26T09:33:00.000Z",
+       "end": "2026-10-26T09:36:35.239Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "dbdbdbdbdbdbdbdbd",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
