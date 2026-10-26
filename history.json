@@ -1062,14 +1062,14 @@
       },
       {
        "stream_id": "316638681842",
-       "start": "2026-10-26T06:05:06.000Z",
-       "end": "2026-10-26T14:56:46.869Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-26T06:05:11.000Z",
+       "end": "2026-10-26T15:04:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "１日４回ぽっきりのpubgポイント賭けの時間です←マックのザクザクをキめがら、コピルアクを飲む",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2911124958",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/006d09f94d74d0f0f4d5_indegnasen0706_316638681842_1792994706//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -1874,7 +1874,7 @@
       {
        "stream_id": "316627978609",
        "start": "2026-10-26T09:00:40.000Z",
-       "end": "2026-10-26T14:56:46.869Z",
+       "end": "2026-10-26T15:06:47.177Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -2555,7 +2555,7 @@
       {
        "stream_id": "dgiKTSpTTbs",
        "start": "2026-10-26T12:59:57.000Z",
-       "end": "2026-10-26T14:56:46.869Z",
+       "end": "2026-10-26T15:06:47.178Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】今日も追証が来ておりました。この半導体メモリー相場はもはや地獄そのものです。しかし反転は近い。この月曜のアメリカが全てを決める。たのむぞsox！！アメリカ相場見届け株ライブ生放送！！",
@@ -2827,7 +2827,7 @@
       {
        "stream_id": "316697348723",
        "start": "2026-10-26T09:33:00.000Z",
-       "end": "2026-10-26T14:56:46.869Z",
+       "end": "2026-10-26T15:06:47.178Z",
        "end_source": "poll",
        "live": true,
        "title": "dbdbdbdbdbdbdbdbd",
@@ -3275,7 +3275,7 @@
       {
        "stream_id": "316698698739",
        "start": "2026-10-26T14:22:49.000Z",
-       "end": "2026-10-26T14:56:46.870Z",
+       "end": "2026-10-26T15:06:47.178Z",
        "end_source": "poll",
        "live": true,
        "title": "ニスクに磨きをかけた俺に死角はないガチで9000イク",
@@ -3593,7 +3593,7 @@
       {
        "stream_id": "-cRSJCe1EHo",
        "start": "2026-10-26T12:01:15.000Z",
-       "end": "2026-10-26T14:56:46.870Z",
+       "end": "2026-10-26T15:06:47.178Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #9「アノールロンド最速脱出」",
