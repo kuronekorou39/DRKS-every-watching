@@ -569,7 +569,7 @@
       {
        "stream_id": "316639657202",
        "start": "2026-10-26T10:23:07.000Z",
-       "end": "2026-10-26T11:56:48.124Z",
+       "end": "2026-10-26T12:06:48.872Z",
        "end_source": "poll",
        "live": true,
        "title": "雑談をしよう",
@@ -1063,7 +1063,7 @@
       {
        "stream_id": "316638681842",
        "start": "2026-10-26T06:05:06.000Z",
-       "end": "2026-10-26T11:56:48.124Z",
+       "end": "2026-10-26T12:06:48.873Z",
        "end_source": "poll",
        "live": true,
        "title": "１日４回ぽっきりのpubgポイント賭けの時間です←マックのザクザクをキめがら、コピルアクを飲む",
@@ -1863,7 +1863,7 @@
       {
        "stream_id": "316627978609",
        "start": "2026-10-26T09:00:40.000Z",
-       "end": "2026-10-26T11:56:48.125Z",
+       "end": "2026-10-26T12:06:48.874Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍",
@@ -2805,7 +2805,7 @@
       {
        "stream_id": "316697348723",
        "start": "2026-10-26T09:33:00.000Z",
-       "end": "2026-10-26T11:56:48.126Z",
+       "end": "2026-10-26T12:06:48.874Z",
        "end_source": "poll",
        "live": true,
        "title": "dbdbdbdbdbdbdbdbd",
@@ -3556,6 +3556,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=3FAYI2QscwQ",
        "thumb": "https://i.ytimg.com/vi/3FAYI2QscwQ/mqdefault.jpg"
+      },
+      {
+       "stream_id": "-cRSJCe1EHo",
+       "start": "2026-10-26T12:01:15.000Z",
+       "end": "2026-10-26T12:06:48.875Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #9「アノールロンド最速脱出」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=-cRSJCe1EHo",
+       "thumb": "https://i.ytimg.com/vi/-cRSJCe1EHo/mqdefault.jpg?v=6adf123b"
       }
      ]
     }
