@@ -587,6 +587,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2911434035",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cf26c32cdbce7692ebb1_kato_junichi0817_316629873137_1793034513//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316632130545",
+       "start": "2026-10-27T09:04:47.000Z",
+       "end": "2026-10-27T09:07:25.105Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ﾊﾞﾄﾗとツルギとCODをやる",
+       "game": "Call of Duty",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1085,7 +1096,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T08:57:25.558Z",
+       "end": "2026-10-27T09:07:25.106Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -1448,7 +1459,7 @@
       {
        "stream_id": "kick-2026-10-27T08:44:46.000Z",
        "start": "2026-10-27T08:44:46.000Z",
-       "end": "2026-10-27T08:57:25.559Z",
+       "end": "2026-10-27T09:07:25.106Z",
        "end_source": "poll",
        "live": true,
        "title": "あ|DRKS",
