@@ -601,14 +601,14 @@
       },
       {
        "stream_id": "316644475250",
-       "start": "2026-10-27T12:42:43.000Z",
-       "end": "2026-10-27T15:07:39.176Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T12:42:49.000Z",
+       "end": "2026-10-27T15:15:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "THE ISLEにて恐竜ライフ",
        "game": "The Isle",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912126987",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b98c1e2fd2e795cacbbb_kato_junichi0817_316644475250_1793104963//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1107,7 +1107,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T15:07:39.178Z",
+       "end": "2026-10-27T15:17:51.349Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -2643,9 +2643,9 @@
       {
        "stream_id": "QIl34H1GP6s",
        "start": "2026-10-27T12:58:01.000Z",
-       "end": "2026-10-27T15:07:39.179Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-27T15:13:44.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】コーニング決算きたァァァ！そして来る伝説の決算３日間。キオクシアが値動きヤバすぎる件。半導体メモリーの命運を決めるSKハイニクス決算からスタート。さぁ頼むぜ。レジェンド銘柄よ",
        "game": null,
        "url": "https://www.youtube.com/watch?v=QIl34H1GP6s",
@@ -3385,7 +3385,7 @@
       {
        "stream_id": "316702399731",
        "start": "2026-10-27T12:32:36.000Z",
-       "end": "2026-10-27T15:07:39.180Z",
+       "end": "2026-10-27T15:17:51.351Z",
        "end_source": "poll",
        "live": true,
        "title": "大変お世話になりました。私は今日9000へいきます。8800～",
