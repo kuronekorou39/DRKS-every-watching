@@ -609,6 +609,17 @@
        "game": "The Isle",
        "url": "https://www.twitch.tv/videos/2912126987",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b98c1e2fd2e795cacbbb_kato_junichi0817_316644475250_1793104963//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316703516659",
+       "start": "2026-10-27T17:57:12.000Z",
+       "end": "2026-10-27T17:57:50.610Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "日刊ARCレイダース",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1107,7 +1118,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T17:47:50.389Z",
+       "end": "2026-10-27T17:57:50.611Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
