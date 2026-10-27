@@ -1107,7 +1107,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T17:27:50.791Z",
+       "end": "2026-10-27T17:37:50.439Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -3395,14 +3395,14 @@
       },
       {
        "stream_id": "316702399731",
-       "start": "2026-10-27T12:32:36.000Z",
-       "end": "2026-10-27T17:27:50.794Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T12:32:41.000Z",
+       "end": "2026-10-27T17:32:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "大変お世話になりました。私は今日9000へいきます。8800～",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912122044",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/18b5c533d9244297130f_batora324_316702399731_1793104356//thumb/thumb0-320x180.jpg"
       }
      ]
     }
