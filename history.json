@@ -590,14 +590,14 @@
       },
       {
        "stream_id": "316632130545",
-       "start": "2026-10-27T09:04:47.000Z",
-       "end": "2026-10-27T12:27:37.272Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T09:04:52.000Z",
+       "end": "2026-10-27T12:28:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ﾊﾞﾄﾗとツルギとCODをやる。CoD:MW4 #PR",
        "game": "Call of Duty: Modern Warfare 4",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912039696",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b50fe0d210738ca89760_kato_junichi0817_316632130545_1793091887//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1096,7 +1096,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T12:27:37.274Z",
+       "end": "2026-10-27T12:37:38.679Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -3351,12 +3351,23 @@
       },
       {
        "stream_id": "316632296177",
-       "start": "2026-10-27T09:59:41.000Z",
-       "end": "2026-10-27T12:27:37.275Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T09:59:46.000Z",
+       "end": "2026-10-27T12:30:15.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "うんkちゃん、ツルギとCoDやる！ CoD:MW4 #PR",
        "game": "Call of Duty: Modern Warfare 4",
+       "url": "https://www.twitch.tv/videos/2912057763",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fd12dc6c08ba66b93d85_batora324_316632296177_1793095181//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316702399731",
+       "start": "2026-10-27T12:32:36.000Z",
+       "end": "2026-10-27T12:37:38.681Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "大変お世話になりました。私は今日9000へいきます。8800～",
+       "game": "Mario Kart World",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
@@ -3681,7 +3692,7 @@
       {
        "stream_id": "8EqzTmZLXTY",
        "start": "2026-10-27T12:02:16.000Z",
-       "end": "2026-10-27T12:27:37.276Z",
+       "end": "2026-10-27T12:37:38.682Z",
        "end_source": "poll",
        "live": true,
        "title": "「新・麺屋なかおか」で働こう！【Japanese Ramen Simulator】",
