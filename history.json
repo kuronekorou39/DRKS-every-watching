@@ -602,7 +602,7 @@
       {
        "stream_id": "316644475250",
        "start": "2026-10-27T12:42:43.000Z",
-       "end": "2026-10-27T12:57:39.239Z",
+       "end": "2026-10-27T13:07:37.681Z",
        "end_source": "poll",
        "live": true,
        "title": "何をやろうかな",
@@ -1107,7 +1107,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T12:57:39.240Z",
+       "end": "2026-10-27T13:07:37.682Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -2639,6 +2639,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=P_vhdruH6XA",
        "thumb": "https://i.ytimg.com/vi/P_vhdruH6XA/mqdefault.jpg"
+      },
+      {
+       "stream_id": "QIl34H1GP6s",
+       "start": "2026-10-27T12:58:01.000Z",
+       "end": "2026-10-27T13:07:37.683Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】コーニング決算きたァァァ！そして来る伝説の決算３日間。キオクシアが値動きヤバすぎる件。半導体メモリーの命運を決めるSKハイニクス決算からスタート。さぁ頼むぜ。レジェンド銘柄よ",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=QIl34H1GP6s",
+       "thumb": "https://i.ytimg.com/vi/QIl34H1GP6s/mqdefault.jpg?v=6ae09e2c"
       }
      ]
     }
@@ -3374,7 +3385,7 @@
       {
        "stream_id": "316702399731",
        "start": "2026-10-27T12:32:36.000Z",
-       "end": "2026-10-27T12:57:39.242Z",
+       "end": "2026-10-27T13:07:37.684Z",
        "end_source": "poll",
        "live": true,
        "title": "大変お世話になりました。私は今日9000へいきます。8800～",
@@ -3703,7 +3714,7 @@
       {
        "stream_id": "8EqzTmZLXTY",
        "start": "2026-10-27T12:02:16.000Z",
-       "end": "2026-10-27T12:57:39.243Z",
+       "end": "2026-10-27T13:07:37.684Z",
        "end_source": "poll",
        "live": true,
        "title": "「新・麺屋なかおか」で働こう！【Japanese Ramen Simulator】",
