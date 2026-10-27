@@ -1085,11 +1085,11 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T08:37:24.908Z",
+       "end": "2026-10-27T08:47:25.080Z",
        "end_source": "poll",
        "live": true,
-       "title": "唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
-       "game": "Just Chatting",
+       "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
+       "game": "Monster Hunter Generations Ultimate",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -1444,6 +1444,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/MK8X57anSyLP/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-27T08:44:46.000Z",
+       "start": "2026-10-27T08:44:46.000Z",
+       "end": "2026-10-27T08:47:25.080Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あ|DRKS",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/iFsa1OySkzmA/480.webp"
       }
      ]
     }
