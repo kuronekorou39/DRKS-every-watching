@@ -612,14 +612,14 @@
       },
       {
        "stream_id": "316703516659",
-       "start": "2026-10-27T17:57:12.000Z",
-       "end": "2026-10-27T21:18:01.753Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T17:57:17.000Z",
+       "end": "2026-10-27T21:18:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "日刊ARCレイダース",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912332985",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e8ad694d9cb3d9f3682e_kato_junichi0817_316703516659_1793123832//thumb/thumb0-320x180.jpg"
       }
      ]
     },
