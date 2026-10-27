@@ -591,7 +591,7 @@
       {
        "stream_id": "316632130545",
        "start": "2026-10-27T09:04:47.000Z",
-       "end": "2026-10-27T09:57:38.425Z",
+       "end": "2026-10-27T10:07:36.952Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾊﾞﾄﾗとツルギとCODをやる。CoD:MW4 #PR",
@@ -1096,7 +1096,7 @@
       {
        "stream_id": "316701404787",
        "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T09:57:38.426Z",
+       "end": "2026-10-27T10:07:36.953Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
@@ -3348,6 +3348,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2911322518",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b8fdcdd65c677517700c_batora324_316698698739_1793024569//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316632296177",
+       "start": "2026-10-27T09:59:41.000Z",
+       "end": "2026-10-27T10:07:36.955Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "うんkちゃん、ツルギとCoDやる！ CoD:MW4 #PR",
+       "game": "Call of Duty: Modern Warfare 4",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
