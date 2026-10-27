@@ -3307,14 +3307,14 @@
       },
       {
        "stream_id": "316698698739",
-       "start": "2026-10-26T14:22:49.000Z",
-       "end": "2026-10-27T04:57:25.384Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-26T14:22:54.000Z",
+       "end": "2026-10-27T04:57:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ニスクに磨きをかけた俺に死角はないガチで9000イク",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2911322518",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b8fdcdd65c677517700c_batora324_316698698739_1793024569//thumb/thumb0-320x180.jpg"
       }
      ]
     }
