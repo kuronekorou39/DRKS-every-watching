@@ -613,7 +613,7 @@
       {
        "stream_id": "316703516659",
        "start": "2026-10-27T17:57:12.000Z",
-       "end": "2026-10-27T20:58:00.436Z",
+       "end": "2026-10-27T21:07:59.927Z",
        "end_source": "poll",
        "live": true,
        "title": "日刊ARCレイダース",
@@ -1117,14 +1117,14 @@
       },
       {
        "stream_id": "316701404787",
-       "start": "2026-10-27T08:31:22.000Z",
-       "end": "2026-10-27T20:58:00.437Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-27T08:31:27.000Z",
+       "end": "2026-10-27T21:02:48.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンXX 睡眠爆殺 魔聖王 推して参る！←唐突にモンハンダブルクロス睡眠爆殺をしたくなったのでやる",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912028829",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9a6debd4331a8825674e_indegnasen0706_316701404787_1793089882//thumb/thumb0-320x180.jpg"
       }
      ]
     }
