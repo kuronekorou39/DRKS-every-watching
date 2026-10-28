@@ -1129,7 +1129,7 @@
       {
        "stream_id": "316647350002",
        "start": "2026-10-28T06:09:05.000Z",
-       "end": "2026-10-28T12:38:23.925Z",
+       "end": "2026-10-28T12:48:24.956Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆破師 魔聖王 推して参る！",
@@ -1984,11 +1984,11 @@
       {
        "stream_id": "316705728883",
        "start": "2026-10-28T09:00:11.000Z",
-       "end": "2026-10-28T12:38:23.925Z",
+       "end": "2026-10-28T12:48:24.957Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍!!!!!!!!!",
-       "game": "Just Chatting",
+       "title": "学マス",
+       "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -2244,14 +2244,14 @@
       },
       {
        "stream_id": "316636198001",
-       "start": "2026-10-28T08:32:22.000Z",
-       "end": "2026-10-28T12:38:23.926Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T08:32:27.000Z",
+       "end": "2026-10-28T12:39:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ついに待望のシャドバ新弾きたぁあああああ！！ナイトメア最強環境マジ！！？？REJECTヘッドとして無双します。",
        "game": "Shadowverse: Worlds Beyond",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912907981",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/012a12405ee6e8bf1d4e_oniyadayo_316636198001_1793176342//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -3003,7 +3003,7 @@
       {
        "stream_id": "316648512114",
        "start": "2026-10-28T11:04:32.000Z",
-       "end": "2026-10-28T12:38:23.926Z",
+       "end": "2026-10-28T12:48:24.957Z",
        "end_source": "poll",
        "live": true,
        "title": "僕はこのゲームをする",
