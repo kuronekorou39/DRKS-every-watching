@@ -1129,7 +1129,7 @@
       {
        "stream_id": "316647350002",
        "start": "2026-10-28T06:09:05.000Z",
-       "end": "2026-10-28T10:48:23.576Z",
+       "end": "2026-10-28T10:58:25.117Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆破師 魔聖王 推して参る！",
@@ -1984,7 +1984,7 @@
       {
        "stream_id": "316705728883",
        "start": "2026-10-28T09:00:11.000Z",
-       "end": "2026-10-28T10:48:23.576Z",
+       "end": "2026-10-28T10:58:25.117Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍!!!!!!!!!",
@@ -2245,7 +2245,7 @@
       {
        "stream_id": "316636198001",
        "start": "2026-10-28T08:32:22.000Z",
-       "end": "2026-10-28T10:48:23.577Z",
+       "end": "2026-10-28T10:58:25.118Z",
        "end_source": "poll",
        "live": true,
        "title": "ついに待望のシャドバ新弾きたぁあああああ！！ナイトメア最強環境マジ！！？？REJECTヘッドとして無双します。",
@@ -2988,6 +2988,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2911189513",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c50782b55949597aab53_assarisyoko1_316697348723_1793007180//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316706104179",
+       "start": "2026-10-28T10:48:37.000Z",
+       "end": "2026-10-28T10:58:25.118Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "僕はこのゲームをする",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
