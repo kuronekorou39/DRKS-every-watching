@@ -1139,14 +1139,14 @@
       },
       {
        "stream_id": "316647350002",
-       "start": "2026-10-28T06:09:05.000Z",
-       "end": "2026-10-28T17:48:36.956Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T06:09:10.000Z",
+       "end": "2026-10-28T17:56:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンXX 睡眠爆破師 魔聖王 推して参る！",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912863088",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c40dbb50486ce6b92cb0_indegnasen0706_316647350002_1793167745//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3024,14 +3024,14 @@
       },
       {
        "stream_id": "316648512114",
-       "start": "2026-10-28T11:04:32.000Z",
-       "end": "2026-10-28T17:48:36.957Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T11:04:39.000Z",
+       "end": "2026-10-28T17:57:38.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "僕はこのゲームをする",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912961826",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/01050e993d0dafe67b2b_assarisyoko1_316648512114_1793185472//thumb/thumb0-320x180.jpg"
       }
      ]
     }
