@@ -634,14 +634,14 @@
       },
       {
        "stream_id": "316638555633",
-       "start": "2026-10-28T19:58:24.000Z",
-       "end": "2026-10-28T21:48:52.239Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T19:58:29.000Z",
+       "end": "2026-10-28T21:54:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おはようございますARCレイダース",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2913316541",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/dae5f22731ad70cfa2ea_kato_junichi0817_316638555633_1793217504//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -3517,7 +3517,7 @@
       {
        "stream_id": "316638701425",
        "start": "2026-10-28T21:11:21.000Z",
-       "end": "2026-10-28T21:48:52.242Z",
+       "end": "2026-10-28T21:58:51.902Z",
        "end_source": "poll",
        "live": true,
        "title": "ばーｂｒきゅーいくまで",
