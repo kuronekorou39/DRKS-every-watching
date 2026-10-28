@@ -623,14 +623,14 @@
       },
       {
        "stream_id": "316637520369",
-       "start": "2026-10-28T13:38:07.000Z",
-       "end": "2026-10-28T15:28:37.062Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T13:38:12.000Z",
+       "end": "2026-10-28T15:36:40.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【公式】俺がお菓子のティア表をきめます【神回】",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2913038338",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/19601ede5f8288155be8_kato_junichi0817_316637520369_1793194687//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1140,7 +1140,7 @@
       {
        "stream_id": "316647350002",
        "start": "2026-10-28T06:09:05.000Z",
-       "end": "2026-10-28T15:28:37.063Z",
+       "end": "2026-10-28T15:38:38.469Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆破師 魔聖王 推して参る！",
@@ -1994,14 +1994,14 @@
       },
       {
        "stream_id": "316705728883",
-       "start": "2026-10-28T09:00:11.000Z",
-       "end": "2026-10-28T15:28:37.064Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T09:00:16.000Z",
+       "end": "2026-10-28T15:35:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "学マス",
        "game": "Gakuen iDOLM@STER",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2912916877",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a693864c7cd99c530048_yuyuta0702_316705728883_1793178011//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3025,7 +3025,7 @@
       {
        "stream_id": "316648512114",
        "start": "2026-10-28T11:04:32.000Z",
-       "end": "2026-10-28T15:28:37.065Z",
+       "end": "2026-10-28T15:38:38.470Z",
        "end_source": "poll",
        "live": true,
        "title": "僕はこのゲームをする",
