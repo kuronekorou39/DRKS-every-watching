@@ -646,10 +646,10 @@
       {
        "stream_id": "316709548275",
        "start": "2026-10-29T06:17:39.000Z",
-       "end": "2026-10-29T11:39:26.973Z",
+       "end": "2026-10-29T11:49:28.003Z",
        "end_source": "poll",
        "live": true,
-       "title": "何かをやる",
+       "title": "Indie World 2026.10.28をみよう",
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
@@ -2771,6 +2771,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=rIlSLtIxXDs",
        "thumb": "https://i.ytimg.com/vi/rIlSLtIxXDs/mqdefault.jpg"
+      },
+      {
+       "stream_id": "DJFQWcb2po4",
+       "start": "2026-10-29T11:46:03.000Z",
+       "end": "2026-10-29T11:49:28.005Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】本日21時30分からのアメリカGDP発表！ここでAI半導体の運命が決まる！更にはPCEも発表。そして乱高下のイビデン決算！さらに明日はキオクシア決算の大勝負へ。どうなるアメリカ相場！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=DJFQWcb2po4",
+       "thumb": "https://i.ytimg.com/vi/DJFQWcb2po4/mqdefault.jpg?v=6ae32e4c"
       }
      ]
     }
