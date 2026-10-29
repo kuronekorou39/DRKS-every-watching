@@ -656,14 +656,14 @@
       },
       {
        "stream_id": "316642361073",
-       "start": "2026-10-29T16:56:00.000Z",
-       "end": "2026-10-29T20:29:40.660Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-29T16:56:05.000Z",
+       "end": "2026-10-29T20:34:40.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "俺がリジェクト優勝させる勢いで応援する ALGSミラー",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2914049506",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b9e41ce20ad24c2c227b_kato_junichi0817_316642361073_1793292960//thumb/thumb0-320x180.jpg"
       }
      ]
     },
