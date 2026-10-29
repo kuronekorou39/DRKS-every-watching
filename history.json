@@ -645,14 +645,14 @@
       },
       {
        "stream_id": "316709548275",
-       "start": "2026-10-29T06:17:39.000Z",
-       "end": "2026-10-29T15:19:28.357Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-29T06:17:45.000Z",
+       "end": "2026-10-29T15:23:45.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ナルティメットストームコネクションズをやる※ネタバレ注意",
        "game": "Naruto x Boruto: Ultimate Ninja Storm Connections",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2913746376",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4fde632379dc9f5491a2_kato_junichi0817_316709548275_1793254659//thumb/thumb0-320x180.jpg"
       }
      ]
     },
