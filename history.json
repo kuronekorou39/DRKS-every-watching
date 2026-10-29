@@ -642,6 +642,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2913316541",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/dae5f22731ad70cfa2ea_kato_junichi0817_316638555633_1793217504//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316709548275",
+       "start": "2026-10-29T06:17:39.000Z",
+       "end": "2026-10-29T06:19:13.431Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "２０時までARCレイダース",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
