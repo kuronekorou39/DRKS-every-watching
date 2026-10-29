@@ -2753,7 +2753,7 @@
       {
        "stream_id": "rIlSLtIxXDs",
        "start": "2026-10-28T23:46:35.000Z",
-       "end": "2026-10-29T00:39:05.370Z",
+       "end": "2026-10-29T00:49:03.418Z",
        "end_source": "poll",
        "live": true,
        "title": "サムスン午前１０時場中決算！！まさかのグーグル決算失敗まじか。Googleショックが来てしまった。。。やべぇのかこれは。更に大引けでTOPIX組み換えも。運命をここで。朝の寄り付き株ライブ生放送",
@@ -3527,14 +3527,14 @@
       },
       {
        "stream_id": "316638701425",
-       "start": "2026-10-28T21:11:21.000Z",
-       "end": "2026-10-29T00:39:05.370Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-28T21:11:26.000Z",
+       "end": "2026-10-29T00:43:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ばーｂｒきゅーいくまで",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2913378457",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5dca560fabb2bf5b5c37_batora324_316638701425_1793221881//thumb/thumb0-320x180.jpg"
       }
      ]
     }
