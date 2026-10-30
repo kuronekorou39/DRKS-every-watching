@@ -2035,6 +2035,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2912916877",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a693864c7cd99c530048_yuyuta0702_316705728883_1793178011//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316655688306",
+       "start": "2026-10-30T04:20:06.000Z",
+       "end": "2026-10-30T04:30:09.793Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
