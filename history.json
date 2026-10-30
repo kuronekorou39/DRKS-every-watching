@@ -668,7 +668,7 @@
       {
        "stream_id": "316714315891",
        "start": "2026-10-30T09:09:48.000Z",
-       "end": "2026-10-30T12:20:22.743Z",
+       "end": "2026-10-30T12:30:22.282Z",
        "end_source": "poll",
        "live": true,
        "title": "ナルティメットストームコネクションズをやる2日目 ※ネタバレ注意",
@@ -1195,7 +1195,7 @@
       {
        "stream_id": "316713644915",
        "start": "2026-10-30T05:11:22.000Z",
-       "end": "2026-10-30T12:20:22.744Z",
+       "end": "2026-10-30T12:30:22.284Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺ブシドー魔聖王 はたしてG級に通用するのか効果検証←ごつ盛りやきそば後 睡眠爆破 片手剣ブシドー エリート",
@@ -2848,6 +2848,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=E00e1V7sbRc",
        "thumb": "https://i.ytimg.com/vi/E00e1V7sbRc/mqdefault.jpg"
+      },
+      {
+       "stream_id": "0XKf0M-ToeY",
+       "start": "2026-10-30T12:30:16.000Z",
+       "end": "2026-10-30T12:30:22.286Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】ブラックマンデー超えの暴落だ。インテルショックがヤバすぎる。絶望のアメリカ相場。キオクシア決算（配当30円）で見えたメモリの可能性はいかに！中間選挙直前の相場を見届ける！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=0XKf0M-ToeY",
+       "thumb": "https://i.ytimg.com/vi/0XKf0M-ToeY/mqdefault.jpg?v=6ae47f3f"
       }
      ]
     }
@@ -3967,7 +3978,7 @@
       {
        "stream_id": "0pVMVx7q8P0",
        "start": "2026-10-30T12:02:02.000Z",
-       "end": "2026-10-30T12:20:22.746Z",
+       "end": "2026-10-30T12:30:22.287Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #10「vs.ダクソ界のニコイチ」",
