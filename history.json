@@ -668,7 +668,7 @@
       {
        "stream_id": "316714315891",
        "start": "2026-10-30T09:09:48.000Z",
-       "end": "2026-10-30T12:00:21.281Z",
+       "end": "2026-10-30T12:10:22.526Z",
        "end_source": "poll",
        "live": true,
        "title": "ナルティメットストームコネクションズをやる2日目 ※ネタバレ注意",
@@ -1195,7 +1195,7 @@
       {
        "stream_id": "316713644915",
        "start": "2026-10-30T05:11:22.000Z",
-       "end": "2026-10-30T12:00:21.282Z",
+       "end": "2026-10-30T12:10:22.527Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺ブシドー魔聖王 はたしてG級に通用するのか効果検証←ごつ盛りやきそば後 睡眠爆破 片手剣ブシドー エリート",
@@ -3963,6 +3963,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=8EqzTmZLXTY",
        "thumb": "https://i.ytimg.com/vi/8EqzTmZLXTY/mqdefault.jpg"
+      },
+      {
+       "stream_id": "0pVMVx7q8P0",
+       "start": "2026-10-30T12:02:02.000Z",
+       "end": "2026-10-30T12:10:22.530Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #10「vs.ダクソ界のニコイチ」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=0pVMVx7q8P0",
+       "thumb": "https://i.ytimg.com/vi/0pVMVx7q8P0/mqdefault.jpg?v=6ae4455e"
       }
      ]
     }
