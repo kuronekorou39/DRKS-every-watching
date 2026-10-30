@@ -1194,14 +1194,14 @@
       },
       {
        "stream_id": "316713644915",
-       "start": "2026-10-30T05:11:22.000Z",
-       "end": "2026-10-30T20:10:33.969Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-30T05:11:27.000Z",
+       "end": "2026-10-30T20:19:43.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンダブルクロス 睡眠爆殺ブシドー魔聖王 はたしてG級に通用するのか効果検証←ごつ盛りやきそば後 睡眠爆破 片手剣ブシドー エリート",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2914606385",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fa62ce97c3644eaee003_indegnasen0706_316713644915_1793337081//thumb/thumb0-320x180.jpg"
       }
      ]
     }
