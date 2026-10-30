@@ -3582,14 +3582,14 @@
       },
       {
        "stream_id": "316712850675",
-       "start": "2026-10-29T23:56:10.000Z",
-       "end": "2026-10-30T03:39:52.927Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-29T23:56:15.000Z",
+       "end": "2026-10-30T03:42:18.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "マジで9000いきます 昼過ぎまで",
        "game": "Mario Kart World",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2914397770",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d4fe3a9dc332474714b8_batora324_316712850675_1793318170//thumb/thumb0-320x180.jpg"
       }
      ]
     }
