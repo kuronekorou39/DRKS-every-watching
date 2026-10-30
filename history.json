@@ -668,7 +668,7 @@
       {
        "stream_id": "316714315891",
        "start": "2026-10-30T09:09:48.000Z",
-       "end": "2026-10-30T11:50:21.580Z",
+       "end": "2026-10-30T12:00:21.281Z",
        "end_source": "poll",
        "live": true,
        "title": "ナルティメットストームコネクションズをやる2日目 ※ネタバレ注意",
@@ -1195,7 +1195,7 @@
       {
        "stream_id": "316713644915",
        "start": "2026-10-30T05:11:22.000Z",
-       "end": "2026-10-30T11:50:21.582Z",
+       "end": "2026-10-30T12:00:21.282Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺ブシドー魔聖王 はたしてG級に通用するのか効果検証←ごつ盛りやきそば後 睡眠爆破 片手剣ブシドー エリート",
@@ -2060,14 +2060,14 @@
       },
       {
        "stream_id": "316655688306",
-       "start": "2026-10-30T04:20:06.000Z",
-       "end": "2026-10-30T11:50:21.583Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-30T04:20:11.000Z",
+       "end": "2026-10-30T11:52:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2914584411",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cd3d3e52ce27a50ab742_yuyuta0702_316655688306_1793334006//thumb/thumb0-320x180.jpg"
       }
      ]
     }
