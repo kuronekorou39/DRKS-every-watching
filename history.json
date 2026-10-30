@@ -2797,9 +2797,9 @@
       {
        "stream_id": "KzgA2hHKXy8",
        "start": "2026-10-29T23:40:47.000Z",
-       "end": "2026-10-30T02:39:53.500Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-10-30T02:40:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急配信】AIバブル崩壊か。まさかのインテル決算大失敗。時間外マイナス20%で半導体株が大幅な暴落。Amazonも鬼下げ。この中でキオクシア決算。敗北の朝の寄り付き株ライブ生放送。",
        "game": null,
        "url": "https://www.youtube.com/watch?v=KzgA2hHKXy8",
@@ -3583,7 +3583,7 @@
       {
        "stream_id": "316712850675",
        "start": "2026-10-29T23:56:10.000Z",
-       "end": "2026-10-30T02:39:53.500Z",
+       "end": "2026-10-30T02:49:53.051Z",
        "end_source": "poll",
        "live": true,
        "title": "マジで9000いきます 昼過ぎまで",
