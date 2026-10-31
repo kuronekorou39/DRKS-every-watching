@@ -678,14 +678,14 @@
       },
       {
        "stream_id": "316661386482",
-       "start": "2026-10-31T09:32:11.000Z",
-       "end": "2026-10-31T14:51:23.224Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-31T09:32:16.000Z",
+       "end": "2026-10-31T14:51:34.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "BLEACH Rebirth of Souls実況※ネタバレあり",
        "game": "BLEACH Rebirth of Souls",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2915619490",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6cbfe03059d33cc53ba6_kato_junichi0817_316661386482_1793439131//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1217,7 +1217,7 @@
       {
        "stream_id": "316660860914",
        "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T14:51:23.225Z",
+       "end": "2026-10-31T15:01:24.002Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
@@ -3234,7 +3234,7 @@
       {
        "stream_id": "316661567090",
        "start": "2026-10-31T10:24:22.000Z",
-       "end": "2026-10-31T14:51:23.227Z",
+       "end": "2026-10-31T15:01:24.004Z",
        "end_source": "poll",
        "live": true,
        "title": "オーヴァーウォッチ",
