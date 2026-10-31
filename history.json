@@ -2068,6 +2068,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2914584411",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cd3d3e52ce27a50ab742_yuyuta0702_316655688306_1793334006//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316647620081",
+       "start": "2026-10-31T00:20:16.000Z",
+       "end": "2026-10-31T00:20:47.240Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 2日目",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
