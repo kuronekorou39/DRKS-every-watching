@@ -1217,7 +1217,7 @@
       {
        "stream_id": "316660860914",
        "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T15:31:22.955Z",
+       "end": "2026-10-31T15:41:22.143Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
@@ -3233,14 +3233,14 @@
       },
       {
        "stream_id": "316661567090",
-       "start": "2026-10-31T10:24:22.000Z",
-       "end": "2026-10-31T15:31:22.957Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-31T10:24:31.000Z",
+       "end": "2026-10-31T15:37:33.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "オーヴァーウォッチ",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2915640202",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5af420f1fe30bb48aafd_assarisyoko1_316661567090_1793442262//thumb/thumb0-320x180.jpg"
       }
      ]
     }
