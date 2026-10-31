@@ -679,7 +679,7 @@
       {
        "stream_id": "316661386482",
        "start": "2026-10-31T09:32:11.000Z",
-       "end": "2026-10-31T10:21:11.342Z",
+       "end": "2026-10-31T10:31:12.243Z",
        "end_source": "poll",
        "live": true,
        "title": "おはようみんな ﾝﾁｭ.．．．",
@@ -1217,7 +1217,7 @@
       {
        "stream_id": "316660860914",
        "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T10:21:11.343Z",
+       "end": "2026-10-31T10:31:12.243Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
@@ -2094,7 +2094,7 @@
       {
        "stream_id": "316647620081",
        "start": "2026-10-31T00:20:16.000Z",
-       "end": "2026-10-31T10:21:11.344Z",
+       "end": "2026-10-31T10:31:12.244Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 2日目",
@@ -3186,6 +3186,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2912961826",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/01050e993d0dafe67b2b_assarisyoko1_316648512114_1793185472//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316661567090",
+       "start": "2026-10-31T10:24:22.000Z",
+       "end": "2026-10-31T10:31:12.245Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハロウィンthegameちょっとやってみようや",
+       "game": "Halloween: The Game",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
