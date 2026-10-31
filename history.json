@@ -1217,7 +1217,7 @@
       {
        "stream_id": "316660860914",
        "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T16:41:22.474Z",
+       "end": "2026-10-31T16:51:23.336Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
@@ -1598,6 +1598,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/IGaBT4D4I2rk/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-10-31T16:46:15.000Z",
+       "start": "2026-10-31T16:46:15.000Z",
+       "end": "2026-10-31T16:51:23.336Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "DRKSで放送！",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/VgEct9UfC7qL/480.webp"
       }
      ]
     }
