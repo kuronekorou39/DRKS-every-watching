@@ -2072,7 +2072,7 @@
       {
        "stream_id": "316647620081",
        "start": "2026-10-31T00:20:16.000Z",
-       "end": "2026-10-31T02:20:58.659Z",
+       "end": "2026-10-31T02:30:59.290Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 2日目",
@@ -3656,6 +3656,17 @@
        "game": "Mario Kart World",
        "url": "https://www.twitch.tv/videos/2914397770",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d4fe3a9dc332474714b8_batora324_316712850675_1793318170//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316717587443",
+       "start": "2026-10-31T02:25:21.000Z",
+       "end": "2026-10-31T02:30:59.291Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "マリカ9000いった俺は抜け殻 夕方まで",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
