@@ -690,11 +690,11 @@
       {
        "stream_id": "316720846451",
        "start": "2026-10-31T16:53:22.000Z",
-       "end": "2026-10-31T21:11:34.078Z",
+       "end": "2026-10-31T21:21:32.496Z",
        "end_source": "poll",
        "live": true,
-       "title": "ARCレーダーｽをやり、６時からﾕﾘｰｽ応援する",
-       "game": "ARC Raiders",
+       "title": "ﾕﾘｰｽ応援するALGS",
+       "game": "Apex Legends",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -1227,14 +1227,14 @@
       },
       {
        "stream_id": "316660860914",
-       "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T21:11:34.079Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-31T06:48:47.000Z",
+       "end": "2026-10-31T21:15:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2915560686",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3eb05f6bb24b560b3982_indegnasen0706_316660860914_1793429322//thumb/thumb0-320x180.jpg"
       }
      ]
     }
