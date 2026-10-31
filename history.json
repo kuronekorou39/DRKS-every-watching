@@ -679,7 +679,7 @@
       {
        "stream_id": "316661386482",
        "start": "2026-10-31T09:32:11.000Z",
-       "end": "2026-10-31T12:51:23.270Z",
+       "end": "2026-10-31T13:01:23.180Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls実況※ネタバレあり",
@@ -1217,7 +1217,7 @@
       {
        "stream_id": "316660860914",
        "start": "2026-10-31T06:48:42.000Z",
-       "end": "2026-10-31T12:51:23.271Z",
+       "end": "2026-10-31T13:01:23.181Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA ４日目←１戦ポッキリ 10月最後のポイントパブジ←ごつ盛りやきぞば後、俺は睡眠爆破の研究をしなければならない",
@@ -2115,14 +2115,14 @@
       },
       {
        "stream_id": "316719829747",
-       "start": "2026-10-31T12:43:13.000Z",
-       "end": "2026-10-31T12:51:23.272Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-31T12:44:06.000Z",
+       "end": "2026-10-31T12:47:16.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 2日目",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2915709737",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/00c2600be4210b4c93e3_yuyuta0702_316719829747_1793450593//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3212,7 +3212,7 @@
       {
        "stream_id": "316661567090",
        "start": "2026-10-31T10:24:22.000Z",
-       "end": "2026-10-31T12:51:23.273Z",
+       "end": "2026-10-31T13:01:23.183Z",
        "end_source": "poll",
        "live": true,
        "title": "オーヴァーウォッチ",
