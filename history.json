@@ -701,7 +701,7 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T11:42:09.146Z",
+       "end": "2026-11-01T11:52:09.488Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls実況2日目※ネタバレあり",
@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T11:42:09.146Z",
+       "end": "2026-11-01T11:52:09.489Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2211,6 +2211,28 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2916527030",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/60192fcc77ba4cd02421_yuyuta0702_316653802993_1793523067//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316666463090",
+       "start": "2026-11-01T11:43:08.000Z",
+       "end": "2026-11-01T11:48:50.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
+       "game": null,
+       "url": "https://www.twitch.tv/videos/2916601405",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6e0ced4ddda894acb65a_yuyuta0702_316666463090_1793533347//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316666476914",
+       "start": "2026-11-01T11:45:53.000Z",
+       "end": "2026-11-01T11:52:09.490Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -4165,7 +4187,7 @@
       {
        "stream_id": "OBQeZxVORT8",
        "start": "2026-11-01T11:01:34.000Z",
-       "end": "2026-11-01T11:42:09.148Z",
+       "end": "2026-11-01T11:52:09.490Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #11「オンスモ絶対倒すSP」",
