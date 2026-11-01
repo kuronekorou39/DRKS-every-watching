@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T14:12:09.907Z",
+       "end": "2026-11-01T14:22:09.655Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2225,14 +2225,14 @@
       },
       {
        "stream_id": "316666476914",
-       "start": "2026-11-01T11:45:53.000Z",
-       "end": "2026-11-01T14:12:09.908Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-01T11:45:58.000Z",
+       "end": "2026-11-01T14:16:27.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2916602833",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2f06074192596f941112_yuyuta0702_316666476914_1793533553//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3039,7 +3039,7 @@
       {
        "stream_id": "RBbDV7asanA",
        "start": "2026-11-01T12:00:31.000Z",
-       "end": "2026-11-01T14:12:09.908Z",
+       "end": "2026-11-01T14:22:09.656Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】キオクシア決算とインテルショック。中間選挙も今週から。更にDELLの悪材料まで。明日は最大規模のストップ安祭りが来るってマジですか？それとも押し目となるのか。完全予想する株会議生放送",
@@ -4198,7 +4198,7 @@
       {
        "stream_id": "OBQeZxVORT8",
        "start": "2026-11-01T11:01:34.000Z",
-       "end": "2026-11-01T14:12:09.908Z",
+       "end": "2026-11-01T14:22:09.657Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #11「オンスモ絶対倒すSP」",
