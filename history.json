@@ -701,7 +701,7 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T10:52:09.892Z",
+       "end": "2026-11-01T11:02:09.426Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls実況2日目※ネタバレあり",
@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T10:52:09.893Z",
+       "end": "2026-11-01T11:02:09.427Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2204,7 +2204,7 @@
       {
        "stream_id": "316653802993",
        "start": "2026-11-01T08:51:07.000Z",
-       "end": "2026-11-01T10:52:09.893Z",
+       "end": "2026-11-01T11:02:09.428Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
@@ -4161,6 +4161,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=0pVMVx7q8P0",
        "thumb": "https://i.ytimg.com/vi/0pVMVx7q8P0/mqdefault.jpg"
+      },
+      {
+       "stream_id": "OBQeZxVORT8",
+       "start": "2026-11-01T11:01:34.000Z",
+       "end": "2026-11-01T11:02:09.429Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #11「オンスモ絶対倒すSP」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=OBQeZxVORT8",
+       "thumb": "https://i.ytimg.com/vi/OBQeZxVORT8/mqdefault.jpg?v=6ae6e7cd"
       }
      ]
     }
