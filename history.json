@@ -689,14 +689,14 @@
       },
       {
        "stream_id": "316720846451",
-       "start": "2026-10-31T16:53:22.000Z",
-       "end": "2026-11-01T00:11:45.944Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-10-31T16:53:27.000Z",
+       "end": "2026-11-01T00:17:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ﾕﾘｰｽ応援するALGS",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2915891576",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/afaf365b216efdfd4ea8_kato_junichi0817_316720846451_1793465602//thumb/thumb0-320x180.jpg"
       }
      ]
     },
