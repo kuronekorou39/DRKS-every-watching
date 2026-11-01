@@ -701,7 +701,7 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T10:11:56.517Z",
+       "end": "2026-11-01T10:21:57.774Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls実況2日目※ネタバレあり",
@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T10:11:56.518Z",
+       "end": "2026-11-01T10:21:57.775Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2204,7 +2204,7 @@
       {
        "stream_id": "316653802993",
        "start": "2026-11-01T08:51:07.000Z",
-       "end": "2026-11-01T10:11:56.519Z",
+       "end": "2026-11-01T10:21:57.776Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
@@ -2475,14 +2475,14 @@
       },
       {
        "stream_id": "316665681778",
-       "start": "2026-11-01T08:05:53.000Z",
-       "end": "2026-11-01T10:11:56.519Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-01T08:05:59.000Z",
+       "end": "2026-11-01T10:14:05.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シャドバPS！！もう絶対に負けられないREJECT応援ミラー！！マジで負けてはいけない試合がここにある。ナイトメア完全解説チャンネルです！",
        "game": "Shadowverse: Worlds Beyond",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2916509857",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2a9e1102484fead354c2_oniyadayo_316665681778_1793520353//thumb/thumb0-320x180.jpg"
       }
      ]
     },
