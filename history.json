@@ -697,6 +697,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2915891576",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/afaf365b216efdfd4ea8_kato_junichi0817_316720846451_1793465602//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316722787699",
+       "start": "2026-11-01T05:34:45.000Z",
+       "end": "2026-11-01T05:41:56.507Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ﾑﾗｹﾞ全力応援 Shadowverse Premier Series 26-27 第10節",
+       "game": "Shadowverse: Worlds Beyond",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2171,7 +2182,7 @@
       {
        "stream_id": "316652548977",
        "start": "2026-11-01T02:27:21.000Z",
-       "end": "2026-11-01T05:31:56.194Z",
+       "end": "2026-11-01T05:41:56.509Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
