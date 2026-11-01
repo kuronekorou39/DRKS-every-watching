@@ -701,11 +701,11 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T08:01:56.329Z",
+       "end": "2026-11-01T08:11:55.923Z",
        "end_source": "poll",
        "live": true,
-       "title": "ﾑﾗｹﾞ全力応援 Shadowverse Premier Series 26-27 第10節",
-       "game": "Shadowverse: Worlds Beyond",
+       "title": "19時からブリーチをやる。ARCﾚｰﾀﾞｰｽ",
+       "game": "ARC Raiders",
        "url": "https://www.twitch.tv/kato_junichi0817",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T08:01:56.330Z",
+       "end": "2026-11-01T08:11:55.924Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2193,7 +2193,7 @@
       {
        "stream_id": "316652548977",
        "start": "2026-11-01T02:27:21.000Z",
-       "end": "2026-11-01T08:01:56.331Z",
+       "end": "2026-11-01T08:11:55.925Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
@@ -2461,6 +2461,17 @@
        "game": "Shadowverse: Worlds Beyond",
        "url": "https://www.twitch.tv/videos/2912907981",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/012a12405ee6e8bf1d4e_oniyadayo_316636198001_1793176342//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316665681778",
+       "start": "2026-11-01T08:05:53.000Z",
+       "end": "2026-11-01T08:11:55.926Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "シャドバPS！！もう絶対に負けられないREJECT応援ミラー！！マジで負けてはいけない試合がここにある。ナイトメア完全解説チャンネルです！",
+       "game": "Shadowverse: Worlds Beyond",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
