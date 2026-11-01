@@ -701,7 +701,7 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T11:52:09.488Z",
+       "end": "2026-11-01T12:02:09.941Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls実況2日目※ネタバレあり",
@@ -1250,7 +1250,7 @@
       {
        "stream_id": "316665358322",
        "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T11:52:09.489Z",
+       "end": "2026-11-01T12:02:09.942Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
@@ -2226,7 +2226,7 @@
       {
        "stream_id": "316666476914",
        "start": "2026-11-01T11:45:53.000Z",
-       "end": "2026-11-01T11:52:09.490Z",
+       "end": "2026-11-01T12:02:09.942Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
@@ -3035,6 +3035,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=0XKf0M-ToeY",
        "thumb": "https://i.ytimg.com/vi/0XKf0M-ToeY/mqdefault.jpg"
+      },
+      {
+       "stream_id": "RBbDV7asanA",
+       "start": "2026-11-01T12:00:31.000Z",
+       "end": "2026-11-01T12:02:09.943Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】キオクシア決算とインテルショック。中間選挙も今週から。更にDELLの悪材料まで。明日は最大規模のストップ安祭りが来るってマジですか？それとも押し目となるのか。完全予想する株会議生放送",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=RBbDV7asanA",
+       "thumb": "https://i.ytimg.com/vi/RBbDV7asanA/mqdefault.jpg?v=6ae724d3"
       }
      ]
     }
@@ -4187,7 +4198,7 @@
       {
        "stream_id": "OBQeZxVORT8",
        "start": "2026-11-01T11:01:34.000Z",
-       "end": "2026-11-01T11:52:09.490Z",
+       "end": "2026-11-01T12:02:09.943Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #11「オンスモ絶対倒すSP」",
