@@ -701,7 +701,7 @@
       {
        "stream_id": "316722787699",
        "start": "2026-11-01T05:34:45.000Z",
-       "end": "2026-11-01T06:21:56.210Z",
+       "end": "2026-11-01T06:31:57.832Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞ全力応援 Shadowverse Premier Series 26-27 第10節",
@@ -1246,6 +1246,17 @@
        "game": "Monster Hunter Generations Ultimate",
        "url": "https://www.twitch.tv/videos/2915560686",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3eb05f6bb24b560b3982_indegnasen0706_316660860914_1793429322//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316665358322",
+       "start": "2026-11-01T06:26:49.000Z",
+       "end": "2026-11-01T06:31:57.833Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
+       "game": "Monster Hunter Generations Ultimate",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2182,7 +2193,7 @@
       {
        "stream_id": "316652548977",
        "start": "2026-11-01T02:27:21.000Z",
-       "end": "2026-11-01T06:21:56.212Z",
+       "end": "2026-11-01T06:31:57.834Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 3日目",
