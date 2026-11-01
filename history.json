@@ -1249,14 +1249,14 @@
       },
       {
        "stream_id": "316665358322",
-       "start": "2026-11-01T06:26:49.000Z",
-       "end": "2026-11-01T17:32:24.744Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-01T06:26:55.000Z",
+       "end": "2026-11-01T17:38:38.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンダブルクロス 睡眠爆殺片手剣ブシドーTA(たのしい) ５日目",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2916473718",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/be1116309b88a112aa41_indegnasen0706_316665358322_1793514409//thumb/thumb0-320x180.jpg"
       }
      ]
     }
