@@ -1272,7 +1272,7 @@
       {
        "stream_id": "316657597425",
        "start": "2026-11-02T07:00:29.000Z",
-       "end": "2026-11-02T12:43:10.862Z",
+       "end": "2026-11-02T12:53:11.547Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺片手剣ブシドー魔聖王  ５講座目 アトラルカに睡眠爆破は有効なのか",
@@ -2302,14 +2302,14 @@
       },
       {
        "stream_id": "316656910193",
-       "start": "2026-11-02T02:40:58.000Z",
-       "end": "2026-11-02T12:43:10.863Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-02T02:41:04.000Z",
+       "end": "2026-11-02T12:37:18.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 4日目",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2917275171",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/53f4617c9f8f013abdf9_yuyuta0702_316656910193_1793587258//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3454,7 +3454,7 @@
       {
        "stream_id": "316727827955",
        "start": "2026-11-02T10:02:23.000Z",
-       "end": "2026-11-02T12:43:10.864Z",
+       "end": "2026-11-02T12:53:11.549Z",
        "end_source": "poll",
        "live": true,
        "title": "DbDやるわね",
@@ -3968,7 +3968,7 @@
       {
        "stream_id": "316727809907",
        "start": "2026-11-02T09:58:06.000Z",
-       "end": "2026-11-02T12:43:10.864Z",
+       "end": "2026-11-02T12:53:11.549Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ 358/2 Days 鑑賞会！！ ※ネタばれ注意、ネタバレしたやつヤる",
