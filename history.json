@@ -719,6 +719,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2917054354",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/76e92ce6584d803c694d_kato_junichi0817_316656238705_1793568693//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316671773554",
+       "start": "2026-11-02T15:44:36.000Z",
+       "end": "2026-11-02T15:53:23.514Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "疲れて寝いていた男ARCレイダースをする",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -3138,7 +3149,7 @@
       {
        "stream_id": "gwd2Ng3V77Q",
        "start": "2026-11-02T13:28:43.000Z",
-       "end": "2026-11-02T15:43:22.833Z",
+       "end": "2026-11-02T15:53:23.517Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】ついに来たる明日はアメリカ中間選挙！キオクシアよ。どこまで下がる。更に不安が増える世界情勢悪化。。AIバブル崩壊に我々は向かうのか。今宵のアメリカ相場を見届けるしかない。奇跡を。",
@@ -3978,14 +3989,14 @@
       },
       {
        "stream_id": "316727809907",
-       "start": "2026-11-02T09:58:06.000Z",
-       "end": "2026-11-02T15:43:22.833Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-02T09:58:12.000Z",
+       "end": "2026-11-02T15:49:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "キングダムハーツ 358/2 Days 鑑賞会！！ ※ネタばれ注意、ネタバレしたやつヤる",
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2917449389",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9c67953d615dae89fe37_batora324_316727809907_1793613486//thumb/thumb0-320x180.jpg"
       }
      ]
     }
