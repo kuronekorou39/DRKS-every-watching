@@ -1271,14 +1271,14 @@
       },
       {
        "stream_id": "316657597425",
-       "start": "2026-11-02T07:00:29.000Z",
-       "end": "2026-11-02T15:13:23.939Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-02T07:00:35.000Z",
+       "end": "2026-11-02T15:21:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンハンXX 睡眠爆殺片手剣ブシドー魔聖王  ５講座目 アトラルカに睡眠爆破は有効なのか",
        "game": "Monster Hunter Generations Ultimate",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2917392422",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/652fd01fc6e7ce2c0d1f_indegnasen0706_316657597425_1793602829//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3138,7 +3138,7 @@
       {
        "stream_id": "gwd2Ng3V77Q",
        "start": "2026-11-02T13:28:43.000Z",
-       "end": "2026-11-02T15:13:23.942Z",
+       "end": "2026-11-02T15:23:22.635Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】ついに来たる明日はアメリカ中間選挙！キオクシアよ。どこまで下がる。更に不安が増える世界情勢悪化。。AIバブル崩壊に我々は向かうのか。今宵のアメリカ相場を見届けるしかない。奇跡を。",
@@ -3465,7 +3465,7 @@
       {
        "stream_id": "316727827955",
        "start": "2026-11-02T10:02:23.000Z",
-       "end": "2026-11-02T15:13:23.942Z",
+       "end": "2026-11-02T15:23:22.635Z",
        "end_source": "poll",
        "live": true,
        "title": "DbDやるわね",
@@ -3979,7 +3979,7 @@
       {
        "stream_id": "316727809907",
        "start": "2026-11-02T09:58:06.000Z",
-       "end": "2026-11-02T15:13:23.942Z",
+       "end": "2026-11-02T15:23:22.635Z",
        "end_source": "poll",
        "live": true,
        "title": "キングダムハーツ 358/2 Days 鑑賞会！！ ※ネタばれ注意、ネタバレしたやつヤる",
