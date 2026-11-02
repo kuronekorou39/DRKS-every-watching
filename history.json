@@ -1272,7 +1272,7 @@
       {
        "stream_id": "316657597425",
        "start": "2026-11-02T07:00:29.000Z",
-       "end": "2026-11-02T09:53:11.566Z",
+       "end": "2026-11-02T10:03:12.329Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺片手剣ブシドー魔聖王  ５講座目 アトラルカに睡眠爆破は有効なのか",
@@ -1335,7 +1335,7 @@
       {
        "stream_id": "316658012913",
        "start": "2026-11-02T09:24:49.000Z",
-       "end": "2026-11-02T09:53:11.566Z",
+       "end": "2026-11-02T10:03:12.329Z",
        "end_source": "poll",
        "live": true,
        "title": "ムラゲの皆さんで決起会",
@@ -2303,7 +2303,7 @@
       {
        "stream_id": "316656910193",
        "start": "2026-11-02T02:40:58.000Z",
-       "end": "2026-11-02T09:53:11.567Z",
+       "end": "2026-11-02T10:03:12.330Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 4日目",
@@ -3439,6 +3439,28 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2915640202",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5af420f1fe30bb48aafd_assarisyoko1_316661567090_1793442262//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316727806067",
+       "start": "2026-11-02T09:56:53.000Z",
+       "end": "2026-11-02T09:59:02.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "DbDやるわね",
+       "game": null,
+       "url": "https://www.twitch.tv/videos/2917448942",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/085b685304c4b92c06e8_assarisyoko1_316727806067_1793613407//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316727827955",
+       "start": "2026-11-02T10:02:23.000Z",
+       "end": "2026-11-02T10:03:12.331Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "DbDやるわね",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -3942,6 +3964,17 @@
        "game": "Riruri Tachibana: Reincarnated",
        "url": "https://www.twitch.tv/videos/2915419422",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2c1fc88fa1e251bf7e63_batora324_316717587443_1793413521//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316727809907",
+       "start": "2026-11-02T09:58:06.000Z",
+       "end": "2026-11-02T10:03:12.331Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ういー",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
