@@ -1272,7 +1272,7 @@
       {
        "stream_id": "316657597425",
        "start": "2026-11-02T07:00:29.000Z",
-       "end": "2026-11-02T08:53:11.894Z",
+       "end": "2026-11-02T09:03:11.640Z",
        "end_source": "poll",
        "live": true,
        "title": "モンハンXX 睡眠爆殺片手剣ブシドー魔聖王  ５講座目 アトラルカに睡眠爆破は有効なのか",
@@ -1320,6 +1320,17 @@
        "game": null,
        "url": "https://www.twitch.tv/videos/2903149205",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/2165124be8b1ca3340cc_mokouliszt1_322007041627_1792238154//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316657931633",
+       "start": "2026-11-02T08:59:15.000Z",
+       "end": "2026-11-02T09:03:11.640Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ムラゲの皆さんで決起会",
+       "game": "Talk Shows & Podcasts",
+       "url": "https://www.twitch.tv/mokouliszt1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mokouliszt1-320x180.jpg"
       }
      ]
     },
@@ -2281,7 +2292,7 @@
       {
        "stream_id": "316656910193",
        "start": "2026-11-02T02:40:58.000Z",
-       "end": "2026-11-02T08:53:11.895Z",
+       "end": "2026-11-02T09:03:11.641Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 4日目",
