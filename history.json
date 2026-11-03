@@ -741,6 +741,17 @@
        "game": "BLEACH Rebirth of Souls",
        "url": "https://www.twitch.tv/videos/2918350858",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c236490173fa81398469_kato_junichi0817_316675007090_1793704294//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316734110835",
+       "start": "2026-11-03T16:45:25.000Z",
+       "end": "2026-11-03T16:54:42.901Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ARCレイダースをばんかいする",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1723,7 +1734,7 @@
       {
        "stream_id": "kick-2026-11-03T13:50:35.000Z",
        "start": "2026-11-03T13:50:35.000Z",
-       "end": "2026-11-03T16:44:42.789Z",
+       "end": "2026-11-03T16:54:42.903Z",
        "end_source": "poll",
        "live": true,
        "title": "うおｗ",
@@ -3204,9 +3215,9 @@
       {
        "stream_id": "uOT0diCLmdY",
        "start": "2026-11-03T13:28:13.000Z",
-       "end": "2026-11-03T16:44:42.789Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-03T16:34:22.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "アメリカ中間選挙ついに始まる。選挙速報！キオクシア1万円割れへ。アンソロピックで半導体AIは大暴落。メモリーは滅びるのか。明日はブラックマンデーですか？退場でしょうか？絶望のアメリカ相場見届け生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=uOT0diCLmdY",
