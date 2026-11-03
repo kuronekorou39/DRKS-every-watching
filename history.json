@@ -2336,7 +2336,7 @@
       {
        "stream_id": "316661023089",
        "start": "2026-11-03T01:44:00.000Z",
-       "end": "2026-11-03T08:24:30.384Z",
+       "end": "2026-11-03T08:34:30.997Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 最終回",
@@ -4022,14 +4022,14 @@
       },
       {
        "stream_id": "316731054451",
-       "start": "2026-11-03T02:54:59.000Z",
-       "end": "2026-11-03T08:24:30.385Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-03T02:55:04.000Z",
+       "end": "2026-11-03T08:33:42.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "最新作のスイッチスポーツのランクマッチに挑んでいく",
        "game": "Nintendo Switch Sports Resort",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2918148105",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1abf51bcf2e95c2c3d04_batora324_316731054451_1793674499//thumb/thumb0-320x180.jpg"
       }
      ]
     }
