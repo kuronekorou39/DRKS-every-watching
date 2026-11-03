@@ -1723,7 +1723,7 @@
       {
        "stream_id": "kick-2026-11-03T13:50:35.000Z",
        "start": "2026-11-03T13:50:35.000Z",
-       "end": "2026-11-03T16:24:43.087Z",
+       "end": "2026-11-03T16:34:42.722Z",
        "end_source": "poll",
        "live": true,
        "title": "うおｗ",
@@ -3204,9 +3204,9 @@
       {
        "stream_id": "uOT0diCLmdY",
        "start": "2026-11-03T13:28:13.000Z",
-       "end": "2026-11-03T16:24:43.088Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-03T16:34:22.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "アメリカ中間選挙ついに始まる。選挙速報！キオクシア1万円割れへ。アンソロピックで半導体AIは大暴落。メモリーは滅びるのか。明日はブラックマンデーですか？退場でしょうか？絶望のアメリカ相場見届け生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=uOT0diCLmdY",
