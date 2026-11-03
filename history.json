@@ -1736,7 +1736,7 @@
        "start": "2026-11-03T13:50:35.000Z",
        "end": "2026-11-03T18:45:20.898Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "うおｗ",
        "game": "Games + Demos",
        "url": "https://kick.com/mokoutoaruotoko",
