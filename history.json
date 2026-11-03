@@ -730,6 +730,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2917621996",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/177879173a434e2912bc_kato_junichi0817_316671773554_1793634276//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316675007090",
+       "start": "2026-11-03T11:11:34.000Z",
+       "end": "2026-11-03T11:14:29.572Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ブリーチ続き",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -3509,7 +3520,7 @@
       {
        "stream_id": "316732653683",
        "start": "2026-11-03T10:57:25.000Z",
-       "end": "2026-11-03T11:04:30.533Z",
+       "end": "2026-11-03T11:14:29.575Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバイデイライトマン",
@@ -4396,7 +4407,7 @@
       {
        "stream_id": "G8fsuz88fHs",
        "start": "2026-11-03T11:02:08.000Z",
-       "end": "2026-11-03T11:04:30.534Z",
+       "end": "2026-11-03T11:14:29.576Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #12「墓王ニト撃破SP」",
