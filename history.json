@@ -2336,7 +2336,7 @@
       {
        "stream_id": "316661023089",
        "start": "2026-11-03T01:44:00.000Z",
-       "end": "2026-11-03T02:54:19.508Z",
+       "end": "2026-11-03T03:04:22.005Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆ散歩スペシャル 琵琶湖一周200キロかます 最終回",
@@ -4019,6 +4019,17 @@
        "game": "Kingdom Hearts HD 1.5 + 2.5 ReMIX",
        "url": "https://www.twitch.tv/videos/2917449389",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9c67953d615dae89fe37_batora324_316727809907_1793613486//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316731054451",
+       "start": "2026-11-03T02:54:59.000Z",
+       "end": "2026-11-03T03:04:22.006Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "生活リズムが良すぎて体調がすこぶるいい",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
