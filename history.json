@@ -3505,6 +3505,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2917451187",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/02204c12a8cd7355dcd8_assarisyoko1_316727827955_1793613743//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316732653683",
+       "start": "2026-11-03T10:57:25.000Z",
+       "end": "2026-11-03T11:04:30.533Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "デッドバイデイライトマン",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -4381,6 +4392,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=OBQeZxVORT8",
        "thumb": "https://i.ytimg.com/vi/OBQeZxVORT8/mqdefault.jpg"
+      },
+      {
+       "stream_id": "G8fsuz88fHs",
+       "start": "2026-11-03T11:02:08.000Z",
+       "end": "2026-11-03T11:04:30.534Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #12「墓王ニト撃破SP」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=G8fsuz88fHs",
+       "thumb": "https://i.ytimg.com/vi/G8fsuz88fHs/mqdefault.jpg?v=6ae98cfc"
       }
      ]
     }
