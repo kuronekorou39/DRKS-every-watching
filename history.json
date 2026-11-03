@@ -744,14 +744,14 @@
       },
       {
        "stream_id": "316734110835",
-       "start": "2026-11-03T16:45:25.000Z",
-       "end": "2026-11-03T18:05:19.975Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-03T16:45:30.000Z",
+       "end": "2026-11-03T18:06:45.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ARCレイダースをばんかいする",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2918536127",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5fdb8988ee4419813bb5_kato_junichi0817_316734110835_1793724325//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1734,7 +1734,7 @@
       {
        "stream_id": "kick-2026-11-03T13:50:35.000Z",
        "start": "2026-11-03T13:50:35.000Z",
-       "end": "2026-11-03T18:05:19.977Z",
+       "end": "2026-11-03T18:15:23.157Z",
        "end_source": "poll",
        "live": true,
        "title": "うおｗ",
