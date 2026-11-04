@@ -1327,7 +1327,7 @@
       {
        "stream_id": "316736313075",
        "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T15:25:47.120Z",
+       "end": "2026-11-04T15:35:47.662Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
@@ -3270,7 +3270,7 @@
       {
        "stream_id": "qcprZgZdoEk",
        "start": "2026-11-04T13:43:25.000Z",
-       "end": "2026-11-04T15:25:47.121Z",
+       "end": "2026-11-04T15:35:47.664Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】アメリカ中間選挙トランプ敗北。日経平均大暴落からのキオクシア1万割れ半導体クラッシュ。退場祭りからの謎リバ。来るのか？選挙後は「上げ」のアノマリーが！！頼むアメリカ相場見届け配信！！",
@@ -3626,6 +3626,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2919216541",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/330a25846207fcba44d9_assarisyoko1_316736817267_1793788308//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316668314225",
+       "start": "2026-11-04T15:32:34.000Z",
+       "end": "2026-11-04T15:35:47.664Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ちょっとだけゼルダ時オカ",
+       "game": "The Legend of Zelda: Ocarina of Time",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -4166,7 +4177,7 @@
       {
        "stream_id": "316736839155",
        "start": "2026-11-04T10:37:12.000Z",
-       "end": "2026-11-04T15:25:47.122Z",
+       "end": "2026-11-04T15:35:47.664Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファームやる ©コーエーテクモゲームス",
