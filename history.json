@@ -1763,6 +1763,17 @@
        "game": "Games + Demos",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/8jxRYEtM7Nf3/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-04T19:49:26.000Z",
+       "start": "2026-11-04T19:49:26.000Z",
+       "end": "2026-11-04T19:56:06.973Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "治水",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/hWb5Mg83UnCM/480.webp"
       }
      ]
     }
