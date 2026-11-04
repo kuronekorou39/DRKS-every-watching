@@ -1327,7 +1327,7 @@
       {
        "stream_id": "316736313075",
        "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T16:35:48.428Z",
+       "end": "2026-11-04T16:45:50.138Z",
        "end_source": "poll",
        "live": true,
        "title": "まったり←餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
@@ -3629,14 +3629,14 @@
       },
       {
        "stream_id": "316668314225",
-       "start": "2026-11-04T15:32:34.000Z",
-       "end": "2026-11-04T16:35:48.430Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-04T15:32:42.000Z",
+       "end": "2026-11-04T16:43:26.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ちょっとだけゼルダ時オカ",
        "game": "The Legend of Zelda: Ocarina of Time",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2919373887",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e005e42e4eb4985f4f9b_assarisyoko1_316668314225_1793806354//thumb/thumb0-320x180.jpg"
       }
      ]
     }
