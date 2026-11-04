@@ -1316,7 +1316,7 @@
       {
        "stream_id": "316736313075",
        "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T08:15:30.563Z",
+       "end": "2026-11-04T08:25:30.776Z",
        "end_source": "poll",
        "live": true,
        "title": "飢えた狼 テリーを触る",
@@ -4110,14 +4110,14 @@
       },
       {
        "stream_id": "316665499121",
-       "start": "2026-11-04T02:33:19.000Z",
-       "end": "2026-11-04T08:15:30.565Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-04T02:33:24.000Z",
+       "end": "2026-11-04T08:18:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ワンターンキルというゲームをやってみたい",
        "game": "One Turn Kill",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2919010124",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/acd05fea6490443f5ea5_batora324_316665499121_1793759599//thumb/thumb0-320x180.jpg"
       }
      ]
     }
