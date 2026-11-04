@@ -1327,11 +1327,11 @@
       {
        "stream_id": "316736313075",
        "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T16:25:47.890Z",
+       "end": "2026-11-04T16:35:48.428Z",
        "end_source": "poll",
        "live": true,
-       "title": "餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
-       "game": "Fatal Fury: City of the Wolves",
+       "title": "まったり←餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
+       "game": "Just Chatting",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -3630,7 +3630,7 @@
       {
        "stream_id": "316668314225",
        "start": "2026-11-04T15:32:34.000Z",
-       "end": "2026-11-04T16:25:47.892Z",
+       "end": "2026-11-04T16:35:48.430Z",
        "end_source": "poll",
        "live": true,
        "title": "ちょっとだけゼルダ時オカ",
@@ -4176,14 +4176,14 @@
       },
       {
        "stream_id": "316736839155",
-       "start": "2026-11-04T10:37:12.000Z",
-       "end": "2026-11-04T16:25:47.892Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-04T10:37:17.000Z",
+       "end": "2026-11-04T16:26:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンスターファームやる ©コーエーテクモゲームス",
        "game": "Monster Rancher 2 DX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2919218556",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1bd3ee1ec2db5f9caa93_batora324_316736839155_1793788632//thumb/thumb0-320x180.jpg"
       }
      ]
     }
