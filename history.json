@@ -756,7 +756,7 @@
       {
        "stream_id": "316666959729",
        "start": "2026-11-04T10:51:14.000Z",
-       "end": "2026-11-04T13:35:46.132Z",
+       "end": "2026-11-04T13:45:44.905Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls 実況4日目 ※ネタバレあり",
@@ -1327,7 +1327,7 @@
       {
        "stream_id": "316736313075",
        "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T13:35:46.133Z",
+       "end": "2026-11-04T13:45:44.906Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
@@ -3266,6 +3266,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=49KIPOf8JLQ",
        "thumb": "https://i.ytimg.com/vi/49KIPOf8JLQ/mqdefault.jpg"
+      },
+      {
+       "stream_id": "qcprZgZdoEk",
+       "start": "2026-11-04T13:43:25.000Z",
+       "end": "2026-11-04T13:45:44.908Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】アメリカ中間選挙トランプ敗北。日経平均大暴落からのキオクシア1万割れ半導体クラッシュ。退場祭りからの謎リバ。来るのか？選挙後は「上げ」のアノマリーが！！頼むアメリカ相場見届け配信！！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=qcprZgZdoEk",
+       "thumb": "https://i.ytimg.com/vi/qcprZgZdoEk/mqdefault.jpg?v=6aeb3163"
       }
      ]
     }
@@ -3608,7 +3619,7 @@
       {
        "stream_id": "316736817267",
        "start": "2026-11-04T10:31:48.000Z",
-       "end": "2026-11-04T13:35:46.135Z",
+       "end": "2026-11-04T13:45:44.908Z",
        "end_source": "poll",
        "live": true,
        "title": "今日も僕はこのゲームをする",
@@ -4155,7 +4166,7 @@
       {
        "stream_id": "316736839155",
        "start": "2026-11-04T10:37:12.000Z",
-       "end": "2026-11-04T13:35:46.135Z",
+       "end": "2026-11-04T13:45:44.908Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファームやる ©コーエーテクモゲームス",
