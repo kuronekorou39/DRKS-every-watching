@@ -1326,14 +1326,14 @@
       },
       {
        "stream_id": "316736313075",
-       "start": "2026-11-04T07:57:39.000Z",
-       "end": "2026-11-04T17:26:07.586Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-04T07:57:45.000Z",
+       "end": "2026-11-04T17:31:54.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "PUBGがアプデしたそうです←まったり←餓狼伝説イベント チーム顔合わせ←飢えた狼 テリーを触る",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2919162942",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/34561209bf6fe7b4f68e_indegnasen0706_316736313075_1793779059//thumb/thumb0-320x180.jpg"
       }
      ]
     }
