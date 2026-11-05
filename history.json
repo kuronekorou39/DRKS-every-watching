@@ -1338,7 +1338,7 @@
       {
        "stream_id": "316670575473",
        "start": "2026-11-05T07:12:53.000Z",
-       "end": "2026-11-05T09:56:41.435Z",
+       "end": "2026-11-05T10:06:42.534Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGをやりませんか←１８：３０くらいからサイレントヒル２リメイクをするまでまったりマン",
@@ -3310,6 +3310,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=hLP5wxELHXY",
        "thumb": "https://i.ytimg.com/vi/hLP5wxELHXY/mqdefault.jpg?v=6aeb5c50"
+      },
+      {
+       "stream_id": "DjGGgt_lc-g",
+       "start": "2026-11-05T10:03:28.000Z",
+       "end": "2026-11-05T10:06:42.536Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "アメリカ中間選挙、今後の株価はどうなる？！天才おにやの「今日この人と話したい！」ゲスト：森永康平！【supported by TIPSTAR】",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=DjGGgt_lc-g",
+       "thumb": "https://i.ytimg.com/vi/DjGGgt_lc-g/mqdefault.jpg?v=6aeb5d17"
       }
      ]
     }
