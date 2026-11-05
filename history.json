@@ -1334,6 +1334,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2919162942",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/34561209bf6fe7b4f68e_indegnasen0706_316736313075_1793779059//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316670575473",
+       "start": "2026-11-05T07:12:53.000Z",
+       "end": "2026-11-05T07:16:32.010Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "１８：３０くらいからサイレントヒル２リメイクをするまでまったりマン",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
