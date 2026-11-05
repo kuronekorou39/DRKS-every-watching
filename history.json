@@ -1789,7 +1789,7 @@
       {
        "stream_id": "kick-2026-11-05T13:59:52.000Z",
        "start": "2026-11-05T13:59:52.000Z",
-       "end": "2026-11-05T16:46:55.498Z",
+       "end": "2026-11-05T16:56:55.788Z",
        "end_source": "poll",
        "live": true,
        "title": "寝てた",
@@ -3336,9 +3336,9 @@
       {
        "stream_id": "NhsP7_ZlXko",
        "start": "2026-11-05T13:45:18.000Z",
-       "end": "2026-11-05T16:46:55.498Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-05T16:50:51.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】日本たばこ産業（JT）をロシア管理下にする大統領令だと！？日経半導体だけリーマンショック。驚異の下げに追証ラッシュ。データセンター規制に信用買残の変化も。魂のアメリカ相場見届け配信！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=NhsP7_ZlXko",
