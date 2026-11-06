@@ -1349,7 +1349,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T08:37:32.727Z",
+       "end": "2026-11-06T08:47:33.343Z",
        "end_source": "poll",
        "live": true,
        "title": "一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -2442,6 +2442,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2918096634",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1607fac7100950aed0c3_yuyuta0702_316661023089_1793670240//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316675187569",
+       "start": "2026-11-06T08:39:45.000Z",
+       "end": "2026-11-06T08:47:33.344Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "リハビリ男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
