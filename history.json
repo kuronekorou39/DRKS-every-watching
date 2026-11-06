@@ -1360,7 +1360,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T17:38:12.048Z",
+       "end": "2026-11-06T17:48:12.191Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル２ シリーズ初見プレイ ～病院編～ ２日目←一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -3783,14 +3783,14 @@
       },
       {
        "stream_id": "316675625969",
-       "start": "2026-11-06T10:25:17.000Z",
-       "end": "2026-11-06T17:38:12.049Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-06T10:25:23.000Z",
+       "end": "2026-11-06T17:44:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "時オカやるよーーーーーー！！つづきから",
        "game": "The Legend of Zelda: Ocarina of Time",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2921020516",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2db4aa2ac83f687ebd13_assarisyoko1_316675625969_1793960717//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -4732,7 +4732,7 @@
        "title": "幕末志士のDARK SOULS #13「白竜シースvs.光の勇者」",
        "game": null,
        "url": "https://www.youtube.com/watch?v=LtRiHZAxEs8",
-       "thumb": "https://i.ytimg.com/vi/LtRiHZAxEs8/mqdefault.jpg?v=6aed9116"
+       "thumb": "https://i.ytimg.com/vi/LtRiHZAxEs8/mqdefault.jpg"
       }
      ]
     }
