@@ -766,14 +766,14 @@
       },
       {
        "stream_id": "316687714418",
-       "start": "2026-11-06T10:44:32.000Z",
-       "end": "2026-11-06T15:58:11.296Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-06T10:44:37.000Z",
+       "end": "2026-11-06T15:59:44.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "２０時からBLEACH Rebirth of Souls 実況５日目 ※ネタバレあり",
        "game": "BLEACH Rebirth of Souls",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2921027524",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7be7fb1510c74d6d2e9a_kato_junichi0817_316687714418_1793961872//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1360,7 +1360,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T15:58:11.297Z",
+       "end": "2026-11-06T16:08:13.184Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル２ シリーズ初見プレイ ～病院編～ ２日目←一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -3784,7 +3784,7 @@
       {
        "stream_id": "316675625969",
        "start": "2026-11-06T10:25:17.000Z",
-       "end": "2026-11-06T15:58:11.298Z",
+       "end": "2026-11-06T16:08:13.185Z",
        "end_source": "poll",
        "live": true,
        "title": "時オカやるよーーーーーー！！つづきから",
@@ -4342,7 +4342,7 @@
       {
        "stream_id": "316745811827",
        "start": "2026-11-06T11:43:00.000Z",
-       "end": "2026-11-06T15:58:11.298Z",
+       "end": "2026-11-06T16:08:13.185Z",
        "end_source": "poll",
        "live": true,
        "title": "シメ",
