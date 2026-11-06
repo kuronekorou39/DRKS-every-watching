@@ -1345,6 +1345,17 @@
        "game": "SILENT HILL 2",
        "url": "https://www.twitch.tv/videos/2920052187",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/39b3d4d18e8684d0e339_indegnasen0706_316670575473_1793862773//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316744760691",
+       "start": "2026-11-06T06:35:31.000Z",
+       "end": "2026-11-06T06:37:22.014Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "１８時くらいまで雑談",
+       "game": null,
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
