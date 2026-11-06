@@ -1360,7 +1360,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T16:38:11.753Z",
+       "end": "2026-11-06T16:48:12.671Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル２ シリーズ初見プレイ ～病院編～ ２日目←一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -3784,7 +3784,7 @@
       {
        "stream_id": "316675625969",
        "start": "2026-11-06T10:25:17.000Z",
-       "end": "2026-11-06T16:38:11.754Z",
+       "end": "2026-11-06T16:48:12.673Z",
        "end_source": "poll",
        "live": true,
        "title": "時オカやるよーーーーーー！！つづきから",
@@ -4341,14 +4341,14 @@
       },
       {
        "stream_id": "316745811827",
-       "start": "2026-11-06T11:43:00.000Z",
-       "end": "2026-11-06T16:38:11.754Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-06T11:43:05.000Z",
+       "end": "2026-11-06T16:39:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シメ",
        "game": "Super Mario Maker 2",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2921051885",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4cd565aca810fb445763_batora324_316745811827_1793965380//thumb/thumb0-320x180.jpg"
       }
      ]
     }
