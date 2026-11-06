@@ -1349,7 +1349,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T10:17:32.635Z",
+       "end": "2026-11-06T10:27:33.026Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル２ シリーズ初見プレイ ～病院編～ ２日目←一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -2446,7 +2446,7 @@
       {
        "stream_id": "316675187569",
        "start": "2026-11-06T08:39:45.000Z",
-       "end": "2026-11-06T10:17:32.636Z",
+       "end": "2026-11-06T10:27:33.027Z",
        "end_source": "poll",
        "live": true,
        "title": "リハビリ男",
@@ -3758,6 +3758,17 @@
        "game": "The Legend of Zelda: Ocarina of Time",
        "url": "https://www.twitch.tv/videos/2920113387",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9884812209dd3285b4dc_assarisyoko1_316741064435_1793873302//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316675625969",
+       "start": "2026-11-06T10:25:17.000Z",
+       "end": "2026-11-06T10:27:33.027Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "時オカやるよーーーーーー！！つづきから",
+       "game": "The Legend of Zelda: Ocarina of Time",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
