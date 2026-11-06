@@ -767,7 +767,7 @@
       {
        "stream_id": "316687714418",
        "start": "2026-11-06T10:44:32.000Z",
-       "end": "2026-11-06T11:37:32.666Z",
+       "end": "2026-11-06T11:47:33.060Z",
        "end_source": "poll",
        "live": true,
        "title": "２０時からBLEACH Rebirth of Souls 実況５日目 ※ネタバレあり",
@@ -1360,7 +1360,7 @@
       {
        "stream_id": "316744760691",
        "start": "2026-11-06T06:35:31.000Z",
-       "end": "2026-11-06T11:37:32.667Z",
+       "end": "2026-11-06T11:47:33.061Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル２ シリーズ初見プレイ ～病院編～ ２日目←一日４回限定 ポイント賭けおみくじPUBG←←１８時くらいまで雑談",
@@ -2457,7 +2457,7 @@
       {
        "stream_id": "316675187569",
        "start": "2026-11-06T08:39:45.000Z",
-       "end": "2026-11-06T11:37:32.668Z",
+       "end": "2026-11-06T11:47:33.062Z",
        "end_source": "poll",
        "live": true,
        "title": "リハビリ男",
@@ -3773,7 +3773,7 @@
       {
        "stream_id": "316675625969",
        "start": "2026-11-06T10:25:17.000Z",
-       "end": "2026-11-06T11:37:32.668Z",
+       "end": "2026-11-06T11:47:33.062Z",
        "end_source": "poll",
        "live": true,
        "title": "時オカやるよーーーーーー！！つづきから",
@@ -4327,6 +4327,17 @@
        "game": "Monster Rancher 2 DX",
        "url": "https://www.twitch.tv/videos/2919218556",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1bd3ee1ec2db5f9caa93_batora324_316736839155_1793788632//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316745811827",
+       "start": "2026-11-06T11:43:00.000Z",
+       "end": "2026-11-06T11:47:33.063Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "風邪ひき男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
