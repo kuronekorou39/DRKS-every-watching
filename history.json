@@ -4349,6 +4349,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2921051885",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4cd565aca810fb445763_batora324_316745811827_1793965380//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316748921587",
+       "start": "2026-11-07T04:24:39.000Z",
+       "end": "2026-11-07T04:28:32.516Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "鼻たれ小僧",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
