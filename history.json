@@ -1371,7 +1371,7 @@
       {
        "stream_id": "316691578354",
        "start": "2026-11-07T07:10:10.000Z",
-       "end": "2026-11-07T10:08:45.621Z",
+       "end": "2026-11-07T10:18:45.953Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説 City of the Wolves STREAMER CUP【１８時から】 チーム：新初老伝説スペシャル",
@@ -2479,7 +2479,7 @@
       {
        "stream_id": "316680167153",
        "start": "2026-11-07T09:01:36.000Z",
-       "end": "2026-11-07T10:08:45.622Z",
+       "end": "2026-11-07T10:18:45.954Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！",
@@ -3813,6 +3813,17 @@
        "game": "The Legend of Zelda: Ocarina of Time",
        "url": "https://www.twitch.tv/videos/2921020516",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2db4aa2ac83f687ebd13_assarisyoko1_316675625969_1793960717//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316680430449",
+       "start": "2026-11-07T10:17:18.000Z",
+       "end": "2026-11-07T10:18:45.954Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "時オカ！！つづきから",
+       "game": "The Legend of Zelda: Ocarina of Time",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -4375,7 +4386,7 @@
       {
        "stream_id": "316748921587",
        "start": "2026-11-07T04:24:39.000Z",
-       "end": "2026-11-07T10:08:45.623Z",
+       "end": "2026-11-07T10:18:45.955Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファーム バッタンに子供産ませる",
