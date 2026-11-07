@@ -778,7 +778,7 @@
       {
        "stream_id": "316750336755",
        "start": "2026-11-07T11:12:03.000Z",
-       "end": "2026-11-07T15:09:07.046Z",
+       "end": "2026-11-07T15:19:06.991Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls 実況6日目 ※ネタバレあり",
@@ -1382,7 +1382,7 @@
       {
        "stream_id": "316691578354",
        "start": "2026-11-07T07:10:10.000Z",
-       "end": "2026-11-07T15:09:07.047Z",
+       "end": "2026-11-07T15:19:06.992Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説 City of the Wolves STREAMER CUP【１８時から】 チーム：新初老伝説スペシャル",
@@ -1840,6 +1840,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/OSwObxbVl7NY/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-07T15:10:03.000Z",
+       "start": "2026-11-07T15:10:03.000Z",
+       "end": "2026-11-07T15:19:06.992Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "とる",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/z9QBq82yS2Kv/480.webp"
       }
      ]
     }
@@ -2490,7 +2501,7 @@
       {
        "stream_id": "316680167153",
        "start": "2026-11-07T09:01:36.000Z",
-       "end": "2026-11-07T15:09:07.047Z",
+       "end": "2026-11-07T15:19:06.992Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！！",
