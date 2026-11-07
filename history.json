@@ -778,7 +778,7 @@
       {
        "stream_id": "316750336755",
        "start": "2026-11-07T11:12:03.000Z",
-       "end": "2026-11-07T14:59:05.248Z",
+       "end": "2026-11-07T15:09:07.046Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls 実況6日目 ※ネタバレあり",
@@ -1382,7 +1382,7 @@
       {
        "stream_id": "316691578354",
        "start": "2026-11-07T07:10:10.000Z",
-       "end": "2026-11-07T14:59:05.248Z",
+       "end": "2026-11-07T15:09:07.047Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説 City of the Wolves STREAMER CUP【１８時から】 チーム：新初老伝説スペシャル",
@@ -2490,7 +2490,7 @@
       {
        "stream_id": "316680167153",
        "start": "2026-11-07T09:01:36.000Z",
-       "end": "2026-11-07T14:59:05.249Z",
+       "end": "2026-11-07T15:09:07.047Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！！",
@@ -3827,14 +3827,14 @@
       },
       {
        "stream_id": "316680430449",
-       "start": "2026-11-07T10:17:18.000Z",
-       "end": "2026-11-07T14:59:05.250Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-07T10:17:25.000Z",
+       "end": "2026-11-07T15:04:21.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "時オカ！！つづきから",
        "game": "The Legend of Zelda: Ocarina of Time",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2921990856",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d85f8e60b5a63ca9689_assarisyoko1_316680430449_1794046638//thumb/thumb0-320x180.jpg"
       }
      ]
     }
