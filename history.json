@@ -1371,7 +1371,7 @@
       {
        "stream_id": "316691578354",
        "start": "2026-11-07T07:10:10.000Z",
-       "end": "2026-11-07T08:58:46.377Z",
+       "end": "2026-11-07T09:08:46.394Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説 City of the Wolves STREAMER CUP【１８時から】 チーム：新初老伝説スペシャル",
@@ -2475,6 +2475,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2920982524",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ecd1b8bf66fbb6314d0f_yuyuta0702_316675187569_1793954385//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316680167153",
+       "start": "2026-11-07T09:01:36.000Z",
+       "end": "2026-11-07T09:08:46.395Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -4364,7 +4375,7 @@
       {
        "stream_id": "316748921587",
        "start": "2026-11-07T04:24:39.000Z",
-       "end": "2026-11-07T08:58:46.380Z",
+       "end": "2026-11-07T09:08:46.396Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファーム バッタンに子供産ませる",
