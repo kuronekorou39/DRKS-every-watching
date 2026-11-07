@@ -774,6 +774,17 @@
        "game": "BLEACH Rebirth of Souls",
        "url": "https://www.twitch.tv/videos/2921027524",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7be7fb1510c74d6d2e9a_kato_junichi0817_316687714418_1793961872//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316750336755",
+       "start": "2026-11-07T11:12:03.000Z",
+       "end": "2026-11-07T11:19:06.381Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談してBLEACH Rebirth of Souls 実況6日目 ※ネタバレあり",
+       "game": "BLEACH Rebirth of Souls",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1371,7 +1382,7 @@
       {
        "stream_id": "316691578354",
        "start": "2026-11-07T07:10:10.000Z",
-       "end": "2026-11-07T11:09:06.205Z",
+       "end": "2026-11-07T11:19:06.382Z",
        "end_source": "poll",
        "live": true,
        "title": "餓狼伝説 City of the Wolves STREAMER CUP【１８時から】 チーム：新初老伝説スペシャル",
@@ -2479,7 +2490,7 @@
       {
        "stream_id": "316680167153",
        "start": "2026-11-07T09:01:36.000Z",
-       "end": "2026-11-07T11:09:06.205Z",
+       "end": "2026-11-07T11:19:06.383Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！！",
@@ -3817,7 +3828,7 @@
       {
        "stream_id": "316680430449",
        "start": "2026-11-07T10:17:18.000Z",
-       "end": "2026-11-07T11:09:06.206Z",
+       "end": "2026-11-07T11:19:06.383Z",
        "end_source": "poll",
        "live": true,
        "title": "時オカ！！つづきから",
@@ -4386,7 +4397,7 @@
       {
        "stream_id": "316748921587",
        "start": "2026-11-07T04:24:39.000Z",
-       "end": "2026-11-07T11:09:06.206Z",
+       "end": "2026-11-07T11:19:06.383Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファーム バッタンに子供産ませる",
