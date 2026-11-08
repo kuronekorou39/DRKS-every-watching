@@ -788,14 +788,14 @@
       },
       {
        "stream_id": "316685697393",
-       "start": "2026-11-08T12:24:09.000Z",
-       "end": "2026-11-08T15:40:03.056Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-08T12:24:14.000Z",
+       "end": "2026-11-08T15:40:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "はいげのことを話したり、ムラゲのことを話したり。",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2923071682",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/38ba8d8937db0a13ffea_kato_junichi0817_316685697393_1794140649//thumb/thumb0-320x180.jpg"
       }
      ]
     },
