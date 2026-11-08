@@ -789,7 +789,7 @@
       {
        "stream_id": "316685697393",
        "start": "2026-11-08T12:24:09.000Z",
-       "end": "2026-11-08T15:20:02.733Z",
+       "end": "2026-11-08T15:30:02.257Z",
        "end_source": "poll",
        "live": true,
        "title": "はいげのことを話したり、ムラゲのことを話したり。",
@@ -2533,14 +2533,14 @@
       },
       {
        "stream_id": "316684380529",
-       "start": "2026-11-08T06:44:47.000Z",
-       "end": "2026-11-08T15:20:02.735Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-08T06:44:52.000Z",
+       "end": "2026-11-08T15:21:23.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ！ 2日目",
        "game": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2 Edition",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2922919013",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/98f1984042000b407503_yuyuta0702_316684380529_1794120287//thumb/thumb0-320x180.jpg"
       }
      ]
     }
