@@ -789,7 +789,7 @@
       {
        "stream_id": "316685697393",
        "start": "2026-11-08T12:24:09.000Z",
-       "end": "2026-11-08T14:19:50.514Z",
+       "end": "2026-11-08T14:29:50.253Z",
        "end_source": "poll",
        "live": true,
        "title": "はいげのことを話したり、ムラゲのことを話したり。",
@@ -1403,14 +1403,14 @@
       },
       {
        "stream_id": "316685115761",
-       "start": "2026-11-08T10:20:04.000Z",
-       "end": "2026-11-08T14:19:50.514Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-08T10:20:09.000Z",
+       "end": "2026-11-08T14:27:05.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "オープンレックのキャプチャみる枠2022年12月から←ハイゲのポップストア来店してきました",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2923008605",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b2c1da091ce7a4a44e50_indegnasen0706_316685115761_1794133204//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2534,7 +2534,7 @@
       {
        "stream_id": "316684380529",
        "start": "2026-11-08T06:44:47.000Z",
-       "end": "2026-11-08T14:19:50.515Z",
+       "end": "2026-11-08T14:29:50.254Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！ 2日目",
