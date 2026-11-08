@@ -1389,6 +1389,17 @@
        "game": "Fatal Fury: City of the Wolves",
        "url": "https://www.twitch.tv/videos/2921914402",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/49704a4865d4d3b7f3f0_indegnasen0706_316691578354_1794035410//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316685115761",
+       "start": "2026-11-08T10:20:04.000Z",
+       "end": "2026-11-08T10:29:49.828Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲのポップストア来店してきました",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2512,7 +2523,7 @@
       {
        "stream_id": "316684380529",
        "start": "2026-11-08T06:44:47.000Z",
-       "end": "2026-11-08T10:19:49.673Z",
+       "end": "2026-11-08T10:29:49.829Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！ 2日目",
@@ -3468,7 +3479,7 @@
       {
        "stream_id": "Ke7drlWrQdQ",
        "start": "2026-11-08T10:16:27.000Z",
-       "end": "2026-11-08T10:19:49.673Z",
+       "end": "2026-11-08T10:29:49.829Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】月曜は追証回避の投げ売りってマジ？含み損４０００万な漢。悲観が多すぎる。大暴落の1週間を超えてどうなる明日。アメリカ不正調査、更にはSOX指数のコールオプション過去最大。緊急会議！",
@@ -4441,7 +4452,7 @@
       {
        "stream_id": "316683595889",
        "start": "2026-11-08T03:01:32.000Z",
-       "end": "2026-11-08T10:19:49.673Z",
+       "end": "2026-11-08T10:29:49.829Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファーム 壁でSランクいく放送！！",
