@@ -789,7 +789,7 @@
       {
        "stream_id": "316685697393",
        "start": "2026-11-08T12:24:09.000Z",
-       "end": "2026-11-08T12:39:50.474Z",
+       "end": "2026-11-08T12:49:50.338Z",
        "end_source": "poll",
        "live": true,
        "title": "はいげのことを話したり、ムラゲのことを話したり。",
@@ -1404,7 +1404,7 @@
       {
        "stream_id": "316685115761",
        "start": "2026-11-08T10:20:04.000Z",
-       "end": "2026-11-08T12:39:50.475Z",
+       "end": "2026-11-08T12:49:50.339Z",
        "end_source": "poll",
        "live": true,
        "title": "オープンレックのキャプチャみる枠2022年12月から←ハイゲのポップストア来店してきました",
@@ -2534,7 +2534,7 @@
       {
        "stream_id": "316684380529",
        "start": "2026-11-08T06:44:47.000Z",
-       "end": "2026-11-08T12:39:50.476Z",
+       "end": "2026-11-08T12:49:50.340Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！ 2日目",
@@ -4462,14 +4462,14 @@
       },
       {
        "stream_id": "316683595889",
-       "start": "2026-11-08T03:01:32.000Z",
-       "end": "2026-11-08T12:39:50.477Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-08T03:01:37.000Z",
+       "end": "2026-11-08T12:42:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "モンスターファーム 壁でSランクいく放送！！",
        "game": "Monster Rancher 2 DX",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2922787592",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4609bea2145e3c871172_batora324_316683595889_1794106892//thumb/thumb0-320x180.jpg"
       }
      ]
     }
