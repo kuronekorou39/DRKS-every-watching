@@ -2556,7 +2556,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T09:10:37.338Z",
+       "end": "2026-11-09T09:20:37.457Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -4507,11 +4507,11 @@
       {
        "stream_id": "316700201714",
        "start": "2026-11-09T05:45:08.000Z",
-       "end": "2026-11-09T09:10:37.339Z",
+       "end": "2026-11-09T09:20:37.458Z",
        "end_source": "poll",
        "live": true,
-       "title": "DBD→マリメ→モンスターファーム裏ボス倒す 19時まで",
-       "game": "Super Mario Maker 2",
+       "title": "モンスターファーム 4大会を制した神壁による裏ボス討伐 19時まで",
+       "game": "Monster Rancher 2 DX",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
