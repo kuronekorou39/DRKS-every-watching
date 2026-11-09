@@ -1415,7 +1415,7 @@
       {
        "stream_id": "316689118961",
        "start": "2026-11-09T09:37:18.000Z",
-       "end": "2026-11-09T10:30:37.687Z",
+       "end": "2026-11-09T10:40:36.838Z",
        "end_source": "poll",
        "live": true,
        "title": "遅くなり申した、放送！",
@@ -2567,7 +2567,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T10:30:37.688Z",
+       "end": "2026-11-09T10:40:36.839Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ 3日目！！",
@@ -3934,6 +3934,17 @@
        "game": "The Legend of Zelda: Ocarina of Time",
        "url": "https://www.twitch.tv/videos/2921990856",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d85f8e60b5a63ca9689_assarisyoko1_316680430449_1794046638//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316689325937",
+       "start": "2026-11-09T10:35:31.000Z",
+       "end": "2026-11-09T10:40:36.839Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "デッドバ",
+       "game": "Dead by Daylight",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
