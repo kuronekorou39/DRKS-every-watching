@@ -1411,6 +1411,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2923008605",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b2c1da091ce7a4a44e50_indegnasen0706_316685115761_1794133204//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316689118961",
+       "start": "2026-11-09T09:37:18.000Z",
+       "end": "2026-11-09T09:40:36.565Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "遅くなり申した、放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2556,7 +2567,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T09:30:37.364Z",
+       "end": "2026-11-09T09:40:36.566Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -4507,7 +4518,7 @@
       {
        "stream_id": "316700201714",
        "start": "2026-11-09T05:45:08.000Z",
-       "end": "2026-11-09T09:30:37.364Z",
+       "end": "2026-11-09T09:40:36.566Z",
        "end_source": "poll",
        "live": true,
        "title": "モンスターファーム 4大会を制した神壁による裏ボス討伐 19時まで",
