@@ -800,7 +800,7 @@
       {
        "stream_id": "316690676337",
        "start": "2026-11-09T15:14:57.000Z",
-       "end": "2026-11-09T16:00:48.934Z",
+       "end": "2026-11-09T16:10:49.362Z",
        "end_source": "poll",
        "live": true,
        "title": "二重生活ARCレイダース",
@@ -2577,14 +2577,14 @@
       },
       {
        "stream_id": "316700601330",
-       "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T16:00:48.936Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-09T07:59:18.000Z",
+       "end": "2026-11-09T16:04:04.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ 3日目！！",
        "game": "Xenoblade Chronicles",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2923886702",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/87bfea49c5df8846c21d_yuyuta0702_316700601330_1794211153//thumb/thumb0-320x180.jpg"
       }
      ]
     }
