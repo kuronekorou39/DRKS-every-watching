@@ -2556,7 +2556,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T08:30:36.742Z",
+       "end": "2026-11-09T08:40:36.625Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！",
@@ -4507,11 +4507,11 @@
       {
        "stream_id": "316700201714",
        "start": "2026-11-09T05:45:08.000Z",
-       "end": "2026-11-09T08:30:36.743Z",
+       "end": "2026-11-09T08:40:36.626Z",
        "end_source": "poll",
        "live": true,
-       "title": "DBD→モンスターファーム裏ボス倒す 19時まで",
-       "game": "Dead by Daylight",
+       "title": "DBD→マリメ→モンスターファーム裏ボス倒す 19時まで",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
