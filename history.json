@@ -1414,14 +1414,14 @@
       },
       {
        "stream_id": "316689118961",
-       "start": "2026-11-09T09:37:18.000Z",
-       "end": "2026-11-09T14:30:50.350Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-09T09:37:24.000Z",
+       "end": "2026-11-09T14:35:34.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "pubg←遅くなり申した、放送！",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2923918060",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/589abb8331322c05c84a_indegnasen0706_316689118961_1794217038//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2567,7 +2567,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T14:30:50.352Z",
+       "end": "2026-11-09T14:40:48.872Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ 3日目！！",
@@ -3938,7 +3938,7 @@
       {
        "stream_id": "316689325937",
        "start": "2026-11-09T10:35:31.000Z",
-       "end": "2026-11-09T14:30:50.352Z",
+       "end": "2026-11-09T14:40:48.873Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバ",
