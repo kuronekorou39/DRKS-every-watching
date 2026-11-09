@@ -796,6 +796,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2923071682",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/38ba8d8937db0a13ffea_kato_junichi0817_316685697393_1794140649//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316690676337",
+       "start": "2026-11-09T15:14:57.000Z",
+       "end": "2026-11-09T15:20:49.177Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "二重生活ARCレイダース",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2567,7 +2578,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T15:10:49.478Z",
+       "end": "2026-11-09T15:20:49.179Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ 3日目！！",
@@ -3938,7 +3949,7 @@
       {
        "stream_id": "316689325937",
        "start": "2026-11-09T10:35:31.000Z",
-       "end": "2026-11-09T15:10:49.479Z",
+       "end": "2026-11-09T15:20:49.180Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバ",
