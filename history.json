@@ -800,7 +800,7 @@
       {
        "stream_id": "316690676337",
        "start": "2026-11-09T15:14:57.000Z",
-       "end": "2026-11-09T15:20:49.177Z",
+       "end": "2026-11-09T15:30:48.551Z",
        "end_source": "poll",
        "live": true,
        "title": "二重生活ARCレイダース",
@@ -2578,7 +2578,7 @@
       {
        "stream_id": "316700601330",
        "start": "2026-11-09T07:59:13.000Z",
-       "end": "2026-11-09T15:20:49.179Z",
+       "end": "2026-11-09T15:30:48.553Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ 3日目！！",
@@ -3948,14 +3948,14 @@
       },
       {
        "stream_id": "316689325937",
-       "start": "2026-11-09T10:35:31.000Z",
-       "end": "2026-11-09T15:20:49.180Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-09T10:35:37.000Z",
+       "end": "2026-11-09T15:25:21.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "デッドバ",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2923937495",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/305312fc83c6c7062071_assarisyoko1_316689325937_1794220531//thumb/thumb0-320x180.jpg"
       }
      ]
     }
