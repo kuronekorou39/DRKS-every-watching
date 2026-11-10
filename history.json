@@ -1459,7 +1459,7 @@
       {
        "stream_id": "316693291249",
        "start": "2026-11-10T08:44:56.000Z",
-       "end": "2026-11-10T15:01:49.452Z",
+       "end": "2026-11-10T15:11:47.114Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル リメイク２ 最終章まで俺は突っ走れるのか？の巻←19時頃まで、腸管蠕動運動と相談する。その後サイレントヒル２リメイク",
@@ -2633,7 +2633,7 @@
       {
        "stream_id": "316704840562",
        "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T15:01:49.453Z",
+       "end": "2026-11-10T15:11:47.116Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ ４日目",
@@ -3622,9 +3622,9 @@
       {
        "stream_id": "uAtxMQlbwVg",
        "start": "2026-11-10T12:45:16.000Z",
-       "end": "2026-11-10T15:01:49.454Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-10T15:04:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】うわぁぁぁ！CPIやめてくれぇ！連日の爆上げ半導体相場。ソフトバンクがやばい！最大の敵はやはり地合い。アメリカCPIでどうなるSQ！ここで耐えろよ魂のアメリカ相場見届け配信！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=uAtxMQlbwVg",
@@ -4037,7 +4037,7 @@
       {
        "stream_id": "316693917553",
        "start": "2026-11-10T11:30:32.000Z",
-       "end": "2026-11-10T15:01:49.454Z",
+       "end": "2026-11-10T15:11:47.117Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバい",
@@ -4639,7 +4639,7 @@
       {
        "stream_id": "316705475186",
        "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T15:01:49.454Z",
+       "end": "2026-11-10T15:11:47.117Z",
        "end_source": "poll",
        "live": true,
        "title": "バトラ様専用コーズやる",
@@ -5040,7 +5040,7 @@
        "title": "幕末志士のDARK SOULS #14「どこ行きゃいいのSP」",
        "game": null,
        "url": "https://www.youtube.com/watch?v=oQCkM-lNLVo",
-       "thumb": "https://i.ytimg.com/vi/oQCkM-lNLVo/mqdefault.jpg?v=6af2d8af"
+       "thumb": "https://i.ytimg.com/vi/oQCkM-lNLVo/mqdefault.jpg"
       }
      ]
     }
