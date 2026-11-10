@@ -4638,14 +4638,14 @@
       },
       {
        "stream_id": "316705475186",
-       "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T19:11:58.786Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-10T11:23:13.000Z",
+       "end": "2026-11-10T19:21:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ドンカツとって寝る",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2924829884",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/069d7ee9190eaebda028_batora324_316705475186_1794309788//thumb/thumb0-320x180.jpg"
       }
      ]
     }
