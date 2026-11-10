@@ -1459,7 +1459,7 @@
       {
        "stream_id": "316693291249",
        "start": "2026-11-10T08:44:56.000Z",
-       "end": "2026-11-10T15:41:47.561Z",
+       "end": "2026-11-10T15:51:51.131Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル リメイク２ 最終章まで俺は突っ走れるのか？の巻←19時頃まで、腸管蠕動運動と相談する。その後サイレントヒル２リメイク",
@@ -2633,7 +2633,7 @@
       {
        "stream_id": "316704840562",
        "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T15:41:47.562Z",
+       "end": "2026-11-10T15:51:51.132Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ ４日目",
@@ -4036,14 +4036,14 @@
       },
       {
        "stream_id": "316693917553",
-       "start": "2026-11-10T11:30:32.000Z",
-       "end": "2026-11-10T15:41:47.562Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-10T11:30:39.000Z",
+       "end": "2026-11-10T15:47:08.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "デッドバい",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2924832785",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/63e7d70cbc28fccf6eaf_assarisyoko1_316693917553_1794310232//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -4639,7 +4639,7 @@
       {
        "stream_id": "316705475186",
        "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T15:41:47.563Z",
+       "end": "2026-11-10T15:51:51.133Z",
        "end_source": "poll",
        "live": true,
        "title": "ドンカツとって寝る",
