@@ -799,14 +799,14 @@
       },
       {
        "stream_id": "316690676337",
-       "start": "2026-11-09T15:14:57.000Z",
-       "end": "2026-11-09T18:00:49.182Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-09T15:15:03.000Z",
+       "end": "2026-11-09T21:46:08.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "二重生活ARCレイダース",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2924074140",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f93d9e78ac43a13d8756_kato_junichi0817_316690676337_1794237297//thumb/thumb0-320x180.jpg"
       }
      ]
     },
