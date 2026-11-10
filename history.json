@@ -821,14 +821,14 @@
       },
       {
        "stream_id": "316705433970",
-       "start": "2026-11-10T11:14:33.000Z",
-       "end": "2026-11-10T11:31:31.741Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-10T11:14:38.000Z",
+       "end": "2026-11-10T11:39:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ブリーチする",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2924826573",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/daa8be83c935efad7601_kato_junichi0817_316705433970_1794309273//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1459,7 +1459,7 @@
       {
        "stream_id": "316693291249",
        "start": "2026-11-10T08:44:56.000Z",
-       "end": "2026-11-10T11:31:31.742Z",
+       "end": "2026-11-10T11:41:47.634Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル リメイク２ 最終章まで俺は突っ走れるのか？の巻←19時頃まで、腸管蠕動運動と相談する。その後サイレントヒル２リメイク",
@@ -2622,7 +2622,7 @@
       {
        "stream_id": "316704840562",
        "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T11:31:31.743Z",
+       "end": "2026-11-10T11:41:47.635Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ ４日目",
@@ -4015,7 +4015,7 @@
       {
        "stream_id": "316693917553",
        "start": "2026-11-10T11:30:32.000Z",
-       "end": "2026-11-10T11:31:31.743Z",
+       "end": "2026-11-10T11:41:47.636Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバい",
@@ -4617,7 +4617,7 @@
       {
        "stream_id": "316705475186",
        "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T11:31:31.743Z",
+       "end": "2026-11-10T11:41:47.637Z",
        "end_source": "poll",
        "live": true,
        "title": "うい～",
