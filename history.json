@@ -1459,7 +1459,7 @@
       {
        "stream_id": "316693291249",
        "start": "2026-11-10T08:44:56.000Z",
-       "end": "2026-11-10T11:51:47.704Z",
+       "end": "2026-11-10T12:01:47.830Z",
        "end_source": "poll",
        "live": true,
        "title": "サイレントヒル リメイク２ 最終章まで俺は突っ走れるのか？の巻←19時頃まで、腸管蠕動運動と相談する。その後サイレントヒル２リメイク",
@@ -1939,6 +1939,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/HAILCjQ618NQ/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-10T11:55:21.000Z",
+       "start": "2026-11-10T11:55:21.000Z",
+       "end": "2026-11-10T12:01:47.831Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "眠くなるまで",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/cQTpaiXp6wUF/480.webp"
       }
      ]
     }
@@ -2622,7 +2633,7 @@
       {
        "stream_id": "316704840562",
        "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T11:51:47.706Z",
+       "end": "2026-11-10T12:01:47.831Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ ４日目",
@@ -4015,7 +4026,7 @@
       {
        "stream_id": "316693917553",
        "start": "2026-11-10T11:30:32.000Z",
-       "end": "2026-11-10T11:51:47.706Z",
+       "end": "2026-11-10T12:01:47.832Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバい",
@@ -4617,7 +4628,7 @@
       {
        "stream_id": "316705475186",
        "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T11:51:47.707Z",
+       "end": "2026-11-10T12:01:47.833Z",
        "end_source": "poll",
        "live": true,
        "title": "うい～",
@@ -5008,6 +5019,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=LtRiHZAxEs8",
        "thumb": "https://i.ytimg.com/vi/LtRiHZAxEs8/mqdefault.jpg"
+      },
+      {
+       "stream_id": "oQCkM-lNLVo",
+       "start": "2026-11-10T12:00:17.000Z",
+       "end": "2026-11-10T12:01:47.833Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS #14「どこ行きゃいいのSP」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=oQCkM-lNLVo",
+       "thumb": "https://i.ytimg.com/vi/oQCkM-lNLVo/mqdefault.jpg?v=6af2d8af"
       }
      ]
     }
