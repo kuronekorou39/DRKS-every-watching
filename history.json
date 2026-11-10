@@ -2632,14 +2632,14 @@
       },
       {
        "stream_id": "316704840562",
-       "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T17:51:58.240Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-10T08:19:29.000Z",
+       "end": "2026-11-10T17:56:52.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ ４日目",
        "game": "Xenoblade Chronicles",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2924766264",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d04e982ad32304bb06b_yuyuta0702_316704840562_1794298764//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -4639,7 +4639,7 @@
       {
        "stream_id": "316705475186",
        "start": "2026-11-10T11:23:08.000Z",
-       "end": "2026-11-10T17:51:58.241Z",
+       "end": "2026-11-10T18:01:58.071Z",
        "end_source": "poll",
        "live": true,
        "title": "ドンカツとって寝る",
