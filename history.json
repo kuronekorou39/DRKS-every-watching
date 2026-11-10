@@ -1444,6 +1444,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2923918060",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/589abb8331322c05c84a_indegnasen0706_316689118961_1794217038//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316693291249",
+       "start": "2026-11-10T08:44:56.000Z",
+       "end": "2026-11-10T08:51:31.027Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "19時頃まで、腸管蠕動運動と相談する。その後サイレントヒル２リメイク",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2600,7 +2611,7 @@
       {
        "stream_id": "316704840562",
        "start": "2026-11-10T08:19:24.000Z",
-       "end": "2026-11-10T08:41:32.534Z",
+       "end": "2026-11-10T08:51:31.028Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍w",
