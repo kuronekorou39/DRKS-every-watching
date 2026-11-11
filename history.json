@@ -829,6 +829,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2924826573",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/daa8be83c935efad7601_kato_junichi0817_316705433970_1794309273//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316696819313",
+       "start": "2026-11-11T04:12:26.000Z",
+       "end": "2026-11-11T04:22:23.079Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "17時にﾑﾗｹﾞVALOのメンバー発表して、２０時半からOWnoアジア大会予選を視聴し、終わり次第ブリーチをしようとする男",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
