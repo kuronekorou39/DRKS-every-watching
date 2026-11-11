@@ -1491,14 +1491,14 @@
       },
       {
        "stream_id": "316709113586",
-       "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T16:02:51.293Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-11T08:16:13.000Z",
+       "end": "2026-11-11T16:07:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
        "game": "Potato Please",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2925661337",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a56f2731493d0d33aa71_indegnasen0706_316709113586_1794384968//thumb/thumb0-320x180.jpg"
       }
      ]
     }
