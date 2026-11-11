@@ -843,14 +843,14 @@
       },
       {
        "stream_id": "316697923313",
-       "start": "2026-11-11T10:07:13.000Z",
-       "end": "2026-11-11T13:42:36.232Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-11T10:07:19.000Z",
+       "end": "2026-11-11T13:51:17.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "BLEACH Rebirth of Souls 実況７日目 ※ネタバレあり",
        "game": "BLEACH Rebirth of Souls",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2925700505",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6aa57d0a3649966b50b2_kato_junichi0817_316697923313_1794391633//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1492,7 +1492,7 @@
       {
        "stream_id": "316709113586",
        "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T13:42:36.233Z",
+       "end": "2026-11-11T13:52:35.671Z",
        "end_source": "poll",
        "live": true,
        "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
@@ -4103,7 +4103,7 @@
       {
        "stream_id": "316709703538",
        "start": "2026-11-11T10:37:22.000Z",
-       "end": "2026-11-11T13:42:36.235Z",
+       "end": "2026-11-11T13:52:35.673Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバいで",
@@ -4823,7 +4823,7 @@
       {
        "stream_id": "316769932275",
        "start": "2026-11-11T12:00:28.000Z",
-       "end": "2026-11-11T13:42:36.235Z",
+       "end": "2026-11-11T13:52:35.673Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサで何もしてない人の雑談",
