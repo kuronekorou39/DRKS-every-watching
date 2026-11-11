@@ -1492,7 +1492,7 @@
       {
        "stream_id": "316709113586",
        "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T15:32:52.495Z",
+       "end": "2026-11-11T15:42:52.880Z",
        "end_source": "poll",
        "live": true,
        "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
@@ -4102,14 +4102,14 @@
       },
       {
        "stream_id": "316709703538",
-       "start": "2026-11-11T10:37:22.000Z",
-       "end": "2026-11-11T15:32:52.497Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-11T10:37:29.000Z",
+       "end": "2026-11-11T15:41:06.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "デッドバいで",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2925711770",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/049b0ce967c08b77e4ea_assarisyoko1_316709703538_1794393442//thumb/thumb0-320x180.jpg"
       }
      ]
     }
