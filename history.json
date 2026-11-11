@@ -844,7 +844,7 @@
       {
        "stream_id": "316697923313",
        "start": "2026-11-11T10:07:13.000Z",
-       "end": "2026-11-11T11:52:36.566Z",
+       "end": "2026-11-11T12:02:36.159Z",
        "end_source": "poll",
        "live": true,
        "title": "【OWCS ASIA Stage 3】MRG vs FLC をみる",
@@ -1492,7 +1492,7 @@
       {
        "stream_id": "316709113586",
        "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T11:52:36.567Z",
+       "end": "2026-11-11T12:02:36.160Z",
        "end_source": "poll",
        "live": true,
        "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
@@ -4103,7 +4103,7 @@
       {
        "stream_id": "316709703538",
        "start": "2026-11-11T10:37:22.000Z",
-       "end": "2026-11-11T11:52:36.568Z",
+       "end": "2026-11-11T12:02:36.161Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバいで",
@@ -4819,6 +4819,17 @@
        "game": "7 Days to Die",
        "url": "https://www.twitch.tv/videos/2898519977",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d42f8d52940210fbacb6_bakumatsu_shishi_316566467825_1791772940//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316769932275",
+       "start": "2026-11-11T12:00:28.000Z",
+       "end": "2026-11-11T12:02:36.162Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ドロクサで何もしてない人の雑談",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
