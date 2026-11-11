@@ -1492,7 +1492,7 @@
       {
        "stream_id": "316709113586",
        "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T15:22:51.826Z",
+       "end": "2026-11-11T15:32:52.495Z",
        "end_source": "poll",
        "live": true,
        "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
@@ -4103,7 +4103,7 @@
       {
        "stream_id": "316709703538",
        "start": "2026-11-11T10:37:22.000Z",
-       "end": "2026-11-11T15:22:51.828Z",
+       "end": "2026-11-11T15:32:52.497Z",
        "end_source": "poll",
        "live": true,
        "title": "デッドバいで",
@@ -4822,14 +4822,14 @@
       },
       {
        "stream_id": "316769932275",
-       "start": "2026-11-11T12:00:28.000Z",
-       "end": "2026-11-11T15:22:51.829Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-11T12:00:33.000Z",
+       "end": "2026-11-11T15:30:15.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ドロクサで何もしてない人の雑談",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2925747132",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c6fc5c2f690caabd7dce_bakumatsu_shishi_316769932275_1794398428//thumb/thumb0-320x180.jpg"
       }
      ]
     },
