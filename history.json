@@ -3633,13 +3633,13 @@
       {
        "stream_id": "j4L8aiqrr0g",
        "start": "2026-11-10T23:43:26.000Z",
-       "end": "2026-11-11T01:52:11.295Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-11T01:58:49.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "フジクラ卒業式な漢。含み損3800万。日和らずいくぞ。コアウィーブ決算が最強すぎるだろ！しかしソフトバンク孫さん強烈な赤字どうなる！金利も高止まりする中で上値重い展開。魂の朝の寄り付き株ライブ生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=j4L8aiqrr0g",
-       "thumb": "https://i.ytimg.com/vi/j4L8aiqrr0g/mqdefault.jpg?v=6af3b84f"
+       "thumb": "https://i.ytimg.com/vi/j4L8aiqrr0g/mqdefault.jpg?v=6af3cc6d"
       }
      ]
     }
