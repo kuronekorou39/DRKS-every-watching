@@ -9,7 +9,7 @@ on:
 
 # 公開は同時に1本だけ。走っている間に来た分は1つだけ待機し、最新の内容で公開し直す
 concurrency:
-  group: pages
+  group: pages-deploy
   cancel-in-progress: false
 
 jobs:
