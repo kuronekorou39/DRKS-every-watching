@@ -840,6 +840,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2925559066",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/35520d1420edb07d5127_kato_junichi0817_316696819313_1794370346//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316697923313",
+       "start": "2026-11-11T10:07:13.000Z",
+       "end": "2026-11-11T10:12:36.226Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "２０時半からOWnoアジア大会予選を視聴",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1481,11 +1492,11 @@
       {
        "stream_id": "316709113586",
        "start": "2026-11-11T08:16:08.000Z",
-       "end": "2026-11-11T10:02:35.524Z",
+       "end": "2026-11-11T10:12:36.227Z",
        "end_source": "poll",
        "live": true,
-       "title": "クソ寒いので長風呂をキメてきた後のポカポカな雑談",
-       "game": "Just Chatting",
+       "title": "ポテト プリーズ ← クソ寒いので長風呂をキメてきた後のポカポカな雑談",
+       "game": "Potato Please",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
