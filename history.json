@@ -833,7 +833,7 @@
       {
        "stream_id": "316696819313",
        "start": "2026-11-11T04:12:26.000Z",
-       "end": "2026-11-11T07:32:21.801Z",
+       "end": "2026-11-11T07:42:22.675Z",
        "end_source": "poll",
        "live": true,
        "title": "17時にﾑﾗｹﾞVALOのメンバー発表して、２０時半からOWnoアジア大会予選を視聴し、終わり次第ブリーチをしようとする男",
@@ -2651,6 +2651,17 @@
        "game": "Xenoblade Chronicles",
        "url": "https://www.twitch.tv/videos/2924766264",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d04e982ad32304bb06b_yuyuta0702_316704840562_1794298764//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316709005682",
+       "start": "2026-11-11T07:39:46.000Z",
+       "end": "2026-11-11T07:42:22.677Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "リハビリゆゆ散歩",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
