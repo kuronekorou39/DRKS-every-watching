@@ -855,7 +855,7 @@
       {
        "stream_id": "316713966962",
        "start": "2026-11-12T10:27:35.000Z",
-       "end": "2026-11-12T14:43:51.234Z",
+       "end": "2026-11-12T14:53:50.499Z",
        "end_source": "poll",
        "live": true,
        "title": "BLEACH Rebirth of Souls 実況最終回 ※ネタバレあり",
@@ -1514,7 +1514,7 @@
       {
        "stream_id": "316713732338",
        "start": "2026-11-12T09:15:33.000Z",
-       "end": "2026-11-12T14:43:51.235Z",
+       "end": "2026-11-12T14:53:50.499Z",
        "end_source": "poll",
        "live": true,
        "title": "MEGA BONK 初見プレイ←明日は釈迦ワンに出させて頂く、今日は何をしようか、の巻",
@@ -2710,7 +2710,7 @@
       {
        "stream_id": "316701935217",
        "start": "2026-11-12T08:59:46.000Z",
-       "end": "2026-11-12T14:43:51.236Z",
+       "end": "2026-11-12T14:53:50.500Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ！ ５日目",
@@ -3732,7 +3732,7 @@
       {
        "stream_id": "vqYl-XDRz7U",
        "start": "2026-11-12T13:47:39.000Z",
-       "end": "2026-11-12T14:43:51.236Z",
+       "end": "2026-11-12T14:53:50.500Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】エヌビディア不倫問題で株価クソ下がりすぎだろ。トランプ発言でまた原油暴騰。アメリカ今日はガチでヤバそう。半導体マンデーな件。もう追証は嫌なんだ。頼むぞアメリカ相場見届け放送！",
@@ -4771,7 +4771,7 @@
       {
        "stream_id": "316714794610",
        "start": "2026-11-12T13:10:27.000Z",
-       "end": "2026-11-12T14:43:51.236Z",
+       "end": "2026-11-12T14:53:50.501Z",
        "end_source": "poll",
        "live": true,
        "title": "俺は赤帯へいく S＋5519～",
@@ -4899,14 +4899,14 @@
       },
       {
        "stream_id": "316774784627",
-       "start": "2026-11-12T12:00:10.000Z",
-       "end": "2026-11-12T14:43:51.236Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-12T12:00:15.000Z",
+       "end": "2026-11-12T14:43:48.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "昔はダイヤ常連だった【APEX】",
        "game": "Apex Legends",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2926655705",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c4cd989c52fc59e6d80a_bakumatsu_shishi_316774784627_1794484810//thumb/thumb0-320x180.jpg"
       }
      ]
     },
