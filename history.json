@@ -4770,14 +4770,14 @@
       },
       {
        "stream_id": "316714794610",
-       "start": "2026-11-12T13:10:27.000Z",
-       "end": "2026-11-12T20:34:05.170Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-12T13:10:32.000Z",
+       "end": "2026-11-12T20:37:36.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おぱぶ",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2926691347",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fb0da4508937e7366a44_batora324_316714794610_1794489027//thumb/thumb0-320x180.jpg"
       }
      ]
     }
