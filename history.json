@@ -2684,6 +2684,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2925648735",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/45adc034f7f4ab892e8a_yuyuta0702_316709005682_1794382786//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316701935217",
+       "start": "2026-11-12T08:59:46.000Z",
+       "end": "2026-11-12T09:03:36.405Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍w",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
