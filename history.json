@@ -1499,6 +1499,17 @@
        "game": "Potato Please",
        "url": "https://www.twitch.tv/videos/2925661337",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a56f2731493d0d33aa71_indegnasen0706_316709113586_1794384968//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316713732338",
+       "start": "2026-11-12T09:15:33.000Z",
+       "end": "2026-11-12T09:23:34.719Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "明日は釈迦ワンに出させて頂く、今日は何をしようか、の巻",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2688,7 +2699,7 @@
       {
        "stream_id": "316701935217",
        "start": "2026-11-12T08:59:46.000Z",
-       "end": "2026-11-12T09:13:34.572Z",
+       "end": "2026-11-12T09:23:34.721Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍w",
