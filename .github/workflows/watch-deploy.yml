@@ -1,0 +1,58 @@
+name: watch-deploy
+
+# 公開（deploy）が止まっていないかを見張り、止まっていたら Issue で知らせる。
+# 11/9 に deploy の実行が GitHub 側で固まり、そのあとの公開がすべてキャンセルされつづけたのに気づけなかったため。
+# 「公開されていない変更（main か data のコミット）が、一定時間以上残っている」ことを止まっているとみなす。
+# 記録が変わらず公開する必要がないだけのときには知らせない
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+# 同じ知らせを重ねて作らないよう、同時に1本だけ走らせる
+concurrency:
+  group: watch-deploy
+  cancel-in-progress: false
+
+env:
+  STALE_HOURS: 2 # 公開されていない変更がこれより古くなったら知らせる
+  ALERT_LABEL: deploy-alert
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: read
+      issues: write # 停止の知らせ
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: 公開が止まっていないか確かめる
+        run: |
+          last=$(gh run list --repo "$REPO" --workflow deploy.yml --status success --limit 1 --json createdAt -q '.[0].createdAt // empty')
+          cutoff=$(date -u -d "-$STALE_HOURS hours" +%Y-%m-%dT%H:%M:%SZ)
+
+          # 最後に公開できたあとのコミットのうち、STALE_HOURS より古いものがあれば止まっている
+          stale=""
+          for branch in main data; do
+            n=$(gh api "repos/$REPO/commits?sha=$branch&until=$cutoff${last:+&since=$last}&per_page=1" -q 'length')
+            if [ "$n" -gt 0 ]; then stale="$stale $branch"; fi
+          done
+
+          gh label create "$ALERT_LABEL" --repo "$REPO" --color D93F0B --description "公開の停止（自動で作成・クローズ）" --force >/dev/null
+          alert=$(gh issue list --repo "$REPO" --label "$ALERT_LABEL" --state open --limit 1 --json number -q '.[0].number // empty')
+
+          if [ -n "$stale" ]; then
+            echo "公開が止まっています（未公開の変更:$stale、最後の成功: ${last:-なし}）"
+            # 開いたままの Issue があれば、新しくは作らない
+            if [ -z "$alert" ]; then
+              body=$(printf '%s 時間以上、変更が公開されていません。\n\n- 最後に公開できた実行: %s\n- 未公開の変更があるブランチ:%s\n\ndeploy の実行一覧を確かめてください: %s\n\n公開が戻ると、この Issue は自動で閉じます。\n' \
+                "$STALE_HOURS" "${last:-なし}" "$stale" "$GITHUB_SERVER_URL/$REPO/actions/workflows/deploy.yml")
+              gh issue create --repo "$REPO" --title "サイトの公開が止まっています" --label "$ALERT_LABEL" --body "$body"
+            fi
+          elif [ -n "$alert" ]; then
+            gh issue close "$alert" --repo "$REPO" --comment "公開が戻りました（最後の成功: $last）。"
+          fi
