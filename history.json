@@ -851,6 +851,17 @@
        "game": "BLEACH Rebirth of Souls",
        "url": "https://www.twitch.tv/videos/2925700505",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6aa57d0a3649966b50b2_kato_junichi0817_316697923313_1794391633//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316713966962",
+       "start": "2026-11-12T10:27:35.000Z",
+       "end": "2026-11-12T10:33:35.235Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【OWCS DROPS】 OWCS ASIA DAY2 ﾑﾗｹﾞ応援配信",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1503,7 +1514,7 @@
       {
        "stream_id": "316713732338",
        "start": "2026-11-12T09:15:33.000Z",
-       "end": "2026-11-12T10:23:34.888Z",
+       "end": "2026-11-12T10:33:35.236Z",
        "end_source": "poll",
        "live": true,
        "title": "明日は釈迦ワンに出させて頂く、今日は何をしようか、の巻",
@@ -2699,7 +2710,7 @@
       {
        "stream_id": "316701935217",
        "start": "2026-11-12T08:59:46.000Z",
-       "end": "2026-11-12T10:23:34.889Z",
+       "end": "2026-11-12T10:33:35.237Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍w",
