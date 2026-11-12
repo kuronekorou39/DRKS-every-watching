@@ -1514,7 +1514,7 @@
       {
        "stream_id": "316713732338",
        "start": "2026-11-12T09:15:33.000Z",
-       "end": "2026-11-12T17:54:04.765Z",
+       "end": "2026-11-12T18:04:09.327Z",
        "end_source": "poll",
        "live": true,
        "title": "異世界ドパジジもびっくり！？運ビルド狐はレジェンダリーは当たり前のドパドパ構成で敵をなぎ倒す！←ＭEGA BONK 初見プレイ←明日は釈迦ワンに出させて頂く、今日は何をしようか、の巻",
@@ -2709,14 +2709,14 @@
       },
       {
        "stream_id": "316701935217",
-       "start": "2026-11-12T08:59:46.000Z",
-       "end": "2026-11-12T17:54:04.766Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-12T08:59:51.000Z",
+       "end": "2026-11-12T18:02:32.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ！ ５日目",
        "game": "Xenoblade Chronicles",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2926589579",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/439c8ff26851b583c781_yuyuta0702_316701935217_1794473986//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -4771,7 +4771,7 @@
       {
        "stream_id": "316714794610",
        "start": "2026-11-12T13:10:27.000Z",
-       "end": "2026-11-12T17:54:04.767Z",
+       "end": "2026-11-12T18:04:09.329Z",
        "end_source": "poll",
        "live": true,
        "title": "おぱぶ",
