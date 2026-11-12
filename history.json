@@ -862,6 +862,17 @@
        "game": "BLEACH Rebirth of Souls",
        "url": "https://www.twitch.tv/videos/2926618858",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fda1540d299bd4f79b0a_kato_junichi0817_316713966962_1794479255//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316776968563",
+       "start": "2026-11-12T22:53:13.000Z",
+       "end": "2026-11-12T22:54:16.437Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "おはよう",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
