@@ -1532,6 +1532,17 @@
        "game": "Megabonk",
        "url": "https://www.twitch.tv/videos/2926594985",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/d791e6b20ff09af12ce0_indegnasen0706_316713732338_1794474933//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316705803249",
+       "start": "2026-11-13T07:17:47.000Z",
+       "end": "2026-11-13T07:24:29.023Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "シャカワン、前日（バーベキューもあるかも）",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
