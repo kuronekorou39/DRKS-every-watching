@@ -2754,7 +2754,7 @@
       {
        "stream_id": "316779738739",
        "start": "2026-11-13T12:40:13.000Z",
-       "end": "2026-11-13T15:34:54.987Z",
+       "end": "2026-11-13T15:44:54.607Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター",
@@ -3798,13 +3798,13 @@
       {
        "stream_id": "vnz2A5_9Gfo",
        "start": "2026-11-13T12:45:11.000Z",
-       "end": "2026-11-13T15:34:54.987Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-13T15:35:53.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】くるぞ。金利の未来を決めるアメリカPPI発表。またも後場に崩壊する日経平均。止まらない革ジャンショックの波及。どうなる13日の金曜日。AIの未来はいかに。アメリカ相場見届け生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=vnz2A5_9Gfo",
-       "thumb": "https://i.ytimg.com/vi/vnz2A5_9Gfo/mqdefault.jpg?v=6af6850b"
+       "thumb": "https://i.ytimg.com/vi/vnz2A5_9Gfo/mqdefault.jpg"
       }
      ]
     }
@@ -4848,11 +4848,11 @@
       {
        "stream_id": "316706933745",
        "start": "2026-11-13T12:21:30.000Z",
-       "end": "2026-11-13T15:34:54.988Z",
+       "end": "2026-11-13T15:44:54.608Z",
        "end_source": "poll",
        "live": true,
-       "title": "フリーノベルゲームやる男",
-       "game": "Just Chatting",
+       "title": "シメ",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
