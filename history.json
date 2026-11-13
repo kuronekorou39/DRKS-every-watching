@@ -865,14 +865,14 @@
       },
       {
        "stream_id": "316776968563",
-       "start": "2026-11-12T22:53:13.000Z",
-       "end": "2026-11-12T23:54:16.403Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-12T22:53:18.000Z",
+       "end": "2026-11-12T23:56:48.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おはよう",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2927112356",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a5a6b7bfc44ab38876ef_kato_junichi0817_316776968563_1794523993//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -3754,7 +3754,7 @@
       {
        "stream_id": "9AFT-mmnEwI",
        "start": "2026-11-12T23:46:28.000Z",
-       "end": "2026-11-12T23:54:16.406Z",
+       "end": "2026-11-13T00:04:16.083Z",
        "end_source": "poll",
        "live": true,
        "title": "NVIDIAの革ジャンまさかの3人目の不倫発覚ｗｗｗなんなんこれ。13日の金曜日。ブラックフライデーの到来である。PPIも控え、金利に警戒。半導体メモリーどうなるんだ。朝の寄り付き株ライブ生放送！",
