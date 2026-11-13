@@ -2754,7 +2754,7 @@
       {
        "stream_id": "316779738739",
        "start": "2026-11-13T12:40:13.000Z",
-       "end": "2026-11-13T17:14:57.350Z",
+       "end": "2026-11-13T17:24:54.951Z",
        "end_source": "poll",
        "live": true,
        "title": "学園アイドルマスター",
@@ -4847,14 +4847,14 @@
       },
       {
        "stream_id": "316706933745",
-       "start": "2026-11-13T12:21:30.000Z",
-       "end": "2026-11-13T17:14:57.351Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-13T12:21:36.000Z",
+       "end": "2026-11-13T17:16:46.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "シメのおぱぶ",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2927548668",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bba8a1fa3407815965ed_batora324_316706933745_1794572490//thumb/thumb0-320x180.jpg"
       }
      ]
     }
