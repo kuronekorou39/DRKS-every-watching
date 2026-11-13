@@ -876,14 +876,14 @@
       },
       {
        "stream_id": "316717695346",
-       "start": "2026-11-13T07:52:01.000Z",
-       "end": "2026-11-13T14:24:53.838Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-13T07:52:06.000Z",
+       "end": "2026-11-13T14:34:36.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ﾛﾌﾞｸﾞﾗやる",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2927446493",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bd9761caba9c4e31a1af_kato_junichi0817_316717695346_1794556321//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2754,7 +2754,7 @@
       {
        "stream_id": "316779738739",
        "start": "2026-11-13T12:40:13.000Z",
-       "end": "2026-11-13T14:24:53.840Z",
+       "end": "2026-11-13T14:34:53.709Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！（夜勤）",
@@ -3798,7 +3798,7 @@
       {
        "stream_id": "vnz2A5_9Gfo",
        "start": "2026-11-13T12:45:11.000Z",
-       "end": "2026-11-13T14:24:53.841Z",
+       "end": "2026-11-13T14:34:53.709Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】くるぞ。金利の未来を決めるアメリカPPI発表。またも後場に崩壊する日経平均。止まらない革ジャンショックの波及。どうなる13日の金曜日。AIの未来はいかに。アメリカ相場見届け生放送！",
@@ -4848,7 +4848,7 @@
       {
        "stream_id": "316706933745",
        "start": "2026-11-13T12:21:30.000Z",
-       "end": "2026-11-13T14:24:53.841Z",
+       "end": "2026-11-13T14:34:53.710Z",
        "end_source": "poll",
        "live": true,
        "title": "フリーノベルゲームやる男",
@@ -5276,7 +5276,7 @@
       {
        "stream_id": "RE458TA3H-0",
        "start": "2026-11-13T12:01:26.000Z",
-       "end": "2026-11-13T14:24:53.842Z",
+       "end": "2026-11-13T14:34:53.710Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS #15「灼熱！溶岩最速突破SP」",
