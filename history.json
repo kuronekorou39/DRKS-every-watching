@@ -2808,14 +2808,14 @@
       },
       {
        "stream_id": "316710724081",
-       "start": "2026-11-14T09:14:45.000Z",
-       "end": "2026-11-14T16:25:46.560Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-14T09:14:50.000Z",
+       "end": "2026-11-14T16:33:36.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ",
        "game": "Xenoblade Chronicles",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2928435992",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/203754d6ef69a59bf898_yuyuta0702_316710724081_1794647685//thumb/thumb0-320x180.jpg"
       }
      ]
     }
