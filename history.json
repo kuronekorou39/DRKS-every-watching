@@ -895,6 +895,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2928188191",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ba9be8d663685ba100e9_kato_junichi0817_316782237043_1794621411//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316722788082",
+       "start": "2026-11-14T10:44:46.000Z",
+       "end": "2026-11-14T10:45:32.629Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "何かおもろいことをやる",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2798,7 +2809,7 @@
       {
        "stream_id": "316710724081",
        "start": "2026-11-14T09:14:45.000Z",
-       "end": "2026-11-14T10:35:33.287Z",
+       "end": "2026-11-14T10:45:32.631Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
