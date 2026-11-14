@@ -1598,6 +1598,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2928351237",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6b5e007fc5b83b706cab_indegnasen0706_316782978675_1794635513//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316725080306",
+       "start": "2026-11-14T22:18:44.000Z",
+       "end": "2026-11-14T22:26:00.356Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "シャカワン、安全第一 充電状況がよくないナ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
