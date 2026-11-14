@@ -884,6 +884,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2927446493",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/bd9761caba9c4e31a1af_kato_junichi0817_316717695346_1794556321//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316782237043",
+       "start": "2026-11-14T01:56:51.000Z",
+       "end": "2026-11-14T02:05:19.882Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "良き朝",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
