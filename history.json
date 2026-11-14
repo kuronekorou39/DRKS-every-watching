@@ -899,7 +899,7 @@
       {
        "stream_id": "316722788082",
        "start": "2026-11-14T10:44:46.000Z",
-       "end": "2026-11-14T10:55:32.949Z",
+       "end": "2026-11-14T11:05:34.333Z",
        "end_source": "poll",
        "live": true,
        "title": "何かおもろいことをやる",
@@ -2809,11 +2809,11 @@
       {
        "stream_id": "316710724081",
        "start": "2026-11-14T09:14:45.000Z",
-       "end": "2026-11-14T10:55:32.951Z",
+       "end": "2026-11-14T11:05:34.335Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍！！！！",
-       "game": "Just Chatting",
+       "title": "ゼノブレイド 初見プレイ",
+       "game": "Xenoblade Chronicles",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
