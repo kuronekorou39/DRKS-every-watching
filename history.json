@@ -898,14 +898,14 @@
       },
       {
        "stream_id": "316722788082",
-       "start": "2026-11-14T10:44:46.000Z",
-       "end": "2026-11-14T13:05:47.369Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-14T10:44:51.000Z",
+       "end": "2026-11-14T13:07:33.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "Nintendo Switch Sports Resortをやる",
        "game": "Nintendo Switch Sports Resort",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2928474281",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/be426b9be637adad11c4_kato_junichi0817_316722788082_1794653086//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2809,7 +2809,7 @@
       {
        "stream_id": "316710724081",
        "start": "2026-11-14T09:14:45.000Z",
-       "end": "2026-11-14T13:05:47.371Z",
+       "end": "2026-11-14T13:15:47.212Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ",
