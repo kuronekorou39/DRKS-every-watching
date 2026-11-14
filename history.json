@@ -888,7 +888,7 @@
       {
        "stream_id": "316782237043",
        "start": "2026-11-14T01:56:51.000Z",
-       "end": "2026-11-14T02:05:19.882Z",
+       "end": "2026-11-14T02:15:19.619Z",
        "end_source": "poll",
        "live": true,
        "title": "良き朝",
@@ -1565,6 +1565,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2927435095",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/98aadd324c9e13230632_indegnasen0706_316705803249_1794554267//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316721142770",
+       "start": "2026-11-14T02:08:22.000Z",
+       "end": "2026-11-14T02:15:19.620Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "シャカワン、安全第一",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
