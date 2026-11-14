@@ -887,14 +887,14 @@
       },
       {
        "stream_id": "316782237043",
-       "start": "2026-11-14T01:56:51.000Z",
-       "end": "2026-11-14T07:15:32.766Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-14T01:56:56.000Z",
+       "end": "2026-11-14T07:23:48.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ROB RUNを夕方までやる。",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2928188191",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ba9be8d663685ba100e9_kato_junichi0817_316782237043_1794621411//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1580,7 +1580,7 @@
       {
        "stream_id": "316782978675",
        "start": "2026-11-14T05:51:53.000Z",
-       "end": "2026-11-14T07:15:32.768Z",
+       "end": "2026-11-14T07:25:33.015Z",
        "end_source": "poll",
        "live": true,
        "title": "シャカワン、安全第一 充電状況がよくないナ",
