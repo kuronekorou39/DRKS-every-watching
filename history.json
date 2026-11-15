@@ -909,14 +909,14 @@
       },
       {
        "stream_id": "316786892659",
-       "start": "2026-11-15T00:26:03.000Z",
-       "end": "2026-11-15T02:16:12.701Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T00:26:08.000Z",
+       "end": "2026-11-15T02:23:26.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "１１時半までROBRUN",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929127625",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5f78f4bf60ce2cfb33b2_kato_junichi0817_316786892659_1794702363//thumb/thumb0-320x180.jpg"
       }
      ]
     },
