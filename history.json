@@ -906,6 +906,17 @@
        "game": "Nintendo Switch Sports Resort",
        "url": "https://www.twitch.tv/videos/2928474281",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/be426b9be637adad11c4_kato_junichi0817_316722788082_1794653086//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316786892659",
+       "start": "2026-11-15T00:26:03.000Z",
+       "end": "2026-11-15T00:36:11.447Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "１１時半までROBRUN",
+       "game": "ROB RUN",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
