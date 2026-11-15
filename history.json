@@ -2143,7 +2143,7 @@
        "start": "2026-11-15T15:00:48.000Z",
        "end": "2026-11-15T19:37:00.708Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "ドロクサのゲームに参加する",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
