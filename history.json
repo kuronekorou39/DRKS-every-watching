@@ -2852,14 +2852,14 @@
       },
       {
        "stream_id": "316715204209",
-       "start": "2026-11-15T08:33:53.000Z",
-       "end": "2026-11-15T08:36:25.000Z",
-       "end_source": "vod",
-       "live": false,
+       "start": "2026-11-15T08:33:48.000Z",
+       "end": "2026-11-15T08:46:28.598Z",
+       "end_source": "poll",
+       "live": true,
        "title": "押忍ｗ",
-       "game": null,
-       "url": "https://www.twitch.tv/videos/2929432437",
-       "thumb": "https://vod-secure.twitch.tv/_404/404_processing_320x180.png"
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
