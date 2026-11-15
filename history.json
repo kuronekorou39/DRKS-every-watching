@@ -2853,7 +2853,7 @@
       {
        "stream_id": "316715204209",
        "start": "2026-11-15T08:33:48.000Z",
-       "end": "2026-11-15T10:26:37.665Z",
+       "end": "2026-11-15T10:36:37.654Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍ｗ",
@@ -3904,6 +3904,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=vnz2A5_9Gfo",
        "thumb": "https://i.ytimg.com/vi/vnz2A5_9Gfo/mqdefault.jpg"
+      },
+      {
+       "stream_id": "7Grwbs-1nnA",
+       "start": "2026-11-15T10:31:43.000Z",
+       "end": "2026-11-15T10:36:37.654Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】うおおおん！株も金価格もBTCも全面下げ。明日マンデーですか。金曜のSOX指数は激よわ。ついに来るアンソロピック上場。この下落相場を我々は超えていくのか。どうなる週明け株の値動き会議！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=7Grwbs-1nnA",
+       "thumb": "https://i.ytimg.com/vi/7Grwbs-1nnA/mqdefault.jpg?v=6af986be"
       }
      ]
     }
