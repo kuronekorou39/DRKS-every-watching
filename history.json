@@ -1645,14 +1645,14 @@
       },
       {
        "stream_id": "316790133363",
-       "start": "2026-11-15T15:03:59.000Z",
-       "end": "2026-11-15T19:17:00.535Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T15:04:04.000Z",
+       "end": "2026-11-15T19:18:36.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "一回だけ新キャラスレスパ←PUBG←いろんなことから帰宅し今日はマターリ",
        "game": "Slay the Spire II",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929650698",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e542fb2ca84a154ed1a8_indegnasen0706_316790133363_1794755039//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2141,7 +2141,7 @@
       {
        "stream_id": "kick-2026-11-15T15:00:48.000Z",
        "start": "2026-11-15T15:00:48.000Z",
-       "end": "2026-11-15T19:17:00.536Z",
+       "end": "2026-11-15T19:27:01.267Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
