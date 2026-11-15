@@ -1646,7 +1646,7 @@
       {
        "stream_id": "316790133363",
        "start": "2026-11-15T15:03:59.000Z",
-       "end": "2026-11-15T18:07:00.491Z",
+       "end": "2026-11-15T18:17:00.601Z",
        "end_source": "poll",
        "live": true,
        "title": "一回だけ新キャラスレスパ←PUBG←いろんなことから帰宅し今日はマターリ",
@@ -2141,7 +2141,7 @@
       {
        "stream_id": "kick-2026-11-15T15:00:48.000Z",
        "start": "2026-11-15T15:00:48.000Z",
-       "end": "2026-11-15T18:07:00.492Z",
+       "end": "2026-11-15T18:17:00.601Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
@@ -2897,7 +2897,7 @@
       {
        "stream_id": "316715204209",
        "start": "2026-11-15T08:33:48.000Z",
-       "end": "2026-11-15T18:07:00.492Z",
+       "end": "2026-11-15T18:17:00.601Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ やるぞ！！！！",
@@ -4388,14 +4388,14 @@
       },
       {
        "stream_id": "316789120627",
-       "start": "2026-11-15T11:25:26.000Z",
-       "end": "2026-11-15T18:07:00.492Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T11:25:33.000Z",
+       "end": "2026-11-15T18:16:30.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "こんばんは→PUBG",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929508693",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/dd981dcd142def77d167_assarisyoko1_316789120627_1794741926//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5023,14 +5023,14 @@
       },
       {
        "stream_id": "316789047923",
-       "start": "2026-11-15T11:09:03.000Z",
-       "end": "2026-11-15T18:07:00.492Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T11:09:08.000Z",
+       "end": "2026-11-15T18:07:42.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "DRKSでPUBG",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929500539",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/54da482b89fecdad1068_batora324_316789047923_1794740943//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5163,14 +5163,14 @@
       },
       {
        "stream_id": "316716222449",
-       "start": "2026-11-15T12:39:57.000Z",
-       "end": "2026-11-15T18:07:00.493Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T12:40:02.000Z",
+       "end": "2026-11-15T18:07:36.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "バトラくんとしょこさんとPUBG",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929550576",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3e0e9996594ad4efded5_bakumatsu_shishi_316716222449_1794746397//thumb/thumb0-320x180.jpg"
       }
      ]
     },
