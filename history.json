@@ -920,14 +920,14 @@
       },
       {
        "stream_id": "316727971698",
-       "start": "2026-11-15T12:15:22.000Z",
-       "end": "2026-11-15T17:47:01.286Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T12:15:27.000Z",
+       "end": "2026-11-15T17:52:30.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "PUBGをみんなでやる",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929536467",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/21f492bb8e66a023fb25_kato_junichi0817_316727971698_1794744922//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1646,7 +1646,7 @@
       {
        "stream_id": "316790133363",
        "start": "2026-11-15T15:03:59.000Z",
-       "end": "2026-11-15T17:47:01.287Z",
+       "end": "2026-11-15T17:57:00.524Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←いろんなことから帰宅し今日はマターリ",
@@ -2141,7 +2141,7 @@
       {
        "stream_id": "kick-2026-11-15T15:00:48.000Z",
        "start": "2026-11-15T15:00:48.000Z",
-       "end": "2026-11-15T17:47:01.287Z",
+       "end": "2026-11-15T17:57:00.525Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
@@ -2897,7 +2897,7 @@
       {
        "stream_id": "316715204209",
        "start": "2026-11-15T08:33:48.000Z",
-       "end": "2026-11-15T17:47:01.288Z",
+       "end": "2026-11-15T17:57:00.525Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ やるぞ！！！！",
@@ -4389,7 +4389,7 @@
       {
        "stream_id": "316789120627",
        "start": "2026-11-15T11:25:26.000Z",
-       "end": "2026-11-15T17:47:01.288Z",
+       "end": "2026-11-15T17:57:00.525Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは→PUBG",
@@ -5024,7 +5024,7 @@
       {
        "stream_id": "316789047923",
        "start": "2026-11-15T11:09:03.000Z",
-       "end": "2026-11-15T17:47:01.288Z",
+       "end": "2026-11-15T17:57:00.525Z",
        "end_source": "poll",
        "live": true,
        "title": "DRKSでPUBG",
@@ -5164,7 +5164,7 @@
       {
        "stream_id": "316716222449",
        "start": "2026-11-15T12:39:57.000Z",
-       "end": "2026-11-15T17:47:01.288Z",
+       "end": "2026-11-15T17:57:00.525Z",
        "end_source": "poll",
        "live": true,
        "title": "バトラくんとしょこさんとPUBG",
