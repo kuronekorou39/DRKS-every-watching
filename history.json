@@ -921,7 +921,7 @@
       {
        "stream_id": "316727971698",
        "start": "2026-11-15T12:15:22.000Z",
-       "end": "2026-11-15T14:46:38.173Z",
+       "end": "2026-11-15T14:56:38.383Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGをみんなでやる",
@@ -1634,14 +1634,14 @@
       },
       {
        "stream_id": "316727855986",
-       "start": "2026-11-15T11:59:57.000Z",
-       "end": "2026-11-15T14:46:38.174Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T12:00:02.000Z",
+       "end": "2026-11-15T14:53:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "PUBG←いろんなことから帰宅し今日はマターリ",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929526805",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f6e025e157944779421e_indegnasen0706_316727855986_1794743997//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2875,7 +2875,7 @@
       {
        "stream_id": "316715204209",
        "start": "2026-11-15T08:33:48.000Z",
-       "end": "2026-11-15T14:46:38.175Z",
+       "end": "2026-11-15T14:56:38.385Z",
        "end_source": "poll",
        "live": true,
        "title": "ゼノブレイド 初見プレイ やるぞ！！！！",
@@ -4367,7 +4367,7 @@
       {
        "stream_id": "316789120627",
        "start": "2026-11-15T11:25:26.000Z",
-       "end": "2026-11-15T14:46:38.175Z",
+       "end": "2026-11-15T14:56:38.386Z",
        "end_source": "poll",
        "live": true,
        "title": "こんばんは→PUBG",
@@ -5002,7 +5002,7 @@
       {
        "stream_id": "316789047923",
        "start": "2026-11-15T11:09:03.000Z",
-       "end": "2026-11-15T14:46:38.176Z",
+       "end": "2026-11-15T14:56:38.386Z",
        "end_source": "poll",
        "live": true,
        "title": "DRKSでPUBG",
@@ -5142,7 +5142,7 @@
       {
        "stream_id": "316716222449",
        "start": "2026-11-15T12:39:57.000Z",
-       "end": "2026-11-15T14:46:38.176Z",
+       "end": "2026-11-15T14:56:38.386Z",
        "end_source": "poll",
        "live": true,
        "title": "バトラくんとしょこさんとPUBG",
