@@ -1646,7 +1646,7 @@
       {
        "stream_id": "316790133363",
        "start": "2026-11-15T15:03:59.000Z",
-       "end": "2026-11-15T18:26:59.599Z",
+       "end": "2026-11-15T18:36:59.832Z",
        "end_source": "poll",
        "live": true,
        "title": "一回だけ新キャラスレスパ←PUBG←いろんなことから帰宅し今日はマターリ",
@@ -2141,7 +2141,7 @@
       {
        "stream_id": "kick-2026-11-15T15:00:48.000Z",
        "start": "2026-11-15T15:00:48.000Z",
-       "end": "2026-11-15T18:26:59.599Z",
+       "end": "2026-11-15T18:36:59.832Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
@@ -2896,14 +2896,14 @@
       },
       {
        "stream_id": "316715204209",
-       "start": "2026-11-15T08:33:48.000Z",
-       "end": "2026-11-15T18:26:59.599Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-15T08:33:53.000Z",
+       "end": "2026-11-15T18:26:45.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゼノブレイド 初見プレイ やるぞ！！！！",
        "game": "Xenoblade Chronicles",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2929432437",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c0a87e1d05f7a6b1005b_yuyuta0702_316715204209_1794731628//thumb/thumb0-320x180.jpg"
       }
      ]
     }
