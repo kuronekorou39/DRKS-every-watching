@@ -2838,6 +2838,17 @@
        "game": "Xenoblade Chronicles",
        "url": "https://www.twitch.tv/videos/2928435992",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/203754d6ef69a59bf898_yuyuta0702_316710724081_1794647685//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316715000689",
+       "start": "2026-11-15T07:30:45.000Z",
+       "end": "2026-11-15T07:36:28.953Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍ｗ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
