@@ -2952,7 +2952,7 @@
       {
        "stream_id": "316792761587",
        "start": "2026-11-16T09:00:45.000Z",
-       "end": "2026-11-16T18:47:46.619Z",
+       "end": "2026-11-16T18:57:45.335Z",
        "end_source": "poll",
        "live": true,
        "title": "クイズ！罵倒ネア 初見プレイ",
@@ -5111,14 +5111,14 @@
       },
       {
        "stream_id": "316719849457",
-       "start": "2026-11-16T10:56:53.000Z",
-       "end": "2026-11-16T18:47:46.620Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-16T10:56:58.000Z",
+       "end": "2026-11-16T18:51:21.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おぱぶ",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2930418475",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/91167219449285fcd7e2_batora324_316719849457_1794826613//thumb/thumb0-320x180.jpg"
       }
      ]
     }
