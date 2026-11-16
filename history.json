@@ -2951,14 +2951,14 @@
       },
       {
        "stream_id": "316792761587",
-       "start": "2026-11-16T09:00:45.000Z",
-       "end": "2026-11-16T19:07:44.749Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-16T09:00:50.000Z",
+       "end": "2026-11-16T19:17:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "クイズ！罵倒ネア 初見プレイ",
        "game": "Kuizu! Batounea!",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2930378988",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/13bdc4fb1030db2f310f_yuyuta0702_316792761587_1794819645//thumb/thumb0-320x180.jpg"
       }
      ]
     }
