@@ -1668,7 +1668,7 @@
       {
        "stream_id": "316792055923",
        "start": "2026-11-16T04:49:33.000Z",
-       "end": "2026-11-16T10:37:33.807Z",
+       "end": "2026-11-16T10:47:33.511Z",
        "end_source": "poll",
        "live": true,
        "title": "本気でパカゲーフェスティバルの「作品」を考える←18時までスレスパ２新キャラ解説＆考察A10まで直行生配信！",
@@ -1738,6 +1738,17 @@
        "game": "Talk Shows & Podcasts",
        "url": "https://www.twitch.tv/videos/2917438519",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9b9f082eaf239d049965_mokouliszt1_316658012913_1793611489//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "322440948827",
+       "start": "2026-11-16T10:40:47.000Z",
+       "end": "2026-11-16T10:47:33.512Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ゆうき君とぷよぷよ対戦",
+       "game": null,
+       "url": "https://www.twitch.tv/mokouliszt1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mokouliszt1-320x180.jpg"
       }
      ]
     },
@@ -2941,11 +2952,11 @@
       {
        "stream_id": "316792761587",
        "start": "2026-11-16T09:00:45.000Z",
-       "end": "2026-11-16T10:37:33.808Z",
+       "end": "2026-11-16T10:47:33.512Z",
        "end_source": "poll",
        "live": true,
-       "title": "押忍",
-       "game": "Just Chatting",
+       "title": "クイズ！罵倒ネア 初見プレイ",
+       "game": "Kuizu! Batounea!",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
