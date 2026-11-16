@@ -1668,7 +1668,7 @@
       {
        "stream_id": "316792055923",
        "start": "2026-11-16T04:49:33.000Z",
-       "end": "2026-11-16T11:37:34.196Z",
+       "end": "2026-11-16T11:47:34.361Z",
        "end_source": "poll",
        "live": true,
        "title": "本気でパカゲーフェスティバルの「作品」を考える←18時までスレスパ２新キャラ解説＆考察A10まで直行生配信！",
@@ -1741,14 +1741,14 @@
       },
       {
        "stream_id": "322440948827",
-       "start": "2026-11-16T10:40:47.000Z",
-       "end": "2026-11-16T11:37:34.196Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-16T10:40:56.000Z",
+       "end": "2026-11-16T11:39:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆうき君とぷよぷよ対戦",
        "game": null,
-       "url": "https://www.twitch.tv/mokouliszt1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_mokouliszt1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2930412806",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d1m7jfoe9zdc1j/4b7615e08039e41dfe54_mokouliszt1_322440948827_1794825647//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2952,7 +2952,7 @@
       {
        "stream_id": "316792761587",
        "start": "2026-11-16T09:00:45.000Z",
-       "end": "2026-11-16T11:37:34.197Z",
+       "end": "2026-11-16T11:47:34.362Z",
        "end_source": "poll",
        "live": true,
        "title": "クイズ！罵倒ネア 初見プレイ",
@@ -5101,7 +5101,7 @@
       {
        "stream_id": "316719849457",
        "start": "2026-11-16T10:56:53.000Z",
-       "end": "2026-11-16T11:37:34.198Z",
+       "end": "2026-11-16T11:47:34.363Z",
        "end_source": "poll",
        "live": true,
        "title": "どもｗ",
