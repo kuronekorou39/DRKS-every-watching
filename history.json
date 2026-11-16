@@ -931,14 +931,14 @@
       },
       {
        "stream_id": "316730061682",
-       "start": "2026-11-16T00:59:04.000Z",
-       "end": "2026-11-16T04:27:22.199Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-16T00:59:09.000Z",
+       "end": "2026-11-16T04:35:19.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ROB RUN",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2930144739",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c3b9beec8671c21deb06_kato_junichi0817_316730061682_1794790744//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2163,7 +2163,7 @@
       {
        "stream_id": "kick-2026-11-16T03:42:46.000Z",
        "start": "2026-11-16T03:42:46.000Z",
-       "end": "2026-11-16T04:27:22.201Z",
+       "end": "2026-11-16T04:37:22.148Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
