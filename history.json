@@ -1664,6 +1664,17 @@
        "game": "Slay the Spire II",
        "url": "https://www.twitch.tv/videos/2929650698",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/e542fb2ca84a154ed1a8_indegnasen0706_316790133363_1794755039//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316792055923",
+       "start": "2026-11-16T04:49:33.000Z",
+       "end": "2026-11-16T04:57:22.465Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "18時までスレスパ２新キャラ解説＆考察A10まで直行生配信！",
+       "game": "Slay the Spire II",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2163,7 +2174,7 @@
       {
        "stream_id": "kick-2026-11-16T03:42:46.000Z",
        "start": "2026-11-16T03:42:46.000Z",
-       "end": "2026-11-16T04:47:22.146Z",
+       "end": "2026-11-16T04:57:22.465Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
