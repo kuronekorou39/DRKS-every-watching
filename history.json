@@ -1668,7 +1668,7 @@
       {
        "stream_id": "316792055923",
        "start": "2026-11-16T04:49:33.000Z",
-       "end": "2026-11-16T08:57:33.888Z",
+       "end": "2026-11-16T09:07:34.101Z",
        "end_source": "poll",
        "live": true,
        "title": "18時までスレスパ２新キャラ解説＆考察A10まで直行生配信！",
@@ -2174,7 +2174,7 @@
       {
        "stream_id": "kick-2026-11-16T03:42:46.000Z",
        "start": "2026-11-16T03:42:46.000Z",
-       "end": "2026-11-16T08:57:33.889Z",
+       "end": "2026-11-16T09:07:34.101Z",
        "end_source": "poll",
        "live": true,
        "title": "ドロクサのゲームに参加する",
@@ -2937,6 +2937,17 @@
        "game": "Xenoblade Chronicles",
        "url": "https://www.twitch.tv/videos/2929432437",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c0a87e1d05f7a6b1005b_yuyuta0702_316715204209_1794731628//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316792761587",
+       "start": "2026-11-16T09:00:45.000Z",
+       "end": "2026-11-16T09:07:34.102Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
