@@ -953,14 +953,14 @@
       },
       {
        "stream_id": "316735251314",
-       "start": "2026-11-17T06:38:21.000Z",
-       "end": "2026-11-17T14:18:50.244Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-17T06:38:26.000Z",
+       "end": "2026-11-17T14:19:24.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ROB RUNしてなにかやる",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2931213777",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6c602f0e701fdfcda55e_kato_junichi0817_316735251314_1794897501//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -2214,6 +2214,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/0v3ftjxsyALR/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-17T14:22:17.000Z",
+       "start": "2026-11-17T14:22:17.000Z",
+       "end": "2026-11-17T14:28:50.100Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/3X4icACZP4nQ/480.webp"
       }
      ]
     }
@@ -2985,7 +2996,7 @@
       {
        "stream_id": "316735636722",
        "start": "2026-11-17T09:00:14.000Z",
-       "end": "2026-11-17T14:18:50.246Z",
+       "end": "2026-11-17T14:28:50.100Z",
        "end_source": "poll",
        "live": true,
        "title": "ポケットモンスター ソード 人生縛り",
@@ -4084,7 +4095,7 @@
       {
        "stream_id": "XUEXFEskqtM",
        "start": "2026-11-17T13:45:38.000Z",
-       "end": "2026-11-17T14:18:50.247Z",
+       "end": "2026-11-17T14:28:50.100Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】エヌビディア決算直前のアメリカ夜。あまりに下げ続ける日本相場を止められるのは米国しかない。でも楽天証券がやべぇええ！どうする。半導体メモリーと俺の先行きは。試練のアメリカ見届け配信！",
@@ -4532,7 +4543,7 @@
       {
        "stream_id": "316723940721",
        "start": "2026-11-17T10:34:43.000Z",
-       "end": "2026-11-17T14:18:50.247Z",
+       "end": "2026-11-17T14:28:50.101Z",
        "end_source": "poll",
        "live": true,
        "title": "やるよ",
@@ -5628,7 +5639,7 @@
       {
        "stream_id": "Q5rHRKecPm4",
        "start": "2026-11-17T12:03:25.000Z",
-       "end": "2026-11-17T14:18:50.247Z",
+       "end": "2026-11-17T14:28:50.101Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS 最終回「大王グウィンvs光の勇者」",
