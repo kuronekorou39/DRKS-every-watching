@@ -2218,7 +2218,7 @@
       {
        "stream_id": "kick-2026-11-17T14:22:17.000Z",
        "start": "2026-11-17T14:22:17.000Z",
-       "end": "2026-11-17T16:08:50.151Z",
+       "end": "2026-11-17T16:18:51.604Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
@@ -2996,7 +2996,7 @@
       {
        "stream_id": "316735636722",
        "start": "2026-11-17T09:00:14.000Z",
-       "end": "2026-11-17T16:08:50.151Z",
+       "end": "2026-11-17T16:18:51.604Z",
        "end_source": "poll",
        "live": true,
        "title": "ポケットモンスター ソード 人生縛り",
@@ -4542,14 +4542,14 @@
       },
       {
        "stream_id": "316723940721",
-       "start": "2026-11-17T10:34:43.000Z",
-       "end": "2026-11-17T16:08:50.152Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-17T10:34:49.000Z",
+       "end": "2026-11-17T16:10:44.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "やるよ",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2931295240",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f376097c81397c77e8e3_assarisyoko1_316723940721_1794911683//thumb/thumb0-320x180.jpg"
       }
      ]
     }
