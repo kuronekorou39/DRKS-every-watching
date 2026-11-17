@@ -950,6 +950,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2930876160",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/08d46fab04e7a5cb4078_kato_junichi0817_316722012017_1794867417//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316735251314",
+       "start": "2026-11-17T06:38:21.000Z",
+       "end": "2026-11-17T06:38:41.505Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ROB RUNしてなにかやる",
+       "game": "ROB RUN",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
