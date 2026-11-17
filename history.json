@@ -954,9 +954,9 @@
       {
        "stream_id": "316735251314",
        "start": "2026-11-17T06:38:21.000Z",
-       "end": "2026-11-17T08:18:40.482Z",
+       "end": "2026-11-17T08:38:39.286Z",
        "end_source": "poll",
-       "live": false,
+       "live": true,
        "title": "ROB RUNしてなにかやる",
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/kato_junichi0817",
