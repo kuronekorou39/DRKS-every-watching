@@ -976,7 +976,7 @@
       {
        "stream_id": "316727779185",
        "start": "2026-11-18T08:24:19.000Z",
-       "end": "2026-11-18T13:39:47.367Z",
+       "end": "2026-11-18T13:49:45.483Z",
        "end_source": "poll",
        "live": true,
        "title": "until dawnをやっていく。パート１",
@@ -1723,7 +1723,7 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T13:39:47.368Z",
+       "end": "2026-11-18T13:49:45.484Z",
        "end_source": "poll",
        "live": true,
        "title": "クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
@@ -4146,6 +4146,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=eYN0j7H86i0",
        "thumb": "https://i.ytimg.com/vi/eYN0j7H86i0/mqdefault.jpg"
+      },
+      {
+       "stream_id": "FWxEgdi-c84",
+       "start": "2026-11-18T13:43:23.000Z",
+       "end": "2026-11-18T13:49:45.485Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】エヌビディア決算後のアメリカ相場くる！！そして明日はついにアンソロピック上場。インフルエンサーも名乗りをあげる怪物銘柄へ。大荒れの半導体相場。日経平均の反転祈るアメリカ見届け生放送！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=FWxEgdi-c84",
+       "thumb": "https://i.ytimg.com/vi/FWxEgdi-c84/mqdefault.jpg?v=6afda8be"
       }
      ]
     }
@@ -4598,7 +4609,7 @@
       {
        "stream_id": "316728160881",
        "start": "2026-11-18T10:23:16.000Z",
-       "end": "2026-11-18T13:39:47.369Z",
+       "end": "2026-11-18T13:49:45.486Z",
        "end_source": "poll",
        "live": true,
        "title": "やるよ、やるよ",
@@ -5255,7 +5266,7 @@
       {
        "stream_id": "316728423793",
        "start": "2026-11-18T11:23:36.000Z",
-       "end": "2026-11-18T13:39:47.369Z",
+       "end": "2026-11-18T13:49:45.486Z",
        "end_source": "poll",
        "live": true,
        "title": "ウルトラ怪獣モンスターファーム初見 ©コーエーテクモゲームス",
@@ -5406,7 +5417,7 @@
       {
        "stream_id": "316740275058",
        "start": "2026-11-18T10:50:54.000Z",
-       "end": "2026-11-18T13:39:47.370Z",
+       "end": "2026-11-18T13:49:45.486Z",
        "end_source": "poll",
        "live": true,
        "title": "四太郎の桃鉄5年勝負(あゆたろう,軍師ミノル,yunocy)",
