@@ -983,6 +983,17 @@
        "game": "Until Dawn",
        "url": "https://www.twitch.tv/videos/2932154955",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a341928fd641d9f307dc_kato_junichi0817_316727779185_1794990259//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316741852530",
+       "start": "2026-11-18T16:33:21.000Z",
+       "end": "2026-11-18T16:39:57.932Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "寝る前にROB RUN",
+       "game": "ROB RUN",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1723,11 +1734,11 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T16:29:58.272Z",
+       "end": "2026-11-18T16:39:57.933Z",
        "end_source": "poll",
        "live": true,
-       "title": "クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
-       "game": "Others",
+       "title": "スト６はあるのだろうか...？の巻！←クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
+       "game": "Street Fighter 6",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -5266,7 +5277,7 @@
       {
        "stream_id": "316728423793",
        "start": "2026-11-18T11:23:36.000Z",
-       "end": "2026-11-18T16:29:58.274Z",
+       "end": "2026-11-18T16:39:57.936Z",
        "end_source": "poll",
        "live": true,
        "title": "ウルトラ怪獣モンスターファーム初見 ©コーエーテクモゲームス",
