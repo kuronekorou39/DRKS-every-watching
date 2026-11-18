@@ -987,7 +987,7 @@
       {
        "stream_id": "316741852530",
        "start": "2026-11-18T16:33:21.000Z",
-       "end": "2026-11-18T17:39:57.990Z",
+       "end": "2026-11-18T17:49:58.291Z",
        "end_source": "poll",
        "live": true,
        "title": "寝る前にROB RUN",
@@ -1733,14 +1733,14 @@
       },
       {
        "stream_id": "316801404915",
-       "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T17:39:57.991Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-18T09:04:05.000Z",
+       "end": "2026-11-18T17:42:14.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "スト６はあるのだろうか...？の巻！←クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
        "game": "Street Fighter 6",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2932169059",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/480c07911c047f40f2bb_indegnasen0706_316801404915_1794992640//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -2273,7 +2273,7 @@
       {
        "stream_id": "kick-2026-11-18T16:54:23.000Z",
        "start": "2026-11-18T16:54:23.000Z",
-       "end": "2026-11-18T17:39:57.992Z",
+       "end": "2026-11-18T17:49:58.293Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
