@@ -972,6 +972,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2931766948",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/71c1defd40de45c82228_kato_junichi0817_316738216818_1794953604//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316727779185",
+       "start": "2026-11-18T08:24:19.000Z",
+       "end": "2026-11-18T08:29:33.869Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ムラゲのシャドバ応援する",
+       "game": "Shadowverse: Worlds Beyond",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
