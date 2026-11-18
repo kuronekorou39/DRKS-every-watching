@@ -987,7 +987,7 @@
       {
        "stream_id": "316741852530",
        "start": "2026-11-18T16:33:21.000Z",
-       "end": "2026-11-18T18:09:57.448Z",
+       "end": "2026-11-18T18:19:57.721Z",
        "end_source": "poll",
        "live": true,
        "title": "寝る前にROB RUN",
@@ -2275,7 +2275,7 @@
        "start": "2026-11-18T16:54:23.000Z",
        "end": "2026-11-18T18:09:57.450Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "あ",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
