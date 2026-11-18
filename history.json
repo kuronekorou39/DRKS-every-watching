@@ -1723,7 +1723,7 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T15:19:57.704Z",
+       "end": "2026-11-18T15:29:58.651Z",
        "end_source": "poll",
        "live": true,
        "title": "クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
@@ -4150,7 +4150,7 @@
       {
        "stream_id": "FWxEgdi-c84",
        "start": "2026-11-18T13:43:23.000Z",
-       "end": "2026-11-18T15:19:57.707Z",
+       "end": "2026-11-18T15:29:58.652Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】エヌビディア決算後のアメリカ相場くる！！そして明日はついにアンソロピック上場。インフルエンサーも名乗りをあげる怪物銘柄へ。大荒れの半導体相場。日経平均の反転祈るアメリカ見届け生放送！",
@@ -4608,14 +4608,14 @@
       },
       {
        "stream_id": "316728160881",
-       "start": "2026-11-18T10:23:16.000Z",
-       "end": "2026-11-18T15:19:57.707Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-18T10:23:23.000Z",
+       "end": "2026-11-18T15:27:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "やるよ、やるよ",
        "game": "Dead by Daylight",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2932199478",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/61eaa239a20a98b3d7d1_assarisyoko1_316728160881_1794997396//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5266,7 +5266,7 @@
       {
        "stream_id": "316728423793",
        "start": "2026-11-18T11:23:36.000Z",
-       "end": "2026-11-18T15:19:57.707Z",
+       "end": "2026-11-18T15:29:58.653Z",
        "end_source": "poll",
        "live": true,
        "title": "ウルトラ怪獣モンスターファーム初見 ©コーエーテクモゲームス",
