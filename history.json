@@ -975,14 +975,14 @@
       },
       {
        "stream_id": "316727779185",
-       "start": "2026-11-18T08:24:19.000Z",
-       "end": "2026-11-18T14:49:46.813Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-18T08:24:24.000Z",
+       "end": "2026-11-18T14:59:07.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "until dawnをやっていく。パート１",
        "game": "Until Dawn",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2932154955",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/a341928fd641d9f307dc_kato_junichi0817_316727779185_1794990259//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1723,7 +1723,7 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T14:49:46.814Z",
+       "end": "2026-11-18T14:59:46.105Z",
        "end_source": "poll",
        "live": true,
        "title": "クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
@@ -4150,7 +4150,7 @@
       {
        "stream_id": "FWxEgdi-c84",
        "start": "2026-11-18T13:43:23.000Z",
-       "end": "2026-11-18T14:49:46.815Z",
+       "end": "2026-11-18T14:59:46.106Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】エヌビディア決算後のアメリカ相場くる！！そして明日はついにアンソロピック上場。インフルエンサーも名乗りをあげる怪物銘柄へ。大荒れの半導体相場。日経平均の反転祈るアメリカ見届け生放送！",
@@ -4609,7 +4609,7 @@
       {
        "stream_id": "316728160881",
        "start": "2026-11-18T10:23:16.000Z",
-       "end": "2026-11-18T14:49:46.815Z",
+       "end": "2026-11-18T14:59:46.106Z",
        "end_source": "poll",
        "live": true,
        "title": "やるよ、やるよ",
@@ -5266,7 +5266,7 @@
       {
        "stream_id": "316728423793",
        "start": "2026-11-18T11:23:36.000Z",
-       "end": "2026-11-18T14:49:46.815Z",
+       "end": "2026-11-18T14:59:46.106Z",
        "end_source": "poll",
        "live": true,
        "title": "ウルトラ怪獣モンスターファーム初見 ©コーエーテクモゲームス",
