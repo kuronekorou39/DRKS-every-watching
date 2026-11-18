@@ -976,7 +976,7 @@
       {
        "stream_id": "316727779185",
        "start": "2026-11-18T08:24:19.000Z",
-       "end": "2026-11-18T08:59:33.983Z",
+       "end": "2026-11-18T09:09:33.438Z",
        "end_source": "poll",
        "live": true,
        "title": "ムラゲのシャドバ応援する",
@@ -1719,6 +1719,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2930289307",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4c6bce5bd4d9fc789ad2_indegnasen0706_316792055923_1794804573//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316801404915",
+       "start": "2026-11-18T09:04:00.000Z",
+       "end": "2026-11-18T09:09:33.439Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
