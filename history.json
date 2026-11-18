@@ -987,7 +987,7 @@
       {
        "stream_id": "316741852530",
        "start": "2026-11-18T16:33:21.000Z",
-       "end": "2026-11-18T16:59:58.545Z",
+       "end": "2026-11-18T17:09:57.772Z",
        "end_source": "poll",
        "live": true,
        "title": "寝る前にROB RUN",
@@ -1734,7 +1734,7 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T16:59:58.546Z",
+       "end": "2026-11-18T17:09:57.773Z",
        "end_source": "poll",
        "live": true,
        "title": "スト６はあるのだろうか...？の巻！←クラブミート←地獄怨根←おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
@@ -2273,7 +2273,7 @@
       {
        "stream_id": "kick-2026-11-18T16:54:23.000Z",
        "start": "2026-11-18T16:54:23.000Z",
-       "end": "2026-11-18T16:59:58.547Z",
+       "end": "2026-11-18T17:09:57.774Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
@@ -5287,14 +5287,14 @@
       },
       {
        "stream_id": "316728423793",
-       "start": "2026-11-18T11:23:36.000Z",
-       "end": "2026-11-18T16:59:58.547Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-18T11:23:41.000Z",
+       "end": "2026-11-18T17:05:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ウルトラ怪獣モンスターファーム初見 ©コーエーテクモゲームス",
        "game": "Ultra Kaiju Monster Rancher",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2932244725",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/20da552de995afe7ba5c_batora324_316728423793_1795001016//thumb/thumb0-320x180.jpg"
       }
      ]
     }
