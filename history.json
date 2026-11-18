@@ -976,7 +976,7 @@
       {
        "stream_id": "316727779185",
        "start": "2026-11-18T08:24:19.000Z",
-       "end": "2026-11-18T10:49:46.493Z",
+       "end": "2026-11-18T10:59:45.985Z",
        "end_source": "poll",
        "live": true,
        "title": "なにか面白そうなゲームをみけ出す男",
@@ -1723,7 +1723,7 @@
       {
        "stream_id": "316801404915",
        "start": "2026-11-18T09:04:00.000Z",
-       "end": "2026-11-18T10:49:46.494Z",
+       "end": "2026-11-18T10:59:45.985Z",
        "end_source": "poll",
        "live": true,
        "title": "おはよう世界、パカゲーするか何かするか迷いながらまず雑談放送！",
@@ -4598,7 +4598,7 @@
       {
        "stream_id": "316728160881",
        "start": "2026-11-18T10:23:16.000Z",
-       "end": "2026-11-18T10:49:46.495Z",
+       "end": "2026-11-18T10:59:45.987Z",
        "end_source": "poll",
        "live": true,
        "title": "やるよ、やるよ",
@@ -5391,6 +5391,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2929550576",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3e0e9996594ad4efded5_bakumatsu_shishi_316716222449_1794746397//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316740275058",
+       "start": "2026-11-18T10:50:54.000Z",
+       "end": "2026-11-18T10:59:45.987Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "四太郎の桃鉄5年勝負(あゆたろう,軍師ミノル,yunocy)",
+       "game": "Momotaro Dentetsu 2: Anata no Machi mo Kitto aru",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
