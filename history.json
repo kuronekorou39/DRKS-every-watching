@@ -1005,6 +1005,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2933122062",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/21399f147db8d21ce118_kato_junichi0817_316731254129_1795057363//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "315705808751",
+       "start": "2026-11-19T10:45:05.000Z",
+       "end": "2026-11-19T10:50:36.644Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイパードラフト会議FINAL",
+       "game": "Special Events",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1756,7 +1767,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T10:40:37.122Z",
+       "end": "2026-11-19T10:50:36.645Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3095,7 +3106,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T10:40:37.123Z",
+       "end": "2026-11-19T10:50:36.646Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -4693,6 +4704,17 @@
        "game": "Dead by Daylight",
        "url": "https://www.twitch.tv/videos/2932199478",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/61eaa239a20a98b3d7d1_assarisyoko1_316728160881_1794997396//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316806287347",
+       "start": "2026-11-19T10:43:45.000Z",
+       "end": "2026-11-19T10:50:36.647Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "20時からハイゲドラフトをミラーする",
+       "game": null,
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -5354,7 +5376,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T10:40:37.124Z",
+       "end": "2026-11-19T10:50:36.647Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
