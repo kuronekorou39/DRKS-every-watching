@@ -1756,7 +1756,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T08:50:38.181Z",
+       "end": "2026-11-19T09:00:37.845Z",
        "end_source": "poll",
        "live": true,
        "title": "文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3091,6 +3091,17 @@
        "game": "Gakuen iDOLM@STER",
        "url": "https://www.twitch.tv/videos/2931261568",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ba6cca92e8f70b818271_yuyuta0702_316735636722_1794906014//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316805911539",
+       "start": "2026-11-19T09:00:07.000Z",
+       "end": "2026-11-19T09:00:37.846Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "今日はハイゲドラフトやぞ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
