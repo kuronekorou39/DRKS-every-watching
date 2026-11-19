@@ -1008,14 +1008,14 @@
       },
       {
        "stream_id": "315705808751",
-       "start": "2026-11-19T10:45:05.000Z",
-       "end": "2026-11-19T13:40:47.273Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T10:45:10.000Z",
+       "end": "2026-11-19T13:49:29.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ハイパードラフト会議FINAL",
        "game": "Special Events",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933555928",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9d7f50c35d5261198185_kato_junichi0817_315705808751_1795085105//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1767,7 +1767,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T13:40:47.274Z",
+       "end": "2026-11-19T13:50:48.454Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3106,7 +3106,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T13:40:47.274Z",
+       "end": "2026-11-19T13:50:48.455Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -4260,13 +4260,13 @@
       {
        "stream_id": "LDpbWvx1P4I",
        "start": "2026-11-19T13:39:33.000Z",
-       "end": "2026-11-19T13:40:47.275Z",
+       "end": "2026-11-19T13:50:48.455Z",
        "end_source": "poll",
        "live": true,
        "title": "【超緊急ライブ】史上最大規模のIPO。アンソロピック上場を見届ける生放送。伝説の夜となるだろう【ClaudeAI】",
        "game": null,
        "url": "https://www.youtube.com/watch?v=LDpbWvx1P4I",
-       "thumb": "https://i.ytimg.com/vi/LDpbWvx1P4I/mqdefault.jpg?v=6afe9cf8"
+       "thumb": "https://i.ytimg.com/vi/LDpbWvx1P4I/mqdefault.jpg?v=6afefd52"
       }
      ]
     }
@@ -4730,7 +4730,7 @@
       {
        "stream_id": "316806287347",
        "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T13:40:47.275Z",
+       "end": "2026-11-19T13:50:48.455Z",
        "end_source": "poll",
        "live": true,
        "title": "20時からハイゲドラフトをミラーする",
@@ -5398,7 +5398,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T13:40:47.275Z",
+       "end": "2026-11-19T13:50:48.455Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
@@ -5560,7 +5560,7 @@
       {
        "stream_id": "316744725874",
        "start": "2026-11-19T10:51:45.000Z",
-       "end": "2026-11-19T13:40:47.275Z",
+       "end": "2026-11-19T13:50:48.456Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲドラフト",
