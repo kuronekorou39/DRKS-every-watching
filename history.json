@@ -997,14 +997,14 @@
       },
       {
        "stream_id": "316731254129",
-       "start": "2026-11-19T03:02:43.000Z",
-       "end": "2026-11-19T06:00:26.722Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T03:02:48.000Z",
+       "end": "2026-11-19T06:09:25.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ドラフト当日",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933122062",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/21399f147db8d21ce118_kato_junichi0817_316731254129_1795057363//thumb/thumb0-320x180.jpg"
       }
      ]
     },
