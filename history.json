@@ -1020,7 +1020,7 @@
       {
        "stream_id": "316807440371",
        "start": "2026-11-19T14:33:01.000Z",
-       "end": "2026-11-19T14:40:47.786Z",
+       "end": "2026-11-19T14:50:47.635Z",
        "end_source": "poll",
        "live": true,
        "title": "やっとﾊｲｹﾞについて語り合えますね",
@@ -1778,7 +1778,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T14:40:47.787Z",
+       "end": "2026-11-19T14:50:47.636Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3117,11 +3117,11 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T14:40:47.788Z",
+       "end": "2026-11-19T14:50:47.637Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
-       "game": "Just Chatting",
+       "game": "MECCHA CHAMELEON",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -4271,7 +4271,7 @@
       {
        "stream_id": "LDpbWvx1P4I",
        "start": "2026-11-19T13:39:33.000Z",
-       "end": "2026-11-19T14:40:47.788Z",
+       "end": "2026-11-19T14:50:47.637Z",
        "end_source": "poll",
        "live": true,
        "title": "【超緊急ライブ】史上最大規模のIPO。アンソロピック上場を見届ける生放送。伝説の夜となるだろう【ClaudeAI】",
@@ -4741,7 +4741,7 @@
       {
        "stream_id": "316806287347",
        "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T14:40:47.788Z",
+       "end": "2026-11-19T14:50:47.638Z",
        "end_source": "poll",
        "live": true,
        "title": "20時からハイゲドラフトをミラーする",
@@ -5409,7 +5409,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T14:40:47.788Z",
+       "end": "2026-11-19T14:50:47.638Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
@@ -5570,14 +5570,14 @@
       },
       {
        "stream_id": "316744725874",
-       "start": "2026-11-19T10:51:45.000Z",
-       "end": "2026-11-19T14:40:47.788Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T10:51:50.000Z",
+       "end": "2026-11-19T14:49:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ピエロのハイゲドラフト",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933559589",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5462f3f35628981d152d_bakumatsu_shishi_316744725874_1795085505//thumb/thumb0-320x180.jpg"
       }
      ]
     },
