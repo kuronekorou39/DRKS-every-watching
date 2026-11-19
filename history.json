@@ -1752,6 +1752,17 @@
        "game": "Street Fighter 6",
        "url": "https://www.twitch.tv/videos/2932169059",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/480c07911c047f40f2bb_indegnasen0706_316801404915_1794992640//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316743890802",
+       "start": "2026-11-19T06:43:26.000Z",
+       "end": "2026-11-19T06:50:24.420Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
