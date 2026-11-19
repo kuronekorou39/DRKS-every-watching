@@ -1009,7 +1009,7 @@
       {
        "stream_id": "315705808751",
        "start": "2026-11-19T10:45:05.000Z",
-       "end": "2026-11-19T10:50:36.644Z",
+       "end": "2026-11-19T11:00:37.862Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイパードラフト会議FINAL",
@@ -1767,11 +1767,11 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T10:50:36.645Z",
+       "end": "2026-11-19T11:00:37.863Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
-       "game": "Super Mario Land 2 - 6 Golden Coins",
+       "game": "Just Chatting",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -3106,7 +3106,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T10:50:36.646Z",
+       "end": "2026-11-19T11:00:37.863Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -3396,6 +3396,17 @@
        "game": "Apex Legends",
        "url": "https://www.twitch.tv/videos/2919228422",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/6e160bbad0d3063e6218_oniyadayo_316667020273_1793790116//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316744722802",
+       "start": "2026-11-19T10:50:56.000Z",
+       "end": "2026-11-19T11:00:37.864Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲのドラフト見ていく漢。過去実績→ラスベガスEVOでウメハラ以来の2回配信台で湧かす。サンノゼのバーを湧かす。国内イベント多数湧かす（多すぎて計測不可）。",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -4708,7 +4719,7 @@
       {
        "stream_id": "316806287347",
        "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T10:50:36.647Z",
+       "end": "2026-11-19T11:00:37.864Z",
        "end_source": "poll",
        "live": true,
        "title": "20時からハイゲドラフトをミラーする",
@@ -5376,7 +5387,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T10:50:36.647Z",
+       "end": "2026-11-19T11:00:37.864Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
@@ -5534,6 +5545,17 @@
        "game": "Momotaro Dentetsu 2: Anata no Machi mo Kitto aru",
        "url": "https://www.twitch.tv/videos/2932213075",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/960d4ea2e4fdb6c99ccc_bakumatsu_shishi_316740275058_1794999054//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316744725874",
+       "start": "2026-11-19T10:51:45.000Z",
+       "end": "2026-11-19T11:00:37.864Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのハイゲドラフト",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
