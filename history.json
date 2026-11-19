@@ -1778,7 +1778,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T17:40:48.628Z",
+       "end": "2026-11-19T17:50:48.895Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆうたとPUBG←ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3128,7 +3128,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T17:40:48.628Z",
+       "end": "2026-11-19T17:50:48.896Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -4751,14 +4751,14 @@
       },
       {
        "stream_id": "316806287347",
-       "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T17:40:48.629Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T10:43:52.000Z",
+       "end": "2026-11-19T17:46:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "20時からハイゲドラフトをミラーする",
        "game": null,
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933555206",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/005502f0b72f4e41ee46_assarisyoko1_316806287347_1795085025//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5420,7 +5420,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T17:40:48.629Z",
+       "end": "2026-11-19T17:50:48.897Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
