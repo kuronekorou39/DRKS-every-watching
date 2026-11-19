@@ -1777,14 +1777,14 @@
       },
       {
        "stream_id": "316743890802",
-       "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T19:11:11.414Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T06:43:31.000Z",
+       "end": "2026-11-19T19:14:32.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ゆゆうたとPUBG←ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933416170",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/56998ee6c2f947580809_indegnasen0706_316743890802_1795070606//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3128,7 +3128,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T19:11:11.415Z",
+       "end": "2026-11-19T19:21:10.407Z",
        "end_source": "poll",
        "live": true,
        "title": "パワプロ 鬱練習",
@@ -5420,7 +5420,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T19:11:11.416Z",
+       "end": "2026-11-19T19:21:10.408Z",
        "end_source": "poll",
        "live": true,
        "title": "オーバーウォッチ初見",
