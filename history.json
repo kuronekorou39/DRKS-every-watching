@@ -2280,6 +2280,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/xteqQ4BTusGK/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-19T01:07:56.000Z",
+       "start": "2026-11-19T01:07:56.000Z",
+       "end": "2026-11-19T01:10:11.467Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あさ撮り",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/dQ5BM0qfo5a3/480.webp"
       }
      ]
     }
@@ -4183,7 +4194,7 @@
       {
        "stream_id": "DVOn90cbOpc",
        "start": "2026-11-18T23:46:28.000Z",
-       "end": "2026-11-19T01:00:12.176Z",
+       "end": "2026-11-19T01:10:11.467Z",
        "end_source": "poll",
        "live": true,
        "title": "今晩はついにアンソロピック上場。連続マンデーはもう嫌だ。止まらない追証に終止符を。しかし金利がまた上昇も。どうなる日経平均。FOMCに首脳会談も控える怒涛の朝の寄り付き株ライブ生放送！",
