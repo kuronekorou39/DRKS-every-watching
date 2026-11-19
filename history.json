@@ -994,6 +994,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2932461849",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/11079092af173bba3a45_kato_junichi0817_316741852530_1795019601//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316731254129",
+       "start": "2026-11-19T03:02:43.000Z",
+       "end": "2026-11-19T03:10:25.297Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ドラフト当日",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2284,11 +2295,11 @@
       {
        "stream_id": "kick-2026-11-19T01:07:56.000Z",
        "start": "2026-11-19T01:07:56.000Z",
-       "end": "2026-11-19T03:00:26.381Z",
+       "end": "2026-11-19T03:10:25.298Z",
        "end_source": "poll",
        "live": true,
        "title": "あさ撮り",
-       "game": "Just Chatting",
+       "game": "Horror Night",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/dQ5BM0qfo5a3/480.webp"
       }
