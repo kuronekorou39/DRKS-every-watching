@@ -3127,14 +3127,14 @@
       },
       {
        "stream_id": "316805911539",
-       "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T20:21:09.778Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T09:00:12.000Z",
+       "end": "2026-11-19T20:27:07.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "パワプロ 鬱練習",
        "game": "Powerful Pro Yakyuu 2026-2027",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933499003",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f01b13c58366ec862a56_yuyuta0702_316805911539_1795078807//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5420,7 +5420,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T20:21:09.779Z",
+       "end": "2026-11-19T20:31:10.200Z",
        "end_source": "poll",
        "live": true,
        "title": "オーバーウォッチやてみる",
