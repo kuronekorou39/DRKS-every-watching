@@ -1778,7 +1778,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T17:10:48.477Z",
+       "end": "2026-11-19T17:20:48.533Z",
        "end_source": "poll",
        "live": true,
        "title": "ゆゆうたとPUBG←ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3128,7 +3128,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T17:10:48.478Z",
+       "end": "2026-11-19T17:20:48.533Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -4282,13 +4282,13 @@
       {
        "stream_id": "LDpbWvx1P4I",
        "start": "2026-11-19T13:39:33.000Z",
-       "end": "2026-11-19T17:10:48.478Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-19T17:16:03.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【超緊急ライブ】史上最大規模のIPO。アンソロピック上場を見届ける生放送。伝説の夜となるだろう【ClaudeAI】",
        "game": null,
        "url": "https://www.youtube.com/watch?v=LDpbWvx1P4I",
-       "thumb": "https://i.ytimg.com/vi/LDpbWvx1P4I/mqdefault.jpg?v=6aff0de7"
+       "thumb": "https://i.ytimg.com/vi/LDpbWvx1P4I/mqdefault.jpg?v=6aff2e0b"
       }
      ]
     }
@@ -4752,7 +4752,7 @@
       {
        "stream_id": "316806287347",
        "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T17:10:48.478Z",
+       "end": "2026-11-19T17:20:48.534Z",
        "end_source": "poll",
        "live": true,
        "title": "20時からハイゲドラフトをミラーする",
@@ -5420,7 +5420,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T17:10:48.478Z",
+       "end": "2026-11-19T17:20:48.534Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
