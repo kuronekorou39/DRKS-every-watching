@@ -998,7 +998,7 @@
       {
        "stream_id": "316731254129",
        "start": "2026-11-19T03:02:43.000Z",
-       "end": "2026-11-19T03:20:25.362Z",
+       "end": "2026-11-19T03:30:25.915Z",
        "end_source": "poll",
        "live": true,
        "title": "ドラフト当日",
@@ -2297,7 +2297,7 @@
        "start": "2026-11-19T01:07:56.000Z",
        "end": "2026-11-19T03:20:25.362Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "あさ撮り",
        "game": "Horror Night",
        "url": "https://kick.com/mokoutoaruotoko",
