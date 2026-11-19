@@ -1756,7 +1756,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T10:10:36.395Z",
+       "end": "2026-11-19T10:20:37.578Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3095,7 +3095,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T10:10:36.396Z",
+       "end": "2026-11-19T10:20:37.579Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -5350,6 +5350,17 @@
        "game": "Ultra Kaiju Monster Rancher",
        "url": "https://www.twitch.tv/videos/2932244725",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/20da552de995afe7ba5c_batora324_316728423793_1795001016//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316732532849",
+       "start": "2026-11-19T10:17:11.000Z",
+       "end": "2026-11-19T10:20:37.580Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
