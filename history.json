@@ -1009,7 +1009,7 @@
       {
        "stream_id": "315705808751",
        "start": "2026-11-19T10:45:05.000Z",
-       "end": "2026-11-19T13:30:46.666Z",
+       "end": "2026-11-19T13:40:47.273Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイパードラフト会議FINAL",
@@ -1767,7 +1767,7 @@
       {
        "stream_id": "316743890802",
        "start": "2026-11-19T06:43:26.000Z",
-       "end": "2026-11-19T13:30:46.666Z",
+       "end": "2026-11-19T13:40:47.274Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲに６つの金貨があるのかどうか←文章とかじゃなく、ハイゲ濃厚ゲームの腕前を見てくれ←蟹がどこにも売ってなくてドラフトまで悲しみの雑談",
@@ -3106,7 +3106,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T13:30:46.667Z",
+       "end": "2026-11-19T13:40:47.274Z",
        "end_source": "poll",
        "live": true,
        "title": "今日はハイゲドラフトやぞ",
@@ -3399,14 +3399,14 @@
       },
       {
        "stream_id": "316744722802",
-       "start": "2026-11-19T10:50:56.000Z",
-       "end": "2026-11-19T13:30:46.667Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T10:51:01.000Z",
+       "end": "2026-11-19T13:36:21.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ハイゲのドラフト見ていく漢。過去実績→ラスベガスEVOでウメハラ以来の2回配信台で湧かす。サンノゼのバーを湧かす。国内イベント多数湧かす（多すぎて計測不可）。",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933559193",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b1f3aff2429e81c47f94_oniyadayo_316744722802_1795085456//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -4256,6 +4256,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=DVOn90cbOpc",
        "thumb": "https://i.ytimg.com/vi/DVOn90cbOpc/mqdefault.jpg"
+      },
+      {
+       "stream_id": "LDpbWvx1P4I",
+       "start": "2026-11-19T13:39:33.000Z",
+       "end": "2026-11-19T13:40:47.275Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【超緊急ライブ】史上最大規模のIPO。アンソロピック上場を見届ける生放送。伝説の夜となるだろう【ClaudeAI】",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=LDpbWvx1P4I",
+       "thumb": "https://i.ytimg.com/vi/LDpbWvx1P4I/mqdefault.jpg?v=6afe9cf8"
       }
      ]
     }
@@ -4719,7 +4730,7 @@
       {
        "stream_id": "316806287347",
        "start": "2026-11-19T10:43:45.000Z",
-       "end": "2026-11-19T13:30:46.667Z",
+       "end": "2026-11-19T13:40:47.275Z",
        "end_source": "poll",
        "live": true,
        "title": "20時からハイゲドラフトをミラーする",
@@ -5387,7 +5398,7 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T13:30:46.668Z",
+       "end": "2026-11-19T13:40:47.275Z",
        "end_source": "poll",
        "live": true,
        "title": "まじむりだれか選んでくださいお願いしますほんとうにお願いします",
@@ -5549,7 +5560,7 @@
       {
        "stream_id": "316744725874",
        "start": "2026-11-19T10:51:45.000Z",
-       "end": "2026-11-19T13:30:46.668Z",
+       "end": "2026-11-19T13:40:47.275Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲドラフト",
