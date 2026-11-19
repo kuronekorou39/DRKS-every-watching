@@ -3128,7 +3128,7 @@
       {
        "stream_id": "316805911539",
        "start": "2026-11-19T09:00:07.000Z",
-       "end": "2026-11-19T19:31:09.551Z",
+       "end": "2026-11-19T19:41:10.179Z",
        "end_source": "poll",
        "live": true,
        "title": "パワプロ 鬱練習",
@@ -5420,10 +5420,10 @@
       {
        "stream_id": "316732532849",
        "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-19T19:31:09.552Z",
+       "end": "2026-11-19T19:41:10.179Z",
        "end_source": "poll",
        "live": true,
-       "title": "オーバーウォッチ初見",
+       "title": "オーバーウォッチやてみる",
        "game": "Overwatch",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
