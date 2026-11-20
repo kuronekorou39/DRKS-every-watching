@@ -1800,7 +1800,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T08:41:32.071Z",
+       "end": "2026-11-20T08:51:32.883Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3157,6 +3157,17 @@
        "game": "Powerful Pro Yakyuu 2026-2027",
        "url": "https://www.twitch.tv/videos/2933499003",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f01b13c58366ec862a56_yuyuta0702_316805911539_1795078807//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316736543857",
+       "start": "2026-11-20T08:43:54.000Z",
+       "end": "2026-11-20T08:51:32.884Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -4796,7 +4807,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T08:41:32.072Z",
+       "end": "2026-11-20T08:51:32.884Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5637,7 +5648,7 @@
       {
        "stream_id": "316736155249",
        "start": "2026-11-20T06:29:28.000Z",
-       "end": "2026-11-20T08:41:32.072Z",
+       "end": "2026-11-20T08:51:32.885Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習①(Arc,OW,PUBG)",
