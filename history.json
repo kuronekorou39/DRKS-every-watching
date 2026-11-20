@@ -1053,7 +1053,7 @@
       {
        "stream_id": "316812228979",
        "start": "2026-11-20T16:06:18.000Z",
-       "end": "2026-11-20T18:02:00.365Z",
+       "end": "2026-11-20T18:12:00.283Z",
        "end_source": "poll",
        "live": true,
        "title": "ROB RUNING純一",
@@ -3182,14 +3182,14 @@
       },
       {
        "stream_id": "316736543857",
-       "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T18:02:00.367Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-20T08:43:59.000Z",
+       "end": "2026-11-20T18:04:46.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "押忍！！！！！",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2934749010",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/05acb9a14ec96bb8b3c1_yuyuta0702_316736543857_1795164234//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5530,7 +5530,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-20T18:02:00.368Z",
+       "end": "2026-11-20T18:12:00.286Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
