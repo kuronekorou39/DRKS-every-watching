@@ -1053,7 +1053,7 @@
       {
        "stream_id": "316812228979",
        "start": "2026-11-20T16:06:18.000Z",
-       "end": "2026-11-20T16:41:48.219Z",
+       "end": "2026-11-20T16:52:00.970Z",
        "end_source": "poll",
        "live": true,
        "title": "ROB RUNING純一",
@@ -3183,7 +3183,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T16:41:48.221Z",
+       "end": "2026-11-20T16:52:00.972Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4359,13 +4359,13 @@
       {
        "stream_id": "lDNprlJsr18",
        "start": "2026-11-20T13:42:51.000Z",
-       "end": "2026-11-20T16:41:48.222Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-20T16:43:23.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】おい。日経平均まさかの歴史上5番目の3200円の下落幅を記録。アンソロピックも止まらぬ下落。半導体は完全にクラッシュ。今晩のアメリカも大荒れか。絶望の淵アメリカ相場見届け生放送！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=lDNprlJsr18",
-       "thumb": "https://i.ytimg.com/vi/lDNprlJsr18/mqdefault.jpg?v=6b004e60"
+       "thumb": "https://i.ytimg.com/vi/lDNprlJsr18/mqdefault.jpg"
       }
      ]
     }
@@ -5530,7 +5530,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-20T16:41:48.222Z",
+       "end": "2026-11-20T16:52:00.974Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
@@ -5714,7 +5714,7 @@
       {
        "stream_id": "316750244850",
        "start": "2026-11-20T14:53:30.000Z",
-       "end": "2026-11-20T16:41:48.222Z",
+       "end": "2026-11-20T16:52:00.974Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのOWハイゲ練習",
