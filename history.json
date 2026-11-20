@@ -1800,7 +1800,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T08:31:32.913Z",
+       "end": "2026-11-20T08:41:32.071Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -4796,7 +4796,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T08:31:32.914Z",
+       "end": "2026-11-20T08:41:32.072Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5637,11 +5637,11 @@
       {
        "stream_id": "316736155249",
        "start": "2026-11-20T06:29:28.000Z",
-       "end": "2026-11-20T08:31:32.915Z",
+       "end": "2026-11-20T08:41:32.072Z",
        "end_source": "poll",
        "live": true,
-       "title": "ピエロのハイゲ練習①(Arc,OW)",
-       "game": "Overwatch",
+       "title": "ピエロのハイゲ練習①(Arc,OW,PUBG)",
+       "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/bakumatsu_shishi",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
