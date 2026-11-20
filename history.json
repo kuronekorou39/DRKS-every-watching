@@ -1800,11 +1800,11 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T08:01:31.908Z",
+       "end": "2026-11-20T08:11:32.372Z",
        "end_source": "poll",
        "live": true,
-       "title": "パワプロ 小学生以来プレイ←雑談",
-       "game": "Powerful Pro Yakyuu 2026-2027",
+       "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
+       "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -4792,6 +4792,17 @@
        "game": null,
        "url": "https://www.twitch.tv/videos/2933555206",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/005502f0b72f4e41ee46_assarisyoko1_316806287347_1795085025//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316748438898",
+       "start": "2026-11-20T08:03:29.000Z",
+       "end": "2026-11-20T08:11:32.373Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲ頑張るぞ！",
+       "game": "PUBG: BATTLEGROUNDS",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -5626,7 +5637,7 @@
       {
        "stream_id": "316736155249",
        "start": "2026-11-20T06:29:28.000Z",
-       "end": "2026-11-20T08:01:31.910Z",
+       "end": "2026-11-20T08:11:32.374Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習①(Arc,OW)",
