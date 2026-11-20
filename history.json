@@ -1042,7 +1042,7 @@
       {
        "stream_id": "316737057009",
        "start": "2026-11-20T11:11:18.000Z",
-       "end": "2026-11-20T12:01:48.370Z",
+       "end": "2026-11-20T12:11:47.707Z",
        "end_source": "poll",
        "live": true,
        "title": "飯食ってアンティルドーン",
@@ -1811,7 +1811,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T12:01:48.371Z",
+       "end": "2026-11-20T12:11:47.708Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3172,7 +3172,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T12:01:48.372Z",
+       "end": "2026-11-20T12:11:47.710Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4818,7 +4818,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T12:01:48.373Z",
+       "end": "2026-11-20T12:11:47.710Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5976,6 +5976,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=Q5rHRKecPm4",
        "thumb": "https://i.ytimg.com/vi/Q5rHRKecPm4/mqdefault.jpg"
+      },
+      {
+       "stream_id": "YY7ppTkNMtg",
+       "start": "2026-11-20T12:02:35.000Z",
+       "end": "2026-11-20T12:11:47.711Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "幕末志士のDARK SOULS 真の最終回「さらば光の勇者」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=YY7ppTkNMtg",
+       "thumb": "https://i.ytimg.com/vi/YY7ppTkNMtg/mqdefault.jpg?v=6b000bad"
       }
      ]
     }
