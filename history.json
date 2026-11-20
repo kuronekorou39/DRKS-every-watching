@@ -1042,7 +1042,7 @@
       {
        "stream_id": "316737057009",
        "start": "2026-11-20T11:11:18.000Z",
-       "end": "2026-11-20T14:51:48.716Z",
+       "end": "2026-11-20T15:01:48.818Z",
        "end_source": "poll",
        "live": true,
        "title": "until dawn 全クリまでやる",
@@ -1811,7 +1811,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T14:51:48.717Z",
+       "end": "2026-11-20T15:01:48.819Z",
        "end_source": "poll",
        "live": true,
        "title": "スプラ←PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3172,7 +3172,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T14:51:48.718Z",
+       "end": "2026-11-20T15:01:48.820Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4348,7 +4348,7 @@
       {
        "stream_id": "lDNprlJsr18",
        "start": "2026-11-20T13:42:51.000Z",
-       "end": "2026-11-20T14:51:48.719Z",
+       "end": "2026-11-20T15:01:48.821Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】おい。日経平均まさかの歴史上5番目の3200円の下落幅を記録。アンソロピックも止まらぬ下落。半導体は完全にクラッシュ。今晩のアメリカも大荒れか。絶望の淵アメリカ相場見届け生放送！",
@@ -4829,7 +4829,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T14:51:48.719Z",
+       "end": "2026-11-20T15:01:48.821Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5508,7 +5508,7 @@
       {
        "stream_id": "316737494129",
        "start": "2026-11-20T12:33:10.000Z",
-       "end": "2026-11-20T14:51:48.719Z",
+       "end": "2026-11-20T15:01:48.822Z",
        "end_source": "poll",
        "live": true,
        "title": "アプデがきたらしい",
@@ -5688,6 +5688,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2934689387",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7c52b28095ebc5c9421d_bakumatsu_shishi_316736155249_1795156168//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316750244850",
+       "start": "2026-11-20T14:53:30.000Z",
+       "end": "2026-11-20T15:01:48.822Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのOWハイゲ練習",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
