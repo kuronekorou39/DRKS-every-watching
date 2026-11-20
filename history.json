@@ -1796,6 +1796,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2933416170",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/56998ee6c2f947580809_indegnasen0706_316743890802_1795070606//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316809724915",
+       "start": "2026-11-20T05:56:39.000Z",
+       "end": "2026-11-20T06:01:32.275Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
