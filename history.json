@@ -1042,7 +1042,7 @@
       {
        "stream_id": "316737057009",
        "start": "2026-11-20T11:11:18.000Z",
-       "end": "2026-11-20T11:41:48.367Z",
+       "end": "2026-11-20T11:51:47.837Z",
        "end_source": "poll",
        "live": true,
        "title": "飯食ってアンティルドーン",
@@ -1811,7 +1811,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T11:41:48.368Z",
+       "end": "2026-11-20T11:51:47.838Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3172,7 +3172,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T11:41:48.369Z",
+       "end": "2026-11-20T11:51:47.840Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4818,11 +4818,11 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T11:41:48.370Z",
+       "end": "2026-11-20T11:51:47.840Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
-       "game": "PUBG: BATTLEGROUNDS",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
