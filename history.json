@@ -1800,7 +1800,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T07:11:33.710Z",
+       "end": "2026-11-20T07:21:32.034Z",
        "end_source": "poll",
        "live": true,
        "title": "パワプロ 小学生以来プレイ←雑談",
@@ -5626,11 +5626,11 @@
       {
        "stream_id": "316736155249",
        "start": "2026-11-20T06:29:28.000Z",
-       "end": "2026-11-20T07:11:33.712Z",
+       "end": "2026-11-20T07:21:32.036Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習①(Arc,OW)",
-       "game": "ARC Raiders",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/bakumatsu_shishi",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
