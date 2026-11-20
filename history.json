@@ -1042,7 +1042,7 @@
       {
        "stream_id": "316737057009",
        "start": "2026-11-20T11:11:18.000Z",
-       "end": "2026-11-20T12:31:48.329Z",
+       "end": "2026-11-20T12:41:47.861Z",
        "end_source": "poll",
        "live": true,
        "title": "飯食ってアンティルドーン",
@@ -1811,7 +1811,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T12:31:48.330Z",
+       "end": "2026-11-20T12:41:47.862Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3172,7 +3172,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T12:31:48.331Z",
+       "end": "2026-11-20T12:41:47.863Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4818,7 +4818,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T12:31:48.332Z",
+       "end": "2026-11-20T12:41:47.864Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5493,6 +5493,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2933540960",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c481ea142bb39467cddc_batora324_316732532849_1795083431//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316737494129",
+       "start": "2026-11-20T12:33:10.000Z",
+       "end": "2026-11-20T12:41:47.864Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "やります、か",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -5980,7 +5991,7 @@
       {
        "stream_id": "YY7ppTkNMtg",
        "start": "2026-11-20T12:02:35.000Z",
-       "end": "2026-11-20T12:31:48.332Z",
+       "end": "2026-11-20T12:41:47.864Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS 真の最終回「さらば光の勇者」",
