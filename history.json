@@ -1031,7 +1031,7 @@
       {
        "stream_id": "316735252593",
        "start": "2026-11-20T00:41:26.000Z",
-       "end": "2026-11-20T01:11:21.597Z",
+       "end": "2026-11-20T01:21:20.746Z",
        "end_source": "poll",
        "live": true,
        "title": "ROB RUNしてからいろいろやる",
@@ -4304,7 +4304,7 @@
       {
        "stream_id": "jUMlscKyP9Y",
        "start": "2026-11-19T23:37:52.000Z",
-       "end": "2026-11-20T01:11:21.600Z",
+       "end": "2026-11-20T01:21:20.749Z",
        "end_source": "poll",
        "live": true,
        "title": "ただただ暴落。アンソロピック上場もアメリカの株価は激下げ。驚異の毎日マンデー5日目連続下げ。AMDショックがあまりにキツすぎる件。頼む！ちょいアゲでも！せめて元気よく！朝の寄り付き株ライブ生放送！！",
@@ -5441,14 +5441,14 @@
       },
       {
        "stream_id": "316732532849",
-       "start": "2026-11-19T10:17:11.000Z",
-       "end": "2026-11-20T01:11:21.600Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-19T10:17:16.000Z",
+       "end": "2026-11-20T01:19:37.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "オーバーウォッチやてみる",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2933540960",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c481ea142bb39467cddc_batora324_316732532849_1795083431//thumb/thumb0-320x180.jpg"
       }
      ]
     }
