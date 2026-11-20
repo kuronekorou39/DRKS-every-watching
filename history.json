@@ -1800,11 +1800,11 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T06:21:32.196Z",
+       "end": "2026-11-20T06:31:32.991Z",
        "end_source": "poll",
        "live": true,
-       "title": "雑談",
-       "game": "Just Chatting",
+       "title": "パワプロ 小学生以来プレイ←雑談",
+       "game": "Powerful Pro Yakyuu 2026-2027",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -5622,6 +5622,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2933559589",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5462f3f35628981d152d_bakumatsu_shishi_316744725874_1795085505//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316736155249",
+       "start": "2026-11-20T06:29:28.000Z",
+       "end": "2026-11-20T06:31:32.993Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのハイゲ練習①(Arc,OW)",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
