@@ -1053,7 +1053,7 @@
       {
        "stream_id": "316812228979",
        "start": "2026-11-20T16:06:18.000Z",
-       "end": "2026-11-20T17:32:01.071Z",
+       "end": "2026-11-20T17:42:00.729Z",
        "end_source": "poll",
        "live": true,
        "title": "ROB RUNING純一",
@@ -3183,7 +3183,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T17:32:01.073Z",
+       "end": "2026-11-20T17:42:00.731Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -5530,7 +5530,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-20T17:32:01.074Z",
+       "end": "2026-11-20T17:42:00.732Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
@@ -5713,14 +5713,14 @@
       },
       {
        "stream_id": "316750244850",
-       "start": "2026-11-20T14:53:30.000Z",
-       "end": "2026-11-20T17:32:01.075Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-20T14:53:35.000Z",
+       "end": "2026-11-20T17:33:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ピエロのOWハイゲ練習",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2934968296",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1bab87b3d10e1e737842_bakumatsu_shishi_316750244850_1795186410//thumb/thumb0-320x180.jpg"
       }
      ]
     },
