@@ -1042,7 +1042,7 @@
       {
        "stream_id": "316737057009",
        "start": "2026-11-20T11:11:18.000Z",
-       "end": "2026-11-20T13:21:47.976Z",
+       "end": "2026-11-20T13:31:48.021Z",
        "end_source": "poll",
        "live": true,
        "title": "until dawn 全クリまでやる",
@@ -1811,7 +1811,7 @@
       {
        "stream_id": "316809724915",
        "start": "2026-11-20T05:56:39.000Z",
-       "end": "2026-11-20T13:21:47.977Z",
+       "end": "2026-11-20T13:31:48.022Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←１０＋１の模擬練習←小学生以来プレイ←雑談",
@@ -3172,7 +3172,7 @@
       {
        "stream_id": "316736543857",
        "start": "2026-11-20T08:43:54.000Z",
-       "end": "2026-11-20T13:21:47.978Z",
+       "end": "2026-11-20T13:31:48.023Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！！",
@@ -4818,7 +4818,7 @@
       {
        "stream_id": "316748438898",
        "start": "2026-11-20T08:03:29.000Z",
-       "end": "2026-11-20T13:21:47.978Z",
+       "end": "2026-11-20T13:31:48.024Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ頑張るぞ！",
@@ -5497,11 +5497,11 @@
       {
        "stream_id": "316737494129",
        "start": "2026-11-20T12:33:10.000Z",
-       "end": "2026-11-20T13:21:47.979Z",
+       "end": "2026-11-20T13:31:48.024Z",
        "end_source": "poll",
        "live": true,
-       "title": "やります、か",
-       "game": "Just Chatting",
+       "title": "赤帯に行くいかなければならない",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/batora324",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
@@ -5991,13 +5991,24 @@
       {
        "stream_id": "YY7ppTkNMtg",
        "start": "2026-11-20T12:02:35.000Z",
-       "end": "2026-11-20T13:21:47.979Z",
+       "end": "2026-11-20T13:23:07.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "幕末志士のDARK SOULS 真の最終回「さらば光の勇者」",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=YY7ppTkNMtg",
+       "thumb": "https://i.ytimg.com/vi/YY7ppTkNMtg/mqdefault.jpg"
+      },
+      {
+       "stream_id": "wRfqs_PfEdg",
+       "start": "2026-11-20T13:24:50.000Z",
+       "end": "2026-11-20T13:31:48.024Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のDARK SOULS 真の最終回「さらば光の勇者」",
        "game": null,
-       "url": "https://www.youtube.com/watch?v=YY7ppTkNMtg",
-       "thumb": "https://i.ytimg.com/vi/YY7ppTkNMtg/mqdefault.jpg?v=6b000bad"
+       "url": "https://www.youtube.com/watch?v=wRfqs_PfEdg",
+       "thumb": "https://i.ytimg.com/vi/wRfqs_PfEdg/mqdefault.jpg?v=6b0049ef"
       }
      ]
     }
