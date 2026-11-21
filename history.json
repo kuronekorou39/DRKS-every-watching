@@ -1844,11 +1844,11 @@
       {
        "stream_id": "316740990449",
        "start": "2026-11-21T07:44:21.000Z",
-       "end": "2026-11-21T09:42:49.446Z",
+       "end": "2026-11-21T09:52:49.383Z",
        "end_source": "poll",
        "live": true,
-       "title": "雑談パワプロ打球練習からはじまるぞ、放送！",
-       "game": "Powerful Pro Yakyuu 2026-2027",
+       "title": "息抜きにスマブラしようぜ←雑談パワプロ打球練習からはじまるぞ、放送！",
+       "game": "Super Smash Bros. Ultimate",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -3227,7 +3227,7 @@
       {
        "stream_id": "316740916977",
        "start": "2026-11-21T07:24:29.000Z",
-       "end": "2026-11-21T09:42:49.447Z",
+       "end": "2026-11-21T09:52:49.384Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレス初見プレイ",
@@ -4891,6 +4891,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2934732080",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9b377d2e6752be115c94_assarisyoko1_316748438898_1795161809//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316815188083",
+       "start": "2026-11-21T09:44:44.000Z",
+       "end": "2026-11-21T09:52:49.384Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "なにかする",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
@@ -5574,7 +5585,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-21T09:42:49.448Z",
+       "end": "2026-11-21T09:52:49.384Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
