@@ -1063,14 +1063,14 @@
       },
       {
        "stream_id": "316740093041",
-       "start": "2026-11-21T03:21:24.000Z",
-       "end": "2026-11-21T07:42:31.658Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-21T03:21:29.000Z",
+       "end": "2026-11-21T07:50:02.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "１３時まで一旦ROB RUNING純一",
        "game": "ROB RUN",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2935737138",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/60fc88af3bb5c371d492_kato_junichi0817_316740093041_1795231284//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -1840,6 +1840,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2934671318",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/eace894a588df999f902_indegnasen0706_316809724915_1795154199//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316740990449",
+       "start": "2026-11-21T07:44:21.000Z",
+       "end": "2026-11-21T07:52:32.696Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "雑談パワプロ打球練習からはじまるぞ、放送！",
+       "game": "Powerful Pro Yakyuu 2026-2027",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -3216,7 +3227,7 @@
       {
        "stream_id": "316740916977",
        "start": "2026-11-21T07:24:29.000Z",
-       "end": "2026-11-21T07:42:31.660Z",
+       "end": "2026-11-21T07:52:32.697Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレス初見プレイ",
@@ -5563,7 +5574,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-21T07:42:31.661Z",
+       "end": "2026-11-21T07:52:32.698Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
