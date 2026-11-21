@@ -1060,6 +1060,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2935034139",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b1a66aaea4a5c447051a_kato_junichi0817_316812228979_1795190778//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316740093041",
+       "start": "2026-11-21T03:21:24.000Z",
+       "end": "2026-11-21T03:22:17.252Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "１３時まで一旦ROB RUNING純一",
+       "game": "ROB RUN",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -2394,7 +2405,7 @@
       {
        "stream_id": "kick-2026-11-21T02:43:34.000Z",
        "start": "2026-11-21T02:43:34.000Z",
-       "end": "2026-11-21T03:12:17.728Z",
+       "end": "2026-11-21T03:22:17.254Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲやばい",
@@ -5541,7 +5552,7 @@
       {
        "stream_id": "316750312690",
        "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-21T03:12:17.729Z",
+       "end": "2026-11-21T03:22:17.254Z",
        "end_source": "poll",
        "live": true,
        "title": "XP2000目標",
