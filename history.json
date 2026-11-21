@@ -1844,7 +1844,7 @@
       {
        "stream_id": "316740990449",
        "start": "2026-11-21T07:44:21.000Z",
-       "end": "2026-11-21T13:42:49.389Z",
+       "end": "2026-11-21T13:52:49.681Z",
        "end_source": "poll",
        "live": true,
        "title": "ふぉいにPUBを教える←息抜きにマリメ２をしたいです←息抜きにスマブラしようぜ←雑談パワプロ打球練習からはじまるぞ、放送！",
@@ -3227,7 +3227,7 @@
       {
        "stream_id": "316740916977",
        "start": "2026-11-21T07:24:29.000Z",
-       "end": "2026-11-21T13:42:49.390Z",
+       "end": "2026-11-21T13:52:49.681Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレス初見プレイ",
@@ -3532,7 +3532,7 @@
       {
        "stream_id": "316741855473",
        "start": "2026-11-21T11:37:07.000Z",
-       "end": "2026-11-21T13:42:49.390Z",
+       "end": "2026-11-21T13:52:49.682Z",
        "end_source": "poll",
        "live": true,
        "title": "こんな世の中だからこそ。かくれんぼゲームを極める。つらい現状から隠れたい男。めっちゃカメレオン！！※暴言等の過度なコメントは私が直接ぶった斬りますので控えめにヨロ！",
@@ -4906,7 +4906,7 @@
       {
        "stream_id": "316815188083",
        "start": "2026-11-21T09:44:44.000Z",
-       "end": "2026-11-21T13:42:49.390Z",
+       "end": "2026-11-21T13:52:49.682Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5595,14 +5595,14 @@
       },
       {
        "stream_id": "316750312690",
-       "start": "2026-11-20T15:10:28.000Z",
-       "end": "2026-11-21T13:42:49.390Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-20T15:10:33.000Z",
+       "end": "2026-11-21T13:43:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "XP2000目標",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2934983925",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/5c47d970a914232d46ba_batora324_316750312690_1795187428//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5791,7 +5791,7 @@
       {
        "stream_id": "316742285425",
        "start": "2026-11-21T12:51:49.000Z",
-       "end": "2026-11-21T13:42:49.390Z",
+       "end": "2026-11-21T13:52:49.682Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習二日目(OW)",
