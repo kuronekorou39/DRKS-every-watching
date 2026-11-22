@@ -1866,7 +1866,7 @@
       {
        "stream_id": "316819494387",
        "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T09:23:36.070Z",
+       "end": "2026-11-22T09:33:35.579Z",
        "end_source": "poll",
        "live": true,
        "title": "息抜きマリオメーカー２",
@@ -2445,6 +2445,17 @@
        "game": "IRL",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/6jDUGoV2Bc2y/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-22T09:28:12.000Z",
+       "start": "2026-11-22T09:28:12.000Z",
+       "end": "2026-11-22T09:33:35.579Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "王の帰還",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/8XApwAtLFDCd/480.webp"
       }
      ]
     }
@@ -3260,7 +3271,7 @@
       {
        "stream_id": "316756808690",
        "start": "2026-11-22T03:49:45.000Z",
-       "end": "2026-11-22T09:23:36.070Z",
+       "end": "2026-11-22T09:33:35.580Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレスガッツリいこう",
@@ -4950,7 +4961,7 @@
       {
        "stream_id": "316819053555",
        "start": "2026-11-22T05:34:39.000Z",
-       "end": "2026-11-22T09:23:36.071Z",
+       "end": "2026-11-22T09:33:35.580Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかするゲームする",
@@ -5651,7 +5662,7 @@
       {
        "stream_id": "316756188530",
        "start": "2026-11-22T00:07:16.000Z",
-       "end": "2026-11-22T09:23:36.071Z",
+       "end": "2026-11-22T09:33:35.580Z",
        "end_source": "poll",
        "live": true,
        "title": "日課のパワプロ練習→息抜きスプラXマッチ",
@@ -5857,10 +5868,10 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T09:23:36.071Z",
+       "end": "2026-11-22T09:33:35.580Z",
        "end_source": "poll",
        "live": true,
-       "title": "ピエロのハイゲ練習三日目(ARK、PUBG、OW)",
+       "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/bakumatsu_shishi",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
