@@ -1071,6 +1071,17 @@
        "game": "ROB RUN",
        "url": "https://www.twitch.tv/videos/2935737138",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/60fc88af3bb5c371d492_kato_junichi0817_316740093041_1795231284//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316818391923",
+       "start": "2026-11-22T02:05:17.000Z",
+       "end": "2026-11-22T02:13:25.720Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "色々",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -5607,7 +5618,7 @@
       {
        "stream_id": "316756188530",
        "start": "2026-11-22T00:07:16.000Z",
-       "end": "2026-11-22T02:03:25.081Z",
+       "end": "2026-11-22T02:13:25.722Z",
        "end_source": "poll",
        "live": true,
        "title": "日課のパワプロ練習→息抜きスプラXマッチ",
