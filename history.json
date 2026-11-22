@@ -1866,7 +1866,7 @@
       {
        "stream_id": "316819494387",
        "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T09:03:34.759Z",
+       "end": "2026-11-22T09:13:35.542Z",
        "end_source": "poll",
        "live": true,
        "title": "息抜きマリオメーカー２",
@@ -3260,7 +3260,7 @@
       {
        "stream_id": "316756808690",
        "start": "2026-11-22T03:49:45.000Z",
-       "end": "2026-11-22T09:03:34.760Z",
+       "end": "2026-11-22T09:13:35.543Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレスガッツリいこう",
@@ -4950,7 +4950,7 @@
       {
        "stream_id": "316819053555",
        "start": "2026-11-22T05:34:39.000Z",
-       "end": "2026-11-22T09:03:34.760Z",
+       "end": "2026-11-22T09:13:35.543Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかするゲームする",
@@ -5651,7 +5651,7 @@
       {
        "stream_id": "316756188530",
        "start": "2026-11-22T00:07:16.000Z",
-       "end": "2026-11-22T09:03:34.761Z",
+       "end": "2026-11-22T09:13:35.543Z",
        "end_source": "poll",
        "live": true,
        "title": "日課のパワプロ練習→息抜きスプラXマッチ",
@@ -5853,6 +5853,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2936075286",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/df90c3a5ac11c8ec1fd6_bakumatsu_shishi_316742285425_1795265509//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316746172401",
+       "start": "2026-11-22T09:03:39.000Z",
+       "end": "2026-11-22T09:13:35.544Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのハイゲ練習三日目(ARK、PUBG、OW)",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
