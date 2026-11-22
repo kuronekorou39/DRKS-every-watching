@@ -1866,7 +1866,7 @@
       {
        "stream_id": "316819494387",
        "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T16:23:46.035Z",
+       "end": "2026-11-22T16:33:46.544Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBG←あゆたろうとフォイとでスプラやろうかな←息抜きマリオメーカー２",
@@ -3586,14 +3586,14 @@
       },
       {
        "stream_id": "316746695793",
-       "start": "2026-11-22T11:23:41.000Z",
-       "end": "2026-11-22T16:23:46.036Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-22T11:23:46.000Z",
+       "end": "2026-11-22T16:25:31.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "「芸術の秋」「かくれんぼの秋」「創造性の秋」めっちゃカメレオンのマスターとなるべく今日も筆を握る。",
        "game": "MECCHA CHAMELEON",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2937197560",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ecb2abd617bc644f9bc5_oniyadayo_316746695793_1795346620//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -5695,7 +5695,7 @@
       {
        "stream_id": "316820144243",
        "start": "2026-11-22T10:58:10.000Z",
-       "end": "2026-11-22T16:23:46.037Z",
+       "end": "2026-11-22T16:33:46.546Z",
        "end_source": "poll",
        "live": true,
        "title": "しんじさん、ゆのしーさん、坂本さんとPUBG",
@@ -5901,7 +5901,7 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T16:23:46.037Z",
+       "end": "2026-11-22T16:33:46.546Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
