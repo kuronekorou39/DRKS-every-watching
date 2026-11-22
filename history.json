@@ -1866,7 +1866,7 @@
       {
        "stream_id": "316819494387",
        "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T10:53:35.880Z",
+       "end": "2026-11-22T11:03:36.597Z",
        "end_source": "poll",
        "live": true,
        "title": "あゆたろうとフォイとでスプラやろうかな←息抜きマリオメーカー２",
@@ -3271,7 +3271,7 @@
       {
        "stream_id": "316756808690",
        "start": "2026-11-22T03:49:45.000Z",
-       "end": "2026-11-22T10:53:35.880Z",
+       "end": "2026-11-22T11:03:36.598Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレスガッツリいこう",
@@ -4961,11 +4961,11 @@
       {
        "stream_id": "316819053555",
        "start": "2026-11-22T05:34:39.000Z",
-       "end": "2026-11-22T10:53:35.881Z",
+       "end": "2026-11-22T11:03:36.599Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかするゲームする",
-       "game": "Splatoon 3",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
@@ -5669,6 +5669,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2936744501",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f37a0efe0ff921e4785e_batora324_316756188530_1795306036//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316820144243",
+       "start": "2026-11-22T10:58:10.000Z",
+       "end": "2026-11-22T11:03:36.599Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "しんじさん、ゆのしーさん、坂本さんとPUBG",
+       "game": "PUBG: BATTLEGROUNDS",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -5868,7 +5879,7 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T10:53:35.881Z",
+       "end": "2026-11-22T11:03:36.599Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
