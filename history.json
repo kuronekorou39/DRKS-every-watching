@@ -1868,7 +1868,7 @@
        "start": "2026-11-22T07:44:33.000Z",
        "end": "2026-11-22T18:03:46.509Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "PUBG←あゆたろうとフォイとでスプラやろうかな←息抜きマリオメーカー２",
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
@@ -5695,7 +5695,7 @@
       {
        "stream_id": "316820144243",
        "start": "2026-11-22T10:58:10.000Z",
-       "end": "2026-11-22T18:03:46.510Z",
+       "end": "2026-11-22T18:13:46.084Z",
        "end_source": "poll",
        "live": true,
        "title": "しんじさん、ゆのしーさん、坂本さんとPUBG",
@@ -5901,7 +5901,7 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T18:03:46.511Z",
+       "end": "2026-11-22T18:13:46.084Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
