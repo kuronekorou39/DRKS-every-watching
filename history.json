@@ -5694,14 +5694,14 @@
       },
       {
        "stream_id": "316820144243",
-       "start": "2026-11-22T10:58:10.000Z",
-       "end": "2026-11-22T18:13:46.084Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-22T10:58:15.000Z",
+       "end": "2026-11-22T18:22:57.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "しんじさん、ゆのしーさん、坂本さんとPUBG",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2937182633",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f9461a82736e6b8b323d_batora324_316820144243_1795345090//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5901,7 +5901,7 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T18:13:46.084Z",
+       "end": "2026-11-22T18:23:59.521Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
