@@ -1866,7 +1866,7 @@
       {
        "stream_id": "316819494387",
        "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T11:23:36.468Z",
+       "end": "2026-11-22T11:33:36.487Z",
        "end_source": "poll",
        "live": true,
        "title": "あゆたろうとフォイとでスプラやろうかな←息抜きマリオメーカー２",
@@ -3271,7 +3271,7 @@
       {
        "stream_id": "316756808690",
        "start": "2026-11-22T03:49:45.000Z",
-       "end": "2026-11-22T11:23:36.469Z",
+       "end": "2026-11-22T11:33:36.488Z",
        "end_source": "poll",
        "live": true,
        "title": "プロレスガッツリいこう",
@@ -3583,6 +3583,17 @@
        "game": null,
        "url": "https://www.twitch.tv/videos/2936025476",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4e4d4821f11a7f014f6e_oniyadayo_316741855473_1795261027//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316746695793",
+       "start": "2026-11-22T11:23:41.000Z",
+       "end": "2026-11-22T11:33:36.488Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "「芸術の秋」「かくれんぼの秋」「創造性の秋」めっちゃカメレオンのマスターとなるべく今日も筆を握る。",
+       "game": "MECCHA CHAMELEON",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -4961,7 +4972,7 @@
       {
        "stream_id": "316819053555",
        "start": "2026-11-22T05:34:39.000Z",
-       "end": "2026-11-22T11:23:36.469Z",
+       "end": "2026-11-22T11:33:36.488Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかするゲームする",
@@ -5673,7 +5684,7 @@
       {
        "stream_id": "316820144243",
        "start": "2026-11-22T10:58:10.000Z",
-       "end": "2026-11-22T11:23:36.469Z",
+       "end": "2026-11-22T11:33:36.488Z",
        "end_source": "poll",
        "live": true,
        "title": "しんじさん、ゆのしーさん、坂本さんとPUBG",
@@ -5879,7 +5890,7 @@
       {
        "stream_id": "316746172401",
        "start": "2026-11-22T09:03:39.000Z",
-       "end": "2026-11-22T11:23:36.469Z",
+       "end": "2026-11-22T11:33:36.488Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習三日目(ARC、PUBG、OW)",
