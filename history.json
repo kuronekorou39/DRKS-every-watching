@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T08:54:24.008Z",
+       "end": "2026-11-23T09:04:24.281Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞを数字で応援してパワプロでﾊｲｹﾞに使う選手を爆誕させる",
@@ -1888,7 +1888,7 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T08:54:24.009Z",
+       "end": "2026-11-23T09:04:24.282Z",
        "end_source": "poll",
        "live": true,
        "title": "まずはパワプロバッティング練習モード雑談",
@@ -3311,6 +3311,17 @@
        "game": "MECCHA CHAMELEON",
        "url": "https://www.twitch.tv/videos/2936948610",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/682844ede391a246c203_yuyuta0702_316756808690_1795319385//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316750767729",
+       "start": "2026-11-23T09:00:14.000Z",
+       "end": "2026-11-23T09:04:24.283Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "押忍！！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
@@ -5027,7 +5038,7 @@
       {
        "stream_id": "316824336627",
        "start": "2026-11-23T08:29:28.000Z",
-       "end": "2026-11-23T08:54:24.010Z",
+       "end": "2026-11-23T09:04:24.283Z",
        "end_source": "poll",
        "live": true,
        "title": "18時から",
