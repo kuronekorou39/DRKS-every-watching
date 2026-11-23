@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T09:34:23.244Z",
+       "end": "2026-11-23T09:44:24.977Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾊｲｹﾞのパワプロで使う選手を作成する",
@@ -1888,11 +1888,11 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T09:34:23.245Z",
+       "end": "2026-11-23T09:44:24.978Z",
        "end_source": "poll",
        "live": true,
-       "title": "まずはパワプロバッティング練習モード雑談",
-       "game": "Powerful Pro Yakyuu 2026-2027",
+       "title": "息抜きマリメる←まずはパワプロバッティング練習モード雑談",
+       "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -3315,7 +3315,7 @@
       {
        "stream_id": "316750767729",
        "start": "2026-11-23T09:00:14.000Z",
-       "end": "2026-11-23T09:34:23.246Z",
+       "end": "2026-11-23T09:44:24.979Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -3638,6 +3638,17 @@
        "game": "MECCHA CHAMELEON",
        "url": "https://www.twitch.tv/videos/2937197560",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ecb2abd617bc644f9bc5_oniyadayo_316746695793_1795346620//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316750893425",
+       "start": "2026-11-23T09:39:22.000Z",
+       "end": "2026-11-23T09:39:48.000Z",
+       "end_source": "vod",
+       "live": false,
+       "title": "関優太チーム！ハイゲ顔合わせ。チーム練習いくぜぇええ！！！",
+       "game": null,
+       "url": "https://www.twitch.tv/videos/2938231475",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c54fd3f80bf5e2c53843_oniyadayo_316750893425_1795426757//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -5038,7 +5049,7 @@
       {
        "stream_id": "316824336627",
        "start": "2026-11-23T08:29:28.000Z",
-       "end": "2026-11-23T09:34:23.246Z",
+       "end": "2026-11-23T09:44:24.979Z",
        "end_source": "poll",
        "live": true,
        "title": "18時から",
@@ -5967,7 +5978,7 @@
       {
        "stream_id": "316762492146",
        "start": "2026-11-23T09:29:42.000Z",
-       "end": "2026-11-23T09:34:23.247Z",
+       "end": "2026-11-23T09:44:24.980Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのスプラ練習",
