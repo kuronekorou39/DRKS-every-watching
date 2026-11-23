@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T11:34:35.635Z",
+       "end": "2026-11-23T11:44:35.918Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾊｲｹﾞのパワプロで使う選手を作成する",
@@ -1888,7 +1888,7 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T11:34:35.636Z",
+       "end": "2026-11-23T11:44:35.919Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGチーデスをする←息抜きマリメる←まずはパワプロバッティング練習モード雑談",
@@ -3315,7 +3315,7 @@
       {
        "stream_id": "316750767729",
        "start": "2026-11-23T09:00:14.000Z",
-       "end": "2026-11-23T11:34:35.637Z",
+       "end": "2026-11-23T11:44:35.920Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -3649,6 +3649,17 @@
        "game": null,
        "url": "https://www.twitch.tv/videos/2938231475",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c54fd3f80bf5e2c53843_oniyadayo_316750893425_1795426757//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316751373297",
+       "start": "2026-11-23T11:41:15.000Z",
+       "end": "2026-11-23T11:44:35.921Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "関優太チーム！ハイゲ顔合わせ。チームPUBG練習いくぜぇええ！！！",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -5049,7 +5060,7 @@
       {
        "stream_id": "316824336627",
        "start": "2026-11-23T08:29:28.000Z",
-       "end": "2026-11-23T11:34:35.638Z",
+       "end": "2026-11-23T11:44:35.921Z",
        "end_source": "poll",
        "live": true,
        "title": "18時から",
@@ -5978,7 +5989,7 @@
       {
        "stream_id": "316762492146",
        "start": "2026-11-23T09:29:42.000Z",
-       "end": "2026-11-23T11:34:35.639Z",
+       "end": "2026-11-23T11:44:35.922Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのスプラ練習",
