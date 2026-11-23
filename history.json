@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T08:24:23.220Z",
+       "end": "2026-11-23T08:34:24.036Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞを数字で応援してパワプロでﾊｲｹﾞに使う選手を爆誕させる",
@@ -1888,7 +1888,7 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T08:24:23.221Z",
+       "end": "2026-11-23T08:34:24.037Z",
        "end_source": "poll",
        "live": true,
        "title": "まずはパワプロバッティング練習モード雑談",
@@ -5023,6 +5023,17 @@
        "game": "Powerful Pro Yakyuu 2026-2027",
        "url": "https://www.twitch.tv/videos/2937218613",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1b0bc58e245bbb3a6e0e_assarisyoko1_316820436211_1795348710//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316824336627",
+       "start": "2026-11-23T08:29:28.000Z",
+       "end": "2026-11-23T08:34:24.038Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "18時から",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
