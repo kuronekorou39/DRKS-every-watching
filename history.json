@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T12:24:36.828Z",
+       "end": "2026-11-23T12:34:36.108Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾊｲｹﾞのパワプロで使う選手を作成する",
@@ -1888,7 +1888,7 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T12:24:36.829Z",
+       "end": "2026-11-23T12:34:36.109Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGチーデスをする←息抜きマリメる←まずはパワプロバッティング練習モード雑談",
@@ -3315,7 +3315,7 @@
       {
        "stream_id": "316750767729",
        "start": "2026-11-23T09:00:14.000Z",
-       "end": "2026-11-23T12:24:36.830Z",
+       "end": "2026-11-23T12:34:36.110Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -3653,7 +3653,7 @@
       {
        "stream_id": "316751373297",
        "start": "2026-11-23T11:41:15.000Z",
-       "end": "2026-11-23T12:24:36.831Z",
+       "end": "2026-11-23T12:34:36.110Z",
        "end_source": "poll",
        "live": true,
        "title": "関優太チーム！ハイゲ顔合わせ。チームPUBG練習いくぜぇええ！！！",
@@ -5060,7 +5060,7 @@
       {
        "stream_id": "316824336627",
        "start": "2026-11-23T08:29:28.000Z",
-       "end": "2026-11-23T12:24:36.831Z",
+       "end": "2026-11-23T12:34:36.111Z",
        "end_source": "poll",
        "live": true,
        "title": "18時から",
@@ -5996,6 +5996,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2938227994",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/1d6a3de1fba289d01e08_bakumatsu_shishi_316762492146_1795426182//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316751640689",
+       "start": "2026-11-23T12:30:21.000Z",
+       "end": "2026-11-23T12:34:36.111Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのハイゲ練習４日目(カメレオン、OW)",
+       "game": "Overwatch",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
