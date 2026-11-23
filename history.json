@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T07:14:24.095Z",
+       "end": "2026-11-23T07:24:23.185Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞを数字で応援してパワプロでﾊｲｹﾞに使う選手を爆誕させる",
@@ -1876,19 +1876,19 @@
       },
       {
        "stream_id": "316819494387",
-       "start": "2026-11-22T07:44:33.000Z",
-       "end": "2026-11-22T18:03:46.509Z",
-       "end_source": "poll",
+       "start": "2026-11-22T07:44:39.000Z",
+       "end": "2026-11-22T18:06:20.000Z",
+       "end_source": "vod",
        "live": false,
        "title": "PUBG←あゆたろうとフォイとでスプラやろうかな←息抜きマリオメーカー２",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2937089527",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c020127eeaac0536c129_indegnasen0706_316819494387_1795333473//thumb/thumb0-320x180.jpg"
       },
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T07:14:24.096Z",
+       "end": "2026-11-23T07:24:23.185Z",
        "end_source": "poll",
        "live": true,
        "title": "まずはパワプロバッティング練習モード雑談",
@@ -2482,7 +2482,7 @@
       {
        "stream_id": "kick-2026-11-23T04:14:39.000Z",
        "start": "2026-11-23T04:14:39.000Z",
-       "end": "2026-11-23T07:14:24.096Z",
+       "end": "2026-11-23T07:24:23.186Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
