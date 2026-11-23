@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T19:24:57.638Z",
+       "end": "2026-11-23T19:34:56.602Z",
        "end_source": "poll",
        "live": true,
        "title": "OW秘密のトレーニング",
@@ -5793,14 +5793,14 @@
       },
       {
        "stream_id": "316825474675",
-       "start": "2026-11-23T12:50:54.000Z",
-       "end": "2026-11-23T19:24:57.640Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-23T12:50:59.000Z",
+       "end": "2026-11-23T19:31:14.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "とりあえずXP1800いきたい",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2938314899",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3717cd0c02e9d4be4e78_batora324_316825474675_1795438254//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -6022,7 +6022,7 @@
       {
        "stream_id": "316751640689",
        "start": "2026-11-23T12:30:21.000Z",
-       "end": "2026-11-23T19:24:57.641Z",
+       "end": "2026-11-23T19:34:56.604Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習４日目(カメレオン、OW)",
