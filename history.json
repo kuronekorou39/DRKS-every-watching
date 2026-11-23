@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T07:04:24.068Z",
+       "end": "2026-11-23T07:14:24.095Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞを数字で応援してパワプロでﾊｲｹﾞに使う選手を爆誕させる",
@@ -1884,6 +1884,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+      },
+      {
+       "stream_id": "316824076147",
+       "start": "2026-11-23T07:09:00.000Z",
+       "end": "2026-11-23T07:14:24.096Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "まずはパワプロバッティング練習モード雑談",
+       "game": "Powerful Pro Yakyuu 2026-2027",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -2471,7 +2482,7 @@
       {
        "stream_id": "kick-2026-11-23T04:14:39.000Z",
        "start": "2026-11-23T04:14:39.000Z",
-       "end": "2026-11-23T07:04:24.069Z",
+       "end": "2026-11-23T07:14:24.096Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
