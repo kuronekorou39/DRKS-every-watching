@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T04:14:10.686Z",
+       "end": "2026-11-23T04:24:10.362Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾑﾗｹﾞを数字で応援してパワプロでﾊｲｹﾞに使う選手を爆誕させる",
@@ -2467,6 +2467,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/8XApwAtLFDCd/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-23T04:14:39.000Z",
+       "start": "2026-11-23T04:14:39.000Z",
+       "end": "2026-11-23T04:24:10.363Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "あ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/C2oLSWZhkl0a/480.webp"
       }
      ]
     }
