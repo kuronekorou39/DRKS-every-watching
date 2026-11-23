@@ -1085,14 +1085,14 @@
       },
       {
        "stream_id": "316749782129",
-       "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T19:34:56.602Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-23T04:13:02.000Z",
+       "end": "2026-11-23T19:39:09.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "OW秘密のトレーニング",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2938086338",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c80841b8e5a9459074e8_kato_junichi0817_316749782129_1795407177//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -6022,7 +6022,7 @@
       {
        "stream_id": "316751640689",
        "start": "2026-11-23T12:30:21.000Z",
-       "end": "2026-11-23T19:34:56.604Z",
+       "end": "2026-11-23T19:44:55.636Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習４日目(カメレオン、OW)",
