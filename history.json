@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T17:04:54.760Z",
+       "end": "2026-11-23T17:14:56.302Z",
        "end_source": "poll",
        "live": true,
        "title": "OW秘密のトレーニング",
@@ -3314,14 +3314,14 @@
       },
       {
        "stream_id": "316750767729",
-       "start": "2026-11-23T09:00:14.000Z",
-       "end": "2026-11-23T17:04:54.761Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-23T09:00:19.000Z",
+       "end": "2026-11-23T17:12:16.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "押忍！！！！",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2938217073",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9a845a4899480973c869_yuyuta0702_316750767729_1795424414//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5794,7 +5794,7 @@
       {
        "stream_id": "316825474675",
        "start": "2026-11-23T12:50:54.000Z",
-       "end": "2026-11-23T17:04:54.762Z",
+       "end": "2026-11-23T17:14:56.304Z",
        "end_source": "poll",
        "live": true,
        "title": "とりあえずXP1800いきたい",
@@ -6022,7 +6022,7 @@
       {
        "stream_id": "316751640689",
        "start": "2026-11-23T12:30:21.000Z",
-       "end": "2026-11-23T17:04:54.762Z",
+       "end": "2026-11-23T17:14:56.305Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習４日目(カメレオン、OW)",
