@@ -1086,7 +1086,7 @@
       {
        "stream_id": "316749782129",
        "start": "2026-11-23T04:12:57.000Z",
-       "end": "2026-11-23T12:44:35.745Z",
+       "end": "2026-11-23T12:54:36.654Z",
        "end_source": "poll",
        "live": true,
        "title": "ﾊｲｹﾞのパワプロで使う選手を作成する",
@@ -1888,7 +1888,7 @@
       {
        "stream_id": "316824076147",
        "start": "2026-11-23T07:09:00.000Z",
-       "end": "2026-11-23T12:44:35.746Z",
+       "end": "2026-11-23T12:54:36.655Z",
        "end_source": "poll",
        "live": true,
        "title": "PUBGチーデスをする←息抜きマリメる←まずはパワプロバッティング練習モード雑談",
@@ -3315,7 +3315,7 @@
       {
        "stream_id": "316750767729",
        "start": "2026-11-23T09:00:14.000Z",
-       "end": "2026-11-23T12:44:35.747Z",
+       "end": "2026-11-23T12:54:36.657Z",
        "end_source": "poll",
        "live": true,
        "title": "押忍！！！！",
@@ -3653,7 +3653,7 @@
       {
        "stream_id": "316751373297",
        "start": "2026-11-23T11:41:15.000Z",
-       "end": "2026-11-23T12:44:35.747Z",
+       "end": "2026-11-23T12:54:36.657Z",
        "end_source": "poll",
        "live": true,
        "title": "関優太チーム！ハイゲ顔合わせ。チームPUBG練習いくぜぇええ！！！",
@@ -5060,7 +5060,7 @@
       {
        "stream_id": "316824336627",
        "start": "2026-11-23T08:29:28.000Z",
-       "end": "2026-11-23T12:44:35.748Z",
+       "end": "2026-11-23T12:54:36.657Z",
        "end_source": "poll",
        "live": true,
        "title": "18時から",
@@ -5779,6 +5779,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2937182633",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/f9461a82736e6b8b323d_batora324_316820144243_1795345090//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316825474675",
+       "start": "2026-11-23T12:50:54.000Z",
+       "end": "2026-11-23T12:54:36.658Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "もこうチーム集結",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -6000,7 +6011,7 @@
       {
        "stream_id": "316751640689",
        "start": "2026-11-23T12:30:21.000Z",
-       "end": "2026-11-23T12:44:35.748Z",
+       "end": "2026-11-23T12:54:36.658Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲ練習４日目(カメレオン、OW)",
