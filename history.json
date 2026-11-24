@@ -3359,7 +3359,7 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T15:35:50.199Z",
+       "end": "2026-11-24T15:45:50.079Z",
        "end_source": "poll",
        "live": true,
        "title": "野球",
@@ -4612,7 +4612,7 @@
       {
        "stream_id": "FfLoREUiAeI",
        "start": "2026-11-24T13:45:21.000Z",
-       "end": "2026-11-24T15:35:50.199Z",
+       "end": "2026-11-24T15:45:50.079Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】まさかの「トランプ関税ショック」またも到来。日経時間外で急落。アメリカ半導体メモリーも鬼下げ。これが噂の「全戻し」ですか？またブラックマンデーか。俺を救ってくれアメリカ相場見届け放送！",
@@ -5148,7 +5148,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T15:35:50.199Z",
+       "end": "2026-11-24T15:45:50.079Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5882,7 +5882,7 @@
       {
        "stream_id": "316830114291",
        "start": "2026-11-24T13:48:37.000Z",
-       "end": "2026-11-24T15:35:50.199Z",
+       "end": "2026-11-24T15:45:50.079Z",
        "end_source": "poll",
        "live": true,
        "title": "voidコンでどこまでマリオ10勝チャレンジ",
@@ -6459,7 +6459,7 @@
        "title": "幕末志士のPUBG　～坂本ハイゲで絶対勝てよSP～",
        "game": null,
        "url": "https://www.youtube.com/watch?v=7_cxMlHfEbQ",
-       "thumb": "https://i.ytimg.com/vi/7_cxMlHfEbQ/mqdefault.jpg?v=6b0551db"
+       "thumb": "https://i.ytimg.com/vi/7_cxMlHfEbQ/mqdefault.jpg"
       }
      ]
     }
