@@ -1097,7 +1097,7 @@
       {
        "stream_id": "316829263603",
        "start": "2026-11-24T11:08:26.000Z",
-       "end": "2026-11-24T13:45:37.689Z",
+       "end": "2026-11-24T13:55:38.265Z",
        "end_source": "poll",
        "live": true,
        "title": "OW加藤軍のチーム練習する男",
@@ -1909,14 +1909,14 @@
       },
       {
        "stream_id": "316827430259",
-       "start": "2026-11-24T00:55:31.000Z",
-       "end": "2026-11-24T13:45:37.690Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-24T00:55:36.000Z",
+       "end": "2026-11-24T13:52:08.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "スプラ←arcをするゾ←気晴らしマリメ←体内時間コントロールまず朝メシを食う",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2938917230",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/fa46cef5a1636d4586cc_indegnasen0706_316827430259_1795481731//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3359,7 +3359,7 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T13:45:37.691Z",
+       "end": "2026-11-24T13:55:38.267Z",
        "end_source": "poll",
        "live": true,
        "title": "野球",
@@ -4612,7 +4612,7 @@
       {
        "stream_id": "FfLoREUiAeI",
        "start": "2026-11-24T13:45:21.000Z",
-       "end": "2026-11-24T13:45:37.691Z",
+       "end": "2026-11-24T13:55:38.267Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】まさかの「トランプ関税ショック」またも到来。日経時間外で急落。アメリカ半導体メモリーも鬼下げ。これが噂の「全戻し」ですか？またブラックマンデーか。俺を救ってくれアメリカ相場見届け放送！",
@@ -5148,7 +5148,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T13:45:37.691Z",
+       "end": "2026-11-24T13:55:38.267Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5878,6 +5878,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2938314899",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/3717cd0c02e9d4be4e78_batora324_316825474675_1795438254//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316830114291",
+       "start": "2026-11-24T13:48:37.000Z",
+       "end": "2026-11-24T13:55:38.267Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "明日美容院行くので髪型のアドバイス暮れ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -6442,7 +6453,7 @@
       {
        "stream_id": "7_cxMlHfEbQ",
        "start": "2026-11-24T12:08:07.000Z",
-       "end": "2026-11-24T13:45:37.692Z",
+       "end": "2026-11-24T13:55:38.268Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のPUBG　～坂本ハイゲで絶対勝てよSP～",
