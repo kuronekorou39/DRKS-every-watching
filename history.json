@@ -1097,7 +1097,7 @@
       {
        "stream_id": "316829263603",
        "start": "2026-11-24T11:08:26.000Z",
-       "end": "2026-11-24T13:35:39.084Z",
+       "end": "2026-11-24T13:45:37.689Z",
        "end_source": "poll",
        "live": true,
        "title": "OW加藤軍のチーム練習する男",
@@ -1910,7 +1910,7 @@
       {
        "stream_id": "316827430259",
        "start": "2026-11-24T00:55:31.000Z",
-       "end": "2026-11-24T13:35:39.085Z",
+       "end": "2026-11-24T13:45:37.690Z",
        "end_source": "poll",
        "live": true,
        "title": "スプラ←arcをするゾ←気晴らしマリメ←体内時間コントロールまず朝メシを食う",
@@ -3359,11 +3359,11 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T13:35:39.086Z",
+       "end": "2026-11-24T13:45:37.691Z",
        "end_source": "poll",
        "live": true,
-       "title": "プロレスやる",
-       "game": "WWE 2K26",
+       "title": "野球",
+       "game": "Powerful Pro Yakyuu 2026-2027",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -4608,6 +4608,17 @@
        "game": null,
        "url": "https://www.youtube.com/watch?v=ux-4649YJXY",
        "thumb": "https://i.ytimg.com/vi/ux-4649YJXY/mqdefault.jpg"
+      },
+      {
+       "stream_id": "FfLoREUiAeI",
+       "start": "2026-11-24T13:45:21.000Z",
+       "end": "2026-11-24T13:45:37.691Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【緊急株ライブ】まさかの「トランプ関税ショック」またも到来。日経時間外で急落。アメリカ半導体メモリーも鬼下げ。これが噂の「全戻し」ですか？またブラックマンデーか。俺を救ってくれアメリカ相場見届け放送！",
+       "game": null,
+       "url": "https://www.youtube.com/watch?v=FfLoREUiAeI",
+       "thumb": "https://i.ytimg.com/vi/FfLoREUiAeI/mqdefault.jpg?v=6b05939e"
       }
      ]
     }
@@ -5137,7 +5148,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T13:35:39.087Z",
+       "end": "2026-11-24T13:45:37.691Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -6431,7 +6442,7 @@
       {
        "stream_id": "7_cxMlHfEbQ",
        "start": "2026-11-24T12:08:07.000Z",
-       "end": "2026-11-24T13:35:39.088Z",
+       "end": "2026-11-24T13:45:37.692Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のPUBG　～坂本ハイゲで絶対勝てよSP～",
