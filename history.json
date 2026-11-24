@@ -3358,14 +3358,14 @@
       },
       {
        "stream_id": "316754264433",
-       "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T15:55:50.284Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-24T04:42:09.000Z",
+       "end": "2026-11-24T16:04:42.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "野球",
        "game": "Powerful Pro Yakyuu 2026-2027",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2939096811",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c035f6696d4e65999867_yuyuta0702_316754264433_1795495324//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -4612,7 +4612,7 @@
       {
        "stream_id": "FfLoREUiAeI",
        "start": "2026-11-24T13:45:21.000Z",
-       "end": "2026-11-24T15:55:50.285Z",
+       "end": "2026-11-24T16:05:50.373Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】まさかの「トランプ関税ショック」またも到来。日経時間外で急落。アメリカ半導体メモリーも鬼下げ。これが噂の「全戻し」ですか？またブラックマンデーか。俺を救ってくれアメリカ相場見届け放送！",
@@ -5148,7 +5148,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T15:55:50.285Z",
+       "end": "2026-11-24T16:05:50.373Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5882,7 +5882,7 @@
       {
        "stream_id": "316830114291",
        "start": "2026-11-24T13:48:37.000Z",
-       "end": "2026-11-24T15:55:50.285Z",
+       "end": "2026-11-24T16:05:50.373Z",
        "end_source": "poll",
        "live": true,
        "title": "voidコンでどこまでマリオ10勝チャレンジ",
@@ -6121,7 +6121,7 @@
       {
        "stream_id": "316830549875",
        "start": "2026-11-24T15:50:11.000Z",
-       "end": "2026-11-24T15:55:50.286Z",
+       "end": "2026-11-24T16:05:50.374Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習５日目",
