@@ -1093,6 +1093,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2938086338",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/c80841b8e5a9459074e8_kato_junichi0817_316749782129_1795407177//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316829263603",
+       "start": "2026-11-24T11:08:26.000Z",
+       "end": "2026-11-24T11:15:37.315Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "もうすぐﾊｲｹﾞ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
@@ -1899,7 +1910,7 @@
       {
        "stream_id": "316827430259",
        "start": "2026-11-24T00:55:31.000Z",
-       "end": "2026-11-24T11:05:37.989Z",
+       "end": "2026-11-24T11:15:37.316Z",
        "end_source": "poll",
        "live": true,
        "title": "arcをするゾ←気晴らしマリメ←体内時間コントロールまず朝メシを食う",
@@ -2504,7 +2515,7 @@
       {
        "stream_id": "kick-2026-11-24T08:23:24.000Z",
        "start": "2026-11-24T08:23:24.000Z",
-       "end": "2026-11-24T11:05:37.990Z",
+       "end": "2026-11-24T11:15:37.317Z",
        "end_source": "poll",
        "live": true,
        "title": "あ",
@@ -3348,7 +3359,7 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T11:05:37.990Z",
+       "end": "2026-11-24T11:15:37.317Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオメーカー",
@@ -5126,7 +5137,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T11:05:37.991Z",
+       "end": "2026-11-24T11:15:37.318Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
