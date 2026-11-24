@@ -1899,11 +1899,11 @@
       {
        "stream_id": "316827430259",
        "start": "2026-11-24T00:55:31.000Z",
-       "end": "2026-11-24T06:25:24.034Z",
+       "end": "2026-11-24T06:35:24.878Z",
        "end_source": "poll",
        "live": true,
-       "title": "気晴らしマリメ←体内時間コントロールまず朝メシを食う",
-       "game": "Super Mario Maker 2",
+       "title": "arcをするゾ←気晴らしマリメ←体内時間コントロールまず朝メシを食う",
+       "game": "ARC Raiders",
        "url": "https://www.twitch.tv/indegnasen0706",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
@@ -3337,7 +3337,7 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T06:25:24.035Z",
+       "end": "2026-11-24T06:35:24.878Z",
        "end_source": "poll",
        "live": true,
        "title": "マリオメーカー",
@@ -5111,6 +5111,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2938205731",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/73d4532a3b370272498a_assarisyoko1_316824336627_1795422568//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316766228978",
+       "start": "2026-11-24T06:27:53.000Z",
+       "end": "2026-11-24T06:35:24.879Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "なにかする",
+       "game": "Powerful Pro Yakyuu 2026-2027",
+       "url": "https://www.twitch.tv/assarisyoko1",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
      ]
     }
