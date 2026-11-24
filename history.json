@@ -1096,14 +1096,14 @@
       },
       {
        "stream_id": "316829263603",
-       "start": "2026-11-24T11:08:26.000Z",
-       "end": "2026-11-24T14:55:50.032Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-24T11:08:31.000Z",
+       "end": "2026-11-24T15:03:07.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "OW加藤軍のチーム練習する男",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2939255364",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d5697ea16a079f117b0_kato_junichi0817_316829263603_1795518506//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -3359,7 +3359,7 @@
       {
        "stream_id": "316754264433",
        "start": "2026-11-24T04:42:04.000Z",
-       "end": "2026-11-24T14:55:50.034Z",
+       "end": "2026-11-24T15:05:50.032Z",
        "end_source": "poll",
        "live": true,
        "title": "野球",
@@ -4612,7 +4612,7 @@
       {
        "stream_id": "FfLoREUiAeI",
        "start": "2026-11-24T13:45:21.000Z",
-       "end": "2026-11-24T14:55:50.034Z",
+       "end": "2026-11-24T15:05:50.033Z",
        "end_source": "poll",
        "live": true,
        "title": "【緊急株ライブ】まさかの「トランプ関税ショック」またも到来。日経時間外で急落。アメリカ半導体メモリーも鬼下げ。これが噂の「全戻し」ですか？またブラックマンデーか。俺を救ってくれアメリカ相場見届け放送！",
@@ -5148,7 +5148,7 @@
       {
        "stream_id": "316766228978",
        "start": "2026-11-24T06:27:53.000Z",
-       "end": "2026-11-24T14:55:50.034Z",
+       "end": "2026-11-24T15:05:50.033Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5882,7 +5882,7 @@
       {
        "stream_id": "316830114291",
        "start": "2026-11-24T13:48:37.000Z",
-       "end": "2026-11-24T14:55:50.034Z",
+       "end": "2026-11-24T15:05:50.033Z",
        "end_source": "poll",
        "live": true,
        "title": "voidコンでどこまでマリオ10勝チャレンジ",
@@ -6453,7 +6453,7 @@
       {
        "stream_id": "7_cxMlHfEbQ",
        "start": "2026-11-24T12:08:07.000Z",
-       "end": "2026-11-24T14:55:50.034Z",
+       "end": "2026-11-24T15:05:50.033Z",
        "end_source": "poll",
        "live": true,
        "title": "幕末志士のPUBG　～坂本ハイゲで絶対勝てよSP～",
