@@ -2533,6 +2533,17 @@
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/sWB3LKyBqOKc/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-25T09:59:22.000Z",
+       "start": "2026-11-25T09:59:22.000Z",
+       "end": "2026-11-25T10:06:33.905Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "さあ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/4SC1LQzdzrlT/480.webp"
       }
      ]
     }
@@ -3730,7 +3741,7 @@
       {
        "stream_id": "316770941426",
        "start": "2026-11-25T08:16:55.000Z",
-       "end": "2026-11-25T09:56:33.922Z",
+       "end": "2026-11-25T10:06:33.906Z",
        "end_source": "poll",
        "live": true,
        "title": "めっちゃカメレオンを極めし漢。ARCも視野に入れつつ。PUBGもやっていく！！",
@@ -5203,7 +5214,7 @@
       {
        "stream_id": "316832984179",
        "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T09:56:33.922Z",
+       "end": "2026-11-25T10:06:33.906Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -6187,7 +6198,7 @@
       {
        "stream_id": "316833249779",
        "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T09:56:33.922Z",
+       "end": "2026-11-25T10:06:33.906Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
