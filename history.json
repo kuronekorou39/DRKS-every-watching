@@ -3380,14 +3380,14 @@
       },
       {
        "stream_id": "316758964465",
-       "start": "2026-11-25T06:47:37.000Z",
-       "end": "2026-11-25T07:26:33.075Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-25T06:47:42.000Z",
+       "end": "2026-11-25T07:34:15.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "おとなりラジオバンドリハするぞ！！！",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940145925",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/536115aaa90a940cde18_yuyuta0702_316758964465_1795589257//thumb/thumb0-320x180.jpg"
       }
      ]
     }
