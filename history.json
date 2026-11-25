@@ -4634,13 +4634,13 @@
       {
        "stream_id": "z0Kq0UTsA3c",
        "start": "2026-11-24T23:45:45.000Z",
-       "end": "2026-11-25T02:36:17.473Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-25T02:37:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "またも暴落の朝マンデー。トランプ関税、悪夢の再来。日本・中国・EUへの追加関税で世界経済に再び激震！！そして迎える最初の東京市場。日経平均は大暴落してしまうのか！？運命の寄り付き株ライブ生放送！！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=z0Kq0UTsA3c",
-       "thumb": "https://i.ytimg.com/vi/z0Kq0UTsA3c/mqdefault.jpg?v=6b05d732"
+       "thumb": "https://i.ytimg.com/vi/z0Kq0UTsA3c/mqdefault.jpg"
       }
      ]
     }
