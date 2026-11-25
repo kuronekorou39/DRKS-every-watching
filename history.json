@@ -2537,7 +2537,7 @@
       {
        "stream_id": "kick-2026-11-25T09:59:22.000Z",
        "start": "2026-11-25T09:59:22.000Z",
-       "end": "2026-11-25T12:36:48.761Z",
+       "end": "2026-11-25T12:46:48.660Z",
        "end_source": "poll",
        "live": true,
        "title": "さあ",
@@ -3741,7 +3741,7 @@
       {
        "stream_id": "316770941426",
        "start": "2026-11-25T08:16:55.000Z",
-       "end": "2026-11-25T12:36:48.761Z",
+       "end": "2026-11-25T12:46:48.661Z",
        "end_source": "poll",
        "live": true,
        "title": "めっちゃカメレオンを極めし漢。ARCも視野に入れつつ。PUBGもやっていく！！",
@@ -5214,7 +5214,7 @@
       {
        "stream_id": "316832984179",
        "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T12:36:48.762Z",
+       "end": "2026-11-25T12:46:48.661Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5955,6 +5955,17 @@
        "game": "Splatoon 3",
        "url": "https://www.twitch.tv/videos/2939337580",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/8a99edeba793cfb39951_batora324_316830114291_1795528117//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316834159731",
+       "start": "2026-11-25T12:45:17.000Z",
+       "end": "2026-11-25T12:46:48.661Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "22時からもこうチーム全員集結",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
@@ -6198,7 +6209,7 @@
       {
        "stream_id": "316833249779",
        "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T12:36:48.762Z",
+       "end": "2026-11-25T12:46:48.661Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
