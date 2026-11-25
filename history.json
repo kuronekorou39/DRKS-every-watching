@@ -5969,14 +5969,14 @@
       },
       {
        "stream_id": "316834159731",
-       "start": "2026-11-25T12:45:17.000Z",
-       "end": "2026-11-25T20:37:03.927Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-25T12:45:23.000Z",
+       "end": "2026-11-25T20:46:01.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "22時からもこうチーム全員集結",
        "game": "Splatoon 3",
-       "url": "https://www.twitch.tv/batora324",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940291816",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/721c05ed474776656196_batora324_316834159731_1795610717//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -6220,7 +6220,7 @@
       {
        "stream_id": "316833249779",
        "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T20:37:03.927Z",
+       "end": "2026-11-25T20:47:03.450Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
