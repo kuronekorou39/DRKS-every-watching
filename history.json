@@ -3726,6 +3726,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2938280096",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ebffa41edbc14842564f_oniyadayo_316751373297_1795434075//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316770941426",
+       "start": "2026-11-25T08:16:55.000Z",
+       "end": "2026-11-25T08:26:34.092Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "スーパーマリオメーカー元日本ランク１位、レーティング最高位。魅せます、か。元マリオ実況者のプロによる圧倒的クリア配信！！",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -5192,7 +5203,7 @@
       {
        "stream_id": "316832984179",
        "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T08:16:32.839Z",
+       "end": "2026-11-25T08:26:34.092Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
