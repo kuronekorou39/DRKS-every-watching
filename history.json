@@ -5224,14 +5224,14 @@
       },
       {
        "stream_id": "316832984179",
-       "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T17:16:49.232Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-25T08:02:23.000Z",
+       "end": "2026-11-25T17:24:08.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "なにかする",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/assarisyoko1",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940174938",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/2d9828f943b3c5c09b7e_assarisyoko1_316832984179_1795593736//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -5970,7 +5970,7 @@
       {
        "stream_id": "316834159731",
        "start": "2026-11-25T12:45:17.000Z",
-       "end": "2026-11-25T17:16:49.232Z",
+       "end": "2026-11-25T17:26:49.456Z",
        "end_source": "poll",
        "live": true,
        "title": "22時からもこうチーム全員集結",
@@ -6220,7 +6220,7 @@
       {
        "stream_id": "316833249779",
        "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T17:16:49.233Z",
+       "end": "2026-11-25T17:26:49.456Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
