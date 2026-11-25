@@ -3730,7 +3730,7 @@
       {
        "stream_id": "316770941426",
        "start": "2026-11-25T08:16:55.000Z",
-       "end": "2026-11-25T09:26:33.333Z",
+       "end": "2026-11-25T09:36:32.705Z",
        "end_source": "poll",
        "live": true,
        "title": "めっちゃカメレオンを極めし漢。ARCも視野に入れつつ。PUBGもやっていく！！",
@@ -5203,11 +5203,11 @@
       {
        "stream_id": "316832984179",
        "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T09:26:33.333Z",
+       "end": "2026-11-25T09:36:32.705Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
-       "game": "Powerful Pro Yakyuu 2026-2027",
+       "game": "Splatoon 3",
        "url": "https://www.twitch.tv/assarisyoko1",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_assarisyoko1-320x180.jpg"
       }
@@ -6183,6 +6183,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2939417019",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/da46501084ca781311e4_bakumatsu_shishi_316830549875_1795535411//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316833249779",
+       "start": "2026-11-25T09:28:34.000Z",
+       "end": "2026-11-25T09:36:32.705Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
+       "game": "MECCHA CHAMELEON",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
