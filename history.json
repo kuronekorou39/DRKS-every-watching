@@ -6219,14 +6219,14 @@
       },
       {
        "stream_id": "316833249779",
-       "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T21:07:04.437Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-25T09:28:39.000Z",
+       "end": "2026-11-25T21:06:55.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940206354",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/9cf36396dda81eb7ed6e_bakumatsu_shishi_316833249779_1795598914//thumb/thumb0-320x180.jpg"
       }
      ]
     },
