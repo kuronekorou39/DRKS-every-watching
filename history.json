@@ -2537,7 +2537,7 @@
       {
        "stream_id": "kick-2026-11-25T09:59:22.000Z",
        "start": "2026-11-25T09:59:22.000Z",
-       "end": "2026-11-25T13:26:49.646Z",
+       "end": "2026-11-25T13:36:48.934Z",
        "end_source": "poll",
        "live": true,
        "title": "さあ",
@@ -3740,14 +3740,14 @@
       },
       {
        "stream_id": "316770941426",
-       "start": "2026-11-25T08:16:55.000Z",
-       "end": "2026-11-25T13:26:49.647Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-25T08:17:00.000Z",
+       "end": "2026-11-25T13:27:35.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "めっちゃカメレオンを極めし漢。ARCも視野に入れつつ。PUBGもやっていく！！",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/oniyadayo",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940180289",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/58efa59c7758aae9b532_oniyadayo_316770941426_1795594615//thumb/thumb0-320x180.jpg"
       }
      ]
     },
@@ -5214,7 +5214,7 @@
       {
        "stream_id": "316832984179",
        "start": "2026-11-25T08:02:16.000Z",
-       "end": "2026-11-25T13:26:49.647Z",
+       "end": "2026-11-25T13:36:48.935Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -5959,7 +5959,7 @@
       {
        "stream_id": "316834159731",
        "start": "2026-11-25T12:45:17.000Z",
-       "end": "2026-11-25T13:26:49.647Z",
+       "end": "2026-11-25T13:36:48.935Z",
        "end_source": "poll",
        "live": true,
        "title": "22時からもこうチーム全員集結",
@@ -6209,7 +6209,7 @@
       {
        "stream_id": "316833249779",
        "start": "2026-11-25T09:28:34.000Z",
-       "end": "2026-11-25T13:26:49.648Z",
+       "end": "2026-11-25T13:36:48.935Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習６日目(めっちゃカメレオン,ARC,OW)",
