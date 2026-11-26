@@ -3402,14 +3402,14 @@
       },
       {
        "stream_id": "316762284401",
-       "start": "2026-11-26T00:21:06.000Z",
-       "end": "2026-11-26T02:17:13.477Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-26T00:21:12.000Z",
+       "end": "2026-11-26T02:21:47.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "朝練",
        "game": "Powerful Pro Yakyuu 2026-2027",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2940860829",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/66dc4849dd93322b6d35_yuyuta0702_316762284401_1795652466//thumb/thumb0-320x180.jpg"
       }
      ]
     }
