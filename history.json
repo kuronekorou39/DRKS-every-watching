@@ -3399,6 +3399,17 @@
        "game": "Just Chatting",
        "url": "https://www.twitch.tv/videos/2940145925",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/536115aaa90a940cde18_yuyuta0702_316758964465_1795589257//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316762284401",
+       "start": "2026-11-26T00:21:06.000Z",
+       "end": "2026-11-26T00:27:14.133Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "朝練",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/yuyuta0702",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
      ]
     }
