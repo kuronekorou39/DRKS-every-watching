@@ -1942,14 +1942,14 @@
       },
       {
        "stream_id": "316836814323",
-       "start": "2026-11-26T04:57:15.000Z",
-       "end": "2026-11-26T17:07:49.431Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-26T04:57:20.000Z",
+       "end": "2026-11-26T17:07:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ARC宇宙港←息抜きマリメ←カメレオン←パワプロ←まずはメシを食らい、バッティングの練習をする",
        "game": "ARC Raiders",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2941072939",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b18a9c0c05d0fb0f9578_indegnasen0706_316836814323_1795669035//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3814,6 +3814,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2941211525",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/47836b27c64d2b382caf_oniyadayo_316837768307_1795688108//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316839473651",
+       "start": "2026-11-26T17:09:59.000Z",
+       "end": "2026-11-26T17:17:49.722Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲ深夜部",
+       "game": "Super Mario Maker 2",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -5313,7 +5324,7 @@
       {
        "stream_id": "316837146867",
        "start": "2026-11-26T06:51:18.000Z",
-       "end": "2026-11-26T17:07:49.433Z",
+       "end": "2026-11-26T17:17:49.722Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -6352,7 +6363,7 @@
       {
        "stream_id": "316765346545",
        "start": "2026-11-26T15:12:26.000Z",
-       "end": "2026-11-26T17:07:49.433Z",
+       "end": "2026-11-26T17:17:49.723Z",
        "end_source": "poll",
        "live": true,
        "title": "ピエロのハイゲOW練習８日目",
