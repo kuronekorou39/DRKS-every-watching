@@ -1943,7 +1943,7 @@
       {
        "stream_id": "316836814323",
        "start": "2026-11-26T04:57:15.000Z",
-       "end": "2026-11-26T10:07:24.362Z",
+       "end": "2026-11-26T10:17:26.023Z",
        "end_source": "poll",
        "live": true,
        "title": "カメレオン←パワプロ←まずはメシを食らい、バッティングの練習をする",
@@ -3436,7 +3436,7 @@
       {
        "stream_id": "316775296242",
        "start": "2026-11-26T08:06:27.000Z",
-       "end": "2026-11-26T10:07:24.363Z",
+       "end": "2026-11-26T10:17:26.023Z",
        "end_source": "poll",
        "live": true,
        "title": "髪染めた",
@@ -3792,6 +3792,17 @@
        "game": "PUBG: BATTLEGROUNDS",
        "url": "https://www.twitch.tv/videos/2940180289",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/58efa59c7758aae9b532_oniyadayo_316770941426_1795594615//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316837768307",
+       "start": "2026-11-26T10:15:08.000Z",
+       "end": "2026-11-26T10:17:26.024Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "関優太チーム！！！ハイゲ全員集合で練習する！！！！気合いれるぞ！！おらぁああああ！",
+       "game": "PUBG: BATTLEGROUNDS",
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -4733,13 +4744,13 @@
       {
        "stream_id": "T3u7GPj5-fM",
        "start": "2026-11-26T08:31:42.000Z",
-       "end": "2026-11-26T10:07:24.363Z",
-       "end_source": "poll",
-       "live": true,
+       "end": "2026-11-26T10:10:13.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【緊急株ライブ】キオクシアまさかまさかの一時ストップ高！！なにが起きたのこれは！！ニュースを確認していくぅ！今晩はアメリカ相場は祝日休場です。あまりにも長すぎた地獄を乗り越え、遂に始まる大逆襲なのか！",
        "game": null,
        "url": "https://www.youtube.com/watch?v=T3u7GPj5-fM",
-       "thumb": "https://i.ytimg.com/vi/T3u7GPj5-fM/mqdefault.jpg?v=6b07ec82"
+       "thumb": "https://i.ytimg.com/vi/T3u7GPj5-fM/mqdefault.jpg"
       }
      ]
     }
@@ -5291,7 +5302,7 @@
       {
        "stream_id": "316837146867",
        "start": "2026-11-26T06:51:18.000Z",
-       "end": "2026-11-26T10:07:24.363Z",
+       "end": "2026-11-26T10:17:26.024Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
