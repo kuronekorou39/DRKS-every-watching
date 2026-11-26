@@ -3818,7 +3818,7 @@
       {
        "stream_id": "316839473651",
        "start": "2026-11-26T17:09:59.000Z",
-       "end": "2026-11-26T17:57:49.489Z",
+       "end": "2026-11-26T18:07:49.714Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ深夜部",
@@ -6362,14 +6362,14 @@
       },
       {
        "stream_id": "316765346545",
-       "start": "2026-11-26T15:12:26.000Z",
-       "end": "2026-11-26T17:57:49.490Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-26T15:12:31.000Z",
+       "end": "2026-11-26T17:57:56.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ピエロのハイゲOW練習８日目",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2941369468",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aa9f0aa5a8fe7f3deb8c_bakumatsu_shishi_316765346545_1795705946//thumb/thumb0-320x180.jpg"
       }
      ]
     },
