@@ -1119,7 +1119,7 @@
       {
        "stream_id": "316780266994",
        "start": "2026-11-27T11:20:27.000Z",
-       "end": "2026-11-27T11:38:28.531Z",
+       "end": "2026-11-27T11:48:28.220Z",
        "end_source": "poll",
        "live": true,
        "title": "決意を新たにして明日に挑む男→OW",
@@ -1976,7 +1976,7 @@
       {
        "stream_id": "316841260403",
        "start": "2026-11-27T05:46:30.000Z",
-       "end": "2026-11-27T11:38:28.532Z",
+       "end": "2026-11-27T11:48:28.220Z",
        "end_source": "poll",
        "live": true,
        "title": "～決戦前日～",
@@ -2610,6 +2610,17 @@
        "game": "PUBG: Battlegrounds",
        "url": "https://kick.com/mokoutoaruotoko",
        "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/V749ZLklkTZP/480.webp"
+      },
+      {
+       "stream_id": "kick-2026-11-27T11:40:07.000Z",
+       "start": "2026-11-27T11:40:07.000Z",
+       "end": "2026-11-27T11:48:28.221Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲ",
+       "game": "Just Chatting",
+       "url": "https://kick.com/mokoutoaruotoko",
+       "thumb": "https://images.kick.com/video_thumbnails/HoxRLbl2K6lU/cXtQrYk7EEXh/480.webp"
       }
      ]
     }
@@ -3491,7 +3502,7 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T11:38:28.532Z",
+       "end": "2026-11-27T11:48:28.221Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
@@ -6157,7 +6168,7 @@
       {
        "stream_id": "316767985649",
        "start": "2026-11-27T08:47:13.000Z",
-       "end": "2026-11-27T11:38:28.533Z",
+       "end": "2026-11-27T11:48:28.222Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
@@ -6451,7 +6462,7 @@
       {
        "stream_id": "316780171250",
        "start": "2026-11-27T11:00:01.000Z",
-       "end": "2026-11-27T11:38:28.533Z",
+       "end": "2026-11-27T11:48:28.222Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ直前練習 in ムラゲオフィス",
