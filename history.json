@@ -1119,7 +1119,7 @@
       {
        "stream_id": "316780266994",
        "start": "2026-11-27T11:20:27.000Z",
-       "end": "2026-11-27T11:48:28.220Z",
+       "end": "2026-11-27T11:58:27.612Z",
        "end_source": "poll",
        "live": true,
        "title": "決意を新たにして明日に挑む男→OW",
@@ -1976,7 +1976,7 @@
       {
        "stream_id": "316841260403",
        "start": "2026-11-27T05:46:30.000Z",
-       "end": "2026-11-27T11:48:28.220Z",
+       "end": "2026-11-27T11:58:27.613Z",
        "end_source": "poll",
        "live": true,
        "title": "～決戦前日～",
@@ -2616,7 +2616,7 @@
        "start": "2026-11-27T11:40:07.000Z",
        "end": "2026-11-27T11:48:28.221Z",
        "end_source": "poll",
-       "live": true,
+       "live": false,
        "title": "ハイゲ",
        "game": "Just Chatting",
        "url": "https://kick.com/mokoutoaruotoko",
@@ -3502,11 +3502,11 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T11:48:28.221Z",
+       "end": "2026-11-27T11:58:27.614Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
-       "game": "Super Mario Maker 2",
+       "game": "MECCHA CHAMELEON",
        "url": "https://www.twitch.tv/yuyuta0702",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
       }
@@ -6168,7 +6168,7 @@
       {
        "stream_id": "316767985649",
        "start": "2026-11-27T08:47:13.000Z",
-       "end": "2026-11-27T11:48:28.222Z",
+       "end": "2026-11-27T11:58:27.615Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
@@ -6462,11 +6462,11 @@
       {
        "stream_id": "316780171250",
        "start": "2026-11-27T11:00:01.000Z",
-       "end": "2026-11-27T11:48:28.222Z",
+       "end": "2026-11-27T11:58:27.615Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ直前練習 in ムラゲオフィス",
-       "game": "ARC Raiders",
+       "game": "Overwatch",
        "url": "https://www.twitch.tv/bakumatsu_shishi",
        "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
