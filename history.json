@@ -3895,7 +3895,7 @@
       {
        "stream_id": "316769216625",
        "start": "2026-11-27T13:20:12.000Z",
-       "end": "2026-11-27T13:58:44.488Z",
+       "end": "2026-11-27T14:08:44.647Z",
        "end_source": "poll",
        "live": true,
        "title": "最後かもしれないだろ？だから息抜き打撃練習をしておきたいんだ。",
@@ -6472,14 +6472,14 @@
       },
       {
        "stream_id": "316780171250",
-       "start": "2026-11-27T11:00:01.000Z",
-       "end": "2026-11-27T13:58:44.490Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-27T11:00:06.000Z",
+       "end": "2026-11-27T14:05:12.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ハイゲ直前練習 in ムラゲオフィス",
        "game": "Overwatch",
-       "url": "https://www.twitch.tv/bakumatsu_shishi",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2942137140",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/732958f66da4330e6409_bakumatsu_shishi_316780171250_1795777201//thumb/thumb0-320x180.jpg"
       }
      ]
     },
