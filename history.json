@@ -1961,6 +1961,17 @@
        "game": "ARC Raiders",
        "url": "https://www.twitch.tv/videos/2941072939",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/b18a9c0c05d0fb0f9578_indegnasen0706_316836814323_1795669035//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316841260403",
+       "start": "2026-11-27T05:46:30.000Z",
+       "end": "2026-11-27T05:48:18.418Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "～決戦前日～",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/indegnasen0706",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
       }
      ]
     }
@@ -3469,7 +3480,7 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T05:38:17.855Z",
+       "end": "2026-11-27T05:48:18.419Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
