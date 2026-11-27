@@ -1107,14 +1107,14 @@
       },
       {
        "stream_id": "316840744947",
-       "start": "2026-11-27T02:34:39.000Z",
-       "end": "2026-11-27T04:58:18.529Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-27T02:34:44.000Z",
+       "end": "2026-11-27T04:59:58.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ついに明日ﾊｲｹﾞだが意外に普通な男",
        "game": "Just Chatting",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2941904175",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/da489ac56b1b8b692a4d_kato_junichi0817_316840744947_1795746879//thumb/thumb0-320x180.jpg"
       }
      ]
     },
