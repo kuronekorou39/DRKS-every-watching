@@ -1119,7 +1119,7 @@
       {
        "stream_id": "316780266994",
        "start": "2026-11-27T11:20:27.000Z",
-       "end": "2026-11-27T12:58:28.474Z",
+       "end": "2026-11-27T13:08:28.760Z",
        "end_source": "poll",
        "live": true,
        "title": "決意を新たにして明日に挑む男→OW",
@@ -3501,14 +3501,14 @@
       },
       {
        "stream_id": "316767365873",
-       "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T12:58:28.475Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-27T05:12:06.000Z",
+       "end": "2026-11-27T13:02:27.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "とうとうハイゲ前日や",
        "game": "WWE 2K26",
-       "url": "https://www.twitch.tv/yuyuta0702",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_yuyuta0702-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2941998979",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/ccbf198458215c21f221_yuyuta0702_316767365873_1795756320//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -6168,7 +6168,7 @@
       {
        "stream_id": "316767985649",
        "start": "2026-11-27T08:47:13.000Z",
-       "end": "2026-11-27T12:58:28.475Z",
+       "end": "2026-11-27T13:08:28.762Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
@@ -6462,7 +6462,7 @@
       {
        "stream_id": "316780171250",
        "start": "2026-11-27T11:00:01.000Z",
-       "end": "2026-11-27T12:58:28.475Z",
+       "end": "2026-11-27T13:08:28.762Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ直前練習 in ムラゲオフィス",
