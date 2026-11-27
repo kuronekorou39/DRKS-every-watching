@@ -1119,7 +1119,7 @@
       {
        "stream_id": "316780266994",
        "start": "2026-11-27T11:20:27.000Z",
-       "end": "2026-11-27T12:28:28.232Z",
+       "end": "2026-11-27T12:38:29.714Z",
        "end_source": "poll",
        "live": true,
        "title": "決意を新たにして明日に挑む男→OW",
@@ -1975,14 +1975,14 @@
       },
       {
        "stream_id": "316841260403",
-       "start": "2026-11-27T05:46:30.000Z",
-       "end": "2026-11-27T12:28:28.233Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-27T05:46:35.000Z",
+       "end": "2026-11-27T12:33:25.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "ＰＵＢＧ ファイナル ～決戦前日～",
        "game": "PUBG: BATTLEGROUNDS",
-       "url": "https://www.twitch.tv/indegnasen0706",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_indegnasen0706-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2942015924",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/914ea834489be7f78e61_indegnasen0706_316841260403_1795758389//thumb/thumb0-320x180.jpg"
       }
      ]
     }
@@ -3502,7 +3502,7 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T12:28:28.234Z",
+       "end": "2026-11-27T12:38:29.716Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
@@ -6168,7 +6168,7 @@
       {
        "stream_id": "316767985649",
        "start": "2026-11-27T08:47:13.000Z",
-       "end": "2026-11-27T12:28:28.234Z",
+       "end": "2026-11-27T12:38:29.717Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
@@ -6462,7 +6462,7 @@
       {
        "stream_id": "316780171250",
        "start": "2026-11-27T11:00:01.000Z",
-       "end": "2026-11-27T12:28:28.234Z",
+       "end": "2026-11-27T12:38:29.717Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ直前練習 in ムラゲオフィス",
