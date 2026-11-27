@@ -1965,7 +1965,7 @@
       {
        "stream_id": "316841260403",
        "start": "2026-11-27T05:46:30.000Z",
-       "end": "2026-11-27T10:58:28.118Z",
+       "end": "2026-11-27T11:08:28.626Z",
        "end_source": "poll",
        "live": true,
        "title": "～決戦前日～",
@@ -3480,7 +3480,7 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T10:58:28.118Z",
+       "end": "2026-11-27T11:08:28.627Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
@@ -5379,7 +5379,7 @@
       {
        "stream_id": "316841474803",
        "start": "2026-11-27T06:59:21.000Z",
-       "end": "2026-11-27T10:58:28.119Z",
+       "end": "2026-11-27T11:08:28.627Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -6146,7 +6146,7 @@
       {
        "stream_id": "316767985649",
        "start": "2026-11-27T08:47:13.000Z",
-       "end": "2026-11-27T10:58:28.119Z",
+       "end": "2026-11-27T11:08:28.627Z",
        "end_source": "poll",
        "live": true,
        "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
@@ -6436,6 +6436,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2941369468",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/aa9f0aa5a8fe7f3deb8c_bakumatsu_shishi_316765346545_1795705946//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316780171250",
+       "start": "2026-11-27T11:00:01.000Z",
+       "end": "2026-11-27T11:08:28.628Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲ直前練習 in ムラゲオフィス",
+       "game": "ARC Raiders",
+       "url": "https://www.twitch.tv/bakumatsu_shishi",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_bakumatsu_shishi-320x180.jpg"
       }
      ]
     },
