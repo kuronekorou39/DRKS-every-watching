@@ -1965,7 +1965,7 @@
       {
        "stream_id": "316841260403",
        "start": "2026-11-27T05:46:30.000Z",
-       "end": "2026-11-27T08:38:29.040Z",
+       "end": "2026-11-27T08:48:28.933Z",
        "end_source": "poll",
        "live": true,
        "title": "～決戦前日～",
@@ -3480,7 +3480,7 @@
       {
        "stream_id": "316767365873",
        "start": "2026-11-27T05:12:00.000Z",
-       "end": "2026-11-27T08:38:29.041Z",
+       "end": "2026-11-27T08:48:28.934Z",
        "end_source": "poll",
        "live": true,
        "title": "とうとうハイゲ前日や",
@@ -3858,6 +3858,17 @@
        "game": "Super Mario Maker 2",
        "url": "https://www.twitch.tv/videos/2941461808",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/4fa363478586155fdf94_oniyadayo_316839473651_1795712999//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316841778803",
+       "start": "2026-11-27T08:41:35.000Z",
+       "end": "2026-11-27T08:48:28.934Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "たいじさんにバッティングを褒められた男のお墨付きARC",
+       "game": null,
+       "url": "https://www.twitch.tv/oniyadayo",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_oniyadayo-320x180.jpg"
       }
      ]
     },
@@ -5368,7 +5379,7 @@
       {
        "stream_id": "316841474803",
        "start": "2026-11-27T06:59:21.000Z",
-       "end": "2026-11-27T08:38:29.042Z",
+       "end": "2026-11-27T08:48:28.934Z",
        "end_source": "poll",
        "live": true,
        "title": "なにかする",
@@ -6131,6 +6142,17 @@
        "game": "Powerful Pro Yakyuu 2026-2027",
        "url": "https://www.twitch.tv/videos/2941253254",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/cdc88a45bd887e1fe8ee_batora324_316776135794_1795694144//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316767985649",
+       "start": "2026-11-27T08:47:13.000Z",
+       "end": "2026-11-27T08:48:28.934Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "ハイゲ用の靴を買ってきた！18時からチームメイトとマリメ",
+       "game": "Just Chatting",
+       "url": "https://www.twitch.tv/batora324",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_batora324-320x180.jpg"
       }
      ]
     }
