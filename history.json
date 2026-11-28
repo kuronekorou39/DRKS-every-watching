@@ -1129,14 +1129,14 @@
       },
       {
        "stream_id": "316783615218",
-       "start": "2026-11-28T05:00:01.000Z",
-       "end": "2026-11-28T12:19:33.038Z",
-       "end_source": "poll",
-       "live": true,
+       "start": "2026-11-28T05:00:05.000Z",
+       "end": "2026-11-28T12:22:00.000Z",
+       "end_source": "vod",
+       "live": false,
        "title": "【DAY1】配信者ハイパーゲーム大会FINAL",
        "game": "Special Events",
-       "url": "https://www.twitch.tv/kato_junichi0817",
-       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
+       "url": "https://www.twitch.tv/videos/2942984528",
+       "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/0ab06661941fd9306a03_kato_junichi0817_316783615218_1795842001//thumb/thumb0-320x180.jpg"
       }
      ]
     },
