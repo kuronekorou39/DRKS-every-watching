@@ -1126,6 +1126,17 @@
        "game": "Overwatch",
        "url": "https://www.twitch.tv/videos/2942146033",
        "thumb": "https://static-cdn.jtvnw.net/cf_vods/d3vd9lfkzbru3h/7ef0410e41d93762b3ff_kato_junichi0817_316780266994_1795778427//thumb/thumb0-320x180.jpg"
+      },
+      {
+       "stream_id": "316783615218",
+       "start": "2026-11-28T05:00:01.000Z",
+       "end": "2026-11-28T05:09:05.723Z",
+       "end_source": "poll",
+       "live": true,
+       "title": "【DAY1】配信者ハイパーゲーム大会FINAL",
+       "game": "Special Events",
+       "url": "https://www.twitch.tv/kato_junichi0817",
+       "thumb": "https://static-cdn.jtvnw.net/previews-ttv/live_user_kato_junichi0817-320x180.jpg"
       }
      ]
     },
